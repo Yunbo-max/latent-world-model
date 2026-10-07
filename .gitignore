@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+assets/
+data/
+runs/
+vendor/
+*.egg-info/
+build/
+dist/
+*.safetensors
+*.pt
+*.bin
+*.parquet
+.env
+hf-cache/

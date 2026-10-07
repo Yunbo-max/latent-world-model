@@ -1,0 +1,61 @@
+{
+  "project": "Yunbo-max/latent-world-model",
+  "round": "2026-10-07",
+  "role": "web_supervisor",
+  "entry_origin": "I: continued user-supplied architecture hypothesis",
+  "scope": "Existing baseline source complete draft; original candidate implementation blocked",
+  "github_target": "main",
+  "hf_output_destination": {
+    "status": "not specified; no HF writes"
+  },
+  "resources": {
+    "gpu": "RTX 2080 Ti",
+    "gpu_source": "user statement in this turn",
+    "count": 1,
+    "count_status": "planning assumption",
+    "nominal_vram_gib": 11,
+    "actual_host_telemetry": "unavailable",
+    "data_budgets_tokens": [
+      100000000,
+      1000000000
+    ],
+    "data_unit": "tokens inferred from user wording"
+  },
+  "background": {
+    "provider_task_id": null,
+    "status": "activation unverified; no hosted launch/status tool exposed",
+    "checkpoint_is_worker": false
+  },
+  "status": {
+    "baseline_code": "generated_unexecuted",
+    "baseline_design": "source draft",
+    "candidate_pool": "20 historical leads, not verified distinct pool",
+    "candidate_code_count": 0,
+    "project_tests": "not run",
+    "training": "not run",
+    "native_eval": "not run",
+    "source_review": "independent source review and repair re-review complete; runtime pending",
+    "github_readback": "source publication and exact-commit readback pending",
+    "source_syntax": {
+      "python_sources_parsed": 18,
+      "json_configs_parsed": 7,
+      "scope": "stdlib AST/JSON parsing only; no project import or execution"
+    }
+  },
+  "next_actions": [
+    "Publish exact main tree and read it back",
+    "Local restore actual host and input identities; qualify baseline runtime/scorers",
+    "Continue mathematical distinctness and contribution evidence before new candidate implementations"
+  ],
+  "skill_files": {
+    "SKILL.md": "0169f076b933e22303238422fceaedf005df21b4cf5213576137819beeba765e",
+    "references/workflow-harness.md": "f7e15a418fb6b2c4f0456e34d6cdc46075d70088f36ffcea8eefd9680e84aa81",
+    "references/method-verification.md": "0e8c78cd19b9f04aa6341c2c0500f1ae2fe48e01688a5857103c4d611503ee05",
+    "references/web-background-work.md": "6b7ff0d966190acd530bc010782e0566a21cf7fa56e516fadf764d9b712f14d3",
+    "references/local-code-handoff.md": "47824e3cfea93d26f69c13d14691ee6c4aa39d1e34bd6b7cc2571e6be3b1b9de",
+    "references/native-evaluation.md": "6262d90670f1ca667669f4b208a44df6aab748956b2360527e94f80b500c9a80",
+    "references/full-validation-and-review.md": "9364c57d16279c21eff915e2c8e0d45253ff077a436366dd3054470650e26eb2",
+    "references/importance-preserving-gate.md": "ebad6558ed819a0aa22b6478bd7573795fe0b4c8678761657588dbadb877ec3f",
+    "scripts/verify_methods.py": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8"
+  }
+}

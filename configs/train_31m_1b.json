@@ -1,0 +1,26 @@
+{
+  "name": "llama-31m-1b-s17",
+  "mechanism": "baseline",
+  "model": {
+    "initialization": "scratch",
+    "config": "configs/model_31m.json"
+  },
+  "data_manifest": "data/fineweb-1b/manifest.json",
+  "total_tokens": 1000000000,
+  "sequence_length": 512,
+  "micro_batch_size": 2,
+  "gradient_accumulation_steps": 16,
+  "seed": 17,
+  "precision": "fp16",
+  "learning_rate": 0.0006,
+  "weight_decay": 0.1,
+  "warmup_fraction": 0.02,
+  "min_lr_ratio": 0.1,
+  "grad_clip": 1,
+  "gradient_checkpointing": true,
+  "checkpoint_every_updates": 250,
+  "dev_every_updates": 5000,
+  "max_consecutive_overflows": 8,
+  "max_wall_seconds": 82800
+}
+

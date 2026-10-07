@@ -1,0 +1,106 @@
+{
+  "models": {
+    "smollm2": {
+      "repo": "HuggingFaceTB/SmolLM2-135M",
+      "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+      "tokenizer_files": [
+        "config.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "special_tokens_map.json",
+        "merges.txt",
+        "vocab.json"
+      ],
+      "model_files": [
+        "model.safetensors",
+        "generation_config.json"
+      ]
+    },
+    "gpt2": {
+      "repo": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "tokenizer_files": [
+        "config.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "merges.txt",
+        "vocab.json"
+      ],
+      "model_files": [
+        "model.safetensors",
+        "generation_config.json"
+      ]
+    }
+  },
+  "training_dataset": {
+    "repo": "HuggingFaceFW/fineweb-edu",
+    "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "config": "sample-10BT",
+    "split": "train",
+    "text_field": "text"
+  },
+  "evaluator": {
+    "repo": "EleutherAI/lm-evaluation-harness",
+    "revision": "6d2abda4fd171e68a8789330c4149e37c1ca0bda",
+    "release": "v0.4.8",
+    "task_names": [
+      "wikitext",
+      "hellaswag",
+      "piqa",
+      "arc_easy"
+    ]
+  },
+  "benchmarks": {
+    "wikitext": {
+      "repo": "EleutherAI/wikitext_document_level",
+      "revision": "647234772b9554e208af6c826f23b99e3cac88c8",
+      "config": "wikitext-2-raw-v1",
+      "published_split": "test",
+      "development_split": "validation",
+      "primary_metric": "word_perplexity"
+    },
+    "hellaswag": {
+      "repo": "Rowan/hellaswag",
+      "revision": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+      "config": null,
+      "published_split": "validation",
+      "development_split": "validation",
+      "primary_metric": "acc_norm"
+    },
+    "piqa": {
+      "repo": "ybisk/piqa",
+      "revision": "2e8ac2dffd59bac8c3c6714948f4c551a0848bb0",
+      "config": null,
+      "published_split": "validation",
+      "development_split": "validation",
+      "primary_metric": "acc"
+    },
+    "arc_easy": {
+      "repo": "allenai/ai2_arc",
+      "revision": "210d026faf9955653af8916fad021475a3f00453",
+      "config": "ARC-Easy",
+      "published_split": "test",
+      "development_split": "validation",
+      "primary_metric": "acc_norm"
+    }
+  },
+  "coconut": {
+    "url": "https://github.com/facebookresearch/coconut.git",
+    "revision": "27273cb8cca4bb763c041a63b036d0c3b7cbbb48",
+    "source_files": [
+      "coconut.py",
+      "run.py",
+      "dataset.py",
+      "utils.py",
+      "requirements.txt",
+      "LICENSE",
+      "preprocessing/gsm_icot.bash",
+      "preprocessing/gsm_icot.py",
+      "data/prosqa_train.json",
+      "data/prosqa_valid.json",
+      "data/prosqa_test.json"
+    ],
+    "gsm_data_revision": "e06a32ee5e4cd117171daeb4755d2a97ece62761"
+  }
+}
+
