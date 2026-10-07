@@ -1,0 +1,74 @@
+{
+  "kind": "research-planning-checkpoint",
+  "schema_note": "Planning record; not a scientific gate or a launch receipt.",
+  "recorded_at": "2026-10-07T19:28:12.938602Z",
+  "project": "Yunbo-max/latent-world-model",
+  "round": "mathematical-restart-2026-10-07",
+  "role": "web_supervisor",
+  "target_branch": "main",
+  "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
+  "authorization": {
+    "github_write": "Owner explicitly requested clearing and later pushing work to this repository.",
+    "order": "Mathematical idea first, then code.",
+    "background": "Requested, but no supported durable launch/status API is exposed.",
+    "hf_output_destination": "unknown; no HF upload attempted"
+  },
+  "resources": {
+    "gpu_model": "RTX 2080 Ti",
+    "source": "user statement",
+    "gpu_count": "not measured; single GPU is an unverified planning assumption",
+    "vram_available": "not measured",
+    "token_budget_options": [
+      100000000,
+      1000000000
+    ],
+    "budget_unit": "tokens assumed from user wording about data; not frozen"
+  },
+  "completed": [
+    "Removed 42 old tracked files and read back empty exact-commit contents.",
+    "Authored state/evidence definitions and conditional mathematical derivations.",
+    "Inspected pinned author implementations and primary-paper sections listed in SOURCE_AUDIT.md.",
+    "Inspected LongMemEval README and native scorer source; did not fetch dataset rows.",
+    "Constructed and self-checked one conditional affine stopping direction; did not claim originality."
+  ],
+  "pending": [
+    "Independent mathematical review and full closest-work audit.",
+    "Approximately 20 justified distinct candidates, full-pool ranking and selection of 15 under the active research workflow.",
+    "Native parent-problem evidence, task and training-data qualification.",
+    "Resource measurement on the user GPU host.",
+    "Complete justified architecture, implementation, G01 design and Local runbook."
+  ],
+  "candidate_state": {
+    "constructed": 1,
+    "math_verified": 0,
+    "selected": 0,
+    "implementation_count": 0,
+    "batch": "research/method-batch.json"
+  },
+  "scientific_status": {
+    "parent_problem": "provisional; no Natural Gate 0 evidence",
+    "collision_audit": "incomplete; substantial known overlaps recorded, no final adjudication",
+    "code_boundary": "not ready",
+    "training": "not started",
+    "project_tests": "not run",
+    "benchmark_results": "none"
+  },
+  "background": {
+    "state": "not_started",
+    "task_id": null,
+    "queryable_host_locator": null,
+    "reason": "Available tools include reminders/automations and service-specific jobs but no supported durable research-goal launch/status capability. None was substituted.",
+    "goal_prompt": "research/BACKGROUND_GOAL.md"
+  },
+  "next_action": "Restore this packet; investigate the parent task and nearest prior mechanisms, complete candidate derivations and reviews without padding; generate code only after legitimate admission.",
+  "publication": {
+    "target": "https://github.com/Yunbo-max/latent-world-model",
+    "branch": "main",
+    "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session"
+  },
+  "skill": {
+    "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
+    "entry_sha256": "0169f076b933e22303238422fceaedf005df21b4cf5213576137819beeba765e",
+    "method_verifier_sha256": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8"
+  }
+}

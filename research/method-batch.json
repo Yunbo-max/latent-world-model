@@ -1,0 +1,16 @@
+{
+  "kind": "method-verification-batch",
+  "version": "1.0.0",
+  "batch_id": "lwm-mathematical-restart-2026-10-07",
+  "pool_target": 20,
+  "selection_target": 15,
+  "candidates": [
+    {
+      "candidate_id": "LWM-Q01",
+      "math_card_ref": {
+        "path": "research/methods/LWM-Q01.math.json",
+        "sha256": "43cce7236fefa53185df6459c89bb395a84aee4aa12ed02c83823ab932b21bfb"
+      }
+    }
+  ]
+}

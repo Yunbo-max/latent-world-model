@@ -1,0 +1,84 @@
+{
+  "kind": "math-card",
+  "version": "1.0.0",
+  "candidate_id": "LWM-Q01",
+  "formal_object": "Fixed memory and query; affine recurrence R(h)=Ah+b in finite-dimensional Euclidean space, ||A||_2 <= kappa < 1, fixed scalar readout g(h)=c^T h. The target is error relative to the recurrence fixed point, not error relative to ground truth.",
+  "operations": [
+    {
+      "id": "G01",
+      "input": "R(h)=Ah+b; r=R(h)-h",
+      "condition": "I-A is invertible because ||A||_2<1. Neural applicability is not established.",
+      "condition_status": "conditional",
+      "output": "(I-A)(h_star-h)=r."
+    },
+    {
+      "id": "G02",
+      "input": "g(h_star)-g(h)=c^T(I-A)^(-1)r",
+      "condition": "Same fixed affine operator and readout, exact linear algebra.",
+      "condition_status": "conditional",
+      "output": "Solve (I-A)^T u=c; output difference equals u^T r."
+    },
+    {
+      "id": "C04",
+      "input": "u_S=sum_{s=0}^S (A^T)^s c",
+      "condition": "S is a nonnegative integer; certified spectral-norm upper bound kappa<1.",
+      "condition_status": "conditional",
+      "output": "Absolute output error <= |u_S^T r| + ||c||_2*kappa^(S+1)*||r||_2/(1-kappa)."
+    },
+    {
+      "id": "H06",
+      "input": "Candidate stop rule and claimed utility",
+      "condition": "Use exact boundary cases, not experimental benchmark replacements.",
+      "condition_status": "established",
+      "output": "A=0 gives one-step exactness; c=0 makes output error zero even with nonzero state residual. These checks do not establish novelty or native-task utility."
+    }
+  ],
+  "derivation_steps": [
+    {
+      "id": "D1",
+      "statement": "h_star=Ah_star+b and r=Ah+b-h imply (I-A)(h_star-h)=r.",
+      "justification": "Subtract the current state from the fixed-point equation and collect terms."
+    },
+    {
+      "id": "D2",
+      "statement": "g(h_star)-g(h)=u^T r with (I-A)^T u=c.",
+      "justification": "Left-multiply D1 by the adjoint solution; invertibility follows from the norm bound."
+    },
+    {
+      "id": "D3",
+      "statement": "||u-u_S||_2 <= ||c||_2*kappa^(S+1)/(1-kappa).",
+      "justification": "Neumann series and submultiplicativity; sum the geometric tail."
+    },
+    {
+      "id": "D4",
+      "statement": "Stop for the specified scalar if B_S(h)=|u_S^T r|+||c||_2*kappa^(S+1)*||r||_2/(1-kappa) <= epsilon.",
+      "justification": "Cauchy-Schwarz bounds the residual tail; triangle inequality bounds total scalar output error."
+    }
+  ],
+  "assumptions": [
+    "Finite-dimensional real state with Euclidean norm and fixed affine recurrence during the solve.",
+    "Known valid operator-norm bound kappa<1; a local spectral-radius estimate is insufficient.",
+    "Fixed linear scalar readout, finite quantities, and exact-arithmetic analysis; roundoff must be bounded in an implementation.",
+    "Nonnegative integer truncation order S; no claim that the extra adjoint products are cheap.",
+    "No claim of model correctness, posterior calibration, whole-vocabulary decision agreement, or neural nonlinear applicability."
+  ],
+  "method_expression": "Compute r and u_S; stop only if B_S(h)<=epsilon. This is a conditional solver construction, not an admitted full model or novel method.",
+  "distinguishing_prediction": "Relative to a norm-only residual certificate, the readout certificate may become tight earlier when large residual directions are weakly visible to the chosen output; advantages can vanish or reverse after counting adjoint computation.",
+  "falsifier": "An affine exact-arithmetic example satisfying the assumptions that violates the bound refutes the derivation. Lack of end-to-end native-task cost benefit refutes the practical hypothesis, even if the bound is valid.",
+  "closest_alternative": "Residual stopping, fixed recurrence depth, Residual Belief Propagation, Focused Belief Propagation, and adjoint-based error estimation for implicit systems. Full equivalence and originality review remain pending.",
+  "decisive_comparison": "After native-task and method admission, compare matched-information and total-cost policies including all forward and adjoint products. Preserve native scoring and full ID coverage; no evaluation protocol is frozen yet.",
+  "source_refs": [
+    {
+      "path": "research/OPEN_QUESTIONS.md",
+      "sha256": "2c090e910c5095431867d94145b4d011a3dfdff6bd0b22c0e376fd9db901f8e8"
+    },
+    {
+      "path": "research/MATHEMATICAL_DESIGN.md",
+      "sha256": "ab36b834bad1a1280cd7b1a2715d237d38ee418125f983d4d9aa30f6262e667c"
+    },
+    {
+      "path": "research/SOURCE_AUDIT.md",
+      "sha256": "6e0b5fa8b11e790cbbe679f4f427df82d949ee37140c280bcae23cd1c0927763"
+    }
+  ]
+}

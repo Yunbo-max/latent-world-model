@@ -1,0 +1,16 @@
+{
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "previous_commit": "71e2412de880d85d66256f6ad49f3a62b105aca4",
+  "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
+  "reset_tree": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+  "tracked_files_removed": 42,
+  "verification": {
+    "main_ref_read_back": true,
+    "commit_parent_and_tree_read_back": true,
+    "contents_at_exact_reset_commit": []
+  },
+  "repository_retained": true,
+  "git_history_retained": true,
+  "scope": "Reset was completed before authoring these new research-only notes. It was not deletion of the repository object."
+}
