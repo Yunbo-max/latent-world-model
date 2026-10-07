@@ -35,7 +35,7 @@
     "training": "not run",
     "native_eval": "not run",
     "source_review": "independent source review and repair re-review complete; runtime pending",
-    "github_readback": "source publication and exact-commit readback pending",
+    "github_readback": "code commit verified: all 41 file blobs and exact README/AGENTS/runbook/handoff bytes match",
     "source_syntax": {
       "python_sources_parsed": 18,
       "json_configs_parsed": 7,
@@ -43,7 +43,6 @@
     }
   },
   "next_actions": [
-    "Publish exact main tree and read it back",
     "Local restore actual host and input identities; qualify baseline runtime/scorers",
     "Continue mathematical distinctness and contribution evidence before new candidate implementations"
   ],
@@ -57,5 +56,7 @@
     "references/full-validation-and-review.md": "9364c57d16279c21eff915e2c8e0d45253ff077a436366dd3054470650e26eb2",
     "references/importance-preserving-gate.md": "ebad6558ed819a0aa22b6478bd7573795fe0b4c8678761657588dbadb877ec3f",
     "scripts/verify_methods.py": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8"
-  }
+  },
+  "delivery_receipt": "delivery-receipt.json",
+  "verified_code_commit": "479d4b8c0dd434ce8794a16edaa357511b9f2965"
 }

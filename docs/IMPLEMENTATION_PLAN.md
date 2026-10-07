@@ -30,6 +30,6 @@ Spec: the user requests code and main-branch delivery to Yunbo-max/latent-world-
 - [x] Implement reusable data preparation and training for existing Llama models, checkpoint/export and resource telemetry.
 - [x] Implement native four-benchmark evaluation and retained dataset/sample identity; generate complete Coconut author-runner configurations.
 - [x] Produce candidate audit, baseline coverage, Local host/harness handoff and progress record.
-- [ ] Conduct a fresh source review, repair substantive findings, deliver main with expected-parent update and readback.
+- [x] Conduct a fresh source review, repair substantive findings, deliver main with expected-parent update and readback.
 
 The experimental methods and a complete 15-method scientific matrix remain gated work, not completed tasks hidden in this baseline plan. Baseline development answers whether the available model/data/evaluator can support a future discriminating comparison; it cannot establish Three-Clock benefit.
