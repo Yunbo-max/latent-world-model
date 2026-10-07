@@ -13,6 +13,12 @@
 - [原论文、真实代码与原生评测审查](research/SOURCE_AUDIT.md)：实际读到哪里、版本是什么、哪些判断仍未完成。
 - [进度记录](research/workflow-checkpoint.json) 与 [后台任务目标文本](research/BACKGROUND_GOAL.md)。
 
+## 明确的交付顺序
+
+完整模型的数学推导与必要审查、筛选完成后，直接进入**模型/训练/评测代码 + 完整实验设计**，一起推送到 main，再由 local 完成验收与 GPU 实验。Web 交付应标记 generated_unexecuted；不需要先有未来实验结果或 Local 已执行的测试记录，才能撰写合格的源代码与实验设计。
+
+现有 Q01 只是一个停止规则的条件性推导，尚不等于完整 latent world model 的数学方案。当前数学草稿也不是最终代码交付。
+
 ## 当前结论
 
 1. 内部计算可以修正对证据的理解，但不能把自己的中间结果当作新的独立观测。

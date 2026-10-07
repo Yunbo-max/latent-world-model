@@ -32,11 +32,11 @@
     "Constructed and self-checked one conditional affine stopping direction; did not claim originality."
   ],
   "pending": [
-    "Independent mathematical review and full closest-work audit.",
-    "Approximately 20 justified distinct candidates, full-pool ranking and selection of 15 under the active research workflow.",
-    "Native parent-problem evidence, task and training-data qualification.",
-    "Resource measurement on the user GPU host.",
-    "Complete justified architecture, implementation, G01 design and Local runbook."
+    "Full latent-world-model mathematical construction; the current affine stopping rule is only a partial direction.",
+    "Necessary mathematical and closest-work reviews and qualified candidate selection.",
+    "Native task/training-data source qualification and applicable parent-problem evidence.",
+    "Generate the complete justified model, training/evaluation code, full experimental design and Local runbook.",
+    "Local acceptance, actual GPU resource measurements, training and native evaluation after source delivery."
   ],
   "candidate_state": {
     "constructed": 1,
@@ -51,7 +51,8 @@
     "code_boundary": "not ready",
     "training": "not started",
     "project_tests": "not run",
-    "benchmark_results": "none"
+    "benchmark_results": "none",
+    "web_source_delivery": "pending mathematics and source qualification; does not require future candidate experimental results"
   },
   "background": {
     "state": "not_started",
@@ -60,7 +61,7 @@
     "reason": "Available tools include reminders/automations and service-specific jobs but no supported durable research-goal launch/status capability. None was substituted.",
     "goal_prompt": "research/BACKGROUND_GOAL.md"
   },
-  "next_action": "Restore this packet; investigate the parent task and nearest prior mechanisms, complete candidate derivations and reviews without padding; generate code only after legitimate admission.",
+  "next_action": "Complete the full-model mathematical construction and applicable reviews/selection, then proceed directly to model/training/evaluation source and complete experiment-design authoring. Do not require future candidate results or Local software receipts to author a justified generated_unexecuted packet. Q01 alone is not the full model.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -70,5 +71,26 @@
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
     "entry_sha256": "0169f076b933e22303238422fceaedf005df21b4cf5213576137819beeba765e",
     "method_verifier_sha256": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8"
+  },
+  "workflow_clarification": {
+    "source": "Owner message: 数学推导结束就是code实验设计呀",
+    "recorded_at": "2026-10-07T20:55:50.419673Z",
+    "sequence": [
+      "Complete full-model mathematical definition, necessary review and candidate selection.",
+      "Generate the selected model, training and evaluation source together with complete experimental design.",
+      "Push the complete generated_unexecuted packet to main with exact readback.",
+      "Local performs software acceptance, hardware measurements, training and native evaluation."
+    ],
+    "web_delivery_does_not_require": [
+      "Future candidate experiment results",
+      "Local executed-test receipts",
+      "Already measured throughput for an unexecuted draft"
+    ],
+    "still_required": [
+      "A complete model definition; Q01 alone is only a stopping-rule construction.",
+      "Real mathematical, source and applicable selection prerequisites; do not claim missing ones passed.",
+      "All chosen benchmark interfaces, controls, acquisition commands and Local acceptance instructions in the final source packet."
+    ],
+    "scope": "Clarifies authoring versus empirical acceptance. Does not waive mathematical review, invent scientific evidence, or change the saved 20-to-15 target."
   }
 }
