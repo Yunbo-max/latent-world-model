@@ -1,0 +1,38 @@
+{
+  "stage": "sft_babi",
+  "arm": "memory_untied8",
+  "model": {
+    "vocab_size": 50257,
+    "d_model": 256,
+    "n_heads": 4,
+    "ffn_mult": 4,
+    "block_size": 256,
+    "memory_slots": 16,
+    "prelude_layers": 2,
+    "core_layers": 8,
+    "coda_layers": 1,
+    "loop_steps": 1,
+    "dropout": 0.0,
+    "checkpoint_layers": true,
+    "memory_enabled": true
+  },
+  "training": {
+    "token_budget": 1000000,
+    "unroll_segments": 4,
+    "accumulate_targets": 8192,
+    "learning_rate": 0.0001,
+    "min_lr_ratio": 0.1,
+    "warmup_tokens": 20000,
+    "weight_decay": 0.1,
+    "clip_grad_norm": 1.0,
+    "seed": 17,
+    "precision": "float16",
+    "repeat": true,
+    "shuffle": true,
+    "max_run_seconds": 86400,
+    "max_skipped_updates": 5,
+    "checkpoint_every_updates": 100,
+    "validation_every_updates": 500,
+    "validation_targets": 1000000
+  }
+}

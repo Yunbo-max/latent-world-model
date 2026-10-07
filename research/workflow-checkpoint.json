@@ -1,16 +1,16 @@
 {
-  "kind": "research-planning-checkpoint",
-  "schema_note": "Planning record; not a scientific gate or a launch receipt.",
-  "recorded_at": "2026-10-07T19:28:12.938602Z",
+  "kind": "engineering-source-delivery-checkpoint",
+  "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
+  "recorded_at": "2026-10-07T21:54:28.629820+00:00",
   "project": "Yunbo-max/latent-world-model",
-  "round": "mathematical-restart-2026-10-07",
+  "round": "engineering-2026-10-07",
   "role": "web_supervisor",
   "target_branch": "main",
   "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
   "authorization": {
     "github_write": "Owner explicitly requested clearing and later pushing work to this repository.",
     "order": "Mathematical idea first, then code.",
-    "background": "Requested, but no supported durable launch/status API is exposed.",
+    "background": "Requested; continued in the actual Work conversation. No independent hosted Goal ID or GPU job was created.",
     "hf_output_destination": "unknown; no HF upload attempted"
   },
   "resources": {
@@ -22,50 +22,62 @@
       100000000,
       1000000000
     ],
-    "budget_unit": "tokens assumed from user wording about data; not frozen"
+    "budget_unit": "pretraining target tokens per arm and seed; EOS included; SEG/padding excluded; 100M initial and 1B conditional extension",
+    "model_parameters_analytic": 20092160,
+    "model_parameters_measured": null
   },
   "completed": [
     "Removed 42 old tracked files and read back empty exact-commit contents.",
     "Authored state/evidence definitions and conditional mathematical derivations.",
     "Inspected pinned author implementations and primary-paper sections listed in SOURCE_AUDIT.md.",
     "Inspected LongMemEval README and native scorer source; did not fetch dataset rows.",
-    "Constructed and self-checked one conditional affine stopping direction; did not claim originality."
+    "Constructed and self-checked one conditional affine stopping direction; did not claim originality.",
+    "Authored the complete adopted model in FULL_MODEL_PROPOSAL.md and independently reviewed causal/state/gradient contracts against pinned author source.",
+    "Qualified pinned source identities and authored complete acquisition/preparation for GPT-2 tokenizer, FineWeb-Edu, all 20 bAbI tasks and all 5153 LAMBADA rows.",
+    "Authored model, generation, data, training, atomic checkpoints, full native-task inference and native-score replay/paired comparison source; generated_unexecuted.",
+    "Authored five-arm/two-seed 100M and 1B configurations, separate bAbI adaptation, experimental design and Local acceptance/runbook.",
+    "Conducted independent source review and addressed finite-gradient handling, output lineage, interruption accumulation grouping, failure evidence and nonfinite decoding.",
+    "Python AST, JSON/TOML syntax and local Markdown-link checks are recorded in SOURCE_CHECKS.json; no project tests/imports executed."
   ],
   "pending": [
-    "Full latent-world-model mathematical construction; the current affine stopping rule is only a partial direction.",
-    "Necessary mathematical and closest-work reviews and qualified candidate selection.",
-    "Native task/training-data source qualification and applicable parent-problem evidence.",
-    "Generate the complete justified model, training/evaluation code, full experimental design and Local runbook.",
-    "Local acceptance, actual GPU resource measurements, training and native evaluation after source delivery."
+    "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
+    "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
+    "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
+    "Local executes complete chosen training/benchmark matrix and returns real results, cost/failure evidence and scientific review.",
+    "Original research-discovery batch and novelty/selection obligations remain pending separately; this engineering source packet does not pass them."
   ],
   "candidate_state": {
     "constructed": 1,
     "math_verified": 0,
     "selected": 0,
     "implementation_count": 0,
-    "batch": "research/method-batch.json"
+    "batch": "research/method-batch.json",
+    "scope": "Historical original-discovery batch only; these are not counts of engineered modules or experimental arms."
   },
   "scientific_status": {
     "parent_problem": "provisional; no Natural Gate 0 evidence",
     "collision_audit": "incomplete; substantial known overlaps recorded, no final adjudication",
-    "code_boundary": "not ready",
+    "code_boundary": "Engineering source authored from the complete reviewed construction; historical discovery CODE_READINESS is unchanged and is not its acceptance gate.",
     "training": "not started",
     "project_tests": "not run",
     "benchmark_results": "none",
-    "web_source_delivery": "pending mathematics and source qualification; does not require future candidate experimental results"
+    "web_source_delivery": "generated_unexecuted; publication readback performed by this session before reporting commit"
   },
   "background": {
-    "state": "not_started",
-    "task_id": null,
+    "state": "source_work_conducted_in_current_Work_conversation",
+    "independent_task_id": null,
     "queryable_host_locator": null,
-    "reason": "Available tools include reminders/automations and service-specific jobs but no supported durable research-goal launch/status capability. None was substituted.",
+    "gpu_job_started": false,
+    "reason": "Work conversation used for actual sustained source work; no independent durable goal launcher/status API or GPU host access was available. No reminder or daemon substituted.",
     "goal_prompt": "research/BACKGROUND_GOAL.md"
   },
-  "next_action": "Complete the full-model mathematical construction and applicable reviews/selection, then proceed directly to model/training/evaluation source and complete experiment-design authoring. Do not require future candidate results or Local software receipts to author a justified generated_unexecuted packet. Q01 alone is not the full model.",
+  "next_action": "Complete source publication/readback, then Local follows LOCAL_AGENT_RUNBOOK.md at the exact delivered commit. No GPU execution is claimed by the Web source delivery.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
-    "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session"
+    "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
+    "parent_head_before_publication": "202de4944a418a24cec729ec8524751f6f6b3cc8",
+    "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -76,10 +88,10 @@
     "source": "Owner message: 数学推导结束就是code实验设计呀",
     "recorded_at": "2026-10-07T20:55:50.419673Z",
     "sequence": [
-      "Complete full-model mathematical definition, necessary review and candidate selection.",
-      "Generate the selected model, training and evaluation source together with complete experimental design.",
-      "Push the complete generated_unexecuted packet to main with exact readback.",
-      "Local performs software acceptance, hardware measurements, training and native evaluation."
+      "Complete full model definition and source/math review.",
+      "Author corresponding complete source and experiment design.",
+      "Publish generated_unexecuted packet and exact readback.",
+      "Local restores real execution context, qualifies software/native interfaces and performs the admitted experiments."
     ],
     "web_delivery_does_not_require": [
       "Future candidate experiment results",
@@ -87,10 +99,27 @@
       "Already measured throughput for an unexecuted draft"
     ],
     "still_required": [
-      "A complete model definition; Q01 alone is only a stopping-rule construction.",
-      "Real mathematical, source and applicable selection prerequisites; do not claim missing ones passed.",
-      "All chosen benchmark interfaces, controls, acquisition commands and Local acceptance instructions in the final source packet."
+      "Complete model definition and faithful source mapping.",
+      "Honest scope: no fabricated novelty, discovery selection or empirical pass.",
+      "Complete chosen source/config/asset/benchmark/runbook packet and actual Local acceptance before scientific claims."
     ],
-    "scope": "Clarifies authoring versus empirical acceptance. Does not waive mathematical review, invent scientific evidence, or change the saved 20-to-15 target."
+    "scope": "Clarifies authoring versus empirical acceptance. Does not waive mathematical review, invent scientific evidence, or change the saved 20-to-15 target.",
+    "current_scope": "The user requested a complete scheme, code and design based on existing models. Independently reviewed known-mechanism engineering composition proceeds without inventing discovery success. Earlier 20-to-15 discovery obligations remain unresolved, not silently passed or deleted."
+  },
+  "engineering_state": {
+    "canonical_spec": "research/FULL_MODEL_PROPOSAL.md",
+    "source_status": "generated_unexecuted",
+    "architecture": "causal prelude, fixed-evidence recurrent reader, coda, separate gated writer",
+    "native_tasks": [
+      "bAbI en-valid-10k-nosf all 20",
+      "LAMBADA OpenAI English all 5153"
+    ],
+    "software_tests": "authored, unexecuted",
+    "native_qualification": "pending_local",
+    "training": "not_started",
+    "results": "none",
+    "scope_review": "research/SCIENTIFIC_SCOPE_REVIEW.md",
+    "source_review": "research/SOURCE_REVIEW.md",
+    "static_checks": "research/SOURCE_CHECKS.json"
   }
 }
