@@ -8,6 +8,7 @@
 | H0=E，concat adapter，K 次同参数 core | `LatentWorldModel._read`；`adapter`；同一 `core` ModuleList | loop count 改变计算，参数不重复创建；无内部 `no_grad` |
 | 所有内部步读取相同旧记忆 | `_read` 的局部 memory，`CoreBlock.cross_attention` | caller memory 不变；内部循环不调用 writer |
 | 最后工作区经独立 coda/绑定词表矩阵输出 | `_read` 的 `coda`、`output_norm`、`F.linear(..., embedding.weight)` | 对相同状态/前缀比较 teacher 与 prefix logits |
+| 末位置选择与逐位置 norm/投影可交换 | `predict_prefix` 设置 `_read(last_only=True)`，仅在完整 coda 后切片 | `test_prefix_projects_only_next_position_without_changing_logits` 和 `test_prefix_projection_preserves_parameter_gradients`；训练仍输出全部行 |
 | 完整已观察段的一次 gated writer | `MemoryWriter.forward` 与 `_write` | 新状态逐坐标在 [-1,1]；改变 K 不改变相同观测的写入 |
 | logits 第 i 行预测 tokens 第 i 项 | `forward_segment`: reader E[:,:-1]，writer E[:,1:] | `window_objective` 不再 shift；所有首/尾/EOS 目标各计一次 |
 | 生成时不提前提交部分段 | `StreamState`、`observe`、`predict_prefix`、`commit_segment` | 0..L−1 前缀保留；只有非 EOS 达到 L 才写入；短 commit 拒绝 |

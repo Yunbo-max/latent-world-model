@@ -98,6 +98,10 @@ FineWeb 的 derived test 保留在数据准备结果中，本轮不把它用于�
 
 ## 8. 交付和待 Local 验收
 
+2026-10-08 增量审查见 [SIGMA_REVIEW](SIGMA_REVIEW.md) 和 [本轮交付单](../rounds/sigma-review-2026-10-08/WEB_HANDOFF.md)。所有 arms 统一使用 `predict_prefix` 的末位置词表投影；模型、训练目标、数据、native 分母和种子不变。`evaluate` 的 manifest 记录此读出方式与未使用 KV cache。这个源码优化没有实测速度结论；不同源码版本的耗时不能混为同一实现。旧 checkpoint 仅可作为注明训练源版本的固定权重评测输入，不可绕过源码一致性检查恢复训练。
+
+首次 test 访问前，Local 在实际结果轮次保存 `development-ledger.jsonl` 和冻结的 `evaluation-selection.json`：列出每个已试开发配置、来源 commit/config hash、开发 split、选择规则和完整试验成本；未试配置不得填入虚构结果。主表固定采用各 arm 训练深度、temperature=0、默认输出上限和预算末 checkpoint，`run_matrix.py` 生成的命令即为主表配置。没有调参时也应记录“无额外开发选择”，可选 K=1/2/8 推理敏感性须在 test 前声明整组并全部报告；它不参与主表选优。该记录由 Local 执行时产生，Web 不预造时间戳或运行回执。
+
 运行入口由 `LOCAL_AGENT_RUNBOOK.md` 给出。`scripts/run_matrix.py` 生成完整带依赖的命令清单；只生成命令与依赖清单，不创建另一套执行器；Local 在完成以上资格与累计预算确认后，通过已有执行 harness 逐项调度。所有数据准备、训练、生成、评价和原生 replay 都属于用户侧真实执行，Web 未运行。
 
 源码完成、语法可解析、命令存在、GitHub 文件读回一致是本轮可核对的交付性质。它们不等于软件测试通过、native scorer 通过、模型有用或论文新颖。实际 acceptance、运行 IDs、输出哈希、E04 与结论由后续真实 Local 回执填写。

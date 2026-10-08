@@ -212,7 +212,7 @@ class LatentWorldModel(nn.Module):
             x = self._call(block, x)
         return x
 
-    def _read(self, evidence: Tensor, memory: Tensor) -> Tensor:
+    def _read(self, evidence: Tensor, memory: Tensor, *, last_only: bool = False) -> Tensor:
         if not self.config.memory_enabled:
             memory = self.initial_memory(evidence.size(0))
         hidden = evidence
@@ -222,6 +222,11 @@ class LatentWorldModel(nn.Module):
                 hidden = self._call(block, hidden, memory, self.slot_embedding)
         for block in self.coda:
             hidden = self._call(block, hidden)
+        # RMSNorm and the vocabulary projection act independently at each
+        # position. Keep the whole causal network, then project only the needed
+        # row for next-token inference; training still reads every target row.
+        if last_only:
+            hidden = hidden[:, -1:]
         return F.linear(self.output_norm(hidden), self.embedding.weight)
 
     def _write(self, evidence: Tensor, memory: Tensor) -> Tensor:
@@ -244,7 +249,7 @@ class LatentWorldModel(nn.Module):
 
     def predict_prefix(self, prefix: Tensor, memory: Tensor) -> Tensor:
         self._validate(prefix, memory, empty=True)
-        return self._read(self._encode(prefix), memory)[:, -1]
+        return self._read(self._encode(prefix), memory, last_only=True)[:, -1]
 
     def commit_segment(self, tokens: Tensor, memory: Tensor) -> Tensor:
         self._validate(tokens, memory)

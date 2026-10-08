@@ -2,6 +2,8 @@
 
 日期：2026-10-07。工作角色：Web 数学/源码作者。状态：**完整的已知组件工程构造，待独立审查；任何后续实现均应标记 `generated_unexecuted`。** 本文没有运行项目代码、测试、训练、推理，也没有下载数据或权重。它不是 Q01 停止规则的改名，不宣称原创方法、科学 gate 通过或已经完成 20→15 筛选。
 
+2026-10-08 续审：上述日期是初稿时间；父版本的独立源码/数学审查已记录于 [SOURCE_REVIEW](SOURCE_REVIEW.md) 和 [SCIENTIFIC_SCOPE_REVIEW](SCIENTIFIC_SCOPE_REVIEW.md)，不能将初稿的“待独立审查”误读为这些审查没有发生。软件和科学验证仍待 Local。本轮仅增加下述末位置读出的等价实现，依据与新文献影响见 [SIGMA_REVIEW](SIGMA_REVIEW.md)。
+
 建议用这一明确的整体模型作为实现对象：跨文本段保留固定大小的隐状态；段内用共享参数多次处理固定输入和固定旧记忆；最后由独立语言头输出分布；一个单独的 writer 在完整新文本段到达后写入一次。它借鉴 Huginn 的 prelude/core/coda 和 RMT 的跨段记忆，**不是任一论文的忠实复现**。先前数学文件中的变分过滤模型是另一个概率参考；本方案不把任意隐藏向量冒充贝叶斯后验，也不需要虚构 ELBO。
 
 ## 1. 研究对象与精确语义
@@ -103,6 +105,8 @@ Coda 使用因果 block，且不直接读取旧 token 原文、\(E\) 或 \(M\) �
 
 “独立语言读出”指参数及调用阶段独立；不声称 coda 只有线性层，也不声称其计算免费。
 
+在线 `predict_prefix` 只需要末行。设 R 为末位置选择，因最终 \(N_f\) 逐位置运算，\(R[N_f(D)W_{\rm emb}^{\top}]=N_f(RD)W_{\rm emb}^{\top}\)。因此可以在完整 coda 之后、最终 norm/projection 之前选择末行；训练仍保留全部监督行。不得把选择提前到混合位置的注意力之前。舍入与 Local 验收条件见 SIGMA_REVIEW §3。
+
 ### 2.4 Writer：一次消费完整段、一次返回新记忆
 
 Writer 不读取 \(H^{(K)}\)，使用已消费的 \(E_t^+\) 和旧记忆：
@@ -175,7 +179,7 @@ p_{\theta,K}(X_{1:T},M_{1:T})
 |---|---|---|
 | `initial_memory(batch_size)` | 返回 `[n,m,d]` | 训练时保留到 \(Z_0\) 的梯度；无需原地写；EOS 后用它 reset |
 | `forward_segment(tokens, memory)` | `[n,ell]`, `[n,m,d]` → `logits[n,ell,V]`, `next_memory[n,m,d]` | `tokens` 本身就是 labels，**不得再次 shift**；reader 用 `E[:,:ell]`，writer 用 `E[:,1:ell+1]` |
-| `predict_prefix(prefix, memory)` | `[n,u]`, `[n,m,d]` → `[n,V]` | \(0\le u<L\)；重算 `[SEG,prefix]` 全部 reader 行，返回最后一行；不写记忆 |
+| `predict_prefix(prefix, memory)` | `[n,u]`, `[n,m,d]` → `[n,V]` | \(0\le u<L\)；重算 `[SEG,prefix]` 全部 reader/coda 隐状态，仅对最后位置作最终 norm/词表投影；不写记忆 |
 | `commit_segment(segment, memory)` | 完整已消费 `[n,L]` → `[n,m,d]` | 仅运行 prelude+writer；与 `forward_segment` 的 writer 使用同一函数和参数；不依赖 reader 深度 |
 
 v0 单设备实现允许无 padding 的等长 batch，调用者负责 EOS 与文档管理。若以后允许 padding，必须同时添加 reader 有效-key mask、writer 有效-token mask 和 loss mask；只掩盖 loss 不能阻止信息从 padding 或另一文档泄漏。长度 0 的 `forward_segment`/`commit_segment` 应显式拒绝；长度 0 的 `predict_prefix` 必须支持。

@@ -150,6 +150,46 @@ def test_next_prediction_uses_the_last_observed_prefix_token(model):
     assert not torch.allclose(original_logits, changed_logits, rtol=1e-6, atol=1e-7)
 
 
+@pytest.mark.parametrize("prefix_length", [0, 1, 3])
+@pytest.mark.parametrize("loop_steps,memory_enabled", [(1, True), (4, True), (4, False)])
+@pytest.mark.parametrize("device", ["cpu", pytest.param("cuda", marks=pytest.mark.skipif(
+    not torch.cuda.is_available(), reason="Local CUDA device is unavailable"))])
+def test_prefix_projects_only_next_position_without_changing_logits(prefix_length, loop_steps, memory_enabled, device):
+    # Catches restoring the discarded prefix-wide vocabulary projection, slicing
+    # before causal coda, or truncating the teacher-forcing supervision rows.
+    model = _model(loop_steps=loop_steps).to(device)
+    model.config.memory_enabled = memory_enabled
+    tokens = _tokens().to(device)
+    memory = model.initial_memory(2)
+    projected_shapes = []
+    handle = model.output_norm.register_forward_pre_hook(
+        lambda module, inputs: projected_shapes.append(tuple(inputs[0].shape)))
+    try:
+        with torch.no_grad():
+            prefix = model.predict_prefix(tokens[:, :prefix_length], memory)
+            teacher, _ = model.forward_segment(tokens, memory)
+    finally:
+        handle.remove()
+    assert projected_shapes == [(2, 1, 16), (2, 4, 16)]
+    torch.testing.assert_close(prefix, teacher[:, prefix_length], rtol=1e-5, atol=1e-6)
+
+
+def test_prefix_projection_preserves_parameter_gradients():
+    # Catches a detached last state or dropping its earlier causal dependencies.
+    reference, prefix_model = _model(), _model()
+    tokens = _tokens()
+    full, _ = reference.forward_segment(tokens, reference.initial_memory(2))
+    one = prefix_model.predict_prefix(tokens[:, :3], prefix_model.initial_memory(2))
+    F.cross_entropy(full[:, 3], tokens[:, 3]).backward()
+    F.cross_entropy(one, tokens[:, 3]).backward()
+    for (name, first), (other, second) in zip(reference.named_parameters(), prefix_model.named_parameters(), strict=True):
+        assert name == other
+        assert (first.grad is None) == (second.grad is None), name
+        if first.grad is not None:
+            torch.testing.assert_close(first.grad, second.grad, rtol=1e-4, atol=2e-6, msg=name)
+    _assert_nonzero_finite(prefix_model.embedding.weight.grad)
+
+
 def test_teacher_forcing_and_explicit_commit_agree_at_segment_boundary(model):
     # Catches using stale memory, a missing write, or an extra token at the boundary.
     first_tokens = _tokens()

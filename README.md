@@ -4,6 +4,8 @@
 
 这是基于 RMT 的跨段记忆思想与 Huginn 的共享隐空间循环思想设计的工程组合，有独立的因果接口和 writer。目标是检验**有界持久记忆 + 同一证据上的多步内部计算**是否对文本任务有用。它不声称逐行复现某篇论文、证明新方法或构建了物理世界模型。
 
+2026-10-08 已结合用户指定的 Sigma 论文完成续审，见 [SIGMA_REVIEW.md](research/SIGMA_REVIEW.md)。本轮把有等价推导的末位置词表读出落实到代码，并补齐数值/梯度验收用例及成本口径；当前仍是上述持久状态模型。新入口为 [本轮交付单](rounds/sigma-review-2026-10-08/WEB_HANDOFF.md)，完整命令继续见 [Local 指南](LOCAL_AGENT_RUNBOOK.md)。
+
 ## 当前架构
 
 输入段经过内部 SEG 起始向量与因果 prelude；共享 core 反复读取同一段证据和旧记忆；coda 输出下一个 token 的分布。独立 writer 只在完整观测段关闭时更新记忆。内部循环次数 K 不等于输出 token 数，也不会制造新观测。
@@ -39,7 +41,7 @@
 
 主要接口为 `python -m lwm.prepare`、`lwm.train`、`lwm.generation`、`lwm.evaluate` 与 `lwm.scoring`。`scripts/run_matrix.py` 生成带依赖的完整命令清单，**不启动任务**。测试是已编写、未执行的 Local 验收用例。bAbI 全作者 teacher 环境仍需 Local 资格化，metrics-only 环境不能代替它。
 
-来源固定与可复现性见 [assets.json](configs/assets.json)、[数据协议](research/DATA_PROTOCOL_PROPOSAL.md)、[作者实现审查](research/AUTHOR_IMPLEMENTATION_AUDIT.md) 和 [本轮交付单](rounds/engineering-2026-10-07/WEB_HANDOFF.md)。
+来源固定与可复现性见 [assets.json](configs/assets.json)、[数据协议](research/DATA_PROTOCOL_PROPOSAL.md)、[作者实现审查](research/AUTHOR_IMPLEMENTATION_AUDIT.md) 和 [初始完整交付单](rounds/engineering-2026-10-07/WEB_HANDOFF.md)。
 
 ## 历史与任务状态
 

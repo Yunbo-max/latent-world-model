@@ -222,6 +222,8 @@ def run(args: argparse.Namespace) -> dict:
                          "max_new_tokens": args.max_new_tokens if args.task == "babi" else None,
                          "temperature": 0.0, "num_fewshot": 0, "batch_size": 1,
                          "dtype": str(next(model.parameters()).dtype), "device": str(device),
+                         "prefix_vocabulary_projection": "last_position_only_after_full_coda",
+                         "kv_cache": False,
                          "float32_matmul_precision": torch.get_float32_matmul_precision(),
                          "cuda_matmul_allow_tf32": torch.backends.cuda.matmul.allow_tf32,
                          "deterministic_algorithms": torch.are_deterministic_algorithms_enabled(),

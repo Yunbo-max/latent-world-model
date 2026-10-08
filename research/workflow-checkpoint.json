@@ -1,9 +1,9 @@
 {
   "kind": "engineering-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-07T21:54:28.629820+00:00",
+  "recorded_at": "2026-10-08T12:07:41.953Z",
   "project": "Yunbo-max/latent-world-model",
-  "round": "engineering-2026-10-07",
+  "round": "sigma-review-2026-10-08",
   "role": "web_supervisor",
   "target_branch": "main",
   "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
@@ -11,7 +11,8 @@
     "github_write": "Owner explicitly requested clearing and later pushing work to this repository.",
     "order": "Mathematical idea first, then code.",
     "background": "Requested; continued in the actual Work conversation. No independent hosted Goal ID or GPU job was created.",
-    "hf_output_destination": "unknown; no HF upload attempted"
+    "hf_output_destination": "unknown; no HF upload attempted",
+    "latest_goal": "2026-10-08: continue from checkpoint, complete math/code/design, review RTX 2080 Ti and 100M/1B target-token budgets, push main, leave experiments to Local, and study arXiv:2610.02665."
   },
   "resources": {
     "gpu_model": "RTX 2080 Ti",
@@ -37,7 +38,13 @@
     "Authored model, generation, data, training, atomic checkpoints, full native-task inference and native-score replay/paired comparison source; generated_unexecuted.",
     "Authored five-arm/two-seed 100M and 1B configurations, separate bAbI adaptation, experimental design and Local acceptance/runbook.",
     "Conducted independent source review and addressed finite-gradient handling, output lineage, interruption accumulation grouping, failure evidence and nonfinite decoding.",
-    "Python AST, JSON/TOML syntax and local Markdown-link checks are recorded in SOURCE_CHECKS.json; no project tests/imports executed."
+    "Python AST, JSON/TOML syntax and local Markdown-link checks are recorded in SOURCE_CHECKS.json; no project tests/imports executed.",
+    "Read Sigma arXiv:2610.02665v1 scientific sections and relevant appendices; performed independent publication-availability and resource/measurement audits.",
+    "Verified the co-lead author's October 7 announcement that Sigma code/weights await release; no author implementation or reproduction was claimed.",
+    "Derived row-selection equivalence after the complete causal coda; authored last-position-only vocabulary projection for prefix inference with full training output preserved.",
+    "Authored CPU/CUDA FP32 prefix parity/allocation-contract and CPU parameter-gradient acceptance cases; no red/green execution receipt claimed.",
+    "Independent readout source review and CUDA-test source follow-up found no Critical/Important blockers; runtime qualification stays pending.",
+    "Preserved the full five-arm/two-seed 100M/1B designs and native task coverage; added prospective development-selection accounting and current Local handoff."
   ],
   "pending": [
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
@@ -71,18 +78,31 @@
     "reason": "Work conversation used for actual sustained source work; no independent durable goal launcher/status API or GPU host access was available. No reminder or daemon substituted.",
     "goal_prompt": "research/BACKGROUND_GOAL.md"
   },
-  "next_action": "Complete source publication/readback, then Local follows LOCAL_AGENT_RUNBOOK.md at the exact delivered commit. No GPU execution is claimed by the Web source delivery.",
+  "next_action": "After exact publication readback, Local reads AGENTS.md, LOCAL_AGENT_RUNBOOK.md and rounds/sigma-review-2026-10-08/WEB_HANDOFF.md at the delivered commit; restores real host/resources, executes acceptance and the admitted full comparison matrix.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "202de4944a418a24cec729ec8524751f6f6b3cc8",
-    "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here."
+    "parent_head_before_publication": "a8a86cf359ac0d8598ac7b2fa6465ffa120718ae",
+    "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
+    "previous_verified_delivery": "a8a86cf359ac0d8598ac7b2fa6465ffa120718ae"
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
     "entry_sha256": "0169f076b933e22303238422fceaedf005df21b4cf5213576137819beeba765e",
-    "method_verifier_sha256": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8"
+    "method_verifier_sha256": "96fac69f9a1f763d886dda2735c25a29e33639956d5882ccc6371c7105d621d8",
+    "entry_revision_check": "Current canonical skills.read export SHA256 matches the saved entry; new modules read from the same exact package/resource root.",
+    "current_modules_read": [
+      "workflow-harness",
+      "research-policy (applicable resume/generation/repository sections)",
+      "canonical-literature",
+      "literature-evidence",
+      "mathematical-empirical-inquiry",
+      "math-analysis",
+      "repository-round-trips",
+      "local-code-handoff",
+      "full-validation-and-review (G01/role/design)"
+    ]
   },
   "workflow_clarification": {
     "source": "Owner message: 数学推导结束就是code实验设计呀",
@@ -119,7 +139,27 @@
     "training": "not_started",
     "results": "none",
     "scope_review": "research/SCIENTIFIC_SCOPE_REVIEW.md",
-    "source_review": "research/SOURCE_REVIEW.md",
-    "static_checks": "research/SOURCE_CHECKS.json"
+    "source_review": "rounds/sigma-review-2026-10-08/SOURCE_REVIEW.md",
+    "static_checks": "rounds/sigma-review-2026-10-08/SOURCE_CHECKS.json",
+    "current_handoff": "rounds/sigma-review-2026-10-08/WEB_HANDOFF.md",
+    "latest_math_review": "research/SIGMA_REVIEW.md",
+    "prefix_readout": "same mathematical conditional function, final-position-only projection after full coda; numerical parity pending Local"
+  },
+  "resumed_from": {
+    "remote_main": "a8a86cf359ac0d8598ac7b2fa6465ffa120718ae",
+    "tree": "96e8393aeca8359c2f5c3cabce20ec08c53c09a9",
+    "exact_blob_readback": 61,
+    "prior_round": "engineering-2026-10-07",
+    "local_snapshot_note": "Local Git snapshot used only for diff; remote ancestry is preserved through the GitHub expected-parent update."
+  },
+  "literature_delta": {
+    "work": "arxiv:2610.02665",
+    "version": "arxiv:2610.02665v1",
+    "publication_status": "preprint",
+    "read_scope": "Main scientific sections plus relevant B/D/E; independent G.1/G.10 resource/scoring review; not a line-by-line verification of all 63 pages or every proof.",
+    "reproduction_status": "not_attempted",
+    "author_code_status": "not qualified: co-lead announcement on 2026-10-07 says code/weights pending internal review",
+    "decision": "Keep current engineered model; source-grounded mathematical audit and bounded inference optimization, no diffusion conversion.",
+    "record": "research/SIGMA_REVIEW.md"
   }
 }
