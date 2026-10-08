@@ -158,7 +158,7 @@ def run(args: argparse.Namespace) -> dict:
     """Execute only on explicit CLI invocation; never reuse an output directory."""
     import torch
 
-    from .checkpoint import load_checkpoint
+    from .checkpoint import load_checkpoint_with_sha256
     from .model import LatentWorldModel, ModelConfig
     from .prepare import load_tokenizer, tokenizer_identity
 
@@ -185,8 +185,7 @@ def run(args: argparse.Namespace) -> dict:
         if declared_tokenizer is not None and declared_tokenizer != identity:
             raise ValueError("Prepared native data and evaluation tokenizer identities differ")
         checkpoint_path = args.checkpoint.resolve()
-        checkpoint_sha = sha256_file(checkpoint_path)
-        checkpoint = load_checkpoint(checkpoint_path, map_location="cpu")
+        checkpoint, checkpoint_sha = load_checkpoint_with_sha256(checkpoint_path, map_location="cpu")
         _checkpoint_contract(checkpoint, identity, args.task)
         training_config = checkpoint["config"]
         original_model_config = ModelConfig(**checkpoint["model_config"]).to_dict()

@@ -19,6 +19,7 @@ import torch
 from lwm import train
 from lwm.checkpoint import capture_rng, load_checkpoint, restore_rng, save_checkpoint
 from lwm.data import CorpusWriter
+from lwm.model import LatentWorldModel, ModelConfig
 
 
 @pytest.fixture(autouse=True)
@@ -136,6 +137,56 @@ def _updates(output):
     events = [json.loads(line) for line in
               (output / "events.jsonl").read_text(encoding="utf-8").splitlines()]
     return [event for event in events if event["event"] == "update"]
+
+
+@pytest.mark.parametrize("source_tokenizer,target_tokenizer", [
+    ({"mapping": "A"}, {"mapping": "B"}),
+    (None, {"mapping": "B"}),
+    ({"mapping": "A"}, None),
+])
+def test_weights_only_initialization_rejects_different_token_id_mapping(
+    training_case, tmp_path, source_tokenizer, target_tokenizer
+):
+    # Equal vocabulary/architecture must not silently relabel old embedding rows.
+    model = LatentWorldModel(ModelConfig(**training_case["config"]["model"]))
+    initial = tmp_path / "initial.pt"
+    source = {} if source_tokenizer is None else {"tokenizer": source_tokenizer}
+    save_checkpoint(initial, {"model_config": model.config.to_dict(),
+        "model_state": model.state_dict(), "corpus_provenance": source})
+    data = tmp_path / "other-corpus"
+    provenance = {"kind": "software-fixture"}
+    if target_tokenizer is not None:
+        provenance["tokenizer"] = target_tokenizer
+    with CorpusWriter(data, provenance) as writer:
+        writer.add("first", list(range(3, 17)), loss_start=0)
+    output = tmp_path / "initialization-output"
+    with pytest.raises(ValueError, match="tokenizer"):
+        train.main(["--config", str(training_case["config_path"]), "--data", str(data),
+            "--output", str(output), "--device", "cpu", "--init-checkpoint", str(initial),
+            "--max-updates", "1"])
+    assert not output.exists()
+
+
+@pytest.mark.parametrize("tokenizer", [None, {"mapping": "same"}])
+def test_weights_only_initialization_accepts_matching_tokenizer_identity(training_case, tmp_path, tokenizer):
+    # Requiring tokenizer metadata unconditionally would break existing tiny
+    # corpora; equal real identities and both-absent fixture identities are valid.
+    model = LatentWorldModel(ModelConfig(**training_case["config"]["model"]))
+    initial = tmp_path / "initial.pt"
+    provenance = {} if tokenizer is None else {"tokenizer": tokenizer}
+    save_checkpoint(initial, {"model_config": model.config.to_dict(),
+        "model_state": model.state_dict(), "corpus_provenance": provenance})
+    expected_sha = hashlib.sha256(initial.read_bytes()).hexdigest()
+    data = tmp_path / "matching-corpus"
+    with CorpusWriter(data, provenance) as writer:
+        writer.add("first", list(range(3, 17)), loss_start=0)
+    output = tmp_path / "initialized"
+    train.main(["--config", str(training_case["config_path"]), "--data", str(data),
+        "--output", str(output), "--device", "cpu", "--init-checkpoint", str(initial),
+        "--max-updates", "1"])
+    saved = load_checkpoint(output / "last.pt")
+    assert saved["status"] == "paused" and saved["counters"]["seen_targets"] == 4
+    assert saved["initial_checkpoint"]["sha256"] == expected_sha
 
 
 @pytest.fixture

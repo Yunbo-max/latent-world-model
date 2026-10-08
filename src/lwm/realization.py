@@ -9,7 +9,7 @@ from pathlib import Path
 
 import torch
 
-from .checkpoint import save_checkpoint, load_checkpoint
+from .checkpoint import save_checkpoint, load_checkpoint, load_checkpoint_with_sha256
 from .data import canonical_hash, file_sha256
 from .generation import stream_payload, restore_stream
 from .model import ModelConfig, LatentWorldModel
@@ -78,7 +78,7 @@ def main(argv=None):
     parser.add_argument("--output", required=True)
     parser.add_argument("--device", default="cuda")
     args = parser.parse_args(argv)
-    checkpoint = load_checkpoint(args.checkpoint)
+    checkpoint, checkpoint_hash = load_checkpoint_with_sha256(args.checkpoint)
     model = LatentWorldModel(ModelConfig(**checkpoint["model_config"]))
     model.load_state_dict(checkpoint["model_state"], strict=True)
     model = model.to(args.device).eval()
@@ -86,7 +86,6 @@ def main(argv=None):
     identity = tokenizer_identity(args.tokenizer)
     if checkpoint["corpus_provenance"]["tokenizer"] != identity:
         raise ValueError("Tokenizer/checkpoint differs")
-    checkpoint_hash = file_sha256(args.checkpoint)
     snapshot = load_checkpoint(args.plan)
     plan = restore_plan(model, snapshot, checkpoint_hash, identity)
     output = Path(args.output)

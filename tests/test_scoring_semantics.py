@@ -191,6 +191,39 @@ def test_lambada_split_on_real_full_native_source_is_qualified_locally():
     assert context + target == row["text"]
 
 
+@pytest.mark.parametrize("encoded,context_ids,target_ids", [
+    ([0, 7, 8], [0], [7, 8]),
+    ([7, 8], [0], [7, 8]),
+])
+def test_empty_context_does_not_score_an_existing_prefix_token(encoded, context_ids, target_ids):
+    # Software token-boundary fixture, not scientific benchmark input. Adding a
+    # second prefix and scoring the first as a target would violate TemplateLM.
+    from lwm.scoring import encode_hf_pair
+
+    class Tokenizer:
+        eos_token_id = 0
+
+        def encode(self, text, **kwargs):
+            return encoded
+
+    actual = encode_hf_pair(Tokenizer(), "", "fixture")
+    assert actual["context_token_ids"] == context_ids
+    assert actual["target_token_ids"] == target_ids
+
+
+def test_empty_context_with_only_prefix_is_rejected_as_empty_target():
+    from lwm.scoring import encode_hf_pair
+
+    class Tokenizer:
+        eos_token_id = 0
+
+        def encode(self, text, **kwargs):
+            return [0]
+
+    with pytest.raises(ValueError, match="empty context/target"):
+        encode_hf_pair(Tokenizer(), "", "fixture")
+
+
 def test_real_native_lambada_pairs_match_the_pinned_harness_token_boundary():
     """Pending Local test: actual source rows, tokenizer bytes and author code."""
     paths = {name: os.environ.get(f"LWM_NATIVE_LAMBADA_{name.upper()}")

@@ -19,7 +19,7 @@ import numpy as np
 import torch
 from torch.nn import functional as F
 
-from .checkpoint import capture_rng, restore_rng, save_checkpoint, load_checkpoint
+from .checkpoint import capture_rng, restore_rng, save_checkpoint, load_checkpoint_with_sha256
 from .data import TokenCorpus, CorpusCursor, canonical_hash, file_sha256
 from .model import ModelConfig, LatentWorldModel
 from .episodic import EpisodicStore
@@ -251,17 +251,19 @@ def main(argv=None):
     initialization = None
     resume_identity = None
     if args.init_checkpoint:
-        initial = load_checkpoint(args.init_checkpoint)
+        initial, initial_sha = load_checkpoint_with_sha256(args.init_checkpoint)
         # Initialization across data domains must preserve the architecture.
         if ModelConfig(**initial["model_config"]).to_dict() != model_config.to_dict():
             raise ValueError("Initialization architecture differs from target configuration")
+        if initial["corpus_provenance"].get("tokenizer") != corpus.manifest["provenance"].get("tokenizer"):
+            raise ValueError("Initialization tokenizer identity differs from target corpus")
         model.load_state_dict(initial["model_state"], strict=True)
         initialization = {"path": str(Path(args.init_checkpoint).resolve()),
-                          "sha256": file_sha256(Path(args.init_checkpoint))}
+                          "sha256": initial_sha}
     if args.resume:
+        state, resume_sha = load_checkpoint_with_sha256(args.resume)
         resume_identity = {"path": str(Path(args.resume).resolve()),
-                           "sha256": file_sha256(Path(args.resume))}
-        state = load_checkpoint(args.resume)
+                           "sha256": resume_sha}
         if file_sha256(Path(args.resume)) != resume_identity["sha256"]:
             raise ValueError("Resume checkpoint changed while loading")
         if (state["config"] != config or state["corpus_fingerprint"] != corpus.fingerprint

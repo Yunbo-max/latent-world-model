@@ -25,6 +25,7 @@ Critical implementation contracts:
 GitHub destination is `Yunbo-max/latent-world-model`, branch `main`, already authorized by the owner. Use one integration writer and expected-parent updates, preserve concurrent work, and read back actual files at the exact remote commit. No HF output destination or training-host connection was supplied to Web; do not invent either or upload weights/data elsewhere.
 
 Full-plan contracts:
+- Follow-up checkpoint/input integrity review: read rounds/full-plan-2026-10-08/CHECK_REVIEW.md. Checkpoint payloads and hashes come from the same opened descriptor; weights-only initialization also requires equal tokenizer identities. New source and tests remain generated_unexecuted; old live runs and source-bound stream/plan snapshots stay pinned to their original implementation.
 - Read IMPLEMENTATION_GOAL, EXPANSION_SPEC, COVERAGE and current experiment/review files at the same commit; stronger ideals are not executable/theorem claims.
 - For target row u query only tokens[:u] and prior completed events. Never use a target/future suffix, support labels or evaluator answers in retrieval. Use current learned embeddings and per-row selected memory, not a cross-row unrestricted union.
 - Event identity is document+ordinal, public input identity a separate caller chunk ID. Validate admission before writer; identical stable-ID retries are no-ops, conflicts reject. Chunk receipts survive EOS; document segment receipts do not. Count O(history) receipts and actual RSS/cost.

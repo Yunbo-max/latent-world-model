@@ -122,8 +122,12 @@ def encode_hf_pair(tokenizer, context: str, continuation: str) -> dict:
 
     original_context, original_continuation = context, continuation
     if context == "":
-        context_ids = [int(tokenizer.eos_token_id)]
+        prefix = int(tokenizer.eos_token_id)
         target_ids = encode(continuation)
+        if target_ids and target_ids[0] == prefix:
+            context_ids, target_ids = target_ids[:1], target_ids[1:]
+        else:
+            context_ids = [prefix]
         prefix_token_used = True
     else:
         trailing = len(context) - len(context.rstrip())

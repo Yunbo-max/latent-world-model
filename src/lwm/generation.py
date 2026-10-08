@@ -239,8 +239,7 @@ def generate(model: LatentWorldModel, state: StreamState, max_new_tokens: int,
 def main(argv=None):
     import argparse
     import json
-    from .checkpoint import load_checkpoint, save_checkpoint
-    from .data import file_sha256
+    from .checkpoint import load_checkpoint, load_checkpoint_with_sha256, save_checkpoint
     from .model import ModelConfig
     from .prepare import load_tokenizer, tokenizer_identity
     from .realization import implementation_identity
@@ -258,7 +257,7 @@ def main(argv=None):
     parser.add_argument("--observation-id", help="Replay-safe caller identity for the prompt chunk")
     parser.add_argument("--plan-out", help="Save an explicit pre-generation plan for independent realization")
     args = parser.parse_args(argv)
-    checkpoint_data = load_checkpoint(args.checkpoint)
+    checkpoint_data, checkpoint_hash = load_checkpoint_with_sha256(args.checkpoint)
     model = LatentWorldModel(ModelConfig(**checkpoint_data["model_config"]))
     model.load_state_dict(checkpoint_data["model_state"], strict=True)
     model = model.to(args.device).eval()
@@ -267,7 +266,6 @@ def main(argv=None):
     expected_tokenizer = checkpoint_data["corpus_provenance"].get("tokenizer")
     if expected_tokenizer != identity:
         raise ValueError("Checkpoint/tokenizer identity mismatch")
-    checkpoint_hash = file_sha256(args.checkpoint)
     state = start_stream(model)
     random_generator = torch.Generator(device=args.device).manual_seed(args.seed)
     if args.state_in:

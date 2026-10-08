@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import hashlib
 from pathlib import Path
 import random
 import tempfile
@@ -47,8 +48,34 @@ def save_checkpoint(path: str | Path, payload: dict) -> None:
             os.unlink(name)
 
 
-def load_checkpoint(path: str | Path, map_location="cpu") -> dict:
-    value = torch.load(path, map_location=map_location, weights_only=True)
+def _stream_sha256(stream) -> str:
+    stream.seek(0)
+    digest = hashlib.sha256()
+    for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+        digest.update(chunk)
+    return digest.hexdigest()
+
+
+def load_checkpoint_with_sha256(path: str | Path, map_location="cpu") -> tuple[dict, str]:
+    """Bind payload and digest to one opened file, despite atomic path replacement.
+
+    The writer publishes with os.replace. Holding its original file descriptor
+    avoids reopening a newer checkpoint for identity. Streaming checks on both
+    sides of deserialization reject unsupported in-place edits without buffering
+    an additional whole checkpoint in CPU memory.
+    """
+    # Unbuffered reads make the second digest observe the inode's current bytes,
+    # rather than a BufferedReader cache after an unsupported in-place edit.
+    with Path(path).open("rb", buffering=0) as stream:
+        digest = _stream_sha256(stream)
+        stream.seek(0)
+        value = torch.load(stream, map_location=map_location, weights_only=True)
+        if _stream_sha256(stream) != digest:
+            raise ValueError("Checkpoint changed during loading")
     if value.get("format") != "lwm-checkpoint-v1":
         raise ValueError("Unsupported checkpoint format")
-    return value
+    return value, digest
+
+
+def load_checkpoint(path: str | Path, map_location="cpu") -> dict:
+    return load_checkpoint_with_sha256(path, map_location=map_location)[0]

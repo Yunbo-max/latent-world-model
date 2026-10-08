@@ -55,11 +55,12 @@ def test_restored_plan_realizes_without_reader_writer_or_retrieval_and_rejects_s
         restore_plan(model, snapshot, "fixture-checkpoint", {"fixture": "tokenizer"}, current_state=changed)
 
 
-def test_global_contractive_parameterization_has_no_recurrent_bypass():
+@pytest.mark.parametrize("weight_scale", [0.0, 100.0])
+def test_global_contractive_parameterization_has_no_recurrent_bypass(weight_scale):
     torch.manual_seed(4)
     model = small()
     with torch.no_grad():
-        model.contractive.weight.mul_(100)
+        model.contractive.weight.mul_(weight_scale)
     matrix = model.contractive.matrix()
     assert float(torch.linalg.vector_norm(matrix)) <= model.config.contraction_bound + 1e-6
     h1, h2, forcing = torch.randn(1, 3, 16), torch.randn(1, 3, 16), torch.randn(1, 3, 16)
@@ -68,6 +69,26 @@ def test_global_contractive_parameterization_has_no_recurrent_bypass():
     assert torch.linalg.vector_norm(r1 - r2) <= (model.config.contraction_bound + 1e-6) * torch.linalg.vector_norm(h1 - h2)
     r1.sum().backward()
     assert model.contractive.weight.grad is not None and torch.isfinite(model.contractive.weight.grad).all()
+
+
+@pytest.mark.skipif(not torch.cuda.is_available(), reason="Local CUDA qualification pending")
+@pytest.mark.parametrize("weight_scale", [0.0, 100.0])
+def test_contractive_full_forward_backward_is_finite_under_cuda_fp16(weight_scale):
+    # Software precision fixture only. A finite FP16 backward is not a global
+    # roundoff certificate or a native task performance result.
+    model = small().cuda().train()
+    with torch.no_grad():
+        model.contractive.weight.mul_(weight_scale)
+    tokens = torch.tensor([[2, 3, 4, 5]], device="cuda")
+    history = new_history(model, "cuda-precision-fixture")
+    with torch.autocast(device_type="cuda", dtype=torch.float16):
+        logits, memory = model.forward_segment(tokens, model.initial_memory(1), episodic=history["store"])
+        loss = F.cross_entropy(logits[0].float(), tokens[0])
+    assert torch.isfinite(loss) and torch.isfinite(memory).all()
+    loss.backward()
+    gradients = [parameter.grad for parameter in model.parameters() if parameter.grad is not None]
+    assert gradients and all(bool(torch.isfinite(gradient).all()) for gradient in gradients)
+    assert model.contractive.weight.grad is not None
 
 
 def test_predictive_ce_has_immediate_writer_path_and_separate_masked_denominator():

@@ -1,5 +1,7 @@
 # Expanded original-plan source handoff
 
+Latest follow-up: read [CHECK_REVIEW](CHECK_REVIEW.md) at this same revision. The follow-up repairs checkpoint load/hash identity, weights-only tokenizer compatibility and the pinned empty-context prefix-token branch. Added acceptance cases are in test_checkpoint_identity_semantics.py, test_resume_semantics.py and test_scoring_semantics.py. All source is still generated_unexecuted. Earlier whole-tree/publication receipts below describe their historical commits; they do not certify this repair or replace Local checks.
+
 Status: **generated_unexecuted**. Sole integration writer: root. Parent main restored: fba4653780e0b277a1fe7fdef47e3f20d33f2d53, descendant of the reopened6c799d9 checkpoint. All69 original blobs were read via pinned Git object URLs and their actual Git blob hashes checked. Existing unpublished expansion work was retained and statically rereviewed. Publication is non-force with expected-parent protection; exact final commit/readback is reported by the publishing session.
 
 Read same-revision [AGENTS](../../AGENTS.md), [Local runbook](../../LOCAL_AGENT_RUNBOOK.md), [coverage](COVERAGE.md), [executable specification](EXPANSION_SPEC.md), [expanded design](EXPERIMENT_DESIGN.md), [math mapping](../../research/MATH_TO_CODE.md), and [native environments](../../research/NATIVE_ENVIRONMENT.md). Existing tokenizer/corpus/scorer/author acquisition commands in the runbook remain complete and unchanged; no new assets/weights/services are needed.
@@ -19,7 +21,7 @@ All following are authored inner commands, never executed by Web. Admit them thr
 
 ```bash
 conda run -n lwm python -m pytest -q
-conda run -n lwm python -m pytest tests/test_episodic_semantics.py tests/test_expansion_semantics.py tests/test_resume_semantics.py tests/test_scoring_semantics.py -q
+conda run -n lwm python -m pytest tests/test_checkpoint_identity_semantics.py tests/test_episodic_semantics.py tests/test_expansion_semantics.py tests/test_resume_semantics.py tests/test_scoring_semantics.py -q
 ```
 
 The second command is a focused diagnosis after a failure, not a redundant mandatory rerun after a complete pass. Required properties: strict future isolation, equal-store teacher/prefix rows, FIFO/evicted replay, mixed-origin/source retention, changed chunk rejection before writer, crossEOS chunk retries, branch isolation, full state restore, independent plan realization, contractive norm/gradient checks, main/aux mask/denominator/counter separation and uninterrupted/resumed trainer parity. Software fixtures are not scientific benchmarks.
