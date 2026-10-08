@@ -71,7 +71,8 @@
     "Current publishing invocation reconciled actual concurrent main d8ee2a9 then ace232e, read all111 files at exact source commit and all four closure changes; preserved all executable source/config bytes.",
     "Current independent source review bindings refreshed, corrected source attribution/gate formula/64 and204 command counts in final docs; all runtime/software/native/GPU/scientific qualification remains pending.",
     "User-requested follow-up audit restored main48f249b and matched all113 tracked blobs before edits; three independent read-only source reviewers examined checkpoint/state, training and native scoring. Repaired loaded-checkpoint identity race, tokenizer initialization mismatch and pinned empty-context EOS semantics; authored regressions and contraction acceptance, all unexecuted.",
-    "User-requested second review restored exact mainfa75982c and matched all115 blobs. Four independent read-only source reviewers checked model/episodic, training/checkpoint, streaming/realization and native evaluation/matrix. Repaired source-filtered scan counting and finite-positive-temperature sampling, authored CPU/CUDA regressions before patches, clarified affine plan/auxiliary/generated-state semantics and historical handoff bindings; no project execution."
+    "User-requested second review restored exact mainfa75982c and matched all115 blobs. Four independent read-only source reviewers checked model/episodic, training/checkpoint, streaming/realization and native evaluation/matrix. Repaired source-filtered scan counting and finite-positive-temperature sampling, authored CPU/CUDA regressions before patches, clarified affine plan/auxiliary/generated-state semantics and historical handoff bindings; no project execution.",
+    "User novelty feedback reassessed against current source and Huginn/RMT/DEQ primary texts; independently reviewed contraction scope, supplied analytic loss-worsening counterexample and recorded engineering-control versus mathematical-discovery distinction. No new method/source or executed results."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -149,7 +150,16 @@
       "baseline_and_source_bytes_verified": true,
       "source_behavior_changed_in_this_followup": false
     },
-    "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted."
+    "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
+    "mathematical_reassessment_delivery": {
+      "parent_head": "8a623985735e86cde761db45442b4d62f5844662",
+      "paths": [
+        "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md",
+        "research/workflow-checkpoint.json"
+      ],
+      "scope": "Documentation-only mathematical and originality reassessment; source/config/runtime records preserved.",
+      "verification": "Expected-parent main publication and exact changed-file readback are reported by the publishing session."
+    }
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -210,7 +220,7 @@
     "source_review": "rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md, DYNAMICS_SOURCE_REVIEW.md and INTEGRATION_SOURCE_REVIEW.md",
     "static_checks": "rounds/full-plan-2026-10-08/SOURCE_CHECKS.json",
     "current_handoff": "rounds/full-plan-2026-10-08/WEB_HANDOFF.md",
-    "latest_math_review": "research/SIGMA_REVIEW.md",
+    "latest_math_review": "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md",
     "prefix_readout": "same mathematical conditional function, final-position-only projection after full coda; numerical parity pending Local",
     "coverage": "rounds/full-plan-2026-10-08/COVERAGE.md",
     "full_design": "rounds/full-plan-2026-10-08/EXPERIMENT_DESIGN.md",
@@ -223,7 +233,8 @@
     "command_cards": 204,
     "followup_source_review": "rounds/full-plan-2026-10-08/CHECK_REVIEW.md",
     "second_source_review": "rounds/full-plan-2026-10-08/RECHECK_REVIEW.md",
-    "method_explanation": "research/METHOD_EXPLAINED.zh-CN.md"
+    "method_explanation": "research/METHOD_EXPLAINED.zh-CN.md",
+    "prior_math_review": "research/SIGMA_REVIEW.md"
   },
   "resumed_from": {
     "remote_main": "fba4653780e0b277a1fe7fdef47e3f20d33f2d53",
@@ -393,5 +404,21 @@
       "centered FP64 positive-temperature sampling with exact maximum protection against CUDA reciprocal overflow"
     ],
     "scope": "Selected text engineering construction, including autoregressive output. Stronger scientific goals and all Local runtime qualification stay pending."
+  },
+  "mathematical_reassessment": {
+    "user_request": "我觉得还是基于attention的不够新颖呀，数学idea没做好",
+    "reviewed_source_commit": "8a623985735e86cde761db45442b4d62f5844662",
+    "report": "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md",
+    "status": "bounded_mathematical_and_nearest_work_reassessment_completed",
+    "conclusion": "Current selected architecture remains a known-mechanism engineering control; no original mathematical candidate is qualified. Contraction does not imply improved prediction; attention replacement or adaptive stopping alone does not establish originality.",
+    "source_behavior_changed": false,
+    "mathematical_discovery_route": "reopened; objective, predictive-error connection and closest-work qualification required before selecting a replacement",
+    "candidate_counts_changed": false,
+    "independent_reviews": [
+      "/root/figure_rwkv_fidelity: mathematical scope",
+      "/root/figure_dka_identify: closest works"
+    ],
+    "execution": "No project tests, imports, inference, training or benchmark runs; no background task restart.",
+    "next_boundary": "Establish mathematical research question and evidence, then derive and independently qualify candidates. Existing Local runtime obligations remain pending."
   }
 }
