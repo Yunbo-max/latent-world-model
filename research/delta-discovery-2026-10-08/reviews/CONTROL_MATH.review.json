@@ -1,0 +1,59 @@
+{
+  "kind": "control-math-review",
+  "version": "1.0.0",
+  "subject_id": "DELTA-CONTROL-QED-NONNORMAL-2026-10-08",
+  "scope": "conditional_algebra",
+  "artifact_ref": {
+    "path": "research/delta-discovery-2026-10-08/CONTROL_MATH.md",
+    "sha256": "e169cb26776c05c246036e77210f67dd2a16cdbf6e279e23ad05355374ecc7ed"
+  },
+  "reviewer": {
+    "agent_identity": "/root/delta_math_review_a",
+    "author_identity": "/root",
+    "independent_of_author": true
+  },
+  "reviewed_at": "2026-10-08T22:54:12.586629+00:00",
+  "outcome": "accepted_conditional_mathematics",
+  "source_read": {
+    "url": "https://arxiv.org/html/2608.13668v1",
+    "version": "v1",
+    "sections": [
+      "3.1 Eq6",
+      "3.2 Eq11-12",
+      "Appendix A Eq13"
+    ],
+    "scope": "Independent full-HTML reading of recurrence, normalization/gate ranges and strength parameter; no author-code inspection in this review."
+  },
+  "checks": {
+    "dimensions_and_orientation": {
+      "status": "passed",
+      "rationale": "For S in R^(K x V), k,a in R^K, (I-ka^T) acts on the left. The decomposition a=c k+z yields T k=(1-c)k and T(z/s)=(z/s)-s k, hence [[r,-s],[0,1]]. No key/value transpose is misplaced."
+    },
+    "operator_norm": {
+      "status": "passed",
+      "rationale": "Independent multiplication gives T2^T T2=[[r^2,-rs],[-rs,1+s^2]], trace r^2+1+s^2 and determinant r^2. Its largest eigenvalue is the stated quadratic root. For s>0, the unit transverse vector has squared image norm 1+s^2, so eigenvalue invariance does not imply a Euclidean contraction."
+    },
+    "scalar_decay_condition": {
+      "status": "passed",
+      "rationale": "For 0<alpha<1, I-alpha^2 T2^T T2 has first principal minor 1-alpha^2 r^2 and determinant (1-alpha^2 r^2)(1-alpha^2)-alpha^2 s^2. The stated two inequalities are necessary and sufficient: they also imply the second principal minor is nonnegative; the equality case first minor=0 forces s=0. Orthogonal remaining directions contract by alpha. At alpha=1 the determinant requires s=0, then |r|<=1. General diagonal decay is rightly excluded."
+    },
+    "admissible_counterexample": {
+      "status": "passed",
+      "rationale": "The normalized keys/queries are valid unit vectors; both gate coordinates 0.01 and 0.9 lie strictly inside (0,1). For each key the projected query contribution is 0.2*0.9=0.18 in its perpendicular coordinate, while c=0.01. lambda=0.2 is within the published sigmoid cap 0.25 and can be attained by finite theta=log(4). alpha=0.99 is compatible with negative log-decay. Thus the matrices are coefficient-admissible, not merely unconstrained shears."
+    },
+    "ordered_product_and_growth": {
+      "status": "passed",
+      "rationale": "Left recurrence makes the two-step matrix alpha^2 T2 T1, not the reversed factor order. The product has trace 2r+s^2 and determinant r^2. Since alpha^(-2)-r=1/0.9801-0.99 lies between 0.0303 and 0.0304, its square is below 0.000925, whereas s^2 alpha^(-2)>0.0324. Its characteristic polynomial is negative at alpha^(-2), which lies strictly between its two real roots; the upper root exceeds alpha^(-2). Repeating the same admissible pair therefore gives a state-difference eigendirection that grows, despite both individual decayed factors having spectral radii below one."
+    },
+    "scope_and_nonclaims": {
+      "status": "passed",
+      "rationale": "This is a frozen-coefficient real-arithmetic counterexample to a universal inference about single-factor spectra. It does not establish instability of trained checkpoints, typical data trajectories, or a nonlinear network. Equal additive inputs cancel for state differences; setting values to zero is an admissible special case. The document separates this algebra from a benchmark or executed experiment and from novel candidate counting."
+    }
+  },
+  "limitations": [
+    "For s=0, the notation z/s is undefined; read the 2D block in an arbitrary perpendicular direction when K>=2. In K=1 there is no transverse block and only |r| matters. This minor notation issue does not affect the s>0 counterexample.",
+    "No author implementation was inspected here; code constraints stronger than the paper coefficient ranges could restrict reachability.",
+    "No floating-point or nonlinear-network stability guarantee follows.",
+    "The source diagnosis is not an originality claim or a qualified method candidate."
+  ]
+}

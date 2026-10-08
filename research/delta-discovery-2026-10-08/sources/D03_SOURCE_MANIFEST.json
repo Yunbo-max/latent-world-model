@@ -1,0 +1,81 @@
+{
+  "kind": "read-source-manifest",
+  "version": "1.0.0",
+  "subject": "D03 and rejectedD04 source/native-feasibility readings",
+  "reader": "/root/delta_retention_derivation",
+  "capture_policy": "Compact math publication: actual bytes were inspected and Git-object identity verified, but full vendor source is not republished. Hashes identify read bytes, not code qualification.",
+  "entries": [
+    {
+      "repository": "ntumm120/preconditioned-deltanet",
+      "commit": "7bd753279af87b39114149a104c5bde9bf67145f",
+      "path": "3rdparty/flash-linear-attention/fla/ops/precond_gated_delta_rule/naive.py",
+      "git_blob_sha1": "4a2273f25a89b509332e8755391e78cc594a16b0",
+      "sha256": "266c86596ba23dff12b367afaa15620cb4d1c7b751f8a9f0122cc6d99517e870",
+      "bytes": 3348,
+      "immutable_url": "https://github.com/ntumm120/preconditioned-deltanet/blob/7bd753279af87b39114149a104c5bde9bf67145f/3rdparty/flash-linear-attention/fla/ops/precond_gated_delta_rule/naive.py",
+      "reader": "/root/delta_retention_derivation",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    },
+    {
+      "repository": "NVIDIA/RULER",
+      "commit": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+      "path": "scripts/eval/evaluate.py",
+      "git_blob_sha1": "3cd5663cff3051bacd0e73d28bd440b660bbe50d",
+      "sha256": "b9a5fcbded7209663d97670496c74dbcd6358ddbe3d9887a0c5f0c4f974bfe1c",
+      "bytes": 6934,
+      "immutable_url": "https://github.com/NVIDIA/RULER/blob/c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a/scripts/eval/evaluate.py",
+      "reader": "/root/delta_retention_derivation",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    },
+    {
+      "repository": "NVIDIA/RULER",
+      "commit": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+      "path": "scripts/data/synthetic/niah.py",
+      "git_blob_sha1": "729eddc260ef5a9aa0473557cd249abca232764a",
+      "sha256": "e9cada0a7660d274fe73a1338a90a7087e17b630169f1aaf14a8d3221c6805b5",
+      "bytes": 12733,
+      "immutable_url": "https://github.com/NVIDIA/RULER/blob/c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a/scripts/data/synthetic/niah.py",
+      "reader": "/root/delta_retention_derivation",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    },
+    {
+      "repository": "NVIDIA/RULER",
+      "commit": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+      "path": "scripts/eval/synthetic/constants.py",
+      "git_blob_sha1": "94b2ba622c14d5e8fcbdf3825f223e13a0e110ec",
+      "sha256": "6740467c17b8dc06b6b30f4f97e54ce8de81db0dd879f1538d0b6b5727f4bd5f",
+      "bytes": 1531,
+      "immutable_url": "https://github.com/NVIDIA/RULER/blob/c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a/scripts/eval/synthetic/constants.py",
+      "reader": "/root/delta_retention_derivation",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    },
+    {
+      "repository": "NVIDIA/RULER",
+      "commit": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+      "path": "scripts/synthetic.yaml",
+      "git_blob_sha1": "29cfa5f60b49a7fa53f8dccbbd4f0c7c9e7834fa",
+      "sha256": "34bc71dcacdc41a829a170f04b528fbf48d62c616338005ab4991680fbf8cb0b",
+      "bytes": 2356,
+      "immutable_url": "https://github.com/NVIDIA/RULER/blob/c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a/scripts/synthetic.yaml",
+      "reader": "/root/delta_retention_derivation",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    },
+    {
+      "repository": "ngocbh/kalman-delta-networks",
+      "commit": "53e437be8591521a508bb6a04cd5b26594a3d5ec",
+      "path": "lit_gpt/kdn_ops/diag_kdn_naive.py",
+      "git_blob_sha1": "0e1d77dac63a350c659825cfa393969b4e51c958",
+      "sha256": "87876ebe27fb175685548b7d8d59ad83e5c3e04164be78b4366f2a7ea226327d",
+      "bytes": 26529,
+      "immutable_url": "https://github.com/ngocbh/kalman-delta-networks/blob/53e437be8591521a508bb6a04cd5b26594a3d5ec/lit_gpt/kdn_ops/diag_kdn_naive.py",
+      "reader": "/root/delta_math_review_b",
+      "scope": "read-only source; actual interface/formula analysis in associated retained audits; never executed",
+      "publication": "Full author source capture remains scratch-only and is not included in published mathematical packet. This manifest records read-byte identity; immutable upstream locator permits later reacquisition."
+    }
+  ]
+}

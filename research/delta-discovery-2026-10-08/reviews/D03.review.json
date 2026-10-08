@@ -1,0 +1,188 @@
+{
+  "kind": "method-review",
+  "version": "1.0.0",
+  "subject_id": "D03",
+  "scope": "math",
+  "artifact_ref": {
+    "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+    "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+  },
+  "reviewer": "/root/delta_math_review_b (independent from /root/delta_retention_derivation)",
+  "reviewed_at": "2026-10-08T23:02:21Z",
+  "outcome": "verified",
+  "interpretation": "Verified means the stated conditional mathematical construction and required evidence were independently reviewed. It does not establish originality, scientific eligibility, selection, software correctness or empirical benefit. No project code or benchmark scorer was executed.",
+  "checks": {
+    "formal_object": {
+      "status": "verified",
+      "rationale": "Reviewed S in R^(d x m), edit gamma*u*e^T, k/q/u in R^d and e in R^m. Expanding the edit gives (I-gamma*u*k^T)D*Sprev+gamma*u*v^T; the decay and erase factor order is preserved. Mandatory inclusion of actual k/e/gamma in z makes the chosen Delta measurable with respect to F=sigma(z), which is necessary for conditional quadratic risk factorization. The object is a frozen future-response disturbance proxy, not latent truth covariance, CE or information sufficiency. This condition was missing in the first reviewed draft and is explicitly repaired in these pinned bytes.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "operations_and_conditions": {
+      "status": "verified",
+      "rationale": "F04 is applied by subtracting affine recurrences with identical future coefficients, obtaining chronological A_(t+h)...A_(t+1) and read Delta^T P^T q. Conditional-expectation decomposition is valid only under the fixed corpus/reference law and finite moments; the card now defines conditioning on actual predictor features instead of claiming full-history sufficiency. D01/KKT uses SPD M from lambda>0, unit k and R>=1. C04 approximation bound uses the same feasible radius. H06 is a mathematical separation example, not synthetic scientific data. The observability Gramian and KKT geometry are explicitly attributed as known mathematics.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "derivation": {
+      "status": "verified",
+      "rationale": "Independently checked the trace identity tr(Delta^T G Delta), columnwise quadratic constrained minimizer and bounded u KKT system. For eigenvalues l_i and c_i=(V^T k)_i^2, s2/s1^2 differentiates to 2(s2^2-s1*s3)/s1^3<=0 by Cauchy-Schwarz; active-radius dual search therefore has the stated limit and degeneracy handling. R=1 forces u=k; gamma=0 or e=0 gives zero edit. Independently recalculated the d10 example: M=[[17/32,1/8],[1/8,1]], u=(28sqrt2/41,13sqrt2/41), ||u||^2=1906/1681, u^T M u=33/41 versus k^T M k=57/64. The learned-metric excess-risk bound follows by inserting fitted optimality and bounding the two spectral error terms; it is 2epsilon R^2 times gamma^2||e||^2 for the edit, not a language loss guarantee.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "assumptions": {
+      "status": "verified",
+      "rationale": "Checked counterfactual limitations: freezing future teacher q/A/B is indispensable; shared future inputs alone do not freeze coefficients of a state-dependent network. Actual learned updates at every step change their own future law, so the one-edit theorem does not prove a deployment-wide bound. Conditional-mean regression is exact at a fixed reference; detached targets, reference refresh and CE-coupled encoder/predictor optimization are explicitly different or moving surrogates. Oblique I-gamma*u*k^T can be nonnormal even though its nontrivial eigenvalue is1-gamma, and the card correctly denies contraction. Directions erased by future transport are cheap under this metric, so low disturbance can mean forgetting the new correction or preserving old mistakes. No semantic revision/retention theorem is asserted.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "method_expression": {
+      "status": "verified",
+      "rationale": "The card now specifies prefix-only metric prediction C=L L^T or a declared low-rank approximation; lambda damping; exact SPD direction solve with radius complementarity; and residual write/read interfaces. Suffix teacher features are used only as stopped training targets. The stated regression gradient is the direct fixed-data-law derivative; CE gradients through the solve define a composite objective rather than exact conditional-mean fitting. Charged costs include transient dense d^2 metric, per-token d^3 reference solve, predictor/optimizer state, extra teacher work and targets; separate rank-one horizon propagation is now O(T H^2 d + T H d^2), correcting the initially omitted term. No parallel scan, native implementation, numerical residual or2080Ti feasibility is claimed. This is a mathematical algorithm, not delivered candidate model code.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "prediction_and_falsifier": {
+      "status": "verified",
+      "rationale": "The prediction is conditional reduction of frozen layer-read perturbation for equal prescribed correction/radius when transported metric is accurately estimated. It distinguishes present/historical geometry from intervening anisotropic transport and collapses to k in isotropic risk; it does not promise improved long retention or CE. Falsifiers retain current-query prediction, PDN, ordinary delayed continuation/QA and extra teacher cost as simpler explanations. I read the pinned RULER metric source: reference-substring coverage and any-reference matching are native task scores, not protected-state truth certificates. Delayed recall can be measured under native definitions, while revision validity, internal perturbation mechanism and numerical fidelity remain honest measurement gaps.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    "closest_alternative": {
+      "status": "verified",
+      "rationale": "Independently read PDN2604.21100v1 inverse-Gram versus diagonal approximation, QED2608.13668v1 Eq11-12, DelayedSupervision2609.32312v1 section3 and KDN2609.07816 actual PDFv2 section3.2/4.1 plus pinned author diagonal recurrence. Matrix gain, current-query erasure, delayed semantic supervision and observability-Gramian geometry are known. QED still edits along left k; KDN gain is predictive posterior covariance, not conditional future-query sensitivity. Thus D03 is not simply historical projection relabeled, but the specific prefix predictor plus bounded residual edit is only a residual construction pending broader collision review. Q-Delta2606.08804 is expressly unresolved in the pinned card; I do not certify originality, scientific admission or full nearest-work clearance. Root is completing that additional comparison separately.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md",
+          "sha256": "f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_SOURCE_MANIFEST.json",
+          "sha256": "66f923f8f3073bb66e8e0cad7c712903f12c29359d153e02de05f43022543b34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    }
+  },
+  "unresolved_conditions": [
+    "Q-Delta2606.08804 full mechanism/author-interface comparison remains pending in this card; a collision must downgrade or merge candidate eligibility.",
+    "A causal predictor may not learn the conditional transported metric accurately or cheaply; no statistical error guarantee is supplied.",
+    "Frozen-reference one-edit analysis does not certify state-dependent/multilayer/autoregressive deployment or simultaneous learned writes.",
+    "Low disturbance is not semantic preservation, correct revision, new-fact retention or improved CE.",
+    "Native measurement gap and RTX2080Ti production/numerical/software acceptance remain open and no new experiments are authorized by this review."
+  ],
+  "review_changes_required_and_resolved": [
+    {
+      "issue": "Delta was not necessarily measurable under sigma(z) because k/e/gamma were optional.",
+      "resolution": "Pinned card makes actual k/e/gamma mandatory predictor inputs."
+    },
+    {
+      "issue": "Separate transported-vector target generation omitted O(T H^2 d) propagation cost.",
+      "resolution": "Pinned card states O(T H^2 d + T H d^2), with no unproved linear-H shortcut."
+    }
+  ],
+  "reviewed_execution": "Mathematical/source reading and standard-library identity/JSON processing only."
+}

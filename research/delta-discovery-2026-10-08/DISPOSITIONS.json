@@ -1,0 +1,47 @@
+{
+  "kind": "delta-math-dispositions",
+  "version": "1.0.0",
+  "batch_id": "delta-discovery-2026-10-08",
+  "count_rule": "Only current cards D01/D03 are constructed; no rejection, control, schema history or old Q01 is counted as a new candidate.",
+  "records": [
+    {
+      "id": "D02",
+      "state": "not_admitted_precard_collision",
+      "mechanism": "Covariance-driven soft protection/release",
+      "reason": "Kalman/PDN/protected geometry already supplies covariance gain/soft attenuation; no substantive residual construction established.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D01-sources.md",
+          "sha256": "18255e752c42e2fe82854dfae0dc7ce8baf6dad1fd1763428f3a5fe0c79f5624"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/KDN_REVIEW_SOURCE_AUDIT.md",
+          "sha256": "4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "state": "rejected_collision",
+      "reason": "Ordinary compensated error-feedback collision; propagating a full precision residual is a larger state, not a new memory principle.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md",
+          "sha256": "c6649092f967ac2b618f95e796b4b761a0839bd995c343b8965007253988d1d6"
+        }
+      ]
+    },
+    {
+      "id": "D01-schema-history",
+      "state": "superseded_format_only",
+      "path": "cards/history/D01.pre-schema-f134c0f3.json",
+      "reason": "Preserved initial structured-field draft. Current reviewed card uses required string fields plus detailed structures; not a distinct idea."
+    },
+    {
+      "id": "Q01",
+      "state": "historical_unqualified_outside_batch",
+      "path": "research/method-batch.json",
+      "reason": "No retrospective certification. Original 1 constructed/0 qualified/0 selected retained."
+    }
+  ]
+}

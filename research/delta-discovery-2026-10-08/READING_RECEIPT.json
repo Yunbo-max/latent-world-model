@@ -1,0 +1,129 @@
+{
+  "kind": "delta-reading-receipt",
+  "version": "1.0.0",
+  "recorded_at": "2026-10-08T23:02:05.222640+00:00",
+  "reader": "/root",
+  "recovered_main": "7c8ede7672d26c9f6975f94bb487b3823510d95c",
+  "tree": "e1fcd93609687284702527cfe1ff3b6c3fdc8192",
+  "same_commit_inputs": [
+    {
+      "path": "AGENTS.md",
+      "git_blob": "3aad48d2d1d10f4f74e7e0d3b27ef1f067dcdeae",
+      "sha256": "2a321e58e1e99bfb9dfc12c98f4cca8ce0c805576bd9ccc388f0825c5f2b45da",
+      "bytes": 8011
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "git_blob": "060a46fa5235cb0ea1a7fba6217ca366c6d488d3",
+      "sha256": "e3ede482be8ffb74dc35d15c72cc2f9ec652d37b625c6d1773031ed2117092cc",
+      "bytes": 40727
+    },
+    {
+      "path": "research/DELTA_FAILURE_MODES_2026-10-08.zh-CN.md",
+      "git_blob": "0cb8c4af62620583838b28e89a4230d79194b976",
+      "sha256": "cf6311683f094776aa45355d8178ce72da9660895474b491566c9fe09ef9e4a8",
+      "bytes": 11130
+    },
+    {
+      "path": "research/DELTA_DIFFUSION_DIRECTION_2026-10-08.zh-CN.md",
+      "git_blob": "13bf392935eae250ec902237628de30421fb3983",
+      "sha256": "e3d17cc551a0c249a4f10c80c22fa8e9df4e29e77a660c47d9994f699dfe060f",
+      "bytes": 10415
+    },
+    {
+      "path": "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md",
+      "git_blob": "5a221586f79bac255b1506d2dbde6355017ca6a7",
+      "sha256": "169bc854d9589d7cd90a2a2291ff1dfd6ddb642b06b2ee3deb01241263c0131b",
+      "bytes": 6456
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "git_blob": "c172631aedd8663befaabfdbd9916fac397e9c13",
+      "sha256": "d203b91563b0b3cc0a1fcf0240c24eedf2b43562519813665d2bad4a8c3ed011",
+      "bytes": 9944
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "git_blob": "cfa1ff38890341fcc61194bd9f9a8b6725758fd2",
+      "sha256": "63d1433884ea8df432d91d59b7876ec9d06560997023b2584d0d583554821bb1",
+      "bytes": 1833
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "git_blob": "439e9f93d2a947255e75fb4b868377b7224c166d",
+      "sha256": "0aa67582ad9c361263dada6425c182f3bebedbebe4111e77efa20bd2c5d85659",
+      "bytes": 175
+    }
+  ],
+  "actual_skill_cohort": [
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/SKILL.md",
+      "sha256": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/workflow-harness.md",
+      "sha256": "e6db3ca81e4e63c4b6b755eb2f08a77a874e2c3317a045a86b86bac7a259a0ae"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/web-background-work.md",
+      "sha256": "6b7ff0d966190acd530bc010782e0566a21cf7fa56e516fadf764d9b712f14d3"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/math-analysis.md",
+      "sha256": "e27e60718518b34d4995a4f2109588aa93746665c4466ab7ac31c049334ccbc8"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/math-operation-graph.md",
+      "sha256": "e82711e4c307d6d901486f4da569e4572e5ce7a4fe006976789bc5d174b749a2"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/math-derivation-paths.md",
+      "sha256": "787bc32d0a7620cb22a8193b3acd2828c304a4a658d0b3f3cc995e5acd0533d3"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/method-verification.md",
+      "sha256": "0e8c78cd19b9f04aa6341c2c0500f1ae2fe48e01688a5857103c4d611503ee05"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/research-quality-bar.md",
+      "sha256": "cb4e4522337f6815f3c53f5e0c193783ada6a492e652c6531e90b30cb580c409"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/literature-evidence.md",
+      "sha256": "a3612904bc54490c6d254fe620a5057aa119a281c74bffc9bb4069cb30e619df"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/repository-round-trips.md",
+      "sha256": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/math-handoff.md",
+      "sha256": "da491f8a17e6a18510cdba089336c4266fb09384714e1555e9724fad48b6d389"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/idea-generation.md",
+      "sha256": "55473c87628fe77e8372f784844b419c2529f0acca4a45b4f6dd7e59391a2b49"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/evaluation-and-assets.md",
+      "sha256": "75beef5ce21153dabdd2751209a4e0f86eb1ad1df1b7dd48688281ae97c64ae7"
+    },
+    {
+      "resource": "skill://flora-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/references/math-analysis-moves.md",
+      "sha256": "0d7874c006df68152c17706280b611de9e38ebba38d8c2bd033ec9f2fb62de3c"
+    }
+  ],
+  "skill_revision_definition": "SHA256 of installed entry and individually loaded module bytes; no repository revision exposed by skills reader. All loaded from one package.",
+  "host_evidence": "Current developer platform app-context explicitly identifies Codex Work Mode. Active invocation observed; no inference of uninterrupted execution.",
+  "task_service_observation": {
+    "id": "6ac78ded796081918d2123402544d760",
+    "title": "推导 Delta 数学候选",
+    "is_enabled": true,
+    "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
+    "updated_at": "2026-10-08T22:47:06.561010+00:00",
+    "last_run_time": "2026-10-08T16:28:09.134751+00:00",
+    "next_run_time": null
+  },
+  "service_time_note": "last_run_time is older source-stage timestamp; current mathematics invocation is observed independently from active runtime. Null next_run_time is reported, not replaced by a guessed trigger.",
+  "execution": "Only paper/source reading, mathematical authoring/review and standard-library byte/hash processing; no project import, test, data/model download, scoring, inference, training or GPU."
+}

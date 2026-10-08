@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-08T22:46:25.512Z",
+  "recorded_at": "2026-10-08T23:06:22.180559+00:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,11 +10,13 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "background_enabled_first_invocation_pending",
+  "status": "partial_math_milestone_nearest_work_pending",
   "counts": {
-    "constructed": 0,
-    "math_reviewed": 0,
-    "math_qualified": 0,
+    "constructed": 2,
+    "math_reviewed": 2,
+    "conditional_algebra_accepted": 2,
+    "math_qualified": 1,
+    "scientific_admitted": 0,
     "selected": 0
   },
   "historical_batch": {
@@ -29,11 +31,13 @@
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
     "service": "scheduled_authoring_continuation",
     "is_enabled": true,
-    "configuration_updated_at": "2026-10-08T22:45:48.311655+00:00",
+    "configuration_updated_at": "2026-10-08T22:47:06.561010+00:00",
     "continuous_execution_verified": false,
     "next_run_time": null,
     "configuration_prompt_equal": true,
-    "first_new_stage_run_observed": false
+    "first_new_stage_run_observed": true,
+    "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
+    "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
   "existing_diagnostic_sources": [
     "research/DELTA_FAILURE_MODES_2026-10-08.zh-CN.md",
@@ -41,6 +45,100 @@
     "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md"
   ],
   "reused_reading_scope": "Conditional diagnostic derivations and nearest-work audit exist; they are controls/leads, not new qualified candidate cards.",
-  "next_action": "The publishing session requests the first invocation once after exact activation-packet readback. An actual task invocation resumes the nearest-work/math-card stage; it must not request another immediate run of itself.",
-  "delivery_parent": "27a189bd82515f06217d725a800650d7c44fbb4f"
+  "next_action": "Resolve D01 corrected Bayesian-mixture/Voltic author formulas and D03 Q-Delta full formula/code comparison first; then derive independent residual mechanisms from finite precision, identifiability and ordered propagation. Do not count relabeled covariance/preconditioning/error feedback. Continue independent source reading where one source is unavailable.",
+  "delivery_parent": "7c8ede7672d26c9f6975f94bb487b3823510d95c",
+  "count_interpretation": "math_qualified is schema/evidence readiness only: D03 review verified under frozen-reference assumptions; D01 nearest-alternative check pending. Neither admitted as original scientific candidate. Whole pool and top15 unverified.",
+  "shortfalls": {
+    "constructed_to_target": 18,
+    "evidence_math_qualified_to_target": 19,
+    "scientific_admitted_to_target": 20,
+    "selection_to_target": 15
+  },
+  "artifacts": [
+    {
+      "path": "research/delta-discovery-2026-10-08/CONTROL_MATH.md",
+      "sha256": "e169cb26776c05c246036e77210f67dd2a16cdbf6e279e23ad05355374ecc7ed"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/CONTROL_MATH.review.json",
+      "sha256": "22df84bb0c9ac4455d07025c9a9fed066fa16ebc800d2f4872b06a3eef795d4f"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/cards/D01.json",
+      "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/D01.math-review.json",
+      "sha256": "fdcb70a15a96023d83717511363a66ddc0bcbcd2fe2127f90fd5770bf7f8f6fb"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+      "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/D03.review.json",
+      "sha256": "99189651df1d9649f5752c27d959adfd72e8b87c800891615a311068e42ba1dd"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/READING_RECEIPT.json",
+      "sha256": "3059b69ed34a601fb791270c7c2543255a6511a0fc7f2507aac081eb9e66b4db"
+    }
+  ],
+  "workers": [
+    {
+      "identity": "/root/delta_primary_audit",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/PRIMARY_NEW.md",
+        "sha256": "0aed4d882eb39c227f07f99665aca55a79263aeda3ac27b74f92e5bc77833235"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    },
+    {
+      "identity": "/root/delta_edit_derivation",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D01.json",
+        "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    },
+    {
+      "identity": "/root/delta_retention_derivation",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+        "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    },
+    {
+      "identity": "/root/delta_baseline_feasibility",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/BASELINE_NATIVE.md",
+        "sha256": "df551e5a45720e488ac698594e1aa114558462bc7fef1c7a093104ee7eca500e"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    },
+    {
+      "identity": "/root/delta_math_review_a",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D01.math-review.json",
+        "sha256": "fdcb70a15a96023d83717511363a66ddc0bcbcd2fe2127f90fd5770bf7f8f6fb"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    },
+    {
+      "identity": "/root/delta_math_review_b",
+      "state": "completed_scoped_artifact",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D03.review.json",
+        "sha256": "99189651df1d9649f5752c27d959adfd72e8b87c800891615a311068e42ba1dd"
+      },
+      "execution_boundary": "mathematics/source/static reading only; no project execution"
+    }
+  ],
+  "scope_statement": "No new candidate model code, full experiment matrix, software test, data/model download, inference, scorer or GPU execution. Upstream source text captures remain scratch; compact immutable source byte manifests are delivered."
 }

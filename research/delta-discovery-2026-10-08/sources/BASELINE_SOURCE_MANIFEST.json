@@ -1,0 +1,172 @@
+[
+  {
+    "repo": "fla-org/flash-linear-attention",
+    "commit": "07ca1e49ef6ca76a7f0dbc8d5ad040ab59434c38",
+    "path": "fla/ops/delta_rule/naive.py",
+    "blob_sha": "d1f65a859a9cf74b98e71fbd9eb18c2165f9822a",
+    "sha256": "20ae032f4e08019b4298cc9fcf2c397d871faac0fd1f180243d9f699a9192968",
+    "bytes": 4867,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "fla-org/flash-linear-attention",
+    "commit": "07ca1e49ef6ca76a7f0dbc8d5ad040ab59434c38",
+    "path": "fla/ops/gated_delta_rule/naive.py",
+    "blob_sha": "cd0cf0d1b15c581e78b20a816601fdde2b6cc70f",
+    "sha256": "d1cf17992349fd3e94af999b22e3d3a81be4a2d1881ce5b70a3457257166e0cb",
+    "bytes": 5290,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "fla-org/flash-linear-attention",
+    "commit": "07ca1e49ef6ca76a7f0dbc8d5ad040ab59434c38",
+    "path": "fla/ops/kda/naive.py",
+    "blob_sha": "51ff7076b26244366cf7ed2999ed13052da19cd5",
+    "sha256": "60a32285d4b67068ff633b48bbe8ab31028066d24f00d27e12199a88fc73f016",
+    "bytes": 6339,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "fla-org/flash-linear-attention",
+    "commit": "07ca1e49ef6ca76a7f0dbc8d5ad040ab59434c38",
+    "path": "fla/ops/gated_delta_product/naive.py",
+    "blob_sha": "591c3d3147e6b4837b60b9928fef1720a6ea3615",
+    "sha256": "6c9d427379a58c77005e3738c35243cb18fe8b88668423eca042caad3932bc83",
+    "bytes": 2643,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "facebookresearch/sparse-delta-memory",
+    "commit": "183e7df809131b80ad4393741029d0f20fc3640b",
+    "path": "lingua/sparse_delta_memory/layer.py",
+    "blob_sha": "3b71e30e0bdd5dfd8d8c041423f804a85c1abc94",
+    "sha256": "0b14fbc760423e3c39e810a8e583681f1e819d33f683c220433563337cb55da6",
+    "bytes": 47717,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "facebookresearch/sparse-delta-memory",
+    "commit": "183e7df809131b80ad4393741029d0f20fc3640b",
+    "path": "lingua/sparse_delta_memory/memory_ops.py",
+    "blob_sha": "e88252c84b8d82e2972a6e2b4fba2f878c2b35e0",
+    "sha256": "b4885bdb9d0c8fd72c730c8ffbfa1c37a25c3717c226eb3900787302f00f4468",
+    "bytes": 189613,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "RWKV/RWKV-LM",
+    "commit": "846b08c1f192f93a72b1064c1637186f0e2c19af",
+    "path": "RWKV-v7/rwkv_v7_demo_rnn.py",
+    "blob_sha": "4c89c6318730dcae29a25868f547f696fb3019a0",
+    "sha256": "a985ce39069d9535bd50609bd8df83c443f322736a2cd6f9cd11027ffbfa886b",
+    "bytes": 14351,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "xiaowu0162/LongMemEval",
+    "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+    "path": "README.md",
+    "blob_sha": "3490db4f796c14903788ecb3e33f056cab438bb0",
+    "sha256": "c4ff45676683d9e2f7cf7d9099d26426f14635ec110dbb1da818d1019a142573",
+    "bytes": 15970,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "xiaowu0162/LongMemEval",
+    "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+    "path": "src/evaluation/evaluate_qa.py",
+    "blob_sha": "4732f3772b04a2b9069121ade304e6320494abc2",
+    "sha256": "ecce9c4c79dc89d99534ac17b383a5cbb5b9f0c69ee98adaf0684742e3d95251",
+    "bytes": 7436,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "xiaowu0162/LongMemEval",
+    "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+    "path": "src/evaluation/print_qa_metrics.py",
+    "blob_sha": "f1f68505865960188f239d0f8ccd0a10f8d7b906",
+    "sha256": "e9283933a0cefb7a0ded7365e436ae3d1be5aac41853325e6155d83bf07607f0",
+    "bytes": 1303,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "xiaowu0162/LongMemEval",
+    "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+    "path": "src/retrieval/run_retrieval.py",
+    "blob_sha": "48e615df943a329801c3703edf4f83dc0a18fe17",
+    "sha256": "efd7fc5969a904717741fadca3c7dc73611ddbb2aaf3ef33117ebb6943b3e346",
+    "bytes": 21271,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "xiaowu0162/LongMemEval",
+    "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+    "path": "src/generation/run_generation.py",
+    "blob_sha": "8e9e0f25b804d3d0afbadc9619264b0c7a275dc0",
+    "sha256": "4f1eb3c69d7ad40f04065b9c0bc86f6582441018fc6ff751d162d66c95baf672",
+    "bytes": 21608,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "beijixiong3510/OWM",
+    "commit": "a5c59d7b569e3228374ce57a696647646fde6ea2",
+    "path": "OWM_CNN/owm.py",
+    "blob_sha": "dded10d351296f7fbf39506e0862cd2eb1579447",
+    "sha256": "24215d0aae4934b7c777eb976dc35604f143ee195fed231413e96f3b1b107363",
+    "bytes": 8020,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "NVlabs/GatedDeltaNet",
+    "commit": "b53d6d3a161267432a79c1c04af69fa52bddc921",
+    "path": "lit_gpt/gated_delta_net.py",
+    "blob_sha": "daaeff4c365b34a48ee9f59e35c2db0664ec2bc8",
+    "sha256": "8aaee1dcff184742148bb694730e5c1da0d246bbba92d2a0a462e77963f35fbc",
+    "bytes": 9514,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "facebookresearch/ParlAI",
+    "commit": "a29567f7ce76992fd1f03c51ba9e3b155a37ea51",
+    "path": "parlai/tasks/babi/agents.py",
+    "blob_sha": "7e0d4c5d63f5bc1dd7be89df3176baf62dd63b3a",
+    "sha256": "8a7ae2c9c757f98f25d06d59979701e9c92dfbdee95823349bc0fc9db3379273",
+    "bytes": 3541,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "facebookresearch/ParlAI",
+    "commit": "a29567f7ce76992fd1f03c51ba9e3b155a37ea51",
+    "path": "parlai/core/metrics.py",
+    "blob_sha": "16970e6aca78a7b2673b69aea5ff555ec285da8d",
+    "sha256": "5e01f09088bf250ed9575f26427c5935b309bd1a700c4e2b13751b25c96946f3",
+    "bytes": 35793,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  },
+  {
+    "repo": "EleutherAI/lm-evaluation-harness",
+    "commit": "d6de81643928d653435c431bae19945d41d32520",
+    "path": "lm_eval/tasks/lambada/lambada_openai.yaml",
+    "blob_sha": "e159a6c7a0f6c2cfbc50b14b7d5b6301fd591a62",
+    "sha256": "96dee2fe378666b6b5411958a25ad5c83f5b43eb6b3c830f4b0fd485f9adb6a5",
+    "bytes": 489,
+    "retrieved_at": "2026-10-08",
+    "read_depth": "targeted_static_read"
+  }
+]

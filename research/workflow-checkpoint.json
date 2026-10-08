@@ -125,16 +125,17 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-08T22:45:48.311655+00:00",
+    "service_updated_at": "2026-10-08T22:47:06.561010+00:00",
     "last_run_time": "2026-10-08T16:28:09.134751+00:00",
     "last_run_scope": "historical engineering goal, not new Delta math execution",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
-    "immediate_first_run": "Publishing session requests once after this activation packet is read back; this checkpoint is not an execution receipt.",
-    "first_new_stage_run_observed": false,
-    "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7"
+    "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
+    "first_new_stage_run_observed": true,
+    "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
+    "last_math_milestone_recorded_at": "2026-10-08T23:06:22.180559+00:00"
   },
-  "next_action": "Local reads same-revision current handoff/runbook, restores actual accepted host, qualifies software/full Teacher/native interfaces, profiles actual resources and executes admitted complete matrix; no further automatic Web source continuation.",
+  "next_action": "Current Web scope: continue Delta mathematics from PROGRESS.json; prior engineering authoring endpoint remains closed. Previously authorized Local validation remains separate, not started or dispatched by this math invocation.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -554,7 +555,7 @@
       }
     ]
   },
-  "research_next_action": "Enabled math-only background continuation resumes actual primary reading and candidate construction; publishing session requests immediate first invocation after this packet. No mathematical completion or continuous execution claimed.",
+  "research_next_action": "Resolve D01 corrected Bayesian-mixture/Voltic author formulas and D03 Q-Delta full formula/code comparison first; then derive independent residual mechanisms from finite precision, identifiability and ordered propagation. Do not count relabeled covariance/preconditioning/error feedback. Continue independent source reading where one source is unavailable.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -602,14 +603,19 @@
       "selection": 15
     },
     "current_counts": {
-      "constructed": 0,
-      "math_reviewed": 0,
-      "math_qualified": 0,
+      "constructed": 2,
+      "math_reviewed": 2,
+      "conditional_algebra_accepted": 2,
+      "math_qualified": 1,
+      "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "background_enabled_first_invocation_pending",
+    "status": "partial_math_milestone_nearest_work_pending",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
-    "gpu_execution_scope": "not included"
+    "gpu_execution_scope": "not included",
+    "nearest_work_admission": "pending; no originality claim",
+    "current_delivery_parent": "7c8ede7672d26c9f6975f94bb487b3823510d95c",
+    "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md"
   }
 }

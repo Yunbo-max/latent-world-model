@@ -1,0 +1,168 @@
+{
+  "kind": "math-card",
+  "version": "1.0.0",
+  "candidate_id": "D01",
+  "title": "单个不确定修订的后验回溯写入：精确低秩双分支",
+  "authoring_worker": "/root/delta_edit_derivation",
+  "status": "constructed_pending_independent_review",
+  "originality_status": "unresolved_nearest_work_audit; no priority or fully-new claim",
+  "formal_object": {
+    "question": "When current causal evidence cannot reliably distinguish release of an obsolete association from protection of a coexisting one, can later observed evidence revise that earlier edit without replaying history or storing two full affine Delta states?",
+    "state": "S in R^(d_k x d_v), readout S^T q; exactly one unresolved event tau with hypothesis H in {C,R} (protect/coexist or release/revise). H indexes candidate predictive policies, not a proven semantic truth label.",
+    "scientific_objective": "Causal token predictive logloss, and exact computational equivalence to an explicit two-state Bayesian mixture over the uncertain write. Better truth identification is conditional on informative and calibrated branch likelihoods, not implied by algebra.",
+    "sampling": "Observed token sequence X_1:T from an unspecified fixed corpus law D. Inference sees tokens in order; no future token, answer or evaluator label is available before its prediction. H has prior pi_tau strictly between zero and one, causal in X_<=tau.",
+    "estimator": "Teacher-forced causal mixture NLL on genuinely observed corpus tokens after each prediction; no latent revision label required for predictive training. Semantic revision labels, if later supplied, are extra supervision and separately accounted.",
+    "actual_update": "At tau choose two causal rank-one candidate writes using the same e: S_tau^C=barS_tau+u_C e^T, S_tau^R=barS_tau+u_R e^T. For every later observed input j, both follow S_j^h=A_j S_(j-1)^h+B_j, A_j=(I-beta_j k_j k_j^T)D_j, B_j=beta_j k_j v_j^T; all these features shared across h. Store base S^C, l=(u_R-u_C) propagated by A, fixed e, and logodds. Output the mixture of two normalized token distributions; do not substitute softmax of mean state."
+  },
+  "operations": [
+    {
+      "id": "H02",
+      "input": "available prefix/state and the binary revision/coexistence target",
+      "condition": "The hypotheses may induce identical observable laws on the available prefix.",
+      "condition_status": "conditional",
+      "output": "If P_C=P_R on that sigma-algebra, posterior stays prior and equal-prior semantic decision error is at least 1/2. No residual-only rule can identify revision then."
+    },
+    {
+      "id": "F04",
+      "input": "difference between two initial rank-one edits and common future affine Delta recurrence",
+      "condition": "Both branches have identical A_j and B_j at every subsequent observed input; one unresolved event; real arithmetic.",
+      "condition_status": "conditional",
+      "output": "S_s^R-S_s^C=l_s e^T with l_s=A_s...A_(tau+1)(u_R-u_C), maintaining rank <=1 without storing dense future P."
+    },
+    {
+      "id": "B04",
+      "input": "two normalized causal token predictive distributions and a fixed binary model index",
+      "condition": "Positive prior and positive finite conditional likelihoods; each factor uses only preceding observed prefix.",
+      "condition_status": "established",
+      "output": "Posterior logodds add observed-token log-likelihood ratios; the resulting prequential distribution is a normalized mixture over branch sequence likelihoods."
+    },
+    {
+      "id": "F03",
+      "input": "one affine base state, rank-one difference and model-index posterior",
+      "condition": "Same shared future features and exactly one unresolved edit; branch readout computable from base projection plus rank-one correction.",
+      "condition_status": "conditional",
+      "output": "S^C,l,e,logodds are sufficient for the explicit two-branch predictor used here; mean M=S^C+pi l e^T needs a posterior transport correction when pi changes."
+    },
+    {
+      "id": "H06",
+      "input": "claims that mean-state readout or arbitrary neural feedback preserves mixture correctness",
+      "condition": "At least nonlinear softmax readout, or state-dependent future features.",
+      "condition_status": "established",
+      "output": "softmax of weighted logits is generally not their probability mixture; branch-dependent A/B prevents simple rank-one propagation."
+    }
+  ],
+  "derivation_steps": [
+    {
+      "id": "D01.1",
+      "statement": "Let F_tau contain every actual causal observable at the uncertain event. If P(F_tau|H=C)=P(F_tau|H=R), Bayes rule leaves pi_tau equal to its prior; for equal priors every measurable binary decision has error 1/2. More generally optimal error is (1-TV(P_C,P_R))/2 for equal priors.",
+      "justification": "Integrate the decision rule over the identical laws; for unequal laws, the Neyman-Pearson measurable set attains total-variation separation. This is an observation-identifiability boundary, not an unconditional claim about contextual neural encoders."
+    },
+    {
+      "id": "D01.2",
+      "statement": "At tau, barS=D_tau S_(tau-1), e=v_tau-barS^T k_tau. Choose causal u_C,u_R and define S_tau^h=barS+u_h e^T. Their difference is E_tau=(u_R-u_C)e^T, rank at most one.",
+      "justification": "Subtract the two matrices; vector dimensions u_h in R^d_k and e in R^d_v yield d_k by d_v. No model code or novel-projection claim enters this step."
+    },
+    {
+      "id": "D01.3",
+      "statement": "A concrete reference pair is u_R=beta_tau k_tau and u_C=beta_tau P_perp k_tau/(k_tau^T P_perp k_tau) for unit-norm k_tau, where P_perp projects onto the orthogonal complement of a causal protected-query span and denominator >=epsilon>0. Then k_tau^T u_C=k_tau^T u_R=beta_tau, while Q^T u_C=0. If denominator<epsilon, define the C branch explicitly as no-write (u_C=0), label its new-key fitting deficit, and do not claim coexistence capacity.",
+      "justification": "Projector symmetry/idempotence gives k^T P k=||Pk||^2. Multiplication gives equal local corrections and exact protected-linear-query invariance for C only. The projection and infeasibility handling are disclosed reference algorithms, not new mathematics. Its norm beta/sqrt(k^T P k) exposes the conditioning cost."
+    },
+    {
+      "id": "D01.4",
+      "statement": "For j>tau, subtract S_j^R=A_j S_(j-1)^R+B_j and S_j^C=A_j S_(j-1)^C+B_j. Thus E_j=A_j E_(j-1), so E_s=[A_s A_(s-1)...A_(tau+1)(u_R-u_C)]e^T=l_s e^T. The update l_j=D_j l_(j-1)-beta_j k_j[k_j^T D_j l_(j-1)] preserves the specified order.",
+      "justification": "Induction in actual chronological order. B cancels because shared; the common left multiplication preserves rank. There is no inverse A, so beta=1 and singular forgetting are admissible, though lost branch differences cannot be recreated."
+    },
+    {
+      "id": "D01.5",
+      "statement": "At time j before X_j arrives, q_j and expert token readouts depend only on X_<j. Compute r_C=(S_(j-1)^C)^T q_j and r_R=r_C+e(l_(j-1)^T q_j). With any fixed shared normalized readout p_h(y|X_<j)=softmax(g_theta(r_h,X_<j))_y, predict p_mix=(1-pi_(j-1))p_C+pi_(j-1)p_R.",
+      "justification": "Rank-one multiplication supplies exact expert input. Each p_h is a probability distribution, making their convex combination normalized. Readout g may be nonlinear, but both readouts must be evaluated; arbitrary nonlinear g does not grant a single-readout shortcut."
+    },
+    {
+      "id": "D01.6",
+      "statement": "After observing X_j, eta_j=eta_(j-1)+log p_R(X_j|X_<j)-log p_C(X_j|X_<j), pi_j=sigmoid(eta_j). Only then calculate shared features from X_<=j and update base S_j^C and l_j. Under the explicitly defined two-policy generative mixture, pi_j=P(H=R|X_<=j).",
+      "justification": "Bayes recursion with static H, factored causal token laws. The token was unavailable at prediction and becomes evidence only after observation. Learning generated self-sampled tokens is not external evidence of truth and must not be silently identified with observed-source evidence."
+    },
+    {
+      "id": "D01.7",
+      "statement": "The posterior mean matrix is M_j=S_j^C+pi_j l_j e^T. Propagating the previous mean gives A_j M_(j-1)+B_j=S_j^C+pi_(j-1)l_j e^T. Therefore M_j=A_j M_(j-1)+B_j+(pi_j-pi_(j-1))l_j e^T.",
+      "justification": "Expand both using the shared affine update and subtract. The last rank-one term is the retrospective repair transport, a posterior change in the still-surviving effect of the old write. It is not a current-key scalar learning-rate adjustment in general."
+    },
+    {
+      "id": "D01.8",
+      "statement": "For an observed window tau+1:T, define P_h=product_j p_h(X_j|X_<j). Sequential mixture probability telescopes to P_mix=(1-pi_tau)P_C+pi_tau P_R. Hence -log P_mix <= -log P_h -log w_h for either h, with w_C=1-pi_tau and w_R=pi_tau.",
+      "justification": "Multiply normalized prequential factors or use Bayes denominators; P_mix>=w_h P_h. This known Bayesian-mixture logloss guarantee compares the two specified causal policies only; it does not guarantee semantic revision detection or outperform the best branch by a margin."
+    },
+    {
+      "id": "D01.9",
+      "statement": "If both likelihoods are equal on every observed future token, eta remains fixed and the repair term vanishes. If l_j=0 because ordered future A annihilated the difference, expert readouts become equal and no posterior reweighting can recover it. If future A_j or B_j differ by branch, E_j=A_j^R E_(j-1)+(A_j^R-A_j^C)S_(j-1)^C+(B_j^R-B_j^C); the extra terms need not have rank one.",
+      "justification": "Direct substitution. These are actual failure boundaries; stability alone does not preserve l, and identical raw future tokens do not imply identical features in a memory-feedback network."
+    },
+    {
+      "id": "D01.10",
+      "statement": "Training the normalized mixture uses L(theta)=-sum_j log p_mix,theta(X_j|X_<j); full differentiation includes both experts, prior and posterior recursions and shared features. Frozen prior/encoder may be declared a restricted surrogate, but detaching likelihood-dependent pi creates a different gradient field.",
+      "justification": "Chain rule on the specified finite causal factorization. No KL/ELBO is attached to deterministic S. Future target X_j occurs only in its scored likelihood and subsequently observed posterior update, not pre-prediction features."
+    }
+  ],
+  "assumptions": [
+    "Exactly one unresolved uncertain edit is represented. The construction does not claim tractable exact inference for many independently branching edits; arbitrary m events create up to 2^m expert trajectories.",
+    "For the entire represented window, future q/k/v/beta/D and any protected-policy admission gates are shared causal functions of raw observed prefix or a branch-independent encoder. Ordinary multilayer feedback violating this must use explicit states or mark an approximation.",
+    "C and R are candidate predictive policies; labels protect/revise describe intended semantics but are not guaranteed latent truth. Meaningful discrimination requires informative likelihood separation, reliable priors/readouts, and available observed evidence.",
+    "Posterior update uses normalized token probabilities from prediction before each observed token. Pseudo-observation v generated from current input is not automatically a token likelihood.",
+    "The exact propagation and logloss identities are real-arithmetic results. Numerical logsumexp/logodds, factor scaling and precision errors require later Local acceptance; no numerical execution occurred.",
+    "Protected queries and projection inputs are already observed/causally encoded; construction never accesses answer labels or future query sets. Exact protection is only for the chosen fixed linear span.",
+    "D_j is diagonal for stated O(d_k) vector transport; if dense, add O(d_k^2). The recurrence order remains (I-beta k k^T)D."
+  ],
+  "method_expression": {
+    "state_tuple": "(S^C in R^(d_k x d_v), l in R^d_k, e in R^d_v, eta in R), event/source identity and tau; common encoder state separately costed.",
+    "causal_schedule": [
+      "Admit one uncertain edit from already-observed input; form the two declared causal writes and rank-one difference; set causal prior.",
+      "Before each next observed token: query base and correction, compute both complete normalized readouts, emit probability mixture.",
+      "After observing token: update logodds from the previously computed likelihoods, then update base and l using shared input-derived Delta features.",
+      "On release/protection certainty, finite cap or end of window: retain explicit prior/posterior decisions and source identity. A hard collapse/prune is an approximation and voids exact future two-policy mixture equivalence; this card makes no uncharged multi-event guarantee."
+    ],
+    "reference_edits": "u_R=beta k; u_C=beta P_perp k/(k^T P_perp k) only if well conditioned, otherwise declared no-write C policy. This reference protection is known, not claimed as the contribution.",
+    "mixture_and_mean": "p_mix=(1-pi)p_C+pi p_R. Mean M=S_C+pi l e^T is available as a semantic matrix statistic but replacing mixture probability with readout(M) is prohibited unless the readout is linear for the claimed output.",
+    "restoration": "Exact resume must bind event identity, tau, S_C,l,e,eta, encoder state, source/tokenizer/parameter identities and previously-observed position. No generated model or serializer code is supplied in this mathematical stage."
+  },
+  "distinguishing_prediction": {
+    "algebraic": "In the stated one-event shared-feature regime, full two-state and compressed predictors agree exactly in real arithmetic for every causal query and token likelihood. Mean update contains a signed repair proportional to pi_j-pi_(j-1), even when current k_j is orthogonal to original event k_tau.",
+    "conditional_semantic": "Only later evidence whose likelihood ratio differs between branches can alter release/protection belief. Stronger token-likelihood separation should shorten resolution; no disambiguating evidence produces no posterior resolution. Repeated similar keys without evidence separation do not alone identify revision.",
+    "resource": "Compared with explicit two-state representation, additional recurrent memory becomes d_k+d_v+1 scalars rather than d_k*d_v; shared Delta base arithmetic remains one matrix update. Two complete normalized readouts and posterior likelihood bookkeeping remain charged."
+  },
+  "falsifier": [
+    "A valid shared-A/B one-event symbolic derivation that produces rank greater than one, or a non-telescoping mixture under positive causal likelihoods, refutes the central exactness claim.",
+    "A purported ordinary-network deployment allowing branch-dependent key/value features invalidates this scope rather than demonstrating an exact extension.",
+    "If protection/revision task benefit disappears under a matched explicit two-expert mixture or ordinary contextual-gate baseline, no semantic advantage of the low-rank algebra remains; computational savings alone must be measured honestly.",
+    "No native documented task with later disambiguating evidence or no calibrated branch likelihoods leaves semantic identification unmeasured. bAbI/LAMBADA accuracy alone cannot prove it.",
+    "Norm blowup in projected C when overlap approaches one, vanishing l after singular Delta factors, or poorly calibrated likelihoods may make the candidate useless despite correct algebra."
+  ],
+  "closest_alternative": {
+    "known_mechanisms": "AlphaEdit/protected projection, standard Bayesian two-expert mixture and BOCPD, GDN ordered affine state propagation, Memory by Design Bayesian Layer, KDN and Voltic uncertainty-memory constructions. These are not renamed originality claims.",
+    "strongest_simple_baseline": "Explicit two-state Bayesian mixture with the SAME initial writes, shared future features, readouts, prior and observed-token likelihoods. It is predictively identical in the scoped regime. Also ordinary causal contextual gate deciding once; exact event-addressed external history may remove the ambiguity with more information access.",
+    "residual_delta": "Compact rank-one counterfactual effect of one old edit is propagated and later reweighted by an observed predictive posterior; posterior mean includes retrospective transported repair. Scientific originality of this application remains pending broader low-rank multi-model/fast-weight audit. It is not a universal better Delta learning rule.",
+    "originality_gaps": [
+      "Voltic full formula/author code unavailable in this worker; official abstract only.",
+      "Root KDN source audit must be joined.",
+      "Exact low-rank compression is familiar algebra; no claim of first application or of new Bayesian filtering.",
+      "Must examine prior recurrent low-rank ensemble/counterfactual-memory algorithms before novelty clearance."
+    ]
+  },
+  "decisive_comparison": {
+    "scope": "Feasibility and discriminating logic only, not executable experiment design or dispatch.",
+    "construction_control": "Compressed one-event vs explicit identical two-state mixture establishes a computational-identity comparison; fixed-posterior and one-shot contextual-gate alternatives isolate the utility of later evidence rather than projection choice.",
+    "native_measurement_status": "Measurement gap: inspected bAbI/LAMBADA tasks cannot be assumed to jointly annotate valid-old-fact protection, genuine revisions and delayed disambiguation. Existing author tasks such as LongMemEval knowledge updates require native-source/scorer audit before adoption; no task/label/metric created here.",
+    "cost_conditions": "RTX2080Ti and 0.1B/1B target-token tiers are background future feasibility only. No GPU memory/time promise; sum recurrent/encoder state, two readouts, likelihood work, projection construction and evidence-access cost. Event caps cannot be hidden as O(1) exact multi-event inference."
+  },
+  "complexity_and_information_access": {
+    "memory": "One d_k*d_v base + d_k+d_v+1 recurrent scalars for one event; Q/projection basis and encoder state additional. Causal source/event identity also retained.",
+    "time": "Common Delta matrix update O(d_k*d_v), vector transport O(d_k) for diagonal D, base query O(d_k*d_v), rank-one query correction O(d_k+d_v), plus two actual readout/vocabulary-normalization costs. Projection construction O(d_k*r^2+r^3) for protected rank r QR/Gram reference or cached projector costs; no free projection.",
+    "data": "Only observed tokens and causal protected queries. No evaluator labels/future queries. No external memory lookup is required by the one-event construction; any external identity evidence is additional information and cost."
+  },
+  "independent_review": "pending; author did not self-certify",
+  "source_refs": [
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/D01-sources.md",
+      "sha256": "18255e752c42e2fe82854dfae0dc7ce8baf6dad1fd1763428f3a5fe0c79f5624"
+    }
+  ]
+}
