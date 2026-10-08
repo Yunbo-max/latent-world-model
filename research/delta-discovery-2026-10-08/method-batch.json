@@ -30,6 +30,32 @@
       },
       "scientific_admission": "pending_nearest_work_and_measurement",
       "selected": false
+    },
+    {
+      "candidate_id": "D05",
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D05.json",
+        "sha256": "3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
+        "sha256": "18bfccbd85eec3353273fc89e2ff547004b3928b48b925f4527d89447a4c21e5"
+      },
+      "scientific_admission": "pending_primary_closest_work_and_measurement",
+      "selected": false
+    },
+    {
+      "candidate_id": "D06",
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D06.json",
+        "sha256": "447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
+        "sha256": "517046828658d2bd9e853544311dceaeca92b9a4255699ae0e3db7f4eb9f3709"
+      },
+      "scientific_admission": "pending_primary_closest_work_and_measurement",
+      "selected": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T22:46:25.512Z",
+  "recorded_at": "2026-10-08T23:46:40Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -82,7 +82,10 @@
     "User-requested multi-architecture exploration delivered six conditional mathematical route cards with primary nearest-work audits and independent review of the six core inequalities/constraints. Preserved original discovery qualification, engineered source/configs and pending Local experiments.",
     "Bounded Delta/KDA/RWKV-7 and diffusion-nearest-work reading, local/frozen-long-horizon write-effect derivation with independent mathematical review, and owner-directed scope convergence; documentation-only, no new qualified method or runtime claim.",
     "Owner-directed defect diagnosis and scope correction: diffusion optional; known conditional interference, retention, rank/precision and constrained-edit boundaries reviewed independently. Targeted primary closest-work audit recorded; no candidate/code/experiment gate claimed.",
-    "Prepared standalone owner-requested Delta math-only background goal and fresh empty evidence batch; reused disabled task identity with actual configuration receipt. No new math candidates or selection claimed."
+    "Prepared standalone owner-requested Delta math-only background goal and fresh empty evidence batch; reused disabled task identity with actual configuration receipt. No new math candidates or selection claimed.",
+    "Constructed and independently reviewed four current Delta math cards total: D01/D03 plus finite-precision D05 and sliding log-volume D06. Conditional mathematics accepted; scientific admission remains zero.",
+    "Completed Q-Delta full-formula/static-author-source and Voltic full-formula audits, narrowing D03 and D01 without claiming novelty.",
+    "Established and independently reviewed a revision-versus-collision total-variation no-go result; retained a protected-projection conditioning boundary as rejected/not-distinct rather than padding the candidate pool."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -91,7 +94,8 @@
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
     "Local executes complete chosen training/benchmark matrix and returns real results, cost/failure evidence and scientific review.",
-    "Original research-discovery batch and novelty/selection obligations remain pending separately; this engineering source packet does not pass them."
+    "Original research-discovery batch and novelty/selection obligations remain pending separately; this engineering source packet does not pass them.",
+    "Current Delta discovery still needs 16 additional constructed cards to reach 20, complete primary nearest-work review for D01/D03/D05/D06, scientific admission, whole-pool ranking and top15 selection."
   ],
   "candidate_state": {
     "constructed": 1,
@@ -133,9 +137,9 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-08T23:06:22.180559+00:00"
+    "last_math_milestone_recorded_at": "2026-10-08T23:46:40+00:00"
   },
-  "next_action": "Current Web scope: continue Delta mathematics from PROGRESS.json; prior engineering authoring endpoint remains closed. Previously authorized Local validation remains separate, not started or dispatched by this math invocation.",
+  "next_action": "Continue Delta mathematics from PROGRESS.json: close primary nearest-work families for D01/D05/D06 and broader D03 collision scope, then derive genuinely distinct residual mechanisms. Prior engineering authoring remains closed; Local validation remains separate and was not dispatched.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -201,6 +205,21 @@
       ],
       "scope": "Background goal/configuration and honest zero-count math-batch initialization; no model source or historical evidence changed.",
       "verification": "Expected-parent non-force main update and exact changed-file readback reported by publishing session."
+    },
+    "delta_math_second_milestone_delivery": {
+      "parent_head": "806692203c91112027084020b4f7a817687b756e",
+      "paths": [
+        "research/delta-discovery-2026-10-08/cards/D05.json",
+        "research/delta-discovery-2026-10-08/cards/D06.json",
+        "research/delta-discovery-2026-10-08/reviews/D05.review.json",
+        "research/delta-discovery-2026-10-08/reviews/D06.review.json",
+        "research/delta-discovery-2026-10-08/sources/QDELTA_FULL_AUDIT.md",
+        "research/delta-discovery-2026-10-08/sources/VOLTIC_D01_FULL_AUDIT.md",
+        "research/delta-discovery-2026-10-08/rejected/NOGO_RC_01.md",
+        "research/delta-discovery-2026-10-08/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md"
+      ],
+      "scope": "Math/source-only partial milestone: four constructed/reviewed cards total, zero scientific admissions/selections; no model code or experiment execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
   "skill": {

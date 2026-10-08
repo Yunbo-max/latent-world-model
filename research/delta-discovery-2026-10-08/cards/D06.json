@@ -1,0 +1,51 @@
+{
+  "kind": "math-card",
+  "version": "1.0.0",
+  "candidate_id": "D06",
+  "title": "Sliding Log-Volume Retention Budget for Delta Gates",
+  "authoring_worker": "/root/ordered_propagation_candidate",
+  "status": "constructed_conditional_math_repaired_closest_work_pending",
+  "originality_status": "pending orthogonal-RNN, dynamical-isometry, log-determinant and constrained-gating audit; no priority claim",
+  "formal_object": "For unit k_t, diagonal D_t with entries in (0,1], beta_t in [0,1), and ordinary Delta transition A_t=(I-beta_t k_t k_t^T)D_t, define per-step irreversible log-volume expenditure c_t=-log det A_t=-log(1-beta_t)-sum_i log d_(t,i). For B>=0 and integer W>=1, constrain every trailing W-token expenditure to at most B, with absent pre-sequence costs initialized to zero or a resumed cost queue verified feasible, and study the minimum-singular-value survival of the actual ordered frozen-feature product.",
+  "operations": [
+    {"id":"F04","input":"Chronological product of diagonal-times-rank-one Delta transitions","condition":"Order is preserved and future coefficients are frozen","condition_status":"conditional","output":"Exact tagged-state propagation and determinant product"},
+    {"id":"G03","input":"Ordinary symmetric erase and contractive diagonal decay","condition":"Unit k, 0<=beta<1 and 0<d_i<=1","condition_status":"established","output":"Each A has spectral norm at most one; ordered products are contractions"},
+    {"id":"C04","input":"Singular values, determinant and current residual","condition":"Each factor has spectral norm at most one; nonnormality itself is allowed and finite precision remains separate","condition_status":"conditional","output":"Exact correction expenditure plus a conservative state-survival lower bound"},
+    {"id":"D01","input":"Proposed gate log-cost and an available sliding budget","condition":"Projection is radial in nonnegative log-cost coordinates","condition_status":"established","output":"Causal feasible gates with c_t no larger than the available budget"},
+    {"id":"H05","input":"Rolling budget dependency and CE gradients","condition":"Each forward step reads W-1 realized costs; reverse dependence can propagate through the full remaining sequence","condition_status":"conditional","output":"Autodiff gradients almost everywhere and framework-selected subgradients at kinks; detaching the accumulator is a biased surrogate"},
+    {"id":"H06","input":"Determinant-one nonnormal/anisotropic matrices and zero-budget case","condition":"Counterexamples preserve the claim being tested","condition_status":"established","output":"Determinant alone is insufficient without a norm cap; retention is not correctness"}
+  ],
+  "derivation_steps": [
+    {"id":"d01","statement":"The matrix determinant lemma gives det A_t=(1-beta_t) product_i d_(t,i).","justification":"det(I-beta kk^T)=1-beta for unit k, and determinants multiply without commuting the factors."},
+    {"id":"d02","statement":"With post-decay state Sbar_t=D_t S_(t-1) and residual e_t=v_t-Sbar_t^T k_t, the post-update residual is e_t^+=v_t-S_t^T k_t=(1-beta_t)e_t, so -log(||e_t^+||/||e_t||)=-log(1-beta_t) when e_t is nonzero.","justification":"Write S_t=Sbar_t+beta_t k_t e_t^T, left-multiply by k_t^T and use ||k_t||=1."},
+    {"id":"d03","statement":"Thus erase correction and state-volume loss share the exact scalar -log(1-beta); diagonal decay spends additional volume without improving the post-decay current residual.","justification":"Subtract the determinant decomposition from the residual identity."},
+    {"id":"d04","statement":"For P=A_b...A_(a+1), every singular value is at most one and sigma_min(P)>=|det P|=exp(-sum_j c_j).","justification":"sigma_min=|det P|/product of the other singular values, whose product is at most one."},
+    {"id":"d05","statement":"Write proposed costs a_i=-log d_i, b=-log(1-beta), c=b+sum a_i. With available p_t=B-sum previous W-1 costs, choose alpha=min(1,p_t/c) and set d_i=dtilde_i^alpha, beta=1-(1-betatilde)^alpha.","justification":"The realized log-cost is alpha c and is nonnegative, so it fits the remaining token-bucket budget and equals the original gates when inactive."},
+    {"id":"d06","statement":"Every interval of at most W realized updates has sum c<=B and hence sigma_min(P)>=exp(-B); length H gives the blockwise loose bound exp(-ceil(H/W)B).","justification":"Use the sliding construction and apply the ordered-product inequality to each interval/block."},
+    {"id":"d07","statement":"For a separate general oblique/nonnormal extension define c_j=-log|det A_j|. If only ||A_j||<=rho_j, then sigma_min(P)>=exp(-sum_j c_j)/(product_j rho_j)^(d-1).","justification":"Bound the other d-1 singular values by the product spectral norm. Here c_j need not be a nonnegative budget because an oblique determinant may exceed one; this exposes why the ordinary Delta token budget does not directly certify QED/D03."}
+  ],
+  "assumptions": [
+    "The theorem is for ordinary symmetric Delta erase with unit keys, beta strictly below one and contractive positive diagonal decay.",
+    "Future coefficients are frozen and shared between compared trajectories; full state-dependent neural dynamics require a Jacobian analysis.",
+    "The lower bound protects arbitrary real-arithmetic state perturbations, not semantic facts or future query alignment.",
+    "B>=0, W is a positive integer, proposed dtilde_i are finite in (0,1], proposed betatilde is finite in [0,1), and initialization or resume state satisfies the rolling budget.",
+    "The rolling budget is causal and prefix-only but introduces a sequential dependency for which no associative training scan is proved.",
+    "Finite precision can erase components below numerical resolution even when the real-arithmetic lower bound is positive.",
+    "Exact one-step replacement beta=1 is excluded because it makes A singular and consumes infinite log-volume budget.",
+    "Ordinary CE must learn when to spend budget; the theorem supplies no importance oracle.",
+    "The gate projection is piecewise differentiable. Min, max, equality at the budget boundary and the zero-cost branch use framework-selected subgradients at kinks."
+  ],
+  "method_expression": "Let the existing gate network propose finite dtilde_i in (0,1] and betatilde in [0,1). Convert to nonnegative costs atilde_i=-log dtilde_i, btilde=-log(1-betatilde), ctilde=btilde+sum atilde_i. Maintain the preceding W-1 realized scalar costs and p_t=max(0,B-sum c_j). Set alpha=1 for ctilde=0 and otherwise min(1,p_t/ctilde); apply d_i=dtilde_i^alpha and beta=1-(1-betatilde)^alpha in the ordinary Delta recurrence. Train with ordinary teacher-forced CE. Ordinary autodiff gradients apply almost everywhere and the framework selects subgradients at kinks; exact reverse dependence may propagate across the full later sequence through the recurrent budget state, while a detached budget state is a declared biased surrogate.",
+  "distinguishing_prediction": "For every frozen W-step product of the admitted ordinary Delta transitions, minimum singular value is at least exp(-B) up to numerical error, while updates equal the original proposed gates whenever the budget is inactive. If multiplicative attenuation materially causes long-range failure, tagged old-state components should survive longer at the explicit cost of weaker immediate correction; no benefit is predicted when collision, query misalignment or representational alias dominates.",
+  "falsifier": "Reject practical necessity if a fixed small erase/decay gate with the same realized total expenditure is equivalent; the bound holds but native long-range behavior does not improve; revision/adaptation loss dominates; the sequential budget removes the compute advantage; or primary work already applies the same sliding log-volume constraint to Delta. A mathematical falsifier is an admitted ordinary Delta product whose minimum singular value is below exp(-sum c).",
+  "closest_alternative": "Original Delta/GDN/KDA gates and a fixed beta/decay cap are the strongest simple baselines. RWKV-7 has richer removal/insertion gates; PDN changes directions with historical curvature; D03 changes write direction with a future-query metric; QED changes erase content and may be nonnormal; DeltaProduct simply adds microstep costs. Orthogonal/unitary RNNs, dynamical isometry, log-determinant regularization and constrained recurrent gating are serious unclosed nearest-work risks.",
+  "decisive_comparison": "Primary-source review must first determine whether an existing recurrent method already projects sliding gate log-cost under a minimum-singular-value guarantee. If not, later comparison must match realized cumulative gate expenditure against a fixed-cap Delta and measure the correction-retention trade-off with native tasks; this card does not define or authorize that experiment.",
+  "complexity_and_information_access": "Recurrent inference stores W scalar costs (or an equivalent queue) with O(1) rolling bookkeeping, applies O(d) gate transformation per token and uses no d^2 metric. It uses only current prefix gates and ordinary next-token labels. Exact training may retain O(T) additional scalar activations or recompute them because reverse dependence can cross the full remaining sequence; no chunkwise/associative formulation is established, so training parallelism may be worse even though recurrent inference is cheap. No GPU/runtime feasibility is claimed.",
+  "source_refs": [
+    {"path":"research/delta-discovery-2026-10-08/CONTROL_MATH.md","sha256":"e169cb26776c05c246036e77210f67dd2a16cdbf6e279e23ad05355374ecc7ed"},
+    {"path":"research/delta-discovery-2026-10-08/sources/QDELTA_FULL_AUDIT.md","sha256":"730738e78842eff5eb6f4f0f1563e9b229507f4b6af1859da04e0cc291ea38b3"},
+    {"path":"research/delta-discovery-2026-10-08/sources/D03_D04_SOURCE_AUDIT.md","sha256":"f5ed8dbc96616938b826cd07a481da04ad3536d6afb031913770518d5bb520fc"}
+  ],
+  "independent_review": "pending exact-byte review",
+  "measurement_status": "Existing native recall scores may observe delayed behavior but do not prove the stated attenuation mechanism. No new benchmark or score is created; direct mechanism identification remains a measurement gap."
+}
