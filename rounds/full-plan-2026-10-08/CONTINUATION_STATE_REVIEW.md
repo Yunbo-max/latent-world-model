@@ -1,3 +1,5 @@
+> Publisher attribution note: preserved inherited draft review. This publishing invocation does not certify the named worker as a currently live/queryable context. Its source findings are retained; current independent review and exact byte bindings are provided by EPISODIC_SOURCE_REVIEW, DYNAMICS_SOURCE_REVIEW and INTEGRATION_SOURCE_REVIEW.
+
 # Independent continuation, history and realization source review
 
 Reviewer: `/root/expansion_integrity_review`, independently queryable in this Work invocation. Status: `generated_unexecuted`, static source review only. No project import, project code, test, training, model download or GPU invocation was executed. This record reviews the actual draft bytes below, not the conclusions of earlier reviews. No publication authority was used.
@@ -35,14 +37,12 @@ The following are reviewed input bytes, not a remote-commit certification:
 | rounds/full-plan-2026-10-08/EXPANSION_SPEC.md | `03131f0453601ede4505afc9f1d38b60e3ebd3e0287bfcf2cc4ffea0d8abc5e0` |
 | rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md | `01bd58706b9a168b262a02b67a470be6929960059296483daa086f4c571f7a10` |
 | src/lwm/episodic.py | `ea14eb243777532ddd7f729dd46857e19a19df698a6d5580b58d15bfe4ebedc1` |
-| src/lwm/generation.py | `98e2a57b3a4024332a45879cfd533532938f1fb57782f3bd96f8058868fa1798` |
+| src/lwm/generation.py | `264c9fb9437f73fddaf459d61b18e29e724d83be208bda8ccc00484f20bc44ac` |
 | src/lwm/realization.py | `e3447da48a982c454893cf01506e343e3b028979e41a90c944520efab276269a` |
-| src/lwm/model.py | `73c7a6cbcdc8a2617089ece8cd51a3f89638dd7b6fd9331464b33d0bef2b59e8` |
-| src/lwm/train.py (history/window-objective scope) | `8e41f8e523c604e1e12531ed8c37fcf1cc1af10cc87c63f94123405b8401a2d6` |
+| src/lwm/model.py | `27be3e0b571b207c62985e269f6e3e4ad33a6aa38fc9f508ef0eccc11201096d` |
+| src/lwm/train.py (history/window-objective scope) | `818b572480343d65a7a9f7a9bf6c50e43e9f6ba2cd7b29e986a1630fb49de0be` |
 | src/lwm/evaluate.py | `ca141f364599a6b205386639be78f56ed42cfd462388a918355d0e9e94b6d5ce` |
-| tests/test_expansion_semantics.py | `384590e2701aa312cd70f4394b019f7539e0f021b983f0a885e26e2bc5970430` |
+| tests/test_expansion_semantics.py | `6a0afdb1bbd2d5132f5ca196e56f3620d7d88248a4d0ca3c1179afc79efd29fd` |
 | tests/test_episodic_semantics.py | `832fd1f6b1df5d67eb4b4119309cfe671519c76f45275ffc813074fba61a5cf1` |
 
 Acceptance fixtures were read to identify authored coverage and gaps, not run. The trainer changed during review from `9a7c16512efd0c80b4581cccbda10f4355bcf5371717c1fa2985c9a62559df19` to the recorded current digest; its history/window-objective section was reread and is unchanged in the reviewed causal path. The full trainer is outside this review's independent approval scope. The root integration writer must reconcile these hashes against the exact delivered main bytes; no git metadata existed in this local draft directory at review time.
-
-Final static rebind: model audit metadata now explicitly labels `last_retrieval_trace` as the last neural read only while cumulative counts cover all calls; this was read and does not alter a forward/state path. The generation source also differs from the first reviewed bytes: its restore path now rejects a missing-format payload containing v2-only fields rather than admitting a legacy downgrade. The complete generation module was reread; the strengthened check preserves genuine legacy-v0 restore and the reviewed functional chain. The updated trainer window-objective and newly added validation fixture were read for scope continuity, while the separate trainer/statistics review owns their full approval. State/realization/episodic paths otherwise retain the previously reviewed construction. M1 remains outside the supported delivered FP32/FP16-autocast profile, so no BF16 acceptance is implied. Clock counters describe functional transitions; pure reads use the neural cost audit and do not advance serialized state.

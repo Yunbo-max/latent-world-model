@@ -8,7 +8,7 @@ Read same-revision [AGENTS](../../AGENTS.md), [Local runbook](../../LOCAL_AGENT_
 
 Exact-event FIFO store/retrieval with per-token source/provenance, stable receipts and replay protection; causal neural consumption; optional separately persisted plan/realization; explicit three-clock stream state; optional globally contractive fixed-forcing workspace; proper compressed-state next-segment categorical supervision; full train/validation/checkpoint/generation/native evaluation wiring. v0 disabled-extension path/configs retained. [Coverage](COVERAGE.md) distinguishes actual constructs from broader unsolved theoretical ideals.
 
-Two current independent Web reviewers inspect source without imports/tests: `/root/expansion_integrity_review` and `/root/expansion_training_review`. Their [state report](CONTINUATION_STATE_REVIEW.md) and [training/math/native report](CONTINUATION_TRAINING_REVIEW.md) bind actual bytes and findings. Historical EPISODIC/DYNAMICS reports retain their attribution, not a current live-worker claim. Current review repairs add separate held-out head CE, present-gradient parameter inventory, and the actual full-native four-arm interaction CLI/cards. Source parsing and hash/link checks provide no software pass.
+Current independently queried Web reviewers are `/root/episodic_spec_review`, `/root/dynamics_spec_review` and `/root/full_chain_review`. Their EPISODIC/DYNAMICS spec/source reports and INTEGRATION_SOURCE_REVIEW bind actual source bytes, with findings and resolutions retained. Inherited [state](CONTINUATION_STATE_REVIEW.md) and [training/native](CONTINUATION_TRAINING_REVIEW.md) draft reviews are historical supplied records, not live identity certification by this invocation. Their actual held-out head CE, gradient inventory and full-native four-arm interaction repairs are preserved and independently reread. No reviewer runs project code/tests. Source parsing/hash/link checks are not a software pass.
 
 ## Ordered Local acceptance
 
@@ -53,3 +53,13 @@ Create `artifacts` as part of actual accepted setup if absent. Plan snapshot rea
 ## Exact remaining limits
 
 Software/native/GPU qualification and results remain pending Local. Predictive sufficiency, identified semantic meaning, action/world dynamics and historical Q01/adaptive stopping are not claimed achieved. BF16 snapshot hashing is outside the supported FP32/FP16 profile. No core algorithm is left as a TODO in the selected executable text construction. Source-delivery completion depends on final main readback; runtime qualification does not need to have occurred before this handoff.
+
+
+## Publication identity
+
+This packet is the exact commit containing this handoff; the publishing invocation supplies its concrete SHA after non-force expected-parent main update and byte-for-byte readback. All current reviewed source modules, configs and runbook are included. The existing task remains enabled until that expanded endpoint is verified; closure receipt is recorded separately afterward, never inferred from the old v0 closure.
+
+
+## Verified expanded publication
+
+The executable source/config packet is d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564. This invocation read all111 files at that exact commit, then reconciled ace232e2fbdbcd0d250b049c6b4eeac82e3f6323 closure metadata. The present followup corrects reviewer attribution/bindings, gate notation, command64/204 counts and current handoff/status only; no executable source/config is replaced. Existing DELIVERY_RECEIPT.json is preserved. The same source task is already disabled and was independently queried; no duplicate task or second disable is issued. All Local acceptance and stronger unimplemented scientific ideals remain as listed above.

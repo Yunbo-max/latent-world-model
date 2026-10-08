@@ -1,12 +1,10 @@
-> Recovered prior source-review artifact; its named worker is not a current live reviewer in this continuation and its lineage is not independently authenticated here. Preserve this history; current independent source receipts are CONTINUATION_STATE_REVIEW.md and CONTINUATION_TRAINING_REVIEW.md. Its 200-card matrix describes the pre-interaction draft; current design is204 cards including4 joint-resampling interaction cards. Later document hashes below are historical snapshots, not the current publication binding.
-
 # Independent full-chain integration source review
 
 Reviewer identity: /root/full_chain_review. Review role: source/design integration, independent of /root's implementation and main integration. Status: generated_unexecuted. No project module, test, training, inference, scorer, dataset acquisition or GPU workload was imported or executed by this reviewer. Standard-library JSON inspection and byte hashing were used only to inspect authored files. Exact publication/readback remains the sole integration writer's obligation.
 
 ## Decision
 
-No unresolved Critical or Important source blocker was found in the reviewed, selected known-mechanism engineering construction after the fixes below. Its model, training, generation, stream/plan restoration, full native inference, official replay and paired comparison interfaces form a coherent source/design endpoint. This statement does not qualify the runtime, software suite, native adapter, author Teacher installation, GPU fit, trained model, scientific benefit or novelty. All those remain pending Local.
+No unresolved Critical or Important source blocker was found in the reviewed, selected known-mechanism engineering construction after the fixes below. Its model, training, generation, stream/plan restoration, full native inference, official replay, paired comparison and four-arm interaction interfaces form a coherent source/design endpoint. This statement does not qualify the runtime, software suite, native adapter, author Teacher installation, GPU fit, trained model, scientific benefit or novelty. All those remain pending Local.
 
 The stronger originals are explicitly outside the adopted executable claims: predictive sufficiency, universal spectral conflict, calibrated belief, identified sentence-level semantics, physical-action dynamics and historical Q01/adaptive stopping are neither proved nor implemented. The original discovery batch remains unfinished. The token bottleneck and proper successor-token CE are explicitly disclosed engineering constructions with finite supervision, not substitutes for those proofs.
 
@@ -34,11 +32,21 @@ The reviewer re-read the actual modified functions and authored negative fixture
 
 Static JSON inspection confirmed all 39 arm/stage configurations preserve the same model configuration across pretraining tiers and bAbI adaptation, with stages pretrain/pretrain/sft_babi and target budgets 100M/1B/1M. Thirteen arms and two seeds yield 26 pretraining runs: 2.6B or 26B pretraining targets per selected tier plus 26M adaptation targets. Both tiers together are 28.6B plus52M; context/retrieval/profile/validation/failure costs are additional.
 
-The command generator's source yields 156 per-run cards and44 comparisons:52 training,52 inference,52 official replay,44 paired comparisons =200. Its CLI flags match the corresponding source parsers. SFT depends on pretraining; LAMBADA uses pretraining and bAbI uses adaptation; each official replay depends on its inference; each right-minus-left comparison depends on both official replay cards. Replays select pinned external source roots and isolated Conda interpreters, with CUDA disabled. The script writes manifests/configs and does not launch workloads. Local's existing execution owner must additionally admit actual GPU resources and verify predecessor completion, not merely process exit.
+The command generator's source yields 156 per-run cards,44 comparisons and4 interactions:52 training,52 inference,52 official replay,44 paired comparisons,4 four-arm interactions =204. Its CLI flags match the corresponding source parsers. SFT depends on pretraining; LAMBADA uses pretraining and bAbI uses adaptation; each official replay depends on its inference; each right-minus-left comparison depends on both official replay cards; each original 2x2 interaction depends on all four participating replay cards. Replays select pinned external source roots and isolated Conda interpreters, with CUDA disabled. The script writes manifests/configs and does not launch workloads. Local's existing execution owner must additionally admit actual GPU resources and verify predecessor completion, not merely process exit.
 
-The native protocol remains all20 bAbI tasks/full20000 and LAMBADA/full5153. Replay verifies complete IDs/input identity and actual pinned author per-example/aggregate results. Paired comparison uses original immutable predictions and records evaluator qualification metadata, which commonly still says pending_local because replay is a separate card. Retain each separate native-replay.json and its prediction hash alongside paired results and dependency receipts. A successful replay qualifies aggregation only; it does not qualify the Teacher serialization, tokenizer/model adapter or a scientific claim. No review infers those passes. The separate full Teacher candidate remains runtime-unqualified.
+The native protocol remains all20 bAbI tasks/full20000 and LAMBADA/full5153. Replay verifies complete IDs/input identity and actual pinned author per-example/aggregate results. Paired comparison uses original immutable predictions and records evaluator qualification metadata, which commonly still says pending_local because replay is a separate card. Retain each separate native-replay.json and its prediction hash alongside paired/interaction results and dependency receipts. A successful replay qualifies aggregation only; it does not qualify the Teacher serialization, tokenizer/model adapter or a scientific claim. No review infers those passes. The separate full Teacher candidate remains runtime-unqualified.
 
 Costs disclose extra raw-history access, index/event scans, selected positions, narrow CPU retrieval timing, fresh embeddings/transfers in total wall time, serialized payload bytes, stream/document receipt growth, process RSS and GPU allocator peaks. Training snapshots are invocation-cumulative and validation-isolated; summing them would overcount. Architectures have different active parameter/communication/cost inventories; the design does not call them parameter- or compute-matched. The two seeds and example bootstrap are not broad between-training uncertainty, and all declared contrasts/failures remain reportable.
+
+## Final publication-snapshot continuation review
+
+Final document re-read confirmed the actual MemoryWriter gate formula, 64/204 card counts, three observed reviewer contexts and explicit inherited-review attribution. The runbook now retains separate native replay receipts and has one current full-plan supplement.
+
+This refresh independently re-read /workspace/scratch/99b5aeb15819/publication-full-plan, the integration writer's isolated publication snapshot. The earlier 200-card inventory is superseded by the actual 204-card source. The preserved five-arm v0 generator now yields64 cards (60 stage/replay plus4 interactions). Cumulative target budgets do not change: comparison/interaction cards are CPU analyses, not additional training arms.
+
+The additional scoring.factorial_bootstrap source implements (M4-R4)-(M1-R1) per matching native record, then resamples shared episode-within-task/passage units across the four arms, preserving native task macro weighting and episode question counts. Its sign, null case and incompatible-ID authored fixtures were inspected but not run. The interaction CLI consumes four matching completed immutable prediction manifests, checks native task/split/full denominator and prediction hashes, and records conditional-on-checkpoint limitations. The strengthened _run_manifest rejects unsupported tasks/splits and incorrect native denominator metadata. These source changes have no unresolved Critical/Important finding.
+
+Actual independently queried reviewer contexts for this review packet are /root/full_chain_review, /root/episodic_spec_review and /root/dynamics_spec_review. The two inherited CONTINUATION reports are preserved historical supplied records; their printed expansion_integrity_review/expansion_training_review names are not independently observed current workers and are not treated as such. This review does not fabricate a runtime receipt for any supplied record. Exact main publication and remote readback remain root's work.
 
 ## Local obligations
 
@@ -60,9 +68,9 @@ The following SHA256 values bind the inspected expansion routes, all arm configu
 | src/lwm/native_parity.py | 6965ccc466757ec58b01e5d4154fc7514ed75f1b911a85897f9336d80898b650 |
 | src/lwm/prepare.py | 763189168ee9d56a7aa1568f174fa5ac05b93b078432a0a910f09137241ae0f6 |
 | src/lwm/realization.py | e3447da48a982c454893cf01506e343e3b028979e41a90c944520efab276269a |
-| src/lwm/scoring.py | e914b5e6b091b3e4e804c66e683c0a4ba2fd152e05290de114013cf313b9a234 |
+| src/lwm/scoring.py | d3ff5d1989cd67e3b0e6d6a51c7ce5fb3bb4be87ca0df5062ebf59ac8c06cfe7 |
 | src/lwm/train.py | 8e41f8e523c604e1e12531ed8c37fcf1cc1af10cc87c63f94123405b8401a2d6 |
-| scripts/run_matrix.py | 19549ce4aa7345d67af08eca203c4ffa0da6a5ac4e2e6e78da235244b88d4bc3 |
+| scripts/run_matrix.py | adab5e83d59933ff15e8d56429dabc0e054ec3427018b0751ad95557dc322687 |
 | scripts/summarize_run.py | 012aa4d8ea2a6fc4a664ac238ca5084932cc6b5896c85028085eeb093870c594 |
 | configs/assets.json | c0d7e596d2b8344478393ee956d0e80defa1b4f353664b4e1e06a710bf0c7782 |
 | configs/experiments.json | 4c685a3f75f53832e30c529a7fa0c74fa10d79d761f7e21a981a6b831bca6346 |
@@ -106,20 +114,23 @@ The following SHA256 values bind the inspected expansion routes, all arm configu
 | configs/reset_loop4_100m.json | a32d84e8939464c7beae8788d6c79e917fcb6ad28d026846e65db025481ac5d0 |
 | configs/reset_loop4_1b.json | a4c94d1599ebab67436c6fdb530895973e1325d20738da0b3b57ba0e3df937ba |
 | configs/reset_loop4_babi.json | 7da9c679dcfbb307fd8193d65604e8b49aaca21c57ff84b33fd4603c30a0cf2d |
-| AGENTS.md | 511e3c2996a77f0c32d0187011f0f484fff722836c29d6933470e03c9526da7d |
-| README.md | 6cd1be40c671e722589e85e332d9b66d6b8b08508e35ff1c48a17894831e1405 |
-| LOCAL_AGENT_RUNBOOK.md | 39e7b8086ec26afe9ebe7fcb8e7c4f661c512097d8a8d47d9446678d9aa44f81 |
+| AGENTS.md | cdf23d0cd7cdceffc9ca0be861dd6c67c41bc6e60c849f8e55df541fd908aeed |
+| README.md | 5e522c587201f0e321c8e98a45f8204123a60a132c17ca8153619a6309663f0f |
+| LOCAL_AGENT_RUNBOOK.md | 649beaeabc0180db5092b2a1be1525b8ac0b088da262ce78936c51b539ee6c61 |
 | pyproject.toml | e3047b6624d60403929cde308331c51df82c6756ec4e9fd356c59136668e2a9d |
 | rounds/full-plan-2026-10-08/EXPANSION_SPEC.md | 03131f0453601ede4505afc9f1d38b60e3ebd3e0287bfcf2cc4ffea0d8abc5e0 |
-| rounds/full-plan-2026-10-08/COVERAGE.md | 7a6f79f448cfaefd6e3b1b6d6b5451b3c2653c65933da06b4ebf422607ffe3a3 |
+| rounds/full-plan-2026-10-08/COVERAGE.md | 1f71aba7f19c652c39c936bb5abf9d7fd2f9e9553a189c5f75eb212e3c1d6d9a |
 | rounds/full-plan-2026-10-08/EXPERIMENT_DESIGN.md | 1b5116ea01e2e54b43405f8cdbcea53c403dc30c34652747a4995dca4b7ff05c |
-| rounds/full-plan-2026-10-08/WEB_HANDOFF.md | 23c4d6b434fc30c404c11b9414f66c79e688679d3939be2575c9e0939f5ea58e |
+| rounds/full-plan-2026-10-08/WEB_HANDOFF.md | 1d474eb8a755f5b777082a66685e224d4860e2579498ad0debb34d8fea9171e3 |
 | research/NATIVE_ENVIRONMENT.md | f11e140d1902f2dc47ccf076622567db49f7a89c62e1db011e1976bb61ca0396 |
-| research/EXPERIMENT_DESIGN.md | 2c8550526d85544de32a31facb5bef71a1fff7c2263cd4d2e1e3470ffdf4595b |
-| research/FULL_MODEL_PROPOSAL.md | cc7328854b58ab15704b4d2783a233673ef5d6b9412fb7a04704beff39f855a9 |
-| research/MATH_TO_CODE.md | be8c46f8c1bdb1e3db81caf385ad1406e3d37cc5f444b46cb7c80c6e71227bab |
-| research/SCIENTIFIC_SCOPE_REVIEW.md | 9d3c2823deabffb90bd78f097129d13b7a800bc892ffdafb4242a39190596b39 |
+| research/EXPERIMENT_DESIGN.md | 08b2c329c7efdcc9b211baf4c74dd0235ed706c19c017bcf5269bbf5fe4e7ca2 |
+| research/FULL_MODEL_PROPOSAL.md | 3590857c5a6c30c60fb523b5ac8297cb7746271e4eb26bcc8fb9aa6cdb696136 |
+| research/MATH_TO_CODE.md | 67cf4174bfcc0b3177f47f2888aceacf0095678cb4ef2db5d9691660ade7618c |
+| research/SCIENTIFIC_SCOPE_REVIEW.md | f6d28937d6770edc4bb39c49a6ec2cfcb2460ff7feddbef5c466d771e9397ebb |
 | research/SOURCE_AUDIT.md | 38c89b6a4ccce36157097e9211afebe730b3cf3681d6225e3d72ca208fe71f19 |
 | tests/test_resume_semantics.py | 6bb5f9cea404ba7081f7e5fab0422f109ee2a5b8c7d8c1f17460d17f74723b72 |
 | tests/test_expansion_semantics.py | 384590e2701aa312cd70f4394b019f7539e0f021b983f0a885e26e2bc5970430 |
 | tests/test_episodic_semantics.py | 832fd1f6b1df5d67eb4b4119309cfe671519c76f45275ffc813074fba61a5cf1 |
+| tests/test_scoring_semantics.py | cccd67f345acd87818aeaedce5010f0cce3f8a571f95b74ec3cecab10d34d262 |
+| rounds/full-plan-2026-10-08/CONTINUATION_STATE_REVIEW.md | edb8f10a65807586be7acb40d8463ca6667f8697ccd5f687675d459eb27f6d94 |
+| rounds/full-plan-2026-10-08/CONTINUATION_TRAINING_REVIEW.md | 55a45889b0c9b615c9b6c7dca63600aac4acdbd4daa0ca30e78336ff98583428 |

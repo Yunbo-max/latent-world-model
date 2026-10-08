@@ -1,0 +1,17 @@
+{
+  "status": "source_syntax_and_binding_checks_only",
+  "source_status": "generated_unexecuted",
+  "checked_at": "2026-10-08T16:25:56.927703+00:00",
+  "method": "standard-library AST/JSON/TOML parsing, Markdown local targets outside fenced/inline code and actual current-review SHA256 comparison; no project imports/code/tests executed",
+  "parsed_files": {
+    ".py": 24,
+    ".json": 50,
+    ".toml": 1
+  },
+  "syntax_failures": [],
+  "missing_local_markdown_targets": [],
+  "current_review_bindings_checked": 95,
+  "binding_failures": [],
+  "runtime_software_native_gpu": "pending_local",
+  "scope_note": "Counts are parse coverage, not code/scientific completion. Historical draft snapshots retain older identities; final metadata-only publication status may be updated by root readback."
+}

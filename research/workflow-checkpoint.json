@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T16:21:51Z",
+  "recorded_at": "2026-10-08T16:31:03.490Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -67,10 +67,11 @@
     "Independent current state and math/training/statistics source reviews completed; repaired auxiliary heldout CE, gradient tensor inventory and actual native four-arm interaction interface.",
     "Full13-arm/two-seed configs,204 dependency cards, coverage/math/design and concrete Local handoff authored; parsed source/JSON/TOML using standard library only.",
     "Published expanded source at d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564, non-force expected-parent main update; every63 changed file read back byte-identical.",
-    "Disabled only the existing full-source task after the expanded source endpoint; independent service lookup confirmed disabled."
+    "Disabled only the existing full-source task after the expanded source endpoint; independent service lookup confirmed disabled.",
+    "Current publishing invocation reconciled actual concurrent main d8ee2a9 then ace232e, read all111 files at exact source commit and all four closure changes; preserved all executable source/config bytes.",
+    "Current independent source review bindings refreshed, corrected source attribution/gate formula/64 and204 command counts in final docs; all runtime/software/native/GPU/scientific qualification remains pending."
   ],
   "pending": [
-    "Final full-chain source/design review, standard-library source syntax/link/hash checks and exact main publication/readback; then source-task closure if endpoint satisfied.",
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
@@ -92,7 +93,7 @@
     "training": "not started",
     "project_tests": "not run",
     "benchmark_results": "none",
-    "web_source_delivery": "Selected full text engineering source delivered and exact readback verified; generated_unexecuted; Local acceptance pending"
+    "web_source_delivery": "Complete selected full original-plan engineering source/design delivered and independently reviewed; exact d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564 whole-tree readback repeated by current publishing invocation; generated_unexecuted"
   },
   "background": {
     "state": "expanded_source_endpoint_completed_disabled",
@@ -115,7 +116,7 @@
     "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
-    "reason": "Selected executable full text construction, full design and actual source publication/readback complete. Unresolved broader research and all Local qualification remain explicit.",
+    "reason": "Expanded selected engineering source endpoint and exact source readback complete; existing disabled-task readback confirmed, no duplicate task or second disable action.",
     "scheduled_invocation_host": "Work Mode, explicitly identified by platform context",
     "first_run_observed": true,
     "service_run_time_note": "Actual active invocation is observed from runtime, not inferred from stale last_run_time.",
@@ -125,19 +126,26 @@
       "updated_at": "2026-10-08T16:26:23.704703+00:00"
     }
   },
-  "next_action": "Local accepts exact source revision via current handoff, qualifies software/native/device paths and real cumulative budget, then executes the complete matrix. No further automatic source continuation; unresolved originality/Q01/strong semantic ideals require their separate research evidence.",
+  "next_action": "Local reads same-revision current handoff/runbook, restores actual accepted host, qualifies software/full Teacher/native interfaces, profiles actual resources and executes admitted complete matrix; no further automatic Web source continuation.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "fba4653780e0b277a1fe7fdef47e3f20d33f2d53",
-    "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
+    "parent_head_before_publication": "ace232e2fbdbcd0d250b049c6b4eeac82e3f6323",
+    "verification": "All111 files of exact expanded source commit read back; current documentation followup receives expected-parent non-force main update and each changed file readback by this invocation. Source commit identity and receipt are preserved.",
     "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
-    "this_revision_scope": "Record actual expanded source delivery/readback and existing-task disable receipt; no source behavior change.",
+    "this_revision_scope": "Source-binding, reviewer attribution, command-count and current-status documentation correction after concurrent expanded source delivery; all executable source/config bytes preserved.",
     "expanded_source_commit": "d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564",
     "expanded_source_tree": "93fcff37b796a191b19f24edf0ce7ba4e21da622",
     "changed_files_read_back": 63,
-    "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json"
+    "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
+    "current_invocation_exact_source_readback": {
+      "commit": "d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564",
+      "files": 111,
+      "baseline_and_source_bytes_verified": true,
+      "source_behavior_changed_in_this_followup": false
+    },
+    "source_review_status": "Independent actual current source-review packets completed; no unresolved Critical/Important source finding in bounded scope."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -195,11 +203,8 @@
     "training": "not_started",
     "results": "none",
     "scope_review": "research/SCIENTIFIC_SCOPE_REVIEW.md",
-    "source_review": [
-      "rounds/full-plan-2026-10-08/CONTINUATION_STATE_REVIEW.md",
-      "rounds/full-plan-2026-10-08/CONTINUATION_TRAINING_REVIEW.md"
-    ],
-    "static_checks": "rounds/full-plan-2026-10-08/STATIC_SOURCE_CHECKS.json",
+    "source_review": "rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md, DYNAMICS_SOURCE_REVIEW.md and INTEGRATION_SOURCE_REVIEW.md",
+    "static_checks": "rounds/full-plan-2026-10-08/SOURCE_CHECKS.json",
     "current_handoff": "rounds/full-plan-2026-10-08/WEB_HANDOFF.md",
     "latest_math_review": "research/SIGMA_REVIEW.md",
     "prefix_readout": "same mathematical conditional function, final-position-only projection after full coda; numerical parity pending Local",
@@ -210,7 +215,8 @@
       "100m": 2600000000,
       "1b": 26000000000
     },
-    "matrix_adaptation_targets_per_tier": 26000000
+    "matrix_adaptation_targets_per_tier": 26000000,
+    "command_cards": 204
   },
   "resumed_from": {
     "remote_main": "fba4653780e0b277a1fe7fdef47e3f20d33f2d53",
@@ -298,7 +304,7 @@
     },
     "native_matrix_design": {
       "source": "authored_generated_unexecuted",
-      "review": "integration_review_pending",
+      "review": "independent_source_and_design_reviewed",
       "Local": "pending"
     }
   },
@@ -311,17 +317,19 @@
     {
       "identity": "/root/episodic_spec_review",
       "spec": "rounds/full-plan-2026-10-08/EPISODIC_SPEC_REVIEW.md",
-      "source": "rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md"
+      "source": "rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md",
+      "status": "completed_source_only"
     },
     {
       "identity": "/root/dynamics_spec_review",
       "spec": "rounds/full-plan-2026-10-08/DYNAMICS_SPEC_REVIEW.md",
-      "source": "rounds/full-plan-2026-10-08/DYNAMICS_SOURCE_REVIEW.md"
+      "source": "rounds/full-plan-2026-10-08/DYNAMICS_SOURCE_REVIEW.md",
+      "status": "completed_source_only"
     },
     {
       "identity": "/root/full_chain_review",
       "source": "rounds/full-plan-2026-10-08/INTEGRATION_SOURCE_REVIEW.md",
-      "status": "running"
+      "status": "completed_source_only"
     }
   ],
   "resumed_from_full_plan": {

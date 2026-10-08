@@ -16,7 +16,7 @@ Status: generated_unexecuted. This is the chosen text-only engineering construct
 | Native evaluation / comparison | bAbI all20/20000 and LAMBADA5153 unchanged; author replay, paired bootstrap, four-arm interaction | `evaluate`, `native_parity`, `scoring replay/compare/interaction`, full command manifest | Native Teacher/tokenizer/model/scorer parity, exact denominator, complete all-seed matrix |
 | Cost / collection | Historical reads/scans/omissions/timing, tensor/store/receipt bytes, process peak RSS, GPU peak and wall time | Per-example records, invocation-cumulative training snapshots, `summarize_run`, native and comparison artifacts | Real timing/VRAM/RSS; never sum cumulative snapshots or mistake last selection trace for all calls |
 
-Mathematical/spec sources and independent scope reviews are in EXPANSION_SPEC, EPISODIC_SPEC_REVIEW, DYNAMICS_SPEC_REVIEW, and the two CONTINUATION reviews. Historical review worker names are retained as historical attribution; current independent contexts are `/root/expansion_integrity_review` and `/root/expansion_training_review`. Review availability/identity does not prove mathematical truth.
+Mathematical/spec sources and independent scope reviews are in EXPANSION_SPEC, EPISODIC_SPEC_REVIEW, DYNAMICS_SPEC_REVIEW, EPISODIC_SOURCE_REVIEW, DYNAMICS_SOURCE_REVIEW and INTEGRATION_SOURCE_REVIEW. Current independently queried contexts are `/root/episodic_spec_review`, `/root/dynamics_spec_review` and `/root/full_chain_review`. The two inherited CONTINUATION review records are preserved as historical draft attribution; their worker identities are not asserted live in this publishing invocation. Review availability/identity does not prove mathematical truth.
 
 ## Explicit scope decisions
 

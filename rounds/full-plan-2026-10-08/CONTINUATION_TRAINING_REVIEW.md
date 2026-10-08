@@ -1,3 +1,5 @@
+> Publisher attribution note: preserved inherited draft review. This publishing invocation does not certify the named worker as a currently live/queryable context. Its source findings are retained; current independent review and exact byte bindings are provided by EPISODIC_SOURCE_REVIEW, DYNAMICS_SOURCE_REVIEW and INTEGRATION_SOURCE_REVIEW.
+
 # Independent continuation training/native review
 
 Reviewer: `/root/expansion_training_review`, source-only Web review, 2026-10-08.

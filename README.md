@@ -20,6 +20,6 @@
 
 主要入口：`lwm.prepare`、`lwm.train`、`lwm.generation`、`lwm.realization`、`lwm.evaluate`、`lwm.native_parity`、`lwm.scoring replay/compare/interaction`、`scripts/run_matrix.py`。精确输入获取、环境、运行顺序和失败处理均在 Local 手册。无Docker、无付费服务、无Web GPU执行。
 
-当前独立源码审查见[状态/因果报告](rounds/full-plan-2026-10-08/CONTINUATION_STATE_REVIEW.md)和[数学/训练/统计报告](rounds/full-plan-2026-10-08/CONTINUATION_TRAINING_REVIEW.md)。审查与静态解析不等于测试通过或科学有效。当前完整的是上述已定义文本工程构造；更广的原创发现、充分性/句级语义/动作模型/自适应证书不被宣称完成。
+当前独立源码审查见[事件/状态报告](rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md)、[动力学/目标报告](rounds/full-plan-2026-10-08/DYNAMICS_SOURCE_REVIEW.md)和[完整集成报告](rounds/full-plan-2026-10-08/INTEGRATION_SOURCE_REVIEW.md)。继承的CONTINUATION报告作为历史草稿保留，不声称其审查者在本次调用仍活动。审查与静态解析不等于测试通过或科学有效。当前完整的是上述已定义文本工程构造；更广的原创发现、充分性/句级语义/动作模型/自适应证书不被宣称完成。
 
 历史清空提交70033ed、v0交付及旧20→15批次保留。[当前检查点](research/workflow-checkpoint.json)与[目标记录](research/BACKGROUND_GOAL.md)区分源码、发布、运行和证据状态；[v0完整定义](research/FULL_MODEL_PROPOSAL.md)及[原实验设计](research/EXPERIMENT_DESIGN.md)继续作为历史/对照文档。

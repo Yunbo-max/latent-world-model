@@ -1,3 +1,7 @@
+## Current review and readback reconciliation
+
+The current publishing invocation read all111 files at exact source commit d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564 and the four metadata closure changes at ace232e2fbdbcd0d250b049c6b4eeac82e3f6323. Executable source/config bytes are preserved. Current independent reviewer bindings, attribution and command-count/runbook corrections are finalized; same-task disabled state was actually queried. All Local software/native/GPU and scientific acceptance remains pending.
+
 ## Verified expanded source delivery
 
 Source commit: d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564. All63 changed files were read back byte-identical from its exact remote tree; literal main was independently read back. Receipt: rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json. The same finite source task has been disabled and independently queried after this expanded endpoint. Runtime software/native/GPU/scientific evidence remains pending Local; broader unresolved ideals are explicit in COVERAGE.

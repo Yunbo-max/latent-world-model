@@ -9,7 +9,7 @@ This is a working-tree review above parent `fba4653780e0b277a1fe7fdef47e3f20d33f
 | File | SHA256 |
 |---|---|
 | `src/lwm/episodic.py` | `ea14eb243777532ddd7f729dd46857e19a19df698a6d5580b58d15bfe4ebedc1` |
-| `src/lwm/model.py` | `27be3e0b571b207c62985e269f6e3e4ad33a6aa38fc9f508ef0eccc11201096d` |
+| `src/lwm/model.py` | `73c7a6cbcdc8a2617089ece8cd51a3f89638dd7b6fd9331464b33d0bef2b59e8` |
 | `src/lwm/generation.py` | `98e2a57b3a4024332a45879cfd533532938f1fb57782f3bd96f8058868fa1798` |
 | `src/lwm/train.py` | `8e41f8e523c604e1e12531ed8c37fcf1cc1af10cc87c63f94123405b8401a2d6` |
 | `src/lwm/evaluate.py` | `ca141f364599a6b205386639be78f56ed42cfd462388a918355d0e9e94b6d5ce` |
@@ -65,6 +65,8 @@ The original causal/read gradient conclusions survive the fixes: no target/futur
 **Final decision:** accept these bound bytes for source delivery of the episodic engineering extension and its reviewed integration. No unresolved Critical/Important source finding remains within this review's scope. This is neither whole-project scientific acceptance nor a runtime result; all Local software/native/hardware/scientific checks remain pending. New edits require incremental review and new hash bindings.
 
 ### Final integration delta reread
+
+Publication-snapshot binding correction: reread `/workspace/scratch/99b5aeb15819/publication-full-plan/src/lwm/model.py` and bound its actual bytes to `73c7a6cbcdc8a2617089ece8cd51a3f89638dd7b6fd9331464b33d0bef2b59e8`. The audit now explicitly records `retrieval_trace_scope = "last neural read only; cumulative access counts cover all calls"`, matching the E06 limitation already accepted here. This disclosure introduces no model/state/causal-path change or new review finding. No code execution was performed.
 
 The final hash table includes a further narrow source-only reread on 2026-10-08. `restore_stream` now rejects a missing format whenever any v2-only marker remains, even with extensions disabled; only genuinely historical v0 payloads without those markers may use legacy defaults. The authored `test_disabled_extension_stream_cannot_downgrade_to_legacy` explicitly covers rejection and the genuine legacy memory/prefix path; this fixture was read, not run.
 
