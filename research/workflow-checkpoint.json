@@ -72,7 +72,8 @@
     "Current independent source review bindings refreshed, corrected source attribution/gate formula/64 and204 command counts in final docs; all runtime/software/native/GPU/scientific qualification remains pending.",
     "User-requested follow-up audit restored main48f249b and matched all113 tracked blobs before edits; three independent read-only source reviewers examined checkpoint/state, training and native scoring. Repaired loaded-checkpoint identity race, tokenizer initialization mismatch and pinned empty-context EOS semantics; authored regressions and contraction acceptance, all unexecuted.",
     "User-requested second review restored exact mainfa75982c and matched all115 blobs. Four independent read-only source reviewers checked model/episodic, training/checkpoint, streaming/realization and native evaluation/matrix. Repaired source-filtered scan counting and finite-positive-temperature sampling, authored CPU/CUDA regressions before patches, clarified affine plan/auxiliary/generated-state semantics and historical handoff bindings; no project execution.",
-    "User novelty feedback reassessed against current source and Huginn/RMT/DEQ primary texts; independently reviewed contraction scope, supplied analytic loss-worsening counterexample and recorded engineering-control versus mathematical-discovery distinction. No new method/source or executed results."
+    "User novelty feedback reassessed against current source and Huginn/RMT/DEQ primary texts; independently reviewed contraction scope, supplied analytic loss-worsening counterexample and recorded engineering-control versus mathematical-discovery distinction. No new method/source or executed results.",
+    "User-requested multi-architecture exploration delivered six conditional mathematical route cards with primary nearest-work audits and independent review of the six core inequalities/constraints. Preserved original discovery qualification, engineered source/configs and pending Local experiments."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -159,6 +160,15 @@
       ],
       "scope": "Documentation-only mathematical and originality reassessment; source/config/runtime records preserved.",
       "verification": "Expected-parent main publication and exact changed-file readback are reported by the publishing session."
+    },
+    "architecture_exploration_delivery": {
+      "parent_head": "0ba5aa8f06c847a4b289f392235b327f2cfe92b3",
+      "paths": [
+        "research/ARCHITECTURE_IDEAS_2026-10-08.zh-CN.md",
+        "research/workflow-checkpoint.json"
+      ],
+      "scope": "Documentation-only architecture exploration; code/configs, historical batch and runtime records preserved.",
+      "verification": "Expected-parent main publication and exact changed-file readback reported by the publishing session."
     }
   },
   "skill": {
@@ -420,5 +430,37 @@
     ],
     "execution": "No project tests, imports, inference, training or benchmark runs; no background task restart.",
     "next_boundary": "Establish mathematical research question and evidence, then derive and independently qualify candidates. Existing Local runtime obligations remain pending."
+  },
+  "architecture_exploration": {
+    "user_request": "对于架构你可以想idea想多几个架构吗",
+    "user_feedback_at": "2026-10-08T21:21:00+01:00",
+    "reviewed_parent": "0ba5aa8f06c847a4b289f392235b327f2cfe92b3",
+    "report": "research/ARCHITECTURE_IDEAS_2026-10-08.zh-CN.md",
+    "status": "six_distinct_architecture_routes_with_conditional_derivations_and_independent_bounded_math_review",
+    "routes": [
+      "predictive-state",
+      "predictive-equivalence belief mixture",
+      "statistical regression memory",
+      "risk-aligned energy solve",
+      "output-error adaptive interval memory",
+      "protected-readout write"
+    ],
+    "closest_work_audit": "Primary function-level overlaps inspected; all foundational families have precedents. No comprehensive originality verdict.",
+    "formal_method_selection": "not_completed",
+    "historical_discovery_batch_changed": false,
+    "default_pool_and_selection_targets": "20/15 remain unresolved; six route cards are not retroactive qualification of historical candidates",
+    "next_mathematical_investigation": [
+      "Interval-readout certificate: nontrivial expressivity/cost and conditioning",
+      "Belief-state compression: affordable future distinguishability and post-conditioning error"
+    ],
+    "other_dispositions": "Regression is a strong mathematical control; energy-risk alignment unresolved; PSR/protected write have strong direct collisions.",
+    "source_changed": false,
+    "tests_and_experiments": "No project execution or new experiment design/dispatch; existing Local obligations preserved",
+    "reviewers": [
+      "/root/arch_predictive_belief",
+      "/root/arch_solver_memory",
+      "/root/arch_hierarchy_invariant",
+      "/root/figure_rwkv_fidelity"
+    ]
   }
 }
