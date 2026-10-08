@@ -38,6 +38,37 @@ def test_mixed_provenance_filters_generated_positions_before_ranking():
     assert [item[0] for item in all_selected] == [1, 2, 3, 4]
 
 
+@pytest.mark.parametrize("cached", [False, True])
+@pytest.mark.parametrize("include_generated,scans,wanted", [
+    (False, 1, [1, 3]), (True, 2, [1, 3, 2, 4]),
+])
+def test_query_scan_cost_counts_only_candidates_visible_under_source_policy(cached, include_generated, scans, wanted):
+    # Catches billing filtered-out events on every query, while still billing
+    # the raw tokens visited once when constructing the source-filtered index.
+    store = EpisodicStore(8).append(0, (1, 3), ("observed_text",) * 2)
+    store = store.append(1, (2, 4), ("generated",) * 2)
+    index = store.index(include_generated) if cached else None
+    selected, cost = store.retrieve([1], 2, 8, "lexical", include_generated, index=index)
+    assert [item[0] for item in selected] == wanted
+    assert cost["events_scanned"] == scans
+    assert cost["index_tokens_scanned"] == (0 if cached else 4)
+
+
+def test_generated_only_history_has_no_per_row_query_scans():
+    model = tiny().eval()
+    prefix = torch.tensor([[1, 2]])
+    memory = model.initial_memory(1)
+    store = EpisodicStore(8).append(0, (3, 4, 5, 6), ("generated",) * 4)
+    model.reset_audit()
+    actual = model.predict_prefix(prefix, memory, episodic=store)
+    assert model.audit["query_positions"] == 3
+    assert model.audit["events_scanned"] == 0
+    assert model.audit["index_tokens_scanned"] == 4
+    assert model.audit["raw_tokens_read"] == 0
+    expected = model.predict_prefix(prefix, memory, episodic=EpisodicStore(8))
+    torch.testing.assert_close(actual, expected)
+
+
 def test_causal_retrieval_teacher_prefix_parity_and_real_gradient():
     torch.manual_seed(7)
     model = tiny().eval()

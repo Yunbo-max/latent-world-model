@@ -227,7 +227,17 @@ def generate(model: LatentWorldModel, state: StreamState, max_new_tokens: int,
         if temperature == 0:
             token = int(logits.argmax().item())
         else:
-            token = int(torch.multinomial((logits / temperature).softmax(-1), 1,
+            # Center BEFORE temperature scaling. Use FP64 for the scalar
+            # transform so every finite positive Python temperature remains
+            # representable; negative overflow becomes harmless zero mass.
+            centered = logits.double() - logits.max().double()
+            scaled = centered / temperature
+            # CUDA scalar division may multiply by reciprocal(temperature).
+            # For subnormal temperature that reciprocal can be infinite;
+            # preserve all exact maxima instead of allowing 0 * inf -> NaN.
+            scaled = scaled.masked_fill(centered == 0, 0.0)
+            probabilities = scaled.softmax(-1).to(logits.dtype)
+            token = int(torch.multinomial(probabilities, 1,
                                           generator=generator).item())
         produced.append(token)
         state = observe(model, state, token, eos_token_id, "generated")

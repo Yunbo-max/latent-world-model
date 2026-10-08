@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T16:54:52.139304+00:00",
+  "recorded_at": "2026-10-08T17:38:55.860088+00:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -70,9 +70,11 @@
     "Disabled only the existing full-source task after the expanded source endpoint; independent service lookup confirmed disabled.",
     "Current publishing invocation reconciled actual concurrent main d8ee2a9 then ace232e, read all111 files at exact source commit and all four closure changes; preserved all executable source/config bytes.",
     "Current independent source review bindings refreshed, corrected source attribution/gate formula/64 and204 command counts in final docs; all runtime/software/native/GPU/scientific qualification remains pending.",
-    "User-requested follow-up audit restored main48f249b and matched all113 tracked blobs before edits; three independent read-only source reviewers examined checkpoint/state, training and native scoring. Repaired loaded-checkpoint identity race, tokenizer initialization mismatch and pinned empty-context EOS semantics; authored regressions and contraction acceptance, all unexecuted."
+    "User-requested follow-up audit restored main48f249b and matched all113 tracked blobs before edits; three independent read-only source reviewers examined checkpoint/state, training and native scoring. Repaired loaded-checkpoint identity race, tokenizer initialization mismatch and pinned empty-context EOS semantics; authored regressions and contraction acceptance, all unexecuted.",
+    "User-requested second review restored exact mainfa75982c and matched all115 blobs. Four independent read-only source reviewers checked model/episodic, training/checkpoint, streaming/realization and native evaluation/matrix. Repaired source-filtered scan counting and finite-positive-temperature sampling, authored CPU/CUDA regressions before patches, clarified affine plan/auxiliary/generated-state semantics and historical handoff bindings; no project execution."
   ],
   "pending": [
+    "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
     "Local executes the complete suite at this repaired revision and retains actual receipts; qualifies atomic replacement/tokenizer/prefix regressions, zero-weight and CUDA FP16 main/readout gradients, and actual GradScaler overflow/skip/resume behavior.",
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
@@ -133,10 +135,10 @@
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "48f249bc4b9baee81b208dbcb9fb299f56e8e91a",
-    "verification": "Before follow-up edits all113 baseline blobs matched main48f249b. This repaired revision requires expected-parent non-force main update and exact changed-file readback; concrete commit and outcome are reported by the publishing session.",
+    "parent_head_before_publication": "fa75982cb9258047189651547381b4582b7eaec9",
+    "verification": "All115 baseline blobs matched mainfa75982c before edits. This revision receives expected-parent non-force main update and exact changed-file readback; publishing session reports concrete commit/outcome. Historical source receipts below stay bound to their original commits.",
     "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
-    "this_revision_scope": "User-requested source review and three behavioral repairs, regression/acceptance source and same-revision review/handoff documentation. Historical delivery receipt below remains bound to its original source commit.",
+    "this_revision_scope": "Second user-requested source audit, two behavioral/accounting repairs, CPU/CUDA regression source and whole-method explanation; corrected historical/current handoff, affine-plan formula and auxiliary/generated-state wording.",
     "expanded_source_commit": "d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564",
     "expanded_source_tree": "93fcff37b796a191b19f24edf0ce7ba4e21da622",
     "changed_files_read_back": 63,
@@ -147,7 +149,7 @@
       "baseline_and_source_bytes_verified": true,
       "source_behavior_changed_in_this_followup": false
     },
-    "source_review_status": "Independent bounded follow-up source reviews completed; no remaining Critical/Important finding in reviewed repair scope. Runtime tests are unexecuted."
+    "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -219,7 +221,9 @@
     },
     "matrix_adaptation_targets_per_tier": 26000000,
     "command_cards": 204,
-    "followup_source_review": "rounds/full-plan-2026-10-08/CHECK_REVIEW.md"
+    "followup_source_review": "rounds/full-plan-2026-10-08/CHECK_REVIEW.md",
+    "second_source_review": "rounds/full-plan-2026-10-08/RECHECK_REVIEW.md",
+    "method_explanation": "research/METHOD_EXPLAINED.zh-CN.md"
   },
   "resumed_from": {
     "remote_main": "fba4653780e0b277a1fe7fdef47e3f20d33f2d53",
@@ -368,5 +372,26 @@
     ],
     "publication_revision": "the Git commit containing this checkpoint; exact changed-file readback reported by the publishing session",
     "remaining_scope": "Local runtime/native/GPU qualification pending; original adaptive stopping, identified sentence semantics and scientific discovery goals remain unimplemented or unqualified."
+  },
+  "second_review": {
+    "user_request": "你需要重新检查一遍，然后改正，然后跟我说下整个方法的思想",
+    "audit_parent": "fa75982cb9258047189651547381b4582b7eaec9",
+    "baseline_blobs_matched": 115,
+    "report": "rounds/full-plan-2026-10-08/RECHECK_REVIEW.md",
+    "method_explanation": "research/METHOD_EXPLAINED.zh-CN.md",
+    "status": "source_repaired_generated_unexecuted",
+    "software_tests": "authored_unexecuted",
+    "reviewers": [
+      "/root/reaudit_model",
+      "/root/reaudit_training",
+      "/root/reaudit_stream",
+      "/root/reaudit_eval"
+    ],
+    "publication_revision": "the Git commit containing this checkpoint; concrete expected-parent update/readback reported by publishing session",
+    "source_changes": [
+      "visible-index query scan counting",
+      "centered FP64 positive-temperature sampling with exact maximum protection against CUDA reciprocal overflow"
+    ],
+    "scope": "Selected text engineering construction, including autoregressive output. Stronger scientific goals and all Local runtime qualification stay pending."
   }
 }

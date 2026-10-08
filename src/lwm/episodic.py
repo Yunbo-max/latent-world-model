@@ -129,7 +129,7 @@ class EpisodicStore:
             trace.append({"event_id": f"{self.document_id}:{ordinal}",
                           "positions": [pos for _, pos, _ in selected]})
             used_events += 1
-        return result, {"events_scanned": len(self.events),
+        return result, {"events_scanned": len(index),
                         "index_tokens_scanned": sum(len(e.tokens) for e in self.events) if built else 0,
                         "events_selected": used_events, "raw_tokens_read": len(result),
                         "selected_tokens_omitted": omitted, "selection_trace": trace}

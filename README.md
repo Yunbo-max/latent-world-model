@@ -1,14 +1,16 @@
 # Latent World Model: full text-state construction
 
-**源码状态：generated_unexecuted。** 原方案的可执行文本构造已补齐：压缩预测状态、独立精确事件记忆与检索、belief/workspace 分离、观测/推理/表达时钟，以及可单独保存并读出的语言 plan。软件测试、原生资格、训练、2080Ti 显存和速度仍由 Local 验收。
+**源码状态：generated_unexecuted。** 原方案的可执行文本构造已补齐：压缩预测状态、独立精确事件记忆与检索、持久状态与临时工作区分离、观测/推理/表达时钟，以及可单独保存并读出的语言 plan。软件测试、原生资格、训练、2080Ti 显存和速度仍由 Local 验收。
 
 当前入口：[完整覆盖表](rounds/full-plan-2026-10-08/COVERAGE.md)、[本轮交接单](rounds/full-plan-2026-10-08/WEB_HANDOFF.md)、[Local 操作手册](LOCAL_AGENT_RUNBOOK.md)。公式和真实边界见[采用规格](rounds/full-plan-2026-10-08/EXPANSION_SPEC.md)、[数学映射](research/MATH_TO_CODE.md)。旧 v0 的模型分支和配置仍是对照。
 
-最新[复查与修复记录](rounds/full-plan-2026-10-08/CHECK_REVIEW.md)修正了checkpoint加载/哈希并发替换、SFT初始化tokenizer身份及空上下文起始token处理。相关测试已编写，未由Web执行；Local从同一修复提交做完整验收。
+最新[第二轮复查](rounds/full-plan-2026-10-08/RECHECK_REVIEW.md)修正了检索扫描计数和正温度采样的数值边界，并澄清方法/交接状态。[第一轮记录](rounds/full-plan-2026-10-08/CHECK_REVIEW.md)保留checkpoint加载/哈希、SFT初始化tokenizer和空上下文修复。测试均已编写，未由Web执行；Local从同一修复提交做完整验收。[整个方法的中文说明](research/METHOD_EXPLAINED.zh-CN.md)解释信息流、目标及实现范围。
 
 模型将已完成段压缩进连续 slots，同时保留容量受限的精确 token 事件。每个预测位置仅用已知前缀检索历史，原始 token 经新鲜嵌入和独立注意力被实际读取。固定 K 的工作区计算与 writer 更新分开；可选受约束 tanh 动力学具有固定 forcing 下的实数收缩界。工作区形成低维 Z，独立语言模块仅从 Z 输出分布。生成、训练、native 评测及保存/恢复均消费这些接口。
 
-新增训练目标是压缩状态对同文档下一段首个 eligible token 的 proper categorical CE；主文本 CE、辅助 CE 和目标出现次数分别记账。它不估计完整 predictive sufficiency。连续 plan 也不代表已识别的句级语义、可逆 codec 或动作/物理世界状态。已知机制与文献重合保持可见；新颖性和历史 Q01/adaptive stopping 未被本工程交付认证。
+新增训练目标是压缩状态对同文档下一段第一个 token 的 proper categorical CE，仅当段首位置本身有监督标签时计算；主文本 CE、辅助 CE 和目标出现次数分别记账。它不估计完整 predictive sufficiency。连续 plan 也不代表已识别的句级语义、可逆 codec 或动作/物理世界状态。已知机制与文献重合保持可见；新颖性和历史 Q01/adaptive stopping 未被本工程交付认证。
+
+输出仍按 token 自回归，独立 realization 使用已保存的因果 Z 序列产生一个下一符号分布。Generated 来源在原文检索中默认过滤，但生成 token 仍进入其返回分支的前缀和完成段压缩状态；M 不是已验证的事实后验。
 
 | 项目 | 已选构造 |
 |---|---|
@@ -22,6 +24,6 @@
 
 主要入口：`lwm.prepare`、`lwm.train`、`lwm.generation`、`lwm.realization`、`lwm.evaluate`、`lwm.native_parity`、`lwm.scoring replay/compare/interaction`、`scripts/run_matrix.py`。精确输入获取、环境、运行顺序和失败处理均在 Local 手册。无Docker、无付费服务、无Web GPU执行。
 
-当前独立源码审查见[事件/状态报告](rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md)、[动力学/目标报告](rounds/full-plan-2026-10-08/DYNAMICS_SOURCE_REVIEW.md)和[完整集成报告](rounds/full-plan-2026-10-08/INTEGRATION_SOURCE_REVIEW.md)。继承的CONTINUATION报告作为历史草稿保留，不声称其审查者在本次调用仍活动。审查与静态解析不等于测试通过或科学有效。当前完整的是上述已定义文本工程构造；更广的原创发现、充分性/句级语义/动作模型/自适应证书不被宣称完成。
+当前四路复查见[第二轮记录](rounds/full-plan-2026-10-08/RECHECK_REVIEW.md)；扩展时的[事件/状态报告](rounds/full-plan-2026-10-08/EPISODIC_SOURCE_REVIEW.md)、[动力学/目标报告](rounds/full-plan-2026-10-08/DYNAMICS_SOURCE_REVIEW.md)和[完整集成报告](rounds/full-plan-2026-10-08/INTEGRATION_SOURCE_REVIEW.md)保留历史绑定。继承的CONTINUATION报告作为历史草稿保留，不声称其审查者在本次调用仍活动。审查与静态解析不等于测试通过或科学有效。当前完整的是上述已定义文本工程构造；更广的原创发现、充分性/句级语义/动作模型/自适应证书不被宣称完成。
 
 历史清空提交70033ed、v0交付及旧20→15批次保留。[当前检查点](research/workflow-checkpoint.json)与[目标记录](research/BACKGROUND_GOAL.md)区分源码、发布、运行和证据状态；[v0完整定义](research/FULL_MODEL_PROPOSAL.md)及[原实验设计](research/EXPERIMENT_DESIGN.md)继续作为历史/对照文档。

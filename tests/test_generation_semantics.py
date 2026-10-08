@@ -187,3 +187,28 @@ def test_nonfinite_logits_cannot_be_reported_as_a_normal_answer(model, bad_value
             generate(model, state, 2, EOS)
         with pytest.raises(FloatingPointError, match="Nonfinite"):
             score_continuation(model, state, [4], EOS)
+
+
+@pytest.mark.parametrize("temperature,winning_logit,other_logit", [
+    (1e-50, 2.0, 1.0),
+    (5e-324, 2.0, 1.0),
+    (0.1, 3e38, -3e38),
+])
+@pytest.mark.parametrize("device", ["cpu", pytest.param("cuda",
+    marks=pytest.mark.skipif(not torch.cuda.is_available(), reason="Local CUDA device is unavailable"))])
+def test_finite_logits_and_positive_temperature_sample_without_scaling_nan(
+        model, temperature, winning_logit, other_logit, device):
+    # Controlled model output isolates the accepted sampling inputs. The real
+    # generation loop, multinomial draw and provenance/state update still run.
+    # At these scales the unique maximum has probability one after rounding.
+    model = model.to(device)
+    logits = torch.full((1, model.config.vocab_size), other_logit, device=device)
+    logits[0, 7] = winning_logit
+    original = start_stream(model)
+    generator = torch.Generator(device=device).manual_seed(29)
+    with patch.object(model, "predict_prefix", return_value=logits):
+        tokens, continuation = generate(model, original, 1, EOS, temperature, generator)
+    assert tokens == [7]
+    assert continuation.prefix.tolist() == [[7]]
+    assert continuation.prefix_origins == ("generated",)
+    assert original.prefix.numel() == 0

@@ -5,7 +5,7 @@
 | 扩展公式 | 实际入口 | 真实连线 |
 |---|---|---|
 | R_u=TopK(score(tokens[:u],过去事件)) | episodic.index/retrieve、model._retrieved/EpisodicReader | forward_segment/predict_prefix/plan_prefix -> _workspace；trainer与stream完成段后才append |
-| Z=tanh(Wz H)、p=softmax(realize(Z)) | model.plan_prefix/realize_plan、realization.plan_snapshot/restore_plan | 训练_read和真实生成plan_next；独立CLI只realize保存Z |
+| Z=tanh(Wz H+bz)、p=softmax(realize(Z)) | model.plan_prefix/realize_plan、realization.plan_snapshot/restore_plan | 既有仿射投影含可训练bias；训练_read和真实生成plan_next；独立CLI只realize保存Z |
 | A=cW/max(1,||W||F)、H'=tanh(AH+B) | ContractiveWorkspace.matrix/forward、_workspace | 同一次计算固定forcing/current矩阵；finite K梯度完整；旧Transformer分支保留 |
 | q(y|M)=softmax(Emb*tanh(Wf*mean(M))) | model.predict_future | window_objective仅loss用next target；trainer/history/checkpoint/validation接通 |
 | L=(sum CE_main+beta*sum CE_state)/Nmain | train.window_objective/main/validation_nll | main NLL、state pairs、重复监督预算、验证CE、gradient tensor inventory各自日志 |

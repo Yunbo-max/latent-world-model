@@ -1,5 +1,7 @@
 # Follow-up source review and repairs
 
+Historical delivery: fa75982cb9258047189651547381b4582b7eaec9. The source hashes below bind that first repair packet; later changes are recorded in [RECHECK_REVIEW](RECHECK_REVIEW.md), which is the current follow-up entry.
+
 User request: "你检查下", 2026-10-08. Audit baseline: main `48f249bc4b9baee81b208dbcb9fb299f56e8e91a`; all 113 remote file blobs matched the review snapshot before edits. This report is at the commit containing it. Status: **generated_unexecuted**. No project imports, software tests, training, inference, native scoring, downloads or GPU jobs were executed by Web.
 
 ## Findings and source repairs

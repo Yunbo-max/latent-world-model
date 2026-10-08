@@ -14,7 +14,7 @@ Causal proof: S contains only earlier completed segments; query u is a determini
 
 ## Semantic realization
 
-An optional per-token plan z_u=tanh(W_z h_u) has dimension d_z<d. The separately callable realization function maps z (and only z) through its own projection, causal language network and vocabulary head. The plan has no direct raw-token, retrieved-memory, belief or workspace bypass. A plan snapshot can be saved/loaded and realized independently with matching checkpoint/context identity. This is a learned text-prediction bottleneck, not an identified semantic code or an annotated sentence-level plan. v0 coda remains available when the bottleneck is disabled.
+An optional per-token plan z_u=tanh(W_z h_u+b_z) has dimension d_z<d; b_z is the learned bias of the existing affine projection. The separately callable realization function maps z (and only z) through its own projection, causal language network and vocabulary head. The plan has no direct raw-token, retrieved-memory, belief or workspace bypass. A plan snapshot can be saved/loaded and realized independently with matching checkpoint/context identity. This is a learned text-prediction bottleneck, not an identified semantic code or an annotated sentence-level plan. v0 coda remains available when the bottleneck is disabled.
 
 ## Legal dynamics
 
