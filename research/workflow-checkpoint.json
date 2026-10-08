@@ -1,9 +1,9 @@
 {
   "kind": "engineering-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T13:56:22.191046+00:00",
+  "recorded_at": "2026-10-08T15:37:47.334Z",
   "project": "Yunbo-max/latent-world-model",
-  "round": "delivery-review-2026-10-08",
+  "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
   "target_branch": "main",
   "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
@@ -12,7 +12,7 @@
     "order": "Mathematical idea first, then code.",
     "background": "Owner authorized this finite scheduled source completion. Actual Work invocation observed; no GPU job started.",
     "hf_output_destination": "unknown; no HF upload attempted",
-    "latest_goal": "2026-10-08: continue from checkpoint, complete math/code/design, review RTX 2080 Ti and 100M/1B target-token budgets, push main, leave experiments to Local, and study arXiv:2610.02665."
+    "latest_goal": "2026-10-08 16:34 Europe/London: owner requests Research Autopilot background completion of full original plan code; experiments remain Local."
   },
   "resources": {
     "gpu_model": "RTX 2080 Ti",
@@ -53,6 +53,7 @@
     "Disabled only the authorized finite source task after delivery completion; independent task lookup confirmed enabled=false."
   ],
   "pending": [
+    "Full original-plan engineering expansion: exact episodic store/retrieval, semantic realization interface, justified dynamics/objectives and complete training/generation/state/native design integration; not implemented by v0.",
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
@@ -74,43 +75,30 @@
     "training": "not started",
     "project_tests": "not run",
     "benchmark_results": "none",
-    "web_source_delivery": "generated_unexecuted; finite source task complete, exact source publication verified; Local acceptance pending"
+    "web_source_delivery": "v0 source delivered; full original-plan expansion reopened, pending"
   },
   "background": {
-    "state": "completed_disabled",
+    "state": "reopening_activation_pending",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
-    "task_title": "完成隐状态模型代码交付",
-    "queryable_host_locator": "conversation:6ac6608a-32f0-83ed-95e1-29e778f7b957",
-    "conversation_id": "6ac6608a-32f0-83ed-95e1-29e778f7b957",
+    "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
     "is_enabled": false,
-    "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
-    "timing_mode": "flexible_schedule",
-    "default_timezone": "Europe/London",
-    "configuration_readback_at": "2026-10-08T13:56:22.191046+00:00",
-    "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-08T13:56:22.191046+00:00",
-    "last_run_time": null,
-    "next_run_time": null,
-    "current_session_host": "Work, explicitly identified by the platform context",
-    "scheduled_invocation_host": "Work, explicitly identified by current platform context",
-    "first_run_observed": true,
+    "last_lookup_updated_at": "2026-10-08T13:59:32.650756+00:00",
+    "current_session_host": "Work Mode, identified by platform context",
     "continuous_execution_verified": false,
     "gpu_job_started": false,
-    "reason": "Finite source-delivery endpoint satisfied and exact source readback complete; task disabled with readback. Local software/native/GPU execution remains pending.",
-    "goal_prompt": "research/BACKGROUND_GOAL.md",
-    "stop_rule": "Finish required source review/repair and exact main delivery, report source/review/Local-pending status, then disable this task; do not wait indefinitely for Local experiments.",
-    "service_run_time_note": "Service last_run_time remains null; this actual invocation is observed from the active runtime, not inferred from that field."
+    "goal_prompt": "rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md",
+    "stop_rule": "Complete expanded original-plan source and full design with review and main readback; old v0 closure does not satisfy reopened scope."
   },
-  "next_action": "Local reads same-revision AGENTS/runbook/current handoff, restores actual execution host, qualifies full Teacher and main/scorer environments, executes authored tests and native parity, then profiles resources before any experiment. No further automatic Web continuation is scheduled.",
+  "next_action": "Publish expanded goal checkpoint, resume same existing hourly task and request run now; Work worker restores original mathematical/source obligations before extended implementation. Local does not run until coherent source handoff.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "1a344515c9d3958652577d7ff50d70be76896329",
+    "parent_head_before_publication": "0391e099923c74b6dbb195cc2afbe1d78e442516",
     "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
     "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
-    "this_revision_scope": "Closure metadata only: source repair at 1a344515c9d3958652577d7ff50d70be76896329 verified by exact nine-file readback; automation disabled and read back. Closure revision itself will be read back by publishing session."
+    "this_revision_scope": "Reopen full original-plan code goal and preserve exact implementation gaps; no new model source or execution claimed."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -190,5 +178,36 @@
     "author_code_status": "not qualified: co-lead announcement on 2026-10-07 says code/weights pending internal review",
     "decision": "Keep current engineered model; source-grounded mathematical audit and bounded inference optimization, no diffusion conversion.",
     "record": "research/SIGMA_REVIEW.md"
+  },
+  "prior_source_delivery": {
+    "round": "delivery-review-2026-10-08",
+    "background": {
+      "state": "completed_disabled",
+      "task_kind": "scheduled_authoring_continuation",
+      "independent_task_id": "6ac78ded796081918d2123402544d760",
+      "task_title": "完成隐状态模型代码交付",
+      "queryable_host_locator": "conversation:6ac6608a-32f0-83ed-95e1-29e778f7b957",
+      "conversation_id": "6ac6608a-32f0-83ed-95e1-29e778f7b957",
+      "is_enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+      "timing_mode": "flexible_schedule",
+      "default_timezone": "Europe/London",
+      "configuration_readback_at": "2026-10-08T13:56:22.191046+00:00",
+      "configuration_prompt_equal": true,
+      "service_updated_at": "2026-10-08T13:56:22.191046+00:00",
+      "last_run_time": null,
+      "next_run_time": null,
+      "current_session_host": "Work, explicitly identified by the platform context",
+      "scheduled_invocation_host": "Work, explicitly identified by current platform context",
+      "first_run_observed": true,
+      "continuous_execution_verified": false,
+      "gpu_job_started": false,
+      "reason": "Finite source-delivery endpoint satisfied and exact source readback complete; task disabled with readback. Local software/native/GPU execution remains pending.",
+      "goal_prompt": "research/BACKGROUND_GOAL.md",
+      "stop_rule": "Finish required source review/repair and exact main delivery, report source/review/Local-pending status, then disable this task; do not wait indefinitely for Local experiments.",
+      "service_run_time_note": "Service last_run_time remains null; this actual invocation is observed from the active runtime, not inferred from that field."
+    },
+    "source_delivery": "generated_unexecuted; finite source task complete, exact source publication verified; Local acceptance pending",
+    "next_action": "Local reads same-revision AGENTS/runbook/current handoff, restores actual execution host, qualifies full Teacher and main/scorer environments, executes authored tests and native parity, then profiles resources before any experiment. No further automatic Web continuation is scheduled."
   }
 }

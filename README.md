@@ -1,3 +1,5 @@
+**2026-10-08 原方案完整代码目标已重新打开。** 当前完整的是较窄 v0 源码；episodic memory、semantic codec及相应数学/训练机制尚未全部实现。见[本轮目标与覆盖表](rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md)。后续源码和Local资格状态分别记录。
+
 # Latent World Model: text predictive state v0
 
 **交付状态：`generated_unexecuted`。** 完整数学方案、模型/训练/生成/数据/评测源码及实验设计已提供；项目测试、数据下载、GPU 训练和原生评测尚未执行。RTX 2080 Ti 的实际显存占用与速度需要在用户机器验收。
