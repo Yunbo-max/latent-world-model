@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T17:38:55.860088+00:00",
+  "recorded_at": "2026-10-08T22:26:12.481170+00:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -12,7 +12,17 @@
     "order": "Mathematical idea first, then code.",
     "background": "Owner authorized this finite scheduled source completion. Actual Work invocation observed; no GPU job started.",
     "hf_output_destination": "unknown; no HF upload attempted",
-    "latest_goal": "2026-10-08 16:34 Europe/London: owner requests Research Autopilot background completion of full original plan code; experiments remain Local."
+    "latest_goal": "2026-10-08 16:34 Europe/London: owner requests Research Autopilot background completion of full original plan code; experiments remain Local.",
+    "latest_research_goal": {
+      "recorded_at": "2026-10-08T22:26:12.481170+00:00",
+      "source": "Owner messages in this conversation",
+      "quotes": [
+        "我我觉得太分散了，我觉得就是关注于delta的方法",
+        "走着一条线然后看怎么走得更好，比如对，然后我们核心就是用diffusion去帮助delta实现长距离的拟合， 也比如可以用什么方法来提升，像kda和rwkv是两个方法",
+        "我们可以提出自己的方法在这个框架下"
+      ],
+      "interpretation": "One Delta-centered line: investigate our own diffusion-assisted long-horizon prediction/memory method. Not authorization to declare an unspecified construction novel or scientifically verified."
+    }
   },
   "resources": {
     "gpu_model": "RTX 2080 Ti",
@@ -73,7 +83,8 @@
     "User-requested follow-up audit restored main48f249b and matched all113 tracked blobs before edits; three independent read-only source reviewers examined checkpoint/state, training and native scoring. Repaired loaded-checkpoint identity race, tokenizer initialization mismatch and pinned empty-context EOS semantics; authored regressions and contraction acceptance, all unexecuted.",
     "User-requested second review restored exact mainfa75982c and matched all115 blobs. Four independent read-only source reviewers checked model/episodic, training/checkpoint, streaming/realization and native evaluation/matrix. Repaired source-filtered scan counting and finite-positive-temperature sampling, authored CPU/CUDA regressions before patches, clarified affine plan/auxiliary/generated-state semantics and historical handoff bindings; no project execution.",
     "User novelty feedback reassessed against current source and Huginn/RMT/DEQ primary texts; independently reviewed contraction scope, supplied analytic loss-worsening counterexample and recorded engineering-control versus mathematical-discovery distinction. No new method/source or executed results.",
-    "User-requested multi-architecture exploration delivered six conditional mathematical route cards with primary nearest-work audits and independent review of the six core inequalities/constraints. Preserved original discovery qualification, engineered source/configs and pending Local experiments."
+    "User-requested multi-architecture exploration delivered six conditional mathematical route cards with primary nearest-work audits and independent review of the six core inequalities/constraints. Preserved original discovery qualification, engineered source/configs and pending Local experiments.",
+    "Bounded Delta/KDA/RWKV-7 and diffusion-nearest-work reading, local/frozen-long-horizon write-effect derivation with independent mathematical review, and owner-directed scope convergence; documentation-only, no new qualified method or runtime claim."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -169,6 +180,15 @@
       ],
       "scope": "Documentation-only architecture exploration; code/configs, historical batch and runtime records preserved.",
       "verification": "Expected-parent main publication and exact changed-file readback reported by the publishing session."
+    },
+    "delta_diffusion_direction_delivery": {
+      "parent_head": "8c50e57c78d41d5d54b4830da768bcd8f1a9ad66",
+      "paths": [
+        "research/DELTA_DIFFUSION_DIRECTION_2026-10-08.zh-CN.md",
+        "research/workflow-checkpoint.json"
+      ],
+      "scope": "Documentation-only owner-directed convergence to Delta + diffusion; exact source, historical counts and Local/runtime obligations preserved.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback reported by publishing session."
     }
   },
   "skill": {
@@ -190,7 +210,18 @@
     "background_dispatch_modules_read": [
       "current canonical SKILL.md",
       "references/web-background-work.md"
-    ]
+    ],
+    "delta_direction_read_revision": {
+      "source_root": "/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline",
+      "recorded_at": "2026-10-08T22:26:12.481170+00:00",
+      "hashes": {
+        "SKILL.md": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84",
+        "references/workflow-harness.md": "e6db3ca81e4e63c4b6b755eb2f08a77a874e2c3317a045a86b86bac7a259a0ae",
+        "references/math-analysis.md": "e27e60718518b34d4995a4f2109588aa93746665c4466ab7ac31c049334ccbc8",
+        "references/repository-round-trips.md": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb"
+      },
+      "reused_module_reading": "Previously inspected compatible math operation/derivation and research-quality modules remain part of bounded reasoning; no code/design boundary crossed."
+    }
   },
   "workflow_clarification": {
     "source": "Owner message: 数学推导结束就是code实验设计呀",
@@ -461,6 +492,44 @@
       "/root/arch_solver_memory",
       "/root/arch_hierarchy_invariant",
       "/root/figure_rwkv_fidelity"
-    ]
-  }
+    ],
+    "disposition_update": {
+      "recorded_at": "2026-10-08T22:26:12.481170+00:00",
+      "status": "parked_as_six_independent_research_routes",
+      "reason": "Owner narrows scope to Delta + diffusion",
+      "prior_math_and_reading_preserved": true,
+      "superseding_direction_report": "research/DELTA_DIFFUSION_DIRECTION_2026-10-08.zh-CN.md"
+    }
+  },
+  "research_direction_update": {
+    "status": "owner_scope_converged_concrete_method_unselected",
+    "report": "research/DELTA_DIFFUSION_DIRECTION_2026-10-08.zh-CN.md",
+    "backbone": "Delta recurrent state",
+    "goal": "Diffusion-assisted long-distance fitting via a substantiated write/retention mechanism",
+    "priority_investigation": "Long-horizon denoising credit assignment to early Delta writes, compared to ordinary far-horizon supervision",
+    "diffusion_training_or_inference_scope": "not fixed by owner; training writer is current investigation priority, not an adopted final design",
+    "mathematical_results": [
+      "Exact local readout perturbation relative to post-decay state",
+      "Exact frozen-future-feature propagation of one Delta write with ordered transition product",
+      "Conditional information bottleneck for a fixed-state diffusion reader"
+    ],
+    "boundary": "These are known/control identities and limitations, not a new qualified original method",
+    "primary_closest_work": [
+      "KDA",
+      "RWKV-7",
+      "FLARE v2",
+      "DeltaFlow v1",
+      "DreamingGoose v1"
+    ],
+    "reviewers": [
+      "/root/arch_solver_memory",
+      "/root/figure_dka_identify",
+      "/root/arch_predictive_belief"
+    ],
+    "source_changed": false,
+    "project_execution": "none",
+    "historical_candidate_counts_changed": false,
+    "formal_method_selection": "pending; no new selection claimed"
+  },
+  "research_next_action": "Within the narrowed Delta + diffusion line, derive a concrete long-horizon write/retention mechanism and distinguish diffusion-specific benefit from ordinary far-horizon supervision; finish genuine math/originality/selection prerequisites before new candidate code or experiment design. Existing Local acceptance instructions remain in next_action."
 }
