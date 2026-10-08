@@ -1,3 +1,7 @@
+## Verified expanded source delivery
+
+Source commit: d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564. All63 changed files were read back byte-identical from its exact remote tree; literal main was independently read back. Receipt: rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json. The same finite source task has been disabled and independently queried after this expanded endpoint. Runtime software/native/GPU/scientific evidence remains pending Local; broader unresolved ideals are explicit in COVERAGE.
+
 # Current expanded source checkpoint
 
 The current Work invocation restored pinned main fba4653780e0b277a1fe7fdef47e3f20d33f2d53 and all69 blob identities. Expanded source, full native comparison/interaction design and concrete Local handoff are authored. See rounds/full-plan-2026-10-08/COVERAGE.md and WEB_HANDOFF.md. Publication and exact readback are recorded by the integration session; this text alone is not a receipt. Runtime software/native/GPU/scientific evidence remains pending Local.

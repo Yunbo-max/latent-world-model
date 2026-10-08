@@ -11,7 +11,7 @@ Goal: implement the closed constructions in rounds/full-plan-2026-10-08/EXPANSIO
 - [x] Wire stores/predictive CE into trainer and validation with main/auxiliary denominator separation; tests pin writer gradients, no future-state edge and resumed state identity.
 - [x] Add expanded/native cost logging and complete configs/command matrices; preserve all original input/scorer acquisition and native denominators.
 - [x] Independently source-review complete integrated revision, address concrete findings, parse without project execution.
-- [ ] Reconcile live main, publish non-force expected-parent revision and read every changed file at that exact commit.
+- [x] Reconcile live main, publish non-force expected-parent revision and read every changed file at that exact commit.
 
 Review focus: future-query leaks; masked SFT targets; evicted-event replay; mixed-origin partial segment restore; old checkpoint default-field compatibility. Tests are authored for Local, not Web red/green receipts. There is no new-method admission or claimed empirical novelty in this engineering expansion.
 

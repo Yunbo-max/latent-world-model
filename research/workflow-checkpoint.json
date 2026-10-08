@@ -65,10 +65,11 @@
     "Authored complete13-arm/two-seed comparison matrix, all native replay/comparison dependencies and synchronized full experiment/Local acceptance documentation.",
     "Authored complete chosen original-plan text construction: causal exact-event retrieval/receipts, token-plan realization, fixed-forcing contractive workspace, proper compressed-state prediction CE and full training/generation/native/state integration.",
     "Independent current state and math/training/statistics source reviews completed; repaired auxiliary heldout CE, gradient tensor inventory and actual native four-arm interaction interface.",
-    "Full13-arm/two-seed configs,204 dependency cards, coverage/math/design and concrete Local handoff authored; parsed source/JSON/TOML using standard library only."
+    "Full13-arm/two-seed configs,204 dependency cards, coverage/math/design and concrete Local handoff authored; parsed source/JSON/TOML using standard library only.",
+    "Published expanded source at d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564, non-force expected-parent main update; every63 changed file read back byte-identical.",
+    "Disabled only the existing full-source task after the expanded source endpoint; independent service lookup confirmed disabled."
   ],
   "pending": [
-    "Exact expanded main publication/readback pending in this checkpoint; publisher closes only from real receipts.",
     "Final full-chain source/design review, standard-library source syntax/link/hash checks and exact main publication/readback; then source-task closure if endpoint satisfied.",
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
@@ -91,14 +92,14 @@
     "training": "not started",
     "project_tests": "not run",
     "benchmark_results": "none",
-    "web_source_delivery": "Expanded chosen text engineering source authored/source-reviewed; remote publication pending; generated_unexecuted"
+    "web_source_delivery": "Selected full text engineering source delivered and exact readback verified; generated_unexecuted; Local acceptance pending"
   },
   "background": {
-    "state": "actual_work_invocation_source_delivery_in_progress",
+    "state": "expanded_source_endpoint_completed_disabled",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
-    "is_enabled": true,
+    "is_enabled": false,
     "last_lookup_updated_at": "2026-10-08T13:59:32.650756+00:00",
     "current_session_host": "Work Mode, explicitly identified by platform context",
     "continuous_execution_verified": false,
@@ -114,12 +115,17 @@
     "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
-    "reason": "This actual Work invocation is observed; independent continuation configuration is not proof of continuous execution.",
+    "reason": "Selected executable full text construction, full design and actual source publication/readback complete. Unresolved broader research and all Local qualification remain explicit.",
     "scheduled_invocation_host": "Work Mode, explicitly identified by platform context",
     "first_run_observed": true,
-    "service_run_time_note": "Actual active invocation is observed from runtime, not inferred from stale last_run_time."
+    "service_run_time_note": "Actual active invocation is observed from runtime, not inferred from stale last_run_time.",
+    "disable_readback": {
+      "id": "6ac78ded796081918d2123402544d760",
+      "is_enabled": false,
+      "updated_at": "2026-10-08T16:26:23.704703+00:00"
+    }
   },
-  "next_action": "Non-force expected-parent main source publication, read every changed file at exact commit; only then close expanded source task, retain Local qualification and unresolved research ideals.",
+  "next_action": "Local accepts exact source revision via current handoff, qualifies software/native/device paths and real cumulative budget, then executes the complete matrix. No further automatic source continuation; unresolved originality/Q01/strong semantic ideals require their separate research evidence.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -127,7 +133,11 @@
     "parent_head_before_publication": "fba4653780e0b277a1fe7fdef47e3f20d33f2d53",
     "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
     "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
-    "this_revision_scope": "Full selected original-plan engineering source, complete experiment design and Local handoff. Exact publication/readback follows this authoring checkpoint."
+    "this_revision_scope": "Record actual expanded source delivery/readback and existing-task disable receipt; no source behavior change.",
+    "expanded_source_commit": "d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564",
+    "expanded_source_tree": "93fcff37b796a191b19f24edf0ce7ba4e21da622",
+    "changed_files_read_back": 63,
+    "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json"
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
