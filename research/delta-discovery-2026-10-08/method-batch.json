@@ -1,0 +1,8 @@
+{
+  "kind": "method-verification-batch",
+  "version": "1.0.0",
+  "batch_id": "delta-discovery-2026-10-08",
+  "pool_target": 20,
+  "selection_target": 15,
+  "candidates": []
+}

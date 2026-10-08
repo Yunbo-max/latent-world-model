@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T22:35:52.060Z",
+  "recorded_at": "2026-10-08T22:45:26.846Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -14,11 +14,10 @@
     "hf_output_destination": "unknown; no HF upload attempted",
     "latest_goal": "2026-10-08 16:34 Europe/London: owner requests Research Autopilot background completion of full original plan code; experiments remain Local.",
     "latest_research_goal": {
-      "recorded_at": "2026-10-08T22:35:52.060Z",
-      "user_local_submission_time": "2026-10-08T23:31:16+01:00",
-      "source": "Owner message in this conversation",
-      "quote": "我觉得diffusion是一个方法但是不是主要吧？ 你看看还有什么idea可以，就是针对当前的方法缺点是什么",
-      "interpretation": "Core contribution should target Delta memory-update deficiencies; diffusion is an optional tool, not the required main mechanism."
+      "recorded_at": "2026-10-08T22:45:26.846Z",
+      "user_local_submission_time": "2026-10-08T23:42:07+01:00",
+      "quote": "我觉得你要对于delta做数学推导吧10-20个你慢慢搞，后台任务",
+      "interpretation": "Resume this project's background mathematical discovery for 10–20 Delta ideas; use target20 and current default ranking/top15 flow; diffusion remains optional, no new implementation or experiment dispatch in this goal."
     }
   },
   "resources": {
@@ -82,7 +81,8 @@
     "User novelty feedback reassessed against current source and Huginn/RMT/DEQ primary texts; independently reviewed contraction scope, supplied analytic loss-worsening counterexample and recorded engineering-control versus mathematical-discovery distinction. No new method/source or executed results.",
     "User-requested multi-architecture exploration delivered six conditional mathematical route cards with primary nearest-work audits and independent review of the six core inequalities/constraints. Preserved original discovery qualification, engineered source/configs and pending Local experiments.",
     "Bounded Delta/KDA/RWKV-7 and diffusion-nearest-work reading, local/frozen-long-horizon write-effect derivation with independent mathematical review, and owner-directed scope convergence; documentation-only, no new qualified method or runtime claim.",
-    "Owner-directed defect diagnosis and scope correction: diffusion optional; known conditional interference, retention, rank/precision and constrained-edit boundaries reviewed independently. Targeted primary closest-work audit recorded; no candidate/code/experiment gate claimed."
+    "Owner-directed defect diagnosis and scope correction: diffusion optional; known conditional interference, retention, rank/precision and constrained-edit boundaries reviewed independently. Targeted primary closest-work audit recorded; no candidate/code/experiment gate claimed.",
+    "Prepared standalone owner-requested Delta math-only background goal and fresh empty evidence batch; reused disabled task identity with actual configuration receipt. No new math candidates or selection claimed."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -111,35 +111,24 @@
     "web_source_delivery": "Complete selected full original-plan engineering source/design delivered and independently reviewed; exact d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564 whole-tree readback repeated by current publishing invocation; generated_unexecuted"
   },
   "background": {
-    "state": "expanded_source_endpoint_completed_disabled",
+    "state": "delta_math_goal_configured_disabled_awaiting_packet",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
     "is_enabled": false,
-    "last_lookup_updated_at": "2026-10-08T13:59:32.650756+00:00",
-    "current_session_host": "Work Mode, explicitly identified by platform context",
+    "current_session_host": "Work Mode explicitly identified by platform context",
     "continuous_execution_verified": false,
     "gpu_job_started": false,
-    "goal_prompt": "rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md",
-    "stop_rule": "Complete expanded original-plan source and full design with review and main readback; old v0 closure does not satisfy reopened scope.",
-    "task_title": "完成原方案全部代码",
-    "configuration_readback_at": "2026-10-08T15:38:34.407Z",
-    "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-08T15:39:14.156701+00:00",
-    "last_run_time": "2026-10-08T13:58:25.720681+00:00",
-    "next_run_time": null,
+    "goal_prompt": "research/delta-discovery-2026-10-08/GOAL.md",
+    "task_title": "推导 Delta 数学候选",
     "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
-    "reason": "Expanded selected engineering source endpoint and exact source readback complete; existing disabled-task readback confirmed, no duplicate task or second disable action.",
-    "scheduled_invocation_host": "Work Mode, explicitly identified by platform context",
-    "first_run_observed": true,
-    "service_run_time_note": "Actual active invocation is observed from runtime, not inferred from stale last_run_time.",
-    "disable_readback": {
-      "id": "6ac78ded796081918d2123402544d760",
-      "is_enabled": false,
-      "updated_at": "2026-10-08T16:26:23.704703+00:00"
-    }
+    "configuration_prompt_equal": true,
+    "service_updated_at": "2026-10-08T22:44:57.459235+00:00",
+    "last_run_time": "2026-10-08T16:28:09.134751+00:00",
+    "last_run_scope": "historical engineering goal, not new Delta math execution",
+    "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation."
   },
   "next_action": "Local reads same-revision current handoff/runbook, restores actual accepted host, qualifies software/full Teacher/native interfaces, profiles actual resources and executes admitted complete matrix; no further automatic Web source continuation.",
   "publication": {
@@ -195,6 +184,17 @@
         "research/workflow-checkpoint.json"
       ],
       "scope": "Documentation-only failure-mode diagnosis and owner-directed priority correction; preserve source, candidate counts and Local obligations.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback reported by publishing session."
+    },
+    "delta_math_goal_setup_delivery": {
+      "parent_head": "27a189bd82515f06217d725a800650d7c44fbb4f",
+      "paths": [
+        "research/delta-discovery-2026-10-08/GOAL.md",
+        "research/delta-discovery-2026-10-08/PROGRESS.json",
+        "research/delta-discovery-2026-10-08/method-batch.json",
+        "research/workflow-checkpoint.json"
+      ],
+      "scope": "Background goal/configuration and honest zero-count math-batch initialization; no model source or historical evidence changed.",
       "verification": "Expected-parent non-force main update and exact changed-file readback reported by publishing session."
     }
   },
@@ -550,5 +550,62 @@
       }
     ]
   },
-  "research_next_action": "Within Delta core, derive a causal, calculable protection/release rule that distinguishes needed revision from preservation, audit full nearest works including QED, and establish distinguishing predictions/falsifiers before qualifying a candidate or generating code. Diffusion remains optional. Existing Local execution instructions remain in next_action."
+  "research_next_action": "Activate the configured task, request immediate first invocation, then read primary nearest-work formulas/author code and construct the first complete distinct mathematical candidates.",
+  "background_history": [
+    {
+      "recorded_at": "2026-10-08T22:45:26.846Z",
+      "background": {
+        "state": "expanded_source_endpoint_completed_disabled",
+        "task_kind": "scheduled_authoring_continuation",
+        "independent_task_id": "6ac78ded796081918d2123402544d760",
+        "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
+        "is_enabled": false,
+        "last_lookup_updated_at": "2026-10-08T13:59:32.650756+00:00",
+        "current_session_host": "Work Mode, explicitly identified by platform context",
+        "continuous_execution_verified": false,
+        "gpu_job_started": false,
+        "goal_prompt": "rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md",
+        "stop_rule": "Complete expanded original-plan source and full design with review and main readback; old v0 closure does not satisfy reopened scope.",
+        "task_title": "完成原方案全部代码",
+        "configuration_readback_at": "2026-10-08T15:38:34.407Z",
+        "configuration_prompt_equal": true,
+        "service_updated_at": "2026-10-08T15:39:14.156701+00:00",
+        "last_run_time": "2026-10-08T13:58:25.720681+00:00",
+        "next_run_time": null,
+        "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+        "timing_mode": "flexible_schedule",
+        "default_timezone": "Europe/London",
+        "reason": "Expanded selected engineering source endpoint and exact source readback complete; existing disabled-task readback confirmed, no duplicate task or second disable action.",
+        "scheduled_invocation_host": "Work Mode, explicitly identified by platform context",
+        "first_run_observed": true,
+        "service_run_time_note": "Actual active invocation is observed from runtime, not inferred from stale last_run_time.",
+        "disable_readback": {
+          "id": "6ac78ded796081918d2123402544d760",
+          "is_enabled": false,
+          "updated_at": "2026-10-08T16:26:23.704703+00:00"
+        }
+      },
+      "reason": "Preserve completed original engineering authoring stage before reusing task identity for owner-requested Delta math stage."
+    }
+  ],
+  "delta_math_discovery": {
+    "batch_id": "delta-discovery-2026-10-08",
+    "progress": "research/delta-discovery-2026-10-08/PROGRESS.json",
+    "batch": "research/delta-discovery-2026-10-08/method-batch.json",
+    "goal": "research/delta-discovery-2026-10-08/GOAL.md",
+    "targets": {
+      "pool": 20,
+      "selection": 15
+    },
+    "current_counts": {
+      "constructed": 0,
+      "math_reviewed": 0,
+      "math_qualified": 0,
+      "selected": 0
+    },
+    "status": "prepared_awaiting_background_activation",
+    "previous_unqualified_batch_preserved": true,
+    "code_generation_scope": "not included",
+    "gpu_execution_scope": "not included"
+  }
 }
