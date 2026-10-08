@@ -1,7 +1,7 @@
 {
   "kind": "engineering-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T15:37:47.334Z",
+  "recorded_at": "2026-10-08T15:38:34.407Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -78,27 +78,37 @@
     "web_source_delivery": "v0 source delivered; full original-plan expansion reopened, pending"
   },
   "background": {
-    "state": "reopening_activation_pending",
+    "state": "enabled_run_request_pending",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
-    "is_enabled": false,
+    "is_enabled": true,
     "last_lookup_updated_at": "2026-10-08T13:59:32.650756+00:00",
     "current_session_host": "Work Mode, identified by platform context",
     "continuous_execution_verified": false,
     "gpu_job_started": false,
     "goal_prompt": "rounds/full-plan-2026-10-08/IMPLEMENTATION_GOAL.md",
-    "stop_rule": "Complete expanded original-plan source and full design with review and main readback; old v0 closure does not satisfy reopened scope."
+    "stop_rule": "Complete expanded original-plan source and full design with review and main readback; old v0 closure does not satisfy reopened scope.",
+    "task_title": "完成原方案全部代码",
+    "configuration_readback_at": "2026-10-08T15:38:34.407Z",
+    "configuration_prompt_equal": true,
+    "service_updated_at": "2026-10-08T15:38:11.968052+00:00",
+    "last_run_time": "2026-10-08T13:58:25.720681+00:00",
+    "next_run_time": null,
+    "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+    "timing_mode": "flexible_schedule",
+    "default_timezone": "Europe/London",
+    "reason": "Expanded original-plan goal published and exact four-file readback matched; same existing hourly automation resumed and independently read back. A new run has not yet been requested or observed."
   },
-  "next_action": "Publish expanded goal checkpoint, resume same existing hourly task and request run now; Work worker restores original mathematical/source obligations before extended implementation. Local does not run until coherent source handoff.",
+  "next_action": "Request the enabled existing task to run now after this configuration checkpoint is published; service acceptance does not prove worker execution or model source completion.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "0391e099923c74b6dbb195cc2afbe1d78e442516",
+    "parent_head_before_publication": "6c799d9a3d8007d3ced855072b1f7e29c74649ab",
     "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
     "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
-    "this_revision_scope": "Reopen full original-plan code goal and preserve exact implementation gaps; no new model source or execution claimed."
+    "this_revision_scope": "Persist actual automation reactivation/readback receipt, with immediate run request still pending."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
