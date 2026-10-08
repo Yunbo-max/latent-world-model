@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-08T22:45:26.846Z",
+  "recorded_at": "2026-10-08T22:46:25.512Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "prepared_awaiting_background_activation",
+  "status": "background_enabled_first_invocation_pending",
   "counts": {
     "constructed": 0,
     "math_reviewed": 0,
@@ -28,9 +28,12 @@
     "id": "6ac78ded796081918d2123402544d760",
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
     "service": "scheduled_authoring_continuation",
-    "is_enabled": false,
-    "configuration_updated_at": "2026-10-08T22:44:57.459235+00:00",
-    "continuous_execution_verified": false
+    "is_enabled": true,
+    "configuration_updated_at": "2026-10-08T22:45:48.311655+00:00",
+    "continuous_execution_verified": false,
+    "next_run_time": null,
+    "configuration_prompt_equal": true,
+    "first_new_stage_run_observed": false
   },
   "existing_diagnostic_sources": [
     "research/DELTA_FAILURE_MODES_2026-10-08.zh-CN.md",
@@ -38,6 +41,6 @@
     "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md"
   ],
   "reused_reading_scope": "Conditional diagnostic derivations and nearest-work audit exist; they are controls/leads, not new qualified candidate cards.",
-  "next_action": "Activate the configured task, request immediate first invocation, then read primary nearest-work formulas/author code and construct the first complete distinct mathematical candidates.",
+  "next_action": "The publishing session requests the first invocation once after exact activation-packet readback. An actual task invocation resumes the nearest-work/math-card stage; it must not request another immediate run of itself.",
   "delivery_parent": "27a189bd82515f06217d725a800650d7c44fbb4f"
 }

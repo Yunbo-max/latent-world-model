@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T22:45:26.846Z",
+  "recorded_at": "2026-10-08T22:46:25.512Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -111,11 +111,11 @@
     "web_source_delivery": "Complete selected full original-plan engineering source/design delivered and independently reviewed; exact d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564 whole-tree readback repeated by current publishing invocation; generated_unexecuted"
   },
   "background": {
-    "state": "delta_math_goal_configured_disabled_awaiting_packet",
+    "state": "delta_math_scheduled_continuation_enabled",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
-    "is_enabled": false,
+    "is_enabled": true,
     "current_session_host": "Work Mode explicitly identified by platform context",
     "continuous_execution_verified": false,
     "gpu_job_started": false,
@@ -125,10 +125,14 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-08T22:44:57.459235+00:00",
+    "service_updated_at": "2026-10-08T22:45:48.311655+00:00",
     "last_run_time": "2026-10-08T16:28:09.134751+00:00",
     "last_run_scope": "historical engineering goal, not new Delta math execution",
-    "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation."
+    "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
+    "next_run_time": null,
+    "immediate_first_run": "Publishing session requests once after this activation packet is read back; this checkpoint is not an execution receipt.",
+    "first_new_stage_run_observed": false,
+    "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7"
   },
   "next_action": "Local reads same-revision current handoff/runbook, restores actual accepted host, qualifies software/full Teacher/native interfaces, profiles actual resources and executes admitted complete matrix; no further automatic Web source continuation.",
   "publication": {
@@ -550,7 +554,7 @@
       }
     ]
   },
-  "research_next_action": "Activate the configured task, request immediate first invocation, then read primary nearest-work formulas/author code and construct the first complete distinct mathematical candidates.",
+  "research_next_action": "Enabled math-only background continuation resumes actual primary reading and candidate construction; publishing session requests immediate first invocation after this packet. No mathematical completion or continuous execution claimed.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -603,7 +607,7 @@
       "math_qualified": 0,
       "selected": 0
     },
-    "status": "prepared_awaiting_background_activation",
+    "status": "background_enabled_first_invocation_pending",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included"
