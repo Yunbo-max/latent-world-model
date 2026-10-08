@@ -49,4 +49,4 @@
 
 先前 Q01 停止规则、20→15 候选发现目标及其未通过记录继续保留。它们没有被当作本工程方案的科学通过证明；为何采用工程组合路线见 [SCIENTIFIC_SCOPE_REVIEW.md](research/SCIENTIFIC_SCOPE_REVIEW.md)。本轮唯一实现规范是 FULL_MODEL_PROPOSAL，早期 MATHEMATICAL_DESIGN / OPEN_QUESTIONS 是研究历史。
 
-完整模型、数据准备、训练/恢复、生成、原生评测和实验矩阵源码已交付，Local 软件验收与实验尚未执行。2026-10-08 已创建并读回启用的后台任务“完成隐状态模型代码交付”，按小时接续复核和必要修补，完成源码交付核对后停用；已观察到本次 Work 续接并补齐全量 bAbI 导出核对入口，正在完成精确版本交付；没有启动 GPU 作业。实际任务定位、完成/待办和恢复目标见 [BACKGROUND_GOAL.md](research/BACKGROUND_GOAL.md) 与 [workflow-checkpoint.json](research/workflow-checkpoint.json)。定时启用不代表持续运行；源码发布、软件通过、训练完成和科学有效是不同状态。
+完整模型、数据准备、训练/恢复、生成、原生评测和实验矩阵源码已交付，Local 软件验收与实验尚未执行。2026-10-08 本次 Work 续接补齐 bAbI 全作者导出核对入口，并完成独立源码审查；源码提交 [`1a34451`](https://github.com/Yunbo-max/latent-world-model/commit/1a344515c9d3958652577d7ff50d70be76896329) 的 9 个变更文件已精确读回一致。有限源码目标已完成，后台续接已停用并读回确认；没有启动 GPU 作业。真实完成项、Local 待办和历史任务记录见 [BACKGROUND_GOAL.md](research/BACKGROUND_GOAL.md) 与 [workflow-checkpoint.json](research/workflow-checkpoint.json)。源码发布、软件通过、训练完成和科学有效是不同状态。

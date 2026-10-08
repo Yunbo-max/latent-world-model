@@ -1,7 +1,7 @@
 {
   "kind": "engineering-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T13:54:46.369563+00:00",
+  "recorded_at": "2026-10-08T13:56:22.191046+00:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "delivery-review-2026-10-08",
   "role": "web_supervisor",
@@ -48,7 +48,9 @@
     "Created and configuration-read back one enabled hourly source-authoring continuation for this repository at the owner's renewed request; scheduling is not code progress or an execution receipt.",
     "Observed this scheduled continuation in platform-confirmed Work; restored cb98c6c and matched all 65 remote baseline blobs.",
     "Authored full 60-file bAbI Teacher/preparation parity CLI and 10 acceptance test functions; fixed both independent source-review integrity findings.",
-    "Parsed all 20 Python sources, 24 JSON and one TOML with standard library only; 73 authored test functions remain unexecuted."
+    "Parsed all 20 Python sources, 24 JSON and one TOML with standard library only; 73 authored test functions remain unexecuted.",
+    "Published source repair as 1a344515c9d3958652577d7ff50d70be76896329 using expected-parent non-force main update; read back all nine changed files at exact commit, identical.",
+    "Disabled only the authorized finite source task after delivery completion; independent task lookup confirmed enabled=false."
   ],
   "pending": [
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
@@ -72,22 +74,22 @@
     "training": "not started",
     "project_tests": "not run",
     "benchmark_results": "none",
-    "web_source_delivery": "generated_unexecuted; publication readback performed by this session before reporting commit"
+    "web_source_delivery": "generated_unexecuted; finite source task complete, exact source publication verified; Local acceptance pending"
   },
   "background": {
-    "state": "source_delivery_finalizing",
+    "state": "completed_disabled",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "task_title": "完成隐状态模型代码交付",
     "queryable_host_locator": "conversation:6ac6608a-32f0-83ed-95e1-29e778f7b957",
     "conversation_id": "6ac6608a-32f0-83ed-95e1-29e778f7b957",
-    "is_enabled": true,
+    "is_enabled": false,
     "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
-    "configuration_readback_at": "2026-10-08T12:37:09.340Z",
+    "configuration_readback_at": "2026-10-08T13:56:22.191046+00:00",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-08T12:34:54.124638+00:00",
+    "service_updated_at": "2026-10-08T13:56:22.191046+00:00",
     "last_run_time": null,
     "next_run_time": null,
     "current_session_host": "Work, explicitly identified by the platform context",
@@ -95,19 +97,20 @@
     "first_run_observed": true,
     "continuous_execution_verified": false,
     "gpu_job_started": false,
-    "reason": "Actual invocation performed finite source repair and independent review; exact publication verification and task closure are the remaining Web steps.",
+    "reason": "Finite source-delivery endpoint satisfied and exact source readback complete; task disabled with readback. Local software/native/GPU execution remains pending.",
     "goal_prompt": "research/BACKGROUND_GOAL.md",
-    "stop_rule": "Finish required source review/repair and exact main delivery, report source/review/Local-pending status, then disable this task; do not wait indefinitely for Local experiments."
+    "stop_rule": "Finish required source review/repair and exact main delivery, report source/review/Local-pending status, then disable this task; do not wait indefinitely for Local experiments.",
+    "service_run_time_note": "Service last_run_time remains null; this actual invocation is observed from the active runtime, not inferred from that field."
   },
-  "next_action": "Verify exact newly published main, close this finite task, then Local performs documented software/native/resource acceptance.",
+  "next_action": "Local reads same-revision AGENTS/runbook/current handoff, restores actual execution host, qualifies full Teacher and main/scorer environments, executes authored tests and native parity, then profiles resources before any experiment. No further automatic Web continuation is scheduled.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "cb98c6c6a668e35930d382771d06e6d6067a9f9b",
+    "parent_head_before_publication": "1a344515c9d3958652577d7ff50d70be76896329",
     "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
-    "previous_verified_delivery": "cb98c6c6a668e35930d382771d06e6d6067a9f9b",
-    "this_revision_scope": "Full bAbI Teacher-export parity CLI, authored tests and corresponding Local/source-delivery documentation. Model/optimizer/experiment arms unchanged."
+    "previous_verified_delivery": "1a344515c9d3958652577d7ff50d70be76896329",
+    "this_revision_scope": "Closure metadata only: source repair at 1a344515c9d3958652577d7ff50d70be76896329 verified by exact nine-file readback; automation disabled and read back. Closure revision itself will be read back by publishing session."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
