@@ -3,10 +3,10 @@
 Before setup, acceptance, execution or repair, read these files at the **same delivered Git commit**:
 
 1. [LOCAL_AGENT_RUNBOOK.md](LOCAL_AGENT_RUNBOOK.md), especially [input acquisition](LOCAL_AGENT_RUNBOOK.md#download-datasets-and-models).
-2. [Current Web handoff](rounds/delivery-review-2026-10-08/WEB_HANDOFF.md), including its link to the prior full delivery.
+2. [Current Web handoff](rounds/full-plan-2026-10-08/WEB_HANDOFF.md), including COVERAGE.md, EXPANSION_SPEC.md and EXPERIMENT_DESIGN.md at the same revision.
 3. [Adopted mathematical specification](research/FULL_MODEL_PROPOSAL.md), [math-to-code map](research/MATH_TO_CODE.md), and [complete experiment design](research/EXPERIMENT_DESIGN.md).
 
-User scope: implement a text predictive latent-state model with persistent memory, independently controlled internal recurrent computation and a separate language readout, based on existing models. RTX 2080 Ti is user-stated. Data profiles are 100M/1B **pretraining target tokens per model run**, not parameter counts. The current construction is an explicitly disclosed engineering adaptation; do not claim a faithful Huginn/RMT reproduction, novelty or validated world dynamics.
+User scope: complete the full original-plan engineered construction, not just the old v0: exact episodic history/query consumption, plan/realization, three clocks, lawful optional dynamics and supervised state objective, integrated train/generate/resume/native matrix. Adopt rounds/full-plan-2026-10-08/EXPANSION_SPEC.md together with the preserved v0 FULL_MODEL_PROPOSAL. This remains a text predictive latent-state model with persistent memory, independently controlled internal recurrent computation and a separate language readout, based on existing models. RTX 2080 Ti is user-stated. Data profiles are 100M/1B **pretraining target tokens per model run**, not parameter counts. The current construction is an explicitly disclosed engineering adaptation; do not claim a faithful Huginn/RMT reproduction, novelty or validated world dynamics.
 
 Research Autopilot role split applies. Web authors and reviews source as `generated_unexecuted`; Local executes actual environment/software/native acceptance and experiments through the existing admitted SSH/native harness. Do not run a second competing background controller or use a written task file as a launch receipt. No Docker requirement.
 
@@ -23,3 +23,17 @@ Critical implementation contracts:
 - Resume only compatible checkpoint/data/config/source; reconcile real host/PID and lock before retrying a lost launch. Never silently overwrite a live run or reset accumulated budgets.
 
 GitHub destination is `Yunbo-max/latent-world-model`, branch `main`, already authorized by the owner. Use one integration writer and expected-parent updates, preserve concurrent work, and read back actual files at the exact remote commit. No HF output destination or training-host connection was supplied to Web; do not invent either or upload weights/data elsewhere.
+
+Full-plan contracts:
+- Read IMPLEMENTATION_GOAL, EXPANSION_SPEC, COVERAGE and current experiment/review files at the same commit; stronger ideals are not executable/theorem claims.
+- For target row u query only tokens[:u] and prior completed events. Never use a target/future suffix, support labels or evaluator answers in retrieval. Use current learned embeddings and per-row selected memory, not a cross-row unrestricted union.
+- Event identity is document+ordinal, public input identity a separate caller chunk ID. Validate admission before writer; identical stable-ID retries are no-ops, conflicts reject. Chunk receipts survive EOS; document segment receipts do not. Count O(history) receipts and actual RSS/cost.
+- Keep observed_text, generated and scored_continuation per-token provenance/source. Generated content is not external evidence. Teacher-prefix parity requires the same store/provenance; it is not a claim that all different source policies coincide.
+- Plan realization receives only Z; save/restore binds context/source/config/tokenizer/checkpoint. Missing-format legacy stream state is v0 only; no source-identity downgrade or silent migration.
+- Contractive branch requires fixed forcing, current differentiable matrix norm and no h-dependent attention/norm/residual bypass. Bound is real arithmetic; residual is diagnostic, never Q01/readout truth certificate. Fixed K remains adopted.
+- State CE predicts first eligible token of the next segment from previous post-write M, using target only in loss. Main denominator remains main target count; auxiliary observations are separately counted repeated labels. Preserve within-window writer gradients and cross-document resets.
+- Matrix 13 arms x2 seeds:2.6B/26B pretraining targets plus26M adaptation per tier. Do not claim parameter/cost matching for architectural removals/replacements. All tests/native/GPU experiments are pending Local; do not execute project code/tests as Web or assign them to reviewers.
+
+Expanded construction contracts: exact CPU store is appended only after prediction/complete admission; per-row query ends before target; no query union across future rows. Stable chunk receipts are checked before prefix/writer mutation and persist across EOS. Raw retention is bounded but receipts grow. Generated/scored/observed origins and source locators remain distinct. Optional plan realization consumes only persisted Z, with no reader callback. Fixed-forcing contraction has a real-arithmetic state bound, no output/roundoff/adaptive guarantee. Auxiliary CE is normalized by main target count and eligible pairs are logged separately; held-out main NLL is never the composite loss.
+
+Use configs/full_plan_experiments.json for the current13-arm/2-seed full matrix, retaining all v0 controls. Budget totals2.6B/26B pretraining plus26M separately counted adaptation targets. Native full denominators and paired/four-arm interaction are required. The current source review is in the two CONTINUATION review files; Local tests/native/GPU evidence remain pending. Historical original-method gates and Q01 remain unchanged.

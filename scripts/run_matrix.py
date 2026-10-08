@@ -16,7 +16,7 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def build_plan(root, data_root, run_root, budget, python, arms, seeds):
+def build_plan(root, data_root, run_root, budget, python, arms, seeds, comparisons=None):
     jobs = []
     for arm in arms:
         for seed in seeds:
@@ -54,6 +54,44 @@ def build_plan(root, data_root, run_root, budget, python, arms, seeds):
                 jobs.append({"id": f"{identity}/eval-{task}", "kind": "evaluate",
                              "requires": [f"{identity}/{checkpoint_stage}"], "argv": command,
                              "output": str(directory / f"eval-{task}")})
+                native_env, native_repo = ("lwm-parlai", "ParlAI") if task == "babi" else ("lwm-lmeval", "lm-evaluation-harness")
+                command = ["env", "CUDA_VISIBLE_DEVICES=", f"PYTHONPATH={root / 'src'}",
+                    "conda", "run", "-n", native_env, "python", "-m", "lwm.scoring", "replay",
+                    "--task", task, "--data", str(data_root / task), "--predictions",
+                    str(directory / f"eval-{task}" / "predictions.jsonl"), "--native-source",
+                    str(root / "external" / native_repo), "--output", str(directory / f"native-{task}")]
+                jobs.append({"id": f"{identity}/native-{task}", "kind": "official_replay", "gpu_count": 0,
+                    "requires": [f"{identity}/eval-{task}"], "argv": command,
+                    "output": str(directory / f"native-{task}")})
+    for left, right in comparisons or []:
+        if left not in arms or right not in arms or left == right:
+            raise ValueError("Comparison must name two distinct included arms")
+        for seed in seeds:
+            left_id, right_id = f"{left}-{budget}-seed{seed}", f"{right}-{budget}-seed{seed}"
+            for task in ("babi", "lambada"):
+                output = run_root / "comparisons" / f"{right}-minus-{left}-{budget}-seed{seed}-{task}"
+                jobs.append({"id": f"comparison/{right}-minus-{left}/seed{seed}/{task}",
+                    "kind": "paired_native_comparison", "gpu_count": 0,
+                    "requires": [f"{left_id}/native-{task}", f"{right_id}/native-{task}"],
+                    "argv": ["env", "CUDA_VISIBLE_DEVICES=", python, "-m", "lwm.scoring", "compare", "--left",
+                        str(run_root / left_id / f"eval-{task}" / "predictions.jsonl"), "--right",
+                        str(run_root / right_id / f"eval-{task}" / "predictions.jsonl"), "--output", str(output)],
+                    "output": str(output)})
+    factorial = {"memory4": "memory_loop4", "reset4": "reset_loop4",
+                 "memory1": "memory_loop1", "reset1": "reset_loop1"}
+    if all(arm in arms for arm in factorial.values()):
+        for seed in seeds:
+            for task in ("babi", "lambada"):
+                output = run_root / "comparisons" / f"memory-depth-interaction-{budget}-seed{seed}-{task}"
+                command = ["env", "CUDA_VISIBLE_DEVICES=", python, "-m", "lwm.scoring", "interaction"]
+                dependencies = []
+                for name, arm in factorial.items():
+                    identity = f"{arm}-{budget}-seed{seed}"
+                    command.extend(["--" + name, str(run_root / identity / f"eval-{task}" / "predictions.jsonl")])
+                    dependencies.append(f"{identity}/native-{task}")
+                jobs.append({"id": f"interaction/seed{seed}/{task}", "kind": "paired_native_interaction",
+                    "gpu_count": 0, "requires": dependencies, "argv": command + ["--output", str(output)],
+                    "output": str(output)})
     return {"format": "lwm-local-command-manifest-v1", "status": "generated_unexecuted",
             "cwd": str(root), "budget": budget, "arms": arms, "seeds": seeds,
             "acceptance": "software, native parity and cumulative GPU budget required before execute",
@@ -66,11 +104,17 @@ def main(argv=None):
     parser.add_argument("--output-root", default="runs/matrix")
     parser.add_argument("--budget", choices=("100m", "1b"), default="100m")
     parser.add_argument("--python", default=sys.executable)
+    parser.add_argument("--design", default="configs/experiments.json")
     args = parser.parse_args(argv)
     root = Path(__file__).resolve().parents[1]
     data_root, run_root = Path(args.data_root).resolve(), Path(args.output_root).resolve()
-    matrix = json.loads((root / "configs" / "experiments.json").read_text())
-    plan = build_plan(root, data_root, run_root, args.budget, args.python, matrix["arms"], matrix["seeds"])
+    design_path = Path(args.design)
+    if not design_path.is_absolute():
+        design_path = root / design_path
+    matrix = json.loads(design_path.read_text())
+    plan = build_plan(root, data_root, run_root, args.budget, args.python, matrix["arms"], matrix["seeds"], matrix.get("comparisons"))
+    plan["design_path"] = str(design_path)
+    plan["design_sha256"] = digest(design_path)
     run_root.mkdir(parents=True, exist_ok=True)
     plan_path = run_root / f"commands-{args.budget}.json"
     plan_path.write_text(json.dumps(plan, indent=2) + "\n")
@@ -80,3 +124,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+

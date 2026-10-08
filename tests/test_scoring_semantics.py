@@ -22,6 +22,7 @@ from lwm.scoring import (
     load_dataset,
     normalize_answer,
     paired_bootstrap,
+    factorial_bootstrap,
     replay_native,
     validate_predictions,
 )
@@ -126,6 +127,21 @@ def test_paired_bootstrap_keeps_questions_nested_within_native_episode():
     assert result["clusters"] == 2
     assert result["examples"] == 3
     assert result["delta_right_minus_left"] == pytest.approx(2 / 3)
+
+
+def test_factorial_interaction_uses_shared_units_and_correct_sign():
+    # Algebra/aggregation fixture, not generated benchmark observations.
+    base = _engineering_rows()
+    ones = [{**row, "exact_match": 1} for row in base]
+    zeros = [{**row, "exact_match": 0} for row in base]
+    result = factorial_bootstrap(ones, zeros, zeros, ones, "babi", iterations=100, seed=3)
+    assert result["interaction"] == 2
+    assert result["confidence_interval"] == [2, 2]
+    assert result["clusters"] == 2 and result["examples"] == 3
+    null = factorial_bootstrap(base, base, base, base, "babi", iterations=100, seed=3)
+    assert null["interaction"] == 0 and null["confidence_interval"] == [0, 0]
+    with pytest.raises(ValueError):
+        factorial_bootstrap(ones, zeros[:-1], zeros, ones, "babi", iterations=100)
 
 
 @pytest.mark.parametrize("fault", ["missing", "duplicate", "input", "episode"])

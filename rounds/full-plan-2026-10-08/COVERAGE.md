@@ -1,0 +1,30 @@
+# Original-plan source coverage
+
+Status: generated_unexecuted. This is the chosen text-only engineering construction, not an originality verdict or a software/benchmark pass. Parent main: fba4653780e0b277a1fe7fdef47e3f20d33f2d53. The exact delivery commit is the commit containing this file; the publisher reads every changed file back before reporting it.
+
+| Original object | Actual definition and source entry | Training / generation / persistence | Local acceptance |
+|---|---|---|---|
+| Predictive compressed state | M'=(1-g)*M+g*proposal; bounded slots in `MemoryWriter`, `predict_future` categorical head | `window_objective`, per-document `history`, optimizer-boundary checkpoint | Writer gradients, bounded state, eligible same-document pairs and held-out head CE |
+| Exact episodic memory | CPU immutable full-token `Event`; FIFO raw capacity, stable document/ordinal IDs, retained digest receipts | `EpisodicStore.append/index/retrieve`; trainer appends after prediction; `observe` after full segment; checkpoints retain store | Capacity/eviction, ordering, conflict rejection, mixed provenance, mid-segment and optimizer-boundary resume |
+| Query / actual neural consumption | Row u queries tokens[:u]; lexical overlap/recency, top-k exact positions, fresh embedding + rank/position/origin | `_retrieved` -> `EpisodicReader` -> `_workspace`; same teacher/prefix path | Future mutation invariance, teacher/prefix equality under equal provenance, raw-access ablations |
+| Belief / workspace separation | `_write` depends on completed prelude evidence and old M, never K/workspace | `forward_segment`, `commit_segment`; reader never commits | K-independent write; repeated reasoning does not admit an observation |
+| Three clocks | Observed-token count, internal recurrent steps, generated-symbol count; document and segment clocks separate | `StreamState`, `plan_next`, `generate`, `observe`, stream serialization | EOS/document resets, branch isolation, compute-only reuse; clocks are semantic counters, not a full profiler |
+| Semantic / language interface | Z=tanh(Wz H), dz<d; `realize_plan` consumes only Z through separate lift/coda | Main CE trains both; generation calls `plan_next` then `realize_plan`; `realization` CLI loads a saved Z without reader | No hidden reader/writer callback, full causal rows, stale context rejection, restored output parity |
+| Executable stable dynamics | A=cW/max(1,||W||F), H[r+1]=tanh(A H[r]+B), fixed causal forcing | Optional `ContractiveWorkspace`; differentiable finite K; Transformer fixed-K branch retained | Current normalization, gradient at zero/large W, paired workspace contraction diagnostic |
+| Objectives / budgets | (main CE sum + beta*state CE sum)/eligible main targets; auxiliary pair count separate | trainer, validation, configs, logs, checkpoints; main NLL remains independent of beta | Correct mask/pair denominator, no label input edge, aux exposure counter and exact resume |
+| Train / real inference / state recovery | Full expanded state is used in main existing entry points | `train`, `generation`, `realization`, `evaluate`, strict source/config/tokenizer/checkpoint identities | Entire authored software suite and actual CPU/CUDA profile |
+| Native evaluation / comparison | bAbI all20/20000 and LAMBADA5153 unchanged; author replay, paired bootstrap, four-arm interaction | `evaluate`, `native_parity`, `scoring replay/compare/interaction`, full command manifest | Native Teacher/tokenizer/model/scorer parity, exact denominator, complete all-seed matrix |
+| Cost / collection | Historical reads/scans/omissions/timing, tensor/store/receipt bytes, process peak RSS, GPU peak and wall time | Per-example records, invocation-cumulative training snapshots, `summarize_run`, native and comparison artifacts | Real timing/VRAM/RSS; never sum cumulative snapshots or mistake last selection trace for all calls |
+
+Mathematical/spec sources and independent scope reviews are in EXPANSION_SPEC, EPISODIC_SPEC_REVIEW, DYNAMICS_SPEC_REVIEW, and the two CONTINUATION reviews. Historical review worker names are retained as historical attribution; current independent contexts are `/root/expansion_integrity_review` and `/root/expansion_training_review`. Review availability/identity does not prove mathematical truth.
+
+## Explicit scope decisions
+
+- I(F;history|state)=0 remains an ideal, not an implemented estimator. The concrete first-next-segment-token categorical loss is a limited proper supervised proxy. Continuous width/raw retention are actual resource constraints, not a proved information rate.
+- The state is a token-conditioned text plan. It is not an identified sentence meaning, invertible codec or physical/action model. Text data provides no lawful intervention labels.
+- The contraction bound applies to fixed-forcing workspace in exact real arithmetic. Persistent writer, output accuracy and floating-point arithmetic have no such certificate. Last-step residual is logged distinctly from fixed-point residual.
+- Fixed K is the implemented compute policy. Historical Q01/adaptive stopping remains unselected and unimplemented; this scope does not qualify or bypass it. No implicit fixed-point gradient or arbitrary latent KL/ELBO is added.
+- A separate invented compression/reasoning/realization loss would not add supervision. Main CE trains reasoning and realization; capacity/depth constrain compression/compute. There are no core-algorithm TODOs left for Local to invent for this chosen construction.
+- Standard dtype path is FP32 model / CUDA FP16 autocast. BF16 plan hashing is outside the supported profile (independent review Minor M1). Full Teacher environment resolution, runtime software, native qualification, GPU fit, training and scientific benefit remain pending Local.
+
+The lawful text engineering source endpoint covers the executable rows above. The broader originality discovery, predictive sufficiency, autonomous action and adaptive-certificate ideals are not claimed complete.

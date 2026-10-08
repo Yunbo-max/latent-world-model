@@ -1,3 +1,5 @@
+> 当前扩展以[EXPANSION_SPEC](../rounds/full-plan-2026-10-08/EXPANSION_SPEC.md)、[COVERAGE](../rounds/full-plan-2026-10-08/COVERAGE.md)及[扩展实验设计](../rounds/full-plan-2026-10-08/EXPERIMENT_DESIGN.md)为准。本文保留已采用v0定义和对照设计；不将旧五arm预算误当当前13arm预算。状态仍为generated_unexecuted。
+
 # 完整实验设计：文本隐状态模型 v0
 
 设计日期：2026-10-07。本轮交付对象是已有机制基础上的工程组合。状态：**设计与代码生成，尚未运行、尚未取得 native qualification、尚未冻结为可无人值守执行的科学队列**。旧发现批次的 20→15、Q01 与原创性义务仍保留为 pending，不用本设计伪造通过。
@@ -105,3 +107,7 @@ FineWeb 的 derived test 保留在数据准备结果中，本轮不把它用于�
 运行入口由 `LOCAL_AGENT_RUNBOOK.md` 给出。`scripts/run_matrix.py` 生成完整带依赖的命令清单；只生成命令与依赖清单，不创建另一套执行器；Local 在完成以上资格与累计预算确认后，通过已有执行 harness 逐项调度。所有数据准备、训练、生成、评价和原生 replay 都属于用户侧真实执行，Web 未运行。
 
 源码完成、语法可解析、命令存在、GitHub 文件读回一致是本轮可核对的交付性质。它们不等于软件测试通过、native scorer 通过、模型有用或论文新颖。实际 acceptance、运行 IDs、输出哈希、E04 与结论由后续真实 Local 回执填写。
+
+## Current expanded design
+
+The five-arm design above is preserved as v0. The current original-plan engineering design is [full-plan EXPERIMENT_DESIGN](../rounds/full-plan-2026-10-08/EXPERIMENT_DESIGN.md), implemented in configs/full_plan_experiments.json. It retains v0 and adds eight module/replacement controls, actual native replay/comparison dependencies and complete resource/statistics/failure obligations.13 arms x2 seeds give2.6B or26B pretraining targets plus26M adaptation per tier; both tiers would cumulatively cost28.6B+52M, before profile/validation/failure/input/retrieval exposure. No additional benchmark or runtime result is invented.

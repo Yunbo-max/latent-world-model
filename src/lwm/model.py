@@ -7,11 +7,14 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass
 import math
+import time
 
 import torch
 from torch import Tensor, nn
 from torch.nn import functional as F
 from torch.utils.checkpoint import checkpoint
+
+from .episodic import EpisodicStore, ORIGINS
 
 
 @dataclass
@@ -29,6 +32,17 @@ class ModelConfig:
     dropout: float = 0.0
     checkpoint_layers: bool = False
     memory_enabled: bool = True
+    episodic_enabled: bool = False
+    episodic_capacity_tokens: int = 4096
+    episodic_read_tokens: int = 256
+    episodic_top_k: int = 2
+    episodic_query_tokens: int = 32
+    episodic_policy: str = "lexical"
+    episodic_include_generated: bool = False
+    semantic_dim: int = 0
+    dynamics: str = "transformer"
+    contraction_bound: float = 0.9
+    predictive_head: bool = False
 
     def __post_init__(self):
         for name in ("vocab_size", "d_model", "n_heads", "ffn_mult", "block_size",
@@ -39,6 +53,19 @@ class ModelConfig:
             raise ValueError("d_model must be divisible by n_heads")
         if self.dropout != 0.0:
             raise ValueError("v0 defines dropout=0 for explicit train/generation parity")
+        for name in ("episodic_capacity_tokens", "episodic_read_tokens", "episodic_top_k", "episodic_query_tokens"):
+            if type(getattr(self, name)) is not int or getattr(self, name) <= 0:
+                raise ValueError(f"{name} must be positive")
+        if self.episodic_enabled and self.episodic_capacity_tokens < self.block_size:
+            raise ValueError("Episodic capacity must admit a complete segment")
+        if self.episodic_policy not in ("lexical", "recency"):
+            raise ValueError("Unknown historical retrieval policy")
+        if type(self.semantic_dim) is not int or not 0 <= self.semantic_dim < self.d_model:
+            raise ValueError("semantic_dim is zero (v0) or a smaller positive width")
+        if self.dynamics not in ("transformer", "contractive"):
+            raise ValueError("Unknown workspace dynamics")
+        if not math.isfinite(self.contraction_bound) or not 0 < self.contraction_bound < 1:
+            raise ValueError("contraction_bound must be in (0,1)")
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -67,7 +94,8 @@ class Attention(nn.Module):
         self.v = nn.Linear(d, d, bias=False)
         self.out = nn.Linear(d, d, bias=False)
 
-    def forward(self, query: Tensor, context: Tensor, causal: bool = False) -> Tensor:
+    def forward(self, query: Tensor, context: Tensor, causal: bool = False,
+                key_mask: Tensor | None = None) -> Tensor:
         batch, length, width = query.shape
         def heads(value):
             return value.reshape(batch, -1, self.heads, self.head_dim).transpose(1, 2)
@@ -75,6 +103,8 @@ class Attention(nn.Module):
         # FP32 scores/softmax avoid an FP16 QK overflow before softmax.
         with torch.autocast(device_type=query.device.type, enabled=False):
             scores = torch.matmul(q.float(), k.float().transpose(-1, -2)) / math.sqrt(self.head_dim)
+            if key_mask is not None:
+                scores = scores.masked_fill(~key_mask[:, None, None, :], float("-inf"))
             if causal:
                 if query.size(1) != context.size(1):
                     raise ValueError("Causal self-attention requires equal query/key lengths")
@@ -154,6 +184,44 @@ class MemoryWriter(nn.Module):
         return (1 - gate) * memory.float() + gate * proposal
 
 
+class EpisodicReader(nn.Module):
+    """Position-specific historical attention; no union-of-future-queries edge."""
+    def __init__(self, config):
+        super().__init__()
+        self.position = nn.Embedding(config.block_size, config.d_model)
+        self.rank = nn.Embedding(config.episodic_top_k, config.d_model)
+        self.origin = nn.Embedding(len(ORIGINS), config.d_model)
+        self.attention = Attention(config)
+        self.norm = RMSNorm(config.d_model)
+
+    def forward(self, hidden, values, valid):
+        length, budget, width = values.shape
+        # A masked zero sentinel prevents all-masked softmax. Its output is
+        # multiplied by zero for truly empty rows, not a learned null channel.
+        active = valid.any(-1)
+        mask = valid.clone()
+        mask[~active, 0] = True
+        context = self.attention(self.norm(hidden).reshape(length, 1, width),
+                                 values, key_mask=mask).reshape(1, length, width)
+        return context * active.reshape(1, length, 1)
+
+
+class ContractiveWorkspace(nn.Module):
+    """Restricted known tanh recurrence. Fixed forcing, no recurrent bypass."""
+    def __init__(self, config):
+        super().__init__()
+        self.weight = nn.Parameter(torch.empty(config.d_model, config.d_model))
+        nn.init.normal_(self.weight, std=0.02)
+        self.bound = config.contraction_bound
+
+    def matrix(self):
+        weight = self.weight.float()
+        return self.bound * weight / torch.linalg.vector_norm(weight).clamp_min(1.0)
+
+    def forward(self, hidden, forcing, matrix):
+        return torch.tanh(F.linear(hidden.float(), matrix) + forcing.float())
+
+
 class LatentWorldModel(nn.Module):
     def __init__(self, config: ModelConfig):
         super().__init__()
@@ -169,6 +237,17 @@ class LatentWorldModel(nn.Module):
         self.coda = nn.ModuleList([CausalBlock(config) for _ in range(config.coda_layers)])
         self.output_norm = RMSNorm(config.d_model)
         self.writer = MemoryWriter(config)
+        if config.episodic_enabled:
+            self.episodic_reader = EpisodicReader(config)
+        if config.semantic_dim:
+            self.plan_projection = nn.Linear(config.d_model, config.semantic_dim)
+            self.plan_lift = nn.Linear(config.semantic_dim, config.d_model)
+        if config.dynamics == "contractive":
+            self.contractive = ContractiveWorkspace(config)
+        if config.predictive_head:
+            # Mean-slot pooling is an explicit compressed-only finite target.
+            self.future_projection = nn.Linear(config.d_model, config.d_model)
+        self.audit = {}
         self.apply(self._initialize)
         nn.init.normal_(self.segment_start, std=0.02)
         nn.init.normal_(self.memory_initial, std=0.02)
@@ -212,14 +291,106 @@ class LatentWorldModel(nn.Module):
             x = self._call(block, x)
         return x
 
-    def _read(self, evidence: Tensor, memory: Tensor, *, last_only: bool = False) -> Tensor:
+    def reset_audit(self):
+        self.audit = {"retrieval_calls": 0, "query_positions": 0, "events_scanned": 0,
+                      "index_tokens_scanned": 0, "events_selected": 0, "raw_tokens_read": 0,
+                      "selected_tokens_omitted": 0, "last_retrieval_trace": [],
+                      "retrieval_trace_scope": "last neural read only; cumulative access counts cover all calls",
+                      "retrieval_cpu_seconds": 0.0, "retrieved_tensor_bytes_peak": 0,
+                      "store_serialized_bytes_peak": 0, "store_receipt_count_peak": 0,
+                      "reasoning_row_steps": 0, "contractive_last_step_residual": None}
+
+    def _retrieved(self, tokens: Tensor, rows: int, episodic: EpisodicStore | None):
+        if not self.config.episodic_enabled:
+            return None
+        if tokens.size(0) != 1 or episodic is None:
+            raise ValueError("Exact-memory mode requires a single lane and explicit store")
+        if episodic.capacity_tokens != self.config.episodic_capacity_tokens:
+            raise ValueError("Episodic capacity/config mismatch")
+        if not self.audit:
+            self.reset_audit()
+        started = time.perf_counter()
+        known = tokens[0].detach().cpu().tolist()
+        index = episodic.index(self.config.episodic_include_generated)
+        self.audit["index_tokens_scanned"] += sum(len(event.tokens) for event in episodic.events)
+        trace = []
+        budget = self.config.episodic_read_tokens
+        ids = torch.zeros(rows, budget, dtype=torch.long)
+        positions = torch.zeros_like(ids)
+        ranks = torch.zeros_like(ids)
+        origins = torch.zeros_like(ids)
+        valid = torch.zeros(rows, budget, dtype=torch.bool)
+        for u in range(rows):
+            query = known[max(0, u - self.config.episodic_query_tokens):u]
+            selected, cost = episodic.retrieve(query, self.config.episodic_top_k, budget,
+                self.config.episodic_policy, self.config.episodic_include_generated, index=index)
+            trace.append({"prediction_row": u, "selections": cost.pop("selection_trace")})
+            for key, value in cost.items():
+                self.audit[key] += value
+            if selected:
+                payload = torch.tensor(selected, dtype=torch.long).T
+                ids[u, :len(selected)], positions[u, :len(selected)], ranks[u, :len(selected)], origins[u, :len(selected)] = payload
+                valid[u, :len(selected)] = True
+        self.audit["retrieval_calls"] += 1
+        self.audit["last_retrieval_trace"] = trace
+        self.audit["query_positions"] += rows
+        self.audit["retrieval_cpu_seconds"] += time.perf_counter() - started
+        account = episodic.accounting()
+        self.audit["store_serialized_bytes_peak"] = max(self.audit["store_serialized_bytes_peak"], account["serialized_cpu_bytes"])
+        self.audit["store_receipt_count_peak"] = max(self.audit["store_receipt_count_peak"], account["receipt_count"])
+        device = tokens.device
+        ids, positions, ranks, origins, valid = (v.to(device) for v in (ids, positions, ranks, origins, valid))
+        values = (self.embedding(ids) + self.episodic_reader.position(positions)
+                  + self.episodic_reader.rank(ranks) + self.episodic_reader.origin(origins))
+        values = values * valid[..., None]
+        self.audit["retrieved_tensor_bytes_peak"] = max(self.audit["retrieved_tensor_bytes_peak"], values.numel() * values.element_size())
+        return values, valid
+
+    def _workspace(self, evidence: Tensor, memory: Tensor, tokens: Tensor,
+                   episodic: EpisodicStore | None = None) -> Tensor:
         if not self.config.memory_enabled:
             memory = self.initial_memory(evidence.size(0))
+        retrieved = self._retrieved(tokens, evidence.size(1), episodic)
         hidden = evidence
-        for _ in range(self.config.loop_steps):
-            hidden = self.adapter(torch.cat((hidden, evidence), dim=-1))
+        if self.config.dynamics == "contractive":
+            # Build forcing ONCE, independent of evolving hidden state.
+            forcing = evidence
+            if retrieved is not None:
+                forcing = forcing + self.episodic_reader(forcing, *retrieved)
             for block in self.core:
-                hidden = self._call(block, hidden, memory, self.slot_embedding)
+                forcing = self._call(block, forcing, memory, self.slot_embedding)
+            matrix = self.contractive.matrix()
+            if not bool(torch.isfinite(matrix).all()) or not bool(torch.isfinite(forcing).all()):
+                raise FloatingPointError("Nonfinite contractive matrix/forcing")
+            hidden = torch.tanh(evidence.float())
+            with torch.autocast(device_type=evidence.device.type, enabled=False):
+                for _ in range(self.config.loop_steps):
+                    previous = hidden
+                    hidden = self.contractive(hidden, forcing, matrix)
+            if not self.audit:
+                self.reset_audit()
+            self.audit["analytic_real_arithmetic_contraction_bound"] = self.config.contraction_bound
+            self.audit["contractive_last_step_residual"] = float(torch.linalg.vector_norm((hidden - previous).detach()).item())
+        else:
+            for _ in range(self.config.loop_steps):
+                hidden = self.adapter(torch.cat((hidden, evidence), dim=-1))
+                if retrieved is not None:
+                    hidden = hidden + self.episodic_reader(hidden, *retrieved)
+                for block in self.core:
+                    hidden = self._call(block, hidden, memory, self.slot_embedding)
+        if not self.audit:
+            self.reset_audit()
+        self.audit["reasoning_row_steps"] += evidence.size(0) * evidence.size(1) * self.config.loop_steps
+        return hidden
+
+    def realize_plan(self, plan: Tensor, *, last_only: bool = False) -> Tensor:
+        if not self.config.semantic_dim or plan.ndim != 3 or plan.size(-1) != self.config.semantic_dim:
+            raise ValueError("Explicit [batch,rows,semantic_dim] plan required")
+        if not 1 <= plan.size(1) <= self.config.block_size:
+            raise ValueError("Invalid causal plan row count")
+        return self._language(self.plan_lift(plan), last_only=last_only)
+
+    def _language(self, hidden: Tensor, *, last_only: bool = False) -> Tensor:
         for block in self.coda:
             hidden = self._call(block, hidden)
         # RMSNorm and the vocabulary projection act independently at each
@@ -229,6 +400,19 @@ class LatentWorldModel(nn.Module):
             hidden = hidden[:, -1:]
         return F.linear(self.output_norm(hidden), self.embedding.weight)
 
+    def _read(self, evidence: Tensor, memory: Tensor, tokens: Tensor,
+              episodic: EpisodicStore | None = None, *, last_only: bool = False) -> Tensor:
+        hidden = self._workspace(evidence, memory, tokens, episodic)
+        if self.config.semantic_dim:
+            plan = torch.tanh(self.plan_projection(hidden))
+            return self.realize_plan(plan, last_only=last_only)
+        return self._language(hidden, last_only=last_only)
+
+    def predict_future(self, memory: Tensor) -> Tensor:
+        if not self.config.predictive_head:
+            raise ValueError("Compressed-state predictive head is disabled")
+        return F.linear(torch.tanh(self.future_projection(memory.mean(1))), self.embedding.weight)
+
     def _write(self, evidence: Tensor, memory: Tensor) -> Tensor:
         # The ablation executes the writer but discards history. Parameter and
         # nominal writer compute inventories therefore remain explicit.
@@ -237,22 +421,31 @@ class LatentWorldModel(nn.Module):
             return self.initial_memory(evidence.size(0))
         return result
 
-    def forward_segment(self, tokens: Tensor, memory: Tensor) -> tuple[Tensor, Tensor]:
+    def forward_segment(self, tokens: Tensor, memory: Tensor, *,
+                        episodic: EpisodicStore | None = None) -> tuple[Tensor, Tensor]:
         self._validate(tokens, memory)
         evidence = self._encode(tokens)
-        logits = self._read(evidence[:, :-1], memory)
+        logits = self._read(evidence[:, :-1], memory, tokens, episodic)
         next_memory = self._write(evidence[:, 1:], memory)
         return logits, next_memory
 
-    def forward(self, tokens: Tensor, memory: Tensor) -> tuple[Tensor, Tensor]:
-        return self.forward_segment(tokens, memory)
+    def forward(self, tokens: Tensor, memory: Tensor, *, episodic: EpisodicStore | None = None) -> tuple[Tensor, Tensor]:
+        return self.forward_segment(tokens, memory, episodic=episodic)
 
-    def predict_prefix(self, prefix: Tensor, memory: Tensor) -> Tensor:
+    def predict_prefix(self, prefix: Tensor, memory: Tensor, *,
+                       episodic: EpisodicStore | None = None) -> Tensor:
         self._validate(prefix, memory, empty=True)
-        return self._read(self._encode(prefix), memory, last_only=True)[:, -1]
+        return self._read(self._encode(prefix), memory, prefix, episodic, last_only=True)[:, -1]
+
+    def plan_prefix(self, prefix: Tensor, memory: Tensor, *, episodic: EpisodicStore | None = None) -> Tensor:
+        self._validate(prefix, memory, empty=True)
+        if not self.config.semantic_dim:
+            raise ValueError("This model has no separate plan interface")
+        return torch.tanh(self.plan_projection(self._workspace(self._encode(prefix), memory, prefix, episodic)))
 
     def commit_segment(self, tokens: Tensor, memory: Tensor) -> Tensor:
         self._validate(tokens, memory)
         if tokens.size(1) != self.config.block_size:
             raise ValueError("Only a complete segment can be committed; retain partial prefixes")
         return self._write(self._encode(tokens)[:, 1:], memory)
+

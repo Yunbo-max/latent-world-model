@@ -1,0 +1,108 @@
+{
+  "format": "lwm-full-plan-design-v1",
+  "status": "generated_unexecuted",
+  "default_budget": "100m",
+  "budgets": [
+    "100m",
+    "1b"
+  ],
+  "seeds": [
+    17,
+    29
+  ],
+  "arms": [
+    "memory_loop4",
+    "memory_loop1",
+    "reset_loop4",
+    "reset_loop1",
+    "memory_untied8",
+    "full_loop4",
+    "full_loop1",
+    "full_no_episodic",
+    "full_no_plan",
+    "full_no_stateaux",
+    "full_transformer4",
+    "full_recency",
+    "full_retrieval_only"
+  ],
+  "primary_arm": "full_loop4",
+  "primary_babi_tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "babi_answer_target_budget": 1000000,
+  "lambada_rows": 5153,
+  "babi_test_questions": 20000,
+  "launch_status": "pending Local software/native/resource qualification and cumulative compute budget",
+  "note": "100M/1B is per pretraining arm and seed; SFT input exposure and answer targets are additional, reported separately. 1B expansion is conditional, not automatically launched after 100M. Full-plan matrix retains v0 and adds 8 engineered comparison/ablation arms. It is not 13 novel methods; resource and scientific admission remain pending.",
+  "source_status": "generated_unexecuted",
+  "comparisons": [
+    [
+      "memory_loop1",
+      "memory_loop4"
+    ],
+    [
+      "reset_loop4",
+      "memory_loop4"
+    ],
+    [
+      "memory_untied8",
+      "memory_loop4"
+    ],
+    [
+      "full_loop1",
+      "full_loop4"
+    ],
+    [
+      "full_no_episodic",
+      "full_loop4"
+    ],
+    [
+      "full_no_plan",
+      "full_loop4"
+    ],
+    [
+      "full_no_stateaux",
+      "full_loop4"
+    ],
+    [
+      "full_transformer4",
+      "full_loop4"
+    ],
+    [
+      "full_recency",
+      "full_loop4"
+    ],
+    [
+      "full_retrieval_only",
+      "full_no_stateaux"
+    ],
+    [
+      "memory_loop4",
+      "full_transformer4"
+    ]
+  ],
+  "total_pretraining_targets": {
+    "100m": 2600000000,
+    "1b": 26000000000
+  },
+  "total_babi_adaptation_targets": 26000000
+}

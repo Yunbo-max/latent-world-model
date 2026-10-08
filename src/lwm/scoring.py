@@ -604,7 +604,70 @@ def _run_manifest(predictions: Path) -> dict:
     manifest = json.loads((predictions.parent / "manifest.json").read_text(encoding="utf-8"))
     if manifest.get("execution_status") != "completed" or manifest.get("predictions_sha256") != sha256_file(predictions):
         raise ValueError("Prediction file lacks its matching completed immutable run manifest")
+    task, split = manifest.get("task"), manifest.get("split")
+    if (task not in ("babi", "lambada") or
+            (task == "lambada" and split != "test") or
+            (task == "babi" and split not in BABI_COUNTS)):
+        raise ValueError("Run manifest has an unsupported native task/split")
+    expected = 5153 if task == "lambada" else BABI_COUNTS[split][0]
+    if type(manifest.get("examples")) is not int or manifest["examples"] != expected:
+        raise ValueError("Run manifest lacks its complete native denominator")
     return manifest
+
+
+def factorial_bootstrap(memory4: list[dict], reset4: list[dict],
+                        memory1: list[dict], reset1: list[dict], task: str,
+                        iterations: int = 2000, seed: int = 0,
+                        confidence: float = 0.95) -> dict:
+    """Paired (M4-R4)-(M1-R1), with shared native resamples for all four arms.
+
+    The original design's interaction estimand uses the same episode/passage
+    units as paired_bootstrap. It is not four independently bootstrapped means.
+    """
+    if task not in ("babi", "lambada") or type(iterations) is not int or iterations < 2 or not 0 < confidence < 1:
+        raise ValueError("Invalid factorial-bootstrap configuration")
+    indexed = [_index(rows) for rows in (memory4, reset4, memory1, reset1)]
+    if any(set(rows) != set(indexed[0]) for rows in indexed[1:]):
+        raise ValueError("Interaction requires exactly identical four-arm IDs")
+    fields = (("task", "input_sha256", "native_labels", "task_id", "episode_id")
+              if task == "babi" else ("task", "input_sha256", "target", "target_token_ids"))
+    groups = defaultdict(lambda: defaultdict(list))
+    for identity, reference in indexed[0].items():
+        rows = [arm[identity] for arm in indexed]
+        if (reference.get("task") != task or not isinstance(reference.get("input_sha256"), str)
+                or any(any(row.get(field) != reference.get(field) for field in fields) for row in rows[1:])):
+            raise ValueError(f"Interaction input identity differs: {identity}")
+        if task == "babi":
+            task_id, unit = reference.get("task_id"), reference.get("episode_id")
+            if type(task_id) is not int or not isinstance(unit, str) or not unit:
+                raise ValueError("Interaction requires native episode IDs")
+            values = [_binary(row.get("exact_match"), "interaction exact_match") for row in rows]
+        else:
+            if any(type(row.get("is_greedy")) is not bool for row in rows):
+                raise ValueError("Interaction greedy flags must be boolean")
+            task_id, unit = 0, identity
+            values = [int(row["is_greedy"]) for row in rows]
+        groups[task_id][unit].append(values[0] - values[1] - values[2] + values[3])
+    clusters = {key: [(sum(values), len(values)) for _, values in sorted(units.items())]
+                for key, units in sorted(groups.items())}
+    point = sum(sum(total for total, _ in units) / sum(size for _, size in units)
+                for units in clusters.values()) / len(clusters)
+    rng, draws = random.Random(seed), []
+    for _ in range(iterations):
+        effects = []
+        for units in clusters.values():
+            selected = [units[rng.randrange(len(units))] for _ in units]
+            effects.append(sum(total for total, _ in selected) / sum(size for _, size in selected))
+        draws.append(sum(effects) / len(effects))
+    tail = (1 - confidence) / 2
+    return {"task": task, "estimand": "(memory4-reset4)-(memory1-reset1)",
+            "interaction": point, "confidence_interval": [_quantile(draws, tail), _quantile(draws, 1-tail)],
+            "confidence": confidence, "iterations": iterations, "seed": seed,
+            "examples": len(indexed[0]), "clusters": sum(map(len, clusters.values())),
+            "resampling_unit": "episode_within_task" if task == "babi" else "passage",
+            "limitations": ["Conditional on four checkpoints; no training-seed uncertainty",
+                            "Exploratory percentile interval; no multiplicity adjustment",
+                            "Interaction does not alone establish causal mechanism or novelty"]}
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -624,6 +687,13 @@ def main(argv: list[str] | None = None) -> None:
     compare.add_argument("--iterations", type=int, default=2000)
     compare.add_argument("--seed", type=int, default=0)
     compare.add_argument("--confidence", type=float, default=0.95)
+    interaction = sub.add_parser("interaction", help="Complete native four-arm paired interaction")
+    for name in ("memory4", "reset4", "memory1", "reset1"):
+        interaction.add_argument("--" + name, type=Path, required=True)
+    interaction.add_argument("--output", type=Path, required=True)
+    interaction.add_argument("--iterations", type=int, default=2000)
+    interaction.add_argument("--seed", type=int, default=0)
+    interaction.add_argument("--confidence", type=float, default=0.95)
     args = parser.parse_args(argv)
     args.output.mkdir(parents=True, exist_ok=False)
     if args.command == "replay":
@@ -631,6 +701,24 @@ def main(argv: list[str] | None = None) -> None:
         result = replay_native(dataset, read_jsonl(args.predictions), args.native_source)
         result["predictions_sha256"] = sha256_file(args.predictions)
         write_json(args.output / "native-replay.json", result)
+    elif args.command == "interaction":
+        names = ("memory4", "reset4", "memory1", "reset1")
+        paths = [getattr(args, name) for name in names]
+        manifests = [_run_manifest(path) for path in paths]
+        for manifest in manifests[1:]:
+            if any(manifest.get(field) != manifests[0].get(field) for field in ("task", "split", "data_sha256", "examples")):
+                raise ValueError("Interaction manifests cannot be paired")
+        task, split = manifests[0]["task"], manifests[0]["split"]
+        rows = [read_jsonl(path) for path in paths]
+        expected = 5153 if task == "lambada" else BABI_COUNTS[split][0]
+        if manifests[0]["examples"] != expected or any(len(arm) != expected for arm in rows):
+            raise ValueError("Interaction lacks a complete native denominator")
+        result = factorial_bootstrap(*rows, task, args.iterations, args.seed, args.confidence)
+        result["runs"] = {name: {"path": str(path.resolve()), "sha256": sha256_file(path)}
+                          for name, path in zip(names, paths, strict=True)}
+        result["native_qualification"] = {name: manifest.get("qualification")
+                                         for name, manifest in zip(names, manifests, strict=True)}
+        write_json(args.output / "factorial-bootstrap.json", result)
     else:
         left_manifest, right_manifest = _run_manifest(args.left), _run_manifest(args.right)
         for field in ("task", "split", "data_sha256", "examples"):

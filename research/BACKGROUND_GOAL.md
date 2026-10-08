@@ -1,4 +1,20 @@
-# 当前源码目标
+# Current expanded source checkpoint
+
+The current Work invocation restored pinned main fba4653780e0b277a1fe7fdef47e3f20d33f2d53 and all69 blob identities. Expanded source, full native comparison/interaction design and concrete Local handoff are authored. See rounds/full-plan-2026-10-08/COVERAGE.md and WEB_HANDOFF.md. Publication and exact readback are recorded by the integration session; this text alone is not a receipt. Runtime software/native/GPU/scientific evidence remains pending Local.
+
+The selected executable text construction is distinct from unresolved sufficiency, sentence/action meaning, original-discovery and Q01/adaptive ideals. The same finite source task stops only after the expanded source endpoint and exact main readback, never from v0 closure alone. Source review does not establish continuous background execution.
+
+## Historical reopened and v0 task records
+
+# 当前 full-plan 源码交付目标
+
+本次实际 Work 调用从 main=fba4653780e0b277a1fe7fdef47e3f20d33f2d53 恢复，已编写完整所选扩展构造及实验/Local资产手册；未执行项目代码或测试。当前 [覆盖表](../rounds/full-plan-2026-10-08/COVERAGE.md) 和 [WEB_HANDOFF](../rounds/full-plan-2026-10-08/WEB_HANDOFF.md) 取代旧v0的结束状态。每模块源码/数学审查及Local pending分别列明，最终精确commit/readback由本次发布回执记录。
+
+同一已有任务6ac78ded796081918d2123402544d760，最近实际lookup为enabled=true；不创建重复任务、不修改其他项目。实际宿主由平台明示Work，本轮代码authoring是实质工作；不能据此声称两次调用之间持续执行。只有本次整个扩展工程源码/设计/必要审查/精确读回齐全才关闭该源码任务；不等待Local未来实验，不因旧v0完成关闭。强理论、Q01和原发现批次的未完成状态保留。
+
+以下均为已有历史，不表示当前任务仍只有v0范围：
+
+# 重新打开目标的配置历史
 
 2026-10-08 16:34 Europe/London，用户重新授权完整原方案代码的Work续接。
 

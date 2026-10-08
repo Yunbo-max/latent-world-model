@@ -10,6 +10,7 @@ import math
 import os
 from pathlib import Path
 import random
+import resource
 import signal
 import socket
 import time
@@ -21,40 +22,116 @@ from torch.nn import functional as F
 from .checkpoint import capture_rng, restore_rng, save_checkpoint, load_checkpoint
 from .data import TokenCorpus, CorpusCursor, canonical_hash, file_sha256
 from .model import ModelConfig, LatentWorldModel
+from .episodic import EpisodicStore
 
 
-def window_objective(model, ids, loss_mask, memory):
+def new_history(model, document_id):
+    return {"segments": 0, "document_id": document_id,
+            "store": EpisodicStore(model.config.episodic_capacity_tokens, document_id)
+                if model.config.episodic_enabled else None}
+
+
+def history_payload(history):
+    if history is None:
+        return None
+    return {"segments": history["segments"], "document_id": history["document_id"],
+            "store": history["store"].state_dict() if history["store"] is not None else None}
+
+
+def restore_history(model, payload):
+    if payload is None:
+        return None
+    history = new_history(model, payload["document_id"])
+    if type(payload["segments"]) is not int or payload["segments"] < 0:
+        raise ValueError("Invalid training segment clock")
+    history["segments"] = payload["segments"]
+    if bool(payload["store"] is not None) != model.config.episodic_enabled:
+        raise ValueError("Training store/model mismatch")
+    if payload["store"] is not None:
+        history["store"] = EpisodicStore.from_state_dict(payload["store"],
+            vocab_size=model.config.vocab_size, event_length=model.config.block_size)
+        if (history["store"].document_id != history["document_id"] or
+                history["store"].capacity_tokens != model.config.episodic_capacity_tokens or
+                history["store"].next_ordinal != history["segments"]):
+            raise ValueError("Training history identity/config differs")
+    return history
+
+
+def window_objective(model, ids, loss_mask, memory, *, history=None,
+                     state_prediction_weight=0.0, diagnostics=None):
     """Sum eligible NLLs; preserve writer graphs within this complete window."""
     total_loss, target_count = None, 0
+    if not math.isfinite(state_prediction_weight) or state_prediction_weight < 0:
+        raise ValueError("Nonnegative finite state prediction weight required")
+    if state_prediction_weight and not model.config.predictive_head:
+        raise ValueError("State prediction loss requires the normalized predictive head")
+    if model.config.episodic_enabled and history is None:
+        raise ValueError("Exact-memory training requires explicit persistent history")
+    if diagnostics is None:
+        diagnostics = {}
+    diagnostics.update(main_ce_sum=0.0, state_ce_sum=0.0, state_pairs=0)
     for start in range(0, ids.numel(), model.config.block_size):
         segment = ids[start:start + model.config.block_size]
         mask = loss_mask[start:start + model.config.block_size]
-        logits, memory = model.forward_segment(segment[None], memory)
+        # This memory is the previous complete segment's post-write state.
+        # The genuine next token enters ONLY this CE, never writer/retrieval.
+        auxiliary = None
+        if (state_prediction_weight and history is not None and history["segments"] > 0
+                and bool(mask[0])):
+            auxiliary = F.cross_entropy(model.predict_future(memory).float(), segment[:1], reduction="sum")
+        store = history["store"] if history is not None else None
+        if store is not None and segment.numel() == model.config.block_size:
+            raw = segment.detach().cpu().tolist()
+            store.check(store.next_ordinal, raw, ("observed_text",) * len(raw))
+        logits, memory = model.forward_segment(segment[None], memory, episodic=store)
         count = int(mask.sum().item())
         if count:
             loss = F.cross_entropy(logits[0, mask].float(), segment[mask], reduction="sum")
             total_loss = loss if total_loss is None else total_loss + loss
+            diagnostics["main_ce_sum"] += float(loss.detach().item())
             target_count += count
+        if auxiliary is not None:
+            total_loss = total_loss + state_prediction_weight * auxiliary
+            diagnostics["state_ce_sum"] += float(auxiliary.detach().item())
+            diagnostics["state_pairs"] += 1
+        if history is not None and segment.numel() == model.config.block_size:
+            if store is not None:
+                raw = segment.detach().cpu().tolist()
+                history["store"] = store.append(store.next_ordinal, raw, ("observed_text",) * len(raw))
+            history["segments"] += 1
     return total_loss, memory, target_count
 
 
 @torch.no_grad()
-def validation_nll(model, corpus, device, max_targets):
+def validation_nll(model, corpus, device, max_targets, state_prediction_weight=0.0):
     model.eval()
+    training_audit = model.audit.copy()
+    model.reset_audit()
     cursor = CorpusCursor(corpus, seed=0, shuffle=False)
-    memory, nll, targets = None, 0.0, 0
+    memory, nll, targets, history = None, 0.0, 0, None
+    state_ce_sum, state_pairs = 0.0, 0
     while not cursor.exhausted and targets < max_targets:
         window = cursor.take_window(model.config.block_size * 4, max_targets=max_targets - targets)
         if window.reset_before:
             memory = model.initial_memory(1)
+            history = new_history(model, f"validation:{window.epoch}:{window.document_id}")
         ids = torch.tensor(window.ids, dtype=torch.long, device=device)
         mask = torch.tensor(window.loss_mask, dtype=torch.bool, device=device)
-        loss, memory, count = window_objective(model, ids, mask, memory)
+        stats = {}
+        loss, memory, count = window_objective(model, ids, mask, memory, history=history,
+            state_prediction_weight=state_prediction_weight, diagnostics=stats)
+        state_ce_sum += stats["state_ce_sum"]
+        state_pairs += stats["state_pairs"]
         if loss is not None:
-            nll += float(loss.item())
+            # Main NLL remains directly comparable to beta=0/v0. The head's
+            # held-out proper CE is a separate diagnostic, never text NLL.
+            nll += stats["main_ce_sum"]
             targets += count
         if window.ended_document:
             memory = None
+            history = None
+    validation_audit = model.audit.copy()
+    model.audit = training_audit
     model.train()
     if not targets:
         raise ValueError("Validation corpus contains no eligible targets")
@@ -66,6 +143,11 @@ def validation_nll(model, corpus, device, max_targets):
     return {"nll_per_target": mean, "perplexity_per_token": perplexity,
             "perplexity_overflow": perplexity is None,
             "targets": targets, "corpus_fingerprint": corpus.fingerprint,
+            "state_ce_sum": state_ce_sum, "state_pairs": state_pairs,
+            "state_ce_per_pair": state_ce_sum / state_pairs if state_pairs else None,
+            "state_prediction_weight": state_prediction_weight,
+            "objective_per_main_target": (nll + state_prediction_weight * state_ce_sum) / targets,
+            "historical_access": validation_audit,
             "scope": "development likelihood; not a benchmark or confirmation result"}
 
 
@@ -125,6 +207,9 @@ def main(argv=None):
     config = json.loads(Path(args.config).read_text(encoding="utf-8"))
     training = config["training"]
     model_config = ModelConfig(**config["model"])
+    state_weight = float(training.get("state_prediction_weight", 0.0))
+    if not math.isfinite(state_weight) or state_weight < 0 or (state_weight and not model_config.predictive_head):
+        raise ValueError("Invalid compressed-state objective configuration")
     if training["unroll_segments"] < 2:
         raise ValueError("The independent writer requires unroll_segments >= 2")
     if training["token_budget"] <= 0 or training["accumulate_targets"] <= 0:
@@ -156,8 +241,9 @@ def main(argv=None):
     cursor = CorpusCursor(corpus, seed=training["seed"], shuffle=training["shuffle"],
                           repeat=training["repeat"])
     counters = {"seen_targets": 0, "optimized_targets": 0, "input_tokens": 0,
-                "updates": 0, "skipped_updates": 0, "cumulative_seconds": 0.0}
-    memory = None
+                "updates": 0, "skipped_updates": 0, "cumulative_seconds": 0.0,
+                "auxiliary_target_observations": 0}
+    memory, history = None, None
     identity = source_identity()
     identity["execution_device_type"] = device.type
     identity["execution_gpu_name"] = torch.cuda.get_device_name(device) if device.type == "cuda" else None
@@ -167,7 +253,7 @@ def main(argv=None):
     if args.init_checkpoint:
         initial = load_checkpoint(args.init_checkpoint)
         # Initialization across data domains must preserve the architecture.
-        if initial["model_config"] != model_config.to_dict():
+        if ModelConfig(**initial["model_config"]).to_dict() != model_config.to_dict():
             raise ValueError("Initialization architecture differs from target configuration")
         model.load_state_dict(initial["model_state"], strict=True)
         initialization = {"path": str(Path(args.init_checkpoint).resolve()),
@@ -186,10 +272,16 @@ def main(argv=None):
         scaler.load_state_dict(state["scaler_state"])
         cursor.load_state_dict(state["cursor"])
         counters = state["counters"]
+        counters.setdefault("auxiliary_target_observations", 0)
         if counters["seen_targets"] >= training["token_budget"]:
             raise ValueError("Checkpoint already completed its target budget; use evaluation or a child run")
         initialization = state.get("initial_checkpoint")
         memory = state["memory"].to(device) if state["memory"] is not None else None
+        history = restore_history(model, state.get("history"))
+        if memory is not None and history is None:
+            if model.config.episodic_enabled or state_weight:
+                raise ValueError("Expanded-state checkpoint lacks its historical ledger")
+            history = new_history(model, "legacy-v0-continuation")
         restore_rng(state["rng"])
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=True)
@@ -234,6 +326,7 @@ def main(argv=None):
                        "corpus_provenance": corpus.manifest["provenance"],
                        "optimizer_state": optimizer.state_dict(), "scaler_state": scaler.state_dict(),
                        "cursor": cursor.state_dict(), "memory": memory.detach().cpu() if memory is not None else None,
+                       "history": history_payload(history),
                        "rng": capture_rng(), "counters": counters.copy(), "source_identity": identity,
                        "status": status, "initial_checkpoint": initialization,
                        "resumed_from": resume_identity}
@@ -242,6 +335,7 @@ def main(argv=None):
                 "target_budget": training["token_budget"], "config_hash": canonical_hash(config)}, indent=2) + "\n")
         accumulated = 0
         loss_sum = 0.0
+        objective_stats = {"main_ce_sum": 0.0, "state_ce_sum": 0.0, "state_pairs": 0}
         attempted_window = None
         model.train()
         optimizer.zero_grad(set_to_none=True)
@@ -251,6 +345,7 @@ def main(argv=None):
               gpu_total_memory_bytes=torch.cuda.get_device_properties(device).total_memory if device.type == "cuda" else None,
               gpu_capability=list(torch.cuda.get_device_capability(device)) if device.type == "cuda" else None,
               resumed=bool(args.resume), generated_source_status="Local execution begun")
+        model.reset_audit()
         try:
             while counters["seen_targets"] < training["token_budget"]:
                 if cursor.exhausted:
@@ -266,13 +361,18 @@ def main(argv=None):
                     "included_in_counters": False}
                 if window.reset_before:
                     memory = model.initial_memory(1)
+                    history = new_history(model, f"train:{window.epoch}:{window.document_id}")
                 if memory is None:
                     raise RuntimeError("Cursor/memory state inconsistent at a continuation window")
                 ids = torch.tensor(window.ids, dtype=torch.long, device=device)
                 mask = torch.tensor(window.loss_mask, dtype=torch.bool, device=device)
                 with torch.autocast(device_type=device.type, dtype=torch.float16,
                                     enabled=training["precision"] == "float16"):
-                    loss, next_memory, count = window_objective(model, ids, mask, memory)
+                    window_stats = {}
+                    loss, next_memory, count = window_objective(model, ids, mask, memory,
+                        history=history, state_prediction_weight=state_weight, diagnostics=window_stats)
+                for key in objective_stats:
+                    objective_stats[key] += window_stats[key]
                 attempted_window["forward_completed"] = True
                 if loss is not None:
                     if not bool(torch.isfinite(loss)):
@@ -283,8 +383,11 @@ def main(argv=None):
                     accumulated += count
                 # Exactly the explicit TBPTT boundary, never an inner segment boundary.
                 memory = None if window.ended_document else next_memory.detach()
+                if window.ended_document:
+                    history = None
                 counters["seen_targets"] += count
                 counters["input_tokens"] += len(window.ids)
+                counters["auxiliary_target_observations"] += window_stats["state_pairs"]
                 attempted_window["included_in_counters"] = True
                 final_budget = counters["seen_targets"] == training["token_budget"]
                 time_limit = time.monotonic() - started >= training["max_run_seconds"]
@@ -313,13 +416,27 @@ def main(argv=None):
                     counters["skipped_updates"] += int(skipped)
                     if not skipped:
                         counters["optimized_targets"] += accumulated
+                    gradient_parameters = [p for p in model.parameters() if p.grad is not None]
+                    gradient_tensor_count = len(gradient_parameters)
+                    gradient_element_count = sum(p.numel() for p in gradient_parameters)
                     optimizer.zero_grad(set_to_none=True)
-                    event("update", **counters, targets_this_update=accumulated, nll=loss_sum / accumulated,
+                    event("update", **counters, targets_this_update=accumulated,
+                          nll=objective_stats["main_ce_sum"] / accumulated,
+                          objective_per_main_target=loss_sum / accumulated,
+                          state_prediction_weight=state_weight, **objective_stats,
+                          parameters_with_gradient_tensor=gradient_element_count,
+                          parameter_tensors_with_gradient=gradient_tensor_count,
+                          gradient_inventory_scope="grad is present before zero_grad; not nonzero-gradient count or effective-capacity proof",
+                          historical_access=model.audit.copy(),
+                          historical_access_scope="cumulative within this invocation; excludes separately recorded validation; do not sum snapshots",
+                          cpu_process_peak_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024,
                           gradient_norm=float(norm) if bool(torch.isfinite(norm)) else None,
                           lr=lr, scale=scaler.get_scale(), skipped=skipped,
                           elapsed_seconds=time.monotonic() - started,
-                          peak_memory_bytes=torch.cuda.max_memory_allocated(device) if device.type == "cuda" else 0)
+                          peak_memory_bytes=torch.cuda.max_memory_allocated(device) if device.type == "cuda" else 0,
+                          peak_reserved_memory_bytes=torch.cuda.max_memory_reserved(device) if device.type == "cuda" else 0)
                     accumulated, loss_sum = 0, 0.0
+                    objective_stats = {"main_ce_sum": 0.0, "state_ce_sum": 0.0, "state_pairs": 0}
                     if counters["skipped_updates"] > training["max_skipped_updates"]:
                         persist("numerical_failure")
                         raise FloatingPointError("Skipped-update allowance exceeded; review precision/LR")
@@ -327,7 +444,7 @@ def main(argv=None):
                         persist("running")
                     if validation and counters["updates"] % training["validation_every_updates"] == 0:
                         event("validation", **validation_nll(model, validation, device,
-                                                             training["validation_targets"]))
+                                                             training["validation_targets"], state_weight))
                 max_updates = args.max_updates is not None and counters["updates"] - start_updates >= args.max_updates
                 if final_budget or ((stop_requested or time_limit or max_updates) and accumulated == 0):
                     status = "completed_target_budget" if final_budget else "paused"
@@ -357,3 +474,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+

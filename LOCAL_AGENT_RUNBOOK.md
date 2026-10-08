@@ -2,7 +2,9 @@
 
 **Source status: generated_unexecuted.** Web authored the files and reviewed their semantics; no project tests, asset downloads, training, inference or benchmark runs were executed. Use this guide at the commit identified in the delivery receipt. Do not treat the current source packet as measured GPU fit, a passed native evaluation or a new-method claim.
 
-Current increment: [sigma-review-2026-10-08](rounds/delivery-review-2026-10-08/WEB_HANDOFF.md). Read its mathematical/code delta and acceptance scope alongside the original complete guide below. Training, assets and full benchmark coverage retain the same definitions. The optimization changes only the placement of the last-position vocabulary projection during prefix inference; parameter keys/shapes remain compatible for fixed-weight evaluation. Source-strict training resume still rejects a changed revision: preserve active runs at their pinned source. No Sigma weights or additional corpus are required.
+Current expanded handoff: [full-plan-2026-10-08](rounds/full-plan-2026-10-08/WEB_HANDOFF.md). Read its adopted specification, coverage and experiment design at the same commit. The v0 commands below remain usable controls; the full-plan supplement at the end gives the expanded source acceptance and actual new endpoints. All commands remain unexecuted by Web.
+
+Prior v0 increment: [sigma-review-2026-10-08](rounds/sigma-review-2026-10-08/WEB_HANDOFF.md), followed by [delivery review](rounds/delivery-review-2026-10-08/WEB_HANDOFF.md). Those historical acceptance scopes remain alongside the original guide below. The Sigma optimization changes only last-position vocabulary projection placement; the present full-plan extension adds explicitly configured modules. Source-strict training resume rejects a changed revision: preserve active runs at their pinned source. No Sigma weights or additional corpus are required.
 
 ## Restore the actual execution context
 
@@ -144,7 +146,7 @@ Generate the complete dependency-aware command inventory for all five arms and b
 conda run -n lwm python scripts/run_matrix.py --data-root data --output-root runs/matrix --budget 100m
 ```
 
-This creates 40 command cards (pretraining, SFT, LAMBADA, bAbI for each arm/seed) and effective seed-specific configs. It launches nothing. Local supplies the exact native interpreter path and admits each card through the existing execution harness after software/native/resource qualification. Pause dependent cards when a training card is incomplete; continue independent admitted work within the same remaining budget. A requested 1B expansion uses `--budget 1b`, its separately prepared corpus and the same coverage, with measured cost and resource approval already in force.
+This creates 60 command cards (pretraining, SFT, LAMBADA, bAbI and both native replays for each arm/seed) and effective seed-specific configs. It launches nothing. Local supplies the exact native interpreter path and admits each card through the existing execution harness after software/native/resource qualification. Pause dependent cards when a training card is incomplete; continue independent admitted work within the same remaining budget. A requested 1B expansion uses `--budget 1b`, its separately prepared corpus and the same coverage, with measured cost and resource approval already in force.
 
 Native scorer sources and installation are specified in NATIVE_ENVIRONMENT. After predictions exist, invoke actual official aggregation replay:
 
@@ -172,3 +174,63 @@ Use `python -m lwm.scoring compare --left LEFT/predictions.jsonl --right RIGHT/p
 Return a packet with execution commit and dirty diff, environment/assets/source identities, actual host/attempt locators, tests/native parity, complete run inventory, raw predictions/native reports, paired analyses, costs and failed attempts, E04, and exact remaining obligations. Transfer declared files back over SSH with byte-hash verification. Commit appropriate source/results summaries to the already authorized GitHub destination using one writer and exact readback; keep large data, weights, secrets and raw copyrighted corpora out of Git. No HF output destination has been provided.
 
 The user-facing return must distinguish **source delivered / software passed / native qualified / executed / scientifically supported**, and report which of those actually have receipts. The next Web continuation starts from this exact returned packet, not a recollection of an earlier success message.
+
+
+
+## Full original-plan supplement
+
+The current engineering spec is rounds/full-plan-2026-10-08/EXPANSION_SPEC.md; COVERAGE.md and EXPERIMENT_DESIGN.md identify exact formulas and interpretation limits. Preserve the v0 controls. Reuse the exact same asset files/acquisition steps above; the extension requires no new dataset, checkpoint weights, action labels, semantic annotations or paid scorer. All software/GPU/native qualification is still pending. The complete ParlAI Teacher candidate in NATIVE_ENVIRONMENT must really install and export all60 task/split files before full teacher parity; metrics-only replay never substitutes.
+
+After the main environment exists, run the full suite and these focused tests under Local's execution owner, recording skips and actual stdout/stderr/exit status. CUDA skips cannot certify device behavior:
+
+```bash
+conda run -n lwm python -m pytest
+conda run -n lwm python -m pytest tests/test_episodic_semantics.py tests/test_expansion_semantics.py tests/test_resume_semantics.py
+```
+
+Accept event FIFO/replay/conflicts, stable identified chunk transactions spanning EOS, partial-prefix origins/sources, generated-position exclusion, actual neural retrieval consumption/gradient, teacher-prefix future isolation, plan snapshot source/context binding, realization with no reader/writer/retrieval, legal norm/current-gradient path, writer independence from K, eligible state-loss normalization and full expanded trainer interruption equality. These CPU fixtures are finite software checks. Verify same-provenance CPU/CUDA FP32 parity and actual FP16 finite-profile behavior independently; the real-arithmetic contraction bound is not a floating-point error certificate. Rejection of malformed/downgraded/mismatched state is expected behavior, not a recovery reason to discard evidence.
+
+Finite actual-native-corpus profile, in a fresh directory:
+
+```bash
+conda run -n lwm python -m lwm.train --config configs/full_loop4_100m.json --data data/fineweb-100m/train --validation data/fineweb-100m/valid --output runs/profile-full-loop4 --max-updates 10
+conda run -n lwm python scripts/summarize_run.py runs/profile-full-loop4 --project-tokens 100000000
+```
+
+Record GPU model/count/driver, total and active parameters, allocated/reserved peaks, CPU RSS, all event/receipt bytes, per-invocation cumulative historical_access snapshots, separate validation audit and total elapsed wall. Do not sum cumulative snapshots. Audit CPU timing is the indexing/ranking subinterval; CPU transfers, admission SHA256, serialization, fresh embeddings and GPU attention are included in total wall, not that narrow subinterval. Profile the different envelopes needed for admission (Transformer loop, full retrieval, no-plan, K=1) before freezing matrix cost. Capacity/read-budget increases change workload. No fit or completion-time claim is made for 2080Ti.
+
+Author a complete command DAG, with GPU disabled for official replays and comparisons. It does not launch anything:
+
+```bash
+conda run -n lwm python scripts/run_matrix.py --design configs/full_plan_experiments.json --data-root data --output-root runs/full-plan --budget 100m
+```
+
+The 13-arm/two-seed design gives200 dependency cards:52 training cards,52 full inference cards,52 native replay cards and44 comparison cards. Each tier is26 pretraining runs:2.6B targets for100M or26B for1B, plus26M adaptation targets, extra input/retrieval exposure and actual profile/failure costs. Run one admitted GPU job at a time with the existing owner, retain incomplete/failed dependency status, and continue independent admitted work. A tier1B manifest uses a distinct output root such as runs/full-plan-1b, its separately prepared corpus and a separately admitted total budget. No implicit second-tier launch.
+
+Every completed arm/seed must have full native20000/5153 predictions, native replay and declared comparison obligations. run_matrix includes source-root/interpreter replay commands and right-minus-left comparisons; resolve each actual argv and dependency through the existing Local harness. Source/config/output paths in a manifest are not launch receipts. Comparisons use conditional-on-checkpoint paired episode/passage bootstrap; report both seeds and every predeclared contrast, including failures, not only a best seed or selected tasks.
+
+Explicit state/plan interface after an accepted actual full checkpoint exists (replace path with the exact selected completed or finite-profile checkpoint and record that scope):
+
+```bash
+conda run -n lwm python -m lwm.generation --checkpoint runs/full-plan/full_loop4-100m-seed17/pretrain/last.pt --tokenizer data/tokenizer --prompt 'The story begins' --observation-id user-chunk-001 --max-new-tokens 0 --plan-out runs/full-plan/plan.pt --state-out runs/full-plan/stream.pt
+conda run -n lwm python -m lwm.realization --checkpoint runs/full-plan/full_loop4-100m-seed17/pretrain/last.pt --tokenizer data/tokenizer --plan runs/full-plan/plan.pt --output results/full-plan-realization --device cuda
+conda run -n lwm python -m lwm.generation --checkpoint runs/full-plan/full_loop4-100m-seed17/pretrain/last.pt --tokenizer data/tokenizer --state-in runs/full-plan/stream.pt --prompt 'The story begins' --observation-id user-chunk-001 --max-new-tokens 64 --state-out runs/full-plan/continued.pt
+```
+
+The repeated identified prompt is a verified no-op before generation; changing payload under that ID rejects. Anonymous repeated text is new input. Public receipts survive EOS for stream lifetime; document segment events/receipts reset with compressed state. A prompt source locator is not truth authentication. Plans retain a complete causal per-token plan sequence and realize one next-symbol distribution without replanning, not a complete sentence from an identified semantic code. Generation replans for each emitted token and advances reasoning/expression separately. Reader-only calls do not commit observations. New-v2 saved streams bind source/config/checkpoint/tokenizer and sampling policy/device/RNG; missing-format legacy states are only admitted by disabled-extension v0. Changes to implementation require explicit migration/new branch, not silent resume. Generated tokens retain their source in the continuation state and are filtered out of raw retrieval by default; the compressed continuation still summarizes generated text. Preserve the original functional state to retain external-only history.
+
+For training resume use the manifest's exact effective config, corpus, output and current last.pt. History payload includes exact events/receipt ledger and segment clock, alongside slots/cursor/RNG/optimizer/scaler. Loss beta and predictive head must match; auxiliary_target_observations counts repeated existing eligible labels separately from seen/optimized target budgets. This does not charge or expose future labels to the reader. No cross-document state-loss pair is created. Local reports software/native/GPU qualification separately from completed target budget and scientific validity, retaining all actual failure evidence and costs.
+
+## Full original-plan supplement
+
+The current ordered entry is rounds/full-plan-2026-10-08/WEB_HANDOFF.md, with its COVERAGE/EXPANSION_SPEC/EXPERIMENT_DESIGN. All original input/scorer acquisition commands above remain mandatory. No extra dataset or weights are required. The expanded source introduces episodic.py and realization.py and wires them into existing training/validation/generation/evaluation/checkpoint paths.
+
+Run the entire software suite at the exact accepted revision. Focused debug files are test_episodic_semantics.py, test_expansion_semantics.py, test_resume_semantics.py and test_scoring_semantics.py; fixtures do not replace native benchmarks. New acceptance includes future-isolated retrieval, replay after eviction/EOS, partial-prefix provenance restore, plan no-reader realization, current-matrix contraction, eligible aux denominator/validation and real-trainer resumed state parity. CPU/CUDA paths are separately qualified; skips cannot pass the GPU route.
+
+Use the full handoff's exact profile/manifest/plan/resume commands. The full matrix --design configs/full_plan_experiments.json yields204 dependent cards:13 arms x2 seeds x6 stage/replay cards,11 paired contrasts x2 seeds x2 tasks, plus4 factorial interaction cards. No card runs automatically. Budget2.6B/26B pretraining targets plus26M adaptation targets and all other costs. Old40-card/five-arm descriptions above apply only to legacy v0 stages; current v0 generator also includes native-replay and interaction cards.
+
+Collect per-run events/status/last.pt identities, evaluation manifests/predictions, native-replay.json, paired-bootstrap.json and factorial-bootstrap.json. Respect log scopes: training access counters are invocation cumulative, selection trace is last-call, validation access and head CE/pair counts are separate, process RSS is high-water. parameters_with_gradient_tensor means p.grad exists before zero_grad; not necessarily nonzero. Main NLL remains independent of beta. Total elapsed cost includes transfer/hash/admission/attention overhead; fine-grained kernel timing is not supplied.
+
+Three clocks distinguish observed evidence, internal reader steps and generated output; next_logits/likelihood scoring are pure reads/temporary branches, so semantic counters are not all-call profiling. Use model.audit and real harness wall/resource receipts for cost. The raw event bank is bounded, but event/chunk receipts grow and must be budgeted. Default retrieval excludes generated raw positions; provenance is declared input origin, not factual authentication.
+
+Contractive analysis is an exact-real-arithmetic state bound with fixed forcing, not a floating-point output certificate. Semantic plan is a per-token continuous bottleneck. No sentence/action/ELBO/adaptive TODO is assigned to Local; those broader ideals remain separate unresolved research. Supported runtime profile is FP32 models/FP16 autocast, not BF16 plan persistence.

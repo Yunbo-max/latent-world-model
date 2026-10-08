@@ -315,3 +315,7 @@ D(c_E+Kc_R+c_D)
 已确定的是设计约束与条件性推导：允许信念修正；不给内部步骤增加虚假观测；区分信息损失与计算误差；不给收敛、熵下降或后验优化附加不成立的正确性保证。
 
 尚未确定的是：独立于既有工作的必要机制、合格的候选池、具体状态表示与求解器、训练数据、原生评测任务、实测资源预算。下一步见 [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md)。这些材料不构成代码准入或训练许可凭据。
+
+## 2026-10-08 execution distinction
+
+This document retains conditional motivations/identities, not measured losses or universal theorems. The current [EXPANSION_SPEC](../rounds/full-plan-2026-10-08/EXPANSION_SPEC.md) chooses concrete known-mechanism equations and available text supervision. The successor-token head is a CE proxy, not an estimator of predictive sufficiency; the contraction applies to a distinct fixed-forcing workspace, not the writer or arbitrary Transformer. [COVERAGE](../rounds/full-plan-2026-10-08/COVERAGE.md) records stronger unimplemented claims. No unavailable original conversation text was invented.

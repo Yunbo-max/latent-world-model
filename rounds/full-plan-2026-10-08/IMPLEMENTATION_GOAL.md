@@ -2,7 +2,7 @@
 
 用户指令：2026-10-08 16:34 Europe/London，“我希望你用这个autopilot去在后台去实现整个code”“搞好”。
 
-当前 v0 源码基线：0391e099923c74b6dbb195cc2afbe1d78e442516。v0 完整源码交付不代表以下原始设想全部落地。本轮重新打开 source-authoring 目标，不撤销旧交付或假造其运行验证。
+重新打开目标时核验的 v0 源码基线：0391e099923c74b6dbb195cc2afbe1d78e442516；本次实际恢复 main=fba4653780e0b277a1fe7fdef47e3f20d33f2d53。v0 完整源码交付不代表以下原始设想全部落地。本轮重新打开 source-authoring 目标，不撤销旧交付或假造其运行验证。
 
 角色：web_supervisor，generated_unexecuted。实验与软件/原生/GPU验收留给 Local。GitHub destination 为 Yunbo-max/latent-world-model / literal main；RTX2080Ti、100M/1B每arm/seed target-token预算不变。HF输出目的地未知，无上传。
 
@@ -32,7 +32,7 @@
 
 本轮实际检查来源：src/lwm/model.py、train.py、generation.py、research/MATHEMATICAL_DESIGN.md、MATH_TO_CODE.md、FULL_MODEL_PROPOSAL.md、SCIENTIFIC_SCOPE_REVIEW.md、SOURCE_AUDIT.md、OPEN_QUESTIONS.md及workflow-checkpoint。上述源码在v0精确SHA通过connector读取，不执行项目代码。
 
-## 作者宿主和恢复
+## 重新打开目标时的作者宿主和恢复（历史）
 
 唯一现有定时任务：6ac78ded796081918d2123402544d760。
 实际task lookup返回conversation_id：6ac79d14-9fc8-83eb-8a16-056c5fa87aaa；旧仓库字段对应更早宿主，应作为历史保留，不能覆盖当前服务回执。
@@ -48,3 +48,10 @@
 全过程保存真实源进度和具体阻塞，分清implemented / source-reviewed / Local-unexecuted。终点是整个扩展构造和源码/完整设计/手册经审查、main精确读回；不是文件或测试数，也不等待未来训练完成才能关闭源码任务。全部覆盖完成后报告逐项表并停用同一个任务。
 
 当前next action：在实际Work续接中逐项恢复原构造，并先完成episode/semantic接口的闭合数学和来源规格；同时保持旧v0可用性，随后开展源码实现。原始候选scientific gate不被本检查点认证。
+
+
+## 当前实际源码覆盖
+
+本次已按先规格/数学来源审查、后源码的顺序实现所选完整工程构造；当前逐项状态以 [COVERAGE](COVERAGE.md) 为准，实际入口见 [EXPANSION_SPEC](EXPANSION_SPEC.md) 及 [WEB_HANDOFF](WEB_HANDOFF.md)。状态 generated_unexecuted；独立源码审查与精确 main 发布分别记录，不以旧v0完成替代扩展终点。
+
+事件库、reader实际消费、source/receipt幂等/恢复、三时钟、token-plan独立表达、合法固定forcing收缩与监督state CE已经连入训练/生成/native入口；13-arm两seed完整配置/DAG/统计/成本/Local手册同步。强语义充分性、物理action模型及Q01自适应证书仍未实现或声称；这些是明确条件和不可由纯文本凭空补齐的对象，而非把核心工程算法留给Local设计。Local运行资格与科学结论全pending。

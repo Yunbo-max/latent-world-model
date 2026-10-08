@@ -30,8 +30,17 @@ def main():
               "projected_training_body_hours": args.project_tokens / rate / 3600,
               "projection_scope": "Estimate from this measured profile; excludes future validation/checkpoint/evaluation, retries and other arms",
               "status": json.loads((Path(args.run) / "status.json").read_text())}
+    # Snapshots are invocation-cumulative. Never sum them over updates or mix
+    # reset validation counters into training information-access totals.
+    result["historical_access_last_snapshot"] = last.get("historical_access")
+    result["peak_reserved_memory_bytes"] = max(item.get("peak_reserved_memory_bytes", 0) for item in updates)
+    result["historical_access_scope"] = last.get("historical_access_scope")
+    result["cpu_process_peak_rss_bytes"] = max(item.get("cpu_process_peak_rss_bytes", 0) for item in updates)
+    result["auxiliary_target_observations"] = last.get("auxiliary_target_observations", 0)
+    result["validation_receipts"] = [item for item in window if item["event"] == "validation"]
     print(json.dumps(result, indent=2))
 
 
 if __name__ == "__main__":
     main()
+

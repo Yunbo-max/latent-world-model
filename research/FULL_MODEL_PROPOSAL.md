@@ -1,3 +1,5 @@
+> 当前扩展以[EXPANSION_SPEC](../rounds/full-plan-2026-10-08/EXPANSION_SPEC.md)、[COVERAGE](../rounds/full-plan-2026-10-08/COVERAGE.md)及[扩展实验设计](../rounds/full-plan-2026-10-08/EXPERIMENT_DESIGN.md)为准。本文保留已采用v0定义和对照设计；不将旧五arm预算误当当前13arm预算。状态仍为generated_unexecuted。
+
 # 完整模型方案：持久状态、固定证据循环与语言读出
 
 日期：2026-10-07。工作角色：Web 数学/源码作者。状态：**完整的已知组件工程构造，待独立审查；任何后续实现均应标记 `generated_unexecuted`。** 本文没有运行项目代码、测试、训练、推理，也没有下载数据或权重。它不是 Q01 停止规则的改名，不宣称原创方法、科学 gate 通过或已经完成 20→15 筛选。
@@ -340,3 +342,7 @@ O\!\left(n(\ell_P+K\ell_R+\ell_C)
 尚未完成：独立数学/实现审查，新的候选池与科学筛选，完整原创性裁决，符合母问题的训练数据/原生评测资格、合格比较，以及 Local 的代码验收、硬件测量和实验。本文不修改这些真实状态。已知组件工程交付与新研究方法准入须分开标记；任何决定沿工程构造先交付的上层记录也不得伪造研究筛选或通过记录。
 
 数学自审采用的具体路径是概率因子化与因果归纳（B01/B04）、梯度场与 stop-gradient 审计（H05）、压缩误差与截断误差分解（C04）、状态有界和收缩区别（G03/H06）。按当前项目所记录的 Research Autopilot 包 `e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62` 读取了入口、workflow-harness、research-policy 的 Start/resume 与 Research loop、math-analysis、math-operation-graph 相关族、math-derivation-paths 相关路径与 math-handoff。本文只作数学和源码作者记录，不把 skill 阅读本身作为 gate 证据。
+
+## 2026-10-08 adopted full-plan extension
+
+The preserved equations above define the v0 control, not the entire reopened scope. The current extension is [EXPANSION_SPEC](../rounds/full-plan-2026-10-08/EXPANSION_SPEC.md), with [COVERAGE](../rounds/full-plan-2026-10-08/COVERAGE.md). It specifies exact history/retrieval, token-plan/independent realization, fixed-forcing contraction and proper successor-token auxiliary CE, including all state/gradient paths. Independent spec/source reviews in that round qualify the engineering construction only; all runtime/scientific acceptance remains pending. The text-only data does not identify physical-action transitions or latent semantics, and no historical Q01 gate is waived.

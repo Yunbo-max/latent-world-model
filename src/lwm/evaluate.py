@@ -18,6 +18,7 @@ import json
 import math
 from pathlib import Path
 import platform
+import resource
 import subprocess
 import sys
 import time
@@ -94,7 +95,9 @@ def _validate_trace(trace: list[dict], tokens: list[int], ll: float, greedy: boo
 
 
 def _prediction(model, tokenizer, row: dict, task: str, max_new_tokens: int) -> dict:
-    from .generation import generate, ingest, score_continuation, start_stream
+    from .generation import generate, ingest, score_continuation, start_stream, stream_accounting
+
+    model.reset_audit()
 
     base = {"id": row["id"], "task": task, "input_sha256": row_fingerprint(row),
             "context_truncated": False, "state_reset": True}
@@ -105,12 +108,14 @@ def _prediction(model, tokenizer, row: dict, task: str, max_new_tokens: int) -> 
         base["tokenization_wall_seconds"] = time.perf_counter() - tokenization_started
         # Native text can literally encode token 50256. It is observed data,
         # never an artificial document boundary; -1 cannot be a vocabulary ID.
-        state = ingest(model, start_stream(model), pair["context_token_ids"], eos_token_id=-1)
+        state = ingest(model, start_stream(model), pair["context_token_ids"], eos_token_id=-1,
+                       observation_id=f"lambada:{row['id']}:context")
+        base["prompt_state_storage"] = stream_accounting(state)
         trace: list[dict] = []
         ll, greedy = score_continuation(model, state, pair["target_token_ids"],
                                         eos_token_id=-1, trace=trace)
         _validate_trace(trace, pair["target_token_ids"], ll, greedy)
-        return {**base, **pair, "source_row": row["source_row"],
+        return {**base, **pair, "source_row": row["source_row"], "historical_access": model.audit.copy(),
                 "log_likelihood": ll, "is_greedy": greedy, "token_trace": trace,
                 "context_token_count": len(pair["context_token_ids"]),
                 "target_token_count": len(pair["target_token_ids"]),
@@ -124,9 +129,12 @@ def _prediction(model, tokenizer, row: dict, task: str, max_new_tokens: int) -> 
     base["tokenization_wall_seconds"] = time.perf_counter() - tokenization_started
     if not tokens:
         raise ValueError(f"Empty native bAbI context: {row['id']}")
-    state = ingest(model, start_stream(model), tokens, eos_token_id=-1)
-    produced, _ = generate(model, state, max_new_tokens, tokenizer.eos_token_id,
+    state = ingest(model, start_stream(model), tokens, eos_token_id=-1,
+                   observation_id=f"babi:{row['id']}:context")
+    base["prompt_state_storage"] = stream_accounting(state)
+    produced, branch = generate(model, state, max_new_tokens, tokenizer.eos_token_id,
                            temperature=0.0)
+    base["output_state_storage"] = stream_accounting(branch)
     stopped = bool(produced and produced[-1] == tokenizer.eos_token_id)
     answer_tokens = produced[:-1] if stopped else produced
     prediction = tokenizer.decode(answer_tokens, skip_special_tokens=False,
@@ -134,7 +142,7 @@ def _prediction(model, tokenizer, row: dict, task: str, max_new_tokens: int) -> 
     if not isinstance(prediction, str):
         # Keep the denominator; an invalid answer is scored as an empty error.
         prediction = ""
-    return {**base, "task_id": row["task_id"], "episode_id": row["episode_id"],
+    return {**base, "historical_access": model.audit.copy(), "task_id": row["task_id"], "episode_id": row["episode_id"],
             "episode_turn": row["episode_turn"], "episode_done": row["episode_done"],
             "source_line": row.get("source_line"), "context": context,
             "context_token_ids": tokens, "context_token_count": len(tokens),
@@ -299,6 +307,11 @@ def run(args: argparse.Namespace) -> dict:
                  "examples_per_second": len(ordered) / inference_seconds,
                  "gpu_peak_allocated_bytes": torch.cuda.max_memory_allocated(device) if device.type == "cuda" else None,
                  "gpu_peak_reserved_bytes": torch.cuda.max_memory_reserved(device) if device.type == "cuda" else None,
+                 "cpu_process_peak_rss_bytes": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024,
+                 "historical_raw_tokens_read": sum(row.get("historical_access", {}).get("raw_tokens_read", 0) for row in ordered),
+                 "historical_index_tokens_scanned": sum(row.get("historical_access", {}).get("index_tokens_scanned", 0) for row in ordered),
+                 "retrieval_cpu_seconds": sum(row.get("historical_access", {}).get("retrieval_cpu_seconds", 0.0) for row in ordered),
+                 "retrieval_timing_scope": "prefix D2H, lexical index/selection, CPU packing; GPU H2D/embedding/attention and receipts are in total inference wall time",
                  "gpu_memory_status": "measured_in_process" if device.type == "cuda" else "not_applicable_cpu"}
         manifest.update({"execution_status": "completed", "completed_at_utc": datetime.now(timezone.utc).isoformat(),
                          "predictions_sha256": sha256_file(predictions_path),
@@ -344,3 +357,4 @@ def main(argv: list[str] | None = None) -> None:
 
 if __name__ == "__main__":
     main()
+

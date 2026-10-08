@@ -181,6 +181,7 @@ def test_pause_resume_matches_uninterrupted_training_at_live_memory_boundary(
         "input_tokens": 12,
         "updates": 3,
         "skipped_updates": 0,
+        "auxiliary_target_observations": 0,
     }
     assert resumed["cursor"]["document_position"] == 1
     assert resumed["cursor"]["token_offset"] == 4
@@ -194,6 +195,32 @@ def test_pause_resume_matches_uninterrupted_training_at_live_memory_boundary(
         "sha256": hashlib.sha256(paused_bytes).hexdigest(),
     }
     assert not (resumed_output / "run.lock").exists()
+
+
+def test_expanded_training_resume_preserves_events_and_auxiliary_budget(training_case, tmp_path):
+    """Real trainer CPU fixture; authored, not executed by Web."""
+    config = deepcopy(training_case["config"])
+    config["model"].update(episodic_enabled=True, episodic_capacity_tokens=4,
+        episodic_read_tokens=4, episodic_top_k=2, episodic_query_tokens=2,
+        semantic_dim=8, dynamics="contractive", contraction_bound=0.8, predictive_head=True)
+    config["training"]["state_prediction_weight"] = 0.1
+    path = tmp_path / "expanded.json"
+    path.write_text(json.dumps(config), encoding="utf-8")
+    paused_output, ordinary_output = tmp_path / "expanded-resumed", tmp_path / "expanded-ordinary"
+    _run(training_case, paused_output, max_updates=1, config_path=path)
+    paused_path = paused_output / "last.pt"
+    paused = load_checkpoint(paused_path)
+    assert paused["history"]["segments"] == 2
+    assert len(paused["history"]["store"]["receipts"]) == 2
+    assert paused["counters"]["auxiliary_target_observations"] == 1
+    _run(training_case, ordinary_output, config_path=path)
+    _run(training_case, paused_output, resume=paused_path, config_path=path)
+    ordinary, resumed = load_checkpoint(ordinary_output / "last.pt"), load_checkpoint(paused_output / "last.pt")
+    _assert_equivalent_training_state(ordinary, resumed)
+    assert resumed["counters"]["seen_targets"] == 12
+    assert resumed["counters"]["auxiliary_target_observations"] == 4
+    assert resumed["history"]["segments"] == 2
+    assert resumed["history"]["store"]["document_id"] != paused["history"]["store"]["document_id"]
 
 
 def test_resume_restores_nondefault_saved_rng_streams(training_case, paused_run, tmp_path):
@@ -373,3 +400,4 @@ def test_stop_request_waits_for_the_normal_accumulation_boundary(
     assert interrupted["counters"]["updates"] == 1
     assert [event["targets_this_update"] for event in _updates(interrupted_output)] == [8]
     assert not (interrupted_output / "run.lock").exists()
+

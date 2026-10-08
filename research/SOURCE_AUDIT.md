@@ -66,3 +66,7 @@ README 指向后续的 [LongMemEval-V2](https://github.com/xiaowu0162/LongMemEva
 这是**初步相邻工作调查**。尚未完成全部查询族、引用展开、独立角色审查和收敛检索；不作“没有先例”或高置信 KILL 裁决。主笔同时生成并检索了 Q01，不能把自审写成独立原创性审查。
 
 已知功能重合要求回到母问题检查剩余贡献价值，不能不断把项目缩成一个小停止策略以逃避原始目标。当前完整模型、数据与实验设计均未获准冻结。
+
+## Actual full-plan source review, 2026-10-08
+
+Primary reading and fixed implementation pins are recorded in the independent [episodic spec review](../rounds/full-plan-2026-10-08/EPISODIC_SPEC_REVIEW.md) and [dynamics spec review](../rounds/full-plan-2026-10-08/DYNAMICS_SPEC_REVIEW.md), with actual source follow-ups in that round. LongMem author memory add/retrieve and neural-consumption files were read at b7f3c6b8db7471eb507971451f63f67e21c49ebf; Memorizing Transformers historical kNN/attention supports a family, not our lexical/raw-event implementation. Stable Recurrent Models supplies the tanh/operator-norm contraction premise; our differentiable Frobenius rescale is an explicit construction, not an asserted author-code reproduction. Gisting masking/cache source was read at3be0d062b6bdfd3caf51843bbc60261a0855f876, and Huginn model_dynamic at the existing pin; no source was executed. Latent conditional decoder precedents do not identify this model's semantics. Read-scope details, limitations and URLs remain in those review files rather than claiming every source repository fully audited.

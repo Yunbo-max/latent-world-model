@@ -119,3 +119,11 @@ Canonical skill applied: `e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f6
 - [RLT author README](https://github.com/yifanzhang-pro/recurrent-looped-tranformer/blob/b323cbc6e349237b755600b13f2d9bde73e82ff3/README.md), observed source blob `02681f724cf9de433524b17bc58e3e57f03783d0`. Read as a nearby architecture description only, not a verified reproduction or primary result audit.
 
 This review writes only this file. It does not update the checkpoint, method pool, gate report, Git history, or remote repository. Publication and project-state reconciliation remain with the single integration writer.
+
+## Full-plan extension scope, 2026-10-08
+
+The old limited slots-only delivery no longer represents the authorized code scope. The adopted extension in [EXPANSION_SPEC](../rounds/full-plan-2026-10-08/EXPANSION_SPEC.md) closes the engineering equations/interfaces for exact retained events, causal lexical retrieval actually consumed, narrow text plan/independent realization, three-clock stream state, known contractive recurrence and a normalized supervised future-token head. These are disclosed adaptations of known retrieval/recurrent/latent-decoder principles, not new originality claims. Independent source/math review is in the same round. Known overlaps (BDH-CQ/Huginn/RMT/AVF/EP) remain constraints, and historical candidate counts/gates are unchanged. Native/Local experiments determine engineering benefit; no information-sufficiency, action-dynamics or universal spectral theorem follows from this source delivery.
+
+## Original-plan expansion scope
+
+The closed construction and actual source coverage are in rounds/full-plan-2026-10-08/EXPANSION_SPEC.md and COVERAGE.md. Exact-token lexical retrieval, fixed-forcing contractive workspace, continuous token-plan factorization and proper state predictive CE are explicit known-mechanism engineering choices. BDH-CQ/Huginn/RMT/AVF/Gisting/Stable Recurrent Models overlaps stay visible. The preserved discovery batch is not certified by completing these modules. Predictive sufficiency, autonomous actions, identified sentence meaning and Q01/adaptive certificates remain outside the achieved source claims. Current independent static source reviews bind concrete bytes; runtime/native/scientific qualification remains Local-pending.
