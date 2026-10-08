@@ -3,7 +3,7 @@
 Before setup, acceptance, execution or repair, read these files at the **same delivered Git commit**:
 
 1. [LOCAL_AGENT_RUNBOOK.md](LOCAL_AGENT_RUNBOOK.md), especially [input acquisition](LOCAL_AGENT_RUNBOOK.md#download-datasets-and-models).
-2. [Current Web handoff](rounds/sigma-review-2026-10-08/WEB_HANDOFF.md), including its link to the prior full delivery.
+2. [Current Web handoff](rounds/delivery-review-2026-10-08/WEB_HANDOFF.md), including its link to the prior full delivery.
 3. [Adopted mathematical specification](research/FULL_MODEL_PROPOSAL.md), [math-to-code map](research/MATH_TO_CODE.md), and [complete experiment design](research/EXPERIMENT_DESIGN.md).
 
 User scope: implement a text predictive latent-state model with persistent memory, independently controlled internal recurrent computation and a separate language readout, based on existing models. RTX 2080 Ti is user-stated. Data profiles are 100M/1B **pretraining target tokens per model run**, not parameter counts. The current construction is an explicitly disclosed engineering adaptation; do not claim a faithful Huginn/RMT reproduction, novelty or validated world dynamics.

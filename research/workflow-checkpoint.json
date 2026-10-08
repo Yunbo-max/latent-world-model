@@ -1,16 +1,16 @@
 {
   "kind": "engineering-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T12:37:09.340Z",
+  "recorded_at": "2026-10-08T13:54:46.369563+00:00",
   "project": "Yunbo-max/latent-world-model",
-  "round": "sigma-review-2026-10-08",
+  "round": "delivery-review-2026-10-08",
   "role": "web_supervisor",
   "target_branch": "main",
   "reset_commit": "70033ed1204a88699d90978d0de46721dded3017",
   "authorization": {
     "github_write": "Owner explicitly requested clearing and later pushing work to this repository.",
     "order": "Mathematical idea first, then code.",
-    "background": "Owner renewed the request to use the background task on 2026-10-08. One actual scheduled authoring task was created, enabled and configuration-read back; its first run has not been observed. No GPU job started.",
+    "background": "Owner authorized this finite scheduled source completion. Actual Work invocation observed; no GPU job started.",
     "hf_output_destination": "unknown; no HF upload attempted",
     "latest_goal": "2026-10-08: continue from checkpoint, complete math/code/design, review RTX 2080 Ti and 100M/1B target-token budgets, push main, leave experiments to Local, and study arXiv:2610.02665."
   },
@@ -45,10 +45,12 @@
     "Authored CPU/CUDA FP32 prefix parity/allocation-contract and CPU parameter-gradient acceptance cases; no red/green execution receipt claimed.",
     "Independent readout source review and CUDA-test source follow-up found no Critical/Important blockers; runtime qualification stays pending.",
     "Preserved the full five-arm/two-seed 100M/1B designs and native task coverage; added prospective development-selection accounting and current Local handoff.",
-    "Created and configuration-read back one enabled hourly source-authoring continuation for this repository at the owner's renewed request; scheduling is not code progress or an execution receipt."
+    "Created and configuration-read back one enabled hourly source-authoring continuation for this repository at the owner's renewed request; scheduling is not code progress or an execution receipt.",
+    "Observed this scheduled continuation in platform-confirmed Work; restored cb98c6c and matched all 65 remote baseline blobs.",
+    "Authored full 60-file bAbI Teacher/preparation parity CLI and 10 acceptance test functions; fixed both independent source-review integrity findings.",
+    "Parsed all 20 Python sources, 24 JSON and one TOML with standard library only; 73 authored test functions remain unexecuted."
   ],
   "pending": [
-    "Requested finite background follow-up review/repair: first invocation unobserved; reuse existing source review and prioritize real complete-call-chain or full ParlAI teacher environment/source gaps.",
     "Local restores the actual GPU execution host and acquires/qualifies pinned assets and environments.",
     "Local executes authored tests and native teacher/tokenizer/scorer parity; the full ParlAI teacher environment remains installation-unqualified.",
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
@@ -73,7 +75,7 @@
     "web_source_delivery": "generated_unexecuted; publication readback performed by this session before reporting commit"
   },
   "background": {
-    "state": "scheduled_enabled_first_run_unobserved",
+    "state": "source_delivery_finalizing",
     "task_kind": "scheduled_authoring_continuation",
     "independent_task_id": "6ac78ded796081918d2123402544d760",
     "task_title": "完成隐状态模型代码交付",
@@ -89,23 +91,23 @@
     "last_run_time": null,
     "next_run_time": null,
     "current_session_host": "Work, explicitly identified by the platform context",
-    "scheduled_invocation_host": "not yet observed; verify actual host at invocation",
-    "first_run_observed": false,
+    "scheduled_invocation_host": "Work, explicitly identified by current platform context",
+    "first_run_observed": true,
     "continuous_execution_verified": false,
     "gpu_job_started": false,
-    "reason": "Real task creation and configuration readback verify scheduling only. It is scoped to finite source completeness/repair and delivery, with Local execution pending.",
+    "reason": "Actual invocation performed finite source repair and independent review; exact publication verification and task closure are the remaining Web steps.",
     "goal_prompt": "research/BACKGROUND_GOAL.md",
     "stop_rule": "Finish required source review/repair and exact main delivery, report source/review/Local-pending status, then disable this task; do not wait indefinitely for Local experiments."
   },
-  "next_action": "The enabled task restores latest main and performs the finite requested delivery follow-up, fixing only concrete source gaps and disabling after exact delivery. Independently, Local reads the current delivered AGENTS/runbook/handoff and performs environment/software/native qualification, resource measurements and the admitted full experiment matrix.",
+  "next_action": "Verify exact newly published main, close this finite task, then Local performs documented software/native/resource acceptance.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
     "packet_revision": "the Git commit containing this checkpoint; exact readback reported by the publishing session",
-    "parent_head_before_publication": "fa618da194eb2c1f27da6a4f5b8311547d08acfb",
+    "parent_head_before_publication": "cb98c6c6a668e35930d382771d06e6d6067a9f9b",
     "verification": "Exact newly created commit files are read back by the publishing session before reporting delivery; no self-referential future commit SHA is invented here.",
-    "previous_verified_delivery": "fa618da194eb2c1f27da6a4f5b8311547d08acfb",
-    "this_revision_scope": "Background configuration and status documentation only; model, tests and experimental design source are unchanged from fa618da. The historical SOURCE_CHECKS receipt belongs to that source packet, not to this later metadata revision."
+    "previous_verified_delivery": "cb98c6c6a668e35930d382771d06e6d6067a9f9b",
+    "this_revision_scope": "Full bAbI Teacher-export parity CLI, authored tests and corresponding Local/source-delivery documentation. Model/optimizer/experiment arms unchanged."
   },
   "skill": {
     "package": "e0/remote-skills/skill-6ac68a8f6ff481919a700388dd326f62",
@@ -163,17 +165,17 @@
     "training": "not_started",
     "results": "none",
     "scope_review": "research/SCIENTIFIC_SCOPE_REVIEW.md",
-    "source_review": "rounds/sigma-review-2026-10-08/SOURCE_REVIEW.md",
-    "static_checks": "rounds/sigma-review-2026-10-08/SOURCE_CHECKS.json",
-    "current_handoff": "rounds/sigma-review-2026-10-08/WEB_HANDOFF.md",
+    "source_review": "rounds/delivery-review-2026-10-08/WEB_HANDOFF.md",
+    "static_checks": "rounds/delivery-review-2026-10-08/WEB_HANDOFF.md",
+    "current_handoff": "rounds/delivery-review-2026-10-08/WEB_HANDOFF.md",
     "latest_math_review": "research/SIGMA_REVIEW.md",
     "prefix_readout": "same mathematical conditional function, final-position-only projection after full coda; numerical parity pending Local"
   },
   "resumed_from": {
-    "remote_main": "a8a86cf359ac0d8598ac7b2fa6465ffa120718ae",
-    "tree": "96e8393aeca8359c2f5c3cabce20ec08c53c09a9",
-    "exact_blob_readback": 61,
-    "prior_round": "engineering-2026-10-07",
+    "remote_main": "cb98c6c6a668e35930d382771d06e6d6067a9f9b",
+    "tree": "3d9570710a170da38d8476e2a263735b06f0c896",
+    "exact_blob_readback": 65,
+    "prior_round": "sigma-review-2026-10-08",
     "local_snapshot_note": "Local Git snapshot used only for diff; remote ancestry is preserved through the GitHub expected-parent update."
   },
   "literature_delta": {

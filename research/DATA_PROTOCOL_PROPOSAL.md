@@ -293,6 +293,8 @@ python -m lm_eval run --model MODEL_BACKEND --model_args CHECKPOINT_ARGS \
 
 若未来切换到该原生 CLI 路线，MODEL_BACKEND 必须是真正注册并验收的自有 recurrent LM adapter；不能填写不存在的注册名。当前薄 replay 路线不需要这个占位后端，也不宣称完成了该路线的 qualification。
 
+完成全部 60 个原生导出后，使用 `lwm.native_parity` 对全部 220,000 问题逐行比较；完整环境、命令、字段/分母与失败记录规则见 [NATIVE_ENVIRONMENT.md](NATIVE_ENVIRONMENT.md#compare-all-60-author-exports-with-prepared-records)。该程序使用固定作者的 `str_to_msg`，不靠自制解析或几条样例宣称原生一致。实际执行和 teacher 环境资格仍待 Local。
+
 ## 8. scorer replay 的可实现调用合同
 
 主交付应提供薄 replay adapter，而不是重写评分公式。以下是源代码已确认的原生函数调用，可作为代码作者的精确接口；**它们没有在 Web 运行**。

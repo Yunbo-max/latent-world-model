@@ -139,7 +139,25 @@ for task in $(seq 1 20); do
 done
 ```
 
-Reuse already completed, verified export files instead of overwriting them; the loop intentionally stops if a target exists. After exports complete, perform the full row/episode/content/label/count comparison against this project's prepared native records in the main Python 3.11 environment. The author CLI's successful exit and 60 files alone do not establish parity. This full installation/export card is **unexecuted; resolution and teacher parity remain pending**, with the documented LiteLLM/OpenAI lower-bound conflict still unresolved.
+Reuse already completed, verified export files instead of overwriting them; the loop intentionally stops if a target exists. The author CLI's successful exit and 60 files alone do not establish parity. This full installation/export card is **unexecuted; resolution and teacher parity remain pending**, with the documented LiteLLM/OpenAI lower-bound conflict still unresolved.
+
+### Compare all 60 author exports with prepared records
+
+After the real full-teacher exports exist, run the complete comparison in the separate Python 3.11 `lwm-parlai` environment above. Its selected metrics/message dependencies include the native `str_to_msg` parser; it is sufficient to **read** the exports, and does not replace the full teacher environment that must **produce** them. Do not run the Python 3.11 project module in `lwm-parlai-teacher` (Python 3.8).
+
+```bash
+env CUDA_VISIBLE_DEVICES="" PYTHONPATH="$PWD/src" \
+  conda run -n lwm-parlai python -m lwm.native_parity \
+  --data data/babi --exports assets/babi/native \
+  --native-source external/ParlAI \
+  --output artifacts/babi-teacher-parity
+```
+
+The command requires exactly 20 tasks × three splits, verifies prepared source identities and full native denominators, then compares all **220,000 questions / 68,928 episodes** in export order. It uses the pinned author's `str_to_msg` for escaped text and labels; compares exact text, labels, reward (including the omitted zero default), episode end/index/turn; validates the author's blank episode separators; and rechecks all input hashes and export inventory before publishing. Explicit `episode_done:False` is rejected because the author exporter omits False and the native parser's `bool(value)` would otherwise treat that string as True.
+
+Success creates `babi-teacher-parity.json` with exact input/source hashes and all 60 per-task counts. On an error it raises nonzero and preserves `failure.json` with the error and completed-task inventory; it never writes a success receipt for a partial comparison. Use a fresh output directory on retry and retain failed receipts. The command does not run a model or scorer and does not qualify the separate exporter installation; retain its real install/import/export logs alongside the comparison receipt.
+
+`tests/test_native_parity_semantics.py` adds ordinary software contracts for mismatch, missing/extra rows, episode boundaries, malformed flags, invalid rewards, input changes and failure preservation. The full-native integration test requires `LWM_NATIVE_BABI_DATA`, `LWM_NATIVE_BABI_EXPORTS`, and `LWM_NATIVE_BABI_SOURCE` and otherwise skips. Skips do not qualify native data. All these commands/tests remain **generated_unexecuted** until Local supplies actual receipts.
 
 ## LAMBADA: harness base package
 
