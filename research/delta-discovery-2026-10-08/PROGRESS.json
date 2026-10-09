@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09 20:45:56 UTC",
+  "recorded_at": "2026-10-09 21:50:54 UTC",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R04_v2_consolidation_dynamics_reviewed_conditional_control_no_candidate",
+  "status": "repair_R04_v3_joint_selection_final_bounded_repair_parked_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -50,11 +50,11 @@
       "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     },
     "current_run_context_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
-      "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_CONTEXT_READBACK.json",
+      "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "3f323bf039d280a983078aafe8bc272ca085f464",
+  "delivery_parent": "70c8dc7b83a2a0b4328a4cd2a26750cf6ad8d5da",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -140,10 +140,11 @@
       "R01 v2 keeps the nominal Delta memory full-width and compresses only a decision-relevant tangent/credit quotient U=XW. For nondegenerate steps, exact fixed-W quotient closure requires the gate covector G to satisfy G=GWW^T; exact scalar credit additionally requires C=CWW^T. A row-span lower bound, time-varying carry kernel condition, leakage recurrence and two 2x2 counterexamples preserve the capacity and rotating-basis failure boundaries. Independent final-byte math and source reviews accepted this only as a conditional Delta specialization of known lumping/goal-oriented reduction principles; originality, matched-budget advantage and empirical effect remain open, so no D candidate was admitted.",
       "R02 repaired the passive counterfactual-write information gap by adding logged randomized finite Delta actions and real delayed outcomes. Known-propensity AIPW identifies finite-horizon total action effects under consistency, overlap, nuisance independence/cross-fitting or predictability, and a common continuation policy; delayed MAR and sequential-DR extensions, iid/reset variance, tail bounds, and seven failure boundaries were independently checked. The estimator is established generic AIPW/OPE, does not identify individual historical source signs or semantic validity, and LongMemEval is only an endpoint benchmark, so the result is retained as a causal control with zero candidate admission.",
       "R03 repaired R02 with an exact Delta rank-one protected-query displacement certificate, protected squared-risk cross-term/sufficient bound, and explicit positivity-damage feasibility boundary; generic safe logging/design collision prevents candidate admission.",
-      "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D."
+      "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
+      "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D."
     ]
   },
-  "next_action": "Continue bounded repair on an identifiable, representable consolidation C joint objective derived from existing joint-conditional-risk lineage and R04 E(I-D)C dynamics, or a genuine Delta-specific total-cost consequence. Do not repeat affine equivalence, fast/slow naming, AIPW, or a different decay hyperparameter as a new candidate; at most one remaining R04 substantive attempt without new evidence.",
+  "next_action": "R04 has exhausted its three bounded substantive repairs and is parked. Continue from another promising existing lineage with an actual repair delta; do not reopen R04 without full-text/code novelty evidence plus a same-budget native object that distinguishes joint survival geometry.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -577,6 +578,20 @@
       "identity": "/root/r04_source_review",
       "result": "Independent source/consequence acceptance; no originality certificate",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md"
+    },
+    {
+      "identity": "/root/r04_v3_math_review",
+      "assignment": "independent exact final-byte math rederivation",
+      "result": "conditional mathematics PASS; scalar threshold correct but generic; park supported",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.math-review.md",
+      "sha256": "2713610e69fcaec442ceecba24ceadf653fd1b2702c25f05b10beab3f9b4e0b5"
+    },
+    {
+      "identity": "/root/r04_v3_source_review",
+      "assignment": "independent exact-byte primary/author/native/contribution audit",
+      "result": "source accuracy PASS; scientific admission FAIL as intended; park supported",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.source-review.md",
+      "sha256": "4c49833c0c3d28a9507c5ed3469480d934c5e63015f412190a0c733bbfd00467"
     }
   ],
   "step2_reentry": {
@@ -999,8 +1014,8 @@
   },
   "repair_R04_consolidation_dynamics": {
     "repair_id": "R04",
-    "version": "v2",
-    "substantive_attempt": 2,
+    "version": "v3",
+    "substantive_attempt": 3,
     "max_substantive_attempts": 3,
     "lineage": [
       "STEP2_COUPLED_UPDATER_STABILITY.md",
@@ -1011,46 +1026,49 @@
       "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d"
     },
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
-      "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732"
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+      "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONSOLIDATION_SOURCE_AUDIT.md",
-      "sha256": "22897c6cd9061bdf699860f294c317cb5428d524bb6949b9d89fe5517bae5ca4"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_SELECTION_SOURCE_AUDIT.md",
+      "sha256": "c06e34a5d13e9a5ccf10276934abe03ed9b29cb42e18abdfa21f349841a03bb4"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.math-review.md",
-      "sha256": "9df4d384f4512d3c4816b9de5df00f4d4f166dc5c9a413f44a934b855866700c",
-      "reviewer": "/root/r04_math_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.math-review.md",
+      "sha256": "2713610e69fcaec442ceecba24ceadf653fd1b2702c25f05b10beab3f9b4e0b5",
+      "reviewer": "/root/r04_v3_math_review"
     },
     "context_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
-      "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_CONTEXT_READBACK.json",
+      "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     },
-    "mathematical_status": "accepted_conditional_after_nonuniform_decay_geometry_repair",
-    "contribution_status": "affine_equivalence_and_known_fast_slow_controls;Delta_specific_theory_distinctness_unclosed",
+    "mathematical_status": "accepted_conditional_joint_selection_and_survival_boundary_after_exact_final_byte_review",
+    "contribution_status": "known_quadratic_decision_and_selective_consolidation;survival_threshold_generic_not_Delta_specific;method_distinctness_unclosed",
     "empirical_status": "unknown_no_execution",
     "candidate_admission": 0,
     "status": "independent_final_byte_math_and_source_reviews_accepted_conditional_repair_control_not_candidate",
-    "disposition": "park_after_attempt_2_with_specific_reopen_conditions",
+    "disposition": "park_after_attempt_3_bounded_repair_exhausted",
     "unclosed": [
-      "Causally identifiable and representable consolidation C at fixed total budget.",
-      "Contribution beyond fast-slow total-residual control and affine gauge equivalence.",
+      "Causally identifiable per-instance validity and paired consolidation outcomes at fixed total budget.",
+      "Contribution beyond generic quadratic action selection, selective consolidation and cost-aware write routing.",
       "Full nonlinear updater/feature conjugacy or measured bounded mismatch.",
       "Native persistent Delta consolidation / later-new-task learning-efficiency measurement.",
-      "Sleep/HOPE author implementation and 1987 full-formula reading where fidelity matters."
+      "Dual-Layer/Behrouz-Sleep/HOPE author implementation, Leimer author code, and a same-budget native joint-survival object."
     ],
-    "review_feedback_repair": "EC=0 does not imply E(I-D)C=0 under nonuniform decay; preserved v1 and 2D counterexample, corrected v2 condition, exact final-byte independent re-review.",
-    "delivery_status": "published_to_literal_main_all_14_files_exact_commit_readback_verified",
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md",
-      "sha256": "e960429aac5539b54a194e5932b110ff2226ad4d45a54abdc486c89bd55ba129",
-      "reviewer": "/root/r04_source_review"
+    "review_feedback_repair": "v2 fixed nonuniform decay geometry. v3 added explicit representability and joint future risk; review corrected regularized two-world claims, fixed-law scope, protection coordinates, generic-versus-Delta novelty and Bayes-action prediction scope.",
+    "prior_v2_delivery": {
+      "status": "published_to_literal_main_all_14_files_exact_commit_readback_verified",
+      "publication_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_DELIVERY_READBACK.json",
+        "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
+      }
     },
-    "publication_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_DELIVERY_READBACK.json",
-      "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
+    "delivery_status": "pending_expected_parent_main_and_exact_readback",
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.source-review.md",
+      "sha256": "4c49833c0c3d28a9507c5ed3469480d934c5e63015f412190a0c733bbfd00467",
+      "reviewer": "/root/r04_v3_source_review"
     }
   },
   "record_shape_repair": {

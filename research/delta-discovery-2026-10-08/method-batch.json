@@ -112,6 +112,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
       "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732",
       "status": "accepted_conditional_consolidation_control_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+      "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+      "status": "accepted_conditional_joint_selection_control_parked_after_attempt_3_not_candidate"
     }
   ],
   "counting_policy": {

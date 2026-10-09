@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T19:48:15.195Z",
+  "recorded_at": "2026-10-09T21:50:54Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -172,18 +172,18 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09 20:44:53 UTC",
+    "last_math_milestone_recorded_at": "2026-10-09 21:50:54 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     },
     "current_run_context_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
-      "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_CONTEXT_READBACK.json",
+      "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue finite repair-and-rederive from another promising lineage; R03 is parked unless a strict same-budget Delta advantage or full coupled-state safety certificate is derived.",
+  "next_action": "R04 is parked after its third bounded repair. Continue repair-and-rederive from another promising existing lineage; do not reopen R04 without exact novelty evidence and same-budget native joint-survival measurement.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -777,7 +777,7 @@
       }
     ]
   },
-  "research_next_action": "Continue bounded repair on an identifiable, representable consolidation C joint objective derived from existing joint-conditional-risk lineage and R04 E(I-D)C dynamics, or a genuine Delta-specific total-cost consequence. Do not repeat affine equivalence, fast/slow naming, AIPW, or a different decay hyperparameter as a new candidate; at most one remaining R04 substantive attempt without new evidence.",
+  "research_next_action": "R04 exhausted three bounded substantive attempts and is parked. Continue from another existing repair lineage with a substantive new delta; retain unchanged 20/15 shortage and no experiment/code scope.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -833,17 +833,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R04_v2_consolidation_dynamics_reviewed_conditional_control_no_candidate",
+    "status": "repair_R04_v3_joint_selection_final_bounded_repair_parked_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "3f323bf039d280a983078aafe8bc272ca085f464",
+    "current_delivery_parent": "70c8dc7b83a2a0b4328a4cd2a26750cf6ad8d5da",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
-    "originality_and_native_measurement": "The estimator is standard contextual-bandit AIPW/sequential OPE and SEAL covers the high-level downstream self-edit reward mechanism. LongMemEval measures endpoint QA but lacks randomized update actions/propensities/counterfactual credit and its native judge uses GPT-4o. R02 is a control, not a candidate.",
+    "latest_math_result": "R04 v3 combines explicit slow/fast representability with the v2 ordered E(I-D) forcing and a fixed-law joint quadratic future risk. The constrained normal equation is known mathematics; p>alpha^T is a correct generic scalar survival boundary, not Delta-specific novelty. Final-byte independent math/source reviews pass conditional accuracy and support parking after attempt 3; no execution/new D.",
+    "originality_and_native_measurement": "Generic quadratic Bayes action, selective fast/slow consolidation and cost-aware counterfactual routing are known. Dual-Layer 2608.22215v2, Leimer 2019, Goldman 2024, two distinct Sleep lines, SynControl and SEAL are recorded with implementation gaps. LongMemEval/SEAL expose endpoints, not C/L/G/g or paired potential outcomes; no native same-budget joint-survival measurement.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -1082,8 +1082,8 @@
     },
     "repair_R04_consolidation_dynamics": {
       "repair_id": "R04",
-      "version": "v2",
-      "substantive_attempt": 2,
+      "version": "v3",
+      "substantive_attempt": 3,
       "max_substantive_attempts": 3,
       "lineage": [
         "STEP2_COUPLED_UPDATER_STABILITY.md",
@@ -1094,46 +1094,49 @@
         "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d"
       },
       "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
-        "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732"
+        "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+        "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093"
       },
       "source_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONSOLIDATION_SOURCE_AUDIT.md",
-        "sha256": "22897c6cd9061bdf699860f294c317cb5428d524bb6949b9d89fe5517bae5ca4"
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_SELECTION_SOURCE_AUDIT.md",
+        "sha256": "c06e34a5d13e9a5ccf10276934abe03ed9b29cb42e18abdfa21f349841a03bb4"
       },
       "math_review_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.math-review.md",
-        "sha256": "9df4d384f4512d3c4816b9de5df00f4d4f166dc5c9a413f44a934b855866700c",
-        "reviewer": "/root/r04_math_review"
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.math-review.md",
+        "sha256": "2713610e69fcaec442ceecba24ceadf653fd1b2702c25f05b10beab3f9b4e0b5",
+        "reviewer": "/root/r04_v3_math_review"
       },
       "context_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
-        "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_CONTEXT_READBACK.json",
+        "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
       },
-      "mathematical_status": "accepted_conditional_after_nonuniform_decay_geometry_repair",
-      "contribution_status": "affine_equivalence_and_known_fast_slow_controls;Delta_specific_theory_distinctness_unclosed",
+      "mathematical_status": "accepted_conditional_joint_selection_and_survival_boundary_after_exact_final_byte_review",
+      "contribution_status": "known_quadratic_decision_and_selective_consolidation;generic_threshold_not_scientifically_admitted",
       "empirical_status": "unknown_no_execution",
       "candidate_admission": 0,
       "status": "independent_final_byte_math_and_source_reviews_accepted_conditional_repair_control_not_candidate",
-      "disposition": "park_after_attempt_2_with_specific_reopen_conditions",
+      "disposition": "park_after_attempt_3_bounded_repair_exhausted",
       "unclosed": [
-        "Causally identifiable and representable consolidation C at fixed total budget.",
-        "Contribution beyond fast-slow total-residual control and affine gauge equivalence.",
+        "Causally identifiable per-instance validity and paired consolidation outcomes at fixed total budget.",
+        "Contribution beyond quadratic action selection, selective consolidation and cost-aware write routing.",
         "Full nonlinear updater/feature conjugacy or measured bounded mismatch.",
         "Native persistent Delta consolidation / later-new-task learning-efficiency measurement.",
-        "Sleep/HOPE author implementation and 1987 full-formula reading where fidelity matters."
+        "Dual-Layer/Behrouz-Sleep/HOPE author implementation, Leimer author code, and a same-budget native joint-survival object."
       ],
-      "review_feedback_repair": "EC=0 does not imply E(I-D)C=0 under nonuniform decay; preserved v1 and 2D counterexample, corrected v2 condition, exact final-byte independent re-review.",
-      "delivery_status": "published_to_literal_main_all_14_files_exact_commit_readback_verified",
-      "source_review_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md",
-        "sha256": "e960429aac5539b54a194e5932b110ff2226ad4d45a54abdc486c89bd55ba129",
-        "reviewer": "/root/r04_source_review"
+      "review_feedback_repair": "v2 fixed nonuniform decay geometry. v3 added representability and joint future risk; review corrected regularized two-world claims, fixed-law scope, protection coordinates, generic novelty and Bayes-action prediction scope.",
+      "prior_v2_delivery": {
+        "status": "published_to_literal_main_all_14_files_exact_commit_readback_verified",
+        "publication_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
+        "delivery_readback_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_DELIVERY_READBACK.json",
+          "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
+        }
       },
-      "publication_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
-      "delivery_readback_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_DELIVERY_READBACK.json",
-        "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
+      "delivery_status": "pending_expected_parent_main_and_exact_readback",
+      "source_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.source-review.md",
+        "sha256": "4c49833c0c3d28a9507c5ed3469480d934c5e63015f412190a0c733bbfd00467",
+        "reviewer": "/root/r04_v3_source_review"
       }
     }
   },
@@ -1179,5 +1182,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09 20:45:56 UTC"
+  "updated_at": "2026-10-09 21:50:54 UTC"
 }
