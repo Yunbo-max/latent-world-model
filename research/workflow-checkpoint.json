@@ -1169,7 +1169,9 @@
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
+    "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
+    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
   },
   "delta_updater_rsi_math": {
     "authorization_local_time": "2026-10-09T12:48:59+01:00",

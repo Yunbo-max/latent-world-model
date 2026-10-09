@@ -1,0 +1,31 @@
+{
+  "kind": "exact-commit-delivery-readback",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_before_publication": "7bf489f4e95f5221bc02ea453e33f73908cb836f",
+  "parent_tree": "38550f0bf956a52fa36962cc87070f9cff59a2f1",
+  "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
+  "publication_tree": "1e584003735d5437ffdb091ed9cff51088472d7a",
+  "ref_update": "expected_parent_non_force_success",
+  "verified_at": "2026-10-09T23:51:04Z",
+  "verification": "Every listed path was fetched at the exact publication commit in base64 and normalized-byte-compared with the local authored artifact; all matched.",
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "sha256": "47e24e3cfb2a9b8348d8a3d0d421a75e879029a3111ce61e0338b71ebf2d4a93"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "sha256": "fa6e2fade09ef65d339615b3803092cfc8c6f9c1817acc307de5b4f9645c38c6"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "sha256": "9fa1aa2064a331e43fae611648d48de5e180a6186a48cf2373af612e72c381b5"},
+    {"path": "research/delta-discovery-2026-10-08/DISPOSITIONS.json", "sha256": "851845637546e3769f5c5fa2e7f120f7dcc7c51ffa6df6106904524b67e57366"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "sha256": "8528600fc7b9624c774bbf00c8367336ae2441c84ab42e376970a818b3e74373"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "sha256": "22b5cb1b2ebe0b5c2683a85643596dddd856017aa4a42919c41eefcc631e807d"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "sha256": "f03f16c0136afcb17bf5653ff6f7f5aefc5764ba01653306bc456879aa32ef9f"},
+    {"path": "research/workflow-checkpoint.json", "sha256": "2a50d90c6ba772f357919afa0f269a9fb35c572186f13b5c2445795c3b4d7a53"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md", "sha256": "ce124a8bbe131f12c697f23ba0755650a18d72fbfe17d674a908b447a2bb602e"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md", "sha256": "84a54cd908c1b60be4bbd3baf5fa2c51223312af8f9d928c0a3b50372a813e24"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md", "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c"},
+    {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "af64fd37ea501defba073e39a2d7c956bac402d016223f8ae5c5a7eba5e8d76c"},
+    {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md", "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1"}
+  ],
+  "all_exact": true,
+  "scope": "Mathematics, primary-source/author-interface review and native-measurement feasibility only; no project code, software test, model execution, benchmark scoring, training, inference, GPU job or data/model download."
+}

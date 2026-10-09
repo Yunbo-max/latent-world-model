@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R05_v3_partial_identification_final_reviews_passed_pending_delivery",
+  "status": "repair_R05_v3_partial_identification_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1127,7 +1127,9 @@
     "candidate_admission": 0,
     "disposition": "park_after_attempt_2_conditional_control",
     "review_feedback_repair": "Independent reviews narrowed matrix sharpness to scalar projections, added atom/randomization and finite-sample qualifications, fixed EvEdit endpoint wording and pinned interfaces, then repaired the general A=0 branch and TeX bytes.",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
+    "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
+    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",
