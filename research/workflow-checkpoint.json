@@ -619,7 +619,7 @@
       }
     ]
   },
-  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard martingale/change-point gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
+  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, exact-flow/implicit gate reparameterizations, symmetric/Strang coordinate splitting, local Kreiss penalties, reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard martingale/change-point gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -675,12 +675,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "partial_math_milestone_zero_active_four_further_reviewed_controls",
+    "status": "partial_math_milestone_zero_active_three_further_dual_reviewed_controls",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "7e18eb8d75bc5b67e7a462928ea5b36de7bf95bb",
+    "current_delivery_parent": "60c6f66d0e3e95b0981fea666e012ec0cb23514b",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md"
   }
 }

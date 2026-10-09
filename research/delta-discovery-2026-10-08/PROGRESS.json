@@ -2,12 +2,12 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T06:51:13Z",
+  "recorded_at": "2026-10-09T07:40:49Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_zero_active_four_further_reviewed_controls",
+  "status": "partial_math_milestone_zero_active_three_further_dual_reviewed_controls",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -39,7 +39,7 @@
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "delivery_parent": "7e18eb8d75bc5b67e7a462928ea5b36de7bf95bb",
+  "delivery_parent": "60c6f66d0e3e95b0981fea666e012ec0cb23514b",
   "milestone": {
     "inactive_cards": ["D01", "D03", "D05", "D06", "D07"],
     "active_cards": [],
@@ -73,10 +73,13 @@
       "rejected/RETROACTIVE_ROLLBACK_DELTA.md",
       "rejected/SET_VALUED_DELTA_ENVELOPE.md",
       "rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md",
-      "rejected/PROVENANCE_TENSOR_DELTA.md"
+      "rejected/PROVENANCE_TENSOR_DELTA.md",
+      "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+      "rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+      "rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md"
     ]
   },
-  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard change gates, post-hoc moving metrics, event rollback/replay, set-membership envelopes, orthogonal value rotations, tensor-role/provenance binding, QED variants, unitary/frame dilation, randomized survival, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system, identity oracle or numerical randomizer.",
+  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude exact-flow/implicit gate reparameterizations, symmetric/Strang coordinate splitting, local Kreiss penalties, reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard change gates, post-hoc moving metrics, event rollback/replay, set-membership envelopes, orthogonal value rotations, tensor-role/provenance binding, QED variants, unitary/frame dilation, randomized survival, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system, identity oracle, local stability diagnostic or numerical randomizer.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -259,6 +262,36 @@
       "identity": "/root/orthogonal_value_audit",
       "result": "Independently reviewed orthogonal-value geometry/MOSE collision and provenance tensor TPR/FWM/routed-slot collision",
       "artifacts": ["research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md", "research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md"]
+    },
+    {
+      "identity": "/root/flow_delta_math",
+      "result": "Derived exact gradient-flow and implicit-proximal Delta equivalences, including exact sigmoid reparameterizations and ordered-path limits",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md"
+    },
+    {
+      "identity": "/root/flow_delta_audit",
+      "result": "Independently verified the algebra and direct EFLA/Longhorn/NLMS collisions",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.review.md"
+    },
+    {
+      "identity": "/root/symmetric_split_math",
+      "result": "Derived symmetric-split recurrence, reciprocal-address equivalence, similarity and overwrite failure",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md"
+    },
+    {
+      "identity": "/root/symmetric_split_audit",
+      "result": "Independently checked affine Strang scope, KDA similarity, PDN/DeltaProduct collisions and costs",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/SYMMETRIC_SPLIT_DELTA_CONTROL.review.md"
+    },
+    {
+      "identity": "/root/pseudospectral_delta_math",
+      "result": "Derived the ordered-product counterexample and reduced executable pseudospectral variants to known product/Jacobian or Lyapunov controls",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md"
+    },
+    {
+      "identity": "/root/pseudospectral_delta_audit",
+      "result": "Independently proved local Kreiss constant one for legal standard Delta and audited fixed-versus-switched-system scope and cost",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md"
     }
   ]
 }

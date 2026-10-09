@@ -181,6 +181,8 @@ e_{\rm after}=\frac{\lambda}{\lambda+\|k_\perp\|^2}e.
 
 同日再排除四个捷径：任意旧事件回滚在固定仿射路径上只是已发表的有序 receipt transport，真实删除会改变后续特征而要求 checkpoint+replay；集合值可行域是经典 set-membership/version-space，单凸近似不能保存 revision/coexistence 的离散分支；value-space 正交修正受 Gram/范数条件限制，其 exact key-local 形式与普通 full-step Delta 相同；`k⊗身份标签` 的 provenance lift 是 TPR/Fast Weight Memory 上的普通 Delta，一热标签就是 routed slots，唯一事件标签仍需索引。它们说明“保留不确定性、可逆、保范数、增加身份维”都不会自动产生新语义证据或新 recurrence；均保存为独立审查控制，不计候选。
 
+再由三组双重数学审查排除三条参数/算子路线：冻结 token 的 exact gradient flow 与 implicit proximal 都精确退化为普通 Delta 的标量门，且分别被 EFLA、Longhorn 覆盖；`D^(1/2)` 对称分裂与 KDA 每步相似，修复同 key 读出后回到 PDN/GDN2 式预条件地址；标准 contractive Delta 的局部 Kreiss 常数恒为 1，时变产品则必须直接审查 ordered Jacobian/product、common Lyapunov 或 JSR。三者可作为数值和诊断基线，但不增加因果信息、身份或语义 release，因此不计候选。
+
 ## 一手来源
 
 - <https://arxiv.org/html/2604.21100v1>

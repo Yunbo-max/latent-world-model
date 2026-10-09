@@ -68,6 +68,14 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 
 这四项都不进入活动池。它们共同表明：可逆、集合不确定性、保范数和身份维度只有在付出 replay、分支、额外状态或外部 identity oracle 后才有用，并不会自行生成 revision/coexistence 的语义证据。
 
+## 本轮新增的三条双重审查控制
+
+1. **Exact-flow / implicit-proximal Delta**：冻结当前 key/value 后，精确梯度流系数是 `(1-exp(-τ||k||²))/||k||²`，proximal 系数是 `η/(1+η||k||²)`；两者都只是在同一 rank-one residual 上改标量门。单位 key 配合 softplus/exp 时与 sigmoid Delta 完全同图同梯度，且分别与 EFLA、Longhorn 直接碰撞。
+2. **对称 / Strang split Delta**：`D^(1/2)(I-βkkᵀ)D^(1/2)` 与实际 KDA 因子每步相似，最坏非扩张界没有改善。naive 最后半衰减会破坏原 key 的精确 overwrite；修复后正是 preconditioned separate-address Delta。Strang 的高阶结论只在另行声明的 frozen continuous ODE 下成立。
+3. **伪谱 / Kreiss transient Delta**：合法标准 Delta 因子满足 `||A||<=1` 且离散 Kreiss 常数精确为 1，逐步 penalty 因而无信息；Kreiss 定理又只管一个固定矩阵的幂，不管 token-varying ordered product。产品范数、Jacobian、common Lyapunov/JSR 和 future-product 预测才是正确对象，但都已是已有控制。
+
+三条均由独立推导者与审查者分别核对公式、反例、最近工作和隐藏成本，不分配 D 编号。它们把“换时间参数”“换左右分裂顺序”“换局部稳定指标”三类伪新意排除在外；计数仍是 **构造历史 5、活动 0、科学准入 0、选择 0**。
+
 ## 下一合法动作
 
 从零活动候选重新寻找具有新 causal observable 或 state invariant 的部署递推，并在分配新 D 编号前完成最近工作分离。排除 GSA2/reciprocal 双侧 correction、QR-RLS/hard projection、standard sequential change gate、post-hoc moving metric、unitary/frame dilation、随机 survival、checksum identity、single-basis future polynomial、blind commutator cancellation、source-utility attribution、fixed-metric preconditioning，以及所有既有 inactive/no-go 路线；不得只换 loss、坐标、门范围或辅助噪声来凑数。
