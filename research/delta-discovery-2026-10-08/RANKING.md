@@ -40,3 +40,8 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 ## R02 control disposition
 
 R02 is excluded from the candidate ranking. Its conditional causal mathematics passed independent final-byte review, but the operative estimator is standard AIPW/sequential OPE and the native mechanism measurement is missing. Pool and selection counts are unchanged; it cannot displace or enter a top-15 list.
+
+
+## R03 排名处置
+
+R03 不进入活动池排名。问题价值高：它正面处理“为了因果识别而探索”与“保护仍有效旧查询”之间的冲突；数学后果也明确，包括局部损伤闭式、平方风险充分界和 positivity–budget 不可行条件。但贡献差异不足：安全 logging / constrained optimal design 已被 SEPEC、Safe Optimal Design 及相关 safe bandit 工作覆盖；实际效果和长期 coupled-state 安全未测。故其身份是 control/boundary，得分不替代候选资格，不能用于 top-15。全池仍 0 活动、0 准入、0 选择。

@@ -102,3 +102,10 @@ Titans https://arxiv.org/abs/2501.00663；再按残余问题加入TTT、learned 
 ## R02 v1 randomized-action repair
 
 The passive counterfactual-write line is repaired only for a new estimand: average finite-action total effects under logged randomization, real delayed loss, overlap, and a common continuation policy. Final-byte math and source reviews passed. Standard AIPW/sequential OPE is the dominant mechanism; retrospective source release, semantic validity, long-run RSI and native mechanism measurement remain unresolved. R02 is a control, not a D candidate, and counts remain 5 historical / 0 active / 0 admitted / 0 selected.
+
+
+## R03 修复：保护感知的随机 Delta 日志
+
+R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没有限制探索本身对仍有效旧查询的损伤。R03 以同一 propensity 同时控制 AIPW 方差和 Delta rank-one 局部保护损伤：对保护查询二阶矩 G_p 与 value 度量 M，单步输出位移精确为 d_a=α_a²β²(eᵀMe)kᵀG_pk；带有效旧标签时又得到平方风险交叉项和充分上界。严格 positivity 与损伤预算存在显式不可行边界，二元最优 propensity 是受安全上界截断的 Neyman allocation。
+
+最终字节数学/来源复审接受该条件控制。但 SEPEC、Safe Optimal Design、CLUCB/SEA、stage-wise constrained bandits 和标准 OPE 已覆盖安全且信息高效的 logging design；LongMemEval/SEAL 只覆盖终点更新或遗忘，不原生提供 Delta propensity、保护有效性或 counterfactual scorer。因此 R03 在第一次修订后 park，不分配 D 编号。计数仍为 5历史/0活动/0科学准入/0选择；实际效果未知，未执行代码或实验。

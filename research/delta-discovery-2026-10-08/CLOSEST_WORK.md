@@ -127,3 +127,12 @@ generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不
 | downstream self-edit reward | SEAL author code at `6d9c9f9...` | high-level collision; SEAL is LoRA/TTT and not propensity-logged Delta OPE |
 | knowledge-update endpoint | LongMemEval at `9e0b455...` | measures final QA, not internal randomized action credit; native judge uses GPT-4o |
 | remaining Delta claim | structured nuisance / safe logging / sufficient history | unproved repair leads; no candidate admission |
+
+
+## R03 — protection-aware randomized Delta logging
+
+- **Retained Delta result:** frozen one-step protected-query displacement d_a=α_a²β²(eᵀMe)kᵀG_pk; exact protected squared-risk cross-term; positivity–damage feasibility boundary.
+- **Nearest direct mechanisms:** SEPEC (safe exploration minimizing IPW/DR evaluation variance), Safe Optimal Design (safe information-efficient logging), stage-wise constrained contextual bandits, CLUCB/SEA, IPS/AIPW/DR/SWITCH.
+- **Strong protection controls:** no-write, hard projection/soft preconditioning, GEM, EWC, A-GEM, OGD.
+- **Residual difference:** a cheap Delta rank-one local certificate can instantiate the generic safe-design cost, but no strict same-budget advantage or long-horizon semantic certificate is proved.
+- **Disposition:** useful control/theoretical boundary; parked after R03 v1; not an active candidate.

@@ -577,6 +577,22 @@
       "state": "historical_unqualified_outside_batch",
       "path": "research/method-batch.json",
       "reason": "No retrospective certification. Original 1 constructed/0 qualified/0 selected retained."
+    },
+    {
+      "id": "R03",
+      "kind": "repair_control",
+      "path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
+      "status": "parked_not_candidate",
+      "mathematical_status": "conditional_accepted",
+      "contribution_status": "major_safe_logging_and_optimal_design_collision",
+      "reason": "Exact Delta rank-one local protection certificate and positivity-damage boundary are useful, but safe propensity optimization is already covered by SEPEC/Safe Optimal Design and long-horizon semantic safety is unresolved.",
+      "artifact_sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3",
+      "source_sha256": "9cfe58925c73daa861f00ebb5534de47b9cec01c963e3a2e1786850568757067",
+      "independent_reviews": [
+        "f67dd3e97b78e6cf7a9e131897de42bce12b1a684da75f58efdc012c3e438cde",
+        "04718f8379058af401140f6c52aebd08efcc0b09fcf8cfb5ab5c2f740aaf962b"
+      ],
+      "candidate_delta": 0
     }
   ]
 }

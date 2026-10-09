@@ -97,7 +97,12 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
       "sha256": "b3460e4b433cd7b56302f3587cc7664f39cd9858f4c273401da68f54e49686da",
       "status": "accepted_conditional_causal_control_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
+      "sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3",
+      "status": "accepted_conditional_Delta_safe_logging_control_not_candidate"
     }
   ],
-  "counting_policy": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate."
+  "counting_policy": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate. R03 adds a reviewed Delta-local safety certificate/control but no active constructed or selected candidate."
 }
