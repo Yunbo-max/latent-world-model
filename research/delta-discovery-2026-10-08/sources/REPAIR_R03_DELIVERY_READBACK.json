@@ -1,0 +1,37 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "repair_id": "R03",
+  "version": "v1",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "f667326d664c0e037db229873a8bcb329f5eef05",
+  "commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
+  "force": false,
+  "verified_at": "2026-10-09T19:50:05Z",
+  "all_exact": true,
+  "artifact_sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3",
+  "source_audit_sha256": "9cfe58925c73daa861f00ebb5534de47b9cec01c963e3a2e1786850568757067",
+  "math_review_sha256": "f67dd3e97b78e6cf7a9e131897de42bce12b1a684da75f58efdc012c3e438cde",
+  "source_review_sha256": "04718f8379058af401140f6c52aebd08efcc0b09fcf8cfb5ab5c2f740aaf962b",
+  "paths": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md", "blob": "325bcefd2100c952689c867b38f7499eb186a53b", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_PROTECTION_AWARE_LOGGING_SOURCE_AUDIT.md", "blob": "836b95e8383d996526f9ec5956cd23c52d6f46a0", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.math-review.md", "blob": "78053edcabb64e2d5d4b31320d6e967d0361f351", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.source-review.md", "blob": "1eca764c78413324cf5a30ff9d07426262b3b834", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob": "a713234849071383139ff2838fc7fd3d4c54c1ae", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob": "74fc29cb2c4de5d5dea777ecf78140abe182f013", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/DISPOSITIONS.json", "blob": "fa5ec4a9a362bf11a2cd9e4f1f1cfc5883895513", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob": "b4cbd4381dd953ea4178fd01d63175f870fc8183", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob": "dd1ee434ccacf86fd11381d72904e196d87c93af", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob": "65dc152a93d26b0a4d0ab7af41c64e09af91ac6b", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "blob": "b067971a23f50e140c312b953766307987bc1804", "exact": true},
+    {"path": "research/workflow-checkpoint.json", "blob": "12ad9e41ec85b1cfe9352c68d019436f3e4b7216", "exact": true}
+  ],
+  "counts_after_delivery": {
+    "historical_candidates": 5,
+    "active_candidates": 0,
+    "scientifically_admitted": 0,
+    "selected": 0
+  },
+  "execution_boundary": "Static mathematics, primary-source and read-only implementation inspection, hashing and repository round-trip only; no model or benchmark execution."
+}

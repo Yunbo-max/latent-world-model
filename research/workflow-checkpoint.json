@@ -1050,7 +1050,13 @@
         "Semantic and long-horizon coupled-state damage with sequential dependence.",
         "Strict same-budget advantage over SEPEC, Safe Optimal Design, hard projection and continual-learning controls.",
         "Native propensity/counterfactual measurement."
-      ]
+      ],
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_DELIVERY_READBACK.json",
+        "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
+      },
+      "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
+      "delivery_status": "published_to_literal_main_and_exact_readback_verified"
     }
   },
   "delta_updater_rsi_math": {
