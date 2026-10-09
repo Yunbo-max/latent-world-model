@@ -12,4 +12,6 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 
 同日再闭合四条路线：reciprocal cycle 在当前 pair 完全写入后变成恒等式，且与 BAM/GSA2/双向 ridge 碰撞；rank-revealing QR 的精确新意只是已知 hard projection/QR-RLS feasibility diagnostic；martingale release 提供严格 anytime false-release 控制却仍是标准 change detector 加既有 edit，并受 revision/collision 信息边界限制；任意 inverse-transported time-varying metric 能把收缩或爆炸都重标为等距，必须加入 uniform coercivity 与双边 cross-time bound 才有物理意义，随后回到 D06/经典 contraction。四项均有独立数学审查，只作为控制/no-go 保存，活动计数不变。
 
+本轮又闭合四条：历史回滚在 frozen-affine 路径上是已发表的 receipt transport，真实 state-dependent omission 则必须 checkpoint+replay；集合值状态是经典 set-membership/version-space，单一凸包不能保存离散 revision/coexistence 分支；value 侧正交修正受 Gram 条件限制，而精确 key-local 版本与 full-step Delta 完全相同；`k⊗provenance` 是 TPR/Fast Weight Memory 上的普通 Delta，一热标签等价独立 slots，唯一事件标签仍需索引。四项都经独立审查，继续作为否定控制保存；构造历史仍为 5、活动/准入/选择仍为 0。
+
 最终排名仍将基于问题价值、数学后果、最近工作残余、区别性预测、最强简单替代及总成本。当前不得给出“最优 2–3 项”或暗示任何历史卡已获推荐。

@@ -296,6 +296,42 @@
       ]
     },
     {
+      "id": "RETROACTIVE-ROLLBACK-DELTA",
+      "state": "rejected_as_distinct_method_retained_as_rollback_trilemma_control",
+      "reason": "Frozen-affine deletion is exact receipt transport and full state-dependent omission is checkpoint replay. The Delta-specific transport/forcing theorem and deployment trade-off are already published, while finite-precision arbitrary-ID rollback requires history-sized provenance in the worst case.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md","sha256":"71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/RETROACTIVE_ROLLBACK_DELTA.review.md","sha256":"6deb94140445ce0981f90185f70a8af173f781ac3c8b190ee69da4596cb8f4d8"}
+      ]
+    },
+    {
+      "id": "SET-VALUED-DELTA-ENVELOPE",
+      "state": "rejected_as_distinct_method_retained_as_set_membership_control",
+      "reason": "The feasible-map recursion is classical set-membership filtering/version-space maintenance. A single convex envelope cannot preserve discrete revision/coexistence branches, while exact unions can grow exponentially and structured fixed-size approximations reduce to known OBE/Kalman/RLS controls.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/SET_VALUED_DELTA_ENVELOPE.md","sha256":"671c995177df422340156da4481e68802e40205b70c0a77859c0026937f4d662"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/SET_VALUED_DELTA_ENVELOPE.review.md","sha256":"994967dcb5534fe1023abff7b44d3d2d036d4df36acd5cc3f09bb10e73541f8d"}
+      ]
+    },
+    {
+      "id": "ORTHOGONAL-VALUE-ROTATION-CONTROL",
+      "state": "rejected_as_distinct_method_retained_as_isometric_editability_control",
+      "reason": "Global orthogonal edits require Gram preservation and spill over by value direction. When localized to one unit key and made exact, the state update is identical to full-step Delta; adaptive target matching is a singular row replacement rather than a reversible isometry.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md","sha256":"b0d6cdac5ba08ac3c15c7b700442c1770a5b1b23370000269b6062fae08f6cb7"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md","sha256":"9606446a897605e812cb3e875edb3f8314d4e66f324621215d46c8b7d0385b32"}
+      ]
+    },
+    {
+      "id": "PROVENANCE-TENSOR-DELTA",
+      "state": "rejected_as_distinct_method_retained_as_identity_oracle_control",
+      "reason": "The tensor address k⊗c is ordinary Delta in a TPR feature space; one-hot codes are exactly routed independent Delta memories. Stable provenance is extra causal information, while unique event tags still require an index and dense/random tags recover classical TPR/VSA crosstalk.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md","sha256":"8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md","sha256":"ffcd08f6fadfea712325210a2bba1d5bca83e9a86463ad26c7fc9742f9c96191"}
+      ]
+    },
+    {
       "id": "D01-schema-history",
       "state": "superseded_format_only",
       "path": "cards/history/D01.pre-schema-f134c0f3.json",

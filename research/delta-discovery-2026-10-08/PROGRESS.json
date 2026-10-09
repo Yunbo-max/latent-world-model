@@ -2,12 +2,12 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T05:47:50Z",
+  "recorded_at": "2026-10-09T06:51:13Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_zero_active_four_additional_reviewed_controls",
+  "status": "partial_math_milestone_zero_active_four_further_reviewed_controls",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -39,7 +39,7 @@
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "delivery_parent": "d5b73b44cd7fb270bf1895e4223d023d395ba86b",
+  "delivery_parent": "7e18eb8d75bc5b67e7a462928ea5b36de7bf95bb",
   "milestone": {
     "inactive_cards": ["D01", "D03", "D05", "D06", "D07"],
     "active_cards": [],
@@ -69,10 +69,14 @@
       "rejected/RECIPROCAL_CYCLE_DELTA.md",
       "rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
       "rejected/MARTINGALE_RELEASE_CONTROL.md",
-      "rejected/TIME_VARYING_METRIC_LAUNDERING.md"
+      "rejected/TIME_VARYING_METRIC_LAUNDERING.md",
+      "rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+      "rejected/SET_VALUED_DELTA_ENVELOPE.md",
+      "rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md",
+      "rejected/PROVENANCE_TENSOR_DELTA.md"
     ]
   },
-  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude reciprocal/BAM/GSA2 bidirectional correction, QR-RLS/hard projection, standard martingale/change-point release gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric oblique preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system or numerical randomizer.",
+  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard change gates, post-hoc moving metrics, event rollback/replay, set-membership envelopes, orthogonal value rotations, tensor-role/provenance binding, QED variants, unitary/frame dilation, randomized survival, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system, identity oracle or numerical randomizer.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -225,6 +229,36 @@
       "identity": "/root/martingale_release_audit",
       "result": "Independently checked filtration, PFA versus ARL, global alpha allocation and revision/collision information boundary",
       "artifact": "research/delta-discovery-2026-10-08/reviews/MARTINGALE_RELEASE_CONTROL.review.md"
+    },
+    {
+      "identity": "/root/rollback_delta_math",
+      "result": "Derived exact frozen-affine rollback, nonlinear forcing/replay boundary and finite-precision arbitrary-ID information lower bound; also derived provenance tensor control",
+      "artifacts": ["research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md", "research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md"]
+    },
+    {
+      "identity": "/root/rollback_delta_audit",
+      "result": "Found direct September 2026 Delta omission collision and independently checked transport, inverse conditioning, retroactive composition and replay semantics",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/RETROACTIVE_ROLLBACK_DELTA.review.md"
+    },
+    {
+      "identity": "/root/set_valued_delta_math",
+      "result": "Derived exact feasible-map recursion, ellipsoid approximation, convex-branch boundary and costs; rejected as classical set-membership filtering",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/SET_VALUED_DELTA_ENVELOPE.md"
+    },
+    {
+      "identity": "/root/set_valued_delta_audit",
+      "result": "Independently checked noiseless feasibility, version-space/OBE/KDN collisions and failure of one convex set to represent coexistence",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/SET_VALUED_DELTA_ENVELOPE.review.md"
+    },
+    {
+      "identity": "/root/orthogonal_value_math",
+      "result": "Derived Gram feasibility, local-rotation equality to full-step Delta, state-dependent singularity and spherical/affine escape boundaries",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md"
+    },
+    {
+      "identity": "/root/orthogonal_value_audit",
+      "result": "Independently reviewed orthogonal-value geometry/MOSE collision and provenance tensor TPR/FWM/routed-slot collision",
+      "artifacts": ["research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md", "research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md"]
     }
   ]
 }

@@ -179,6 +179,8 @@ e_{\rm after}=\frac{\lambda}{\lambda+\|k_\perp\|^2}e.
 
 后续连续推导又排除了四个看似能补上 A/B 的捷径：双向 reciprocal cycle 在当前 pair 完全写入后成为恒等式，并不增加 revision/collision 身份信息；rank-revealing QR 只能判定线性约束是否相容，其最小改动式就是 hard protected projection，软化后回到 RLS/PDN；martingale/e-process 可以严格控制合法 pre-outcome change detector 的 anytime 误释放，却仍是标准 sequential detection 加已知 edit，不能区分同观测律的两个语义世界；任意 inverse-transported 时变 SPD metric 都能把物理衰减或爆炸重标成等距，若没有统一 coercivity 与双边 cross-time inequality，就不是 retention certificate。这四项分别保存为控制/no-go，不计入候选池；当前构造历史 5、活动 0、科学准入 0、选择 0。
 
+同日再排除四个捷径：任意旧事件回滚在固定仿射路径上只是已发表的有序 receipt transport，真实删除会改变后续特征而要求 checkpoint+replay；集合值可行域是经典 set-membership/version-space，单凸近似不能保存 revision/coexistence 的离散分支；value-space 正交修正受 Gram/范数条件限制，其 exact key-local 形式与普通 full-step Delta 相同；`k⊗身份标签` 的 provenance lift 是 TPR/Fast Weight Memory 上的普通 Delta，一热标签就是 routed slots，唯一事件标签仍需索引。它们说明“保留不确定性、可逆、保范数、增加身份维”都不会自动产生新语义证据或新 recurrence；均保存为独立审查控制，不计候选。
+
 ## 一手来源
 
 - <https://arxiv.org/html/2604.21100v1>
