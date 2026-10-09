@@ -57,3 +57,9 @@
 
 原生记录修正：上列旧MEASUREMENT_FEASIBILITY把LAMBADA写作standard，但当前已查的project/scorer/preparation和官方配置实际采用**lambada_openai**。固定文件/blob/函数与差异在新source audit中逐项保留；不得混合版本，5153分母和旧历史不变。没有改评测代码或假称旧standard已获资格。
 
+## Step2 action-sufficient rank 的直接近邻闭合
+
+新的定向审计把静态对象拆成两块：Task-Sufficient Contraction / Bayes quotient / Walsh rate--regret / Wei planning sufficiency 已覆盖“任务决定应保留哪些 source distinctions”；固定 SPD metric 与 feature covariance 下的最优 rank-`r` action map 则是 RRR + Eckart--Young--Mirsky。两块的简单拼接不是新方法。DSSR 还直接覆盖递归 writer 的 future reader loss 与 forward rollout，并有正文链接的匿名代码接口；旧“未找到代码”记录已纠正。
+
+唯一未闭的是 information-dependent random metric、完整递归 state Jacobian 与因果在线估计的共同耦合；它尚无自然真值、定理或可计算方案，因此只保留未准入 lead。LongMemEval 的 QA arm 有 endpoint，retrieval arm 有 turn/session evidence labels，但都不标注 ideal Delta edit、内部删除、Jacobian 或 action rank。详见 [审计](sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md) 与 [独立审查](reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md)。
+

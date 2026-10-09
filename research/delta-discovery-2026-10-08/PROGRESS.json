@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T09:48:50Z",
+  "recorded_at": "2026-10-09T10:30:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_observed_predictive_target_reachable_edit_and_decision_sufficiency_reviewed",
+  "status": "step2_action_sufficient_rank_control_independently_reviewed",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -41,10 +41,10 @@
     "continuous_execution_verified": false,
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "same_enabled_math_task; latest_Step2_prompt_observed; current_Work_invocation_not_continuous_execution",
-    "service_updated_at_observed": "2026-10-09T09:06:04.799316+00:00",
-    "service_last_run_time_observed": "2026-10-09T09:05:41.851522+00:00"
+    "service_updated_at_observed": "2026-10-09T09:53:57.690619+00:00",
+    "service_last_run_time_observed": "2026-10-09T09:53:34.004818+00:00"
   },
-  "delivery_parent": "12bf91d20444ec86c1ae9c15f3ed47aa5c690859",
+  "delivery_parent": "1b91721f5141de01ce1a167b5620aab270c0578f",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -64,7 +64,8 @@
       "sources/GSA2_FULL_AUDIT.md",
       "sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md",
       "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
-      "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md"
+      "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
+      "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -96,14 +97,18 @@
       "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
       "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md",
       "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md",
+      "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md"
     ],
     "latest_substantive_results": [
       "Observed future token CE closes predictive supervision without latent validity labels; fixed value rank-one optimum, gate reachability/constraint regret and orthogonal residual boundary derived.",
-      "Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency."
+      "Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency.",
+      "For fixed SPD action regret, linear features and heads, the optimal width-r excess is the weighted reduced-rank tail singular-value energy; multi-task sharing uses a stacked operator and includes irreducible residuals.",
+      "Task-Sufficient Contraction, Bayes quotients, DSSR and RRR/EYM directly cover the static sufficiency/regret-profile/rank pieces; only random information-dependent metrics plus recursive causal estimability remain an unadmitted lead."
     ]
   },
-  "next_action": "Continue Step2 from STEP2_OBSERVED_PREDICTIVE_TARGET.md: investigate decision-focused/sufficient-action representation and constrained Delta predictive-direction risk against actual nonfactorized write/TTT/proximal nearest work. Close natural importance, causal estimability and full-path cost/measurement under real text labels; keep CE prediction distinct semantic revision validity. Ordinary CE already trains existing writer. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
+  "next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -389,6 +394,22 @@
         "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
         "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md"
       ]
+    },
+    {
+      "identity": "/root/decision_sufficiency_math",
+      "result": "Independent exact-byte acceptance of weighted RRR derivation, multi-task residual/rank conditions, random-metric normal equations and final no-admission scope",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md"
+      ]
+    },
+    {
+      "identity": "/root/decision_sufficiency_sources",
+      "result": "Independent exact-byte source/interface/native acceptance after TSC, DSSR-code, LongMemEval-label, RRR, PSR and Rychener corrections",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md"
+      ]
     }
   ],
   "step2_reentry": {
@@ -407,7 +428,7 @@
     "contribution_scope": "theory/representation/objective/computation may qualify; not limited to recurrence changes",
     "math_status": "independent_exact_byte_reviews_accepted_conditionally",
     "originality": "not_established; weighted_Bayes_and_APO_principles_known",
-    "native_measurement": "validity/state-edit/joint-moment labels missing; LongMemEval endpoint only",
+    "native_measurement": "validity/state-edit/joint-moment labels missing; LongMemEval has QA endpoint plus evidence-location labels, neither identifies internal edit/rank",
     "candidate_count_changed": false,
     "supplement": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
     "distinctness": "same R2-C/R2-J/R2-D line as original reentry; supplement is not another candidate",
@@ -421,6 +442,22 @@
       "review": "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md",
       "status": "conditional_mathematics_and_source_review_accepted;not_candidate",
       "native_variant_correction": "actual project lambada_openai; prior feasibility table standard retained as stale historical description",
+      "same_line_not_new_candidate": true
+    },
+    "action_sufficient_rank_control": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+      "sha256": "6110b33f940e09eba35054ec5f37020e6da9a0f4be199a5d70b3b575060f0f69",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
+      "source_sha256": "a13ce847ebe4a9d53c8eb767e5097d0cff21a156d2c6f69dc69d4977eeb53a02",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_direct_collision;not_candidate",
+      "direct_collisions": [
+        "Bayes-Sufficient Representations / Loss-Shift Transfer",
+        "Task-Sufficient Contraction / Walsh rate-regret / Wei planning sufficiency",
+        "reduced-rank regression + Eckart--Young--Mirsky",
+        "decision-focused learning / DSSR"
+      ],
+      "residual": "information-dependent random metric coupled to recursive causal Jacobian and estimability; unadmitted",
       "same_line_not_new_candidate": true
     }
   }

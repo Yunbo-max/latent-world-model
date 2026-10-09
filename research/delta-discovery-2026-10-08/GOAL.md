@@ -48,3 +48,5 @@ S是key-by-value；S_t=(I−β_t k_t k_t^T)D_t S_{t−1}+β_t k_t v_t^T，不能
 补充入口：[联合风险详细条件与独立审查](STEP2_JOINT_CONDITIONAL_RISK.md)。与上述第2步笔记属于同一线索，不重复计候选。
 
 最新续接：[真实预测监督、rank-one可达性与决定充分性](STEP2_OBSERVED_PREDICTIVE_TARGET.md)、[固定来源/接口/原生审查](sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md)、[独立最终字节审查](reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md)。它替换预测目标中的不可得 validity 标签，未认证语义修订；与旧 latent 工程源码明确分开。同一Step2线索，5历史/0活动/0准入/0选择保持，20/15目标未降级，代码/实验范围不变。
+
+进一步续接：[决定充分性的低秩边界与 Delta 动作秩控制](STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md)、[来源/代码/native 审计](sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md)、[独立双重审查](reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md)。固定 SPD 二次 regret、线性 feature/head 下的宽度风险是加权 RRR 的尾奇异值；Task-Sufficient Contraction、Bayes quotient、DSSR 与 RRR/EYM 已分别覆盖静态充分性、递归 future-reader 评分和低秩截断。只保留随机信息依赖 metric × 完整递归 Jacobian × 因果可估计性的未准入残余；计数不变。

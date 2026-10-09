@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T09:48:50Z",
+  "recorded_at": "2026-10-09T10:30:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -102,7 +102,8 @@
     "Independently derived and reviewed reciprocal-cycle, rank-revealing constraint, martingale-release and inverse-transported moving-metric routes. They reduce respectively to bidirectional associative memory, QR-RLS/protected projection, sequential change detection plus known edits, and a vacuous coordinate pullback without uniform coercivity. All were retained as controls/no-go results; counts remain five historical, zero active, zero admitted and zero selected.",
     "Independently derived and reviewed retroactive rollback, set-valued feasible-map, orthogonal-value and provenance-tensor routes. They reduce respectively to published receipt transport plus checkpoint replay, classical set-membership/version spaces, Gram-constrained orthogonal editing or exact ordinary Delta, and TPR/Fast Weight Memory plus routed slots. All were retained as controls; counts remain five historical, zero active, zero admitted and zero selected.",
     "User-directed step2 re-entry: derived full versus frozen Jacobian product difference, coupled query-target quadratic Bayes edit with nonzero cross moment, conditional-moment sufficiency/random-action penalty and value-of-observed-evidence identity. Root self-check only; independent review and method admission pending. Preserved 5 history / 0 active / 0 scientific / 0 selected.",
-    "Independent exact-byte reviews completed for noisy-key identification/prediction control and joint conditional-risk supplement; primary EIV/Bayes/APO and fixed author/native interfaces audited. Preserved concurrent a00997c Step2 reentry. These are conditional mathematical/source outcomes, not new admitted cards or execution."
+    "Independent exact-byte reviews completed for noisy-key identification/prediction control and joint conditional-risk supplement; primary EIV/Bayes/APO and fixed author/native interfaces audited. Preserved concurrent a00997c Step2 reentry. These are conditional mathematical/source outcomes, not new admitted cards or execution.",
+    "Step2 action-sufficient rank control derived and independently exact-byte reviewed: fixed-SPD linear width risk is weighted RRR tail energy, while Task-Sufficient Contraction/Bayes quotients/DSSR/RRR-EYM directly cover the static pieces. Retained only an unadmitted random-metric × recursive-Jacobian causal-estimability lead; counts remain five historical, zero active/admitted/selected; no project execution."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -146,18 +147,18 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-09T09:06:04.799316+00:00",
-    "last_run_time": "2026-10-09T09:05:41.851522+00:00",
+    "service_updated_at": "2026-10-09T09:53:57.690619+00:00",
+    "last_run_time": "2026-10-09T09:53:34.004818+00:00",
     "last_run_scope": "service timestamp for prior invocation; current actual Work math invocation separately observed",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T09:48:50Z",
-    "configuration_note": "Current same-task Step2 prompt and concurrently published owner goal preserved. No task mutation/new task performed."
+    "last_math_milestone_recorded_at": "2026-10-09T10:30:00Z",
+    "configuration_note": "Current same-task Step2 Work invocation preserved; no task mutation/new task. Action-sufficient rank control received independent final-byte math and source acceptance."
   },
-  "next_action": "Continue owner-requested Step 2 from STEP2_JOINT_CONDITIONAL_RISK.md: close a real validity/output-correction/query observation contract, nearest joint-risk work, and tractable causal mixed-moment estimation. Analyze the complete endogenous state Jacobian and local-surrogate limits. Theory, representation, objective and computation contributions can qualify under their own obligations without mandatory new causal evidence or deployed recurrence. Do not count known BC-LMS/IV, weighted Bayesian normal equations, or historical controls as candidates. Existing no-go results remain scoped; changed assumptions require new derivations. Originality/native measurement and 20/15 deficits remain open; math-only, no code/experiments.",
+  "next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -272,6 +273,22 @@
     "delta_math_four_further_controls_milestone": {
       "parent_head": "7e18eb8d75bc5b67e7a462928ea5b36de7bf95bb",
       "scope": "Math/source-only partial milestone: retroactive rollback, set-valued feasible-map, orthogonal-value and provenance-tensor routes were independently reviewed and retained only as controls. Zero active/scientifically admitted/selected candidates and no project execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_math_action_sufficient_rank_milestone": {
+      "parent_head": "1b91721f5141de01ce1a167b5620aab270c0578f",
+      "paths": [
+        "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+        "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
+        "research/delta-discovery-2026-10-08/PROGRESS.json",
+        "research/delta-discovery-2026-10-08/GOAL.md",
+        "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+        "research/delta-discovery-2026-10-08/RANKING.md",
+        "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+        "research/workflow-checkpoint.json"
+      ],
+      "scope": "Math/source-only Step2 milestone: weighted action-RRR width control and multi-task conditions independently accepted; direct TSC/Bayes/DSSR/RRR collisions recorded; zero active/scientifically admitted/selected candidates and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
@@ -634,7 +651,7 @@
       }
     ]
   },
-  "research_next_action": "Continue Step2 from STEP2_OBSERVED_PREDICTIVE_TARGET.md: investigate decision-focused/sufficient-action representation and constrained Delta predictive-direction risk against actual nonfactorized write/TTT/proximal nearest work. Close natural importance, causal estimability and full-path cost/measurement under real text labels; keep CE prediction distinct semantic revision validity. Ordinary CE already trains existing writer. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
+  "research_next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -690,17 +707,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "step2_observed_predictive_target_reachable_edit_and_decision_sufficiency_reviewed",
+    "status": "step2_action_sufficient_rank_control_independently_reviewed",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "12bf91d20444ec86c1ae9c15f3ed47aa5c690859",
+    "current_delivery_parent": "1b91721f5141de01ce1a167b5620aab270c0578f",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "Observed future token CE closes predictive supervision without latent validity labels; fixed value rank-one optimum, gate reachability/constraint regret and orthogonal residual boundary derived. Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency.",
-    "originality_and_native_measurement": "pending; existing Bayesian/EIV foundations retained visibly",
+    "latest_math_result": "Under fixed SPD quadratic regret and linear feature/head, optimal width-r error is irreducible residual plus weighted action-operator tail singular energy; the multi-task operator stacks task blocks. TSC/Bayes quotients/DSSR/RRR-EYM directly cover the static pieces, leaving only an unadmitted random-metric × recursive-Jacobian causal-estimability lead.",
+    "originality_and_native_measurement": "major direct collision; LongMemEval QA and evidence-location labels do not identify ideal Delta edit/internal rank; zero scientific admission",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -710,6 +727,14 @@
       "status": "conditional_mathematics_and_source_review_accepted;not_candidate",
       "native_variant_correction": "actual project lambada_openai; prior feasibility table standard retained as stale historical description",
       "same_line_not_new_candidate": true
+    },
+    "step2_action_sufficient_rank": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+      "sha256": "6110b33f940e09eba35054ec5f37020e6da9a0f4be199a5d70b3b575060f0f69",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
+      "source_sha256": "a13ce847ebe4a9d53c8eb767e5097d0cff21a156d2c6f69dc69d4977eeb53a02",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_direct_collision;not_candidate"
     }
   }
 }

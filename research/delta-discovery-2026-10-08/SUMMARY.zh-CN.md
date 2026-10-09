@@ -95,3 +95,11 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 下一步从这同一Step2入口调查受约束写入的自然方向差距、decision-focused表示与实际非因子化近邻，核查条件矩可估计性和可测量对象，再决定是否值得构造正式候选。5历史/0活动/0准入/0选择及20/15短缺不变。没有新代码或实验；不能把正常方程/信息价值恒等式凑进活动池，也不机械套用旧假设下的否定结论。
 
 入口：[进度](PROGRESS.json)、[证据批次](method-batch.json)、[近邻图](CLOSEST_WORK.md)、[排名状态](RANKING.md)。当前没有全池排名或 top-15 选择。
+
+## Step2 新结论：动作宽度不是新的充分性理论
+
+这一轮把“压缩表示到底要多宽”写成了可核查的条件结论：若完整信息最优局部写入 `a*(X)` 在选定 causal feature 上做线性预测，并且原风险真的具有固定 SPD 二次 regret，那么宽度 `r` 的最佳额外风险等于加权 action operator 被截掉的奇异值平方和；多任务共享则把各任务算子纵向堆叠。随机、历史相关的风险 metric 不再能靠一个平均 covariance 加一次 SVD 解决。
+
+这个结果没有获得候选资格。原因不是公式错，而是新审计找到了更直接的拆分覆盖：Task-Sufficient Contraction/Bayes quotient 已处理任务相关 source 与完整 regret profile，DSSR 已处理递归 writer 的未来 reader loss，RRR/Eckart--Young 已处理低秩截断。简单组合这些已知块不能冒充新方法。LongMemEval 虽有 QA 与 evidence-retrieval labels，仍没有 ideal Delta edit、内部删除或 action-rank 真值。
+
+下一步只追踪一个更窄但真实未闭的问题：information-dependent random metric 是否能与完整递归 Jacobian 形成因果、可估计、比直接 CE/action predictor 更有判别力的构造。当前仍是 **5历史 / 0活动 / 0科学准入 / 0选择**，没有运行代码或实验。
