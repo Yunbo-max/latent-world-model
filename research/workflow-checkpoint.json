@@ -91,6 +91,7 @@
     "Derived and independently reviewed maximin-retention and chronological-commutativity no-go controls; rejected transported influence ledger as forward-sensitivity/eligibility-trace equivalence rather than padding the candidate pool.",
     "Mapped delayed-influence/order claims to native bAbI, LAMBADA, RULER, LongMemEval and BABILong assets, preserving native scorer and information-access limits without downloads or execution.",
     "Completed decisive D01/D03/D06 collision audits and moved all three to inactive controls; independently derived/reviewed D07 WTSR as the sole active conditional-math card; added verified exact-overwrite/reversibility and deferred-debt controls plus DeltaTTT primary-paper exclusion. No code, test, download or experiment execution."
+    ,"Completed D07 full-formula and pinned Tabular ICL author-code collision audit: general source contribution/survival and the same-key scalar specialization are covered, while write-rate decay and delayed semantic supervision cover the principal function. Moved D07 to inactive diagnostic; independently verified bare-oblique-erase and evidence-conditioned-revision controls. Active/scientifically admitted/selected counts are all zero."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -100,7 +101,7 @@
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
     "Local executes complete chosen training/benchmark matrix and returns real results, cost/failure evidence and scientific review.",
     "Original research-discovery batch and novelty/selection obligations remain pending separately; this engineering source packet does not pass them.",
-    "Current Delta discovery has five constructed-history cards but only D07 remains active after D01/D03/D05/D06 collision dispositions; it needs 19 additional active constructed cards to reach 20, D07 full source/code collision review, scientific admission, whole-pool ranking and top15 selection."
+    "Current Delta discovery has five constructed-history cards and zero active cards after D01/D03/D05/D06/D07 collision dispositions; it needs 20 genuinely distinct active constructed cards to reach 20, scientific admission, whole-pool ranking and top15 selection."
   ],
   "candidate_state": {
     "constructed": 1,
@@ -112,7 +113,7 @@
   },
   "scientific_status": {
     "parent_problem": "provisional; no Natural Gate 0 evidence",
-    "collision_audit": "incomplete; substantial known overlaps recorded, no final adjudication",
+    "collision_audit": "D07 full-formula/author-code adjudication complete and inactive; broader 20-candidate discovery remains incomplete",
     "code_boundary": "Known-mechanism reviewed engineering specification; no candidate-discovery/novelty gate was passed or rewritten.",
     "training": "not started",
     "project_tests": "not run",
@@ -142,9 +143,9 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T01:56:30+00:00"
+    "last_math_milestone_recorded_at": "2026-10-09T02:44:05+00:00"
   },
-  "next_action": "Continue Delta mathematics from PROGRESS.json: pin the Tabular ICL write-rate-decay author commit/blob/function and complete D07 full-formula collision audit; derive genuinely distinct residual mechanisms without reviving D01/D03/D05/D06 or counting no-go/error-feedback/multi-layer controls. Prior engineering remains closed and Local execution was not dispatched.",
+  "next_action": "Continue Delta mathematics from PROGRESS.json with zero active candidates: derive a genuinely distinct formal mechanism and complete nearest-work separation before assigning a D-number. Do not revive D01/D03/D05/D06/D07 or count no-go, Bayesian-gate/projection, source-trace, error-feedback, multi-layer/local-loss, slot or multi-step controls. Prior engineering remains closed and Local execution was not dispatched.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -234,6 +235,11 @@
     "delta_math_wtsr_and_decisive_collisions_milestone": {
       "parent_head": "994d9bc606d28678559a80e97fed198c9952aaff",
       "scope": "Math/source-only partial milestone: D01/D03/D06 moved to inactive controls after decisive collision audits; D07 WTSR constructed and independently conditionally verified; NOGO-CAP-02 and deferred-debt controls independently verified; DeltaTTT source exclusion recorded. Zero scientific admissions/selections and no project execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_math_d07_collision_and_controls_milestone": {
+      "parent_head": "016de6e054b0035d95950c77aed6169b0686d519",
+      "scope": "Math/source-only partial milestone: D07 full-formula and pinned author-code audit moved the last active card to an inactive diagnostic; bare-oblique-erase and evidence-conditioned-revision controls were independently reviewed. Zero active/scientifically admitted/selected candidates and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
@@ -589,7 +595,7 @@
       }
     ]
   },
-  "research_next_action": "Complete D07 WTSR's immutable author-code/full-formula collision audit against source traces, write-rate decay, delayed supervision and ordinary far-horizon CE; then derive independent residual mechanisms. Do not count inactive D01/D03/D05/D06, relabeled covariance/preconditioning, error feedback, slots, multi-step or multi-layer/local-target Delta.",
+  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -638,19 +644,19 @@
     },
     "current_counts": {
       "constructed_history": 5,
-      "active_constructed": 1,
+      "active_constructed": 0,
       "math_reviewed": 5,
       "conditional_algebra_accepted": 5,
       "active_math_checker_qualified": 0,
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "partial_math_milestone_one_active_four_collision_inactive",
+    "status": "partial_math_milestone_zero_active_five_collision_inactive",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
-    "nearest_work_admission": "D01/D03/D05/D06 not admitted after collision audits; D07 pending; no originality claim",
-    "current_delivery_parent": "994d9bc606d28678559a80e97fed198c9952aaff",
+    "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
+    "current_delivery_parent": "016de6e054b0035d95950c77aed6169b0686d519",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md"
   }
 }

@@ -2,7 +2,7 @@
   "kind": "delta-math-dispositions",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "count_rule": "Constructed history contains D01/D03/D05/D06/D07. D01/D03/D05/D06 were removed after major functional or composition collisions; only D07 remains active and is not scientifically admitted. No rejection, no-go result, control, schema history or old Q01 is counted as a new active candidate.",
+  "count_rule": "Constructed history contains D01/D03/D05/D06/D07. All five were removed from the active pool after major functional or composition collisions; D07 retains only a narrow formula-level residual and is not scientifically admitted. No rejection, no-go result, control, schema history or old Q01 is counted as a new active candidate.",
   "records": [
     {
       "id": "D02",
@@ -75,11 +75,13 @@
     },
     {
       "id": "D07",
-      "state": "active_conditional_math_accepted_scientific_admission_pending",
-      "reason": "The arbitrary-key ordered-write source-survival loss is mathematically valid and distinct from D03/D06 controls. Source traces and write-rate decay are strong neighbors; immutable author-code/full-formula collision audit and scientific necessity remain open.",
+      "state": "inactive_source_survival_diagnostic_major_functional_collision",
+      "reason": "The arbitrary-key ordered-write hinge is mathematically valid, but the source-contribution object and realized-path qualification are already known; same-key survival is an exact Tabular ICL special case, while write-rate decay and delayed semantic supervision cover the main function. Only a narrow direct arbitrary-key hinge residual remains, without a necessity result, revision release or native mechanism measurement.",
       "evidence_refs": [
         {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"}
+        {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D07_FULL_COLLISION_AUDIT.md","sha256":"73a9372ca639932615675100bd321cf87598fb760dbd679b0c3bed25dab4165e"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/D07.collision-review.md","sha256":"617aa78270643274b568afe07a43bd8e0cc86c2ad7c8e7182e7aa44ce8687b78"}
       ]
     },
     {
@@ -165,6 +167,24 @@
           "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
           "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
         }
+      ]
+    },
+    {
+      "id": "NOGO-OBLIQUE-03",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "For the bare factor A=I-ka^T with unit k, any erase component perpendicular to k makes ||A||_2>1; Euclidean nonexpansiveness holds only for a=ck with c in [0,2]. This does not decide AD or DA because an ordered pre-decay can compensate.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md","sha256":"53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md","sha256":"de4e0ac162606fe36c45da6ab753b5ae4f54dcf46e18c7326e01207fc1b126fe"}
+      ]
+    },
+    {
+      "id": "REVISION-EVIDENCE-POSTERIOR-EDIT",
+      "state": "rejected_as_distinct_method_retained_as_control",
+      "reason": "Observed evidence can lift the residual-only TV no-go, but the resulting construction is a standard Bayesian two-hypothesis gate followed by known protected/ridge/slot edit geometry. Without evidence the no-go remains; perfect identity becomes routing; future labels are extra supervision.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md","sha256":"455ca60d940f17da9de6ff6f0f122a2d3bbc45848e130e0477627d3fe144d3d4"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/REVISION_EVIDENCE_POSTERIOR_EDIT.review.md","sha256":"07f68ef3bcdefcf309319af22c00741c4ecf1261658222569b442034e9a5a099"}
       ]
     },
     {

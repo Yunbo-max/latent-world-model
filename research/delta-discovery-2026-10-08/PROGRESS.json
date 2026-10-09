@@ -2,24 +2,24 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T01:52:12Z",
+  "recorded_at": "2026-10-09T02:44:05Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_one_active_four_collision_inactive_two_new_verified_controls",
+  "status": "partial_math_milestone_all_five_history_cards_inactive_after_d07_collision_three_more_verified_controls",
   "counts": {
     "constructed_history": 5,
-    "active_constructed": 1,
+    "active_constructed": 0,
     "independently_math_reviewed": 5,
     "conditional_mathematics_accepted": 5,
-    "active_math_checker_qualified": 1,
+    "active_math_checker_qualified": 0,
     "scientific_admitted": 0,
     "selected": 0
   },
-  "count_interpretation": "D01/D03/D05/D06 remain in constructed history but are inactive after major functional or composition collisions. D07 is the sole active conditional-math candidate; its external collision audit, scientific necessity and native measurement remain unresolved. No control/no-go is counted as a candidate.",
+  "count_interpretation": "D01/D03/D05/D06/D07 remain in constructed history but are all inactive after major functional or composition collisions. D07's algebra remains conditionally valid, but full-formula/author-code audit found its source-survival object and main retention function already covered, leaving only a narrow direct-hinge residual. No control/no-go is counted as a candidate.",
   "shortfalls": {
-    "active_constructed_to_target": 19,
+    "active_constructed_to_target": 20,
     "scientific_admitted_to_target": 20,
     "selection_to_target": 15
   },
@@ -39,23 +39,26 @@
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "delivery_parent": "994d9bc606d28678559a80e97fed198c9952aaff",
+  "delivery_parent": "016de6e054b0035d95950c77aed6169b0686d519",
   "milestone": {
-    "inactive_cards": ["D01", "D03", "D05", "D06"],
-    "active_cards": ["D07"],
+    "inactive_cards": ["D01", "D03", "D05", "D06", "D07"],
+    "active_cards": [],
     "new_source_audits": [
       "sources/D01_DECISIVE_COLLISION_AUDIT.md",
       "sources/D03_BROAD_COLLISION_AUDIT.md",
       "sources/D06_EXTENDED_COLLISION_AUDIT.md",
       "sources/DELTATTT_FULL_AUDIT.md",
-      "sources/WTSR_NEAREST_WORK.md"
+      "sources/WTSR_NEAREST_WORK.md",
+      "sources/D07_FULL_COLLISION_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
-      "rejected/DEFERRED_CORRECTION_DEBT.md"
+      "rejected/DEFERRED_CORRECTION_DEBT.md",
+      "rejected/NOGO_OBLIQUE_03.md",
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
     ]
   },
-  "next_action": "Pin the Tabular ICL write-rate-decay author commit/blob/function and complete D07 full-formula collision audit; in parallel derive a genuinely different candidate or a reviewed no-go without reviving inactive cards or counting known multi-layer/local-loss/slot/multi-step mechanisms.",
+  "next_action": "Start from zero active candidates and derive a genuinely different formal mechanism around an unresolved Delta failure, with nearest-work separation before assigning a new D-number. Do not revive D07 unless all four reopening conditions in its collision audit are met; do not count no-go, Bayesian gate plus projection, oblique-erase algebra, local-loss, slot, multi-step or source-trace variants.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -91,8 +94,33 @@
     },
     {
       "identity": "/root/retention_candidate",
-      "result": "D07 WTSR conditional math candidate authored; scientific admission pending",
+      "result": "D07 WTSR conditional math card authored; later full collision audit moved it to inactive diagnostic",
       "artifact": "research/delta-discovery-2026-10-08/cards/D07.json"
+    },
+    {
+      "identity": "/root/tabular_icl_audit",
+      "result": "Pinned Tabular ICL formula and author-code path; established exact same-key special-case overlap and strong write-rate-decay baseline",
+      "artifact": "research/delta-discovery-2026-10-08/sources/D07_FULL_COLLISION_AUDIT.md"
+    },
+    {
+      "identity": "/root/d07_collision",
+      "result": "Independent major-functional-collision adjudication; D07 moved to inactive diagnostic with narrow formula residual",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/D07.collision-review.md"
+    },
+    {
+      "identity": "/root/oblique_nogo_review",
+      "result": "Independent exact singular-value verification of bare oblique-erase nonexpansiveness no-go",
+      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md", "research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md"]
+    },
+    {
+      "identity": "/root/revision_candidate",
+      "result": "Derived evidence-conditioned posterior edit and rejected it as Bayesian gate plus known protected/ridge/slot geometry",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
+    },
+    {
+      "identity": "/root/revision_control_review",
+      "result": "Independent review corrected prior/TV, ridge endpoints, parallel-address feasibility and BOCPD/mixture scope",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REVISION_EVIDENCE_POSTERIOR_EDIT.review.md"
     }
   ]
 }

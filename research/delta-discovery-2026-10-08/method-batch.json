@@ -39,16 +39,16 @@
     },
     {
       "candidate_id": "D07",
-      "pool_status": "active_constructed_conditional_math_accepted_collision_audit_pending",
+      "pool_status": "inactive_source_survival_diagnostic_major_functional_collision",
       "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
       "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"},
-      "scientific_admission": "pending_major_neighbor_audit_and_measurement",
+      "scientific_admission": "not_admitted_major_functional_collision_narrow_formula_residual",
       "selected": false
     }
   ],
   "counts": {
     "constructed_history": 5,
-    "active_constructed": 1,
+    "active_constructed": 0,
     "conditionally_math_accepted": 5,
     "scientifically_admitted": 0,
     "selected": 0

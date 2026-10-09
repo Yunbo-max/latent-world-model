@@ -2,7 +2,7 @@
   "kind": "method-verification-report",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "batch_digest": "23428e40a4ec6d427b48cdf0f1afe9fa13c07c0b4bb84397c1a4df668e90e360",
+  "batch_digest": "7809784e4981548932327c88f697412c74bca20df8d9d17c6d059b2a536373eb",
   "verification_scope": "Pinned evidence and documented semantic reviews; not an automated proof of mathematics. Empirical verdicts require existing native evaluation with trusted live replay and full comparison. This report does not replace Natural Gate 0, IPCG, Gate A, G01 or E04.",
   "candidates": [
     {"candidate_id":"D01","math_verified":false,"outcome":"PENDING","selected":false,"blockers":[{"code":"EVIDENCE_DIGEST_MISMATCH","path":"$","stage":"math"}]},
@@ -15,9 +15,12 @@
   "math_pool_verified": false,
   "pool_target": 20,
   "pool_deficit": 19,
+  "active_candidates": 0,
+  "active_math_verified": 0,
+  "active_pool_deficit": 20,
   "selection_target": 15,
   "selection_deficit": 14,
   "selection_verified": false,
   "selection_blockers": [{"code":"MATHEMATICAL_POOL_INCOMPLETE","path":"$","stage":"selection"}],
-  "interpretation": "D07 passes the evidence/schema math check. D01/D03/D05/D06 are deliberately inactive history/controls and are not being requalified; their digest blockers do not reinstate them. Checker success does not establish originality, scientific admission or empirical validity."
+  "interpretation": "The verifier still reports D07 as math_verified because its exact card/review binding remains valid; semantic collision review now makes it inactive, so active_math_verified is zero and the active deficit is 20. D01/D03/D05/D06/D07 are deliberately inactive history/controls and are not being requalified. Checker success does not establish originality, scientific admission or empirical validity."
 }
