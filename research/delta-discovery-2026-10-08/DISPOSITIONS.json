@@ -336,7 +336,7 @@
       "state": "rejected_as_distinct_method_exact_reparameterization_control",
       "reason": "Frozen-token exact gradient flow and implicit proximal regression are the ordinary rank-one Delta map with scalar coefficients. Unit-key softplus/exponential parameterizations reproduce the sigmoid Delta gate exactly; EFLA and Longhorn directly cover the two derivations.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md","sha256":"d79a37173e5ac5b1cbb236df7e9ac459c58295cb2523a3c0e1bb8a5fdea52c17"},
+        {"path":"research/delta-discovery-2026-10-08/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md","sha256":"a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37"},
         {"path":"research/delta-discovery-2026-10-08/reviews/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.review.md","sha256":"0735e8b2ee153852cc23f25d5e18f4ab343f8a1d872e92f4fa7f3f561985b729"}
       ]
     },
@@ -345,7 +345,7 @@
       "state": "rejected_as_distinct_method_similarity_and_preconditioning_control",
       "reason": "The half-decay/Delta/half-decay factor is per-step similar to KDA and collapses to reciprocal separate read/write addresses. Naive splitting breaks same-key overwrite; repairing it yields known PDN-style preconditioning, while Strang accuracy needs an explicit frozen continuous-time target.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md","sha256":"65142d737698aa5a0f6f5b0f1058defa5a7dbd8047c6ae29b95c8751fdab32c3"},
+        {"path":"research/delta-discovery-2026-10-08/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md","sha256":"eb1fa251d6c5951c17607f7ed8fc609913e80f6da43b7200d3717ad27a8124f4"},
         {"path":"research/delta-discovery-2026-10-08/reviews/SYMMETRIC_SPLIT_DELTA_CONTROL.review.md","sha256":"400a6540803b23cad2e17875fc88a4c311e4615eaa72ca758ff2659cb0aea949"}
       ]
     },
@@ -354,7 +354,7 @@
       "state": "rejected_as_distinct_method_vacuous_local_noncompositional_control",
       "reason": "Standard contractive Delta factors have discrete Kreiss constant exactly one, while fixed-matrix Kreiss bounds do not compose over token-varying ordered products. Executable replacements reduce to product/Jacobian norms, common Lyapunov/JSR control or D03 future-product prediction.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md","sha256":"1db7c4b85e7e6047fd45501dfd8b031904ce17d47e4e369810794b92540d3ec8"},
+        {"path":"research/delta-discovery-2026-10-08/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md","sha256":"06843104c9130ae24fd4cd0f952455fbe3b9b0430dc4fc8013f5ebdc0c561e2d"},
         {"path":"research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md","sha256":"18a2f36f26c27ff7df9db16d5bdbe96594f280d2580bc34c17f62294110afd06"}
       ]
     },

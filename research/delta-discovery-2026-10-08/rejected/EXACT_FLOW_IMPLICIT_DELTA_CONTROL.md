@@ -4,7 +4,7 @@ Disposition: **rejected as a distinct candidate; retained as an exact reparamete
 
 ## Exact object
 
-With key-by-value state (S\in\mathbb R^{d_k\times d_v}), post-decay state \(\bar S=D S_{t-1}\), key (k), target (v), (a=k^\top k), and residual (e_0=v-\bar S^\top k), consider
+With key-by-value state \(S\in\mathbb R^{d_k\times d_v}\), post-decay state \(\bar S=D S_{t-1}\), key \(k\), target \(v\), \(a=k^\top k\), and residual \(e_0=v-\bar S^\top k\), consider
 
 \[
 \dot S=k(v-S^\top k)^\top .
@@ -45,7 +45,7 @@ For any query,
 \Delta o(q)=c(q^\top k)e_0,
 \]
 
-so cross-query interference, lack of event identity, and revision-versus-collision ambiguity are unchanged. The old-state transition has eigenvalue (1) on (k^\perp) and (e^{-a\tau}) or ((1+\eta a)^{-1}) on (k): it is nonexpansive, not globally contractive, and stability is not retention. Exact overwrite appears only in the infinite-time/infinite-prox-strength limit and is the known minimum-Frobenius projection/NLMS update.
+so cross-query interference, lack of event identity, and revision-versus-collision ambiguity are unchanged. The old-state transition has eigenvalue \(1\) on \(k^\perp\) and \(e^{-a\tau}\) or \((1+\eta a)^{-1}\) on \(k\): it is nonexpansive, not globally contractive, and stability is not retention. Exact overwrite appears only in the infinite-time/infinite-prox-strength limit and is the known minimum-Frobenius projection/NLMS update.
 
 ## Closest work and implementation boundary
 
