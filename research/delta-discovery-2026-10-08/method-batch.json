@@ -102,7 +102,30 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
       "sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3",
       "status": "accepted_conditional_Delta_safe_logging_control_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v1.md",
+      "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d",
+      "status": "superseded_v1_geometry_error_preserved"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
+      "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732",
+      "status": "accepted_conditional_consolidation_control_not_candidate"
     }
   ],
-  "counting_policy": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate. R03 adds a reviewed Delta-local safety certificate/control but no active constructed or selected candidate."
+  "counting_policy": {
+    "source": "owner_feedback_2026-10-09T17:08:50+01:00",
+    "pool_target": 20,
+    "selection_target": 15,
+    "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting.",
+    "repair_controls_count_as_candidates": false,
+    "notes": [
+      "R01–R04 repair/control records do not populate active pool or selection."
+    ]
+  },
+  "counting_policy_repair": {
+    "prior_corrupted_value": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate. R03 adds a reviewed Delta-local safety certificate/control but no active constructed or selected candidate.",
+    "reason": "Recovered owner-sourced policy object and retained malformed history."
+  }
 }

@@ -45,3 +45,8 @@ R02 is excluded from the candidate ranking. Its conditional causal mathematics p
 ## R03 排名处置
 
 R03 不进入活动池排名。问题价值高：它正面处理“为了因果识别而探索”与“保护仍有效旧查询”之间的冲突；数学后果也明确，包括局部损伤闭式、平方风险充分界和 positivity–budget 不可行条件。但贡献差异不足：安全 logging / constrained optimal design 已被 SEPEC、Safe Optimal Design 及相关 safe bandit 工作覆盖；实际效果和长期 coupled-state 安全未测。故其身份是 control/boundary，得分不替代候选资格，不能用于 top-15。全池仍 0 活动、0 准入、0 选择。
+
+
+## R04修复处置
+
+R04 v2条件数学通过，独立review修复非均匀D几何错误。问题价值是避免巩固双记账、区分当前读出/未来递推；完整补偿等价单W，差异decay产生显式强迫。主要快慢机制已知，C有效性/表示/固定总成本和原生测量未闭。不进入候选排序/top15，也不永久淘汰巩固。下一研究优先级为C联合风险/表示条件，其次具有真实Delta结构优势的信用商；这是工作优先级，不是正式选中2–3项。活动/准入/选择0，20/15短缺不变。

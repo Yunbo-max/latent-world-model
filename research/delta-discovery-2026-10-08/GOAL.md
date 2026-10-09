@@ -109,3 +109,12 @@ The passive counterfactual-write line is repaired only for a new estimand: avera
 R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没有限制探索本身对仍有效旧查询的损伤。R03 以同一 propensity 同时控制 AIPW 方差和 Delta rank-one 局部保护损伤：对保护查询二阶矩 G_p 与 value 度量 M，单步输出位移精确为 d_a=α_a²β²(eᵀMe)kᵀG_pk；带有效旧标签时又得到平方风险交叉项和充分上界。严格 positivity 与损伤预算存在显式不可行边界，二元最优 propensity 是受安全上界截断的 Neyman allocation。
 
 最终字节数学/来源复审接受该条件控制。但 SEPEC、Safe Optimal Design、CLUCB/SEA、stage-wise constrained bandits 和标准 OPE 已覆盖安全且信息高效的 logging design；LongMemEval/SEAL 只覆盖终点更新或遗忘，不原生提供 Delta propensity、保护有效性或 counterfactual scorer。因此 R03 在第一次修订后 park，不分配 D 编号。计数仍为 5历史/0活动/0科学准入/0选择；实际效果未知，未执行代码或实验。
+
+
+## R04实际修复交付：迁移当下不变，还要修复下一次更新
+
+[修订推导](repairs/R04_CONSOLIDATION_DYNAMICS.v2.md)把快状态迁入慢参数具体化：M+=C、S−=C当下保持总读出，但原快Delta下一步会留下(I−P)C差。补偿完整递推能完全保持原轨迹，是单W Delta的等价表示；用总残差且只衰减快状态则真正改变保留行为，差别是有序强迫E(I−D)M。
+
+独立审查实际debug了EC=0不保证E(I−D)C=0的错误：非均匀decay改变方向。v1原字节/二维反例保留，v2修复并重新审查最终字节。旧标量反例也复查：总残差能修复未释放/双记账，但慢保留对有效知识有益、对过时知识可能有害；C的有效性尚未识别。
+
+来源补读Sleep扩容/seeding/reset、HOPE CMS，以及SynControl作者代码和SEAL/LongMemEval原生接口。主要快慢机制已知，但不把本条件理论逐式覆盖或整个巩固问题死亡当成结论。R04完成条件repair/control；理论原创性/同预算优势/原生机制测量未闭，实验未知。当前5历史/0活动/0准入/0选择，20池/15选择缺口保留。

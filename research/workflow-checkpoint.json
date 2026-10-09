@@ -164,19 +164,23 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-09T11:52:03.234675+00:00",
-    "last_run_time": "2026-10-09T11:48:49.728765+00:00",
+    "service_updated_at": "2026-10-09T19:51:56.921424+00:00",
+    "last_run_time": "2026-10-09T19:51:34.841993+00:00",
     "last_run_scope": "service timestamp for prior invocation; current actual Work math invocation separately observed",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T12:49:00Z",
+    "last_math_milestone_recorded_at": "2026-10-09 20:44:53 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+    },
+    "current_run_context_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
+      "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
     }
   },
   "next_action": "Continue finite repair-and-rederive from another promising lineage; R03 is parked unless a strict same-budget Delta advantage or full coupled-state safety certificate is derived.",
@@ -433,6 +437,24 @@
         "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
       },
       "resolution": "same project-bound restored baseline; installed autonomous-rsi entry not adopted"
+    },
+    "current_R04_read_revision": {
+      "source_root": "/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline",
+      "hashes": {
+        "SKILL.md": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84",
+        "references/workflow-harness.md": "e6db3ca81e4e63c4b6b755eb2f08a77a874e2c3317a045a86b86bac7a259a0ae",
+        "references/web-background-work.md": "6b7ff0d966190acd530bc010782e0566a21cf7fa56e516fadf764d9b712f14d3",
+        "references/math-analysis.md": "e27e60718518b34d4995a4f2109588aa93746665c4466ab7ac31c049334ccbc8",
+        "references/math-operation-graph.md": "e82711e4c307d6d901486f4da569e4572e5ce7a4fe006976789bc5d174b749a2",
+        "references/math-derivation-paths.md": "787bc32d0a7620cb22a8193b3acd2828c304a4a658d0b3f3cc995e5acd0533d3",
+        "references/method-verification.md": "0e8c78cd19b9f04aa6341c2c0500f1ae2fe48e01688a5857103c4d611503ee05",
+        "references/research-quality-bar.md": "cb4e4522337f6815f3c53f5e0c193783ada6a492e652c6531e90b30cb580c409",
+        "references/literature-evidence.md": "a3612904bc54490c6d254fe620a5057aa119a281c74bffc9bb4069cb30e619df",
+        "references/repository-round-trips.md": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb",
+        "references/idea-generation.md": "55473c87628fe77e8372f784844b419c2529f0acca4a45b4f6dd7e59391a2b49"
+      },
+      "recorded_at": "2026-10-09 20:44:53 UTC",
+      "unchanged_actual_hashes_verified": true
     }
   },
   "workflow_clarification": {
@@ -755,7 +777,7 @@
       }
     ]
   },
-  "research_next_action": "Park R02 v1 as a reviewed causal logging/training control. Continue repair-and-rederive on the next promising protection/release or update-interference line. Reopen R02 only with a proved Delta-specific variance, safe-exploration, or sequential-state-compression result at matched information and total resources; do not count standard AIPW/OPE as a candidate.",
+  "research_next_action": "Continue bounded repair on an identifiable, representable consolidation C joint objective derived from existing joint-conditional-risk lineage and R04 E(I-D)C dynamics, or a genuine Delta-specific total-cost consequence. Do not repeat affine equivalence, fast/slow naming, AIPW, or a different decay hyperparameter as a new candidate; at most one remaining R04 substantive attempt without new evidence.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -811,16 +833,16 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R02_randomized_action_credit_independent_reviews_passed_conditional_causal_control_no_candidate",
+    "status": "repair_R04_v2_consolidation_dynamics_reviewed_conditional_control_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "e64d9a17c276ee33cea9467dbef11fcca97ee468",
+    "current_delivery_parent": "3f323bf039d280a983078aafe8bc272ca085f464",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R02 v1 uses randomized, propensity-logged finite Delta actions plus real delayed loss to identify finite-horizon total action effects. Final nuisance-independence/cross-fitting conditions, delayed-MAR AIPW, sequential DR, iid/reset variance scope, tail bound and counterexamples passed independent review.",
+    "latest_math_result": "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
     "originality_and_native_measurement": "The estimator is standard contextual-bandit AIPW/sequential OPE and SEAL covers the high-level downstream self-edit reward mechanism. LongMemEval measures endpoint QA but lacks randomized update actions/propensities/counterfactual credit and its native judge uses GPT-4o. R02 is a control, not a candidate.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
@@ -1057,6 +1079,57 @@
       },
       "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
       "delivery_status": "published_to_literal_main_and_exact_readback_verified"
+    },
+    "repair_R04_consolidation_dynamics": {
+      "repair_id": "R04",
+      "version": "v2",
+      "substantive_attempt": 2,
+      "max_substantive_attempts": 3,
+      "lineage": [
+        "STEP2_COUPLED_UPDATER_STABILITY.md",
+        "sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md"
+      ],
+      "original_artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v1.md",
+        "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d"
+      },
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
+        "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONSOLIDATION_SOURCE_AUDIT.md",
+        "sha256": "22897c6cd9061bdf699860f294c317cb5428d524bb6949b9d89fe5517bae5ca4"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.math-review.md",
+        "sha256": "9df4d384f4512d3c4816b9de5df00f4d4f166dc5c9a413f44a934b855866700c",
+        "reviewer": "/root/r04_math_review"
+      },
+      "context_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
+        "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+      },
+      "mathematical_status": "accepted_conditional_after_nonuniform_decay_geometry_repair",
+      "contribution_status": "affine_equivalence_and_known_fast_slow_controls;Delta_specific_theory_distinctness_unclosed",
+      "empirical_status": "unknown_no_execution",
+      "candidate_admission": 0,
+      "status": "independent_final_byte_math_and_source_reviews_accepted_conditional_repair_control_not_candidate",
+      "disposition": "park_after_attempt_2_with_specific_reopen_conditions",
+      "unclosed": [
+        "Causally identifiable and representable consolidation C at fixed total budget.",
+        "Contribution beyond fast-slow total-residual control and affine gauge equivalence.",
+        "Full nonlinear updater/feature conjugacy or measured bounded mismatch.",
+        "Native persistent Delta consolidation / later-new-task learning-efficiency measurement.",
+        "Sleep/HOPE author implementation and 1987 full-formula reading where fidelity matters."
+      ],
+      "review_feedback_repair": "EC=0 does not imply E(I-D)C=0 under nonuniform decay; preserved v1 and 2D counterexample, corrected v2 condition, exact final-byte independent re-review.",
+      "delivery_status": "pending_expected_parent_main_and_exact_readback",
+      "source_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md",
+        "sha256": "e960429aac5539b54a194e5932b110ff2226ad4d45a54abdc486c89bd55ba129",
+        "reviewer": "/root/r04_source_review"
+      }
     }
   },
   "delta_updater_rsi_math": {
@@ -1101,5 +1174,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09T19:48:15.195Z"
+  "updated_at": "2026-10-09 20:44:53 UTC"
 }

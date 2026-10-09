@@ -1,0 +1,22 @@
+{
+  "kind": "delta-math-run-context-readback",
+  "recorded_at": "2026-10-09 20:42:41 UTC",
+  "task_id": "6ac78ded796081918d2123402544d760",
+  "service": "scheduled_authoring_continuation",
+  "observed_is_enabled": true,
+  "observed_updated_at": "2026-10-09T19:51:56.921424+00:00",
+  "observed_last_run_time": "2026-10-09T19:51:34.841993+00:00",
+  "actual_host": "Developer-provided ChatGPT Work Mode context in this invocation",
+  "continuous_execution_verified": false,
+  "task_mutated": false,
+  "run_now_requested": false,
+  "writer": "/root",
+  "independent_review_assignments": [
+    "/root/r04_math_review",
+    "/root/r04_source_review"
+  ],
+  "source_parent": "3f323bf039d280a983078aafe8bc272ca085f464",
+  "authorization": "Latest user repair-and-rederive instruction retained; no change to scope/targets/resources.",
+  "service_observation": "Observed last_run_time describes prior invocation; current source/math work evidenced separately, not inferred from scheduling.",
+  "scope": "Static mathematics/source/benchmark interfaces and standard-library file/hash handling only."
+}

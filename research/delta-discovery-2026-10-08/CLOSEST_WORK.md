@@ -136,3 +136,8 @@ generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不
 - **Strong protection controls:** no-write, hard projection/soft preconditioning, GEM, EWC, A-GEM, OGD.
 - **Residual difference:** a cheap Delta rank-one local certificate can instantiate the generic safe-design cost, but no strict same-budget advantage or long-horizon semantic certificate is proved.
 - **Disposition:** useful control/theoretical boundary; parked after R03 v1; not an active candidate.
+
+
+## R04 consolidation repair/control
+
+[Source audit](sources/REPAIR_R04_CONSOLIDATION_SOURCE_AUDIT.md) pins Sleep 2606.03979v2 §3.2–3.3, HOPE 2512.24695v1 Eq70–74, SynControl d8681d2af9f858827fa1f22f7910e00eb2284fbc actual total-residual/fast-slow control interfaces, and SEAL/LongMemEval drivers/scorers. Full compensation is redundant single-W Delta; fast-only decay gives E(I-D)M. Strong known controls do not certify this exact conditional theorem as fully covered or original. Sleep/HOPE author code, 1987 formula reading and native persistent Delta consolidation gaps remain. Independent final-byte reviews accept scope; no candidate.
