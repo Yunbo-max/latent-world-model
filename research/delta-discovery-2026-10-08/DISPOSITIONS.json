@@ -215,6 +215,51 @@
       ]
     },
     {
+      "id": "RANDOMIZED-DELTA-SURVIVAL",
+      "state": "rejected_as_distinct_method_retained_as_no_go_and_numerical_control",
+      "reason": "Compensated Bernoulli Delta preserves only the one-step conditional mean and produces exponentially growing repeated-key relative variance; uncompensated masking is a smaller deterministic gate plus recurrent update dropout. Exact-mean PSD random erase collapses to the key direction, while stochastic rounding and direct recurrent-cache quantization work cover the finite-precision residual.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/RANDOMIZED_DELTA_SURVIVAL.md","sha256":"bc362fbd5d7953076377038f1a3110e1d415d4eb6334a3be157484ea7ec97c34"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/RANDOMIZED_DELTA_SURVIVAL.review.md","sha256":"3d6275e0d3ab70f9cdf754085b7b3acf38cf38b6dbc54eb4bea7dbf6e61821a5"}
+      ]
+    },
+    {
+      "id": "NOGO-DUAL-FRAME-04",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "Exact frame-coded Delta is a coordinate conjugacy on its code subspace. A square frame has no syndrome; a redundant frame pays wider physical state, and every endogenous Delta perturbation remains a valid codeword invisible to parity checks. Only external noise/known erasures are protected by classical frame coding.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_DUAL_FRAME_04.md","sha256":"44fa10b7a384dd020749d987a5e0f2cb49efbc25049b0bb9b7619a5322c5f926"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_DUAL_FRAME_04.review.md","sha256":"67faea86de89506295391928b6f951d8dc9573fff317965da10db6abececd98f"}
+      ]
+    },
+    {
+      "id": "CHECKSUM-REVISION-SKETCH",
+      "state": "rejected_as_distinct_method_retained_as_finite_memory_control",
+      "reason": "Data processing prevents a causal sketch from creating missing revision identity. Bloom/SimHash work only after stable identity or a separation margin is assumed and still require current-version/event state, collapsing to an approximate dictionary or evidence-conditioned gate.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/CHECKSUM_REVISION_SKETCH.md","sha256":"32408e92233e9f906597d0564a6c20cc20af10c0038136252e5813ab54e1e0bf"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/CHECKSUM_REVISION_SKETCH.review.md","sha256":"2eea18c7588f348e98e4af41ab40c63c29e75653b3eb5d8911f5aaf36ca009cf"}
+      ]
+    },
+    {
+      "id": "NOGO-CAUSAL-POLYNOMIAL-FUTURE-PRODUCT",
+      "state": "accepted_scoped_no_go_solver_control_not_candidate",
+      "reason": "A causal single-basis polynomial only approximates prefix-predictable conditional future objects and cannot remove suffix conditional variance or general noncommutative order. Concrete implementations reduce to a source trace, D03 predictor, GKA/PDN solver, KDA/RWKV gating or DeltaProduct.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md","sha256":"6d04b433d0353b9a52e63648d7df1245295de0f25568bdd7c95217c31f06e691"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md","sha256":"1522da8139d4edb220c925b05a625d807079217f0f87b9642e30bcac3d2b260e"}
+      ]
+    },
+    {
+      "id": "AFFINE-MAGNUS-COMMUTATOR",
+      "state": "rejected_as_distinct_method_retained_as_order_diagnostic",
+      "reason": "The exact adjacent-order gap includes affine write terms; same-key transitions commute while different values still encode legitimate last-write chronology. BCH's bracket is an ordered aggregate term, and blindly canceling it destroys revision semantics while exact affine scan is already associative.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md","sha256":"fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md","sha256":"b9058bdda5d3788cb37393a2f8927af95f72f52e2ad7a5633ee0d492c0a033a4"}
+      ]
+    },
+    {
       "id": "D01-schema-history",
       "state": "superseded_format_only",
       "path": "cards/history/D01.pre-schema-f134c0f3.json",

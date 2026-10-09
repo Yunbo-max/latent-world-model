@@ -8,4 +8,6 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 
 本轮继续闭合三条看似可行但不独立的路线：unitary dilation 需要随时域增长的 defect slots；query-visible counterfactual utility 对局部写入就是普通 future CE，并与 AttriMem/HiMPO 式 signed credit 碰撞；固定 SPD metric oblique Delta 精确等价于白化后的 preconditioned Delta。GSA2 又直接覆盖双侧 Oja/Delta correction 与共享 slots。它们减少无效路线，不增加活动计数。
 
+2026-10-09 的下一轮又独立闭合五条路线：随机 Bernoulli survival 只把均值保留换成乘法方差或 recurrent dropout；dual-frame 只能以更宽状态保护外部噪声，不能侦测合法 code-subspace 内的 Delta 干扰；checksum/sketch 不能从无身份的因果观测中创造 revision 证据；causal polynomial/Krylov 分别退化为未来风险预测、solver、trace 或 DeltaProduct；Magnus/commutator 抑制会同时抹掉合法 last-write chronology。QED 全文公式与公开代码可得性审计也已闭合。它们继续减少无效路线，但活动、科学准入和选择计数仍全为零。
+
 最终排名仍将基于问题价值、数学后果、最近工作残余、区别性预测、最强简单替代及总成本。当前不得给出“最优 2–3 项”或暗示任何历史卡已获推荐。

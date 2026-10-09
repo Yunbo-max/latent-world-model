@@ -160,7 +160,7 @@ e_{\rm after}=\frac{\lambda}{\lambda+\|k_\perp\|^2}e.
 | Gated DeltaNet-2 2605.22791v1 | 阅读 §3.1 Eq.8–10：channel-wise erase 与 write 解耦；erase 改 key 侧读取，write 改 value，左侧写入方向仍为 \(k\)。简单分开两个门不是新贡献。 |
 | Gated KalmaNet 2511.21016v1 | 阅读 §3.2、§4.1、§7：Kalman 理论动机与实际实现须区分。实际维护 \(H_t,U_t\)，用有限次 Chebyshev 迭代近似解带 ridge 的 query 系统；不是每 token 显式 exact Kalman inverse update。 |
 | Sparse Delta Memory 2607.07386v1 | 阅读 §3.1–3.3：显式 memory table 上稀疏地址读写及容量扩展。故多 slots/稀疏路由不是未有的框架。本文的 exact-dense-recovery 说法本轮未独立验证，不作为本项目推导依据。 |
-| QED 2608.13668v1 | 本轮取得官方摘要；加入 query-derived、与 key 正交的第二 erase 方向。全文 HTML 获取失败，不能声称已完成公式或功能等价审查。它是必须继续核对的近邻。 |
+| QED 2608.13668v1 | 已读取全文 Eq.6--15：query-derived 正交项并入同一 erase covector，左侧写入仍沿 key；它保持非平凡特征值但不保证 singular norm 或有序乘积稳定。2026-10-09 的公开检索未定位作者指定实现，因此公式审查已完成、代码接口仍 unavailable；见 `delta-discovery-2026-10-08/sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md`。 |
 | Kimi Linear 2510.26692v2 | 阅读 §7.1–7.2：作者讨论纯 linear attention 在精确复制和极长上下文细粒度检索的困难，以及混合设计。不能把它外推成 KDA 在所有长程任务都差。 |
 
 本轮是定向缺点诊断与碰撞核查，不是穷尽检索或最终原创性裁决。独立分析来自 /root/arch_solver_memory、/root/arch_predictive_belief、/root/figure_dka_identify。三条 lead 的决定性新规则均尚未完成；历史候选池 1/0/0 不变。
@@ -183,3 +183,4 @@ e_{\rm after}=\frac{\lambda}{\lambda+\|k_\perp\|^2}e.
 - <https://arxiv.org/html/2607.07386v1>
 - <https://arxiv.org/abs/2608.13668>
 - <https://arxiv.org/html/2510.26692v2>
+

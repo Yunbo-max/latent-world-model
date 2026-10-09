@@ -40,8 +40,18 @@ D07 保留普通 Delta/GDN 前向更新。训练期对观测序列采样 source 
 
 同时加入 2026-10-02 的 GSA2 全公式边界：key→slot 使用 OJA2 correction，slot→value 使用 Delta2 correction，并在两侧解耦 erase/write。因此“双侧纠错、reverse/Oja update、两阶段共享 slots”不能再作为新候选名称；该论文的 arXiv 记录没有作者指定代码链接，所以未冒充源码审查。
 
+## 2026-10-09 新增的五条严格边界
+
+1. **随机化 survival**：带 `1/p` 的 Bernoulli Delta 在单步均值上等于普通 Delta，但固定 key 的相对路径方差指数增长；不补偿则只是更小的确定性 gate 加 update dropout 噪声。有限精度 stochastic rounding 是有效数值基线，却不能使单条轨迹永久保留。
+2. **dual-frame 冗余编码**：`Z=FS` 的 exact recurrence 与原 Delta 共轭。方形 frame 只是坐标变换；冗余 frame 要增加状态/能量/bit。Delta 自己造成的干扰仍是合法 codeword，syndrome 完全看不见。
+3. **checksum/sketch 修订判断**：任何因果 sketch 都受 data processing 限制。Bloom/SimHash 只有在稳定身份或严格几何间隔已经存在时才有效，且还需保存当前版本；这会变成 approximate dictionary/event memory，而不是新的 Delta 原理。
+4. **causal polynomial/Krylov**：只能逼近从前缀可预测的 future-product 条件对象，无法消除不可预测后缀或一般非交换顺序。具体实现分别落回 D03 predictor、GKA/PDN solver、source trace 或 DeltaProduct。
+5. **affine Magnus/commutator**：transition commutator 会漏掉 write chronology；相同 key、不同 value 即使 transition 交换，也仍有合法 last-write gap。BCH 的 bracket 是需要保留的顺序项，盲目抵消会破坏 revision semantics。
+
+QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 erase covector，左侧写入仍沿 key；它保持一个 eigenvalue，却不保证 singular norm 或全时域 ordered-product 稳定。截至 2026-10-09 未定位作者指定公开实现，因此没有虚构 kernel/吞吐结论。
+
 ## 下一合法动作
 
-从零活动候选重新寻找具有新 causal observable 或 state invariant 的部署递推，并在分配新 D 编号前完成最近工作分离。排除 GSA2 双侧 slot correction、unitary dilation、source-utility attribution、fixed-metric preconditioning，以及所有既有 inactive/no-go 路线；不得只换 loss、坐标、门范围或辅助噪声来凑数。
+从零活动候选重新寻找具有新 causal observable 或 state invariant 的部署递推，并在分配新 D 编号前完成最近工作分离。排除 GSA2 双侧 slot correction、unitary/frame dilation、随机 survival、checksum identity、single-basis future polynomial、blind commutator cancellation、source-utility attribution、fixed-metric preconditioning，以及所有既有 inactive/no-go 路线；不得只换 loss、坐标、门范围或辅助噪声来凑数。
 
 入口：[进度](PROGRESS.json)、[证据批次](method-batch.json)、[近邻图](CLOSEST_WORK.md)、[排名状态](RANKING.md)。当前没有全池排名或 top-15 选择。

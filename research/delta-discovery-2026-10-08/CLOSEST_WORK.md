@@ -6,7 +6,7 @@
 |---|---|---|
 | DeltaNet → GDN → KDA | 原始 residual Delta、decay gate、通道级遗忘；保持 decay 与 rank-one 因子实际顺序 | [原始文献与作者接口](sources/BASELINE_NATIVE.md)，[版本清单](sources/BASELINE_SOURCE_MANIFEST.json) |
 | DeltaNet → RWKV-7 / DeltaProduct | 广义/多步更新不能仅改名计候选 | 同上，具体公式及 naive/time-mixing 接口已读，未执行 |
-| DeltaNet → GDN2 / QED / EDA | erase/write 细化与 query 参与擦除已知；GDN2/QED 左侧 write 仍沿 k；EDA 独立 erase address 已有先例 | [PRIMARY_NEW](sources/PRIMARY_NEW.md)。QED 全文已读；EDA 作者专门实现未定位，不当作已检验代码 |
+| DeltaNet → GDN2 / QED / EDA | erase/write 细化与 query 参与擦除已知；GDN2/QED 左侧 write 仍沿 k；EDA 独立 erase address 已有先例 | [QED 全公式/公开代码审计](sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md)及 [PRIMARY_NEW](sources/PRIMARY_NEW.md)。QED 作者指定公开实现截至 2026-10-09 未定位；不虚构 kernel/吞吐审查 |
 | 历史 ridge → PDN | 理论非对角 inverse-Gram 与实际稳定对角预条件有差别，不能混成一项实现保证 | PRIMARY_NEW；[D03 audit](sources/D03_D04_SOURCE_AUDIT.md)、[源码字节清单](sources/D03_SOURCE_MANIFEST.json) |
 | Bayesian covariance → GKA / KDN | GKA 是 H/U 统计和有限次 Chebyshev query solve；KDN 高斯增益、对角逆 KL/扫描近邻已经覆盖简单协方差释放 | PRIMARY_NEW；[KDN v2公式/作者源码审查](sources/KDN_REVIEW_SOURCE_AUDIT.md) |
 | 稀疏/多槽 → Sparse Delta Memory | 路由与容量本身不新；正文 row-local residual 与附录/源码 aggregate Delta 差异仍需澄清 | BASELINE_NATIVE；未借用未经闭合的 dense 等价性 |
@@ -31,6 +31,11 @@
 | unitary/orthogonal Delta dilation | 单步 Halmos completion 可把 erase defect 放进辅助槽；复用槽会使旧内容回流，严格 contraction 的全时域 finite unitary dilation 不存在 | [NOGO-UNITARY-DILATION](rejected/NOGO_UNITARY_DILATION.md)及[独立审查](reviews/NOGO_UNITARY_DILATION.review.md)。有限时域需随 horizon 增长的新槽并退化显式记忆，不计候选 |
 | counterfactual query-visible source utility | 固定后续路径时可精确删除一个 write 并测未来 query/CE 的 signed utility | [推导](rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md)及[独立审查](reviews/COUNTERFACTUAL_QUERY_WRITE_UTILITY.review.md)。对 write-local 参数梯度等于普通 future CE；AttriMem/HiMPO 等已覆盖 signed source reward，保留 diagnostic/lead，不计候选 |
 | Lyapunov metric oblique Delta | `A=I-wrᵀ` 存在 SPD 非扩张度量 iff `0<rᵀw≤2`，且必须 `Hw∥r` | [度量控制](rejected/LYAPUNOV_OBLIQUE_METRIC.md)及[独立审查](reviews/LYAPUNOV_OBLIQUE_METRIC.review.md)。固定 H 精确白化为 normalized Delta；时变局部证书不自动组合，PDN/KDN/GDN2/QED 已覆盖核心几何，不计候选 |
+| randomized Delta survival | compensated Bernoulli correction 保持单步均值但 repeated-key relative variance 指数增长；未补偿 mask 等价较小确定性 gate 加 update-dropout 噪声 | [推导](rejected/RANDOMIZED_DELTA_SURVIVAL.md)及[独立审查](reviews/RANDOMIZED_DELTA_SURVIVAL.review.md)。Zoneout、recurrent update dropout、stochastic rounding、low-discrepancy recurrent-cache dither、LeapQuant/STEPQuant 覆盖主要功能，不计候选 |
+| redundant dual-frame Delta | `Z=FS` 的 exact encoded recurrence 与原 Delta 共轭；`r=d` 只是换坐标，`r>d` 是更宽物理冗余。合法 Delta 干扰仍在 code subspace，syndrome 看不见 | [NOGO-DUAL-FRAME-04](rejected/NOGO_DUAL_FRAME_04.md)及[独立审查](reviews/NOGO_DUAL_FRAME_04.review.md)。只缓解外部噪声/已知 erasure，属于 classical frame coding 与 D05/STEPQuant/PDN 控制 |
+| checksum/sketch revision detector | 任意 causal sketch 受 data processing 限制；Bloom/SimHash 只有在稳定身份或角度间隔已提供证据时才工作，并且仍需 latest-value/version state | [控制](rejected/CHECKSUM_REVISION_SKETCH.md)及[独立审查](reviews/CHECKSUM_REVISION_SKETCH.review.md)。退化 approximate dictionary/event memory 或 evidence-conditioned gate，不计候选 |
+| causal polynomial/Krylov future product | single-basis polynomial 只能逼近 prefix 可预测的 conditional future object；不能消除 suffix conditional variance 或一般 noncommutative order | [控制](rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md)及[独立审查](reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md)。分别落入 source trace、D03 predictor、GKA/PDN solver 或 DeltaProduct |
+| affine Magnus/commutator compensation | exact order gap 必须含 affine write 项；same-key transitions 虽交换，different values 仍有 last-write gap。BCH aggregate 的 `+1/2` bracket 是顺序项而非应删除误差 | [控制](rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md)及[独立审查](reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md)。抑制 bracket 会破坏 revision semantics；exact affine scan 已可结合并行，不计候选 |
 
 上述已读的是必要公式/算法与具体接口，不是所有论文/仓库逐行审计。引用量与 checker 通过不证明原创性。原始代码未运行，未下载模型/数据，未造实验结果。公共可测量对象和原生 scorer 边界见 [BASELINE_NATIVE](sources/BASELINE_NATIVE.md) 与[本轮可行性核查](sources/MEASUREMENT_FEASIBILITY_2026-10-09.md)；机制主张的 measurement gap 不能由通用 QA 得分消除。
 
