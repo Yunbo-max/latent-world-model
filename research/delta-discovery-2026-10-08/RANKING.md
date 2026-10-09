@@ -37,3 +37,6 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 
 [R01 v2修复](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)解决了 v1“直接缩小 value-width 会丢容量”的目标错配：完整 `S` 不压缩，只压缩切向/信用商。但精确商宽度至少覆盖所有非退化 gate 与目标协向量的联合行空间，时变基还需核包含，近似闭合仍依赖被省略的完整切向泄漏。由于核心机制与 exact lumping、goal-oriented/time-varying MOR 重合，它目前是有用的条件理论控制，不进入正式排名。只有证明真实因果协向量并集小且总成本优于 plain JVP/VJP，才有重开候选资格；否则 R01 在第二次实质修订后暂存。计数仍为5历史/0活动/0科学准入/0选择，20/15短缺不变。
 
+## R02 control disposition
+
+R02 is excluded from the candidate ranking. Its conditional causal mathematics passed independent final-byte review, but the operative estimator is standard AIPW/sequential OPE and the native mechanism measurement is missing. Pool and selection counts are unchanged; it cannot displace or enter a top-15 list.

@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T17:48:05Z",
+  "recorded_at": "2026-10-09T18:55:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R01_v2_credit_quotient_independent_final_reviews_accepted_conditional_theory_control_no_candidate_admission",
+  "status": "repair_R02_randomized_action_credit_independent_reviews_passed_conditional_causal_control_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -50,7 +50,7 @@
       "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     }
   },
-  "delivery_parent": "95607da1a90f4a884aa42cc2655069ed53875512",
+  "delivery_parent": "9d3bdf5cd51a3a80fd26abf8b797160ff22e807b",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -133,10 +133,11 @@
       "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate.",
       "Proved that strict contraction of every complete scalar-gate Delta tangent step does not imply low relative effective rank: a legal path has a flat H-dimensional normalized singular spectrum. Logarithmic absolute epsilon-rank needs stronger rank-bounded injection, rank-preserving transport and fading-age assumptions, and may only reflect vanished credit. Unbiased rank-r compression has an explicit flat-spectrum variance lower bound.",
       "Repaired rather than discarded two linked leads: exact fixed-right-value-span scalar-gate-feedback closure with leakage recurrence, and goal-weighted residual scalar credit interval plus legal finite-step margin. Corrected bound-sequence notation after independent attack; old contraction/flat-spectrum counterexample remains. Conditional math supported; generic controls/novelty, costs and empirical utility separate; no new candidate.",
-      "R01 v2 keeps the nominal Delta memory full-width and compresses only a decision-relevant tangent/credit quotient U=XW. For nondegenerate steps, exact fixed-W quotient closure requires the gate covector G to satisfy G=GWW^T; exact scalar credit additionally requires C=CWW^T. A row-span lower bound, time-varying carry kernel condition, leakage recurrence and two 2x2 counterexamples preserve the capacity and rotating-basis failure boundaries. Independent final-byte math and source reviews accepted this only as a conditional Delta specialization of known lumping/goal-oriented reduction principles; originality, matched-budget advantage and empirical effect remain open, so no D candidate was admitted."
+      "R01 v2 keeps the nominal Delta memory full-width and compresses only a decision-relevant tangent/credit quotient U=XW. For nondegenerate steps, exact fixed-W quotient closure requires the gate covector G to satisfy G=GWW^T; exact scalar credit additionally requires C=CWW^T. A row-span lower bound, time-varying carry kernel condition, leakage recurrence and two 2x2 counterexamples preserve the capacity and rotating-basis failure boundaries. Independent final-byte math and source reviews accepted this only as a conditional Delta specialization of known lumping/goal-oriented reduction principles; originality, matched-budget advantage and empirical effect remain open, so no D candidate was admitted.",
+      "R02 repaired the passive counterfactual-write information gap by adding logged randomized finite Delta actions and real delayed outcomes. Known-propensity AIPW identifies finite-horizon total action effects under consistency, overlap, nuisance independence/cross-fitting or predictability, and a common continuation policy; delayed MAR and sequential-DR extensions, iid/reset variance, tail bounds, and seven failure boundaries were independently checked. The estimator is established generic AIPW/OPE, does not identify individual historical source signs or semantic validity, and LongMemEval is only an endpoint benchmark, so the result is retained as a causal control with zero candidate admission."
     ]
   },
-  "next_action": "Treat R01 v2 as a bounded conditional theory control. Attempt R01 v3 only if a concrete causal interface yields a provably smaller certified quotient at matched total state/FLOPs than plain scalar forward JVP or reverse VJP; otherwise park it and repair the next promising line, prioritizing protection/release identifiability or counterfactual update benefit. Preserve all counterexamples and do not assign a D identifier before distinctness, source and measurement obligations close.",
+  "next_action": "Park R02 v1 as a reviewed causal logging/training control. Continue repair-and-rederive on the next promising protection/release or update-interference line. Reopen R02 only with a proved Delta-specific variance, safe-exploration, or sequential-state-compression result at matched information and total resources; do not count standard AIPW/OPE as a candidate.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -891,5 +892,41 @@
     "pool_target": 20,
     "selection_target": 15,
     "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting."
+  },
+  "repair_R02_randomized_action_credit": {
+    "repair_id": "R02",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "lineage": [
+      "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+      "sha256": "b3460e4b433cd7b56302f3587cc7664f39cd9858f4c273401da68f54e49686da"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_RANDOMIZED_ACTION_CREDIT_SOURCE_AUDIT.md",
+      "sha256": "adf659acb8a91fe2ca08b3758a302886c77280e8fa9b25e11655bf675ed593be"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.math-review.md",
+      "sha256": "3dbe7c355e0c2e8cc009a582f104670aa4b369ccec4c8f0794ad5abf180da044",
+      "reviewer": "/root/r02_counterfactual_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.source-review.md",
+      "sha256": "53469be615ed2605211cc1a8f5c3fb827e4dc8ea54f4cf32c8cb0880713fc8b3",
+      "reviewer": "/root/r02_counterfactual_sources"
+    },
+    "mathematical_status": "accepted_conditional_causal_control",
+    "contribution_status": "randomization_repairs_passive_identification_but_AIPW_and_sequential_DR_are_known_general_mechanisms",
+    "measurement_status": "LongMemEval_endpoint_relevant_but_no_native_randomized_action_credit_and_paid_judge_boundary",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "reopen_conditions": [
+      "Prove a matched-budget Delta-structured outcome/control-variate variance or sample-complexity advantage.",
+      "Prove a protection-aware behavior policy with positivity and an old-query-damage bound.",
+      "Prove a sufficient compressed Delta history for sequential DR with lower state or compute."
+    ]
   }
 }

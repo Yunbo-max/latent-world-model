@@ -174,3 +174,9 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 来源结果没有支持新候选。Adaptive TBPTT 已估计几何 gradient tail，ARTBP 和 Randomized Telescopes 已做 inverse-survival 无偏截断，Stable Recurrent Models/Neumann-RBP 已有收缩尾界，Tropp sketches/Frequent Directions 与 RTRL/UORO/KF-RTRL/OK/SnAp/e-prop 已覆盖主要压缩工具。generic sketch 对非交换 Delta 递推并非自动闭合，但这个缺口本身还不是方案。
 
 所以当前只保存新的严格反例和条件控制，不新增 D 编号。真正值得继续的唯一窄问题，是实际完整 Delta transition 是否有可审计的 closure，能在相同信息、内存和 FLOPs 下改善 costate/action-gradient 误差，而不是只让长期信号变小。计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有代码、实验或 top-15 选择。
+
+## 本轮修复：R02 随机更新动作归因
+
+这条线并不是“原想法全错”。旧方案错在只观察一次实际写入，却想知道“如果没写会怎样”。修复办法是在训练/评估期真正随机选择写、跳过或其他有限更新动作，记录概率，再用之后的真实损失做 AIPW/顺序 DR。这样在重叠、共同后续策略、交叉拟合和有限时域等条件下，可以识别平均总效果。
+
+它仍不能回答某一次历史写入的个体反事实，也不能从已混合的状态里恢复来源；稀有动作、长延迟和连续流会带来大方差或依赖问题。更关键的是，AIPW/顺序 OPE 已是成熟方法，SEAL 也已覆盖“按更新后的真实表现训练 self-edit”的高层机制。故 R02 保留为严格的因果对照，不计新候选。真正值得继续的残余是：Delta 几何能否证明更低方差、安全探索损伤界，或给顺序 DR 一个更小的充分状态。

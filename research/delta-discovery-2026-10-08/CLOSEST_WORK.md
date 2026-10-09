@@ -118,3 +118,12 @@ generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不
 
 [R01 v2](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)保留完整 `S`，只问线性切向商 `X↦XW` 是否足以递推并恢复目标信用。CLUE 的精确线性 lumping 已给出 Jacobian 行空间不变与最小不变子空间闭包；goal-oriented/DWR model reduction 已知以目标权重选择降维误差；线性时变 MOR 也直接覆盖时变投影/基接口。因此 `G=GWW^T`、`C=CWW^T`、相关协向量并集的宽度下界、时变基核包含与泄漏信用界，当前只记作这些通用原则在 scalar-gate Delta Jacobian 上的具体化/推论，不声明新机制。精确固定版本、作者实现接口、已读范围与未读缺口在[来源审计](sources/REPAIR_R01_V2_CREDIT_QUOTIENT_SOURCE_AUDIT.md)中；[数学审查](reviews/REPAIR_R01_V2.math-review.md)和[来源审查](reviews/REPAIR_R01_V2.source-review.md)绑定最终 artifact SHA `93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5`。残余只可能是：真实 Delta 因果接口能以显著小于 `d_v` 的可证协向量并集工作，并且总成本优于 plain forward JVP / reverse VJP；目前无证据，故不准入。
 
+## R02 randomized-action credit
+
+| Component | Nearest work / interface | Residual and decision |
+|---|---|---|
+| finite randomized update action + delayed loss | Dudík–Langford–Li DR/AIPW | established general estimator; Delta only supplies the action map |
+| changed future update policy | Jiang–Li sequential DR | requires target-reachable overlap and cumulative ratios; no Delta advantage proved |
+| downstream self-edit reward | SEAL author code at `6d9c9f9...` | high-level collision; SEAL is LoRA/TTT and not propensity-logged Delta OPE |
+| knowledge-update endpoint | LongMemEval at `9e0b455...` | measures final QA, not internal randomized action credit; native judge uses GPT-4o |
+| remaining Delta claim | structured nuisance / safe logging / sufficient history | unproved repair leads; no candidate admission |

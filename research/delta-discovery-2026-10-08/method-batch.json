@@ -92,12 +92,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
       "sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+      "sha256": "b3460e4b433cd7b56302f3587cc7664f39cd9858f4c273401da68f54e49686da",
+      "status": "accepted_conditional_causal_control_not_candidate"
     }
   ],
-  "counting_policy": {
-    "pool_target": 20,
-    "selection_target": 15,
-    "repair_is_not_candidate": true,
-    "interpretation": "Latest owner feedback: exploration target, no guarantee of universal novelty/admission/experimental success; eligible selection only."
-  }
+  "counting_policy": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate."
 }

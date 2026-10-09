@@ -755,7 +755,7 @@
       }
     ]
   },
-  "research_next_action": "Continue R01 repair from its exact reviewed bytes. First examine whether causal value geometry can preserve needed capacity, or whether gate residual/costate bounds are cheaper than full VJP at matched total bytes/FLOPs. Compare same-r ordinary Delta and exact BPTT/RTRL/direct action predictor. Do not repeat generic low-rank or margin formulas as new candidates; no new D/code/experiment until contribution and scientific obligations are met. Park only the unsupported practical advantage, preserving useful theory and concrete reopen conditions.",
+  "research_next_action": "Park R02 v1 as a reviewed causal logging/training control. Continue repair-and-rederive on the next promising protection/release or update-interference line. Reopen R02 only with a proved Delta-specific variance, safe-exploration, or sequential-state-compression result at matched information and total resources; do not count standard AIPW/OPE as a candidate.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -811,17 +811,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R01_v2_credit_quotient_independent_final_reviews_accepted_conditional_theory_control_no_candidate_admission",
+    "status": "repair_R02_randomized_action_credit_independent_reviews_passed_conditional_causal_control_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "95607da1a90f4a884aa42cc2655069ed53875512",
+    "current_delivery_parent": "9d3bdf5cd51a3a80fd26abf8b797160ff22e807b",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R01 v2 retains full nominal Delta memory S and compresses only the decision-relevant tangent/credit quotient U=XW. On nondegenerate scalar-gate steps, exact fixed-W closure for every full tangent requires G=GWW^T; exact scalar credit requires C=CWW^T. The corrected width lower bound uses only nondegenerate transition and nonzero-weight loss covectors; changing bases require kernel inclusion, and approximation has explicit omitted-tangent leakage. Two 2x2 counterexamples retain failure boundaries.",
-    "originality_and_native_measurement": "Exact lumping plus goal-oriented/DWR and time-varying model reduction cover the general mechanism, so current contribution is a useful Delta specialization/corollary rather than an admitted original method. Real-task covector width, matched-budget advantage and native internal-credit measurement remain open; no empirical execution occurred.",
+    "latest_math_result": "R02 v1 uses randomized, propensity-logged finite Delta actions plus real delayed loss to identify finite-horizon total action effects. Final nuisance-independence/cross-fitting conditions, delayed-MAR AIPW, sequential DR, iid/reset variance scope, tail bound and counterexamples passed independent review.",
+    "originality_and_native_measurement": "The estimator is standard contextual-bandit AIPW/sequential OPE and SEAL covers the high-level downstream self-edit reward mechanism. LongMemEval measures endpoint QA but lacks randomized update actions/propensities/counterfactual credit and its native judge uses GPT-4o. R02 is a control, not a candidate.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -971,6 +971,42 @@
         "sha256": "8501b6d2a8dfffe90d4011d20a80969f12ffa38e84ca658ad8fae03fb36559ff"
       },
       "delivery_status": "published_expected_parent_main_and_all_12_substantive_files_exact_byte_readback_completed_at_95607da1a90f4a884aa42cc2655069ed53875512"
+    },
+    "repair_R02_randomized_action_credit": {
+      "repair_id": "R02",
+      "version": "v1",
+      "substantive_attempt": 1,
+      "lineage": [
+        "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md"
+      ],
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+        "sha256": "b3460e4b433cd7b56302f3587cc7664f39cd9858f4c273401da68f54e49686da"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_RANDOMIZED_ACTION_CREDIT_SOURCE_AUDIT.md",
+        "sha256": "adf659acb8a91fe2ca08b3758a302886c77280e8fa9b25e11655bf675ed593be"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.math-review.md",
+        "sha256": "3dbe7c355e0c2e8cc009a582f104670aa4b369ccec4c8f0794ad5abf180da044",
+        "reviewer": "/root/r02_counterfactual_math"
+      },
+      "source_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.source-review.md",
+        "sha256": "53469be615ed2605211cc1a8f5c3fb827e4dc8ea54f4cf32c8cb0880713fc8b3",
+        "reviewer": "/root/r02_counterfactual_sources"
+      },
+      "mathematical_status": "accepted_conditional_causal_control",
+      "contribution_status": "randomization_repairs_passive_identification_but_AIPW_and_sequential_DR_are_known_general_mechanisms",
+      "measurement_status": "LongMemEval_endpoint_relevant_but_no_native_randomized_action_credit_and_paid_judge_boundary",
+      "empirical_status": "unknown_no_execution",
+      "candidate_admission": 0,
+      "reopen_conditions": [
+        "Prove a matched-budget Delta-structured outcome/control-variate variance or sample-complexity advantage.",
+        "Prove a protection-aware behavior policy with positivity and an old-query-damage bound.",
+        "Prove a sufficient compressed Delta history for sequential DR with lower state or compute."
+      ]
     }
   },
   "delta_updater_rsi_math": {
@@ -1014,5 +1050,6 @@
       "HOPE/Titans author-code availability and HOPE variant/chunk ambiguities if a faithful implementation becomes a dependency.",
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
-  }
+  },
+  "updated_at": "2026-10-09T18:55:00Z"
 }
