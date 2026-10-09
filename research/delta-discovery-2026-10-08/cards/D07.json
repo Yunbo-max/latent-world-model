@@ -1,0 +1,93 @@
+{
+  "kind": "math-card",
+  "version": "1.0.0",
+  "candidate_id": "D07",
+  "title": "Write-Trace Survival Regularization (WTSR)",
+  "authoring_worker": "/root/retention_candidate",
+  "status": "constructed_conditional_math_candidate_pending_independent_review",
+  "originality_status": "scientific_admission_pending_major_neighbor_audit; source trace is known; arbitrary-key ordered-write survival loss is the only narrow residual",
+  "formal_object": "Delta state S_j=A_j S_(j-1)+beta_j k_j v_j^T with A_j=(I-beta_j k_j k_j^T)D_j, unit k_j, beta_j in [0,1], and D_j=diag(d_j) with 0<=d_(j,r)<=1. The realized residual write at i is W_i=beta_i k_i e_i^T, e_i=v_i-(D_i S_(i-1))^T k_i. Under frozen later coefficients, its h-step independent contribution is C_(i,h)=P_(i+h,i)W_i with chronological P=A_(i+h)...A_(i+1). Study exact state-norm survival of the realized source direction, not future-query visibility, semantic validity, global stability or CE sufficiency.",
+  "operations": [
+    {
+      "id": "F04",
+      "input": "one realized rank-one write and later shared affine Delta transitions",
+      "condition": "later A_j are frozen from the actual teacher-forced path; W_i is treated as an additive perturbation",
+      "condition_status": "conditional",
+      "output": "C_(i,h)=P_(i+h,i)W_i and normalized Frobenius survival s_(i,h)=||P_(i+h,i)k_i||_2^2 when W_i is nonzero"
+    },
+    {
+      "id": "C04",
+      "input": "finite-horizon target profile rho_h and sampled source/horizon pairs",
+      "condition": "rho_h in [0,1] is a fixed, nonincreasing norm-amplitude lower-bound profile, so rho_h^2 is the squared-survival target; sampled suffix is used only during training",
+      "condition_status": "conditional",
+      "output": "hinge-squared survival proxy E[(rho_h^2-s_(i,h))_+^2] with no inference-time state or operator"
+    },
+    {
+      "id": "H06",
+      "input": "claims that preserving source norm preserves a fact or reduces token CE",
+      "condition": "future readout may be orthogonal, revision may be valid, or nonlinear features may change",
+      "condition_status": "established",
+      "output": "source survival is neither query accessibility nor semantic correctness; the proxy can preserve obsolete or unreadable state"
+    }
+  ],
+  "derivation_steps": [
+    {
+      "id": "D07.1",
+      "statement": "For W_i=beta_i k_i e_i^T and P=P_(i+h,i), C=P W_i=beta_i(Pk_i)e_i^T. Therefore ||C||_F^2/||W_i||_F^2=||Pk_i||_2^2=:s_(i,h) whenever W_i is nonzero and ||k_i||=1.",
+      "justification": "The Frobenius norm of ab^T is ||a||_2||b||_2; beta_i and e_i cancel. This is an exact frozen-affine contribution ratio, not a property of the full nonlinear network."
+    },
+    {
+      "id": "D07.2",
+      "statement": "Compute a trace by z_i=k_i and z_j=A_j z_(j-1), so s_(i,h)=||z_(i+h)||^2. Let rho_h in [0,1] denote a norm-amplitude lower bound and define L_WTSR=E_(i,h~pi)[(rho_h^2-s_(i,h))_+^2] and L=L_CE+lambda_surv L_WTSR.",
+      "justification": "Each diagonal-plus-rank-one application costs O(d). The suffix coefficients are training targets from an observed teacher-forced sequence; inference consumes neither suffix nor answer labels and uses the unchanged Delta update."
+    },
+    {
+      "id": "D07.3",
+      "statement": "For j=i+1,...,i+h, with g_(i+h)=2z_(i+h), reverse propagation gives g_(j-1)=A_j^T g_j and direct derivative ds/dA_j=g_j z_(j-1)^T. Let y_j=D_j z_(j-1); then ds/dbeta_j=-(g_j^T k_j)(k_j^T y_j), and ds/dd_(j,r)=g_j^T(I-beta_j k_j k_j^T)e_r z_(j-1,r). On the active hinge, d ell/ds=-2(rho_h^2-s).",
+      "justification": "Direct matrix calculus on the realized affine trace. The normalized proxy cancels source beta_i and e_i, so it has no direct derivative through those source-write magnitudes; it still differentiates z_i=k_i and later coefficients. Frozen-A proves the current-path contribution identity, while autodiff through A_j(theta) optimizes the declared moving surrogate L_WTSR(theta). Neither is the full counterfactual influence of changing W_i in a state-dependent nonlinear network."
+    },
+    {
+      "id": "D07.4",
+      "statement": "For one later ordinary Delta step with D=I, unit old direction x, unit current key k and c=k^T x, survival is ||(I-beta kk^T)x||^2=1-beta(2-beta)c^2. Current-key residual contracts by 1-beta. Requiring residual ratio at most epsilon forces beta>=1-epsilon, so the maximum compatible source survival is 1-(1-epsilon^2)c^2.",
+      "justification": "Expand the squared norm and note beta(2-beta) increases on [0,1]. Thus a hard target rho^2 requires rho^2<=1-(1-epsilon^2)c^2; exact correction at c=1 erases that source. WTSR can only be a weighted proxy, not a simultaneous hard guarantee."
+    },
+    {
+      "id": "D07.5",
+      "statement": "D03 and D07 measure different maps: D03 uses P^T q to score future output disturbance, whereas D07 uses P k_i to score source-state survival. With P=diag(1,0), k_i=e_1 and q=e_2, D07 survival is one while that readout sees zero. D06 and D07 differ because the same singular P has zero global minimum singular value/logdet floor but preserves the selected source exactly.",
+      "justification": "Direct counterexamples establish object-level distinctness from the two inactive controls, without establishing novelty relative to external work."
+    },
+    {
+      "id": "D07.6",
+      "statement": "Ordinary task CE supplies a local quadratic J^T H_task J, while WTSR uses the realized state metric P^T P on a selected source. They coincide only under additional isotropic/readout assumptions. Higher source survival can therefore leave native recall unchanged or worsen correct revision.",
+      "justification": "The proxy ignores future query alignment and semantic validity. It is a trainable diagnostic objective, not a likelihood bound or sufficient-state theorem."
+    }
+  ],
+  "assumptions": [
+    "The exact survival identity freezes the actual later affine coefficients. In a multilayer or state-dependent network, changing the earlier write can change later k, beta, D and q; the trace is a local realized-path proxy unless a full Jacobian is used.",
+    "k_i is unit norm. The mathematical sampling convention admits source positions only when ||W_i||_F>tau_write for a fixed disclosed tau_write>=0 and applies no auxiliary term otherwise. At tau_write=0 this skips only exact zero writes. Because beta_i and e_i cancel, arbitrarily small admitted writes receive the same normalized penalty as large writes; this scale blindness is a proxy limitation, not a certificate.",
+    "rho_h in [0,1] is a declared norm-amplitude profile (rho_h^2 is the squared target); horizon sampling pi and lambda_surv are declared hyperparameters, not separate candidates. The target is a soft proxy because current correction and old-source survival can be infeasible together.",
+    "Observed teacher-forced suffix transitions are training-only. No future token, answer or evaluator label enters inference.",
+    "Preserved source norm does not imply query visibility, semantic correctness, retained fact identity, stable numerical precision or lower CE.",
+    "The primary objective remains causal token CE. WTSR adds no KL/ELBO and makes no claim that deterministic state is a posterior.",
+    "Full differentiation of the declared moving surrogate includes indirect feature/gate effects through ordinary BPTT. The closed-form derivatives list only the realized affine path terms for j>i and do not equal the full counterfactual influence of changing the original write in a state-dependent network.",
+    "No RTX2080Ti memory/time feasibility, implementation correctness or empirical benefit has been established."
+  ],
+  "method_expression": "Keep the ordinary Delta/GDN forward state and update unchanged. During training, sample observed source positions i and horizons h, propagate z_i=k_i through the actual chronological later A_j, compute s=||z_(i+h)||^2, and add lambda_surv(rho_h^2-s)_+^2 to ordinary causal CE. Do not use suffix information at inference and do not treat the proxy as a hard certificate.",
+  "distinguishing_prediction": "At matched forward architecture, inference cost and one-step residual contraction, the proxy should increase long-horizon ||P k_i||^2 chiefly when later keys overlap earlier write directions. Nearly orthogonal later keys should yield little effect. If failures arise from query misalignment, aliasing or correct semantic revision rather than propagation decay, higher source norm should not improve the native task.",
+  "falsifier": "Reject or merge D07 if source survival rises without native delayed recall; correct-revision performance follows the derived overlap tradeoff downward; matched long-horizon CE, delayed QA or simple write-rate decay explains the same behavior/cost; a full primary/code audit finds the same arbitrary-key ordered-write survival loss; or the realized frozen trace poorly predicts the full nonlinear causal influence.",
+  "closest_alternative": "How Linear Attention Remembers already supplies source-contribution decomposition and write-overlap interference; Adapting Linear-Time Architectures for Tabular ICL already analyzes same-key contribution survival and proposes write-rate decay; Delayed Supervision keeps the update unchanged and supplies a stronger semantic training signal when labels exist. D07's only narrow residual is the arbitrary-key ordered-transition source-survival penalty. Originality and scientific necessity remain pending a fixed-code/full-formula collision audit.",
+  "decisive_comparison": "A later feasibility comparison, not authorized here, would hold the forward Delta architecture and inference state fixed and match training information/total cost against CE, delayed supervision where native labels exist, and simple time/write-rate decay. Native delayed-recall tasks can test behavior, but no inspected scorer directly certifies the internal source trace or valid revision. Internal survival is diagnostic only.",
+  "complexity_and_information_access": {
+    "memory": "Inference: no additional recurrent state. Training streaming forward uses O(Nd) live vectors for N sampled traces, but naive autodiff stores O(NHd) trace activations up to horizon H; exhaustive T-source tracing can require O(THd). Checkpointing, recomputation or a custom reverse pass can reduce live memory at extra backward work, but none is implemented or accepted here.",
+    "time": "O(NHd) for N source-horizon samples using diagonal-plus-rank-one A_j vector products; exhaustive length-T, horizon-H tracing is O(THd), plus ordinary CE/BPTT.",
+    "data": "Observed teacher-forced training sequences and their realized causal transition coefficients only. No future suffix or answer is an inference input; no event/revision labels are assumed."
+  },
+  "independent_review": "conditional mathematics independently accepted by /root/d03_broad_collision; originality, scientific admission and selection remain pending/not admitted",
+  "source_refs": [
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/WTSR_NEAREST_WORK.md",
+      "sha256": "19276d94a59774fb49893b5235fac0b5df4e17a9da21f14a025e4d15b23aefa8"
+    }
+  ],
+  "known_mathematics": "Ordered affine contribution transport, Frobenius rank-one factorization, reverse-mode differentiation and the one-step correction/survival tradeoff are elementary/known. The source trace is explicitly not claimed new. Only the stated training use remains a candidate lead, and it is not scientifically admitted."
+}

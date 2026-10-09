@@ -4,8 +4,8 @@
   "candidate_id": "D01",
   "title": "单个不确定修订的后验回溯写入：精确低秩双分支",
   "authoring_worker": "/root/delta_edit_derivation",
-  "status": "constructed_pending_independent_review",
-  "originality_status": "unresolved_nearest_work_audit; no priority or fully-new claim",
+  "status": "inactive_equivalence_control_major_functional_collision",
+  "originality_status": "not_admitted_major_functional_collision; exact one-event base-plus-rank-one representation is a reversible reparameterization of an explicit two-state Bayesian mixture",
   "formal_object": "A single unresolved observed event tau has causal hypotheses C/R over two candidate Delta writes in S∈R^(d_k×d_v). Both later obey the identical affine recurrence S_j^h=A_j S_(j−1)^h+B_j, A_j=(I−β_j k_j k_j^T)D_j. Investigate causal token-mixture logloss and exact state compression, not prove semantic revision from residuals. Corpus law is fixed; predictive likelihood at j sees X_<j only. Posterior evidence consumes X_j only after prediction. Event/admission schedule is fixed for the stated differentiable training path.",
   "operations": [
     {
@@ -111,14 +111,14 @@
   "method_expression": "Store (S^C,l,e,η), initialize S_tau^h=barS+u_h e^T and l_tau=u_R−u_C, then propagate l_j=A_j l_(j−1). Before X_j, derive r_C=(S_(j−1)^C)^Tq_j and r_R=r_C+e(l_(j−1)^Tq_j), evaluate two normalized causal p_C,p_R, emit (1−π)p_C+πp_R. After X_j arrives update η by logp_R(X_j)−logp_C(X_j), π=sigmoidη, then update both shared base and l. Mean M_j=S_j^C+π_j l_j e^T has retrospective term (π_j−π_(j−1))l_j e^T; it is not a probability-mixture replacement. Fixed event/admission schedule permits full gradient; hard event admission itself has no differentiability claim.",
   "distinguishing_prediction": "In real arithmetic the one-event compressed predictor exactly equals the explicit identical two-state Bayesian mixture. Delayed evidence changes the surviving old edit by a signed posterior transport even when the current key is orthogonal to the original. Equal branch likelihoods imply no resolution; annihilated l implies no recoverable distinction. Additional recurrent state is d_k+d_v+1 rather than d_kd_v scalars, but both full readouts are charged.",
   "falsifier": "Any same-A/B one-event algebra yielding rank>1 or a non-normalized/non-telescoping causal mixture refutes exactness. Branch-dependent features invalidate the scope. Vanishing l, badly calibrated likelihoods, projection norm growth or missing native delayed-disambiguation labels defeat semantic utility despite algebra. Comparison to the identical two-state mixture can show only computational savings, never a predictive advantage over that exact reference.",
-  "closest_alternative": "Static protected projection (AlphaEdit), causal Bayesian hypotheses (BOCPD/two-expert mixture), GDN ordered affine propagation and Bayesian covariance memories (Memory by Design, KDN, Voltic) are known. The residual construct is the exact low-rank surviving effect of one uncertain old write reweighted by later observed token evidence. The identical two-state mixture is the strongest equivalence baseline; contextual gating is a simpler alternative. Originality remains unresolved, including Voltic fullformula/authorcode and prior low-rank recurrent ensemble work.",
+  "closest_alternative": "The strongest baseline is two explicit complete Delta states with the same causal token-likelihood Bayesian mixture: under D01's shared-future affine assumptions it is exactly prediction-equivalent and additionally supports branch-dependent future features. Wilson-Nassar-Gold already gives mixtures of Delta predictors with likelihood reweighting; PF-RNNs give recurrent particles with later-observation reweighting; BatchEnsemble covers shared-base rank-one ensemble compression at the family level. The remaining additive fast-state rank-one coordinate identity is narrow and not scientifically admitted. See D01_DECISIVE_COLLISION_AUDIT.md.",
   "decisive_comparison": "Feasibility only: compressed predictor versus explicit identical two-state mixture isolates exact state/compute savings; fixed posterior and one-shot causal context gate isolate later-evidence value from projection geometry. Native tasks must document delayed revision/coexistence and preserved associations; bAbI/LAMBADA alone do not certify this. Charge shared encoder, protected basis, two normalized readouts and evidence access. No experiment matrix, invented metric or execution is supplied.",
   "complexity_and_information_access": {
     "memory": "One d_k*d_v base + d_k+d_v+1 recurrent scalars for one event; Q/projection basis and encoder state additional. Causal source/event identity also retained.",
     "time": "Common Delta matrix update O(d_k*d_v), vector transport O(d_k) for diagonal D, base query O(d_k*d_v), rank-one query correction O(d_k+d_v), plus two actual readout/vocabulary-normalization costs. Projection construction O(d_k*r^2+r^3) for protected rank r QR/Gram reference or cached projector costs; no free projection.",
     "data": "Only observed tokens and causal protected queries. No evaluator labels/future queries. No external memory lookup is required by the one-event construction; any external identity evidence is additional information and cost."
   },
-  "independent_review": "pending; author did not self-certify",
+  "independent_review": "conditional algebra review completed; decisive independent closest-work/equivalence audit completed by /root/d01_lowrank_collision; card retained only as an inactive control",
   "source_refs": [
     {
       "path": "research/delta-discovery-2026-10-08/sources/D01-sources.md",
@@ -160,7 +160,7 @@
   "closest_alternative_details": {
     "known_mechanisms": "AlphaEdit/protected projection, standard Bayesian two-expert mixture and BOCPD, GDN ordered affine state propagation, Memory by Design Bayesian Layer, KDN and Voltic uncertainty-memory constructions. These are not renamed originality claims.",
     "strongest_simple_baseline": "Explicit two-state Bayesian mixture with the SAME initial writes, shared future features, readouts, prior and observed-token likelihoods. It is predictively identical in the scoped regime. Also ordinary causal contextual gate deciding once; exact event-addressed external history may remove the ambiguity with more information access.",
-    "residual_delta": "Compact rank-one counterfactual effect of one old edit is propagated and later reweighted by an observed predictive posterior; posterior mean includes retrospective transported repair. Scientific originality of this application remains pending broader low-rank multi-model/fast-weight audit. It is not a universal better Delta learning rule.",
+    "residual_delta": "A single uncertain rank-one old edit under strictly shared later affine coefficients admits an exact base-plus-rank-one representation. This is a storage reparameterization of an explicit two-state Bayesian mixture, not a new predictive law; it is retained only as an exactness control and is not scientifically admitted.",
     "originality_gaps": [
       "Voltic full formula/author code unavailable in this worker; official abstract only.",
       "Root KDN source audit must be joined.",
@@ -175,3 +175,4 @@
     "cost_conditions": "RTX2080Ti and 0.1B/1B target-token tiers are background future feasibility only. No GPU memory/time promise; sum recurrent/encoder state, two readouts, likelihood work, projection construction and evidence-access cost. Event caps cannot be hidden as O(1) exact multi-event inference."
   }
 }
+

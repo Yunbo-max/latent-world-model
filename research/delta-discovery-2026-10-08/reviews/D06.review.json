@@ -5,13 +5,13 @@
   "scope": "math",
   "artifact_ref": {
     "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-    "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
+    "sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"
   },
   "reviewer": "/root/voltic_d01_audit (conditional mathematics) and /root/d06_closest_audit (closest-work and final exact-byte review); both independent of author /root/ordered_propagation_candidate",
   "reviewed_at": "2026-10-09T01:55:00Z",
-  "outcome": "conditional_residual_survives_originality_and_scientific_admission_pending",
+  "outcome": "accepted_conditional_mathematics_but_not_admitted_major_functional_composition_collision",
   "mathematical_outcome": "accepted_conditional_mathematics",
-  "interpretation": "The six mathematical/method checks remain accepted for ordinary contractive Delta under the stated gates and frozen coefficients. A bounded closest-work audit did not find the exact causal sliding -logdet projection, but every constituent primitive is known and broader online-control/Jacobian/resource-allocation collision review remains open. This is not originality qualification, scientific admission or selection. No code, test, scorer or experiment was executed.",
+  "interpretation": "The mathematical feasibility and conditional singular-value bound remain accepted for ordinary contractive Delta under the stated gates and frozen coefficients. The completed broader audit found major functional composition collisions with bounded retention gates, spectral/Jacobian recurrence controls and online window-budget controllers. The literal formula remains a diagnostic/guardrail, not an admitted candidate. No code, test, scorer or experiment was executed.",
   "checks": {
     "formal_object": {
       "status": "verified",
@@ -44,8 +44,8 @@
       "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "closest_alternative": {
-      "status": "bounded_residual_survives_broader_audit_pending",
-      "rationale": "scoRNN, soft orthogonality, dynamical isometry, Stable Recurrent Models, pLSTM/chrono, UnICORNN and Gated DeltaNet cover the constituent primitives but the bounded audit did not locate the exact causal sliding -logdet projection on ordinary ordered Delta gates. This negative search is not originality proof; online constrained control, Jacobian lower-bound regularization and resource-allocation families remain open.",
+      "status": "major_functional_composition_collision_not_admitted",
+      "rationale": "HGRN covers input-dependent retention gates with learned lower bounds; Spectral-RNN/coRNN/UnICORNN/LEM cover spectral, Jacobian or reversible long-range controls; COLD and token-bucket controllers cover window resource budgets. The unmatched ordinary-Delta sliding -logdet clip is a direct composition, and its greedy B,0,... allocation has no utility, regret or competitive optimality result.",
       "evidence_refs": [
         {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"},
         {"path":"research/delta-discovery-2026-10-08/sources/D06_CLOSEST_FULL_AUDIT.md","sha256":"7da425a3eabcd372a3e7216b07fd807094aabd864a6d3b46c8a6ab3647c14c62"}
@@ -53,9 +53,17 @@
     }
   },
   "unresolved_conditions": [
-    "A broader primary closest-work audit over online constrained control, Jacobian lower-bound regularization and resource allocation remains incomplete.",
+    "The broader closest-work audit is complete enough for non-admission but does not prove that no literal duplicate exists.",
     "The guarantee does not identify important directions or semantic facts.",
     "No associative scan, production implementation or hardware feasibility is established."
   ],
-  "reviewed_execution": "Exact-byte mathematical and semantic review only; no project execution."
+  "reviewed_execution": "Exact-byte mathematical and semantic review only; no project execution.",
+  "disposition_addendum": {
+    "reviewer": "/root/d06_extended_collision",
+    "current_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"},
+    "audit_ref": {"path":"research/delta-discovery-2026-10-08/sources/D06_EXTENDED_COLLISION_AUDIT.md","sha256":"0bd5f4d24c05fe19cfbb0174079d0b4c3728a25f7b29265577d440361c84856d"},
+    "disposition": "inactive_log_volume_guardrail_major_functional_composition_collision",
+    "execution_boundary": "source/static mathematics only; no project execution"
+  }
 }
+

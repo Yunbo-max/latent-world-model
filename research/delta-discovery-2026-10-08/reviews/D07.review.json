@@ -1,0 +1,106 @@
+{
+  "kind": "method-review",
+  "version": "1.0.0",
+  "subject_id": "D07",
+  "scope": "math",
+  "artifact_ref": {
+    "path": "research/delta-discovery-2026-10-08/cards/D07.json",
+    "sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"
+  },
+  "reviewer": "/root/d03_broad_collision",
+  "reviewed_at": "2026-10-09T01:48:41Z",
+  "outcome": "verified",
+  "interpretation": "The frozen-affine source-survival identity, direct realized-path gradients, one-step correction/survival boundary, causality contract and authoring-level cost accounting were independently checked under the exact card assumptions. This does not establish originality, scientific admission, selection, software correctness, RTX2080Ti feasibility, native-task benefit or semantic retention.",
+  "checks": {
+    "formal_object": {
+      "status": "verified",
+      "rationale": "S is d by m, A is d by d, k is d and v/e are m. Expanding the Delta update relative to post-decay D_i S_(i-1) gives W_i=beta_i k_i e_i^T. Frozen chronological propagation gives C_(i,h)=P_(i+h,i)W_i. Unit keys, beta in [0,1] and diagonal 0<=d_r<=1 make the declared ordinary factors non-expansive.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "operations_and_conditions": {
+      "status": "verified",
+      "rationale": "F04 is applied only to one additive source under frozen later affine coefficients; C04 defines a finite-horizon amplitude-floor surrogate using training suffix transitions; H06 explicitly rejects semantic/query/likelihood conclusions from state-norm survival. Gate domains, zero-write admission and training-only suffix access are declared.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "derivation": {
+      "status": "verified",
+      "rationale": "Rank-one norm cancellation, chronological trace recurrence, displayed direct gradients and the beta-domain correction/survival bound were independently recomputed. The internal Pk versus P^Tq versus global-singular counterexample is also correct and is scoped only to object distinctness.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "assumptions": {
+      "status": "verified",
+      "rationale": "The exact identity freezes the later realized affine path; moving-surrogate autodiff is separated from full nonlinear counterfactual influence. beta/decay domains, amplitude target, scale-blind write admission, training-only suffix, semantic limitations and absent hardware/software evidence are explicit.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "method_expression": {
+      "status": "verified",
+      "rationale": "The method keeps the ordinary inference update, samples source/horizon pairs only in training, propagates selected directions through actual ordered transitions and adds a hinge to causal CE. Complexity distinguishes streaming live vectors, naive autodiff storage and exhaustive tracing; no implementation or checkpoint algorithm is claimed.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "prediction_and_falsifier": {
+      "status": "verified",
+      "rationale": "The distinguishing prediction is narrowly higher selected-source survival under later key overlap, not semantic retention. The card retains decisive falsifiers: unchanged native recall, damaged valid revision, equal-cost CE/delayed-QA/write-decay explanations, an equivalent prior regularizer or poor correlation with nonlinear influence.",
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"}]
+    },
+    "closest_alternative": {
+      "status": "verified",
+      "rationale": "The card and source note correctly identify known source decomposition, explicit write-rate decay and delayed semantic supervision as strong alternatives. Verified here means the closest-work uncertainty is honestly represented; it does not clear originality. Immutable author-code/full-formula comparison remains a scientific-admission blocker.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
+        {"path":"research/delta-discovery-2026-10-08/sources/WTSR_NEAREST_WORK.md","sha256":"19276d94a59774fb49893b5235fac0b5df4e17a9da21f14a025e4d15b23aefa8"}
+      ]
+    },
+    "survival_identity": {
+      "status": "verified",
+      "rationale": "For nonzero W_i and unit k_i, rank-one Frobenius factorization gives ||P W_i||_F^2/||W_i||_F^2=||P k_i||_2^2. beta_i and e_i cancel. The result is limited to one independent source contribution on the frozen realized path and is not aggregate state, nonlinear counterfactual influence, query visibility or semantic retention."
+    },
+    "gradient_factors": {
+      "status": "verified",
+      "rationale": "For z_j=A_j z_(j-1), s=||z_(i+h)||^2, g_(i+h)=2z_(i+h), g_(j-1)=A_j^T g_j and ds/dA_j=g_j z_(j-1)^T are correct. For j=i+1,...,i+h the displayed beta and diagonal-gate derivatives have the correct factors; the active hinge derivative is -2(rho_h^2-s). Normalization removes direct source beta_i/e_i derivatives while retaining z_i=k_i and later-coefficient gradients."
+    },
+    "frozen_vs_moving_path": {
+      "status": "verified",
+      "rationale": "The card separates the frozen realized-path identity, autodiff of the declared moving surrogate through A_j(theta), and the unavailable full counterfactual influence when an earlier edit changes later features/coefficients. No global nonlinear retention theorem is claimed."
+    },
+    "correction_survival_bound": {
+      "status": "verified",
+      "rationale": "For D=I and unit x/k, expansion yields 1-beta(2-beta)c^2. On beta in [0,1], residual ratio <=epsilon requires beta>=1-epsilon and maximal compatible source survival is 1-(1-epsilon^2)c^2. Exact correction at c=1 erases that direction. This is a one-step feasibility boundary, not a simultaneous guarantee."
+    },
+    "target_and_zero_write_convention": {
+      "status": "verified",
+      "rationale": "rho_h is a norm-amplitude floor in [0,1], so rho_h^2 matches squared survival. A disclosed tau_write admission convention makes zero/tiny-write handling defined. Scale blindness across admitted writes remains an explicit proxy limitation."
+    },
+    "object_distinctness": {
+      "status": "verified_internal_only",
+      "rationale": "D07 measures Pk_i, D03 measures P^Tq and D06 measures global singular/log-volume behavior. The card's diagonal counterexample distinguishes these internal mathematical objects but does not establish external originality."
+    },
+    "causality_and_information": {
+      "status": "verified_training_only",
+      "rationale": "Observed teacher-forced suffix transitions form training supervision only. Inference uses the unchanged Delta update and receives no suffix, answer, evaluator label, extra recurrent state or operator. Any future label-dependent sampling policy would need separate disclosure and review."
+    },
+    "complexity": {
+      "status": "verified_authoring_level",
+      "rationale": "One trace transition is O(d); N sampled traces through H steps cost O(NHd), and exhaustive T-source tracing costs O(THd). Streaming forward holds O(Nd) current vectors; naive autodiff stores O(NHd), and exhaustive storage can reach O(THd). Checkpoint/custom reverse are unimplemented memory-time tradeoffs. Inference adds no state or computation."
+    },
+    "closest_work_and_scientific_scope": {
+      "status": "conditional_pending",
+      "rationale": "How Linear Attention Remembers already gives source decomposition; the Tabular ICL work gives explicit write-rate decay; Delayed Supervision is a stronger semantic alternative when labels exist. The author implementation is not immutably pinned and a full-formula search for an equivalent arbitrary-key survival loss is incomplete. The residual is a narrow candidate training use, not originality or necessity clearance."
+    }
+  },
+  "unresolved_conditions": [
+    "Pin and inspect the Tabular ICL author implementation and complete a full-formula collision audit for arbitrary-key ordered-write norm survival.",
+    "Matched long-horizon CE, delayed semantic supervision, simple write-rate decay and source-trace controls may explain any benefit at lower or equal cost.",
+    "The normalized loss is scale blind and may be gamed by key reorientation or conservative later gates; tau_write and sampling choices are not additional candidates.",
+    "Higher ||Pk_i|| can preserve obsolete or unreadable state, damage valid revision, or leave native delayed recall unchanged.",
+    "The frozen affine trace may poorly approximate full nonlinear influence when earlier edits change later features.",
+    "No inspected native scorer certifies the internal trace or revision validity; software, numerical, hardware and empirical acceptance remain outside this review."
+  ],
+  "review_changes_required_and_resolved": [
+    "beta/decay domains were made explicit",
+    "rho_h was defined as an amplitude floor",
+    "frozen identity was separated from moving-surrogate autodiff and nonlinear counterfactual influence",
+    "zero/tiny writes and scale blindness were disclosed",
+    "naive-autodiff training memory was corrected to O(NHd)"
+  ],
+  "reviewed_execution": "Exact-byte SHA256 computation and static algebra/source-scope review only; no project code, test, training, inference, scorer, data/model download or GPU job was executed."
+}

@@ -5,11 +5,11 @@
   "scope": "math",
   "artifact_ref": {
     "path": "research/delta-discovery-2026-10-08/cards/D01.json",
-    "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
+    "sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"
   },
   "reviewer": "/root/delta_math_review_a; independent of author /root/delta_edit_derivation",
   "reviewed_at": "2026-10-08T22:57:46.481098+00:00",
-  "outcome": "pending_closest_work",
+  "outcome": "accepted_conditional_mathematics_but_not_admitted_major_functional_collision",
   "mathematical_outcome": "accepted_conditional_mathematics",
   "checks": {
     "formal_object": {
@@ -73,8 +73,8 @@
       ]
     },
     "closest_alternative": {
-      "status": "pending",
-      "rationale": "The card properly discloses protected projection, Bayesian2expert prediction and low-rank algebra as known and gives the strongest exact identical2state baseline. KDN inspected source describes Gaussian gain/covariance memory, distinct from a binary token-likelihood policy posterior, but that does not settle broader collision. I re-read the final KDN audit: paper v2, conditional diagonal projection versus exact dense filter, source/file/function pins and scratch-only retention are explicit. Root source expansion has actually read the2018 correction to Wilson/Nassar/Gold2013 and does not import the invalid earlier performance condition; original Eqs19–25 images and author-code migration remain unresolved. Rank1BNN paper formulas concern multiplicative slow-weight posterior factors, rather than this additive fast-state difference, but that is not an originality verdict. Voltic full formula/author code and prior low-rank recurrent ensemble/counterfactual memory remain open. Since delayed posterior weighting and Delta mixtures are known, the residual must be exact low-rank old-edit representation with common affine recurrence; priority or substantive novelty cannot yet be cleared. No qualified candidate/count is inferred from conditional algebra alone.",
+      "status": "major_functional_collision_not_admitted",
+      "rationale": "The decisive follow-up audit found that Wilson-Nassar-Gold already supplies likelihood-reweighted mixtures of Delta predictors, PF-RNNs supply recurrent hypothesis states with later-observation reweighting, and BatchEnsemble covers shared-base rank-one ensemble compression at the family level. Under D01's one-event/shared-affine assumptions, its compressed state is a reversible coordinate transform of the strongest explicit two-state mixture baseline and gives identical token predictions. The unmatched additive fast-state factorization is a narrow storage identity, not a scientifically admitted mechanism.",
       "evidence_refs": [
         {
           "path": "research/delta-discovery-2026-10-08/cards/D01.json",
@@ -107,6 +107,14 @@
     "Reviewer requested post-decay-only protection and semantic-index/policy-index distinction; the current artifact explicitly contains both.",
     "Follow-up source rebind by the same independent reviewer: prior review SHA256 02f472c544bc095f2e2fad50d5ab0d549d23c7f151343cab40185f2db06e52b9 referenced the earlier KDN audit bytes. I actually re-read the revised audit (date header and scratch-only author-byte retention description amended; mathematical interpretation remains consistent) and ROOT_SOURCE_EXPANSION.md. Rebound KDN evidence to 4302bfac8a1e9f02b3c75e96d43d844046bf30d6e654a63ab6028886add913a9 and added the exact root expansion reference. D01 card69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84 is unchanged; conditional algebra acceptance and pending closest-work outcome are unchanged."
   ],
-  "next_legal_action": "Pin/inspect the corrected2013 mixture-of-Delta-rules formula images and author code, and relevant recurrent low-rank ensemble methods; obtain Voltic original formulas/code when accessible. The2018 correction itself is now read, but does not close those formula/code gaps. Update only nearest-work source evidence/card if needed, then independent re-review current bytes. No model code or experiment design is authorized in this phase.",
-  "source_rebind_at": "2026-10-08T23:01:51.025996+00:00"
+  "next_legal_action": "Retain D01 as an exact equivalence/control lemma. Reopen only for a genuinely new object such as non-exponential multi-event representation, bounded branch-dependent nonlinear approximation, source-identified revision semantics, or a finite-rank merge with a legal error bound. No model code or experiment design is authorized in this phase.",
+  "source_rebind_at": "2026-10-08T23:01:51.025996+00:00",
+  "disposition_addendum": {
+    "reviewer": "/root/d01_lowrank_collision",
+    "current_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D01.json","sha256":"17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"},
+    "audit_ref": {"path":"research/delta-discovery-2026-10-08/sources/D01_DECISIVE_COLLISION_AUDIT.md","sha256":"3f9180d2ef902a1aa2261cdcbf7ef06f5ec1682b07aa5a936050f9e5fbfdd6d0"},
+    "disposition": "inactive_equivalence_control_major_functional_collision",
+    "execution_boundary": "source/static mathematics only; no project execution"
+  }
 }
+

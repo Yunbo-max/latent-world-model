@@ -5,12 +5,12 @@
   "scope": "math",
   "artifact_ref": {
     "path": "research/delta-discovery-2026-10-08/cards/D03.json",
-    "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
+    "sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"
   },
   "reviewer": "/root/delta_math_review_b (independent from /root/delta_retention_derivation)",
   "reviewed_at": "2026-10-08T23:02:21Z",
-  "outcome": "verified",
-  "interpretation": "Verified means the stated conditional mathematical construction and required evidence were independently reviewed. It does not establish originality, scientific eligibility, selection, software correctness or empirical benefit. No project code or benchmark scorer was executed.",
+  "outcome": "verified_conditional_mathematics_but_not_admitted_major_functional_collision",
+  "interpretation": "The conditional frozen-path construction remains mathematically verified. A later broad audit found its central observability/natural-gradient/preconditioned-write function substantially covered by classical observability/adjoints, APO, PDN and Q-Delta. It is now an inactive control, not an originality-qualified or scientifically admitted candidate. No project code or benchmark scorer was executed.",
   "checks": {
     "formal_object": {
       "status": "verified",
@@ -145,8 +145,8 @@
       ]
     },
     "closest_alternative": {
-      "status": "verified",
-      "rationale": "Independently read PDN2604.21100v1 inverse-Gram versus diagonal approximation, QED2608.13668v1 Eq11-12, DelayedSupervision2609.32312v1 section3 and KDN2609.07816 actual PDFv2 section3.2/4.1 plus pinned author diagonal recurrence. Matrix gain, current-query erasure, delayed semantic supervision and observability-Gramian geometry are known. QED still edits along left k; KDN gain is predictive posterior covariance, not conditional future-query sensitivity. Thus D03 is not simply historical projection relabeled, but the specific prefix predictor plus bounded residual edit is only a residual construction pending broader collision review. Q-Delta2606.08804 is expressly unresolved in the pinned card; I do not certify originality, scientific admission or full nearest-work clearance. Root is completing that additional comparison separately.",
+      "status": "major_functional_collision_not_admitted",
+      "rationale": "The completed Q-Delta/APO/PDN/observability audit identifies D03's G=J^T J as the standard finite-horizon observability/Gauss-Newton function metric and its normalized inverse-metric direction as a natural-gradient/proximal update. APO covers learned function-space preconditioners, PDN covers inverse-metric Delta write directions, and Q-Delta covers ordered query-aware Delta propagation while retaining left direction k. The only literal residual is their direct token-conditioned composition, insufficient for scientific admission.",
       "evidence_refs": [
         {
           "path": "research/delta-discovery-2026-10-08/cards/D03.json",
@@ -168,7 +168,7 @@
     }
   },
   "unresolved_conditions": [
-    "Q-Delta2606.08804 full mechanism/author-interface comparison remains pending in this card; a collision must downgrade or merge candidate eligibility.",
+    "Q-Delta2606.08804 full mechanism/author-interface comparison is complete and contributed to the major-functional-collision disposition; absence of any further precedent was not proved.",
     "A causal predictor may not learn the conditional transported metric accurately or cheaply; no statistical error guarantee is supplied.",
     "Frozen-reference one-edit analysis does not certify state-dependent/multilayer/autoregressive deployment or simultaneous learned writes.",
     "Low disturbance is not semantic preservation, correct revision, new-fact retention or improved CE.",
@@ -184,5 +184,13 @@
       "resolution": "Pinned card states O(T H^2 d + T H d^2), with no unproved linear-H shortcut."
     }
   ],
-  "reviewed_execution": "Mathematical/source reading and standard-library identity/JSON processing only."
+  "reviewed_execution": "Mathematical/source reading and standard-library identity/JSON processing only.",
+  "disposition_addendum": {
+    "reviewer": "/root/d03_broad_collision",
+    "current_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D03.json","sha256":"6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"},
+    "audit_ref": {"path":"research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md","sha256":"25ee173335e3ea9cadcb87a216067a7caf20d9caba3e3e1bc8312c8714cc16df"},
+    "disposition": "inactive_normalized_observability_natural_gradient_control",
+    "execution_boundary": "source/static mathematics only; no project execution"
+  }
 }
+

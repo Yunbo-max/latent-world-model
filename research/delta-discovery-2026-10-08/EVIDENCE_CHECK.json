@@ -2,8 +2,16 @@
   "kind": "method-verification-report",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "batch_digest": "8146c19b9f43b4bae11234f94ad4baa2cfd7770222ea2018afefc812a300154c",
-  "through": "results",
+  "batch_digest": "23428e40a4ec6d427b48cdf0f1afe9fa13c07c0b4bb84397c1a4df668e90e360",
+  "verification_scope": "Pinned evidence and documented semantic reviews; not an automated proof of mathematics. Empirical verdicts require existing native evaluation with trusted live replay and full comparison. This report does not replace Natural Gate 0, IPCG, Gate A, G01 or E04.",
+  "candidates": [
+    {"candidate_id":"D01","math_verified":false,"outcome":"PENDING","selected":false,"blockers":[{"code":"EVIDENCE_DIGEST_MISMATCH","path":"$","stage":"math"}]},
+    {"candidate_id":"D03","math_verified":false,"outcome":"PENDING","selected":false,"blockers":[{"code":"EVIDENCE_DIGEST_MISMATCH","path":"$","stage":"math"}]},
+    {"candidate_id":"D05","math_verified":false,"outcome":"PENDING","selected":false,"blockers":[{"code":"EVIDENCE_DIGEST_MISMATCH","path":"$","stage":"math"}]},
+    {"candidate_id":"D06","math_verified":false,"outcome":"PENDING","selected":false,"blockers":[{"code":"EVIDENCE_DIGEST_MISMATCH","path":"$","stage":"math"}]},
+    {"candidate_id":"D07","math_verified":true,"outcome":"PENDING","selected":false,"blockers":[]}
+  ],
+  "counts": {"candidates":5,"math_verified":1,"selected":0,"code_verified":0,"design_verified":0,"results_verified":0,"verdict_verified":0},
   "math_pool_verified": false,
   "pool_target": 20,
   "pool_deficit": 19,
@@ -11,19 +19,5 @@
   "selection_deficit": 14,
   "selection_verified": false,
   "selection_blockers": [{"code":"MATHEMATICAL_POOL_INCOMPLETE","path":"$","stage":"selection"}],
-  "counts": {"candidates":4,"code_verified":0,"design_verified":0,"failed":0,"math_verified":1,"results_verified":0,"selected":0,"succeeded":0,"verdict_verified":0},
-  "candidates": [
-    {"blockers":[{"code":"REVIEW_NOT_VERIFIED","path":"$","stage":"math"}],"candidate_id":"D01","code_verified":false,"design_verified":false,"math_verified":false,"outcome":"PENDING","results_verified":false,"selected":false,"verdict_verified":false},
-    {"blockers":[],"candidate_id":"D03","code_verified":false,"design_verified":false,"math_verified":true,"outcome":"PENDING","results_verified":false,"selected":false,"verdict_verified":false},
-    {"blockers":[{"code":"REVIEW_NOT_VERIFIED","path":"$","stage":"math"}],"candidate_id":"D05","code_verified":false,"design_verified":false,"math_verified":false,"outcome":"PENDING","results_verified":false,"selected":false,"verdict_verified":false},
-    {"blockers":[{"code":"REVIEW_NOT_VERIFIED","path":"$","stage":"math"}],"candidate_id":"D06","code_verified":false,"design_verified":false,"math_verified":false,"outcome":"PENDING","results_verified":false,"selected":false,"verdict_verified":false}
-  ],
-  "verification_scope": "Pinned evidence and documented semantic reviews; not an automated proof of mathematics. Empirical verdicts require existing native evaluation with trusted live replay and full comparison. This report does not replace Natural Gate 0, IPCG, Gate A, G01 or E04.",
-  "execution_receipt": {
-    "tool": "installed skill scripts/verify_methods.py, read-only evidence processing",
-    "command": "python /root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/scripts/verify_methods.py --root . --batch research/delta-discovery-2026-10-08/method-batch.json --require math_pool_verified",
-    "exit_code": 2,
-    "meaning": "Expected incomplete mathematical pool. Checker counts constructed-history records in method-batch, including inactive D05, and does not encode the separate active-pool count. D03 remains the sole schema/evidence-qualified card; this is not originality or scientific admission. No project code, tests or experiments executed.",
-    "selection_deficit_caution": "Checker selection_deficit is readiness-based, not selected count. Actual selected=0 and remaining selection=15; PROGRESS.json records active_constructed=3 and the 17-card active-pool shortfall."
-  }
+  "interpretation": "D07 passes the evidence/schema math check. D01/D03/D05/D06 are deliberately inactive history/controls and are not being requalified; their digest blockers do not reinstate them. Checker success does not establish originality, scientific admission or empirical validity."
 }

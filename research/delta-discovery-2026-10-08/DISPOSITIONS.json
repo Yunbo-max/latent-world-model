@@ -2,7 +2,7 @@
   "kind": "delta-math-dispositions",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "count_rule": "Constructed history contains D01/D03/D05/D06, but only D01/D03/D06 remain in the active pool. D05 was removed after major functional collision. No rejection, no-go result, control, schema history or old Q01 is counted as a new active candidate.",
+  "count_rule": "Constructed history contains D01/D03/D05/D06/D07. D01/D03/D05/D06 were removed after major functional or composition collisions; only D07 remains active and is not scientifically admitted. No rejection, no-go result, control, schema history or old Q01 is counted as a new active candidate.",
   "records": [
     {
       "id": "D02",
@@ -44,6 +44,60 @@
           "path": "research/delta-discovery-2026-10-08/sources/D05_CLOSEST_FULL_AUDIT.md",
           "sha256": "32d9e9325e7dc41edd8be5e7d69ac25bdc5ba23c858f75fcda1c8f8f3b03b250"
         }
+      ]
+    },
+    {
+      "id": "D01",
+      "state": "inactive_equivalence_control_major_functional_collision",
+      "reason": "Likelihood-reweighted Delta predictor mixtures and recurrent particle beliefs already cover the principal function. Under the one-event shared-affine assumption the base-plus-rank-one state is a reversible reparameterization of an explicit two-state mixture, not a new predictive mechanism.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/cards/D01.json","sha256":"17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D01_DECISIVE_COLLISION_AUDIT.md","sha256":"3f9180d2ef902a1aa2261cdcbf7ef06f5ec1682b07aa5a936050f9e5fbfdd6d0"}
+      ]
+    },
+    {
+      "id": "D03",
+      "state": "inactive_normalized_observability_natural_gradient_control",
+      "reason": "The metric is the classical observability/Gauss-Newton function metric and the direction is a normalized natural-gradient/proximal inverse-metric write. APO, PDN and Q-Delta create a major functional collision; the token-conditioned composition is too narrow for admission.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/cards/D03.json","sha256":"6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md","sha256":"25ee173335e3ea9cadcb87a216067a7caf20d9caba3e3e1bc8312c8714cc16df"}
+      ]
+    },
+    {
+      "id": "D06",
+      "state": "inactive_log_volume_guardrail_major_functional_composition_collision",
+      "reason": "HGRN and spectral/Jacobian recurrence controls cover retention floors, while COLD/token-bucket controllers cover rolling budgets. The greedy log-volume clip has no allocation optimality and remains only a conditional guardrail/diagnostic.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D06_EXTENDED_COLLISION_AUDIT.md","sha256":"0bd5f4d24c05fe19cfbb0174079d0b4c3728a25f7b29265577d440361c84856d"}
+      ]
+    },
+    {
+      "id": "D07",
+      "state": "active_conditional_math_accepted_scientific_admission_pending",
+      "reason": "The arbitrary-key ordered-write source-survival loss is mathematically valid and distinct from D03/D06 controls. Source traces and write-rate decay are strong neighbors; immutable author-code/full-formula collision audit and scientific necessity remain open.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"}
+      ]
+    },
+    {
+      "id": "NOGO-CAP-02",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "For an affine write exact overwrite for every prior state/value forces A^T k=0 and hence a singular old-state path. Under explicit finite precision, coexistence also consumes joint code capacity. Escape routes require approximation, predictive quotients or additional information/state.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md","sha256":"eb427d7dda60e53bea165002bbba0007b511c49d3412b2185f5fbc34d73cf7fc"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_CAP_02.review.md","sha256":"9e95f8ad31fde64e30f169ea95053773ea9d12a5137f9d1866a71ad19bf6c1ee"}
+      ]
+    },
+    {
+      "id": "DEFERRED-CORRECTION-DEBT",
+      "state": "rejected_as_distinct_method_retained_as_control",
+      "reason": "The exact shared-affine bookkeeping is transported error feedback. Safe repayment is protected projection plus controllability; event identity turns it into replay/event memory, and nonlinear dynamics break exactness without a shadow path.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/DEFERRED_CORRECTION_DEBT.md","sha256":"023761f095e238822afdb286484ef13549c1e4cdd34e8ebe2bfe70ee2f5889aa"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md","sha256":"fbff5a706b28e157ff0d6cddd8f0461ba3f5a81aee21f21ad4b13c9994386f62"}
       ]
     },
     {
@@ -127,3 +181,4 @@
     }
   ]
 }
+

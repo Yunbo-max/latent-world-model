@@ -2,24 +2,26 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T01:56:00+00:00",
+  "recorded_at": "2026-10-09T01:52:12Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
-  "user_requested_range": [
-    10,
-    20
-  ],
+  "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_three_active_one_collision_rejected_three_new_no_go_controls",
+  "status": "partial_math_milestone_one_active_four_collision_inactive_two_new_verified_controls",
   "counts": {
-    "constructed": 4,
-    "constructed_history": 4,
-    "active_constructed": 3,
-    "math_reviewed": 4,
-    "conditional_algebra_accepted": 4,
-    "math_qualified": 1,
+    "constructed_history": 5,
+    "active_constructed": 1,
+    "independently_math_reviewed": 5,
+    "conditional_mathematics_accepted": 5,
+    "active_math_checker_qualified": 1,
     "scientific_admitted": 0,
     "selected": 0
+  },
+  "count_interpretation": "D01/D03/D05/D06 remain in constructed history but are inactive after major functional or composition collisions. D07 is the sole active conditional-math candidate; its external collision audit, scientific necessity and native measurement remain unresolved. No control/no-go is counted as a candidate.",
+  "shortfalls": {
+    "active_constructed_to_target": 19,
+    "scientific_admitted_to_target": 20,
+    "selection_to_target": 15
   },
   "historical_batch": {
     "path": "research/method-batch.json",
@@ -33,286 +35,64 @@
     "conversation_id": "6ac79d14-9fc8-83eb-8a16-056c5fa87aaa",
     "service": "scheduled_authoring_continuation",
     "is_enabled": true,
-    "configuration_updated_at": "2026-10-08T22:47:06.561010+00:00",
     "continuous_execution_verified": false,
-    "next_run_time": null,
-    "configuration_prompt_equal": true,
-    "first_new_stage_run_observed": true,
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "existing_diagnostic_sources": [
-    "research/DELTA_FAILURE_MODES_2026-10-08.zh-CN.md",
-    "research/DELTA_DIFFUSION_DIRECTION_2026-10-08.zh-CN.md",
-    "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md"
-  ],
-  "reused_reading_scope": "Conditional diagnostic derivations and nearest-work audit exist; they are controls/leads, not new qualified candidate cards.",
-  "next_action": "Continue D01 low-rank recurrent-ensemble and broader D03 collision audits; extend D06 review to online constrained control, Jacobian lower-bound regularization and resource allocation; derive genuinely distinct residual mechanisms without reviving D05 or counting no-go/control identities.",
-  "delivery_parent": "1e9cf6099c19c77e622a976459858730f8bc0a23",
-  "count_interpretation": "Constructed history remains four, but D05 is inactive after major functional collision, so the active pool is D01/D03/D06. math_qualified is schema/evidence readiness only and remains checker-dependent; it is not originality or scientific admission. D06 retains a bounded residual with broader closest-work open. None is scientifically admitted or selected; whole pool and top15 remain unverified.",
-  "shortfalls": {
-    "active_constructed_to_target": 17,
-    "evidence_math_qualified_to_target": 19,
-    "scientific_admitted_to_target": 20,
-    "selection_to_target": 15
+  "delivery_parent": "994d9bc606d28678559a80e97fed198c9952aaff",
+  "milestone": {
+    "inactive_cards": ["D01", "D03", "D05", "D06"],
+    "active_cards": ["D07"],
+    "new_source_audits": [
+      "sources/D01_DECISIVE_COLLISION_AUDIT.md",
+      "sources/D03_BROAD_COLLISION_AUDIT.md",
+      "sources/D06_EXTENDED_COLLISION_AUDIT.md",
+      "sources/DELTATTT_FULL_AUDIT.md",
+      "sources/WTSR_NEAREST_WORK.md"
+    ],
+    "new_verified_controls": [
+      "rejected/NOGO_CAP_02.md",
+      "rejected/DEFERRED_CORRECTION_DEBT.md"
+    ]
   },
-  "artifacts": [
-    {
-      "path": "research/delta-discovery-2026-10-08/CONTROL_MATH.md",
-      "sha256": "e169cb26776c05c246036e77210f67dd2a16cdbf6e279e23ad05355374ecc7ed"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/CONTROL_MATH.review.json",
-      "sha256": "22df84bb0c9ac4455d07025c9a9fed066fa16ebc800d2f4872b06a3eef795d4f"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/cards/D01.json",
-      "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/D01.math-review.json",
-      "sha256": "fdcb70a15a96023d83717511363a66ddc0bcbcd2fe2127f90fd5770bf7f8f6fb"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/cards/D03.json",
-      "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/D03.review.json",
-      "sha256": "99189651df1d9649f5752c27d959adfd72e8b87c800891615a311068e42ba1dd"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-      "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-      "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-      "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-      "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/sources/QDELTA_FULL_AUDIT.md",
-      "sha256": "730738e78842eff5eb6f4f0f1563e9b229507f4b6af1859da04e0cc291ea38b3"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/sources/VOLTIC_D01_FULL_AUDIT.md",
-      "sha256": "247a54db4229056775d5009c641e24c61a8a7ce07486b6994c45ac77455af760"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/rejected/NOGO_RC_01.md",
-      "sha256": "83d633b6991339605160efb7a88ad8247cea5e111d6edf52d5a00b04de99c87c"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md",
-      "sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/READING_RECEIPT.json",
-      "sha256": "3059b69ed34a601fb791270c7c2543255a6511a0fc7f2507aac081eb9e66b4db"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/sources/D05_CLOSEST_FULL_AUDIT.md",
-      "sha256": "32d9e9325e7dc41edd8be5e7d69ac25bdc5ba23c858f75fcda1c8f8f3b03b250"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/sources/D06_CLOSEST_FULL_AUDIT.md",
-      "sha256": "7da425a3eabcd372a3e7216b07fd807094aabd864a6d3b46c8a6ab3647c14c62"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/sources/MEASUREMENT_FEASIBILITY_2026-10-09.md",
-      "sha256": "36695688721c7f42e195a702befbb9349d96a069496681e63ac811731b3b87d4"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/rejected/NOGO_MR_01.md",
-      "sha256": "12e7bebba8e234c968ee6911580cbff07663c7ded188e70f385c486a9e63b06d"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/rejected/NOGO_OC_01.md",
-      "sha256": "dfaaa080b0c10b92dab803ace0379f88b4a3ca3daac2501ed5a5d2ed4e0ddcab"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
-      "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/NOGO_MR_01.review.md",
-      "sha256": "289cf5df6f597ca824ad3b80c1d130e28eaf559614d64a6ae3dfe6399c72e827"
-    },
-    {
-      "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OC_01.review.md",
-      "sha256": "f1eaf879f4b6038cbb3b44c1890f46379a1bc25c32e9fee67e1c2d413782f695"
-    }
-  ],
+  "next_action": "Pin the Tabular ICL write-rate-decay author commit/blob/function and complete D07 full-formula collision audit; in parallel derive a genuinely different candidate or a reviewed no-go without reviving inactive cards or counting known multi-layer/local-loss/slot/multi-step mechanisms.",
+  "selection_verified": false,
+  "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
     {
-      "identity": "/root/delta_primary_audit",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/PRIMARY_NEW.md",
-        "sha256": "0aed4d882eb39c227f07f99665aca55a79263aeda3ac27b74f92e5bc77833235"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/d01_lowrank_collision",
+      "result": "D01 major functional collision; exact one-event rank-one representation retained only as equivalence control",
+      "artifact": "research/delta-discovery-2026-10-08/sources/D01_DECISIVE_COLLISION_AUDIT.md"
     },
     {
-      "identity": "/root/delta_edit_derivation",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/cards/D01.json",
-        "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/d03_broad_collision",
+      "result": "D03 major functional collision; D07 independent conditional-math review",
+      "artifacts": ["research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md", "research/delta-discovery-2026-10-08/reviews/D07.review.json"]
     },
     {
-      "identity": "/root/delta_retention_derivation",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/cards/D03.json",
-        "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/d06_extended_collision",
+      "result": "D06 major functional composition collision; retain log-volume guardrail only",
+      "artifact": "research/delta-discovery-2026-10-08/sources/D06_EXTENDED_COLLISION_AUDIT.md"
     },
     {
-      "identity": "/root/delta_baseline_feasibility",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/BASELINE_NATIVE.md",
-        "sha256": "df551e5a45720e488ac698594e1aa114558462bc7fef1c7a093104ee7eca500e"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/capacity_candidate",
+      "result": "NOGO-CAP-02 derivation and independent deferred-debt review",
+      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md", "research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md"]
     },
     {
-      "identity": "/root/delta_math_review_a",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D01.math-review.json",
-        "sha256": "fdcb70a15a96023d83717511363a66ddc0bcbcd2fe2127f90fd5770bf7f8f6fb"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/nogo_cap02_review",
+      "result": "independent corrected exact-byte NOGO-CAP-02 verification",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/NOGO_CAP_02.review.md"
     },
     {
-      "identity": "/root/delta_math_review_b",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D03.review.json",
-        "sha256": "99189651df1d9649f5752c27d959adfd72e8b87c800891615a311068e42ba1dd"
-      },
-      "execution_boundary": "mathematics/source/static reading only; no project execution"
+      "identity": "/root/deferred_correction_candidate",
+      "result": "deferred correction debt rejected as transported error feedback/projection/controllability composition",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/DEFERRED_CORRECTION_DEBT.md"
     },
     {
-      "identity": "/root/finite_precision_candidate",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-        "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/qdelta_full_audit",
-      "state": "completed_source_audit_and_independent_D05_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
-      },
-      "execution_boundary": "source/static mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/ordered_propagation_candidate",
-      "state": "completed_scoped_artifact",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-        "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/voltic_d01_audit",
-      "state": "completed_source_audit_and_independent_D06_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-        "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
-      },
-      "execution_boundary": "source/static mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/revision_protection_candidate and /root/revision_nogo_review",
-      "state": "completed_no_go_derivation_and_independent_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/rejected/NOGO_RC_01.md",
-        "sha256": "83d633b6991339605160efb7a88ad8247cea5e111d6edf52d5a00b04de99c87c"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/identifiability_candidate",
-      "state": "completed_boundary_derivation_rejected_as_distinct_method",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md",
-        "sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/d05_closest_audit",
-      "state": "completed_primary_closest_work_and_exact_byte_disposition_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
-      },
-      "execution_boundary": "source/static mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/d06_closest_audit",
-      "state": "completed_bounded_closest_work_and_exact_byte_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-        "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
-      },
-      "execution_boundary": "source/static mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/minimax_retention_nogo and /root/d06_closest_audit",
-      "state": "completed_no_go_derivation_and_independent_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/NOGO_MR_01.review.md",
-        "sha256": "289cf5df6f597ca824ad3b80c1d130e28eaf559614d64a6ae3dfe6399c72e827"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/commutator_candidate and /root/d05_closest_audit",
-      "state": "completed_no_go_derivation_and_independent_review",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OC_01.review.md",
-        "sha256": "f1eaf879f4b6038cbb3b44c1890f46379a1bc25c32e9fee67e1c2d413782f695"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/influence_ledger_candidate",
-      "state": "completed_control_identity_rejected_as_distinct_method",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
-        "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
-      },
-      "execution_boundary": "mathematics only; no project execution"
-    },
-    {
-      "identity": "/root/measurement_feasibility",
-      "state": "completed_native_measurement_feasibility_read",
-      "artifact_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/MEASUREMENT_FEASIBILITY_2026-10-09.md",
-        "sha256": "36695688721c7f42e195a702befbb9349d96a069496681e63ac811731b3b87d4"
-      },
-      "execution_boundary": "source/static benchmark reading only; no download, scorer, model or project execution"
+      "identity": "/root/retention_candidate",
+      "result": "D07 WTSR conditional math candidate authored; scientific admission pending",
+      "artifact": "research/delta-discovery-2026-10-08/cards/D07.json"
     }
-  ],
-  "scope_statement": "No new candidate model code, full experiment matrix, software test, data/model download, inference, scorer or GPU execution. Upstream source text captures remain scratch; compact immutable source byte manifests are delivered."
+  ]
 }
