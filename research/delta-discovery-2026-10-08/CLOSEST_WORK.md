@@ -63,3 +63,9 @@
 
 唯一未闭的是 information-dependent random metric、完整递归 state Jacobian 与因果在线估计的共同耦合；它尚无自然真值、定理或可计算方案，因此只保留未准入 lead。LongMemEval 的 QA arm 有 endpoint，retrieval arm 有 turn/session evidence labels，但都不标注 ideal Delta edit、内部删除、Jacobian 或 action rank。详见 [审计](sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md) 与 [独立审查](reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md)。
 
+## Step2 递归随机条件矩的闭合
+
+[完整推导](STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md)把剩余耦合写成 `B^T sum J^T C J B`：它是沿 teacher-forced 轨迹的 CE/GGN 加权有限时域 differential/variational observability Gramian。精确 Hessian 还含 residual 与 dynamics/readout 二阶曲率；binary CE `z(u)=u^2,y=1,u=0` 给出 gradient=GGN=0、exact Hessian=-1 的最小反例。DNI、RTRL/UORO/e-prop、DDP/iLQR 与 DSSR 分别覆盖 future-gradient prediction、递归 sensitivity/sketch、二次 cost-to-go 与 logged-future writer rollout。
+
+[固定来源/接口/native审计](sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md)保留 variational-Gramian、UORO/e-prop、iLQR 代码 pin 以及 bAbI/LAMBADA/LongMemEval 的真实标签边界。prefix-only 条件矩可用 suffix 作随机 teacher，但逐 suffix Newton 动作不能先求解再平均；自由运行分布被 edit 改变时还缺 score-function/反事实识别项。该线索形成严谨控制和误差界，没有获得 D 编号；当前残余只剩 Delta rank-one 结构能否给出相对 direct action/CE/synthetic-gradient 的可证明低成本优势。
+

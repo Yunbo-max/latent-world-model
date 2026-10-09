@@ -23,3 +23,5 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 后续[真实预测监督与决定充分性推论](STEP2_OBSERVED_PREDICTIVE_TARGET.md)关闭预测监督对象的定义，并给出rank-one/gate条件、完整CE/GGN的代理边界与随机风险信息价值恒等式；[双重审查](reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md)按实际最终SHA绑定。它是同一Step2线索，TTT/ridge/Bayes/proximal已知基础和专门近邻缺口均保留，未完成自然重要性/估计成本/科学准入，不进入任何排名；活动/准入/选择仍为0。
 
 [决定充分性的低秩控制](STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md)进一步证明：在固定 SPD 二次 regret、线性 feature/head 下，宽度 `r` 的最优额外风险就是加权 action operator 的尾奇异值能量，多任务共享使用 stacked operator 且必须保留不可约 residual。它经最终字节数学/来源审查后仍被 Task-Sufficient Contraction、Bayes quotient、DSSR 与 RRR/EYM 分块直接覆盖，只留下随机信息依赖 metric × 递归 Jacobian × 因果估计的未准入残余。因此不分配 D 编号，不进入排序；计数仍为 **5历史 / 0活动 / 0准入 / 0选择**。
+
+[递归随机条件矩控制](STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md)现已把该残余严格化：固定 teacher-forced 后缀上的联合对象是完整状态 Jacobian 拉回的 GGN/变分可观测 Gramian，精确 Hessian 另有可能不定的动力学/读出曲率；prefix-only predictor 是 synthetic-gradient/critic 类估计，编辑改变未来分布时还缺反事实项。动作/二次风险误差界可证，但 observability、GGN/DDP/iLQR、DNI、RTRL/UORO/e-prop 与 DSSR 已覆盖主要部件，native 数据也没有条件矩或理想 edit 标签。故仍不分配 D 编号、不进入排序；全池和 top-15 均未形成，计数不变。

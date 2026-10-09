@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T10:30:00Z",
+  "recorded_at": "2026-10-09T11:43:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -103,7 +103,8 @@
     "Independently derived and reviewed retroactive rollback, set-valued feasible-map, orthogonal-value and provenance-tensor routes. They reduce respectively to published receipt transport plus checkpoint replay, classical set-membership/version spaces, Gram-constrained orthogonal editing or exact ordinary Delta, and TPR/Fast Weight Memory plus routed slots. All were retained as controls; counts remain five historical, zero active, zero admitted and zero selected.",
     "User-directed step2 re-entry: derived full versus frozen Jacobian product difference, coupled query-target quadratic Bayes edit with nonzero cross moment, conditional-moment sufficiency/random-action penalty and value-of-observed-evidence identity. Root self-check only; independent review and method admission pending. Preserved 5 history / 0 active / 0 scientific / 0 selected.",
     "Independent exact-byte reviews completed for noisy-key identification/prediction control and joint conditional-risk supplement; primary EIV/Bayes/APO and fixed author/native interfaces audited. Preserved concurrent a00997c Step2 reentry. These are conditional mathematical/source outcomes, not new admitted cards or execution.",
-    "Step2 action-sufficient rank control derived and independently exact-byte reviewed: fixed-SPD linear width risk is weighted RRR tail energy, while Task-Sufficient Contraction/Bayes quotients/DSSR/RRR-EYM directly cover the static pieces. Retained only an unadmitted random-metric × recursive-Jacobian causal-estimability lead; counts remain five historical, zero active/admitted/selected; no project execution."
+    "Derived the complete recursive edit gradient, exact Hessian and CE/GGN finite-horizon variational-Gramian decomposition; added matrix-free JVP/VJP, estimator-to-action regret and local sufficient-decrease bounds plus explicit teacher-forced/free-running identification limits.",
+    "Two independent exact-byte reviews accepted the corrected recursive-random-metric math and source/native audit. Major components collide with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; no D ID or candidate admission."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -147,18 +148,18 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-09T09:53:57.690619+00:00",
-    "last_run_time": "2026-10-09T09:53:34.004818+00:00",
+    "service_updated_at": "2026-10-09T09:06:04.799316+00:00",
+    "last_run_time": "2026-10-09T09:05:41.851522+00:00",
     "last_run_scope": "service timestamp for prior invocation; current actual Work math invocation separately observed",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T10:30:00Z",
-    "configuration_note": "Current same-task Step2 Work invocation preserved; no task mutation/new task. Action-sufficient rank control received independent final-byte math and source acceptance."
+    "last_math_milestone_recorded_at": "2026-10-09T11:43:00Z",
+    "configuration_note": "Current same-task Step2 prompt and concurrently published owner goal preserved. No task mutation/new task performed."
   },
-  "next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
+  "next_action": "Continue Step2 only on the Delta-specific structural residual after the recursive conditional metric closed as a known variational-Gramian/GGN/critic synthesis: determine whether rank-one edit structure enables a prefix-only estimator with a provable compute, variance, reuse or sample-complexity advantage over same-information direct action, CE, synthetic-gradient and DSSR controls. Preserve off-policy/free-running and native-label gaps; no D ID without non-colliding construction and review. Math-only scope and 20/15 deficits persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -275,20 +276,9 @@
       "scope": "Math/source-only partial milestone: retroactive rollback, set-valued feasible-map, orthogonal-value and provenance-tensor routes were independently reviewed and retained only as controls. Zero active/scientifically admitted/selected candidates and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     },
-    "delta_math_action_sufficient_rank_milestone": {
-      "parent_head": "1b91721f5141de01ce1a167b5620aab270c0578f",
-      "paths": [
-        "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
-        "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
-        "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
-        "research/delta-discovery-2026-10-08/PROGRESS.json",
-        "research/delta-discovery-2026-10-08/GOAL.md",
-        "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
-        "research/delta-discovery-2026-10-08/RANKING.md",
-        "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
-        "research/workflow-checkpoint.json"
-      ],
-      "scope": "Math/source-only Step2 milestone: weighted action-RRR width control and multi-task conditions independently accepted; direct TSC/Bayes/DSSR/RRR collisions recorded; zero active/scientifically admitted/selected candidates and no project execution.",
+    "delta_math_recursive_random_metric_milestone": {
+      "parent_head": "ead8a4ed7a38c37653ca9c2acab525c0aabe0278",
+      "scope": "Math/source-only Step2 milestone: complete recursive edit gradient and exact-Hessian versus GGN/variational-Gramian decomposition, matrix-free products, action-regret and local-decrease bounds, causal/off-policy boundary, pinned primary/code/native audit and two independent exact-byte reviews. Major component collision; zero new candidate/admission/selection and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
@@ -651,7 +641,7 @@
       }
     ]
   },
-  "research_next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
+  "research_next_action": "Continue Step2 only on whether Delta rank-one edit structure yields a prefix-only conditional metric/action estimator with a provable compute, variance, reuse or sample-complexity advantage over same-information direct action, CE, synthetic-gradient and DSSR controls. Preserve teacher-forced/free-running identification and native-label gaps. No new D ID until a non-colliding construction and independent review; 20/15 deficits and math-only scope persist.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -707,17 +697,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "step2_action_sufficient_rank_control_independently_reviewed",
+    "status": "step2_recursive_random_metric_control_independently_reviewed",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "1b91721f5141de01ce1a167b5620aab270c0578f",
+    "current_delivery_parent": "ead8a4ed7a38c37653ca9c2acab525c0aabe0278",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "Under fixed SPD quadratic regret and linear feature/head, optimal width-r error is irreducible residual plus weighted action-operator tail singular energy; the multi-task operator stacks task blocks. TSC/Bayes quotients/DSSR/RRR-EYM directly cover the static pieces, leaving only an unadmitted random-metric × recursive-Jacobian causal-estimability lead.",
-    "originality_and_native_measurement": "major direct collision; LongMemEval QA and evidence-location labels do not identify ideal Delta edit/internal rank; zero scientific admission",
+    "latest_math_result": "For a fixed teacher-forced suffix, the full-state Jacobian pulls CE/GGN curvature into edit space as a weighted finite-horizon variational observability Gramian. The exact Hessian also contains local residual and dynamics curvature and may be indefinite. Prefix-only conditional prediction has explicit estimator-to-action and local-decrease bounds, but free-running distribution shift is not identified by logged suffixes.",
+    "originality_and_native_measurement": "major component collision with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; native ideal-edit/Jacobian/conditional-metric labels absent; no candidate admission",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -728,13 +718,14 @@
       "native_variant_correction": "actual project lambada_openai; prior feasibility table standard retained as stale historical description",
       "same_line_not_new_candidate": true
     },
-    "step2_action_sufficient_rank": {
-      "entry": "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
-      "sha256": "6110b33f940e09eba35054ec5f37020e6da9a0f4be199a5d70b3b575060f0f69",
-      "source_audit": "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
-      "source_sha256": "a13ce847ebe4a9d53c8eb767e5097d0cff21a156d2c6f69dc69d4977eeb53a02",
-      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
-      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_direct_collision;not_candidate"
+    "step2_recursive_random_metric": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "sha256": "0e992547b81d56213d0b189a727f995cfddfa4ea69343794ad9084c0ed539cb0",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md",
+      "source_sha256": "3091825d9bf093907a53dfb9ee4aec5f00e0946f16353c09c80f2aa5f75f6f84",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_component_collision;not_candidate",
+      "same_line_not_new_candidate": true
     }
   }
 }

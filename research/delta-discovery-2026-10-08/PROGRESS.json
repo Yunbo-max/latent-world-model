@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T10:30:00Z",
+  "recorded_at": "2026-10-09T11:43:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_action_sufficient_rank_control_independently_reviewed",
+  "status": "step2_recursive_random_metric_control_independently_reviewed",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -44,7 +44,7 @@
     "service_updated_at_observed": "2026-10-09T09:53:57.690619+00:00",
     "service_last_run_time_observed": "2026-10-09T09:53:34.004818+00:00"
   },
-  "delivery_parent": "1b91721f5141de01ce1a167b5620aab270c0578f",
+  "delivery_parent": "ead8a4ed7a38c37653ca9c2acab525c0aabe0278",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -99,16 +99,19 @@
       "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md",
       "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md",
+      "research/delta-discovery-2026-10-08/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "research/delta-discovery-2026-10-08/sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md"
     ],
     "latest_substantive_results": [
-      "Observed future token CE closes predictive supervision without latent validity labels; fixed value rank-one optimum, gate reachability/constraint regret and orthogonal residual boundary derived.",
-      "Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency.",
-      "For fixed SPD action regret, linear features and heads, the optimal width-r excess is the weighted reduced-rank tail singular-value energy; multi-task sharing uses a stacked operator and includes irreducible residuals.",
-      "Task-Sufficient Contraction, Bayes quotients, DSSR and RRR/EYM directly cover the static sufficiency/regret-profile/rank pieces; only random information-dependent metrics plus recursive causal estimability remain an unadmitted lead."
+      "For a fixed teacher-forced suffix, the full-state Jacobian pulls CE/GGN curvature into edit space as a finite-horizon weighted variational observability Gramian; the exact Hessian also contains local residual and dynamics curvature and can be indefinite.",
+      "A forward-JVP/backward-VJP product computes the GGN action metric without materializing it; suffix realizations can supervise a prefix-only conditional predictor but do not reveal a per-prefix conditional mean for free.",
+      "Gradient/metric estimator error yields an explicit damped action-regret bound and a Taylor sufficient-decrease condition; averaging suffix-wise Newton actions is generally not the conditional-risk optimum.",
+      "Observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR cover the major components; free-running distribution shift remains unidentified from teacher-forced text, so no candidate is admitted."
     ]
   },
-  "next_action": "Continue Step2 only on the residual not already split across Task-Sufficient Contraction and RRR/EYM: derive whether an information-dependent random metric coupled to the recursive full-state Jacobian admits a causal, tractable estimator under real text supervision. Compare against direct CE/action predictors and DSSR forward rollout; do not fabricate ideal edits or internal-rank labels. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
+  "next_action": "Continue Step2 only on the remaining Delta-specific structural question: determine whether rank-one edit structure permits a prefix-only conditional Gramian/action estimator with a provable compute, variance, reuse or sample-complexity advantage over the same-information direct action, CE, synthetic-gradient and DSSR controls. Preserve teacher-forced versus free-running identification and native-label gaps; do not assign a D ID without a non-colliding construction and independent review. The 20/15 deficits and math-only boundary persist.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -410,6 +413,22 @@
         "research/delta-discovery-2026-10-08/sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
         "research/delta-discovery-2026-10-08/reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md"
       ]
+    },
+    {
+      "identity": "/root/recursive_metric_math",
+      "result": "Independent exact-byte acceptance after correcting horizon weights, local residual curvature, exact Hessian recursion, GGN JVP/VJP and local-decrease conditions",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md"
+      ]
+    },
+    {
+      "identity": "/root/recursive_metric_sources",
+      "result": "Independent primary/code/native audit of variational Gramians, RTRL/UORO/e-prop, synthetic gradients, GGN/DDP-iLQR and fixed benchmark interfaces",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md"
+      ]
     }
   ],
   "step2_reentry": {
@@ -458,6 +477,23 @@
         "decision-focused learning / DSSR"
       ],
       "residual": "information-dependent random metric coupled to recursive causal Jacobian and estimability; unadmitted",
+      "same_line_not_new_candidate": true
+    },
+    "recursive_random_metric_control": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "sha256": "0e992547b81d56213d0b189a727f995cfddfa4ea69343794ad9084c0ed539cb0",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md",
+      "source_sha256": "3091825d9bf093907a53dfb9ee4aec5f00e0946f16353c09c80f2aa5f75f6f84",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_component_collision;not_candidate",
+      "direct_collisions": [
+        "differential/variational observability Gramian",
+        "GGN/Fisher and DDP/iLQR",
+        "DNI/synthetic gradients",
+        "RTRL/UORO/e-prop",
+        "DSSR recursive future-loss rollout"
+      ],
+      "residual": "Delta rank-one structure must yield a provable prefix-only compute/statistical advantage over same-information direct action/CE/critic controls; unadmitted",
       "same_line_not_new_candidate": true
     }
   }

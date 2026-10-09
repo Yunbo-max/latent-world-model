@@ -103,3 +103,11 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 这个结果没有获得候选资格。原因不是公式错，而是新审计找到了更直接的拆分覆盖：Task-Sufficient Contraction/Bayes quotient 已处理任务相关 source 与完整 regret profile，DSSR 已处理递归 writer 的未来 reader loss，RRR/Eckart--Young 已处理低秩截断。简单组合这些已知块不能冒充新方法。LongMemEval 虽有 QA 与 evidence-retrieval labels，仍没有 ideal Delta edit、内部删除或 action-rank 真值。
 
 下一步只追踪一个更窄但真实未闭的问题：information-dependent random metric 是否能与完整递归 Jacobian 形成因果、可估计、比直接 CE/action predictor 更有判别力的构造。当前仍是 **5历史 / 0活动 / 0科学准入 / 0选择**，没有运行代码或实验。
+
+## Step2 新结论：完整路径把“联合条件矩”变成已知 Gramian
+
+这轮把上一条残余推到底。对一次低维 Delta edit，未来 CE 的一阶项是完整状态 Jacobian 反传的 gradient，PSD 二阶项是 `B^T sum J^T C J B`。它确实同时编码“修改能不能活到以后”和“以后哪些输出/query重要”，但数学上就是沿当前轨迹的 GGN 加权有限时域可观测 Gramian；精确 Hessian 还要加可能为负的动力学/读出曲率。最小反例中 `z(u)=u^2`、正标签、`u=0` 时 gradient 和 GGN 都为零，而 exact Hessian 为 `-1`，所以局部 PSD metric 不能冒充真实曲率或稳定证书。
+
+部署时不能读取未来后缀。后缀只能在训练中提供随机 teacher，prefix-only 学习退化为 synthetic gradient/critic；RTRL、UORO、e-prop、DDP/iLQR 和 DSSR 已分别覆盖完整 sensitivity、随机 sketch、eligibility、未来二次 risk 与递归 rollout。逐后缀求 Newton edit 再平均一般也不是总体最优 edit。若 edit 会改变以后自由生成的 token/query 分布，teacher-forced derivative 还遗漏分布变化项，没有 overlap、环境或可信反事实模型就不可识别。
+
+因此这轮得到的是一个有价值的统一解释、显式动作误差界和清晰失败条件，不是新候选。真正可能的新空间已缩到很窄：利用 Delta 的 rank-one 结构，在 prefix-only、无泄漏和固定计算预算下，证明一个结构化条件矩 estimator 比同信息的 direct action、普通 CE 或 synthetic-gradient predictor 更便宜或样本效率更高。当前没有这个结果，仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行代码或实验。
