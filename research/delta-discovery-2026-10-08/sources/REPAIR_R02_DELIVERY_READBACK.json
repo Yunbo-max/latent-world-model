@@ -1,0 +1,30 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "repair_id": "R02",
+  "version": "v1",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "9d3bdf5cd51a3a80fd26abf8b797160ff22e807b",
+  "commit": "e64d9a17c276ee33cea9467dbef11fcca97ee468",
+  "force": false,
+  "verified_at": "2026-10-09T18:59:00Z",
+  "all_exact": true,
+  "artifact_sha256": "b3460e4b433cd7b56302f3587cc7664f39cd9858f4c273401da68f54e49686da",
+  "source_audit_sha256": "adf659acb8a91fe2ca08b3758a302886c77280e8fa9b25e11655bf675ed593be",
+  "math_review_sha256": "3dbe7c355e0c2e8cc009a582f104670aa4b369ccec4c8f0794ad5abf180da044",
+  "source_review_sha256": "53469be615ed2605211cc1a8f5c3fb827e4dc8ea54f4cf32c8cb0880713fc8b3",
+  "paths": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md", "blob": "5280f693be05764c972713940f7f380bf8ded7fc", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_RANDOMIZED_ACTION_CREDIT_SOURCE_AUDIT.md", "blob": "2b78bed71b2b7a42065c391bc39b6e718f9ff494", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.math-review.md", "blob": "4d1de4f6837fe0357301a51278398a1d53a39f80", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02.source-review.md", "blob": "cc59092bb11afcd409a82477930b9e79a467f0e6", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob": "285d13ad2384fd5f09e0a7264a54d3bc0ce4f343", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob": "58c2bb9300132aebc57591b27db8d259b13b324c", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob": "97ea490943c14ac5317508384d3e24c70a0967b3", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob": "79cdbc4bcbcabc0221d0a453a2674c9b171ed095", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob": "0bfa09aca10a8e753dac5d33688b2c767b19f4cb", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "blob": "2488bed1b9576dc82481b359388480f1c9cb58f4", "exact": true},
+    {"path": "research/workflow-checkpoint.json", "blob": "bf3b1f91bdb6fb0e0227d42afcbef6ec53163797", "exact": true}
+  ],
+  "execution_boundary": "Static mathematics, primary-source and read-only implementation inspection, hashing and repository round-trip only; no model or benchmark execution."
+}

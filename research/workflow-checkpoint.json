@@ -816,7 +816,7 @@
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "9d3bdf5cd51a3a80fd26abf8b797160ff22e807b",
+    "current_delivery_parent": "e64d9a17c276ee33cea9467dbef11fcca97ee468",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
@@ -1006,7 +1006,12 @@
         "Prove a matched-budget Delta-structured outcome/control-variate variance or sample-complexity advantage.",
         "Prove a protection-aware behavior policy with positivity and an old-query-damage bound.",
         "Prove a sufficient compressed Delta history for sequential DR with lower state or compute."
-      ]
+      ],
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_DELIVERY_READBACK.json",
+        "sha256": "c934aa77a77f2ca9024533ed3ef7b776acf0fe0087718d5fee21e74bf73aa117"
+      },
+      "delivery_status": "published_expected_parent_main_and_all_11_substantive_files_exact_byte_readback_completed_at_e64d9a17c276ee33cea9467dbef11fcca97ee468"
     }
   },
   "delta_updater_rsi_math": {
