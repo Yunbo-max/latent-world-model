@@ -104,6 +104,11 @@
       "status": "accepted_conditional_Delta_safe_logging_control_not_candidate"
     },
     {
+      "path": "research/delta-discovery-2026-10-08/repairs/R03_COUPLED_HORIZON_SAFETY.v2.md",
+      "sha256": "4c083cba9b45ebb27d82996aff894836ec832b993632e9992645b3a865fb5761",
+      "status": "accepted_conditional_coupled_horizon_safety_control_parked_after_attempt_2_not_candidate"
+    },
+    {
       "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v1.md",
       "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d",
       "status": "superseded_v1_geometry_error_preserved"
@@ -126,7 +131,8 @@
     "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting.",
     "repair_controls_count_as_candidates": false,
     "notes": [
-      "R01–R04 repair/control records do not populate active pool or selection."
+      "R01–R04 repair/control records do not populate active pool or selection.",
+      "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {

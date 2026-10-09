@@ -124,3 +124,9 @@ R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没
 [第三次修订](repairs/R04_CONSOLIDATION_DYNAMICS.v3.md)不再只说“选可靠的 C”，而把慢端/快端可表示接口、v2 的有序 `E(I-D)` 传播、真实未来输出风险和保护约束拉回同一低维控制 `z`。普通二次风险给联合充分矩 `G,g` 与受约束 normal equation；它们是已知决策数学，不冒称新定理。均匀衰减、无后续写入的标量特例给出清楚边界：仍有效概率 `p` 只有超过不做巩固时的自然存活率 `alpha^T` 才应正迁移。这个阈值是通用快慢决策边界在本 Delta 子模型中的实例，并非 Delta 独有。
 
 独立审查修正了正则化两世界、frozen-law、正交保护基和“相关不必严格变差”等措辞。来源复核完成 Dual-Layer Agentic Memory v2 全文公式、Leimer 2019 快慢选择公式、Goldman 2024 作者 notebooks，并区分两篇同名 Sleep；cost-aware routing、选择性慢巩固、普通 normal equation 均已有强近邻。故 R04 在第三次修订后 park：数学条件结果保留，贡献差异与原生机制测量未闭，实验未知；计数仍为5历史/0活动/0准入/0选择。
+
+## R03 v2：把局部损伤改成耦合时域证书
+
+[第二次修订](repairs/R03_COUPLED_HORIZON_SAFETY.v2.md)把 R03 v1 的单步 `rank-one` 位移扩展为 `即时 Delta 注入 × 完整 memory/updater 增量增益 × 未来保护输出敏感度` 的有限时域能量界，并把它回代到安全 logging 的 propensity 可行性。独立数学审查先返回 REVISE，要求补齐 endogenous query 的复合 map、部署前 `F_t` 可测的 simultaneous bounds、随机动作期望安全与逐动作 hard safety之别、floor-simplex 与 PSD/shared-law 条件；修正后的最终字节通过复审。
+
+结果在明示条件下成立，但不是新算法：SEPEC/Safe Optimal Design 覆盖安全日志优化，小增益/保护纤维覆盖动力学界，RTRL/UORO/e-prop 等覆盖完整 sensitivity。当前只保留“Delta 即时注入如何改变长期安全—positivity 可行性”的窄理论接口；自由运行总效果、同预算证书优势与原生 joint propensity/protected-validity/counterfactual 测量仍未闭。R03 在第二次修订后 park，不计新 D；计数仍为5历史/0活动/0准入/0选择，没有执行代码或实验。

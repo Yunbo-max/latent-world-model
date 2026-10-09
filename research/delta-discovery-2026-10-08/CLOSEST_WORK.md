@@ -137,6 +137,12 @@ generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不
 - **Residual difference:** a cheap Delta rank-one local certificate can instantiate the generic safe-design cost, but no strict same-budget advantage or long-horizon semantic certificate is proved.
 - **Disposition:** useful control/theoretical boundary; parked after R03 v1; not an active candidate.
 
+### R03 v2 — coupled-horizon repair
+
+[R03 v2](repairs/R03_COUPLED_HORIZON_SAFETY.v2.md) replaces the unsupported jump from one-step displacement to long-horizon safety with a conditional theorem on the complete joint memory/updater state. The bound uses pre-action measurable simultaneous tube constants, ordered products of complete-step gains, and an augmented observable for endogenous future queries. Its hybrid form retains the exact Delta first-step term and bounds only later propagation; the logging simplex is feasible exactly when `b_H >= epsilon_mu sum_a Ubar_a + (1-K epsilon_mu) min_a Ubar_a`, with `K epsilon_mu <= 1`.
+
+This does not create a new safe-learning mechanism. Safe exploration/design supplies the propensity optimization; incremental stability and small-gain analysis supply the dynamical certificate; RTRL-family work supplies full sensitivity alternatives. The certificate controls conditional expected harm under the randomized action distribution, not every action, and a common-exogenous trajectory does not identify free-running distribution effects. Existing LongMemEval/SEAL/CITB/TRACE/bAbI/LAMBADA interfaces do not jointly expose propensities, protected-validity labels, uniform gains, and counterfactual outcomes. Exact-byte math and source reviews accept the scoped theorem but keep R03 parked with zero candidate admission.
+
 
 ## R04 consolidation repair/control
 

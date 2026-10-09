@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09 21:50:54 UTC",
+  "recorded_at": "2026-10-09 22:44:52 UTC",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R04_v3_joint_selection_final_bounded_repair_parked_no_candidate",
+  "status": "repair_R03_v2_coupled_horizon_final_byte_reviews_accepted_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "70c8dc7b83a2a0b4328a4cd2a26750cf6ad8d5da",
+  "delivery_parent": "bcb8a7e486267ba0ddf36aad08b43e444d320cfd",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -140,11 +140,12 @@
       "R01 v2 keeps the nominal Delta memory full-width and compresses only a decision-relevant tangent/credit quotient U=XW. For nondegenerate steps, exact fixed-W quotient closure requires the gate covector G to satisfy G=GWW^T; exact scalar credit additionally requires C=CWW^T. A row-span lower bound, time-varying carry kernel condition, leakage recurrence and two 2x2 counterexamples preserve the capacity and rotating-basis failure boundaries. Independent final-byte math and source reviews accepted this only as a conditional Delta specialization of known lumping/goal-oriented reduction principles; originality, matched-budget advantage and empirical effect remain open, so no D candidate was admitted.",
       "R02 repaired the passive counterfactual-write information gap by adding logged randomized finite Delta actions and real delayed outcomes. Known-propensity AIPW identifies finite-horizon total action effects under consistency, overlap, nuisance independence/cross-fitting or predictability, and a common continuation policy; delayed MAR and sequential-DR extensions, iid/reset variance, tail bounds, and seven failure boundaries were independently checked. The estimator is established generic AIPW/OPE, does not identify individual historical source signs or semantic validity, and LongMemEval is only an endpoint benchmark, so the result is retained as a causal control with zero candidate admission.",
       "R03 repaired R02 with an exact Delta rank-one protected-query displacement certificate, protected squared-risk cross-term/sufficient bound, and explicit positivity-damage feasibility boundary; generic safe logging/design collision prevents candidate admission.",
+      "R03 v2 repaired the one-step-only gap with a pre-action measurable coupled-state gain certificate, endogenous-query composite observable, exact-first-step hybrid horizon bound, and exact logging-simplex feasibility condition. Independent final-byte math/source reviews accept the conditional expected-harm theorem, not actionwise semantic safety, free-running total-effect identification, novelty, same-budget advantage or empirical utility; no candidate was admitted.",
       "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
       "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D."
     ]
   },
-  "next_action": "R04 has exhausted its three bounded substantive repairs and is parked. Continue from another promising existing lineage with an actual repair delta; do not reopen R04 without full-text/code novelty evidence plus a same-budget native object that distinguishes joint survival geometry.",
+  "next_action": "R03 v2 is parked after its second substantive repair: its conditional coupled-horizon control is complete, but same-budget advantage, free-running causal safety and native joint measurement remain open. Continue from another existing lineage with a substantive repair delta; do not count R03 v2 as a candidate.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -971,46 +972,55 @@
   },
   "repair_R03_protection_aware_logging": {
     "repair_id": "R03",
-    "version": "v1",
-    "substantive_attempt": 1,
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
     "lineage": [
-      "repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md"
+      "repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+      "repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
+      "STEP2_COUPLED_UPDATER_STABILITY.md"
     ],
-    "artifact_ref": {
+    "original_artifact_ref": {
       "path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
       "sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3"
     },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R03_COUPLED_HORIZON_SAFETY.v2.md",
+      "sha256": "4c083cba9b45ebb27d82996aff894836ec832b993632e9992645b3a865fb5761"
+    },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_PROTECTION_AWARE_LOGGING_SOURCE_AUDIT.md",
-      "sha256": "9cfe58925c73daa861f00ebb5534de47b9cec01c963e3a2e1786850568757067"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_V2_COUPLED_HORIZON_SOURCE_AUDIT.md",
+      "sha256": "ddae48a2983ef030a2f75f7df763e35b20a54344adb7722e3d456e5807d8c844"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.math-review.md",
-      "sha256": "f67dd3e97b78e6cf7a9e131897de42bce12b1a684da75f58efdc012c3e438cde",
-      "reviewer": "/root/r03_safe_logging_math"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.math-review.md",
+      "sha256": "aa224c715f4d5e67bc6e4bbf002cb9b3b6984cf90ded9b0de1394f5f414c7685",
+      "reviewer": "/root/r03_v2_math_review"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.source-review.md",
-      "sha256": "04718f8379058af401140f6c52aebd08efcc0b09fcf8cfb5ab5c2f740aaf962b",
-      "reviewer": "/root/r03_safe_logging_sources"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.source-review.md",
+      "sha256": "3518719a5a451cd25a15bc37d7417276bfe38db95bdb58e0f3ea76fdff449c5c",
+      "reviewer": "/root/r03_v2_source_review"
     },
-    "mathematical_status": "accepted_conditional_Delta_local_damage_certificate_risk_bound_and_overlap_budget_boundary",
-    "contribution_status": "safe_logging_and_constrained_optimal_design_major_collision_SEPEC_SafeOD_control_not_candidate",
-    "measurement_status": "LongMemEval_and_SEAL_endpoint_relevant_but_no_native_Delta_propensity_protected_validity_or_counterfactual_scorer",
+    "mathematical_status": "accepted_conditional_coupled_horizon_output_energy_risk_bound_and_positivity_boundary",
+    "contribution_status": "known_safe_logging_plus_known_incremental_stability;Delta_injection_coupling_is_useful_theory_boundary_not_admitted_method",
+    "measurement_status": "endpoint_and_BWT_assets_exist_but_no_native_joint_propensity_protected_validity_uniform_gain_or_paired_counterfactual_scorer",
     "empirical_status": "unknown_no_execution",
     "candidate_admission": 0,
-    "disposition": "park_after_attempt_1",
+    "disposition": "park_after_attempt_2",
     "reopen_conditions": [
-      "Prove a same-information same-state same-compute Delta-specific statistical or computational advantage over SEPEC, Safe Optimal Design, and hard projection.",
-      "Construct a legally estimable full coupled-state long-horizon damage certificate with dependence-aware sequential OPE.",
-      "Identify a native measurement object for protected validity, propensity, and counterfactual update outcomes without inventing labels."
+      "Prove a same-information same-state same-compute Delta-specific certificate advantage over direct rollout/full Jacobian and robust safe design.",
+      "Identify a nonleaking native sequential object jointly measuring propensity, protected validity and update counterfactuals.",
+      "Derive a computable finite-variance sequential certificate for free-running distribution change rather than only common-path sensitivity."
     ],
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_DELIVERY_READBACK.json",
-      "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
+    "prior_v1_delivery": {
+      "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_DELIVERY_READBACK.json",
+        "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
+      }
     },
-    "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
-    "delivery_status": "published_to_literal_main_and_exact_readback_verified"
+    "delivery_status": "reviewed_final_bytes_prepared_for_expected_parent_main_delivery"
   },
   "repair_R04_consolidation_dynamics": {
     "repair_id": "R04",

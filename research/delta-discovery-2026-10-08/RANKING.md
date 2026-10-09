@@ -46,6 +46,8 @@ R02 is excluded from the candidate ranking. Its conditional causal mathematics p
 
 R03 不进入活动池排名。问题价值高：它正面处理“为了因果识别而探索”与“保护仍有效旧查询”之间的冲突；数学后果也明确，包括局部损伤闭式、平方风险充分界和 positivity–budget 不可行条件。但贡献差异不足：安全 logging / constrained optimal design 已被 SEPEC、Safe Optimal Design 及相关 safe bandit 工作覆盖；实际效果和长期 coupled-state 安全未测。故其身份是 control/boundary，得分不替代候选资格，不能用于 top-15。全池仍 0 活动、0 准入、0 选择。
 
+R03 v2 已修复“单步证书被误当长期证书”的问题：完整耦合状态的有序 gain、内生 query 的复合观测、精确首步加后续上界，以及概率单纯形可行条件均经最终字节复核。它只在事先可审计的统一 tube/gain 条件下给出随机 logging 的条件期望损伤证书，不保证每个动作安全，也不覆盖 edit 改变自由运行分布后的总效应。safe design、small-gain 与 online sensitivity 是强已知对照，原生联合测量仍缺失。因此修复提高了数学完整性，但没有改变 R03 的排名资格：仍为 parked control，候选增量为 0。
+
 
 ## R04修复处置
 

@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T21:50:54Z",
+  "recorded_at": "2026-10-09T22:44:52Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -172,7 +172,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09 21:50:54 UTC",
+    "last_math_milestone_recorded_at": "2026-10-09 22:44:52 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -183,7 +183,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R04 is parked after its third bounded repair. Continue repair-and-rederive from another promising existing lineage; do not reopen R04 without exact novelty evidence and same-budget native joint-survival measurement.",
+  "next_action": "R03 v2 is parked after its second substantive repair: its conditional coupled-horizon control is complete, but same-budget advantage, free-running causal safety and native joint measurement remain open. Continue repair-and-rederive from another existing lineage; do not count R03 v2 as a candidate.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -777,7 +777,7 @@
       }
     ]
   },
-  "research_next_action": "R04 exhausted three bounded substantive attempts and is parked. Continue from another existing repair lineage with a substantive new delta; retain unchanged 20/15 shortage and no experiment/code scope.",
+  "research_next_action": "R03 v2 completed a second bounded repair and is parked as a conditional control. Continue from another existing repair lineage with a substantive new delta; retain unchanged 20/15 shortage and no experiment/code scope.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -833,12 +833,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R04_v3_joint_selection_final_bounded_repair_parked_no_candidate",
+    "status": "repair_R03_v2_coupled_horizon_final_byte_reviews_accepted_pending_delivery_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "70c8dc7b83a2a0b4328a4cd2a26750cf6ad8d5da",
+    "current_delivery_parent": "bcb8a7e486267ba0ddf36aad08b43e444d320cfd",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
@@ -1037,48 +1037,57 @@
     },
     "repair_R03_protection_aware_logging": {
       "repair_id": "R03",
-      "version": "v1",
-      "substantive_attempt": 1,
+      "version": "v2",
+      "substantive_attempt": 2,
+      "max_substantive_attempts": 3,
       "lineage": [
-        "R02_RANDOMIZED_ACTION_CREDIT.v1.md"
+        "R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+        "R03_PROTECTION_AWARE_LOGGING.v1.md",
+        "STEP2_COUPLED_UPDATER_STABILITY.md"
       ],
-      "artifact_ref": {
+      "original_artifact_ref": {
         "path": "research/delta-discovery-2026-10-08/repairs/R03_PROTECTION_AWARE_LOGGING.v1.md",
         "sha256": "af20487798b2c88039013c945c97778dad189266144a5436539d7d780467d7a3"
       },
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R03_COUPLED_HORIZON_SAFETY.v2.md",
+        "sha256": "4c083cba9b45ebb27d82996aff894836ec832b993632e9992645b3a865fb5761"
+      },
       "source_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_PROTECTION_AWARE_LOGGING_SOURCE_AUDIT.md",
-        "sha256": "9cfe58925c73daa861f00ebb5534de47b9cec01c963e3a2e1786850568757067"
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_V2_COUPLED_HORIZON_SOURCE_AUDIT.md",
+        "sha256": "ddae48a2983ef030a2f75f7df763e35b20a54344adb7722e3d456e5807d8c844"
       },
       "math_review_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.math-review.md",
-        "sha256": "f67dd3e97b78e6cf7a9e131897de42bce12b1a684da75f58efdc012c3e438cde",
-        "reviewer": "/root/r03_safe_logging_math"
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.math-review.md",
+        "sha256": "aa224c715f4d5e67bc6e4bbf002cb9b3b6984cf90ded9b0de1394f5f414c7685",
+        "reviewer": "/root/r03_v2_math_review"
       },
       "source_review_ref": {
-        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03.source-review.md",
-        "sha256": "04718f8379058af401140f6c52aebd08efcc0b09fcf8cfb5ab5c2f740aaf962b",
-        "reviewer": "/root/r03_safe_logging_sources"
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.source-review.md",
+        "sha256": "3518719a5a451cd25a15bc37d7417276bfe38db95bdb58e0f3ea76fdff449c5c",
+        "reviewer": "/root/r03_v2_source_review"
       },
       "status": "independent_final_byte_math_and_source_reviews_accepted_conditional_control_not_candidate",
-      "mathematical_status": "accepted_exact_local_Delta_damage_and_risk_bound_with_explicit_scope",
-      "contribution_status": "major_collision_with_SEPEC_Safe_Optimal_Design_and_safe_constrained_bandits",
+      "mathematical_status": "accepted_conditional_coupled_horizon_output_energy_risk_bound_and_positivity_boundary",
+      "contribution_status": "known_safe_logging_plus_known_incremental_stability;useful_Delta_interface_not_admitted_method",
       "empirical_status": "unknown_no_execution",
       "candidate_admission": 0,
-      "disposition": "park_after_attempt_1",
+      "disposition": "park_after_attempt_2",
       "unclosed": [
         "Decision-time protected-set and validity identifiability.",
         "Simultaneous or anytime upper certificates under adaptive actions.",
-        "Semantic and long-horizon coupled-state damage with sequential dependence.",
-        "Strict same-budget advantage over SEPEC, Safe Optimal Design, hard projection and continual-learning controls.",
-        "Native propensity/counterfactual measurement."
+        "Strict same-budget certificate advantage over direct rollout/full Jacobian and robust safe design.",
+        "Free-running distribution-change safety rather than only common-path sensitivity.",
+        "Native joint propensity/protected-validity/counterfactual measurement."
       ],
-      "delivery_readback_ref": {
-        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_DELIVERY_READBACK.json",
-        "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
+      "prior_v1_delivery": {
+        "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
+        "delivery_readback_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_DELIVERY_READBACK.json",
+          "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
+        }
       },
-      "publication_commit": "8087f99a0a06d2bafa523e1ff01bf8fabb2e3cb9",
-      "delivery_status": "published_to_literal_main_and_exact_readback_verified"
+      "delivery_status": "reviewed_final_bytes_prepared_for_expected_parent_main_delivery"
     },
     "repair_R04_consolidation_dynamics": {
       "repair_id": "R04",
@@ -1187,5 +1196,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09 21:50:54 UTC"
+  "updated_at": "2026-10-09 22:44:52 UTC"
 }
