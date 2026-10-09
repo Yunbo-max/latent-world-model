@@ -1,0 +1,27 @@
+{
+  "kind": "exact-main-delivery-readback",
+  "artifact": "R03 v2 coupled-horizon safety repair",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "bcb8a7e486267ba0ddf36aad08b43e444d320cfd",
+  "substantive_commit": "41d5c0644032debb9115839c2dba940b84665ac9",
+  "tree": "86c7ae0d0bcde5aebb3e834247bb7fd515cfc3c4",
+  "readback_at": "2026-10-09 22:46:42 UTC",
+  "method": "github_fetch_file at the exact substantive commit using base64; whitespace-normalized base64 compared exactly against each local staged byte sequence",
+  "all_exact": true,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "sha256": "9d048d1cf5087faf21e6c4b22759c460744fc50ca89793a9eaf40298870c8f89", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "sha256": "e646d31cc778eeba31d17c72bcd138cf699e0823e386583a7a203ccf539e6fb6", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "sha256": "fd8b7af17d59117c6c77bde2ad0c8278b6a85fbedb32a54a8308a3a0a265d80e", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/DISPOSITIONS.json", "sha256": "d74c820c10a095afb65e934ac5e92d0b87835b115e24336cec0211c90068e7a0", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "sha256": "a8d5a833de0a4caf18eb7265cfbabb70ebc722a699cc5084074ca1cd481d3266", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "sha256": "574b3c1d51c5cff4eca3727c404e4243f0a5eb195b310e1f23dc41ab0c836f13", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "sha256": "e4d2b65a87e7136342ec4b5293b908b46766b55ad39da735907545f15362eeab", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R03_COUPLED_HORIZON_SAFETY.v2.md", "sha256": "4c083cba9b45ebb27d82996aff894836ec832b993632e9992645b3a865fb5761", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_V2_COUPLED_HORIZON_SOURCE_AUDIT.md", "sha256": "ddae48a2983ef030a2f75f7df763e35b20a54344adb7722e3d456e5807d8c844", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.math-review.md", "sha256": "aa224c715f4d5e67bc6e4bbf002cb9b3b6984cf90ded9b0de1394f5f414c7685", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V2.source-review.md", "sha256": "3518719a5a451cd25a15bc37d7417276bfe38db95bdb58e0f3ea76fdff449c5c", "exact": true},
+    {"path": "research/workflow-checkpoint.json", "sha256": "18498126ba0c9dae024612d4d6daa898599776a6ed61bee9a9a7ffcf583065ca", "exact": true}
+  ],
+  "scope_note": "Readback proves repository byte delivery only; it does not prove mathematical novelty, empirical utility, candidate admission, or completion of the 20/15 phase."
+}

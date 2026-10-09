@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T22:44:52Z",
+  "recorded_at": "2026-10-09T22:46:42Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -172,7 +172,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09 22:44:52 UTC",
+    "last_math_milestone_recorded_at": "2026-10-09 22:46:42 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -833,7 +833,7 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R03_v2_coupled_horizon_final_byte_reviews_accepted_pending_delivery_no_candidate",
+    "status": "repair_R03_v2_coupled_horizon_published_exact_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
@@ -1087,7 +1087,12 @@
           "sha256": "1d2eb232d3d9ee7ab4ed1207cbdad4c803f836780e26b57945e9f452deb411c4"
         }
       },
-      "delivery_status": "reviewed_final_bytes_prepared_for_expected_parent_main_delivery"
+      "publication_commit": "41d5c0644032debb9115839c2dba940b84665ac9",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_V2_DELIVERY_READBACK.json",
+        "sha256": "a87bedc9fce49c3580bb58257287cd72f195b80d3e20e0d0bf71ce3e9c838c6b"
+      },
+      "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified"
     },
     "repair_R04_consolidation_dynamics": {
       "repair_id": "R04",
@@ -1196,5 +1201,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09 22:44:52 UTC"
+  "updated_at": "2026-10-09 22:46:42 UTC"
 }
