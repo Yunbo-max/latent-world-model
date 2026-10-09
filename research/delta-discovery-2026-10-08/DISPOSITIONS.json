@@ -2,7 +2,7 @@
   "kind": "delta-math-dispositions",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "count_rule": "Only current cards D01/D03/D05/D06 are constructed; no rejection, no-go result, control, schema history or old Q01 is counted as a new candidate.",
+  "count_rule": "Constructed history contains D01/D03/D05/D06, but only D01/D03/D06 remain in the active pool. D05 was removed after major functional collision. No rejection, no-go result, control, schema history or old Q01 is counted as a new active candidate.",
   "records": [
     {
       "id": "D02",
@@ -32,6 +32,21 @@
       ]
     },
     {
+      "id": "D05",
+      "state": "not_admitted_major_functional_collision",
+      "reason": "Conditional local quantization algebra remains valid, but classical input-normal/output-diagonal realization plus STEPQuant/DAMP and adjacent recurrent-state quantization substantially cover the core function. The full future-Gramian residual is too narrow and compositional for scientific admission.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D05.json",
+          "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D05_CLOSEST_FULL_AUDIT.md",
+          "sha256": "32d9e9325e7dc41edd8be5e7d69ac25bdc5ba23c858f75fcda1c8f8f3b03b250"
+        }
+      ]
+    },
+    {
       "id": "NOGO-RC-01",
       "state": "accepted_no_go_result_not_candidate",
       "reason": "If revision and collision worlds are observationally close on the same causal information but require opposite actions, every randomized class-independent policy has equal-prior average error at least (1-TV)/2. Internal randomness or diffusion cannot create missing identifying evidence.",
@@ -54,6 +69,47 @@
         {
           "path": "research/delta-discovery-2026-10-08/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md",
           "sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54"
+        }
+      ]
+    },
+    {
+      "id": "NOGO-MR-01",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "At fixed exact current-key contraction k^T A=(1-beta)k^T, every linear erase has sigma_min(A)<=1-beta, and ordinary Delta attains the minimax bound. Universal worst-direction retention improvement therefore requires changing the objective, information, state or numerical cost.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_MR_01.md",
+          "sha256": "12e7bebba8e234c968ee6911580cbff07663c7ded188e70f385c486a9e63b06d"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_MR_01.review.md",
+          "sha256": "289cf5df6f597ca824ad3b80c1d130e28eaf559614d64a6ae3dfe6399c72e827"
+        }
+      ]
+    },
+    {
+      "id": "NOGO-OC-01",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "Transition commutators omit affine write-order effects; exact ordered affine scan already needs only associativity. Forcing commutation either loses revision semantics or collapses to known orthogonal/slot routes.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_OC_01.md",
+          "sha256": "dfaaa080b0c10b92dab803ace0379f88b4a3ca3daac2501ed5a5d2ed4e0ddcab"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OC_01.review.md",
+          "sha256": "f1eaf879f4b6038cbb3b44c1890f46379a1bc25c32e9fee67e1c2d413782f695"
+        }
+      ]
+    },
+    {
+      "id": "TRANSPORTED-INFLUENCE-LEDGER",
+      "state": "rejected_as_distinct_method_retained_as_control",
+      "reason": "Frozen affine transported writes are exact forward sensitivities/eligibility traces, reduce to D01 for one event, and require stable event identity plus old values for semantic revision; the route is already covered or degenerates to exact event replay.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
+          "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
         }
       ]
     },

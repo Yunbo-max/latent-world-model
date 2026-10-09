@@ -5,55 +5,55 @@
   "scope": "math",
   "artifact_ref": {
     "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-    "sha256": "3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"
+    "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
   },
-  "reviewer": "/root/qdelta_full_audit; independent of author /root/finite_precision_candidate",
-  "reviewed_at": "2026-10-08T23:45:00Z",
-  "outcome": "pending_closest_work",
+  "reviewer": "/root/qdelta_full_audit (conditional mathematics) and /root/d05_closest_audit (primary closest-work and final exact-byte disposition); both independent of author /root/finite_precision_candidate",
+  "reviewed_at": "2026-10-09T01:55:00Z",
+  "outcome": "not_admitted_major_functional_collision",
   "mathematical_outcome": "accepted_conditional_mathematics",
-  "interpretation": "The six mathematical/method checks are accepted only for the declared local one-injection finite-precision model. Primary closest-work review is incomplete, so this is not originality qualification, scientific admission or selection. No code, test, scorer or experiment was executed.",
+  "interpretation": "The six mathematical/method checks remain accepted only for the declared local one-injection finite-precision model. Completed closest-work review found major functional collision with classical input-normal/output-diagonal realization plus STEPQuant/DAMP and adjacent state-quantization work. D05 is retained as constructed history/control but is inactive, not scientifically admitted and not selected. No code, test, scorer or experiment was executed.",
   "checks": {
     "formal_object": {
       "status": "verified",
       "rationale": "Dimensions and transition order are consistent. The card now separates transition F_t from causal information, uses an explicit prefix-only SPD metric predictor, discloses conditional-covariance collapse when exact state is known, requires B>=d b_min, and limits the theorem to one quantization injection.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "operations_and_conditions": {
       "status": "verified",
       "rationale": "For SPD C, T=C^(1/2)U gives T^-1 C T^-T=I and T^T O T=Lambda. The time-varying recurrence uses the required ordered T_t^-1 F_t T_(t-1), transforms both injection and read, and keeps the frozen-future/Jacobian boundary explicit.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "derivation": {
       "status": "verified",
       "rationale": "The trace-risk identity and continuous KKT water-filling are correct under subtractive-dither assumptions. The revision handles B>=d b_min, active sets, zero eigenvalues, separate integer allocation and b_min<=3 in the exact 2D example. Repeated-injection risk is not claimed.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "assumptions": {
       "status": "verified",
       "rationale": "Equal calibrated row ranges, no overload, independent subtractive dither, SPD retained support, basis alignment, T conditioning, metadata, clipping and cross-injection exclusions are explicit. Deterministic rounding and global semantic/CE guarantees are not imported.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "method_expression": {
       "status": "verified",
       "rationale": "The corrected bytes form a pre-current-quantization candidate from the already quantized prior representation. C_theta and O_theta have PSD parameterizations, fixed-reference stopped targets X/Y, prefix sampling, explicit lambda_C/lambda_O Frobenius losses and predictor-only gradients; the causal EMA is correctly a different estimator. CE, post-training quantization and optional QAT remain separated.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "prediction_and_falsifier": {
       "status": "verified",
       "rationale": "The prediction concerns matched local quadratic output disturbance only. Anisotropic gain, isotropic disappearance, stale-metric reversal, static/per-channel baselines and full metadata/kernel cost form legitimate conditional predictions and falsifiers.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"}]
     },
     "closest_alternative": {
-      "status": "pending",
-      "rationale": "D05 is distinct from D03, Q-Delta and rejected residual error feedback at the stated level, but balanced realization, transform/rate-distortion coding, rotation/static scaling and recurrent-state quantization lack complete primary formula/code audit. The source-scope note is an honest boundary, not collision clearance.",
+      "status": "not_admitted_major_functional_collision",
+      "rationale": "Completed primary/static audit found that classical input-normal/output-diagonal realization covers the C/O coordinate principle and STEPQuant/DAMP directly cover ordered Delta-state error propagation, readout impact, persistence and budgeted precision. The full transported-query Gramian/dense generalized basis/prefix predictor is a narrow compositional residual with O(d^3), drift and recurrent cross-injection gaps, insufficient for scientific admission.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D05_D06_NEAREST_SCOPE.md","sha256":"cfe5cab6170f91eeca3383b857f144e542e158f3d2d53f720c3395c9e53e737f"}
+        {"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D05_CLOSEST_FULL_AUDIT.md","sha256":"32d9e9325e7dc41edd8be5e7d69ac25bdc5ba23c858f75fcda1c8f8f3b03b250"}
       ]
     }
   },
   "unresolved_conditions": [
-    "Primary closest-work audit remains incomplete.",
+    "Scientific admission is closed for D05 under the current mechanism; reopening requires a substantively different residual after fresh source review.",
     "The theorem does not cover accumulated recurrent quantization, clipping, basis-estimation error or CE benefit.",
     "Dense/block kernels, metadata and RTX2080Ti feasibility remain unmeasured."
   ],

@@ -2,7 +2,7 @@
   "kind": "method-verification-report",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "batch_digest": "123fcd03f3b470b12f0dba7fdf17378b91fe195c984070135b618c3f9c2652c2",
+  "batch_digest": "8146c19b9f43b4bae11234f94ad4baa2cfd7770222ea2018afefc812a300154c",
   "through": "results",
   "math_pool_verified": false,
   "pool_target": 20,
@@ -23,7 +23,7 @@
     "tool": "installed skill scripts/verify_methods.py, read-only evidence processing",
     "command": "python /root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline/scripts/verify_methods.py --root . --batch research/delta-discovery-2026-10-08/method-batch.json --require math_pool_verified",
     "exit_code": 2,
-    "meaning": "Expected incomplete mathematical pool; no project code, tests or experiments executed. D05/D06 pending reviews are intentional closest-work blockers, not failed conditional algebra.",
-    "selection_deficit_caution": "Checker field14 is min(15, qualified1)-based readiness deficit, not selected count. Actual selected=0 and remaining selection=15; PROGRESS.json records the actual count."
+    "meaning": "Expected incomplete mathematical pool. Checker counts constructed-history records in method-batch, including inactive D05, and does not encode the separate active-pool count. D03 remains the sole schema/evidence-qualified card; this is not originality or scientific admission. No project code, tests or experiments executed.",
+    "selection_deficit_caution": "Checker selection_deficit is readiness-based, not selected count. Actual selected=0 and remaining selection=15; PROGRESS.json records active_constructed=3 and the 17-card active-pool shortfall."
   }
 }

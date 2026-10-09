@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-08T23:46:40+00:00",
+  "recorded_at": "2026-10-09T01:56:00+00:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,9 +10,11 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_four_constructed_nearest_work_pending",
+  "status": "partial_math_milestone_three_active_one_collision_rejected_three_new_no_go_controls",
   "counts": {
     "constructed": 4,
+    "constructed_history": 4,
+    "active_constructed": 3,
     "math_reviewed": 4,
     "conditional_algebra_accepted": 4,
     "math_qualified": 1,
@@ -45,11 +47,11 @@
     "research/ORIGINALITY_MATH_REVIEW_2026-10-08.md"
   ],
   "reused_reading_scope": "Conditional diagnostic derivations and nearest-work audit exist; they are controls/leads, not new qualified candidate cards.",
-  "next_action": "Audit D01 against low-rank recurrent ensembles, D05 against balanced realization/transform coding/rotation and recurrent-state quantization, and D06 against log-det/constrained-gating primary formulas and author interfaces; continue deriving independent residual mechanisms without counting relabeled projection, randomness or known modules.",
-  "delivery_parent": "806692203c91112027084020b4f7a817687b756e",
-  "count_interpretation": "math_qualified is schema/evidence readiness only: D03 remains the sole checker-qualified card. D01, D05 and D06 have accepted conditional mathematics but pending closest-alternative checks. None is scientifically admitted or selected; whole pool and top15 remain unverified.",
+  "next_action": "Continue D01 low-rank recurrent-ensemble and broader D03 collision audits; extend D06 review to online constrained control, Jacobian lower-bound regularization and resource allocation; derive genuinely distinct residual mechanisms without reviving D05 or counting no-go/control identities.",
+  "delivery_parent": "1e9cf6099c19c77e622a976459858730f8bc0a23",
+  "count_interpretation": "Constructed history remains four, but D05 is inactive after major functional collision, so the active pool is D01/D03/D06. math_qualified is schema/evidence readiness only and remains checker-dependent; it is not originality or scientific admission. D06 retains a bounded residual with broader closest-work open. None is scientifically admitted or selected; whole pool and top15 remain unverified.",
   "shortfalls": {
-    "constructed_to_target": 16,
+    "active_constructed_to_target": 17,
     "evidence_math_qualified_to_target": 19,
     "scientific_admitted_to_target": 20,
     "selection_to_target": 15
@@ -81,19 +83,19 @@
     },
     {
       "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-      "sha256": "3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"
+      "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
     },
     {
       "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-      "sha256": "18bfccbd85eec3353273fc89e2ff547004b3928b48b925f4527d89447a4c21e5"
+      "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
     },
     {
       "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-      "sha256": "447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"
+      "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
     },
     {
       "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-      "sha256": "517046828658d2bd9e853544311dceaeca92b9a4255699ae0e3db7f4eb9f3709"
+      "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
     },
     {
       "path": "research/delta-discovery-2026-10-08/sources/QDELTA_FULL_AUDIT.md",
@@ -114,6 +116,38 @@
     {
       "path": "research/delta-discovery-2026-10-08/READING_RECEIPT.json",
       "sha256": "3059b69ed34a601fb791270c7c2543255a6511a0fc7f2507aac081eb9e66b4db"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/D05_CLOSEST_FULL_AUDIT.md",
+      "sha256": "32d9e9325e7dc41edd8be5e7d69ac25bdc5ba23c858f75fcda1c8f8f3b03b250"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/D06_CLOSEST_FULL_AUDIT.md",
+      "sha256": "7da425a3eabcd372a3e7216b07fd807094aabd864a6d3b46c8a6ab3647c14c62"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/MEASUREMENT_FEASIBILITY_2026-10-09.md",
+      "sha256": "36695688721c7f42e195a702befbb9349d96a069496681e63ac811731b3b87d4"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/rejected/NOGO_MR_01.md",
+      "sha256": "12e7bebba8e234c968ee6911580cbff07663c7ded188e70f385c486a9e63b06d"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/rejected/NOGO_OC_01.md",
+      "sha256": "dfaaa080b0c10b92dab803ace0379f88b4a3ca3daac2501ed5a5d2ed4e0ddcab"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
+      "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/NOGO_MR_01.review.md",
+      "sha256": "289cf5df6f597ca824ad3b80c1d130e28eaf559614d64a6ae3dfe6399c72e827"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OC_01.review.md",
+      "sha256": "f1eaf879f4b6038cbb3b44c1890f46379a1bc25c32e9fee67e1c2d413782f695"
     }
   ],
   "workers": [
@@ -176,7 +210,7 @@
       "state": "completed_scoped_artifact",
       "artifact_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-        "sha256": "3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"
+        "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
       },
       "execution_boundary": "mathematics only; no project execution"
     },
@@ -185,7 +219,7 @@
       "state": "completed_source_audit_and_independent_D05_review",
       "artifact_ref": {
         "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-        "sha256": "18bfccbd85eec3353273fc89e2ff547004b3928b48b925f4527d89447a4c21e5"
+        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
       },
       "execution_boundary": "source/static mathematics only; no project execution"
     },
@@ -194,7 +228,7 @@
       "state": "completed_scoped_artifact",
       "artifact_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-        "sha256": "447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"
+        "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
       },
       "execution_boundary": "mathematics only; no project execution"
     },
@@ -203,7 +237,7 @@
       "state": "completed_source_audit_and_independent_D06_review",
       "artifact_ref": {
         "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-        "sha256": "517046828658d2bd9e853544311dceaeca92b9a4255699ae0e3db7f4eb9f3709"
+        "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
       },
       "execution_boundary": "source/static mathematics only; no project execution"
     },
@@ -224,6 +258,60 @@
         "sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54"
       },
       "execution_boundary": "mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/d05_closest_audit",
+      "state": "completed_primary_closest_work_and_exact_byte_disposition_review",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
+        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
+      },
+      "execution_boundary": "source/static mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/d06_closest_audit",
+      "state": "completed_bounded_closest_work_and_exact_byte_review",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
+        "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
+      },
+      "execution_boundary": "source/static mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/minimax_retention_nogo and /root/d06_closest_audit",
+      "state": "completed_no_go_derivation_and_independent_review",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/NOGO_MR_01.review.md",
+        "sha256": "289cf5df6f597ca824ad3b80c1d130e28eaf559614d64a6ae3dfe6399c72e827"
+      },
+      "execution_boundary": "mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/commutator_candidate and /root/d05_closest_audit",
+      "state": "completed_no_go_derivation_and_independent_review",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OC_01.review.md",
+        "sha256": "f1eaf879f4b6038cbb3b44c1890f46379a1bc25c32e9fee67e1c2d413782f695"
+      },
+      "execution_boundary": "mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/influence_ledger_candidate",
+      "state": "completed_control_identity_rejected_as_distinct_method",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
+        "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0"
+      },
+      "execution_boundary": "mathematics only; no project execution"
+    },
+    {
+      "identity": "/root/measurement_feasibility",
+      "state": "completed_native_measurement_feasibility_read",
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/MEASUREMENT_FEASIBILITY_2026-10-09.md",
+        "sha256": "36695688721c7f42e195a702befbb9349d96a069496681e63ac811731b3b87d4"
+      },
+      "execution_boundary": "source/static benchmark reading only; no download, scorer, model or project execution"
     }
   ],
   "scope_statement": "No new candidate model code, full experiment matrix, software test, data/model download, inference, scorer or GPU execution. Upstream source text captures remain scratch; compact immutable source byte manifests are delivered."

@@ -7,6 +7,7 @@
   "candidates": [
     {
       "candidate_id": "D01",
+      "pool_status": "active_constructed",
       "math_card_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D01.json",
         "sha256": "69e735ba43a2c771471b11366b35c62fd0ad67f950b6ca6d636b0d0f7df0cc84"
@@ -20,6 +21,7 @@
     },
     {
       "candidate_id": "D03",
+      "pool_status": "active_constructed",
       "math_card_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D03.json",
         "sha256": "a83f5023c2768efe0592c49347a4d3e93954e4433ef2373be67a204a8f5d8888"
@@ -33,28 +35,30 @@
     },
     {
       "candidate_id": "D05",
+      "pool_status": "inactive_constructed_history_major_functional_collision",
       "math_card_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D05.json",
-        "sha256": "3965fd309898e0e3c96bd82a94839e56a6f0ea990af33f89d8a8d91f70c687b5"
+        "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
       },
       "math_review_ref": {
         "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
-        "sha256": "18bfccbd85eec3353273fc89e2ff547004b3928b48b925f4527d89447a4c21e5"
+        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
       },
-      "scientific_admission": "pending_primary_closest_work_and_measurement",
+      "scientific_admission": "not_admitted_major_functional_collision",
       "selected": false
     },
     {
       "candidate_id": "D06",
+      "pool_status": "active_constructed",
       "math_card_ref": {
         "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-        "sha256": "447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"
+        "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
       },
       "math_review_ref": {
         "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
-        "sha256": "517046828658d2bd9e853544311dceaeca92b9a4255699ae0e3db7f4eb9f3709"
+        "sha256": "5d417e384f3c9884a6b7cea67ed861e11ce65a9aa17e0ee819b4822068bc0d28"
       },
-      "scientific_admission": "pending_primary_closest_work_and_measurement",
+      "scientific_admission": "pending_broader_online_control_jacobian_resource_allocation_collision_audit_and_measurement",
       "selected": false
     }
   ]

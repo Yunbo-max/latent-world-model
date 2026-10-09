@@ -5,55 +5,55 @@
   "scope": "math",
   "artifact_ref": {
     "path": "research/delta-discovery-2026-10-08/cards/D06.json",
-    "sha256": "447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"
+    "sha256": "1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"
   },
-  "reviewer": "/root/voltic_d01_audit; independent of author /root/ordered_propagation_candidate",
-  "reviewed_at": "2026-10-08T23:44:00Z",
-  "outcome": "pending_closest_work",
+  "reviewer": "/root/voltic_d01_audit (conditional mathematics) and /root/d06_closest_audit (closest-work and final exact-byte review); both independent of author /root/ordered_propagation_candidate",
+  "reviewed_at": "2026-10-09T01:55:00Z",
+  "outcome": "conditional_residual_survives_originality_and_scientific_admission_pending",
   "mathematical_outcome": "accepted_conditional_mathematics",
-  "interpretation": "The six mathematical/method checks are accepted for ordinary contractive Delta under the stated gates and frozen coefficients. Closest-work remains open, so this is not originality qualification, scientific admission or selection. No code, test, scorer or experiment was executed.",
+  "interpretation": "The six mathematical/method checks remain accepted for ordinary contractive Delta under the stated gates and frozen coefficients. A bounded closest-work audit did not find the exact causal sliding -logdet projection, but every constituent primitive is known and broader online-control/Jacobian/resource-allocation collision review remains open. This is not originality qualification, scientific admission or selection. No code, test, scorer or experiment was executed.",
   "checks": {
     "formal_object": {
       "status": "verified",
       "rationale": "The corrected object declares B>=0, integer W>=1, finite open gate domains and zero or verified-feasible resume history. Positive determinant and nonnegative log-cost follow for ordinary Delta.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "operations_and_conditions": {
       "status": "verified",
       "rationale": "Determinant multiplicativity preserves the actual factor order. Every ordinary factor has spectral norm at most one even if nonnormal; frozen-feature state transport is explicitly separated from a full neural Jacobian.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "derivation": {
       "status": "verified",
       "rationale": "With the now-explicit post-decay residual, e_t^+=(1-beta_t)e_t. Determinant, sigma_min>=|det| for a contractive product, radial realized cost, sliding-window induction and the e^(-ceil(H/W)B) bound are correct. The oblique extension separately uses -log|det| and its norm penalty.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "assumptions": {
       "status": "verified",
       "rationale": "Finite proposals, feasible initialization, piecewise differentiability, numerical limitations, frozen coefficients and absence of semantic/query correctness are stated. Determinant volume is not promoted to information retention.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "method_expression": {
       "status": "verified",
       "rationale": "The token-bucket projection exactly realizes c_t=min(ctilde_t,p_t), including zero-cost/zero-budget branches. Forward reads W-1 prior costs, but the card now correctly permits reverse dependence through the full suffix and states a.e. autodiff/framework subgradients at kinks plus O(T) activation or recomputation cost.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "prediction_and_falsifier": {
       "status": "verified",
       "rationale": "The prediction is an exact-arithmetic tagged-state singular-value guarantee on admitted windows, not semantic retention, CE gain or query alignment. Violating either rolling cost or the singular-value bound is a valid mathematical falsifier; fixed gates and revision loss are strong practical alternatives.",
-      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"}]
+      "evidence_refs": [{"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"}]
     },
     "closest_alternative": {
-      "status": "pending",
-      "rationale": "The mechanism differs from D03 future-metric writes, QED oblique erase and DeltaProduct microsteps, but orthogonal/unitary RNNs, dynamical isometry, log-det controls and constrained recurrent gating still require primary formula/code audit.",
+      "status": "bounded_residual_survives_broader_audit_pending",
+      "rationale": "scoRNN, soft orthogonality, dynamical isometry, Stable Recurrent Models, pLSTM/chrono, UnICORNN and Gated DeltaNet cover the constituent primitives but the bounded audit did not locate the exact causal sliding -logdet projection on ordinary ordered Delta gates. This negative search is not originality proof; online constrained control, Jacobian lower-bound regularization and resource-allocation families remain open.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"447c54020a45fc2c28aa3ff8a6a31c5ae5c1d04dafedacce97eba503c051b091"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D05_D06_NEAREST_SCOPE.md","sha256":"cfe5cab6170f91eeca3383b857f144e542e158f3d2d53f720c3395c9e53e737f"}
+        {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"1e08fca3445958b8528edccdf95730eb0d47dff87ac76844c2539c17a63cebb5"},
+        {"path":"research/delta-discovery-2026-10-08/sources/D06_CLOSEST_FULL_AUDIT.md","sha256":"7da425a3eabcd372a3e7216b07fd807094aabd864a6d3b46c8a6ab3647c14c62"}
       ]
     }
   },
   "unresolved_conditions": [
-    "Primary closest-work audit remains incomplete.",
+    "A broader primary closest-work audit over online constrained control, Jacobian lower-bound regularization and resource allocation remains incomplete.",
     "The guarantee does not identify important directions or semantic facts.",
     "No associative scan, production implementation or hardware feasibility is established."
   ],

@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-08T23:46:40Z",
+  "recorded_at": "2026-10-09T01:56:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -85,7 +85,11 @@
     "Prepared standalone owner-requested Delta math-only background goal and fresh empty evidence batch; reused disabled task identity with actual configuration receipt. No new math candidates or selection claimed.",
     "Constructed and independently reviewed four current Delta math cards total: D01/D03 plus finite-precision D05 and sliding log-volume D06. Conditional mathematics accepted; scientific admission remains zero.",
     "Completed Q-Delta full-formula/static-author-source and Voltic full-formula audits, narrowing D03 and D01 without claiming novelty.",
-    "Established and independently reviewed a revision-versus-collision total-variation no-go result; retained a protected-projection conditioning boundary as rejected/not-distinct rather than padding the candidate pool."
+    "Established and independently reviewed a revision-versus-collision total-variation no-go result; retained a protected-projection conditioning boundary as rejected/not-distinct rather than padding the candidate pool.",
+    "Completed D05 primary closest-work audit: classical balanced/input-normal realization plus STEPQuant/DAMP and adjacent state-quantization work substantially cover the core function. Retained conditional mathematics as inactive history and removed D05 from the active pool.",
+    "Completed bounded D06 closest-work audit. The causal sliding -logdet gate projection remains a conditional residual, while originality/scientific admission and broader online-control/Jacobian/resource-allocation collision checks remain open.",
+    "Derived and independently reviewed maximin-retention and chronological-commutativity no-go controls; rejected transported influence ledger as forward-sensitivity/eligibility-trace equivalence rather than padding the candidate pool.",
+    "Mapped delayed-influence/order claims to native bAbI, LAMBADA, RULER, LongMemEval and BABILong assets, preserving native scorer and information-access limits without downloads or execution."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -95,7 +99,7 @@
     "Local measures actual parameter count, GPU memory/throughput and admits the full cumulative experiment budget.",
     "Local executes complete chosen training/benchmark matrix and returns real results, cost/failure evidence and scientific review.",
     "Original research-discovery batch and novelty/selection obligations remain pending separately; this engineering source packet does not pass them.",
-    "Current Delta discovery still needs 16 additional constructed cards to reach 20, complete primary nearest-work review for D01/D03/D05/D06, scientific admission, whole-pool ranking and top15 selection."
+    "Current Delta discovery has four constructed-history cards but only three active cards after D05 collision rejection; it needs 17 additional active constructed cards to reach 20, complete closest-work review for D01/D03 and the broader D06 scope, scientific admission, whole-pool ranking and top15 selection."
   ],
   "candidate_state": {
     "constructed": 1,
@@ -137,9 +141,9 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-08T23:46:40+00:00"
+    "last_math_milestone_recorded_at": "2026-10-09T01:56:00+00:00"
   },
-  "next_action": "Continue Delta mathematics from PROGRESS.json: close primary nearest-work families for D01/D05/D06 and broader D03 collision scope, then derive genuinely distinct residual mechanisms. Prior engineering authoring remains closed; Local validation remains separate and was not dispatched.",
+  "next_action": "Continue Delta mathematics from PROGRESS.json: close D01 low-rank recurrent-ensemble and broader D03 collision scopes; extend D06 to online constrained control, Jacobian lower-bound and resource-allocation sources; derive genuinely distinct residual mechanisms without reviving D05 or counting no-go controls. Prior engineering remains closed and Local execution was not dispatched.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -219,6 +223,11 @@
         "research/delta-discovery-2026-10-08/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md"
       ],
       "scope": "Math/source-only partial milestone: four constructed/reviewed cards total, zero scientific admissions/selections; no model code or experiment execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_math_collision_and_no_go_milestone": {
+      "parent_head": "1e9cf6099c19c77e622a976459858730f8bc0a23",
+      "scope": "Math/source-only partial milestone: D05 removed from active pool after major functional collision; D06 bounded residual retained; three additional no-go/control routes and native measurement feasibility recorded. No model code, test, download or experiment execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
