@@ -1,0 +1,28 @@
+{
+  "kind": "delta-math-delivery-readback",
+  "recorded_at": "2026-10-09 21:55:00 UTC",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "70c8dc7b83a2a0b4328a4cd2a26750cf6ad8d5da",
+  "substantive_commit": "a0271d7bd7266d61e5d90a15307d64ca73c87259",
+  "tree": "7bbb1162cc90378e380eb591c944bef8e61da044",
+  "update_ref_force": false,
+  "update_ref_success": true,
+  "exact_content_match_all": true,
+  "files": [
+    {"path":"research/delta-discovery-2026-10-08/GOAL.md","sha256":"e152dcbcf4c56cc078a9d6963d9987d8225a0501050a80cdf11729fdf18e4d81","blob_sha":"185e52609d21bb9cb1c0df900fa68c66e2f5f12e"},
+    {"path":"research/delta-discovery-2026-10-08/PROGRESS.json","sha256":"99f46721bace1e198950fe25c053be34a9a6d3071078cc0aa79203b0e052973e","blob_sha":"5a2a48ce95536a82bd64e0879b57bb7f86336376"},
+    {"path":"research/delta-discovery-2026-10-08/method-batch.json","sha256":"31903ab2e2d2ed6a534b50aa66cbe9b818f211bfe8ae9b56ab3a8fcb5d3a971b","blob_sha":"0405f4319c863ac2f8a55bc8a9eeff5a496afed4"},
+    {"path":"research/delta-discovery-2026-10-08/DISPOSITIONS.json","sha256":"384b37023a046f51d883ce913878dd530708aa188d5354a44f45f1821daac4f6","blob_sha":"a1201424545f3d0ea235bb715e114903d0a8777c"},
+    {"path":"research/delta-discovery-2026-10-08/CLOSEST_WORK.md","sha256":"72345fd17095b15693ee21a489a6d9333762c3bd637a0f842235c8b923967e54","blob_sha":"f7c6417fc93fae25e9536804be6764b4e1a36a6e"},
+    {"path":"research/delta-discovery-2026-10-08/RANKING.md","sha256":"7bf4ac76f1fcf8dffa2c772a531d1b45375a5a0c4a1e0f3de97afea0772deefb","blob_sha":"3d978a057d4bdb5e87ebc34a179843bfe84531c7"},
+    {"path":"research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md","sha256":"0b6cf5b05d357460799e039ef2a572124844a84d4b8f2e7b83f9c73519f42341","blob_sha":"c7a7f916542d5ee4fc1f847e5d50959d8edf6e1d"},
+    {"path":"research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md","sha256":"eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093","blob_sha":"0d1c56a464c41582b5e408c740af36fc104f0cdd"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.math-review.md","sha256":"2713610e69fcaec442ceecba24ceadf653fd1b2702c25f05b10beab3f9b4e0b5","blob_sha":"5a80080f6f433adcf87ffa7d2ab6b23c673a9a46"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.source-review.md","sha256":"4c49833c0c3d28a9507c5ed3469480d934c5e63015f412190a0c733bbfd00467","blob_sha":"724a97b5c5e1ab1695ed61f0e7aa56b7c99dcf6d"},
+    {"path":"research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_CONTEXT_READBACK.json","sha256":"f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954","blob_sha":"e110014de194a7fc85a9420c6c57125ec25ea028"},
+    {"path":"research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_SELECTION_SOURCE_AUDIT.md","sha256":"c06e34a5d13e9a5ccf10276934abe03ed9b29cb42e18abdfa21f349841a03bb4","blob_sha":"d58f4437b6999076640709463bcedbab5c627256"},
+    {"path":"research/workflow-checkpoint.json","sha256":"e1d96fd0cd24d762edb2440749564fdb8ddc93fbe795d2180a7850e9d3efd3b0","blob_sha":"9f0004fa5034062afb1d480ab8c75c139f37b2a7"}
+  ],
+  "scope_note": "Exact content was fetched at the substantive commit and compared byte-for-byte with the staged final files. This receipt records delivery only; it is not experimental evidence or an originality certificate."
+}

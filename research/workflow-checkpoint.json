@@ -1132,7 +1132,12 @@
           "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
         }
       },
-      "delivery_status": "pending_expected_parent_main_and_exact_readback",
+      "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+      "publication_commit": "a0271d7bd7266d61e5d90a15307d64ca73c87259",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_V3_DELIVERY_READBACK.json",
+        "sha256": "9bc9bae581f60a5690176dbdf8e0a43c1cee8e52700173e171686b05d7b09ec2"
+      },
       "source_review_ref": {
         "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04_V3.source-review.md",
         "sha256": "4c49833c0c3d28a9507c5ed3469480d934c5e63015f412190a0c733bbfd00467",
