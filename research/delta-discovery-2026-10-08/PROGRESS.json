@@ -2,12 +2,15 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T07:40:49Z",
+  "recorded_at": "2026-10-09T08:50:49.740Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
-  "user_requested_range": [10, 20],
+  "user_requested_range": [
+    10,
+    20
+  ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_zero_active_three_further_dual_reviewed_controls",
+  "status": "step2_reentry_joint_decision_and_full_sensitivity_derivations_pending_review",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -39,9 +42,15 @@
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "delivery_parent": "60c6f66d0e3e95b0981fea666e012ec0cb23514b",
+  "delivery_parent": "057bc2abbf8b8510273cc4fb004e2063c5cc894c",
   "milestone": {
-    "inactive_cards": ["D01", "D03", "D05", "D06", "D07"],
+    "inactive_cards": [
+      "D01",
+      "D03",
+      "D05",
+      "D06",
+      "D07"
+    ],
     "active_cards": [],
     "new_source_audits": [
       "sources/D01_DECISIVE_COLLISION_AUDIT.md",
@@ -79,7 +88,7 @@
       "rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md"
     ]
   },
-  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude exact-flow/implicit gate reparameterizations, symmetric/Strang coordinate splitting, local Kreiss penalties, reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard change gates, post-hoc moving metrics, event rollback/replay, set-membership envelopes, orthogonal value rotations, tensor-role/provenance binding, QED variants, unitary/frame dilation, randomized survival, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system, identity oracle, local stability diagnostic or numerical randomizer.",
+  "next_action": "User directed return to step2; inspect conditional joint query-target risk and full-state sensitivity. Complete genuine construction, nearest-work and independent review before candidate counting.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -91,7 +100,10 @@
     {
       "identity": "/root/d03_broad_collision",
       "result": "D03 major functional collision; D07 independent conditional-math review",
-      "artifacts": ["research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md", "research/delta-discovery-2026-10-08/reviews/D07.review.json"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/D07.review.json"
+      ]
     },
     {
       "identity": "/root/d06_extended_collision",
@@ -101,7 +113,10 @@
     {
       "identity": "/root/capacity_candidate",
       "result": "NOGO-CAP-02 derivation and independent deferred-debt review",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md", "research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md",
+        "research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md"
+      ]
     },
     {
       "identity": "/root/nogo_cap02_review",
@@ -131,7 +146,10 @@
     {
       "identity": "/root/oblique_nogo_review",
       "result": "Independent exact singular-value verification of bare oblique-erase nonexpansiveness no-go",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md", "research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md",
+        "research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md"
+      ]
     },
     {
       "identity": "/root/revision_candidate",
@@ -176,7 +194,10 @@
     {
       "identity": "/root/qed_full_audit",
       "result": "Completed QED v1 full-formula, stability-scope and public author-code availability audit; independently reviewed randomized survival",
-      "artifacts": ["research/delta-discovery-2026-10-08/sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md", "research/delta-discovery-2026-10-08/reviews/RANDOMIZED_DELTA_SURVIVAL.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md",
+        "research/delta-discovery-2026-10-08/reviews/RANDOMIZED_DELTA_SURVIVAL.review.md"
+      ]
     },
     {
       "identity": "/root/randomized_retention_math",
@@ -186,22 +207,34 @@
     {
       "identity": "/root/dual_frame_math",
       "result": "Derived exact frame-coded recurrence and endogenous-interference syndrome no-go; independently reviewed checksum route",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_DUAL_FRAME_04.md", "research/delta-discovery-2026-10-08/reviews/CHECKSUM_REVISION_SKETCH.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOGO_DUAL_FRAME_04.md",
+        "research/delta-discovery-2026-10-08/reviews/CHECKSUM_REVISION_SKETCH.review.md"
+      ]
     },
     {
       "identity": "/root/checksum_revision_math",
       "result": "Derived sketch data-processing/latestness boundary; independently reviewed dual-frame algebra and costs",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/CHECKSUM_REVISION_SKETCH.md", "research/delta-discovery-2026-10-08/reviews/NOGO_DUAL_FRAME_04.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/CHECKSUM_REVISION_SKETCH.md",
+        "research/delta-discovery-2026-10-08/reviews/NOGO_DUAL_FRAME_04.review.md"
+      ]
     },
     {
       "identity": "/root/polynomial_product_math",
       "result": "Derived causal polynomial future-product boundary; independently corrected affine Magnus chronology/BCH scope",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md", "research/delta-discovery-2026-10-08/reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md",
+        "research/delta-discovery-2026-10-08/reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md"
+      ]
     },
     {
       "identity": "/root/commutator_compensation_math",
       "result": "Derived exact affine order gap and Magnus diagnostic; independently reviewed polynomial/Krylov scope",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md", "research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+        "research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md"
+      ]
     },
     {
       "identity": "/root/reciprocal_cycle_math",
@@ -211,7 +244,10 @@
     {
       "identity": "/root/reciprocal_cycle_audit",
       "result": "Independently reviewed reciprocal-cycle control and time-varying metric pullback no-go; checked singular Delta and classical contraction boundaries",
-      "artifacts": ["research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md", "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md",
+        "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"
+      ]
     },
     {
       "identity": "/root/rank_innovation_math",
@@ -221,7 +257,10 @@
     {
       "identity": "/root/rank_innovation_audit",
       "result": "Independently reviewed rank innovation and moving-metric controls; tightened uniform coercivity, volume and determinant claims",
-      "artifacts": ["research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md", "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md",
+        "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"
+      ]
     },
     {
       "identity": "/root/martingale_release_math",
@@ -236,7 +275,10 @@
     {
       "identity": "/root/rollback_delta_math",
       "result": "Derived exact frozen-affine rollback, nonlinear forcing/replay boundary and finite-precision arbitrary-ID information lower bound; also derived provenance tensor control",
-      "artifacts": ["research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md", "research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+        "research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md"
+      ]
     },
     {
       "identity": "/root/rollback_delta_audit",
@@ -261,7 +303,10 @@
     {
       "identity": "/root/orthogonal_value_audit",
       "result": "Independently reviewed orthogonal-value geometry/MOSE collision and provenance tensor TPR/FWM/routed-slot collision",
-      "artifacts": ["research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md", "research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md"]
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md",
+        "research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md"
+      ]
     },
     {
       "identity": "/root/flow_delta_math",
@@ -293,5 +338,18 @@
       "result": "Independently proved local Kreiss constant one for legal standard Delta and audited fixed-versus-switched-system scope and cost",
       "artifact": "research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md"
     }
-  ]
+  ],
+  "step2_reentry": {
+    "user_submission": "2026-10-09T09:42:48+01:00",
+    "entry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
+    "derivations": 4,
+    "new_candidates_counted": 0,
+    "review": "root symbolic self-check only; independent review pending",
+    "source_correction": "DeltaTTT author metadata corrected in reentry note; old audit bytes retained",
+    "priority": [
+      "joint query-target conditional moment",
+      "full versus frozen sensitivity"
+    ],
+    "source_and_native_feasibility": "partial; closest full texts/code and measurement gaps retained"
+  }
 }
