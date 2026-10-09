@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T12:49:00Z",
+  "recorded_at": "2026-10-09T13:35:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -170,7 +170,7 @@
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     }
   },
-  "next_action": "Continue the newly authorized Delta updater question from Step2: use complete coupled dynamics and protected-fiber requirements to seek a same-information/capacity/compute construction or theorem with a substantive residual beyond SRWM/ACL/HOPE and generic small-gain controls. Next derive delayed-feedback update-policy estimation/interference effects with legal observed targets, preserving full versus frozen Jacobian, retention/revision identifiability, and teacher-forced versus free-running gaps. Prioritize independent ready mathematics; no D identifier before a complete non-colliding contribution and independent review. No candidate code or experiment matrix; 20/15 deficits persist.",
+  "next_action": "Continue only from the narrow projected-credit residual: derive a controlled low-rank approximation error/cost bound under the complete closed-loop Jacobian, or a matched-budget no-advantage result versus same-information direct action prediction. Preserve TTT Ouroboros paired-Settlement collision, intervention-rank/exploration costs, free-running causality and native learning-speed gaps. No D identifier, code, experiment matrix or execution before a complete distinct construction and independent review; 20/15 deficits persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -318,6 +318,29 @@
       },
       "scope": "Documentation-only new-authorized Delta RSI Step2 derivation/source/review milestone; preserve code, old tasks, history and Local runtime records.",
       "verification": "Expected-parent non-force literal-main update and exact per-file readback performed and reported by publishing session; this file is not itself the receipt."
+    },
+    "delta_projected_delayed_credit_milestone": {
+      "parent_head": "47f3875232ae0416aa6d05f2363fee1c27e00798",
+      "refs": {
+        "math": {
+          "path": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
+          "sha256": "b6df898dd549ad3d563deb10ff791c11ab179f8d86a90ef157fa2a25dd6876d0"
+        },
+        "source": {
+          "path": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
+          "sha256": "dc333fd7e81645ab8e205b7f19712d8d455956a1508cc46bf19a69e7902c2cab"
+        },
+        "math_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md",
+          "sha256": "3dd10b05e01d71f160806486bafe7dfa2bee761bee350603bbff0d4a6141b6af"
+        },
+        "source_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md",
+          "sha256": "cbab40345bec34de94e5372e65801afcfaa03cb4c8383370ce80f6705054574d"
+        }
+      },
+      "scope": "Math/source-only Step2 milestone: action-space projected credit, frozen-path rank-one eligibility, linear-summary/intervention-rank bounds, counterexamples, primary/author-interface/native audit and two independent exact-byte reviews. Major direct collision; zero new candidate/admission/selection and no project execution.",
+      "verification": "Expected-parent non-force literal-main update and exact changed-file readback are performed and reported by the publishing session."
     }
   },
   "skill": {

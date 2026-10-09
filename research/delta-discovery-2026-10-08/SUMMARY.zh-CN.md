@@ -121,3 +121,15 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 [一手来源和作者源码审查](sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md)确认SRWM/ACL/HOPE、Titans和SEAL的直接覆盖，并发现Sleepv2的扩容量巩固近邻。SEAL连续self-edit遗忘负证据保留；其付费原生judge和HOPE/Titans作者实现缺口没有被替换。它们只阻塞相应复现/测量义务，不阻塞其他数学调查。
 
 当前结果是可审查控制与新的自然问题，非原创方法/RSI实验。仍5历史/0活动/0准入/0选择；20/15未完成。没有新增模型代码、完整执行矩阵或实验，旧工程与Local待执行项保留。
+
+## 延迟反馈这一轮的直白结论
+
+这轮没有把“等未来真实 token 再学”包装成新方法。真正留下的是一个更窄的数学边界：如果当前只决定一个标量 gate，那么未来风险对这次写入的一阶信用确实只要一个标量；在冻结未来 key/query/updater 的路径上，单个 Delta 写入还能用一个 query-side 向量和 value residual 精确传播，不必保存整块 `d_k*d_v` tangent。但一旦 updater 还要选择 key、value 或任意写入方向，精确线性信用的维数至少回到可行动作 span；同时追踪很多未结算写入，成本仍随 horizon 增长。
+
+局部二次延迟结果不能从一次确定性写入中同时识别“该往哪走”和“曲率多大”。有 paired baseline 时至少需要两个不同非零 gate 幅度及合法随机化/同质性；总是写入的日志连“写入是否比不写更好”的符号都不能识别。有限 horizon 可以给出与长期目标相反的方向，teacher-forced 后缀也不能自动代表自由运行总效应。
+
+最近工作把可声称空间进一步压窄：MAML/learned optimizer 已有 post-update future loss 和长 unroll；DNI、RTRL/UORO/e-prop 已有 future-gradient/eligibility；DSSR 已在固定 logged future 上评价 writer；SEAL/ACL/HOPE 已学 self-edit/Delta 更新；新近 TTT Ouroboros 更已把候选更新放入 pending，等独立真实文本到达后与 baseline 顺序比较并提交。因此“延迟验证再提交”是直接 baseline，不是本项目新候选。
+
+当前最值得继续查证的三条只是研究优先级，不是已选模块：完整闭环破坏 rank-one tangent 后能否给出同预算低秩误差界；动作 span 约束能否在相同信息/容量/算力下优于直接 action predictor；是否存在不泄漏的公开原生协议同时测更新规则学习、旧能力保持和以后任务学习速度。第三项目前仍是 measurement gap。
+
+本轮没有代码、实验或 D 编号；计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**。

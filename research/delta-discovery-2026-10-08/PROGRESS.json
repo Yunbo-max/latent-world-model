@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T12:49:00Z",
+  "recorded_at": "2026-10-09T13:35:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_coupled_updater_stability_conditionally_reviewed_rsi_authorization_synced",
+  "status": "step2_projected_delayed_credit_independent_math_source_reviews_accepted_direct_collision_no_admission",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -48,7 +48,7 @@
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     }
   },
-  "delivery_parent": "87380653675efecf29335f522190a3a95bb6f67b",
+  "delivery_parent": "47f3875232ae0416aa6d05f2363fee1c27e00798",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -69,7 +69,8 @@
       "sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md",
       "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
       "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
-      "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md"
+      "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
+      "sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -110,16 +111,22 @@
       "research/delta-discovery-2026-10-08/STEP2_COUPLED_UPDATER_STABILITY.md",
       "research/delta-discovery-2026-10-08/sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md",
+      "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
+      "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
       "Bounded-beta and individually stable-block counterexamples; slowing updater does not universally cure positive feedback. Uniform block small-gain conditions rigorously scoped.",
       "Exact protected linear readouts imply neutral retained coordinates; conditional contraction within fixed protection fibers can coexist with preserved distinctions, while revision conflicts and validity identification remain unresolved.",
-      "Full HOPE/Titans/SEAL/ACL/Sleep primary mechanism and pinned available author interfaces inspected. Major mechanisms already known; no candidate admitted. Independent reviews corrected readout/domain/quotient scope."
+      "Full HOPE/Titans/SEAL/ACL/Sleep primary mechanism and pinned available author interfaces inspected. Major mechanisms already known; no candidate admitted. Independent reviews corrected readout/domain/quotient scope.",
+      "Proved action-space costate projection sufficiency and a dim(action-span) lower bound for exact linear credit summaries; arbitrary learned Delta directions reopen the full state dimension.",
+      "Derived exact frozen-path rank-one eligibility for one scalar Delta gate and conditional intervention-rank requirements for local slope/curvature; full feedback and multiple pending edits retain long-horizon cost.",
+      "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate."
     ]
   },
-  "next_action": "Continue the newly authorized Delta updater question from Step2: use complete coupled dynamics and protected-fiber requirements to seek a same-information/capacity/compute construction or theorem with a substantive residual beyond SRWM/ACL/HOPE and generic small-gain controls. Next derive delayed-feedback update-policy estimation/interference effects with legal observed targets, preserving full versus frozen Jacobian, retention/revision identifiability, and teacher-forced versus free-running gaps. Prioritize independent ready mathematics; no D identifier before a complete non-colliding contribution and independent review. No candidate code or experiment matrix; 20/15 deficits persist.",
+  "next_action": "Continue from the narrow residual only: derive an error/cost bound for low-rank action-projected credit under the complete closed-loop Jacobian, or prove that no matched-budget advantage over direct action prediction is possible under stated assumptions. Preserve the TTT Ouroboros Settlement collision, intervention-rank/exploration costs, teacher-forced versus free-running gap, and the native learning-speed measurement gap. No D identifier before a complete non-colliding contribution and independent source/math review; no candidate code, experiment matrix or execution. 20/15 deficits persist.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -453,6 +460,42 @@
         "research/delta-discovery-2026-10-08/sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md",
         "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md"
       ]
+    },
+    {
+      "identity": "/root/delayed_feedback_math",
+      "result": "Derived full action/meta-gradient separation, Delta VJPs, frozen-path rank-one eligibility and finite-horizon boundaries",
+      "artifact": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md"
+    },
+    {
+      "identity": "/root/delayed_feedback_counterexamples",
+      "result": "Independently supplied finite-horizon reversal, teacher-forced/free-running, direct-predictor and off-policy non-identifiability counterexamples",
+      "artifact": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md"
+    },
+    {
+      "identity": "/root/delayed_feedback_sources",
+      "result": "Independent primary/formula/author-interface collision audit of MAML, learned optimizers, TTT, SEAL, HOPE, DSSR, DNI, RTRL/UORO/e-prop and ACL/SRWM",
+      "artifact": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md"
+    },
+    {
+      "identity": "/root/rsi_measurement_audit",
+      "result": "Independent native-feasibility mapping for CITB, TRACE, SEAL continual, LongMemEval, StreamingQA, bAbI and LAMBADA; learning-speed and deployment-updater gaps preserved",
+      "artifact": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md"
+    },
+    {
+      "identity": "/root/projected_credit_math_review",
+      "result": "Final exact-byte conditional mathematical acceptance after decay, path, linear-summary, identifiability, tail-bound and support corrections",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md"
+      ]
+    },
+    {
+      "identity": "/root/projected_credit_source_review",
+      "result": "Final exact-byte primary/interface/native acceptance after narrowing Ouroboros, correcting benchmark identities/cadence and separating online-credit mechanisms",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md"
+      ]
     }
   ],
   "step2_reentry": {
@@ -518,6 +561,32 @@
         "DSSR recursive future-loss rollout"
       ],
       "residual": "Delta rank-one structure must yield a provable prefix-only compute/statistical advantage over same-information direct action/CE/critic controls; unadmitted",
+      "same_line_not_new_candidate": true
+    },
+    "projected_delayed_credit_control": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
+      "sha256": "b6df898dd549ad3d563deb10ff791c11ab179f8d86a90ef157fa2a25dd6876d0",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
+      "source_sha256": "dc333fd7e81645ab8e205b7f19712d8d455956a1508cc46bf19a69e7902c2cab",
+      "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md",
+      "math_review_sha256": "3dd10b05e01d71f160806486bafe7dfa2bee761bee350603bbff0d4a6141b6af",
+      "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md",
+      "source_review_sha256": "cbab40345bec34de94e5372e65801afcfaa03cb4c8383370ce80f6705054574d",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_direct_collision;conditional_control_not_candidate",
+      "direct_collisions": [
+        "MAML and learned optimizers: post-update future/query meta-loss and truncated long unroll",
+        "DNI/RTRL/UORO/e-prop: synthetic future credit, exact or approximate online sensitivity and eligibility",
+        "ACL/SRWM/SEAL/HOPE: learned or self-modifying update rules and downstream objectives",
+        "DSSR: fixed logged-future writer scoring",
+        "TTT Ouroboros: pending candidate plus later independent real-text paired Settlement"
+      ],
+      "conditional_results": [
+        "costate projection onto the executable action span is first-order sufficient",
+        "any exact linear summary for all actions needs rank at least dim(action span)",
+        "one scalar Delta gate has exact rank-one eligibility only on the stated frozen fixed-readout path",
+        "local slope and curvature from scalar delayed outcomes require a full-rank conditional intervention design"
+      ],
+      "residual": "A full-closed-loop low-rank approximation or matched-budget statistical advantage over same-information direct action prediction remains unproved; learning-speed and deployment self-modification measurements remain unavailable.",
       "same_line_not_new_candidate": true
     }
   },

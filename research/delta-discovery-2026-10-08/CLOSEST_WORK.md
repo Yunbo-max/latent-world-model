@@ -75,3 +75,15 @@
 [完整来源/作者接口审查](sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md)加入 HOPE/Titans、SEALv2及持续LoRA合并/原生GPT grader、SRWM/ACL、Sleepv2。自身产生Delta指令、旧/新任务元目标、多频率巩固和self-edit已覆盖；Sleep扩容量，SEAL评分依赖付费服务，HOPE/Titans作者代码未可得，均不能冒称同资源已验证实现。
 
 [实际推导](STEP2_COUPLED_UPDATER_STABILITY.md)给完整gate-feedback Jacobian及O(n)局部结构乘积、bounded-beta和slow-clock反例、统一小增益与固定保护纤维条件。这是已知微分/控制几何的Delta实例化，不分配D编号；动态保护/合法释放和同预算学习效率仍待构造、查重与自然测量。
+
+## Projected delayed credit / learned-updater collision boundary
+
+[数学控制](STEP2_PROJECTED_DELAYED_CREDIT.md)、[来源/作者接口/测量审计](sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md)和[独立数学审查](reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md)共同收窄了 delayed-feedback 路线。
+
+- MAML 与 learned optimizer 已覆盖 post-update future/query loss、更新器内部状态、多步 outer objective、二阶项/一阶近似和 truncated BPTT。
+- DNI、RTRL/UORO/e-prop 覆盖 synthetic future gradient、exact/随机低秩 online sensitivity 和 eligibility-learning-signal 分离。
+- ACL/SRWM、SEAL、HOPE 覆盖 learned/self-generated Delta rule、downstream self-edit reward、旧新任务目标与多频率自修改 memory。
+- DSSR 在固定 logged future 上递归 rollout writer 并以冻结 reader 的未来 reference-action likelihood 评分。
+- [TTT Ouroboros](https://arxiv.org/abs/2610.05076) 及作者仓库 `lingjivoo/ttt-ouroboros@f7811f878679864e686c84abcd83dd05efdc0417` 已实现 Fixed Generation / Recorded Replay、gradient conflict、pending candidate、独立真实文本顺序验证和 Settlement；“未来证据到了再提交”直接归 baseline。
+
+当前未被本轮 source read 直接消除的只是：动作空间投影充分性/线性 summary 维数下界、frozen-path 单 gate rank-one eligibility，以及完整闭环下能否证明相对相同 low-rank action family 的成本或误差优势。它们仍缺原创性覆盖、可执行构造与原生三目标测量，故为 conditional control/lead，不是活动候选。

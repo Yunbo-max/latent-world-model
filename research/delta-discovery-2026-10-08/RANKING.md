@@ -27,3 +27,5 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 [递归随机条件矩控制](STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md)现已把该残余严格化：固定 teacher-forced 后缀上的联合对象是完整状态 Jacobian 拉回的 GGN/变分可观测 Gramian，精确 Hessian 另有可能不定的动力学/读出曲率；prefix-only predictor 是 synthetic-gradient/critic 类估计，编辑改变未来分布时还缺反事实项。动作/二次风险误差界可证，但 observability、GGN/DDP/iLQR、DNI、RTRL/UORO/e-prop 与 DSSR 已覆盖主要部件，native 数据也没有条件矩或理想 edit 标签。故仍不分配 D 编号、不进入排序；全池和 top-15 均未形成，计数不变。
 
 新增授权后的[耦合更新器推导](STEP2_COUPLED_UPDATER_STABILITY.md)与[来源审查](sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md)仍属Step2控制。SRWM/ACL/HOPE已覆盖自修改Delta及旧新任务学习目标；通用小增益/稳定纤维不是新候选。当前仍5历史/0活动/0准入/0选择，20/15短缺保留。没有池排序或推荐2–3项；新方向是待查重、待测量线索，不是重新批准代码/实验。
+
+[动作投影延迟信用控制](STEP2_PROJECTED_DELAYED_CREDIT.md)得到四项条件结果：固定小维动作族只需 costate 在动作 span 上的投影；任何对所有动作精确评分的线性 summary 至少需要该 span 的维数；frozen 后续路径上的单个标量 Delta gate 有精确 rank-one eligibility；只观察局部二次延迟结果时，识别斜率/曲率需要条件 intervention Gram 满秩。完整闭环反馈、多个未结算 edit 和学习 key/value 方向会重新打开高维信用与长时程成本。MAML、learned optimizer、DNI、RTRL/UORO/e-prop、ACL/SRWM、DSSR、SEAL 与 TTT Ouroboros 已覆盖主要机制；尤其 Ouroboros 已实现 pending candidate、独立真实文本顺序验证和 Settlement。该结果经独立数学审查仍只是控制/lead，不分配 D 编号或进入排序；计数保持 **5历史 / 0活动 / 0准入 / 0选择**。
