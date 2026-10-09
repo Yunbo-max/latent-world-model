@@ -341,6 +341,29 @@
       },
       "scope": "Math/source-only Step2 milestone: action-space projected credit, frozen-path rank-one eligibility, linear-summary/intervention-rank bounds, counterexamples, primary/author-interface/native audit and two independent exact-byte reviews. Major direct collision; zero new candidate/admission/selection and no project execution.",
       "verification": "Expected-parent non-force literal-main update and exact changed-file readback are performed and reported by the publishing session."
+    },
+    "delta_closed_loop_rank_growth_milestone": {
+      "parent_head": "4552000c4719b9aa5db6fd1948ab321704a1db3f",
+      "refs": {
+        "math": {
+          "path": "research/delta-discovery-2026-10-08/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+          "sha256": "4839d87111588059f3db84e01f77de3aa836f15e7746c055beaae449da39a789"
+        },
+        "source": {
+          "path": "research/delta-discovery-2026-10-08/sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md",
+          "sha256": "d3317f0423c5e3a29febd81cb8df900c38d25d60e18c39a47121ba736667d358"
+        },
+        "math_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md",
+          "sha256": "e332c167a45af77a0a8d3e60161c1547dcd453ec442fd5848312ad5e2cc04b97"
+        },
+        "source_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md",
+          "sha256": "891ff30f62305ded824821471177e61a74da637f683e04a89d9743e119865902"
+        }
+      },
+      "scope": "Math/source-only Step2 milestone: exact endogenous scalar-gate tangent recurrence, tight linear matrix-rank growth construction, fixed-rank singular-tail boundary, ordered truncation/frozen-feedback error bounds, primary/code/native audit and two independent exact-byte reviews. Major component collision; zero new candidate/admission/selection and no project execution.",
+      "verification": "Expected-parent non-force literal-main update and exact changed-file readback are performed and reported by the publishing session; this file is not itself the receipt."
     }
   },
   "skill": {
@@ -723,7 +746,7 @@
       }
     ]
   },
-  "research_next_action": "Continue Step2 only on whether Delta rank-one edit structure yields a prefix-only conditional metric/action estimator with a provable compute, variance, reuse or sample-complexity advantage over same-information direct action, CE, synthetic-gradient and DSSR controls. Preserve teacher-forced/free-running identification and native-label gaps. No new D ID until a non-colliding construction and independent review; 20/15 deficits and math-only scope persist.",
+  "research_next_action": "Continue Step2 from the closed-loop rank-growth boundary: determine whether natural Delta trajectories have a compressible singular-value tail and whether any prefix-only estimator has a matched-budget compute, variance or sample-complexity advantage over reverse VJP, TBPTT, UORO/KF-RTRL/OK/SnAp, direct action prediction and ordinary CE. Matrix rank alone is not an algorithmic memory lower bound; preserve causal deployment and native-label gaps. No new D ID until a non-colliding construction and independent review; 20/15 deficits and math-only scope persist.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -779,17 +802,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "step2_recursive_random_metric_control_independently_reviewed",
+    "status": "step2_closed_loop_rank_growth_control_independently_reviewed_no_admission",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "ead8a4ed7a38c37653ca9c2acab525c0aabe0278",
+    "current_delivery_parent": "4552000c4719b9aa5db6fd1948ab321704a1db3f",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "For a fixed teacher-forced suffix, the full-state Jacobian pulls CE/GGN curvature into edit space as a weighted finite-horizon variational observability Gramian. The exact Hessian also contains local residual and dynamics curvature and may be indefinite. Prefix-only conditional prediction has explicit estimator-to-action and local-decrease bounds, but free-running distribution shift is not identified by logged suffixes.",
-    "originality_and_native_measurement": "major component collision with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; native ideal-edit/Jacobian/conditional-metric labels absent; no candidate admission",
+    "latest_math_result": "For a focal scalar Delta perturbation with future D/k/v fixed and a state-dependent scalar gate, the exact directional tangent is a frozen left action plus a rank-one feedback injection. Its matrix rank grows by at most one per step and a shared-gate legal path attains the bound; fixed-rank decoded forward eligibility has an exact singular-tail lower bound. This does not imply a general memory lower bound, and contraction can make the high-rank tail numerically negligible.",
+    "originality_and_native_measurement": "major component collision with RTRL/NoBackTrack/UORO, KF-RTRL/OK, SnAp, e-prop, EYM and standard perturbation bounds; audited native assets do not expose tangent rank/costate/truncation truth; no candidate admission",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -807,6 +830,18 @@
       "source_sha256": "3091825d9bf093907a53dfb9ee4aec5f00e0946f16353c09c80f2aa5f75f6f84",
       "review": "research/delta-discovery-2026-10-08/reviews/STEP2_RECURSIVE_RANDOM_METRIC.review.md",
       "status": "independent_exact_byte_math_and_source_reviews_accepted;major_component_collision;not_candidate",
+      "same_line_not_new_candidate": true
+    },
+    "step2_closed_loop_rank_growth": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "sha256": "4839d87111588059f3db84e01f77de3aa836f15e7746c055beaae449da39a789",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md",
+      "source_sha256": "d3317f0423c5e3a29febd81cb8df900c38d25d60e18c39a47121ba736667d358",
+      "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md",
+      "math_review_sha256": "e332c167a45af77a0a8d3e60161c1547dcd453ec442fd5848312ad5e2cc04b97",
+      "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md",
+      "source_review_sha256": "891ff30f62305ded824821471177e61a74da637f683e04a89d9743e119865902",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;delta_specific_control;major_component_collision;not_candidate",
       "same_line_not_new_candidate": true
     }
   },

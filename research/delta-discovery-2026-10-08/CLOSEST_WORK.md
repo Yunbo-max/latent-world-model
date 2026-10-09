@@ -87,3 +87,15 @@
 - [TTT Ouroboros](https://arxiv.org/abs/2610.05076) 及作者仓库 `lingjivoo/ttt-ouroboros@f7811f878679864e686c84abcd83dd05efdc0417` 已实现 Fixed Generation / Recorded Replay、gradient conflict、pending candidate、独立真实文本顺序验证和 Settlement；“未来证据到了再提交”直接归 baseline。
 
 当前未被本轮 source read 直接消除的只是：动作空间投影充分性/线性 summary 维数下界、frozen-path 单 gate rank-one eligibility，以及完整闭环下能否证明相对相同 low-rank action family 的成本或误差优势。它们仍缺原创性覆盖、可执行构造与原生三目标测量，故为 conditional control/lead，不是活动候选。
+
+## Endogenous scalar-gate tangent rank growth
+
+[完整推导](STEP2_CLOSED_LOOP_RANK_GROWTH.md)、[primary/作者接口/native审计](sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md)与[独立数学](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md)/[来源审查](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md)关闭了上段最后一个易误读点。
+
+- frozen future gate/key/value 路径上的单 edit 确实保持 rank one；
+- 但只要未来一个标量 gate 可微地读取 memory，exact focal directional tangent 每步就可再注入一个 rank-one 方向；共享 sigmoid gate 与依次正交 key/value 给出达到线性上界的合法 Delta 路径；
+- 即使每个名义一步 Jacobian 严格收缩，有限时域 exact algebraic rank 仍可增长，只是奇异值幅度可衰减；
+- fixed-matrix-rank decoded forward eligibility 有明确 Eckart--Young 尾误差，逐步截断误差则按完整闭环有序产品传播；
+- 矩阵秩不是一般算法内存下界，reverse VJP 或符号表示可不物化该切向。
+
+RTRL/NoBackTrack/UORO、KF-RTRL/OK、SnAp 与 e-prop 已覆盖 exact/随机低秩/Kronecker/稀疏/eligibility 近似的主要问题。因此这是一项 Delta-specific tight control，不能重新命名为低秩信用方法，也不证明遗忘或 RSI。BABILong、RULER、LongMemEval、bAbI、LAMBADA、CITB、TRACE、SEAL 只能给 endpoint/保持结果；没有一个原生 scorer 暴露 tangent rank、costate 或截断误差真值。处置：major component collision；无 D 编号，计数不变。

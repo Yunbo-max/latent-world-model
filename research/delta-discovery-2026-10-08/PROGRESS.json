@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T13:35:00Z",
+  "recorded_at": "2026-10-09T14:46:13Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_projected_delayed_credit_independent_math_source_reviews_accepted_direct_collision_no_admission",
+  "status": "step2_closed_loop_rank_growth_independent_math_source_reviews_accepted_control_no_admission",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -587,6 +587,33 @@
         "local slope and curvature from scalar delayed outcomes require a full-rank conditional intervention design"
       ],
       "residual": "A full-closed-loop low-rank approximation or matched-budget statistical advantage over same-information direct action prediction remains unproved; learning-speed and deployment self-modification measurements remain unavailable.",
+      "same_line_not_new_candidate": true
+    },
+    "closed_loop_rank_growth_control": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "sha256": "4839d87111588059f3db84e01f77de3aa836f15e7746c055beaae449da39a789",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md",
+      "source_sha256": "d3317f0423c5e3a29febd81cb8df900c38d25d60e18c39a47121ba736667d358",
+      "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md",
+      "math_review_sha256": "e332c167a45af77a0a8d3e60161c1547dcd453ec442fd5848312ad5e2cc04b97",
+      "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md",
+      "source_review_sha256": "891ff30f62305ded824821471177e61a74da637f683e04a89d9743e119865902",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;delta_specific_control;major_component_collision;not_candidate",
+      "conditional_results": [
+        "with future D/k/v fixed and a state-dependent scalar gate, the exact focal directional tangent obeys a frozen left action plus one rank-one feedback injection per step",
+        "matrix rank grows by at most one per feedback step and a shared-gate legal Delta path attains the linear bound",
+        "fixed matrix-rank decoded forward eligibility has an Eckart--Young tail lower bound on the tight construction, but matrix rank alone is not a general algorithmic memory lower bound",
+        "rank-r truncation error is the ordered propagation of tracked local residuals under complete closed-loop Jacobian product bounds"
+      ],
+      "direct_collisions": [
+        "RTRL/NoBackTrack/UORO exact or randomized online sensitivity",
+        "KF-RTRL and OK unbiased Kronecker approximations",
+        "SnAp biased reachability sparsification",
+        "e-prop eligibility and learning-signal factorization",
+        "Eckart--Young--Mirsky and standard variation-of-constants perturbation bounds"
+      ],
+      "measurement": "No audited native task exposes tangent rank, singular-value tail, exact costate, truncation residual or ideal edit as ground truth. BABILong/RULER/LongMemEval/bAbI/LAMBADA/CITB/TRACE/SEAL are at most endpoint or continual-retention measurements with stated interface/resource gaps.",
+      "residual": "Natural-data effective-rank prevalence and a matched-budget estimator advantage remain unmeasured; no updater, estimator or scientific candidate was produced.",
       "same_line_not_new_candidate": true
     }
   },

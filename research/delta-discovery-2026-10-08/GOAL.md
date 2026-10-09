@@ -88,3 +88,5 @@ Titans https://arxiv.org/abs/2501.00663；再按残余问题加入TTT、learned 
 本轮实际入口：[耦合更新器稳定性与保护纤维](STEP2_COUPLED_UPDATER_STABILITY.md)。本项目沿用已绑定 restored-research-baseline，不采用另一个项目的 autonomous-rsi 技能分支。配置读取记录与来源哈希见 sources/RSI_AUTHORIZATION_READBACK.json；它不证明持续运行或科学完成。
 
 本轮独立审查：[条件数学及修订历史](reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md)、[来源/后果边界](reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md)。两位实际工作者分别审查最终字节；来源作者的自身审计不冒称第二次独立来源审查。
+
+最新续接：[完整闭环 scalar-gate tangent 秩增长与截断误差控制](STEP2_CLOSED_LOOP_RANK_GROWTH.md)、[primary/作者接口/native 审计](sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md)、[独立数学](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md)与[来源审查](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md)。它证明 frozen-path rank-one 不能无条件外推到 state-dependent updater，但不把矩阵秩冒充一般内存下界，也不构成新压缩器、RSI 或候选准入。计数和20/15短缺不变；代码/实验范围不变。

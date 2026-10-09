@@ -133,3 +133,15 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 当前最值得继续查证的三条只是研究优先级，不是已选模块：完整闭环破坏 rank-one tangent 后能否给出同预算低秩误差界；动作 span 约束能否在相同信息/容量/算力下优于直接 action predictor；是否存在不泄漏的公开原生协议同时测更新规则学习、旧能力保持和以后任务学习速度。第三项目前仍是 measurement gap。
 
 本轮没有代码、实验或 D 编号；计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**。
+
+## 完整闭环 rank-one 外推的最终边界
+
+这轮把上面的第一个问题推到了一个紧的数学结论。冻结未来 gate/key/value 时，单个 Delta edit 的切向确实保持 rank one；但如果以后哪怕只有一个 scalar gate 可微地读取 memory，那么完整闭环方向切向每步都能注入一个新的 rank-one 方向。一个共享 sigmoid gate、依次使用未占用正交 key/value 的合法 Delta 路径，能让 exact matrix rank 随 horizon 线性增长。
+
+这排除了“每步写入 rank one，所以远期精确信用永远 rank one”的推论。它还给出两类条件误差：固定 matrix rank 的最佳误差由奇异值尾决定；逐步截断误差按完整闭环有序 Jacobian 产品传播。只看冻结 Delta 左因子或 gate 范围不能冒充证书。
+
+独立反例审查也阻止了更强的错误结论：矩阵秩不是一般算法内存下界，reverse-mode 可以不物化完整前向切向，规则化轨迹还能符号压缩；逐步线性化收缩与 algebraic rank 增长也可同时成立，而后者的幅度可能很小。因此这不是“必然遗忘”、性能提升或 RSI 证据。
+
+来源结果同样明确：RTRL/NoBackTrack/UORO、KF-RTRL/OK、SnAp 与 e-prop 已经分别覆盖 exact、随机 rank-one、Kronecker、稀疏和 eligibility-factorized online sensitivity。新留下的只是 Delta-specific 紧控制，不是新压缩算法。现有 BABILong/RULER/LongMemEval/bAbI/LAMBADA/CITB/TRACE/SEAL 也没有 tangent rank、costate 或 ideal edit 原生标签；自然数据的 effective-rank 分布仍未测。
+
+所以本轮的实际决定是：保存 theorem/control 和独立审查，拒绝分配 D 编号；后续只在能证明同预算 estimator 优势、或能找到不泄漏且可判别的自然测量时再构造候选。当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，20/15短缺不变，也没有启动代码或实验。
