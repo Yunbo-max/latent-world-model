@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09 20:44:53 UTC",
+  "recorded_at": "2026-10-09 20:45:56 UTC",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -1041,11 +1041,16 @@
       "Sleep/HOPE author implementation and 1987 full-formula reading where fidelity matters."
     ],
     "review_feedback_repair": "EC=0 does not imply E(I-D)C=0 under nonuniform decay; preserved v1 and 2D counterexample, corrected v2 condition, exact final-byte independent re-review.",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback",
+    "delivery_status": "published_to_literal_main_all_14_files_exact_commit_readback_verified",
     "source_review_ref": {
       "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md",
       "sha256": "e960429aac5539b54a194e5932b110ff2226ad4d45a54abdc486c89bd55ba129",
       "reviewer": "/root/r04_source_review"
+    },
+    "publication_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_DELIVERY_READBACK.json",
+      "sha256": "bc269158eec0f6de00136bb51c8000c90c3156141dc112f58d9d20f29d5d3b8d"
     }
   },
   "record_shape_repair": {

@@ -1,0 +1,99 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "recorded_at": "2026-10-09 20:45:56 UTC",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "3f323bf039d280a983078aafe8bc272ca085f464",
+  "substantive_commit": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
+  "observed_main_after_publication": "21d3b5e121144ec43abfe56c264ffb991bf0a1b8",
+  "force": false,
+  "writer": "/root",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v1.md",
+      "blob_sha": "722f3056a9bca207e9e22777d8c17af7943d93d2",
+      "exact_utf8_bytes": true,
+      "sha256": "7d717fd36c285d9e401fd5e3967b66ddacae4e1318d857ebd49c5409dd65c09d"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v2.md",
+      "blob_sha": "54037ad96fcdeefd83d12e9a4b4136177cd04ff5",
+      "exact_utf8_bytes": true,
+      "sha256": "ba81ea9506160ee5e640faed2673ad068e925da82bb7ea77595999d7151f2732"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONSOLIDATION_SOURCE_AUDIT.md",
+      "blob_sha": "377a8b9a46f1ff477b9756ef1525740870d1a27f",
+      "exact_utf8_bytes": true,
+      "sha256": "22897c6cd9061bdf699860f294c317cb5428d524bb6949b9d89fe5517bae5ca4"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.math-review.md",
+      "blob_sha": "de9380f979d2a853d935afea57c03944181c566b",
+      "exact_utf8_bytes": true,
+      "sha256": "9df4d384f4512d3c4816b9de5df00f4d4f166dc5c9a413f44a934b855866700c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R04.source-review.md",
+      "blob_sha": "ead89cc18d6bbc33a6bd476be8e8c54d339506a0",
+      "exact_utf8_bytes": true,
+      "sha256": "e960429aac5539b54a194e5932b110ff2226ad4d45a54abdc486c89bd55ba129"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R04_CONTEXT_READBACK.json",
+      "blob_sha": "e11d37fe18cf9fc88617be2956fedff5aad9a47f",
+      "exact_utf8_bytes": true,
+      "sha256": "076e54943935edbeb0de5f26a91e4e3451ad7a7b7325b13d11a743ba09478ad0"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "blob_sha": "4c85e4af964dfc7f6cf59f40e2147994cc441eca",
+      "exact_utf8_bytes": true,
+      "sha256": "bf386212e6dfd7ff9bfd374e4ef66f2f7e59838f2d7188e83d8b6ba63d8b5fc6"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "blob_sha": "e9f2354da4bb7fb4150bfe260b1abb2228833ec4",
+      "exact_utf8_bytes": true,
+      "sha256": "c17f3747b8cd0d6f6897a1a34594cff1090e8919170ae50765dacb6a0f8995f3"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "blob_sha": "1a8fc0b20ce440439fec75dfaa00c34c9e4eb07a",
+      "exact_utf8_bytes": true,
+      "sha256": "ede077984ca32671ce0b25ea25c097222ced0399366c7ac462f1eb8a459e9e3c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/DISPOSITIONS.json",
+      "blob_sha": "f22a79145ad9aec9b33015ea5f85547a5c588a75",
+      "exact_utf8_bytes": true,
+      "sha256": "077c8df6fd36516ea41d0d4ffabbb84682c6280b9bc145fb166f9a27c60c77fd"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "blob_sha": "cb0dfff607599ca5e41173ae81d9e0b9a8d82147",
+      "exact_utf8_bytes": true,
+      "sha256": "ecd088bfcfce00c6df900f3d0f78c88face446b13ba8e087b803332b2628e190"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "blob_sha": "afe92892b97c333257228cbe7ec1079755486cb9",
+      "exact_utf8_bytes": true,
+      "sha256": "cc1b74616b291003ca178ba209f454aa85dab5155babf35f9b9004e4d61256c2"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "blob_sha": "ba871f9cc9998211c2b6424607a9bf75faec93fd",
+      "exact_utf8_bytes": true,
+      "sha256": "a92a0ce7894d7bb8f5016d9bff8d8f9ec1659618584ceef9d48e17c18f303007"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "blob_sha": "7c7650f3fd7caf4bd9cda361d621e4758d1d7ad5",
+      "exact_utf8_bytes": true,
+      "sha256": "1c1a6dc5e9e16c52ca1cb096bf52896a6935eee01a8e690c27cef6cb6b3da3a8"
+    }
+  ],
+  "verification": "All 14 files fetched at the exact substantive commit; UTF-8 strings matched the exact staged bytes. Standard-library SHA256 recorded. No project/author code, tests, models or scorers executed.",
+  "scope": "R04 v1/v2, independent final-byte reviews, source/context audit, and Delta packet/checkpoint only."
+}
