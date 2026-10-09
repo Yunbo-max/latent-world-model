@@ -90,3 +90,5 @@ Titans https://arxiv.org/abs/2501.00663；再按残余问题加入TTT、learned 
 本轮独立审查：[条件数学及修订历史](reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md)、[来源/后果边界](reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md)。两位实际工作者分别审查最终字节；来源作者的自身审计不冒称第二次独立来源审查。
 
 最新续接：[完整闭环 scalar-gate tangent 秩增长与截断误差控制](STEP2_CLOSED_LOOP_RANK_GROWTH.md)、[primary/作者接口/native 审计](sources/CLOSED_LOOP_RANK_GROWTH_SOURCE_AUDIT.md)、[独立数学](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.math-review.md)与[来源审查](reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md)。它证明 frozen-path rank-one 不能无条件外推到 state-dependent updater，但不把矩阵秩冒充一般内存下界，也不构成新压缩器、RSI 或候选准入。计数和20/15短缺不变；代码/实验范围不变。
+
+进一步续接：[收缩、有效秩与无偏截断的条件边界](STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md)、[primary/作者接口/native 审计](sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md)、[独立数学](reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md)与[来源审查](reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md)。严格收缩不推出低相对有效秩；对数绝对 epsilon-rank 需要更强的低秩注入、保秩传输和 fading-age 假设，并可能只是信用消失。ARTBP、adaptive TBPTT、randomized telescopes、稳定递归模型和既有 sensitivity/sketch 方法构成主要碰撞。处置仍是 control/no D；计数和20/15短缺不变，代码/实验范围不变。

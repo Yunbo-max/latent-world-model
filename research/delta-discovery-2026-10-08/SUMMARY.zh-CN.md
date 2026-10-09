@@ -145,3 +145,13 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 来源结果同样明确：RTRL/NoBackTrack/UORO、KF-RTRL/OK、SnAp 与 e-prop 已经分别覆盖 exact、随机 rank-one、Kronecker、稀疏和 eligibility-factorized online sensitivity。新留下的只是 Delta-specific 紧控制，不是新压缩算法。现有 BABILong/RULER/LongMemEval/bAbI/LAMBADA/CITB/TRACE/SEAL 也没有 tangent rank、costate 或 ideal edit 原生标签；自然数据的 effective-rank 分布仍未测。
 
 所以本轮的实际决定是：保存 theorem/control 和独立审查，拒绝分配 D 编号；后续只在能证明同预算 estimator 优势、或能找到不泄漏且可判别的自然测量时再构造候选。当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，20/15短缺不变，也没有启动代码或实验。
+
+## 收缩并不自动带来低相对有效秩
+
+这轮继续追问高代数秩是否只是数值幻象，答案是否定的。存在合法 scalar-gate Delta 路径：每个完整一步切向算子都严格收缩，但终点切向的 H 个非零奇异值完全相等。因此它的绝对幅度会消失，相对谱却不压缩；把前者称为“低有效秩”会把信用消失误当成计算优势。
+
+只有在更强条件下——每步注入秩有界、真实有序背景传输不增秩、transported contribution 按年龄几何衰减、初值另行记账——才能得到 rank 随 `log(1/epsilon)` 增长的绝对误差上界。随机 cutoff 可以在固定线性化路径上无偏，但必须满足 survival 单调和可积性；平坦谱还给任何无偏 rank-r 压缩一个明确方差下界。
+
+来源结果没有支持新候选。Adaptive TBPTT 已估计几何 gradient tail，ARTBP 和 Randomized Telescopes 已做 inverse-survival 无偏截断，Stable Recurrent Models/Neumann-RBP 已有收缩尾界，Tropp sketches/Frequent Directions 与 RTRL/UORO/KF-RTRL/OK/SnAp/e-prop 已覆盖主要压缩工具。generic sketch 对非交换 Delta 递推并非自动闭合，但这个缺口本身还不是方案。
+
+所以当前只保存新的严格反例和条件控制，不新增 D 编号。真正值得继续的唯一窄问题，是实际完整 Delta transition 是否有可审计的 closure，能在相同信息、内存和 FLOPs 下改善 costate/action-gradient 误差，而不是只让长期信号变小。计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有代码、实验或 top-15 选择。

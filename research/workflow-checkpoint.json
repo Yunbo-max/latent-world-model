@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T13:35:00Z",
+  "recorded_at": "2026-10-09T15:46:16Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -170,7 +170,7 @@
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     }
   },
-  "next_action": "Continue only from the narrow projected-credit residual: derive a controlled low-rank approximation error/cost bound under the complete closed-loop Jacobian, or a matched-budget no-advantage result versus same-information direct action prediction. Preserve TTT Ouroboros paired-Settlement collision, intervention-rank/exploration costs, free-running causality and native learning-speed gaps. No D identifier, code, experiment matrix or execution before a complete distinct construction and independent review; 20/15 deficits persist.",
+  "next_action": "Continue only from the narrowed structural residual: determine whether the actual complete Delta transition exposes a checkable rank-preserving or low-action-width closure with a matched-budget costate/action-gradient advantage over reverse VJP, adaptive TBPTT, ARTBP/randomized telescopes, UORO/KF-RTRL/OK/SnAp and same-information direct action prediction. Mere contraction, low absolute sensitivity, generic streaming SVD or unweighted effective rank is insufficient. No D identifier, code, experiment matrix or execution before a complete distinct construction and independent review; 20/15 deficits persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -746,7 +746,7 @@
       }
     ]
   },
-  "research_next_action": "Continue Step2 from the closed-loop rank-growth boundary: determine whether natural Delta trajectories have a compressible singular-value tail and whether any prefix-only estimator has a matched-budget compute, variance or sample-complexity advantage over reverse VJP, TBPTT, UORO/KF-RTRL/OK/SnAp, direct action prediction and ordinary CE. Matrix rank alone is not an algorithmic memory lower bound; preserve causal deployment and native-label gaps. No new D ID until a non-colliding construction and independent review; 20/15 deficits and math-only scope persist.",
+  "research_next_action": "Continue Step2 only if the complete noncommuting Delta transition supplies a checkable rank-preserving/low-action-width closure and a costate-weighted estimator advantage under matched information, bytes and FLOPs. Full-step contraction alone does not imply low relative effective rank, and logarithmic absolute epsilon-rank may only mean vanished credit. Compare reverse VJP, adaptive TBPTT, ARTBP/randomized telescopes, UORO/KF-RTRL/OK/SnAp and direct action prediction. No new D ID until a non-colliding construction and independent review; 20/15 deficits and math-only scope persist.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -802,17 +802,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "step2_closed_loop_rank_growth_control_independently_reviewed_no_admission",
+    "status": "step2_effective_rank_truncation_control_independently_reviewed_no_admission",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "4552000c4719b9aa5db6fd1948ab321704a1db3f",
+    "current_delivery_parent": "617b21a049541e441ecd251f36fcb095365475a8",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "For a focal scalar Delta perturbation with future D/k/v fixed and a state-dependent scalar gate, the exact directional tangent is a frozen left action plus a rank-one feedback injection. Its matrix rank grows by at most one per step and a shared-gate legal path attains the bound; fixed-rank decoded forward eligibility has an exact singular-tail lower bound. This does not imply a general memory lower bound, and contraction can make the high-rank tail numerically negligible.",
-    "originality_and_native_measurement": "major component collision with RTRL/NoBackTrack/UORO, KF-RTRL/OK, SnAp, e-prop, EYM and standard perturbation bounds; audited native assets do not expose tangent rank/costate/truncation truth; no candidate admission",
+    "latest_math_result": "A legal scalar-gated Delta path has every complete tangent step strictly contractive while the normalized terminal tangent has a flat H-dimensional singular spectrum. Contraction therefore does not imply low relative effective rank. Logarithmic absolute epsilon-rank requires stronger rank-bounded injection, rank-preserving ordered transport and age-decay conditions and may only express vanished credit; unbiased rank-r compression has a flat-spectrum variance lower bound.",
+    "originality_and_native_measurement": "major component collision with Stable Recurrent Models, Neumann-RBP, adaptive TBPTT, ARTBP/randomized telescopes, streaming sketches/Frequent Directions and RTRL-family sensitivity compression; audited native assets do not expose tangent/costate/singular-tail/ordered-product/truncation truth; no candidate admission",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -842,6 +842,18 @@
       "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_CLOSED_LOOP_RANK_GROWTH.source-review.md",
       "source_review_sha256": "891ff30f62305ded824821471177e61a74da637f683e04a89d9743e119865902",
       "status": "independent_exact_byte_math_and_source_reviews_accepted;delta_specific_control;major_component_collision;not_candidate",
+      "same_line_not_new_candidate": true
+    },
+    "step2_effective_rank_truncation": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "sha256": "09bceabb9fc8e53dcf7ed877a4b9bc174af093b7406b7f9b51be62d3e60326f2",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
+      "source_sha256": "3536035f240a20e94fa085b65464fbf18d22a993eb3fde543e5d16fccd4f232a",
+      "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md",
+      "math_review_sha256": "9652f0cca9e103a9315fd31fec7c66acd2ca92bcfb5a79fc044ff85ed8ceee1e",
+      "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md",
+      "source_review_sha256": "f329ab3b71c6dccf9a7cf0cf39f36159018ce06b439955e47bf682f1ba8b2f2d",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;major_component_collision;not_candidate",
       "same_line_not_new_candidate": true
     }
   },

@@ -99,3 +99,14 @@
 - 矩阵秩不是一般算法内存下界，reverse VJP 或符号表示可不物化该切向。
 
 RTRL/NoBackTrack/UORO、KF-RTRL/OK、SnAp 与 e-prop 已覆盖 exact/随机低秩/Kronecker/稀疏/eligibility 近似的主要问题。因此这是一项 Delta-specific tight control，不能重新命名为低秩信用方法，也不证明遗忘或 RSI。BABILong、RULER、LongMemEval、bAbI、LAMBADA、CITB、TRACE、SEAL 只能给 endpoint/保持结果；没有一个原生 scorer 暴露 tangent rank、costate 或截断误差真值。处置：major component collision；无 D 编号，计数不变。
+
+## Effective-rank / truncation boundary
+
+[完整推导](STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md)、[固定来源/作者接口/native 审计](sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md)与[独立数学](reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md)/[来源](reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md)审查了“高代数秩是否在收缩下自然可压缩”。
+
+- 一个合法 scalar-gate Delta 路径可让每个完整一步切向算子都严格收缩，同时终点的归一化奇异谱在 H 个方向上完全平坦；稳定不推出低相对 effective rank。
+- `O(log(1/epsilon))` 的绝对秩只在即时注入秩有界、有序背景传输保秩、transported contribution 按年龄衰减且初值另计时成立；它可退化为长期信用整体消失。
+- 固定路径 Russian-roulette 可无偏，但 survival 单调、可积性与方差必须记账；平坦谱对任意无偏 rank-r 压缩给出核范数方差下界。
+- Stable Recurrent Models、Neumann-RBP、Adaptive TBPTT、ARTBP、Randomized Telescopes、Tropp sketches/Frequent Directions，以及既有 RTRL 系列压缩已覆盖主要部件。
+
+generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不自动闭合，这是残余接口边界，不是已构成的新方法。只有能为真实完整 Delta transition 证明合法 closure，并在同信息、bytes/FLOPs 下改善 costate/action-gradient 误差，才值得重开候选构造。当前无 D 编号，计数不变。

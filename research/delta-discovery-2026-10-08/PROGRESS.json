@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T14:46:13Z",
+  "recorded_at": "2026-10-09T15:46:16Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_closed_loop_rank_growth_independent_math_source_reviews_accepted_control_no_admission",
+  "status": "step2_effective_rank_truncation_independent_math_source_reviews_accepted_control_no_admission",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -48,7 +48,7 @@
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     }
   },
-  "delivery_parent": "47f3875232ae0416aa6d05f2363fee1c27e00798",
+  "delivery_parent": "617b21a049541e441ecd251f36fcb095365475a8",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -70,7 +70,8 @@
       "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
       "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
       "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
-      "sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md"
+      "sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
+      "sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -114,7 +115,11 @@
       "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md",
       "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
       "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md",
+      "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -123,10 +128,11 @@
       "Full HOPE/Titans/SEAL/ACL/Sleep primary mechanism and pinned available author interfaces inspected. Major mechanisms already known; no candidate admitted. Independent reviews corrected readout/domain/quotient scope.",
       "Proved action-space costate projection sufficiency and a dim(action-span) lower bound for exact linear credit summaries; arbitrary learned Delta directions reopen the full state dimension.",
       "Derived exact frozen-path rank-one eligibility for one scalar Delta gate and conditional intervention-rank requirements for local slope/curvature; full feedback and multiple pending edits retain long-horizon cost.",
-      "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate."
+      "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate.",
+      "Proved that strict contraction of every complete scalar-gate Delta tangent step does not imply low relative effective rank: a legal path has a flat H-dimensional normalized singular spectrum. Logarithmic absolute epsilon-rank needs stronger rank-bounded injection, rank-preserving transport and fading-age assumptions, and may only reflect vanished credit. Unbiased rank-r compression has an explicit flat-spectrum variance lower bound."
     ]
   },
-  "next_action": "Continue from the narrow residual only: derive an error/cost bound for low-rank action-projected credit under the complete closed-loop Jacobian, or prove that no matched-budget advantage over direct action prediction is possible under stated assumptions. Preserve the TTT Ouroboros Settlement collision, intervention-rank/exploration costs, teacher-forced versus free-running gap, and the native learning-speed measurement gap. No D identifier before a complete non-colliding contribution and independent source/math review; no candidate code, experiment matrix or execution. 20/15 deficits persist.",
+  "next_action": "Continue only from the narrowed structural residual: determine whether the actual complete Delta transition exposes a checkable rank-preserving or low-action-width closure that yields a costate/action-weighted estimator advantage over reverse VJP, adaptive TBPTT, ARTBP/randomized telescopes, UORO/KF-RTRL/OK/SnAp and same-information direct action prediction at matched bytes/FLOPs. Mere contraction, low absolute sensitivity, generic streaming SVD or empirical unweighted effective rank is insufficient. No D identifier before a complete non-colliding contribution and independent source/math review; no candidate code, experiment matrix or execution. 20/15 deficits persist.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -496,6 +502,32 @@
         "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
         "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md"
       ]
+    },
+    {
+      "identity": "/root/effective_rank_math",
+      "result": "Independently derived the ordered rank-one expansion, flat-spectrum contraction counterexample, conditional tail bounds, small-Gram computation and rank-r random-compression limits",
+      "artifact": "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md"
+    },
+    {
+      "identity": "/root/effective_rank_attack",
+      "result": "Adversarial exact-byte review corrected age indexing, initial-rank accounting, bi-orthogonal tail assumptions, survival constraints and second-moment conditions before final acceptance",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md"
+      ]
+    },
+    {
+      "identity": "/root/effective_rank_sources",
+      "result": "Primary/formula/author-interface collision audit and final exact-byte source acceptance for adaptive TBPTT, ARTBP, randomized telescopes, stable/RBP and streaming-sketch controls",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md"
+      ]
+    },
+    {
+      "identity": "/root/effective_rank_measurement",
+      "result": "Independent native-feasibility audit separated endpoint consequences from unavailable tangent/spectrum/truncation ground truth",
+      "artifact": "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md"
     }
   ],
   "step2_reentry": {
@@ -614,6 +646,33 @@
       ],
       "measurement": "No audited native task exposes tangent rank, singular-value tail, exact costate, truncation residual or ideal edit as ground truth. BABILong/RULER/LongMemEval/bAbI/LAMBADA/CITB/TRACE/SEAL are at most endpoint or continual-retention measurements with stated interface/resource gaps.",
       "residual": "Natural-data effective-rank prevalence and a matched-budget estimator advantage remain unmeasured; no updater, estimator or scientific candidate was produced.",
+      "same_line_not_new_candidate": true
+    },
+    "effective_rank_truncation_control": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "sha256": "09bceabb9fc8e53dcf7ed877a4b9bc174af093b7406b7f9b51be62d3e60326f2",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
+      "source_sha256": "3536035f240a20e94fa085b65464fbf18d22a993eb3fde543e5d16fccd4f232a",
+      "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md",
+      "math_review_sha256": "9652f0cca9e103a9315fd31fec7c66acd2ca92bcfb5a79fc044ff85ed8ceee1e",
+      "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md",
+      "source_review_sha256": "f329ab3b71c6dccf9a7cf0cf39f36159018ce06b439955e47bf682f1ba8b2f2d",
+      "status": "independent_exact_byte_math_and_source_reviews_accepted;delta_specific_counterexample_control;major_component_collision;not_candidate",
+      "conditional_results": [
+        "strict contraction of every complete scalar-gate tangent step does not imply low relative effective rank; a legal Delta path has a flat H-dimensional normalized singular spectrum",
+        "logarithmic absolute epsilon-rank requires rank-bounded injections, rank-preserving ordered transport and a transported age-decay bound, and can merely express vanished credit",
+        "Russian-roulette truncation is conditionally unbiased on a fixed linearized path but must expose survival monotonicity, integrability and variance",
+        "any unbiased rank-r matrix estimator obeys a nuclear-norm variance lower bound that is large on flat spectra"
+      ],
+      "direct_collisions": [
+        "Stable Recurrent Models and Neumann-RBP contraction/fixed-point truncation",
+        "Adaptive TBPTT geometric-tail bias control",
+        "ARTBP and randomized telescopes inverse-survival unbiased truncation",
+        "Tropp streaming sketches and Frequent Directions",
+        "RTRL/NoBackTrack/UORO, KF-RTRL/OK, SnAp and e-prop"
+      ],
+      "measurement": "Audited native tasks expose endpoint, retention or continual-edit outcomes but not tangent/costate/singular-tail/ordered-product/truncation ground truth. Bound instrumentation on the same native samples would be required later.",
+      "residual": "Only a checkable noncommuting Delta closure with matched-budget costate/action-gradient advantage over all stated controls could reopen candidate construction.",
       "same_line_not_new_candidate": true
     }
   },
