@@ -50,7 +50,7 @@
       "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     }
   },
-  "delivery_parent": "13114650c049ac2cd757f4df6959c11880d6630d",
+  "delivery_parent": "95607da1a90f4a884aa42cc2655069ed53875512",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -880,7 +880,11 @@
       "Native measurement of internal quotient exactness, retention and later-task learning efficiency.",
       "Any empirical benefit; no model code, training, inference or scoring was run."
     ],
-    "delivery_status": "pending_expected_parent_main_publish_and_exact_readback"
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V2_DELIVERY_READBACK.json",
+      "sha256": "8501b6d2a8dfffe90d4011d20a80969f12ffa38e84ca658ad8fae03fb36559ff"
+    },
+    "delivery_status": "published_expected_parent_main_and_all_12_substantive_files_exact_byte_readback_completed_at_95607da1a90f4a884aa42cc2655069ed53875512"
   },
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",

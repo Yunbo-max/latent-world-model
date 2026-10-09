@@ -1,0 +1,106 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "recorded_at": "2026-10-09T17:48:05Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "integration_writer": "/root",
+  "expected_parent": "13114650c049ac2cd757f4df6959c11880d6630d",
+  "published_commit": "95607da1a90f4a884aa42cc2655069ed53875512",
+  "force": false,
+  "update_ref_success": true,
+  "literal_main_observed": "95607da1a90f4a884aa42cc2655069ed53875512",
+  "readback_kind": "Every listed file fully fetched as base64 at the exact published commit; decoded-byte identity and Git blob identity compared to the submitted bytes.",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
+      "sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5",
+      "git_blob_sha": "aa52872e59e0b1e527aae544b8bbafd7498b586a",
+      "bytes": 12740,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V2_CREDIT_QUOTIENT_SOURCE_AUDIT.md",
+      "sha256": "3ea1ebcce6d15bf085b150d7af872143ec07c8587af3b2dd75e72c448d51862f",
+      "git_blob_sha": "6fe461ddb2b27fdce8d716b788f8df078952ec9a",
+      "bytes": 8038,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.md",
+      "sha256": "67756fb9d085c55d9eedfc520537d67c34cbf1b95f878d5e98e7f6a0b091e1cb",
+      "git_blob_sha": "c5e194e557634aaef46e047d33f37e34c3aa9309",
+      "bytes": 3552,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.json",
+      "sha256": "134668ccc83146305b4550a571c04a3bf29c70d101e1c8c4b4b9276d3bb0d7e5",
+      "git_blob_sha": "b2d5ec284ac5f359fe1d89858668410804adc72e",
+      "bytes": 1399,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.source-review.md",
+      "sha256": "8f8e28bbd163303d847a4aae76874fcf0b44e19597b91dcc44ee12e94af7993d",
+      "git_blob_sha": "f218677caf346531db913c8ab4e483a97fe182c4",
+      "bytes": 4249,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "b0a917dac7286f24252288479b525898f808ed19d507066eed4a9bbd69f6ede1",
+      "git_blob_sha": "455a3eba4dda39ba9f509e10fdee98b3815f84f5",
+      "bytes": 56854,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "b836e871aac2db560ec708cdf62520ba9df361786c7396ab1e7644ec7510f135",
+      "git_blob_sha": "14e368b5e0ef83618f1452f4e0d4c2c3c2c8ee76",
+      "bytes": 4171,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "9f6f5e131c048ba79b01a2f430c0f8abd29bff739a7160dfa9b102b342ecc713",
+      "git_blob_sha": "bfdf191d99e60ac2d0bc583f99a5a3b00d9d10c6",
+      "bytes": 24959,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "8e6ef15869c37a643f1070d26fefc8d5477f94863eaae7df149ab97769199473",
+      "git_blob_sha": "7635a8d032ea397fb7080298f77a5158a7619a84",
+      "bytes": 29061,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "1c8275ab2acfbe1f8e53de0ecbecbe7b103d336b951787afd68638bdee3fb208",
+      "git_blob_sha": "97623ab31419658323d20f3aed3e2519927722d4",
+      "bytes": 11010,
+      "byte_identical": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "sha256": "ec0ceb01d218e5163890a17a843c438381deb647cc2b6cc9c46c021f23840155",
+      "git_blob_sha": "a82d80430154670efa698e37714657aa081b38d9",
+      "bytes": 30447,
+      "byte_identical": true
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "203e97b25b7d4892507e276bbf3abf2a95fdf8c65e04d4151c4ef9fe4c2a770b",
+      "git_blob_sha": "6317305b3aa81a9e88e40363a08b9323fbc5bea9",
+      "bytes": 76335,
+      "byte_identical": true
+    }
+  ],
+  "all_exact": true,
+  "semantic_limits": [
+    "Byte identity does not prove mathematical truth, originality or empirical value.",
+    "Independent final-byte math and source reviews are separately bound in the packet.",
+    "No model code, test, training, inference, scoring or benchmark execution occurred."
+  ],
+  "following_receipt_commit": "This receipt and checkpoint/progress references are published subsequently with the same non-force expected-parent rule; their own final commit readback is reported by the current publishing Work turn, avoiding circular self-hashes."
+}
