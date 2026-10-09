@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T22:46:42Z",
+  "recorded_at": "2026-10-09T23:51:04Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -183,7 +183,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R03 v2 is parked after its second substantive repair: its conditional coupled-horizon control is complete, but same-budget advantage, free-running causal safety and native joint measurement remain open. Continue repair-and-rederive from another existing lineage; do not count R03 v2 as a candidate.",
+  "next_action": "R05 v3 is parked as a conditional partial-identification control. Continue only from an existing lineage with new joint evidence, a tighter auditable coupling class, or a same-budget Delta-specific estimator advantage; do not count R05 as a candidate.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1159,6 +1159,18 @@
       }
     }
   },
+  "repair_R05_partial_identification": {
+    "version": "v3",
+    "lineage_parent": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md", "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"},
+    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md", "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19", "reviewer": "/root/r05_math_review"},
+    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1", "reviewer": "/root/r05_source_review"},
+    "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
+  },
   "delta_updater_rsi_math": {
     "authorization_local_time": "2026-10-09T12:48:59+01:00",
     "quote": "我认为这个方向值得深入，但目前它是候选研究路线 我觉得你可以把这个扩展下搞idea在后台",
@@ -1201,5 +1213,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09 22:46:42 UTC"
+  "updated_at": "2026-10-09 23:51:04 UTC"
 }

@@ -151,3 +151,9 @@ This does not create a new safe-learning mechanism. Safe exploration/design supp
 ### R04 v3 joint selection
 
 [Updated audit](sources/REPAIR_R04_V3_SELECTION_SOURCE_AUDIT.md) adds formula-level selective consolidation in Leimer et al. 2019, fast/slow noise-timescale dynamics plus pinned author notebooks in Bhasin–Raymond–Goldman 2024, and Dual-Layer Agentic Memory `2608.22215v2` §§3.3–3.4 (counterfactual write reward, escalation gate, SFT write-back, probe flush). It also separates Sangyun Lee et al. `2605.26099` persistent SSM fast-weight Sleep from Behrouz et al. `2606.03979v2` expert/distillation Sleep. Generic quadratic Bayes action, fast/slow selective consolidation and cost-aware routing are covered; no read source was found to give the exact `p>alpha^T` statement, but that threshold is a generic survival decision special case, not sufficient method novelty. Author code/data for Dual-Layer remain unavailable. R04 v3 is a parked conditional theory/control, not a candidate.
+
+## R05 部分识别门的最近工作处置
+
+R05 的 support/quantile 端点属于固定边缘 Fréchet class 与 rearrangement 极值；区间上的 minimax-regret 决策属于 partial-identification/robust-Bayes 邻域，moment-DRO 是更宽泛对照。残余仅是把这些已知原理映射到 `validity × Delta horizon sensitivity` 的标量风险、并导出 no-write 可认证边界；这是一条待查重的专门化 corollary，不足以形成新算法候选。
+
+原生接口核查限定在固定版本：ROME/CounterFact、EvEdit、EasyEdit、sequential editing 均能测 efficacy/locality/reasoning/下游退化等 endpoint，但不记录 R05 所需逐次 `r,J,Z,m` 或两个潜在动作结果。来源、贡献差异与 measurement gap 的最终独立复核均通过；处置为 parked control，候选增量0。

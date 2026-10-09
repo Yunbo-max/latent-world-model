@@ -130,3 +130,9 @@ R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没
 [第二次修订](repairs/R03_COUPLED_HORIZON_SAFETY.v2.md)把 R03 v1 的单步 `rank-one` 位移扩展为 `即时 Delta 注入 × 完整 memory/updater 增量增益 × 未来保护输出敏感度` 的有限时域能量界，并把它回代到安全 logging 的 propensity 可行性。独立数学审查先返回 REVISE，要求补齐 endogenous query 的复合 map、部署前 `F_t` 可测的 simultaneous bounds、随机动作期望安全与逐动作 hard safety之别、floor-simplex 与 PSD/shared-law 条件；修正后的最终字节通过复审。
 
 结果在明示条件下成立，但不是新算法：SEPEC/Safe Optimal Design 覆盖安全日志优化，小增益/保护纤维覆盖动力学界，RTRL/UORO/e-prop 等覆盖完整 sensitivity。当前只保留“Delta 即时注入如何改变长期安全—positivity 可行性”的窄理论接口；自由运行总效果、同预算证书优势与原生 joint propensity/protected-validity/counterfactual 测量仍未闭。R03 在第二次修订后 park，不计新 D；计数仍为5历史/0活动/0准入/0选择，没有执行代码或实验。
+
+## R05：从不可识别改成部分识别，而不是直接否定
+
+[v1 原推导](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md)、[v2 审查修订](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md)与[最终 v3](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md)把“未知语义有效性 `r` 与未来敏感度 `Z` 的联合矩不可得”改造成可计算的部分识别问题。只知道 `p=E[r]`、`mu=E[Z]` 和共同上界 `U` 时，`m=E[rZ]` 落在锐利 Fréchet/support 区间；区间中点给出 minimax-regret gate，且存在统一优于 no-write 的正 gate 当且仅当下界 `m_->0`。完整 `Z` 边际可用分位耦合进一步收紧，但仍不能凭边际点识别联合收益。
+
+独立审查保留并修复了矩阵 sharpness、原子端点、动作前状态、`A=0` 除零与效益语义。来源审计确认 Fréchet/partial identification/Gamma-minimax/moment-DRO 是直接近邻；ROME/CounterFact、EvEdit、EasyEdit 与 sequential editing 只给行为 endpoints，不原生提供逐次 `r,J,Z,m` 或配对潜在结果。故 R05 是条件数学 control，不分配 D 编号、不进入 top15；计数仍为5历史/0活动/0准入/0选择，实际效果未知且未执行代码或实验。

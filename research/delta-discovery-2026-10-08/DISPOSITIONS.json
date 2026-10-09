@@ -631,6 +631,24 @@
         }
       ],
       "candidate_delta": 0
+    },
+    {
+      "id": "R05",
+      "kind": "repair_control",
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+      "status": "parked_not_candidate",
+      "substantive_attempts": 2,
+      "mathematical_status": "accepted_sharp_scalar_partial_identification_and_minimax_regret_control",
+      "contribution_status": "known_Frechet_partial_identification_robust_Bayes_and_moment_DRO;not_scientifically_admitted",
+      "empirical_status": "unknown_no_execution",
+      "reason": "v3 converts unavailable validity-sensitivity joint labels into sharp support/quantile bounds, a minimax-regret gate and a no-write certification boundary. Independent review fixed degeneracies and scope. The decision primitives are known and native endpoints do not expose r,J,Z,m or paired outcomes, so the Delta specialization remains a control.",
+      "evidence_refs": [
+        {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md", "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c"},
+        {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md", "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19", "reviewer": "/root/r05_math_review"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1", "reviewer": "/root/r05_source_review"}
+      ],
+      "candidate_delta": 0
     }
   ]
 }

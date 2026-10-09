@@ -122,6 +122,21 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
       "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
       "status": "accepted_conditional_joint_selection_control_parked_after_attempt_3_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md",
+      "sha256": "ce124a8bbe131f12c697f23ba0755650a18d72fbfe17d674a908b447a2bb602e",
+      "status": "superseded_initial_partial_identification_derivation_preserved"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md",
+      "sha256": "84a54cd908c1b60be4bbd3baf5fa2c51223312af8f9d928c0a3b50372a813e24",
+      "status": "superseded_intermediate_review_revision_preserved"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+      "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c",
+      "status": "accepted_conditional_partial_identification_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -131,8 +146,9 @@
     "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting.",
     "repair_controls_count_as_candidates": false,
     "notes": [
-      "R01–R04 repair/control records do not populate active pool or selection.",
-      "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates."
+      "R01–R05 repair/control records do not populate active pool or selection.",
+      "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates.",
+      "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
