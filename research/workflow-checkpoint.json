@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T01:56:30Z",
+  "recorded_at": "2026-10-09T03:44:52Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -92,6 +92,7 @@
     "Mapped delayed-influence/order claims to native bAbI, LAMBADA, RULER, LongMemEval and BABILong assets, preserving native scorer and information-access limits without downloads or execution.",
     "Completed decisive D01/D03/D06 collision audits and moved all three to inactive controls; independently derived/reviewed D07 WTSR as the sole active conditional-math card; added verified exact-overwrite/reversibility and deferred-debt controls plus DeltaTTT primary-paper exclusion. No code, test, download or experiment execution."
     ,"Completed D07 full-formula and pinned Tabular ICL author-code collision audit: general source contribution/survival and the same-key scalar specialization are covered, while write-rate decay and delayed semantic supervision cover the principal function. Moved D07 to inactive diagnostic; independently verified bare-oblique-erase and evidence-conditioned-revision controls. Active/scientifically admitted/selected counts are all zero."
+    ,"Completed Gated Slot Attention-2 full-formula exclusion and three independently reviewed Delta controls: finite unitary dilation is a finite-horizon event-memory trade rather than reusable contraction; counterfactual query-visible source utility collapses to future CE under the clean write-local case; and fixed-SPD Lyapunov rescue whitens to normalized Delta. Active/scientifically admitted/selected counts remain zero; no code, test, download or experiment execution."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -143,9 +144,9 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T02:44:05+00:00"
+    "last_math_milestone_recorded_at": "2026-10-09T03:44:52+00:00"
   },
-  "next_action": "Continue Delta mathematics from PROGRESS.json with zero active candidates: derive a genuinely distinct formal mechanism and complete nearest-work separation before assigning a D-number. Do not revive D01/D03/D05/D06/D07 or count no-go, Bayesian-gate/projection, source-trace, error-feedback, multi-layer/local-loss, slot or multi-step controls. Prior engineering remains closed and Local execution was not dispatched.",
+  "next_action": "Continue Delta mathematics from PROGRESS.json with zero active candidates: derive a genuinely distinct formal mechanism and complete nearest-work separation before assigning a D-number. Do not revive D01/D03/D05/D06/D07 or count unitary-dilation/event-memory trades, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, GSA2 two-sided slot/Oja constructions, no-go, Bayesian-gate/projection, source-trace, error-feedback, multi-layer/local-loss, slot or multi-step controls. Prior engineering remains closed and Local execution was not dispatched.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -240,6 +241,11 @@
     "delta_math_d07_collision_and_controls_milestone": {
       "parent_head": "016de6e054b0035d95950c77aed6169b0686d519",
       "scope": "Math/source-only partial milestone: D07 full-formula and pinned author-code audit moved the last active card to an inactive diagnostic; bare-oblique-erase and evidence-conditioned-revision controls were independently reviewed. Zero active/scientifically admitted/selected candidates and no project execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_math_gsa2_and_three_controls_milestone": {
+      "parent_head": "7b1ce12212180284d8a252fdb97bcccd2c35a9ad",
+      "scope": "Math/source-only partial milestone: GSA2 excludes two-sided shared-slot Oja/Delta constructions; finite unitary dilation, counterfactual query-visible source utility and fixed-SPD Lyapunov oblique rescue were independently reviewed and retained only as no-go/control records. Zero active/scientifically admitted/selected candidates and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
@@ -595,7 +601,7 @@
       }
     ]
   },
-  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
+  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, unitary-dilation/event-memory trades, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, GSA2 two-sided slot/Oja constructions, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -651,12 +657,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "partial_math_milestone_zero_active_five_collision_inactive",
+    "status": "partial_math_milestone_zero_active_gsa2_and_three_controls",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "016de6e054b0035d95950c77aed6169b0686d519",
+    "current_delivery_parent": "7b1ce12212180284d8a252fdb97bcccd2c35a9ad",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md"
   }
 }

@@ -188,6 +188,33 @@
       ]
     },
     {
+      "id": "NOGO-UNITARY-DILATION",
+      "state": "accepted_no_go_result_not_candidate",
+      "reason": "A one-step Halmos completion stores the erased component, but reusing finite auxiliary state feeds it back and breaks Delta; an exact all-horizon unitary power dilation of a strict finite-dimensional contraction requires infinite dimension. Finite-horizon fresh slots grow with horizon and become explicit event memory.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_UNITARY_DILATION.md","sha256":"32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_UNITARY_DILATION.review.md","sha256":"fd8989b05d42294f150cbe9f7dfc1b5445c9747b8ad7cc3d8dc850f9c817d876"}
+      ]
+    },
+    {
+      "id": "COUNTERFACTUAL-QUERY-WRITE-UTILITY",
+      "state": "rejected_as_distinct_method_retained_as_control_or_lead",
+      "reason": "Frozen-path deletion gives exact query-visible signed attribution, but maximizing it has the ordinary future-CE gradient for write-local parameters. Signed memory-source reward is already covered by AttriMem/HiMPO-style counterfactual credit, and retrospective sign cannot selectively release a mixed source without identity or growing traces.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md","sha256":"a2a8cb972bf9915af5e4761132ff505191d28e09ef04867dc151b4a1d910dd9c"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/COUNTERFACTUAL_QUERY_WRITE_UTILITY.review.md","sha256":"c257782e161f8fdf67e3871763ec59a9df14f42f1677ec9f71a6d39a947c8f3e"}
+      ]
+    },
+    {
+      "id": "LYAPUNOV-OBLIQUE-METRIC",
+      "state": "rejected_as_distinct_method_retained_as_coordinate_control",
+      "reason": "An oblique rank-one correction is nonexpansive in some fixed SPD metric iff its erase/write overlap lies in (0,2], but every fixed-metric instance is exactly normalized Delta after whitening. Token-local changing metrics do not compose without a cross-time Lyapunov inequality and overlap PDN/KDN/GDN2/QED preconditioning.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/LYAPUNOV_OBLIQUE_METRIC.md","sha256":"c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/LYAPUNOV_OBLIQUE_METRIC.review.md","sha256":"d1aa194bbe9ea8ab08e5060b2821ffb6fb3d0e8e47f45bf1ee5e8afa9136ab39"}
+      ]
+    },
+    {
       "id": "D01-schema-history",
       "state": "superseded_format_only",
       "path": "cards/history/D01.pre-schema-f134c0f3.json",

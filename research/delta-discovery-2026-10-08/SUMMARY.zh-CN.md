@@ -1,4 +1,4 @@
-# Delta 数学发现：D07 完整碰撞处置与两个新增否定控制
+# Delta 数学发现：可逆、反事实效用与度量稳定三条路线的严格处置
 
 这是数学阶段的部分里程碑，不是 20→15 完成。构造历史现有 **5 张卡**；D01、D03、D05、D06、D07 已全部因重大功能或组合碰撞移出活动池。D07 的条件代数仍成立，但完整公式与作者代码审计只留下一个窄的 direct-hinge 实现差异，不能据此科学准入。当前**活动候选 0、科学准入 0、选择 0**，距目标仍差 20 个活动候选/15 个选择。没有项目代码、测试、训练、推理、原生评分、数据/模型下载、GPU 或实验运行。
 
@@ -32,8 +32,16 @@ D07 保留普通 Delta/GDN 前向更新。训练期对观测序列采样 source 
 
 `REVISION-EVIDENCE-POSTERIOR-EDIT` 说明额外已观测证据确可解除 residual-only TV no-go，但随后得到的是普通二假设 Bayes gate 加已知 protected/ridge/slot edit。无新增证据仍不可辨；完美 ID 退化 routing；future teacher 属于额外监督。独立复核纠正了 unequal-prior Bayes error、ridge 端点、平行地址可行性以及 BOCPD/mixture 的严格范围。两项都不计候选。
 
+## 本轮继续闭合的三条路线
+
+1. **Unitary Delta dilation**：一步 Halmos 扩张可以把被擦除分量搬进一个辅助槽，但第二次复用该槽就会让旧内容流回；严格 Delta contraction 的全时域 exact unitary dilation 需要无限维。有限时域版本每步用新槽，状态随 horizon 线性增长，实质是显式事件记忆。
+2. **Counterfactual query-visible write utility**：固定路径下可以精确测一个 write 对未来 query/CE 的 signed contribution，解决了 D07 只看 state norm 的诊断缺陷。但对只控制该 write 的参数，最大化 utility 的梯度精确等于普通 future CE；AttriMem/HiMPO 等又已用 source ablation/signed memory credit。它能事后诊断 revision，不能从混合状态中选择性删除来源。
+3. **SPD metric oblique Delta**：`A=I-wrᵀ` 在某 SPD metric 中非扩张当且仅当 `0<rᵀw≤2`。固定 metric 时，它精确等价于白化坐标中的 normalized/preconditioned Delta；逐 token metric 的局部证书不能自动推出整个产品稳定，且与 PDN/KDN/GDN2/QED 的几何重合。
+
+同时加入 2026-10-02 的 GSA2 全公式边界：key→slot 使用 OJA2 correction，slot→value 使用 Delta2 correction，并在两侧解耦 erase/write。因此“双侧纠错、reverse/Oja update、两阶段共享 slots”不能再作为新候选名称；该论文的 arXiv 记录没有作者指定代码链接，所以未冒充源码审查。
+
 ## 下一合法动作
 
-从零活动候选重新寻找真正不同的失败机制构造，并在分配新 D 编号前完成最近工作分离。D07 只有同时满足 arbitrary-key 几何分离、与同信息语义监督非等价、causal revision release 及可识别测量四项才可重开；不得把 no-go、Bayes gate+projection、参数变体、diffusion、slots、多步 Delta、source trace 或普通 local loss 凑入 20。
+从零活动候选重新寻找具有新 causal observable 或 state invariant 的部署递推，并在分配新 D 编号前完成最近工作分离。排除 GSA2 双侧 slot correction、unitary dilation、source-utility attribution、fixed-metric preconditioning，以及所有既有 inactive/no-go 路线；不得只换 loss、坐标、门范围或辅助噪声来凑数。
 
 入口：[进度](PROGRESS.json)、[证据批次](method-batch.json)、[近邻图](CLOSEST_WORK.md)、[排名状态](RANKING.md)。当前没有全池排名或 top-15 选择。

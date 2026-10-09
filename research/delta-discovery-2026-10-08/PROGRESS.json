@@ -2,12 +2,12 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T02:44:05Z",
+  "recorded_at": "2026-10-09T03:44:52Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_all_five_history_cards_inactive_after_d07_collision_three_more_verified_controls",
+  "status": "partial_math_milestone_zero_active_gsa2_exclusion_three_additional_verified_controls",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -49,16 +49,20 @@
       "sources/D06_EXTENDED_COLLISION_AUDIT.md",
       "sources/DELTATTT_FULL_AUDIT.md",
       "sources/WTSR_NEAREST_WORK.md",
-      "sources/D07_FULL_COLLISION_AUDIT.md"
+      "sources/D07_FULL_COLLISION_AUDIT.md",
+      "sources/GSA2_FULL_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
       "rejected/DEFERRED_CORRECTION_DEBT.md",
       "rejected/NOGO_OBLIQUE_03.md",
-      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+      "rejected/NOGO_UNITARY_DILATION.md",
+      "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
+      "rejected/LYAPUNOV_OBLIQUE_METRIC.md"
     ]
   },
-  "next_action": "Start from zero active candidates and derive a genuinely different formal mechanism around an unresolved Delta failure, with nearest-work separation before assigning a new D-number. Do not revive D07 unless all four reopening conditions in its collision audit are met; do not count no-go, Bayesian gate plus projection, oblique-erase algebra, local-loss, slot, multi-step or source-trace variants.",
+  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude GSA2-style two-sided slot correction, fixed/unitary dilation, source-utility attribution, fixed-metric oblique preconditioning and all prior inactive routes. A candidate must change the deployed recurrence, not only add a known loss or coordinate system.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -121,6 +125,36 @@
       "identity": "/root/revision_control_review",
       "result": "Independent review corrected prior/TV, ridge endpoints, parallel-address feasibility and BOCPD/mixture scope",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REVISION_EVIDENCE_POSTERIOR_EDIT.review.md"
+    },
+    {
+      "identity": "/root/dilation_delta_math",
+      "result": "Derived one-step rank-one Halmos dilation and proved reusable finite auxiliary state cannot reproduce strict Delta powers",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/NOGO_UNITARY_DILATION.md"
+    },
+    {
+      "identity": "/root/dilation_nearest_work",
+      "result": "Independent classical/ML collision audit; finite-horizon dilation is known and requires horizon-growing state",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/NOGO_UNITARY_DILATION.review.md"
+    },
+    {
+      "identity": "/root/counterfactual_source_math",
+      "result": "Proved query-visible source utility is ordinary future CE for write-local parameters and does not causally release mixed writes",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md"
+    },
+    {
+      "identity": "/root/counterfactual_source_audit",
+      "result": "Independent AttriMem/HiMPO/ContextCite/influence collision audit; retained only a narrow full-replay lead",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/COUNTERFACTUAL_QUERY_WRITE_UTILITY.review.md"
+    },
+    {
+      "identity": "/root/lyapunov_oblique_math",
+      "result": "Derived exact SPD nonexpansiveness condition and fixed-metric whitening equivalence",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/LYAPUNOV_OBLIQUE_METRIC.md"
+    },
+    {
+      "identity": "/root/lyapunov_oblique_audit",
+      "result": "Independent PDN/KDN/GDN2/QED geometry audit; fixed metric killed as coordinate/preconditioner control",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/LYAPUNOV_OBLIQUE_METRIC.review.md"
     }
   ]
 }

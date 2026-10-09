@@ -6,6 +6,6 @@
 
 D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attention Remembers/RPMem 的 source trace/survival，以及 Tabular ICL 的 write-rate decay。其内部量 `||P k_i||²` 与 D03 的 future-readout metric、D06 的 global spectral floor 确实不同，但它仍可能提高状态范数而不提高 query 可见性，甚至保存过时事实。重新准入需要 formal arbitrary-key separation、与同信息语义监督的非等价、revision release 及可识别测量四项同时闭合。
 
-本轮又闭合两个否定控制：裸 oblique erase 的精确奇异值 no-go，以及 evidence-conditioned revision edit 对 Bayes gate + protected/ridge/slot 几何的分解。它们减少无效路线，不增加活动计数。
+本轮继续闭合三条看似可行但不独立的路线：unitary dilation 需要随时域增长的 defect slots；query-visible counterfactual utility 对局部写入就是普通 future CE，并与 AttriMem/HiMPO 式 signed credit 碰撞；固定 SPD metric oblique Delta 精确等价于白化后的 preconditioned Delta。GSA2 又直接覆盖双侧 Oja/Delta correction 与共享 slots。它们减少无效路线，不增加活动计数。
 
 最终排名仍将基于问题价值、数学后果、最近工作残余、区别性预测、最强简单替代及总成本。当前不得给出“最优 2–3 项”或暗示任何历史卡已获推荐。
