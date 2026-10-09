@@ -53,3 +53,7 @@
 
 上述已读的是必要公式/算法与具体接口，不是所有论文/仓库逐行审计。引用量与 checker 通过不证明原创性。原始代码未运行，未下载模型/数据，未造实验结果。公共可测量对象和原生 scorer 边界见 [BASELINE_NATIVE](sources/BASELINE_NATIVE.md) 与[本轮可行性核查](sources/MEASUREMENT_FEASIBILITY_2026-10-09.md)；机制主张的 measurement gap 不能由通用 QA 得分消除。
 
+第2步最新[观测预测目标推论](STEP2_OBSERVED_PREDICTIVE_TARGET.md)：真实未来 token CE 可定义监督，不需免费 r/u；固定 value方向的最优edit是标量ridge、gate可达性有精确条件，完整CE/GGN仍需full-state路径与局部误差。TTT v1 §2.2–2.3及官方JAX/PyTorch固定代码已经学习outer next-token任务；APO与Martens覆盖proximal/GGN基础。[实际来源审查](sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md)保留代码/函数/pin和APO作者代码不可得状态。随机风险下的最优动作信息充分性是条件Bayes推论，其专门decision-focused近邻仍pending，不能用“无需保留全部分布”一句话申请原创准入。该续接不计新卡。
+
+原生记录修正：上列旧MEASUREMENT_FEASIBILITY把LAMBADA写作standard，但当前已查的project/scorer/preparation和官方配置实际采用**lambada_openai**。固定文件/blob/函数与差异在新source audit中逐项保留；不得混合版本，5153分母和旧历史不变。没有改评测代码或假称旧standard已获资格。
+

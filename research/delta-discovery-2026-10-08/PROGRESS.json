@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T08:56:27Z",
+  "recorded_at": "2026-10-09T09:48:50Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_reentry_joint_conditional_risk_and_query_target_math_reviewed",
+  "status": "step2_observed_predictive_target_reachable_edit_and_decision_sufficiency_reviewed",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -41,10 +41,10 @@
     "continuous_execution_verified": false,
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "same_enabled_math_task; latest_Step2_prompt_observed; current_Work_invocation_not_continuous_execution",
-    "service_updated_at_observed": "2026-10-09T08:47:25.186072+00:00",
-    "service_last_run_time_observed": "2026-10-09T07:48:38.718199+00:00"
+    "service_updated_at_observed": "2026-10-09T09:06:04.799316+00:00",
+    "service_last_run_time_observed": "2026-10-09T09:05:41.851522+00:00"
   },
-  "delivery_parent": "a00997c07ed02394d55cfb951542afc0a7b7de6c",
+  "delivery_parent": "12bf91d20444ec86c1ae9c15f3ed47aa5c690859",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -63,7 +63,8 @@
       "sources/D07_FULL_COLLISION_AUDIT.md",
       "sources/GSA2_FULL_AUDIT.md",
       "sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md",
-      "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md"
+      "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
+      "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -93,14 +94,16 @@
     ],
     "new_conditional_theory_leads": [
       "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md",
+      "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md"
     ],
     "latest_substantive_results": [
-      "Observed noisy-query prediction versus latent-map recovery: exact risk difference, independent BC/IV stability and scalar observational-equivalence family.",
-      "Joint edit validity and future geometry: exact conditional optimizer, necessary/sufficient directional factorization condition, endogenous Delta differential and finite quadratic-moment diffusion boundary."
+      "Observed future token CE closes predictive supervision without latent validity labels; fixed value rank-one optimum, gate reachability/constraint regret and orthogonal residual boundary derived.",
+      "Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency."
     ]
   },
-  "next_action": "Continue owner-requested Step 2 from STEP2_JOINT_CONDITIONAL_RISK.md: close a real validity/output-correction/query observation contract, nearest joint-risk work, and tractable causal mixed-moment estimation. Analyze the complete endogenous state Jacobian and local-surrogate limits. Theory, representation, objective and computation contributions can qualify under their own obligations without mandatory new causal evidence or deployed recurrence. Do not count known BC-LMS/IV, weighted Bayesian normal equations, or historical controls as candidates. Existing no-go results remain scoped; changed assumptions require new derivations. Originality/native measurement and 20/15 deficits remain open; math-only, no code/experiments.",
+  "next_action": "Continue Step2 from STEP2_OBSERVED_PREDICTIVE_TARGET.md: investigate decision-focused/sufficient-action representation and constrained Delta predictive-direction risk against actual nonfactorized write/TTT/proximal nearest work. Close natural importance, causal estimability and full-path cost/measurement under real text labels; keep CE prediction distinct semantic revision validity. Ordinary CE already trains existing writer. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -370,6 +373,22 @@
         "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
         "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
       ]
+    },
+    {
+      "identity": "/root/predictive_target_review",
+      "result": "Independent final exact-byte conditional math acceptance; finite-moment/interchange correction processed",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md"
+      ]
+    },
+    {
+      "identity": "/root/predictive_sources_review",
+      "result": "Independent exact-byte primary/interface/native source/meaning acceptance; TTT/APO/GGN foundations and lambada_openai correction retained",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md"
+      ]
     }
   ],
   "step2_reentry": {
@@ -393,6 +412,16 @@
     "supplement": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
     "distinctness": "same R2-C/R2-J/R2-D line as original reentry; supplement is not another candidate",
     "original_artifact_sha256": "30fe78ef6d4cb980d5aa9ee535a50c416ce67ae562d771297dad1b4e8263a399",
-    "review_artifact": "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
+    "review_artifact": "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md",
+    "observed_predictive_target": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
+      "source_sha256": "937293b2522f8d2d25a8f9421297a5eaa7cb0a24729086d3f985b6be3855c295",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md",
+      "status": "conditional_mathematics_and_source_review_accepted;not_candidate",
+      "native_variant_correction": "actual project lambada_openai; prior feasibility table standard retained as stale historical description",
+      "same_line_not_new_candidate": true
+    }
   }
 }

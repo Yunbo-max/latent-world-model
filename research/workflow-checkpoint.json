@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T08:56:27Z",
+  "recorded_at": "2026-10-09T09:48:50Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -146,15 +146,15 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-09T08:47:25.186072+00:00",
-    "last_run_time": "2026-10-09T07:48:38.718199+00:00",
+    "service_updated_at": "2026-10-09T09:06:04.799316+00:00",
+    "last_run_time": "2026-10-09T09:05:41.851522+00:00",
     "last_run_scope": "service timestamp for prior invocation; current actual Work math invocation separately observed",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T08:56:27Z",
+    "last_math_milestone_recorded_at": "2026-10-09T09:48:50Z",
     "configuration_note": "Current same-task Step2 prompt and concurrently published owner goal preserved. No task mutation/new task performed."
   },
   "next_action": "Continue owner-requested Step 2 from STEP2_JOINT_CONDITIONAL_RISK.md: close a real validity/output-correction/query observation contract, nearest joint-risk work, and tractable causal mixed-moment estimation. Analyze the complete endogenous state Jacobian and local-surrogate limits. Theory, representation, objective and computation contributions can qualify under their own obligations without mandatory new causal evidence or deployed recurrence. Do not count known BC-LMS/IV, weighted Bayesian normal equations, or historical controls as candidates. Existing no-go results remain scoped; changed assumptions require new derivations. Originality/native measurement and 20/15 deficits remain open; math-only, no code/experiments.",
@@ -305,6 +305,13 @@
         "references/repository-round-trips.md": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb"
       },
       "reused_module_reading": "Previously inspected compatible math operation/derivation and research-quality modules remain part of bounded reasoning; no code/design boundary crossed."
+    },
+    "current_observed_plugin": {
+      "package": "c23/research-autopilot",
+      "root": "skill://plugins_6ac8ad1eb9648191a0b6c1941de5d6b2/research-autopilot",
+      "entry_sha256": "94c45c0228aee9bca712589af813ffdb6f292631cd8d132650537b453cfce63d",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
+      "scope_resolution": "installed autonomous-rsi text is not this project's runtime choice; explicit owner math-only same-main task controls; no skill/runtime/branch changes"
     }
   },
   "workflow_clarification": {
@@ -627,7 +634,7 @@
       }
     ]
   },
-  "research_next_action": "Continue owner-requested Step 2 from STEP2_JOINT_CONDITIONAL_RISK.md: close a real validity/output-correction/query observation contract, nearest joint-risk work, and tractable causal mixed-moment estimation. Analyze the complete endogenous state Jacobian and local-surrogate limits. Theory, representation, objective and computation contributions can qualify under their own obligations without mandatory new causal evidence or deployed recurrence. Do not count known BC-LMS/IV, weighted Bayesian normal equations, or historical controls as candidates. Existing no-go results remain scoped; changed assumptions require new derivations. Originality/native measurement and 20/15 deficits remain open; math-only, no code/experiments.",
+  "research_next_action": "Continue Step2 from STEP2_OBSERVED_PREDICTIVE_TARGET.md: investigate decision-focused/sufficient-action representation and constrained Delta predictive-direction risk against actual nonfactorized write/TTT/proximal nearest work. Close natural importance, causal estimability and full-path cost/measurement under real text labels; keep CE prediction distinct semantic revision validity. Ordinary CE already trains existing writer. No new D ID until complete construction/source/native/independent review; 20/15 deficits and math-only scope persist.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -683,16 +690,26 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "step2_reentry_joint_conditional_risk_and_query_target_math_reviewed",
+    "status": "step2_observed_predictive_target_reachable_edit_and_decision_sufficiency_reviewed",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "a00997c07ed02394d55cfb951542afc0a7b7de6c",
+    "current_delivery_parent": "12bf91d20444ec86c1ae9c15f3ed47aa5c690859",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "Joint validity/future-query conditional risk and noisy-key target identification, exact-byte independent conditional reviews; no new active card",
-    "originality_and_native_measurement": "pending; existing Bayesian/EIV foundations retained visibly"
+    "latest_math_result": "Observed future token CE closes predictive supervision without latent validity labels; fixed value rank-one optimum, gate reachability/constraint regret and orthogonal residual boundary derived. Full-path CE/GGN pullback keeps nonlinear Hessian/third-order and estimation-regret conditions visible; random-risk optimal-action information value weaker than full predictive sufficiency.",
+    "originality_and_native_measurement": "pending; existing Bayesian/EIV foundations retained visibly",
+    "step2_observed_target": {
+      "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
+      "source_audit": "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
+      "source_sha256": "937293b2522f8d2d25a8f9421297a5eaa7cb0a24729086d3f985b6be3855c295",
+      "review": "research/delta-discovery-2026-10-08/reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md",
+      "status": "conditional_mathematics_and_source_review_accepted;not_candidate",
+      "native_variant_correction": "actual project lambada_openai; prior feasibility table standard retained as stale historical description",
+      "same_line_not_new_candidate": true
+    }
   }
 }

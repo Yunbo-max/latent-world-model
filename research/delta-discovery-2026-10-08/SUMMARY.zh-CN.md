@@ -86,6 +86,12 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 
 ## 下一合法动作
 
-从联合条件风险入口继续闭合自然问题与实际观测条件、最近 joint-risk 工作及可计算估计器，再决定是否值得构造正式候选。完整 Jacobian、局部二次近似和 future-supervision/deployment 的边界一起审查。不能把正常方程、已有 BC/IV 或历史控制凑进活动池；改变假设后也不能机械套用旧否定结论。
+最新[真实预测目标推论](STEP2_OBSERVED_PREDICTIVE_TARGET.md)已经把不可得的validity/state-edit标签与可用的真实token CE分开。固定value方向只能修正残差的对应投影；改变gate不能一般实现未来风险的最优方向，方向收益和当前-fit冲突都有精确条件。完整CE度量必须穿过未来状态/workspace/plan/realization路径，GGN并非真实Hessian或稳定证书。这些不是新增loss名字、已实现方法或语义真值。
+
+新增的压缩/读取推论是：在同一baseline、同一目标、同一动作族和嵌套因果信息下，完整信息最优动作若已由压缩信息决定，增加信息的最优风险收益恰为零；随机度量加权的动作差给出精确收益。这个“决定足够”条件弱于保留完整未来分布，仍有既有条件Bayes基础；事件读取只相对受限接口增加信息，当前writer并不读取事件。两位独立工作者已对最终字节完成数学与来源/接口审查，修正了微分交换条件。专门decision-sufficiency近邻、自然数据的重要性及估计总成本仍未闭合。
+
+来源复读也确认普通远期CE已训练本项目writer，TTT官方代码亦学习内层任务。因此该思路的基本监督不是新发明。原生记录新增纠正：当前源码/官方harness使用lambada_openai，旧可行性表写standard，差异与原始固定bytes见[source audit](sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md)；不混报，保留5153。
+
+下一步从这同一Step2入口调查受约束写入的自然方向差距、decision-focused表示与实际非因子化近邻，核查条件矩可估计性和可测量对象，再决定是否值得构造正式候选。5历史/0活动/0准入/0选择及20/15短缺不变。没有新代码或实验；不能把正常方程/信息价值恒等式凑进活动池，也不机械套用旧假设下的否定结论。
 
 入口：[进度](PROGRESS.json)、[证据批次](method-batch.json)、[近邻图](CLOSEST_WORK.md)、[排名状态](RANKING.md)。当前没有全池排名或 top-15 选择。

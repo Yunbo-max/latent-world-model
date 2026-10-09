@@ -46,3 +46,5 @@ S是key-by-value；S_t=(I−β_t k_t k_t^T)D_t S_{t−1}+β_t k_t v_t^T，不能
 阶段完成：20个目标候选均有真实数学卡与审查、distinctness和nearest-work记录、全池排名与top15选择/审查、中文总报告，且main精确readback完成。到此停用同一个任务；不要转入新代码/实验或重新开启旧代码goal。真实不可解除的权限、来源、数学短缺或必要人类判断出现时，保存具体阻塞、已完成项和下一合法动作；重复同一阻塞不反复通知。只有实质里程碑、需用户处理的新阻塞和最终交付时通知。后台已配置、run_now已请求、实际运行、数学完成、原创性审查和实验验证分别报告。
 
 补充入口：[联合风险详细条件与独立审查](STEP2_JOINT_CONDITIONAL_RISK.md)。与上述第2步笔记属于同一线索，不重复计候选。
+
+最新续接：[真实预测监督、rank-one可达性与决定充分性](STEP2_OBSERVED_PREDICTIVE_TARGET.md)、[固定来源/接口/原生审查](sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md)、[独立最终字节审查](reviews/STEP2_OBSERVED_PREDICTIVE_TARGET.review.md)。它替换预测目标中的不可得 validity 标签，未认证语义修订；与旧 latent 工程源码明确分开。同一Step2线索，5历史/0活动/0准入/0选择保持，20/15目标未降级，代码/实验范围不变。
