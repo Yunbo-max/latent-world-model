@@ -10,4 +10,6 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 
 2026-10-09 的下一轮又独立闭合五条路线：随机 Bernoulli survival 只把均值保留换成乘法方差或 recurrent dropout；dual-frame 只能以更宽状态保护外部噪声，不能侦测合法 code-subspace 内的 Delta 干扰；checksum/sketch 不能从无身份的因果观测中创造 revision 证据；causal polynomial/Krylov 分别退化为未来风险预测、solver、trace 或 DeltaProduct；Magnus/commutator 抑制会同时抹掉合法 last-write chronology。QED 全文公式与公开代码可得性审计也已闭合。它们继续减少无效路线，但活动、科学准入和选择计数仍全为零。
 
+同日再闭合四条路线：reciprocal cycle 在当前 pair 完全写入后变成恒等式，且与 BAM/GSA2/双向 ridge 碰撞；rank-revealing QR 的精确新意只是已知 hard projection/QR-RLS feasibility diagnostic；martingale release 提供严格 anytime false-release 控制却仍是标准 change detector 加既有 edit，并受 revision/collision 信息边界限制；任意 inverse-transported time-varying metric 能把收缩或爆炸都重标为等距，必须加入 uniform coercivity 与双边 cross-time bound 才有物理意义，随后回到 D06/经典 contraction。四项均有独立数学审查，只作为控制/no-go 保存，活动计数不变。
+
 最终排名仍将基于问题价值、数学后果、最近工作残余、区别性预测、最强简单替代及总成本。当前不得给出“最优 2–3 项”或暗示任何历史卡已获推荐。

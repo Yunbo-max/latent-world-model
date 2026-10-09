@@ -2,12 +2,12 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T04:30:25Z",
+  "recorded_at": "2026-10-09T05:47:50Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [10, 20],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "partial_math_milestone_zero_active_qed_full_audit_five_additional_reviewed_controls",
+  "status": "partial_math_milestone_zero_active_four_additional_reviewed_controls",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -39,7 +39,7 @@
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
     "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
   },
-  "delivery_parent": "bbd14db557d5d1b03b8ba9cb7b119ef08efbdb09",
+  "delivery_parent": "d5b73b44cd7fb270bf1895e4223d023d395ba86b",
   "milestone": {
     "inactive_cards": ["D01", "D03", "D05", "D06", "D07"],
     "active_cards": [],
@@ -65,10 +65,14 @@
       "rejected/NOGO_DUAL_FRAME_04.md",
       "rejected/CHECKSUM_REVISION_SKETCH.md",
       "rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md",
-      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
+      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+      "rejected/RECIPROCAL_CYCLE_DELTA.md",
+      "rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+      "rejected/MARTINGALE_RELEASE_CONTROL.md",
+      "rejected/TIME_VARYING_METRIC_LAUNDERING.md"
     ]
   },
-  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude GSA2/QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric oblique preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system or numerical randomizer.",
+  "next_action": "Start from zero active candidates and derive a mechanism with a new causal observable or state invariant before assigning a D-number. Exclude reciprocal/BAM/GSA2 bidirectional correction, QR-RLS/hard projection, standard martingale/change-point release gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility attribution, fixed-metric oblique preconditioning and all prior inactive routes. A candidate must change the deployed recurrence and retain a distinct causal signal, not only add a known loss, solver, coordinate system or numerical randomizer.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -191,6 +195,36 @@
       "identity": "/root/commutator_compensation_math",
       "result": "Derived exact affine order gap and Magnus diagnostic; independently reviewed polynomial/Krylov scope",
       "artifacts": ["research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md", "research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md"]
+    },
+    {
+      "identity": "/root/reciprocal_cycle_math",
+      "result": "Derived reciprocal Delta and cycle gradients, then rejected post-write tautology and semantic non-identifiability against BAM/GSA2/bidirectional ridge",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/RECIPROCAL_CYCLE_DELTA.md"
+    },
+    {
+      "identity": "/root/reciprocal_cycle_audit",
+      "result": "Independently reviewed reciprocal-cycle control and time-varying metric pullback no-go; checked singular Delta and classical contraction boundaries",
+      "artifacts": ["research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md", "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"]
+    },
+    {
+      "identity": "/root/rank_innovation_math",
+      "result": "Derived thin-QR feasibility recurrence and minimum-change edit; rejected as QR-RLS/hard protected projection",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md"
+    },
+    {
+      "identity": "/root/rank_innovation_audit",
+      "result": "Independently reviewed rank innovation and moving-metric controls; tightened uniform coercivity, volume and determinant claims",
+      "artifacts": ["research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md", "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md"]
+    },
+    {
+      "identity": "/root/martingale_release_math",
+      "result": "Derived predictable e-process release control, unknown-change mixture and delay law; rejected as sequential change detection plus known edit",
+      "artifact": "research/delta-discovery-2026-10-08/rejected/MARTINGALE_RELEASE_CONTROL.md"
+    },
+    {
+      "identity": "/root/martingale_release_audit",
+      "result": "Independently checked filtration, PFA versus ARL, global alpha allocation and revision/collision information boundary",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/MARTINGALE_RELEASE_CONTROL.review.md"
     }
   ]
 }

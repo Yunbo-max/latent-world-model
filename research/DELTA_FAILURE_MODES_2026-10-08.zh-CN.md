@@ -175,6 +175,10 @@ e_{\rm after}=\frac{\lambda}{\lambda+\|k_\perp\|^2}e.
 
 以上不表示“现有门没有上下文”或“新方法已解决语义判断”。下一步要导出具体因果可计算规则，完成最近工作逐项比对、预测与反证，再按既有数学与选择流程进入代码。
 
+## 2026-10-09 补充否定边界
+
+后续连续推导又排除了四个看似能补上 A/B 的捷径：双向 reciprocal cycle 在当前 pair 完全写入后成为恒等式，并不增加 revision/collision 身份信息；rank-revealing QR 只能判定线性约束是否相容，其最小改动式就是 hard protected projection，软化后回到 RLS/PDN；martingale/e-process 可以严格控制合法 pre-outcome change detector 的 anytime 误释放，却仍是标准 sequential detection 加已知 edit，不能区分同观测律的两个语义世界；任意 inverse-transported 时变 SPD metric 都能把物理衰减或爆炸重标成等距，若没有统一 coercivity 与双边 cross-time inequality，就不是 retention certificate。这四项分别保存为控制/no-go，不计入候选池；当前构造历史 5、活动 0、科学准入 0、选择 0。
+
 ## 一手来源
 
 - <https://arxiv.org/html/2604.21100v1>

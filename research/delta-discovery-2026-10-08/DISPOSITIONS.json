@@ -260,6 +260,42 @@
       ]
     },
     {
+      "id": "RECIPROCAL-CYCLE-DELTA",
+      "state": "rejected_as_distinct_method_retained_as_bidirectional_control",
+      "reason": "A reverse value-to-key state and cycle loss are valid bidirectional associative updates, but post-write full interpolation makes the current cycle tautologically exact, identical observed pair histories preserve revision/collision non-identifiability, and BAM/GSA2/bidirectional ridge already cover the principal function.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/RECIPROCAL_CYCLE_DELTA.md","sha256":"9d2de803f383c539eed8e4a04accc5367e1b9654d680899d90103c24bc367a35"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md","sha256":"3f5ee07e8139d59a001d42a257ed6b142ed5c92122091c1a7b245ab6aca96f18"}
+      ]
+    },
+    {
+      "id": "RANK-REVEALING-CONSTRAINT-DELTA",
+      "state": "rejected_as_distinct_method_retained_as_exact_constraint_control",
+      "reason": "Thin-QR rank innovation and the minimum-change nullspace edit exactly diagnose linear constraint feasibility, but the update is hard protected projection/OWM and its softened form is RLS/PDN inverse-Gram geometry. Linear inconsistency does not identify semantic revision versus coexistence.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md","sha256":"9b4cc3385c85120d1f7af7d946ac9ed03692c8b32eed736706c25f08ffeaa83d"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md","sha256":"9cbeab2657f5cd86bf39e456d695eaaf31817c0209e9fa2fb73e78eee9b527d2"}
+      ]
+    },
+    {
+      "id": "MARTINGALE-RELEASE-CONTROL",
+      "state": "rejected_as_distinct_method_retained_as_sequential_change_control",
+      "reason": "A predictable likelihood-ratio or conditional-CGF e-process gives a valid anytime false-release certificate, but it is standard sequential change detection attached to known edit geometry, reduces to prequential CE/Bayesian gating, and cannot distinguish observationally identical revision and collision worlds.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/MARTINGALE_RELEASE_CONTROL.md","sha256":"ed6a3154b78a695b20ae0abc077e4d775f3f3a7ab211584c166aa7d14fe833ac"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/MARTINGALE_RELEASE_CONTROL.review.md","sha256":"9965ae8461c6a08d6fa092ee3922adbcc0df429f4a2326d4ddb741dad62a9717"}
+      ]
+    },
+    {
+      "id": "TIME-VARYING-METRIC-LAUNDERING",
+      "state": "accepted_no_go_metric_loophole_merged_into_D06_not_candidate",
+      "reason": "Inverse-transporting an unconstrained SPD metric makes every invertible transition prefix look isometric, including vanishing and exploding scalar paths. Uniform coercivity plus separate upper/lower cross-time inequalities are required; deployment otherwise becomes a coordinate change, RLS/PDN preconditioner or known retention control.",
+      "evidence_refs": [
+        {"path":"research/delta-discovery-2026-10-08/rejected/TIME_VARYING_METRIC_LAUNDERING.md","sha256":"0789930f6f7da6746fef40babd7f753d28e6c6e2e977ff3462bcde70212e9803"},
+        {"path":"research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md","sha256":"d67b0813232f7fe47bd125da52dcb6983df23e66252cc43c55346a5b7e187346"}
+      ]
+    },
+    {
       "id": "D01-schema-history",
       "state": "superseded_format_only",
       "path": "cards/history/D01.pre-schema-f134c0f3.json",

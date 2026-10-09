@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T04:30:25Z",
+  "recorded_at": "2026-10-09T05:47:50Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -94,6 +94,7 @@
     ,"Completed D07 full-formula and pinned Tabular ICL author-code collision audit: general source contribution/survival and the same-key scalar specialization are covered, while write-rate decay and delayed semantic supervision cover the principal function. Moved D07 to inactive diagnostic; independently verified bare-oblique-erase and evidence-conditioned-revision controls. Active/scientifically admitted/selected counts are all zero."
     ,"Completed Gated Slot Attention-2 full-formula exclusion and three independently reviewed Delta controls: finite unitary dilation is a finite-horizon event-memory trade rather than reusable contraction; counterfactual query-visible source utility collapses to future CE under the clean write-local case; and fixed-SPD Lyapunov rescue whitens to normalized Delta. Active/scientifically admitted/selected counts remain zero; no code, test, download or experiment execution."
     ,"Completed QED full-formula/public-code availability audit and five independently reviewed Delta boundaries: randomized survival, dual-frame coding, checksum revision sketches, causal polynomial future products and affine Magnus compensation. All were retained as no-go/control records rather than padded candidates; active/scientifically admitted/selected counts remain zero and no project execution occurred."
+    ,"Independently derived and reviewed reciprocal-cycle, rank-revealing constraint, martingale-release and inverse-transported moving-metric routes. They reduce respectively to bidirectional associative memory, QR-RLS/protected projection, sequential change detection plus known edits, and a vacuous coordinate pullback without uniform coercivity. All were retained as controls/no-go results; counts remain five historical, zero active, zero admitted and zero selected."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -145,9 +146,9 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T04:30:25+00:00"
+    "last_math_milestone_recorded_at": "2026-10-09T05:47:50+00:00"
   },
-  "next_action": "Continue Delta mathematics from PROGRESS.json with zero active candidates: derive a genuinely distinct formal mechanism and complete nearest-work separation before assigning a D-number. Do not revive D01/D03/D05/D06/D07 or count QED/GSA2 variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility/future-CE equivalents, fixed-SPD preconditioners, no-go, Bayesian-gate/projection, source-trace, error-feedback, multi-layer/local-loss, slot or multi-step controls. Prior engineering remains closed and Local execution was not dispatched.",
+  "next_action": "Continue Delta mathematics from PROGRESS.json with zero active candidates: derive a genuinely distinct formal mechanism and complete nearest-work separation before assigning a D-number. Do not revive D01/D03/D05/D06/D07 or count reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard martingale/change-point gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, source-utility/future-CE equivalents, fixed-SPD preconditioners, no-go, Bayesian-gate/projection, source-trace, error-feedback, multi-layer/local-loss, slot or multi-step controls. Prior engineering remains closed and Local execution was not dispatched.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -252,6 +253,11 @@
     "delta_math_qed_and_five_controls_milestone": {
       "parent_head": "bbd14db557d5d1b03b8ba9cb7b119ef08efbdb09",
       "scope": "Math/source-only partial milestone: QED full formulas and public implementation availability were closed; randomized survival, dual-frame coding, checksum revision sketches, causal polynomial future products and affine Magnus compensation were independently reviewed and retained only as no-go/control records. Zero active/scientifically admitted/selected candidates and no project execution.",
+      "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_math_four_additional_controls_milestone": {
+      "parent_head": "d5b73b44cd7fb270bf1895e4223d023d395ba86b",
+      "scope": "Math/source-only partial milestone: reciprocal-cycle, rank-revealing constraint, martingale-release and inverse-transported moving-metric routes were independently reviewed and retained only as controls/no-go records. Zero active/scientifically admitted/selected candidates and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
     }
   },
@@ -607,7 +613,7 @@
       }
     ]
   },
-  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, QED/GSA2 variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
+  "research_next_action": "Start from zero active candidates and derive an independent residual mechanism with formal separation before assigning a D-number. D07 is closed as an inactive source-survival diagnostic unless all four recorded reopening conditions are satisfied. Do not count D01/D03/D05/D06/D07, reciprocal/BAM/GSA2 correction, QR-RLS/hard projection, standard martingale/change-point gates, post-hoc moving metrics, QED variants, unitary/frame dilation, randomized survival/rounding, checksum identity, single-basis future polynomials, blind commutator cancellation, counterfactual source-utility/future-CE equivalents, fixed-SPD coordinate preconditioners, relabeled covariance/preconditioning, Bayesian gate plus projection, source traces, no-go results, error feedback, slots, multi-step or multi-layer/local-target Delta.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -663,12 +669,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "partial_math_milestone_zero_active_qed_and_five_controls",
+    "status": "partial_math_milestone_zero_active_four_additional_reviewed_controls",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "bbd14db557d5d1b03b8ba9cb7b119ef08efbdb09",
+    "current_delivery_parent": "d5b73b44cd7fb270bf1895e4223d023d395ba86b",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md"
   }
 }
