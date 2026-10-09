@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T08:50:49.740Z",
+  "recorded_at": "2026-10-09T08:56:27Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_reentry_joint_decision_and_full_sensitivity_derivations_pending_review",
+  "status": "step2_reentry_joint_conditional_risk_and_query_target_math_reviewed",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -40,9 +40,11 @@
     "is_enabled": true,
     "continuous_execution_verified": false,
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
-    "state_after_invocation": "enabled_for_same_scope_continuation; no continuous execution claim"
+    "state_after_invocation": "same_enabled_math_task; latest_Step2_prompt_observed; current_Work_invocation_not_continuous_execution",
+    "service_updated_at_observed": "2026-10-09T08:47:25.186072+00:00",
+    "service_last_run_time_observed": "2026-10-09T07:48:38.718199+00:00"
   },
-  "delivery_parent": "057bc2abbf8b8510273cc4fb004e2063c5cc894c",
+  "delivery_parent": "a00997c07ed02394d55cfb951542afc0a7b7de6c",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -60,7 +62,8 @@
       "sources/WTSR_NEAREST_WORK.md",
       "sources/D07_FULL_COLLISION_AUDIT.md",
       "sources/GSA2_FULL_AUDIT.md",
-      "sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md"
+      "sources/QED_FULL_FORMULA_CODE_AUDIT_2026-10-09.md",
+      "sources/NOISY_KEY_EIV_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -85,10 +88,19 @@
       "rejected/PROVENANCE_TENSOR_DELTA.md",
       "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
       "rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
-      "rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md"
+      "rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md",
+      "rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md"
+    ],
+    "new_conditional_theory_leads": [
+      "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+      "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
+    ],
+    "latest_substantive_results": [
+      "Observed noisy-query prediction versus latent-map recovery: exact risk difference, independent BC/IV stability and scalar observational-equivalence family.",
+      "Joint edit validity and future geometry: exact conditional optimizer, necessary/sufficient directional factorization condition, endogenous Delta differential and finite quadratic-moment diffusion boundary."
     ]
   },
-  "next_action": "User directed return to step2; inspect conditional joint query-target risk and full-state sensitivity. Complete genuine construction, nearest-work and independent review before candidate counting.",
+  "next_action": "Continue owner-requested Step 2 from STEP2_JOINT_CONDITIONAL_RISK.md: close a real validity/output-correction/query observation contract, nearest joint-risk work, and tractable causal mixed-moment estimation. Analyze the complete endogenous state Jacobian and local-surrogate limits. Theory, representation, objective and computation contributions can qualify under their own obligations without mandatory new causal evidence or deployed recurrence. Do not count known BC-LMS/IV, weighted Bayesian normal equations, or historical controls as candidates. Existing no-go results remain scoped; changed assumptions require new derivations. Originality/native measurement and 20/15 deficits remain open; math-only, no code/experiments.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -337,6 +349,27 @@
       "identity": "/root/pseudospectral_delta_audit",
       "result": "Independently proved local Kreiss constant one for legal standard Delta and audited fixed-versus-switched-system scope and cost",
       "artifact": "research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md"
+    },
+    {
+      "identity": "/root/noisy_key_math",
+      "result": "Independent BC/IV/objective derivation and final exact-byte conditional control/Step2 mathematical reviews",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md",
+        "research/delta-discovery-2026-10-08/reviews/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.review.md",
+        "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
+      ]
+    },
+    {
+      "identity": "/root/noisy_key_sources",
+      "result": "Independent primary EIV/Bayes/APO/editing source audit, pinned Noise2Noise/LongMemEval interface reads and final exact-byte source/consequence reviews",
+      "artifacts": [
+        "research/delta-discovery-2026-10-08/rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md",
+        "research/delta-discovery-2026-10-08/sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
+        "research/delta-discovery-2026-10-08/reviews/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.review.md",
+        "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+        "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
+      ]
     }
   ],
   "step2_reentry": {
@@ -344,12 +377,22 @@
     "entry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "derivations": 4,
     "new_candidates_counted": 0,
-    "review": "root symbolic self-check only; independent review pending",
+    "review": "original four-proposition reentry independently math-reviewed conditionally; supplement final exact-byte math/source review accepted; source/originality/native admission remains partial",
     "source_correction": "DeltaTTT author metadata corrected in reentry note; old audit bytes retained",
     "priority": [
       "joint query-target conditional moment",
       "full versus frozen sensitivity"
     ],
-    "source_and_native_feasibility": "partial; closest full texts/code and measurement gaps retained"
+    "source_and_native_feasibility": "partial; closest full texts/code and measurement gaps retained",
+    "owner_feedback_observed_in_current_service_prompt": "2026-10-09 09:42 Europe/London: continue mathematics/meaningful combinations and revisit Step 2",
+    "contribution_scope": "theory/representation/objective/computation may qualify; not limited to recurrence changes",
+    "math_status": "independent_exact_byte_reviews_accepted_conditionally",
+    "originality": "not_established; weighted_Bayes_and_APO_principles_known",
+    "native_measurement": "validity/state-edit/joint-moment labels missing; LongMemEval endpoint only",
+    "candidate_count_changed": false,
+    "supplement": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+    "distinctness": "same R2-C/R2-J/R2-D line as original reentry; supplement is not another candidate",
+    "original_artifact_sha256": "30fe78ef6d4cb980d5aa9ee535a50c416ce67ae562d771297dad1b4e8263a399",
+    "review_artifact": "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md"
   }
 }

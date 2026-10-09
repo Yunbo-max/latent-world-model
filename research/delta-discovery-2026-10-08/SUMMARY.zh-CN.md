@@ -76,8 +76,16 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 
 三条均由独立推导者与审查者分别核对公式、反例、最近工作和隐藏成本，不分配 D 编号。它们把“换时间参数”“换左右分裂顺序”“换局部稳定指标”三类伪新意排除在外；计数仍是 **构造历史 5、活动 0、科学准入 0、选择 0**。
 
+## 重走第2步：目标与联合条件的实质推导
+
+这轮不只排除模块，而是重新定义“何种预测/修订值得优化”。第一项给出可核查反例：普通 Delta 在固定线性高斯条件下的参数收缩恰是 noisy-query 最优预测；去偏恢复 latent map 后直接读同类 noisy query，风险可能严格增加。BC/IV 更新已有直接先例，均值与均方稳定不同，单 view 的 latent/noise 分解也不可辨。[推导与审查](rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md)。
+
+第二项把修订有效性与未来 query 几何作为联合随机对象，推导最优编辑、分离门的精确风险差与相等条件；同时保留完整状态的 feature/gate/decay Jacobian 路径。二次目标只需相应联合矩，因此没有自动需要 diffusion 的结论。[联合条件风险](STEP2_JOINT_CONDITIONAL_RISK.md)经两位独立审查者按最终字节哈希复核。基础 weighted-Bayes/正常方程已知，不能宣称原创或候选准入；还需与同等信息联合 Bayes/teacher 比较，解决真实有效性监督、估计代价和 native 测量。
+
+理论、表示、目标和计算构造都可按各自贡献义务继续，不要求每项成果必然增加新证据或部署模块。旧 no-go 只在原假设内适用。计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；20/15目标短缺未改变，没有代码或实验。
+
 ## 下一合法动作
 
-从零活动候选重新寻找具有新 causal observable 或 state invariant 的部署递推，并在分配新 D 编号前完成最近工作分离。排除 GSA2/reciprocal 双侧 correction、QR-RLS/hard projection、standard sequential change gate、post-hoc moving metric、unitary/frame dilation、随机 survival、checksum identity、single-basis future polynomial、blind commutator cancellation、source-utility attribution、fixed-metric preconditioning，以及所有既有 inactive/no-go 路线；不得只换 loss、坐标、门范围或辅助噪声来凑数。
+从联合条件风险入口继续闭合自然问题与实际观测条件、最近 joint-risk 工作及可计算估计器，再决定是否值得构造正式候选。完整 Jacobian、局部二次近似和 future-supervision/deployment 的边界一起审查。不能把正常方程、已有 BC/IV 或历史控制凑进活动池；改变假设后也不能机械套用旧否定结论。
 
 入口：[进度](PROGRESS.json)、[证据批次](method-batch.json)、[近邻图](CLOSEST_WORK.md)、[排名状态](RANKING.md)。当前没有全池排名或 top-15 选择。

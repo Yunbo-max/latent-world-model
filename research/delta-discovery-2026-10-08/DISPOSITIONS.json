@@ -51,8 +51,14 @@
       "state": "inactive_equivalence_control_major_functional_collision",
       "reason": "Likelihood-reweighted Delta predictor mixtures and recurrent particle beliefs already cover the principal function. Under the one-event shared-affine assumption the base-plus-rank-one state is a reversible reparameterization of an explicit two-state mixture, not a new predictive mechanism.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D01.json","sha256":"17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D01_DECISIVE_COLLISION_AUDIT.md","sha256":"3f9180d2ef902a1aa2261cdcbf7ef06f5ec1682b07aa5a936050f9e5fbfdd6d0"}
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D01.json",
+          "sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D01_DECISIVE_COLLISION_AUDIT.md",
+          "sha256": "3f9180d2ef902a1aa2261cdcbf7ef06f5ec1682b07aa5a936050f9e5fbfdd6d0"
+        }
       ]
     },
     {
@@ -60,8 +66,14 @@
       "state": "inactive_normalized_observability_natural_gradient_control",
       "reason": "The metric is the classical observability/Gauss-Newton function metric and the direction is a normalized natural-gradient/proximal inverse-metric write. APO, PDN and Q-Delta create a major functional collision; the token-conditioned composition is too narrow for admission.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D03.json","sha256":"6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md","sha256":"25ee173335e3ea9cadcb87a216067a7caf20d9caba3e3e1bc8312c8714cc16df"}
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+          "sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D03_BROAD_COLLISION_AUDIT.md",
+          "sha256": "25ee173335e3ea9cadcb87a216067a7caf20d9caba3e3e1bc8312c8714cc16df"
+        }
       ]
     },
     {
@@ -69,8 +81,14 @@
       "state": "inactive_log_volume_guardrail_major_functional_composition_collision",
       "reason": "HGRN and spectral/Jacobian recurrence controls cover retention floors, while COLD/token-bucket controllers cover rolling budgets. The greedy log-volume clip has no allocation optimality and remains only a conditional guardrail/diagnostic.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D06_EXTENDED_COLLISION_AUDIT.md","sha256":"0bd5f4d24c05fe19cfbb0174079d0b4c3728a25f7b29265577d440361c84856d"}
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D06.json",
+          "sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D06_EXTENDED_COLLISION_AUDIT.md",
+          "sha256": "0bd5f4d24c05fe19cfbb0174079d0b4c3728a25f7b29265577d440361c84856d"
+        }
       ]
     },
     {
@@ -78,10 +96,22 @@
       "state": "inactive_source_survival_diagnostic_major_functional_collision",
       "reason": "The arbitrary-key ordered-write hinge is mathematically valid, but the source-contribution object and realized-path qualification are already known; same-key survival is an exact Tabular ICL special case, while write-rate decay and delayed semantic supervision cover the main function. Only a narrow direct arbitrary-key hinge residual remains, without a necessity result, revision release or native mechanism measurement.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"},
-        {"path":"research/delta-discovery-2026-10-08/sources/D07_FULL_COLLISION_AUDIT.md","sha256":"73a9372ca639932615675100bd321cf87598fb760dbd679b0c3bed25dab4165e"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/D07.collision-review.md","sha256":"617aa78270643274b568afe07a43bd8e0cc86c2ad7c8e7182e7aa44ce8687b78"}
+        {
+          "path": "research/delta-discovery-2026-10-08/cards/D07.json",
+          "sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/D07.review.json",
+          "sha256": "1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/D07_FULL_COLLISION_AUDIT.md",
+          "sha256": "73a9372ca639932615675100bd321cf87598fb760dbd679b0c3bed25dab4165e"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/D07.collision-review.md",
+          "sha256": "617aa78270643274b568afe07a43bd8e0cc86c2ad7c8e7182e7aa44ce8687b78"
+        }
       ]
     },
     {
@@ -89,8 +119,14 @@
       "state": "accepted_no_go_result_not_candidate",
       "reason": "For an affine write exact overwrite for every prior state/value forces A^T k=0 and hence a singular old-state path. Under explicit finite precision, coexistence also consumes joint code capacity. Escape routes require approximation, predictive quotients or additional information/state.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md","sha256":"eb427d7dda60e53bea165002bbba0007b511c49d3412b2185f5fbc34d73cf7fc"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_CAP_02.review.md","sha256":"9e95f8ad31fde64e30f169ea95053773ea9d12a5137f9d1866a71ad19bf6c1ee"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_CAP_02.md",
+          "sha256": "eb427d7dda60e53bea165002bbba0007b511c49d3412b2185f5fbc34d73cf7fc"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_CAP_02.review.md",
+          "sha256": "9e95f8ad31fde64e30f169ea95053773ea9d12a5137f9d1866a71ad19bf6c1ee"
+        }
       ]
     },
     {
@@ -98,8 +134,14 @@
       "state": "rejected_as_distinct_method_retained_as_control",
       "reason": "The exact shared-affine bookkeeping is transported error feedback. Safe repayment is protected projection plus controllability; event identity turns it into replay/event memory, and nonlinear dynamics break exactness without a shadow path.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/DEFERRED_CORRECTION_DEBT.md","sha256":"023761f095e238822afdb286484ef13549c1e4cdd34e8ebe2bfe70ee2f5889aa"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md","sha256":"fbff5a706b28e157ff0d6cddd8f0461ba3f5a81aee21f21ad4b13c9994386f62"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/DEFERRED_CORRECTION_DEBT.md",
+          "sha256": "023761f095e238822afdb286484ef13549c1e4cdd34e8ebe2bfe70ee2f5889aa"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/DEFERRED_CORRECTION_DEBT.review.md",
+          "sha256": "fbff5a706b28e157ff0d6cddd8f0461ba3f5a81aee21f21ad4b13c9994386f62"
+        }
       ]
     },
     {
@@ -174,8 +216,14 @@
       "state": "accepted_no_go_result_not_candidate",
       "reason": "For the bare factor A=I-ka^T with unit k, any erase component perpendicular to k makes ||A||_2>1; Euclidean nonexpansiveness holds only for a=ck with c in [0,2]. This does not decide AD or DA because an ordered pre-decay can compensate.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md","sha256":"53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md","sha256":"de4e0ac162606fe36c45da6ab753b5ae4f54dcf46e18c7326e01207fc1b126fe"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_OBLIQUE_03.md",
+          "sha256": "53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_OBLIQUE_03.review.md",
+          "sha256": "de4e0ac162606fe36c45da6ab753b5ae4f54dcf46e18c7326e01207fc1b126fe"
+        }
       ]
     },
     {
@@ -183,8 +231,14 @@
       "state": "rejected_as_distinct_method_retained_as_control",
       "reason": "Observed evidence can lift the residual-only TV no-go, but the resulting construction is a standard Bayesian two-hypothesis gate followed by known protected/ridge/slot edit geometry. Without evidence the no-go remains; perfect identity becomes routing; future labels are extra supervision.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md","sha256":"455ca60d940f17da9de6ff6f0f122a2d3bbc45848e130e0477627d3fe144d3d4"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/REVISION_EVIDENCE_POSTERIOR_EDIT.review.md","sha256":"07f68ef3bcdefcf309319af22c00741c4ecf1261658222569b442034e9a5a099"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+          "sha256": "455ca60d940f17da9de6ff6f0f122a2d3bbc45848e130e0477627d3fe144d3d4"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REVISION_EVIDENCE_POSTERIOR_EDIT.review.md",
+          "sha256": "07f68ef3bcdefcf309319af22c00741c4ecf1261658222569b442034e9a5a099"
+        }
       ]
     },
     {
@@ -192,8 +246,14 @@
       "state": "accepted_no_go_result_not_candidate",
       "reason": "A one-step Halmos completion stores the erased component, but reusing finite auxiliary state feeds it back and breaks Delta; an exact all-horizon unitary power dilation of a strict finite-dimensional contraction requires infinite dimension. Finite-horizon fresh slots grow with horizon and become explicit event memory.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_UNITARY_DILATION.md","sha256":"32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_UNITARY_DILATION.review.md","sha256":"fd8989b05d42294f150cbe9f7dfc1b5445c9747b8ad7cc3d8dc850f9c817d876"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_UNITARY_DILATION.md",
+          "sha256": "32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_UNITARY_DILATION.review.md",
+          "sha256": "fd8989b05d42294f150cbe9f7dfc1b5445c9747b8ad7cc3d8dc850f9c817d876"
+        }
       ]
     },
     {
@@ -201,8 +261,14 @@
       "state": "rejected_as_distinct_method_retained_as_control_or_lead",
       "reason": "Frozen-path deletion gives exact query-visible signed attribution, but maximizing it has the ordinary future-CE gradient for write-local parameters. Signed memory-source reward is already covered by AttriMem/HiMPO-style counterfactual credit, and retrospective sign cannot selectively release a mixed source without identity or growing traces.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md","sha256":"a2a8cb972bf9915af5e4761132ff505191d28e09ef04867dc151b4a1d910dd9c"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/COUNTERFACTUAL_QUERY_WRITE_UTILITY.review.md","sha256":"c257782e161f8fdf67e3871763ec59a9df14f42f1677ec9f71a6d39a947c8f3e"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
+          "sha256": "a2a8cb972bf9915af5e4761132ff505191d28e09ef04867dc151b4a1d910dd9c"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/COUNTERFACTUAL_QUERY_WRITE_UTILITY.review.md",
+          "sha256": "c257782e161f8fdf67e3871763ec59a9df14f42f1677ec9f71a6d39a947c8f3e"
+        }
       ]
     },
     {
@@ -210,8 +276,14 @@
       "state": "rejected_as_distinct_method_retained_as_coordinate_control",
       "reason": "An oblique rank-one correction is nonexpansive in some fixed SPD metric iff its erase/write overlap lies in (0,2], but every fixed-metric instance is exactly normalized Delta after whitening. Token-local changing metrics do not compose without a cross-time Lyapunov inequality and overlap PDN/KDN/GDN2/QED preconditioning.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/LYAPUNOV_OBLIQUE_METRIC.md","sha256":"c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/LYAPUNOV_OBLIQUE_METRIC.review.md","sha256":"d1aa194bbe9ea8ab08e5060b2821ffb6fb3d0e8e47f45bf1ee5e8afa9136ab39"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/LYAPUNOV_OBLIQUE_METRIC.md",
+          "sha256": "c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/LYAPUNOV_OBLIQUE_METRIC.review.md",
+          "sha256": "d1aa194bbe9ea8ab08e5060b2821ffb6fb3d0e8e47f45bf1ee5e8afa9136ab39"
+        }
       ]
     },
     {
@@ -219,8 +291,14 @@
       "state": "rejected_as_distinct_method_retained_as_no_go_and_numerical_control",
       "reason": "Compensated Bernoulli Delta preserves only the one-step conditional mean and produces exponentially growing repeated-key relative variance; uncompensated masking is a smaller deterministic gate plus recurrent update dropout. Exact-mean PSD random erase collapses to the key direction, while stochastic rounding and direct recurrent-cache quantization work cover the finite-precision residual.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/RANDOMIZED_DELTA_SURVIVAL.md","sha256":"bc362fbd5d7953076377038f1a3110e1d415d4eb6334a3be157484ea7ec97c34"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/RANDOMIZED_DELTA_SURVIVAL.review.md","sha256":"3d6275e0d3ab70f9cdf754085b7b3acf38cf38b6dbc54eb4bea7dbf6e61821a5"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/RANDOMIZED_DELTA_SURVIVAL.md",
+          "sha256": "bc362fbd5d7953076377038f1a3110e1d415d4eb6334a3be157484ea7ec97c34"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/RANDOMIZED_DELTA_SURVIVAL.review.md",
+          "sha256": "3d6275e0d3ab70f9cdf754085b7b3acf38cf38b6dbc54eb4bea7dbf6e61821a5"
+        }
       ]
     },
     {
@@ -228,8 +306,14 @@
       "state": "accepted_no_go_result_not_candidate",
       "reason": "Exact frame-coded Delta is a coordinate conjugacy on its code subspace. A square frame has no syndrome; a redundant frame pays wider physical state, and every endogenous Delta perturbation remains a valid codeword invisible to parity checks. Only external noise/known erasures are protected by classical frame coding.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_DUAL_FRAME_04.md","sha256":"44fa10b7a384dd020749d987a5e0f2cb49efbc25049b0bb9b7619a5322c5f926"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_DUAL_FRAME_04.review.md","sha256":"67faea86de89506295391928b6f951d8dc9573fff317965da10db6abececd98f"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_DUAL_FRAME_04.md",
+          "sha256": "44fa10b7a384dd020749d987a5e0f2cb49efbc25049b0bb9b7619a5322c5f926"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_DUAL_FRAME_04.review.md",
+          "sha256": "67faea86de89506295391928b6f951d8dc9573fff317965da10db6abececd98f"
+        }
       ]
     },
     {
@@ -237,8 +321,14 @@
       "state": "rejected_as_distinct_method_retained_as_finite_memory_control",
       "reason": "Data processing prevents a causal sketch from creating missing revision identity. Bloom/SimHash work only after stable identity or a separation margin is assumed and still require current-version/event state, collapsing to an approximate dictionary or evidence-conditioned gate.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/CHECKSUM_REVISION_SKETCH.md","sha256":"32408e92233e9f906597d0564a6c20cc20af10c0038136252e5813ab54e1e0bf"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/CHECKSUM_REVISION_SKETCH.review.md","sha256":"2eea18c7588f348e98e4af41ab40c63c29e75653b3eb5d8911f5aaf36ca009cf"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/CHECKSUM_REVISION_SKETCH.md",
+          "sha256": "32408e92233e9f906597d0564a6c20cc20af10c0038136252e5813ab54e1e0bf"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/CHECKSUM_REVISION_SKETCH.review.md",
+          "sha256": "2eea18c7588f348e98e4af41ab40c63c29e75653b3eb5d8911f5aaf36ca009cf"
+        }
       ]
     },
     {
@@ -246,8 +336,14 @@
       "state": "accepted_scoped_no_go_solver_control_not_candidate",
       "reason": "A causal single-basis polynomial only approximates prefix-predictable conditional future objects and cannot remove suffix conditional variance or general noncommutative order. Concrete implementations reduce to a source trace, D03 predictor, GKA/PDN solver, KDA/RWKV gating or DeltaProduct.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md","sha256":"6d04b433d0353b9a52e63648d7df1245295de0f25568bdd7c95217c31f06e691"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md","sha256":"1522da8139d4edb220c925b05a625d807079217f0f87b9642e30bcac3d2b260e"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md",
+          "sha256": "6d04b433d0353b9a52e63648d7df1245295de0f25568bdd7c95217c31f06e691"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.review.md",
+          "sha256": "1522da8139d4edb220c925b05a625d807079217f0f87b9642e30bcac3d2b260e"
+        }
       ]
     },
     {
@@ -255,8 +351,14 @@
       "state": "rejected_as_distinct_method_retained_as_order_diagnostic",
       "reason": "The exact adjacent-order gap includes affine write terms; same-key transitions commute while different values still encode legitimate last-write chronology. BCH's bracket is an ordered aggregate term, and blindly canceling it destroys revision semantics while exact affine scan is already associative.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md","sha256":"fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md","sha256":"b9058bdda5d3788cb37393a2f8927af95f72f52e2ad7a5633ee0d492c0a033a4"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+          "sha256": "fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/AFFINE_MAGNUS_COMMUTATOR_CONTROL.review.md",
+          "sha256": "b9058bdda5d3788cb37393a2f8927af95f72f52e2ad7a5633ee0d492c0a033a4"
+        }
       ]
     },
     {
@@ -264,8 +366,14 @@
       "state": "rejected_as_distinct_method_retained_as_bidirectional_control",
       "reason": "A reverse value-to-key state and cycle loss are valid bidirectional associative updates, but post-write full interpolation makes the current cycle tautologically exact, identical observed pair histories preserve revision/collision non-identifiability, and BAM/GSA2/bidirectional ridge already cover the principal function.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/RECIPROCAL_CYCLE_DELTA.md","sha256":"9d2de803f383c539eed8e4a04accc5367e1b9654d680899d90103c24bc367a35"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md","sha256":"3f5ee07e8139d59a001d42a257ed6b142ed5c92122091c1a7b245ab6aca96f18"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/RECIPROCAL_CYCLE_DELTA.md",
+          "sha256": "9d2de803f383c539eed8e4a04accc5367e1b9654d680899d90103c24bc367a35"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/RECIPROCAL_CYCLE_DELTA.review.md",
+          "sha256": "3f5ee07e8139d59a001d42a257ed6b142ed5c92122091c1a7b245ab6aca96f18"
+        }
       ]
     },
     {
@@ -273,8 +381,14 @@
       "state": "rejected_as_distinct_method_retained_as_exact_constraint_control",
       "reason": "Thin-QR rank innovation and the minimum-change nullspace edit exactly diagnose linear constraint feasibility, but the update is hard protected projection/OWM and its softened form is RLS/PDN inverse-Gram geometry. Linear inconsistency does not identify semantic revision versus coexistence.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md","sha256":"9b4cc3385c85120d1f7af7d946ac9ed03692c8b32eed736706c25f08ffeaa83d"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md","sha256":"9cbeab2657f5cd86bf39e456d695eaaf31817c0209e9fa2fb73e78eee9b527d2"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+          "sha256": "9b4cc3385c85120d1f7af7d946ac9ed03692c8b32eed736706c25f08ffeaa83d"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/RANK_REVEALING_CONSTRAINT_DELTA.review.md",
+          "sha256": "9cbeab2657f5cd86bf39e456d695eaaf31817c0209e9fa2fb73e78eee9b527d2"
+        }
       ]
     },
     {
@@ -282,8 +396,14 @@
       "state": "rejected_as_distinct_method_retained_as_sequential_change_control",
       "reason": "A predictable likelihood-ratio or conditional-CGF e-process gives a valid anytime false-release certificate, but it is standard sequential change detection attached to known edit geometry, reduces to prequential CE/Bayesian gating, and cannot distinguish observationally identical revision and collision worlds.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/MARTINGALE_RELEASE_CONTROL.md","sha256":"ed6a3154b78a695b20ae0abc077e4d775f3f3a7ab211584c166aa7d14fe833ac"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/MARTINGALE_RELEASE_CONTROL.review.md","sha256":"9965ae8461c6a08d6fa092ee3922adbcc0df429f4a2326d4ddb741dad62a9717"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/MARTINGALE_RELEASE_CONTROL.md",
+          "sha256": "ed6a3154b78a695b20ae0abc077e4d775f3f3a7ab211584c166aa7d14fe833ac"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/MARTINGALE_RELEASE_CONTROL.review.md",
+          "sha256": "9965ae8461c6a08d6fa092ee3922adbcc0df429f4a2326d4ddb741dad62a9717"
+        }
       ]
     },
     {
@@ -291,8 +411,14 @@
       "state": "accepted_no_go_metric_loophole_merged_into_D06_not_candidate",
       "reason": "Inverse-transporting an unconstrained SPD metric makes every invertible transition prefix look isometric, including vanishing and exploding scalar paths. Uniform coercivity plus separate upper/lower cross-time inequalities are required; deployment otherwise becomes a coordinate change, RLS/PDN preconditioner or known retention control.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/TIME_VARYING_METRIC_LAUNDERING.md","sha256":"0789930f6f7da6746fef40babd7f753d28e6c6e2e977ff3462bcde70212e9803"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md","sha256":"d67b0813232f7fe47bd125da52dcb6983df23e66252cc43c55346a5b7e187346"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/TIME_VARYING_METRIC_LAUNDERING.md",
+          "sha256": "0789930f6f7da6746fef40babd7f753d28e6c6e2e977ff3462bcde70212e9803"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/TIME_VARYING_METRIC_LAUNDERING.review.md",
+          "sha256": "d67b0813232f7fe47bd125da52dcb6983df23e66252cc43c55346a5b7e187346"
+        }
       ]
     },
     {
@@ -300,8 +426,14 @@
       "state": "rejected_as_distinct_method_retained_as_rollback_trilemma_control",
       "reason": "Frozen-affine deletion is exact receipt transport and full state-dependent omission is checkpoint replay. The Delta-specific transport/forcing theorem and deployment trade-off are already published, while finite-precision arbitrary-ID rollback requires history-sized provenance in the worst case.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md","sha256":"71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/RETROACTIVE_ROLLBACK_DELTA.review.md","sha256":"6deb94140445ce0981f90185f70a8af173f781ac3c8b190ee69da4596cb8f4d8"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+          "sha256": "71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/RETROACTIVE_ROLLBACK_DELTA.review.md",
+          "sha256": "6deb94140445ce0981f90185f70a8af173f781ac3c8b190ee69da4596cb8f4d8"
+        }
       ]
     },
     {
@@ -309,8 +441,14 @@
       "state": "rejected_as_distinct_method_retained_as_set_membership_control",
       "reason": "The feasible-map recursion is classical set-membership filtering/version-space maintenance. A single convex envelope cannot preserve discrete revision/coexistence branches, while exact unions can grow exponentially and structured fixed-size approximations reduce to known OBE/Kalman/RLS controls.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/SET_VALUED_DELTA_ENVELOPE.md","sha256":"671c995177df422340156da4481e68802e40205b70c0a77859c0026937f4d662"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/SET_VALUED_DELTA_ENVELOPE.review.md","sha256":"994967dcb5534fe1023abff7b44d3d2d036d4df36acd5cc3f09bb10e73541f8d"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/SET_VALUED_DELTA_ENVELOPE.md",
+          "sha256": "671c995177df422340156da4481e68802e40205b70c0a77859c0026937f4d662"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/SET_VALUED_DELTA_ENVELOPE.review.md",
+          "sha256": "994967dcb5534fe1023abff7b44d3d2d036d4df36acd5cc3f09bb10e73541f8d"
+        }
       ]
     },
     {
@@ -318,8 +456,14 @@
       "state": "rejected_as_distinct_method_retained_as_isometric_editability_control",
       "reason": "Global orthogonal edits require Gram preservation and spill over by value direction. When localized to one unit key and made exact, the state update is identical to full-step Delta; adaptive target matching is a singular row replacement rather than a reversible isometry.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md","sha256":"b0d6cdac5ba08ac3c15c7b700442c1770a5b1b23370000269b6062fae08f6cb7"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md","sha256":"9606446a897605e812cb3e875edb3f8314d4e66f324621215d46c8b7d0385b32"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md",
+          "sha256": "b0d6cdac5ba08ac3c15c7b700442c1770a5b1b23370000269b6062fae08f6cb7"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/ORTHOGONAL_VALUE_ROTATION_CONTROL.review.md",
+          "sha256": "9606446a897605e812cb3e875edb3f8314d4e66f324621215d46c8b7d0385b32"
+        }
       ]
     },
     {
@@ -327,8 +471,14 @@
       "state": "rejected_as_distinct_method_retained_as_identity_oracle_control",
       "reason": "The tensor address k⊗c is ordinary Delta in a TPR feature space; one-hot codes are exactly routed independent Delta memories. Stable provenance is extra causal information, while unique event tags still require an index and dense/random tags recover classical TPR/VSA crosstalk.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md","sha256":"8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md","sha256":"ffcd08f6fadfea712325210a2bba1d5bca83e9a86463ad26c7fc9742f9c96191"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/PROVENANCE_TENSOR_DELTA.md",
+          "sha256": "8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/PROVENANCE_TENSOR_DELTA.review.md",
+          "sha256": "ffcd08f6fadfea712325210a2bba1d5bca83e9a86463ad26c7fc9742f9c96191"
+        }
       ]
     },
     {
@@ -336,8 +486,14 @@
       "state": "rejected_as_distinct_method_exact_reparameterization_control",
       "reason": "Frozen-token exact gradient flow and implicit proximal regression are the ordinary rank-one Delta map with scalar coefficients. Unit-key softplus/exponential parameterizations reproduce the sigmoid Delta gate exactly; EFLA and Longhorn directly cover the two derivations.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md","sha256":"a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.review.md","sha256":"0735e8b2ee153852cc23f25d5e18f4ab343f8a1d872e92f4fa7f3f561985b729"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+          "sha256": "a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.review.md",
+          "sha256": "0735e8b2ee153852cc23f25d5e18f4ab343f8a1d872e92f4fa7f3f561985b729"
+        }
       ]
     },
     {
@@ -345,8 +501,14 @@
       "state": "rejected_as_distinct_method_similarity_and_preconditioning_control",
       "reason": "The half-decay/Delta/half-decay factor is per-step similar to KDA and collapses to reciprocal separate read/write addresses. Naive splitting breaks same-key overwrite; repairing it yields known PDN-style preconditioning, while Strang accuracy needs an explicit frozen continuous-time target.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md","sha256":"eb1fa251d6c5951c17607f7ed8fc609913e80f6da43b7200d3717ad27a8124f4"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/SYMMETRIC_SPLIT_DELTA_CONTROL.review.md","sha256":"400a6540803b23cad2e17875fc88a4c311e4615eaa72ca758ff2659cb0aea949"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+          "sha256": "eb1fa251d6c5951c17607f7ed8fc609913e80f6da43b7200d3717ad27a8124f4"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/SYMMETRIC_SPLIT_DELTA_CONTROL.review.md",
+          "sha256": "400a6540803b23cad2e17875fc88a4c311e4615eaa72ca758ff2659cb0aea949"
+        }
       ]
     },
     {
@@ -354,9 +516,55 @@
       "state": "rejected_as_distinct_method_vacuous_local_noncompositional_control",
       "reason": "Standard contractive Delta factors have discrete Kreiss constant exactly one, while fixed-matrix Kreiss bounds do not compose over token-varying ordered products. Executable replacements reduce to product/Jacobian norms, common Lyapunov/JSR control or D03 future-product prediction.",
       "evidence_refs": [
-        {"path":"research/delta-discovery-2026-10-08/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md","sha256":"06843104c9130ae24fd4cd0f952455fbe3b9b0430dc4fc8013f5ebdc0c561e2d"},
-        {"path":"research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md","sha256":"18a2f36f26c27ff7df9db16d5bdbe96594f280d2580bc34c17f62294110afd06"}
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md",
+          "sha256": "06843104c9130ae24fd4cd0f952455fbe3b9b0430dc4fc8013f5ebdc0c561e2d"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md",
+          "sha256": "18a2f36f26c27ff7df9db16d5bdbe96594f280d2580bc34c17f62294110afd06"
+        }
       ]
+    },
+    {
+      "id": "NOISY-KEY-IDENTIFICATION-PREDICTION-CONTROL",
+      "state": "known_noncounted_eiv_iv_objective_control",
+      "reason": "BC-LMS and IV are existing recurrences. Exact identification/prediction distinction, conditional stability and single-view nonidentifiability were independently reviewed; real current-text noise/instrument/query contract is missing. No active D-number.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md",
+          "sha256": "d39cafd719b4e71d2190c1f46e0902662572bb1c963ad9ac71645990fdc09842"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/sources/NOISY_KEY_EIV_SOURCE_AUDIT.md",
+          "sha256": "3442ee9a09db9c43549f30ca0128e262533e74ce2a914a12a756afd8aa22709c"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.review.md",
+          "sha256": "fcde49bda4fe16d67cb4aa0e082875ca799b272c4c0583d6486a7a64d468b8b6"
+        }
+      ]
+    },
+    {
+      "id": "STEP2-JOINT-CONDITIONAL-RISK-LEAD",
+      "state": "conditional_theory_target_lead_not_admitted",
+      "reason": "Exact mixed-moment separability and full endogenous Delta differential accepted under declared conditions. Weighted Bayesian normal equations are known; equally informed joint Bayesian comparison, Delta-specific contribution, natural measurement and moment estimation remain open. Theory/target outcomes need not alter deployed recurrence.",
+      "evidence_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
+          "sha256": "fd7ae10d232494447b1ade1f9323228118946d6f95b94ab705622eacff3b2eb5"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md",
+          "sha256": "053cebe92deb9c2350e4bebffbc6eada337e992ea4fcb23a13dfc0218c38c6a5"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
+          "sha256": "30fe78ef6d4cb980d5aa9ee535a50c416ce67ae562d771297dad1b4e8263a399",
+          "unchanged_parent_commit": "a00997c07ed02394d55cfb951542afc0a7b7de6c"
+        }
+      ],
+      "same_lead_as": "R2-C/R2-J/R2-D in STEP2_REENTRY_2026-10-09.zh-CN.md; not counted twice"
     },
     {
       "id": "D01-schema-history",
@@ -372,4 +580,3 @@
     }
   ]
 }
-

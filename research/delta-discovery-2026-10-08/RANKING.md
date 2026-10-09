@@ -17,3 +17,5 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 本轮再由三组独立数学/审查对闭合三条路线：exact-gradient-flow 与 implicit proximal 在 frozen token 下都是普通 Delta 的标量门重参数化，并与 EFLA/Longhorn 直接碰撞；half-decay/Delta/half-decay 的对称因子与 KDA 每步相似，修复原 key overwrite 后就是 PDN 式预条件读写地址；标准 contractive Delta 的逐步 Kreiss 常数恒为 1，而固定矩阵伪谱理论不能控制 token-varying 有序乘积，真正可执行的版本落回 product/Jacobian norm、common Lyapunov/JSR 或 D03。三项均只保留为控制，构造历史仍为 5、活动/准入/选择仍为 0。
 
 最终排名仍将基于问题价值、数学后果、最近工作残余、区别性预测、最强简单替代及总成本。当前不得给出“最优 2–3 项”或暗示任何历史卡已获推荐。
+
+第2步重定位新增了 [联合条件风险理论线索](STEP2_JOINT_CONDITIONAL_RISK.md)：方向性混合矩、完整内生 Jacobian 和有限二次矩边界已独立审查，weighted-Bayes/APO 原理碰撞保持可见。它尚缺 Delta-specific contribution、自然监督/测量与 tractability，因此不进入排序或选择。理论/目标构造无需强制改变递推，但同样不能免除新意、问题价值与条件审查。noisy-key BC/IV 只作目标识别控制；计数不变。

@@ -48,5 +48,8 @@
 | symmetric / Strang-split Delta | `D^{1/2}(I-βkkᵀ)D^{1/2}` 每步与 KDA 相似；同-key 修复变成 preconditioned separate-address Delta | [控制](rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md)及[双重审查](reviews/SYMMETRIC_SPLIT_DELTA_CONTROL.review.md)。Complex KDA 已写出相似关系；PDN/GDN2/EDA/DeltaProduct 覆盖可执行修复，Strang 阶数只在显式 frozen ODE 下成立，不计候选 |
 | pseudospectral / Kreiss Delta | 标准 contractive Delta 因子满足 `K(A)=1`；固定矩阵 Kreiss 常数不约束 token-varying 有序乘积 | [控制](rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md)及[双重审查](reviews/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.review.md)。合法替代落回 product/Jacobian norm、common Lyapunov/JSR、PDN 或 D03 future-product；仅保留为 oblique shear 诊断，不计候选 |
 
+| noisy-key identification / prediction | covariance subtraction 是 BC-LMS；paired-view 是 IV。恢复 latent slope 可增加 noisy-query 风险；单一观测不能识别 latent/noise 分解 | [连续数学控制](rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md)、[原文/固定作者代码](sources/NOISY_KEY_EIV_SOURCE_AUDIT.md)、[双重精确字节审查](reviews/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.review.md)。不计候选 |
+| Step2 joint validity × future geometry | 条件二次最优解依赖联合矩，而非仅边际 posterior 与平均 metric；基础正常方程与 weighted Bayes/APO 已知 | [问题重定位和实际推导](STEP2_JOINT_CONDITIONAL_RISK.md)、[数学/来源审查](reviews/STEP2_JOINT_CONDITIONAL_RISK.review.md)。理论/目标线索，贡献及原生测量待闭合；不计活动卡 |
+
 上述已读的是必要公式/算法与具体接口，不是所有论文/仓库逐行审计。引用量与 checker 通过不证明原创性。原始代码未运行，未下载模型/数据，未造实验结果。公共可测量对象和原生 scorer 边界见 [BASELINE_NATIVE](sources/BASELINE_NATIVE.md) 与[本轮可行性核查](sources/MEASUREMENT_FEASIBILITY_2026-10-09.md)；机制主张的 measurement gap 不能由通用 QA 得分消除。
 
