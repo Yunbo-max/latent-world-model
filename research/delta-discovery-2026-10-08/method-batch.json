@@ -8,40 +8,70 @@
     {
       "candidate_id": "D01",
       "pool_status": "inactive_equivalence_control_major_functional_collision",
-      "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D01.json","sha256":"17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"},
-      "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D01.math-review.json","sha256":"0c1123a770e5a0c7c716d75650a3c0932f04d25a4482bb42f6ca5f314b435067"},
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D01.json",
+        "sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D01.math-review.json",
+        "sha256": "0c1123a770e5a0c7c716d75650a3c0932f04d25a4482bb42f6ca5f314b435067"
+      },
       "scientific_admission": "not_admitted_major_functional_collision",
       "selected": false
     },
     {
       "candidate_id": "D03",
       "pool_status": "inactive_normalized_observability_natural_gradient_control",
-      "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D03.json","sha256":"6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"},
-      "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D03.review.json","sha256":"4fd25a5ea01e3f778bc8b01719ee5bcbd3625911030c4663c0cb25738037a30a"},
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D03.json",
+        "sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D03.review.json",
+        "sha256": "4fd25a5ea01e3f778bc8b01719ee5bcbd3625911030c4663c0cb25738037a30a"
+      },
       "scientific_admission": "not_admitted_major_functional_collision",
       "selected": false
     },
     {
       "candidate_id": "D05",
       "pool_status": "inactive_constructed_history_major_functional_collision",
-      "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D05.json","sha256":"c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"},
-      "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D05.review.json","sha256":"ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"},
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D05.json",
+        "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D05.review.json",
+        "sha256": "ed7d4ff8375e96c0352e05590fad74cbcc96cc27e78b390af53e961509eed015"
+      },
       "scientific_admission": "not_admitted_major_functional_collision",
       "selected": false
     },
     {
       "candidate_id": "D06",
       "pool_status": "inactive_log_volume_guardrail_major_functional_composition_collision",
-      "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D06.json","sha256":"e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"},
-      "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D06.review.json","sha256":"49ce21b264176e0dd9d5802373babbb57eaf8ed04c74f36611b24233da9d9e45"},
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D06.json",
+        "sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D06.review.json",
+        "sha256": "49ce21b264176e0dd9d5802373babbb57eaf8ed04c74f36611b24233da9d9e45"
+      },
       "scientific_admission": "not_admitted_major_functional_composition_collision",
       "selected": false
     },
     {
       "candidate_id": "D07",
       "pool_status": "inactive_source_survival_diagnostic_major_functional_collision",
-      "math_card_ref": {"path":"research/delta-discovery-2026-10-08/cards/D07.json","sha256":"8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"},
-      "math_review_ref": {"path":"research/delta-discovery-2026-10-08/reviews/D07.review.json","sha256":"1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"},
+      "math_card_ref": {
+        "path": "research/delta-discovery-2026-10-08/cards/D07.json",
+        "sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/D07.review.json",
+        "sha256": "1a11f92533c14114d46c9dda614404e4546e32e2a9d9d2d68536302254ba9654"
+      },
       "scientific_admission": "not_admitted_major_functional_collision_narrow_formula_residual",
       "selected": false
     }
@@ -53,5 +83,17 @@
     "scientifically_admitted": 0,
     "selected": 0
   },
-  "selection_verified": false
+  "selection_verified": false,
+  "repair_refs": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md",
+      "sha256": "f5feb459fa62ce9cbe3d0568ca61b812cd9de44b4e80c672306a295c2b6b85d3"
+    }
+  ],
+  "counting_policy": {
+    "pool_target": 20,
+    "selection_target": 15,
+    "repair_is_not_candidate": true,
+    "interpretation": "Latest owner feedback: exploration target, no guarantee of universal novelty/admission/experimental success; eligible selection only."
+  }
 }

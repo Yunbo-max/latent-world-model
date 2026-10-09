@@ -1,0 +1,54 @@
+{
+  "kind": "delta-repair-authorization-readback",
+  "recorded_at": "2026-10-09T16:50:10Z",
+  "observed_parent": "4c15ce42cc8fee0808a444e079f9a0c09417dbf6",
+  "user_feedback": {
+    "at": "2026-10-09T17:08:50+01:00",
+    "quotes": [
+      "我们之前分析的都错误吗为啥这么严格",
+      "idea错误可以debug或者改正呀"
+    ],
+    "priority": "repair_and_rederive_preserve_counterexamples_max_three_substantive_attempts"
+  },
+  "task_observed": {
+    "id": "6ac78ded796081918d2123402544d760",
+    "title": "推导 Delta 数学候选",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART:20261008T123453Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+    "timing_mode": "flexible_schedule",
+    "default_timezone": "Europe/London",
+    "updated_at": "2026-10-09T16:10:59.559589+00:00",
+    "last_run_time": "2026-10-09T15:50:46.183782+00:00",
+    "next_run_time": null
+  },
+  "evidence_limits": [
+    "Configuration readback is observed; no create/update/run_now/disable invoked by this run.",
+    "Current Work host is explicitly evidenced by developer app context.",
+    "Service last_run_time is not continuous-execution or current-worker-status proof; no worker identity endpoint was exposed by list.",
+    "One actual integration writer /root; delegated mathematics and reviews have no main write authority."
+  ],
+  "skill": {
+    "package": "skill://flora-user-skills/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline",
+    "root_sha256": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84",
+    "project_bound_revision_reused": true,
+    "actual_read_module_sha256": {
+      "SKILL.md": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84",
+      "references/workflow-harness.md": "e6db3ca81e4e63c4b6b755eb2f08a77a874e2c3317a045a86b86bac7a259a0ae",
+      "references/web-background-work.md": "6b7ff0d966190acd530bc010782e0566a21cf7fa56e516fadf764d9b712f14d3",
+      "references/math-analysis.md": "e27e60718518b34d4995a4f2109588aa93746665c4466ab7ac31c049334ccbc8",
+      "references/math-operation-graph.md": "e82711e4c307d6d901486f4da569e4572e5ce7a4fe006976789bc5d174b749a2",
+      "references/math-derivation-paths.md": "787bc32d0a7620cb22a8193b3acd2828c304a4a658d0b3f3cc995e5acd0533d3",
+      "references/method-verification.md": "0e8c78cd19b9f04aa6341c2c0500f1ae2fe48e01688a5857103c4d611503ee05",
+      "references/research-quality-bar.md": "cb4e4522337f6815f3c53f5e0c193783ada6a492e652c6531e90b30cb580c409",
+      "references/literature-evidence.md": "a3612904bc54490c6d254fe620a5057aa119a281c74bffc9bb4069cb30e619df",
+      "references/repository-round-trips.md": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb"
+    }
+  },
+  "pool_counting_policy": {
+    "pool_target": 20,
+    "selection_target": 15,
+    "meaning": "Substantially distinct reviewed exploration pool target; no guarantee of 20 novel/admitted/empirically successful methods.",
+    "historical_retired_candidates_do_not_fill_active_pool": true,
+    "repair_lines_counted_as_candidates": false
+  }
+}

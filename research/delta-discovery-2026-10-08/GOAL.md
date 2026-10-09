@@ -4,6 +4,10 @@
 
 目标取 20 个实质不同候选；完整数学审查后全池排序、默认选择前15。Diffusion可选。阶段仅数学与来源/可行性审查，不含新模型代码或实验。
 
+最新解释以 2026-10-09 17:08:50 Europe/London 反馈为准：“我们之前分析的都错误吗为啥这么严格”，“idea错误可以debug或者改正呀”。20 是约20条实质不同探索池目标，不保证20个全部原创、科学准入或实验成功；只选有资格者，数量不足诚实报告。先修复2–3条有证据线索，每条最多3次有具体delta的数学修订，保留旧字节/反例/review。局部错误、条件缺口、已知机制碰撞和效果未知分别处理；已知部分可保留为强对照，有价值理论也按相应贡献义务审查。
+
+本轮实际交付：[R01 v1 修复推导](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)与[来源及原生测量审查](sources/REPAIR_R01_SOURCE_AUDIT.md)。两条相互关联修订为固定value-span的完整gate-feedback闭包/泄漏、残差到动作信用区间及有限步裕量；不是两个新D候选。原收缩/平坦谱反例继续成立。数学条件、贡献差异与实验未知分开记录，旧5张卡不抵扣活动池，20/15目标不变。[实际配置读回](sources/REPAIR_AUTHORIZATION_READBACK.json)与修复交付分开；同任务保持启用，本轮未调用run_now或新建任务。
+
 实际服务：复用 scheduled_authoring_continuation 任务 `6ac78ded796081918d2123402544d760`；按小时续接。此文件不是启动回执，连续执行未经证明。原代码阶段已完成/停用历史保留。
 
 恢复入口：同commit的 PROGRESS.json、method-batch.json、项目 research/workflow-checkpoint.json。

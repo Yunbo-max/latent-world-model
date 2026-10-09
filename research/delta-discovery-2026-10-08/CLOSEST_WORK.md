@@ -110,3 +110,7 @@ RTRL/NoBackTrack/UORO、KF-RTRL/OK、SnAp 与 e-prop 已覆盖 exact/随机低�
 - Stable Recurrent Models、Neumann-RBP、Adaptive TBPTT、ARTBP、Randomized Telescopes、Tropp sketches/Frequent Directions，以及既有 RTRL 系列压缩已覆盖主要部件。
 
 generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不自动闭合，这是残余接口边界，不是已构成的新方法。只有能为真实完整 Delta transition 证明合法 closure，并在同信息、bytes/FLOPs 下改善 costate/action-gradient 误差，才值得重开候选构造。当前无 D 编号，计数不变。
+## R01 repair nearest-work delta
+
+[修订推导](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)、[固定来源审计](sources/REPAIR_R01_SOURCE_AUDIT.md)与[独立最终来源审查](reviews/REPAIR_R01.source-review.md)保留以下对照：离散固定右-span闭包不同于Lubich–Oseledets连续variable-factor projector splitting，但都是已知不变量/低秩表示几何；强制S=ZVᵀ、v=Vw就是较小value-width Delta。SnAp的稀疏结构是其他合法full-sensitivity简化对照。Vernimmen–Glineur v2及固定作者utilities_neuro.py使用relative-gradient oracle和已给smoothness参数，不能提供本项目的合法残差/曲率常数或神经loss全局收敛。R01的absolute scalar interval和finite-step majorizer自行推导，仍属inexact-gradient/adjoint error原则，不称新优化器。Hallak全文尚缺；adjoint作者overview仅支持已知原则，不冒充全文公式审查。残余是因果value几何或Delta-specific、同总成本可得的goal-weighted certificate；它们尚未构成D候选，不因已知部件就否定全部后续修复。
+

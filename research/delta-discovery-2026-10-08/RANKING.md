@@ -33,3 +33,5 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 [完整闭环秩增长控制](STEP2_CLOSED_LOOP_RANK_GROWTH.md)进一步给出紧反例：未来只需一个读取 memory 的 scalar gate，单一焦点扰动的 exact Delta matrix tangent 就可每步增加一个独立 rank-one 方向；共享 gate 构造达到线性上界，并有 fixed-rank singular-tail 与 ordered truncation-error 界。独立审查同时限定：这不是一般算法内存下界，高 exact rank 也不等于数值重要或遗忘。RTRL/UORO、KF-RTRL/OK、SnAp、e-prop 与经典 EYM/扰动界覆盖主要方法成分，现有 native scorer 又不提供 tangent/rank 真值。因此它只关闭 frozen-path rank-one 的错误外推，不分配 D 编号或进入排序；计数仍为 **5历史 / 0活动 / 0准入 / 0选择**。
 
 [有效秩与随机截断控制](STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md)又关闭了“只要完整路径收缩，高秩切向就会低相对秩”的外推：严格收缩路径仍可有平坦 H 维归一化奇异谱。年龄截断的对数绝对误差界需要额外保秩和 fading assumptions，无偏截断还承担 survival/variance 条件；Adaptive TBPTT、ARTBP、Randomized Telescopes、稳定 RNN 与 streaming/online sensitivity compression 已覆盖主要机制。它只留下真实非交换 Delta closure 和 costate-weighted matched-budget 优势这一窄缺口，不分配 D 编号或进入排序；计数仍为 **5历史 / 0活动 / 0准入 / 0选择**。
+[R01 v1修复](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)完成两条关联线索的独立最终字节审查。研究优先级为：先核实A的因果value-span闭包/容量条件，再核实B的goal-weighted residual证书能否省总成本；这是修复工作的先后依赖，不是正式候选排名或top15。已知降维Delta与inexact-gradient/adjoint weighting作为强对照保留；未闭贡献/成本/效果分别记录。活动/准入/选择仍0，池20/选择15短缺未填充。数学成立的控制不等于整个科学问题淘汰，旧反例也不删除。
+

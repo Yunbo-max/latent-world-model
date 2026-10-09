@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T15:46:16Z",
+  "recorded_at": "2026-10-09T16:54:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "step2_effective_rank_truncation_independent_math_source_reviews_accepted_control_no_admission",
+  "status": "repair_R01_independent_final_math_source_reviews_supported_conditional_lead_no_candidate_admission",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -23,8 +23,10 @@
   "count_interpretation": "D01/D03/D05/D06/D07 remain in constructed history but are all inactive after major functional or composition collisions. D07's algebra remains conditionally valid, but full-formula/author-code audit found its source-survival object and main retention function already covered, leaving only a narrow direct-hinge residual. No control/no-go is counted as a candidate.",
   "shortfalls": {
     "active_constructed_to_target": 20,
-    "scientific_admitted_to_target": 20,
-    "selection_to_target": 15
+    "scientific_admitted_to_target": null,
+    "selection_to_target": 15,
+    "scientific_admitted_to_target_legacy_value": 20,
+    "interpretation": "20 active-pool / 15 selection shortage; no separate guaranteed 20 scientific-admission target. Legacy value retained only as history."
   },
   "historical_batch": {
     "path": "research/method-batch.json",
@@ -40,15 +42,15 @@
     "is_enabled": true,
     "continuous_execution_verified": false,
     "host_evidence": "Actual current invocation has developer-provided ChatGPT Work Mode context.",
-    "state_after_invocation": "same_enabled_math_task;new_RSI_authorization_actually_read_in_current_Work_invocation;not_continuous_execution",
-    "service_updated_at_observed": "2026-10-09T11:52:03.234675+00:00",
-    "service_last_run_time_observed": "2026-10-09T11:48:49.728765+00:00",
+    "state_after_invocation": "same_enabled_math_task;repair_authorization_actually_read_and_math_rederivation_performed_in_current_Work;not_continuous_execution",
+    "service_updated_at_observed": "2026-10-09T16:10:59.559589+00:00",
+    "service_last_run_time_observed": "2026-10-09T15:50:46.183782+00:00",
     "configuration_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
-      "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_AUTHORIZATION_READBACK.json",
+      "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     }
   },
-  "delivery_parent": "617b21a049541e441ecd251f36fcb095365475a8",
+  "delivery_parent": "4c15ce42cc8fee0808a444e079f9a0c09417dbf6",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -129,10 +131,11 @@
       "Proved action-space costate projection sufficiency and a dim(action-span) lower bound for exact linear credit summaries; arbitrary learned Delta directions reopen the full state dimension.",
       "Derived exact frozen-path rank-one eligibility for one scalar Delta gate and conditional intervention-rank requirements for local slope/curvature; full feedback and multiple pending edits retain long-horizon cost.",
       "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate.",
-      "Proved that strict contraction of every complete scalar-gate Delta tangent step does not imply low relative effective rank: a legal path has a flat H-dimensional normalized singular spectrum. Logarithmic absolute epsilon-rank needs stronger rank-bounded injection, rank-preserving transport and fading-age assumptions, and may only reflect vanished credit. Unbiased rank-r compression has an explicit flat-spectrum variance lower bound."
+      "Proved that strict contraction of every complete scalar-gate Delta tangent step does not imply low relative effective rank: a legal path has a flat H-dimensional normalized singular spectrum. Logarithmic absolute epsilon-rank needs stronger rank-bounded injection, rank-preserving transport and fading-age assumptions, and may only reflect vanished credit. Unbiased rank-r compression has an explicit flat-spectrum variance lower bound.",
+      "Repaired rather than discarded two linked leads: exact fixed-right-value-span scalar-gate-feedback closure with leakage recurrence, and goal-weighted residual scalar credit interval plus legal finite-step margin. Corrected bound-sequence notation after independent attack; old contraction/flat-spectrum counterexample remains. Conditional math supported; generic controls/novelty, costs and empirical utility separate; no new candidate."
     ]
   },
-  "next_action": "Continue only from the narrowed structural residual: determine whether the actual complete Delta transition exposes a checkable rank-preserving or low-action-width closure that yields a costate/action-weighted estimator advantage over reverse VJP, adaptive TBPTT, ARTBP/randomized telescopes, UORO/KF-RTRL/OK/SnAp and same-information direct action prediction at matched bytes/FLOPs. Mere contraction, low absolute sensitivity, generic streaming SVD or empirical unweighted effective rank is insufficient. No D identifier before a complete non-colliding contribution and independent source/math review; no candidate code, experiment matrix or execution. 20/15 deficits persist.",
+  "next_action": "Continue R01 repair from its exact reviewed bytes. First examine whether causal value geometry can preserve needed capacity, or whether gate residual/costate bounds are cheaper than full VJP at matched total bytes/FLOPs. Compare same-r ordinary Delta and exact BPTT/RTRL/direct action predictor. Do not repeat generic low-rank or margin formulas as new candidates; no new D/code/experiment until contribution and scientific obligations are met. Park only the unsupported practical advantage, preserving useful theory and concrete reopen conditions.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -528,6 +531,34 @@
       "identity": "/root/effective_rank_measurement",
       "result": "Independent native-feasibility audit separated endpoint consequences from unavailable tangent/spectrum/truncation ground truth",
       "artifact": "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md"
+    },
+    {
+      "identity": "/root/repair_value_span_review",
+      "assignment": "derive the value-span repair; not final subject reviewer",
+      "result": "conditional span closure and leakage boundary used by integrated writer"
+    },
+    {
+      "identity": "/root/repair_credit_certificate",
+      "assignment": "derive scalar credit-error and finite-step repair; not final subject reviewer",
+      "result": "credit interval, adjoint residual and legal majorizer used by integrated writer"
+    },
+    {
+      "identity": "/root/repair_sources",
+      "assignment": "primary-source/actual author/native audit",
+      "artifact": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_SOURCE_AUDIT.md",
+      "sha256": "c35534f76e03283977bc975bc4ee20c566b5b4de798fad5cce8f02b39e50d952"
+    },
+    {
+      "identity": "/root/repair_final_math",
+      "assignment": "independent exact final-byte math review; did not generate final subject",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01.math-review.md",
+      "sha256": "b681bb699d4e6c4eed1f973eb345534937551bb529599afa8155319e62125fbe"
+    },
+    {
+      "identity": "/root/repair_final_source",
+      "assignment": "independent final-byte primary/author/novelty/native consequence review",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01.source-review.md",
+      "sha256": "9e9e08ee4e6a70f76cf24c9da1f60d5c7bff8bf40318313ae390df1039ea1f2e"
     }
   ],
   "step2_reentry": {
@@ -717,5 +748,74 @@
       "HOPE/Titans author-code availability and HOPE variant/chunk ambiguities if a faithful implementation becomes a dependency.",
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
+  },
+  "repair_and_rederive": {
+    "repair_id": "R01",
+    "version": "v1",
+    "attempts": {
+      "R01-A": 1,
+      "R01-B": 1
+    },
+    "max_substantive_attempts_per_line": 3,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md",
+      "sha256": "f5feb459fa62ce9cbe3d0568ca61b812cd9de44b4e80c672306a295c2b6b85d3"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_SOURCE_AUDIT.md",
+      "sha256": "c35534f76e03283977bc975bc4ee20c566b5b4de798fad5cce8f02b39e50d952"
+    },
+    "configuration_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_AUTHORIZATION_READBACK.json",
+      "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
+    },
+    "lineage": [
+      "STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "STEP2_PROJECTED_DELAYED_CREDIT.md"
+    ],
+    "status": "independent_final_math_and_source_reviews_completed_conditional_control_lead",
+    "mathematical_status": "conditional_mathematical_construction_supported_after_K_Q_bound_notation_fix",
+    "contribution_status": "generic_invariant_span_and_inexact_gradient_controls;Delta_residual_certificate_advantage_unresolved",
+    "empirical_status": "unknown_no_execution",
+    "new_candidate_count": 0,
+    "lines": [
+      {
+        "id": "R01-A",
+        "failure_type": "insufficient_structural_assumptions",
+        "patch": "fixed right/value span closure retaining full scalar-gate feedback, and leakage-feedback recurrence; structural compressed model changes capacity"
+      },
+      {
+        "id": "R01-B",
+        "failure_type": "approximation_criterion_objective_mismatch",
+        "patch": "ordered residual-to-credit/costate interval and finite-step robust scalar majorizer; proper whole-interval derivative bounds"
+      }
+    ],
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01.math-review.json",
+      "sha256": "5d563f21afa5355e8d9f97f8f76e997f7619d48663f5c047493e3bf2a342f7a8"
+    },
+    "math_review_prose_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01.math-review.md",
+      "sha256": "b681bb699d4e6c4eed1f973eb345534937551bb529599afa8155319e62125fbe"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01.source-review.md",
+      "sha256": "9e9e08ee4e6a70f76cf24c9da1f60d5c7bff8bf40318313ae390df1039ea1f2e"
+    },
+    "review_feedback_repair": "K/Q sequences explicitly constructed equal to dominating RHS, B interval supremum bound specified; final changed bytes rehashed and independently reviewed.",
+    "unclosed": [
+      "Causal useful value geometry preserving needed task capacity.",
+      "Affordable legal residual/costate and whole-segment curvature bounds at matched total cost.",
+      "Contribution beyond generic invariant spans, smaller value-width Delta and inexact-gradient/adjoint weighting.",
+      "Actual native endpoints, retention and later-new-task learning efficiency; no empirical effect measured.",
+      "Hallak full-formula review if projected-gradient novelty becomes dependent; historical lambada_standard note must not override current lambada_openai pinned asset."
+    ]
+  },
+  "counting_policy": {
+    "source": "owner_feedback_2026-10-09T17:08:50+01:00",
+    "pool_target": 20,
+    "selection_target": 15,
+    "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting."
   }
 }
