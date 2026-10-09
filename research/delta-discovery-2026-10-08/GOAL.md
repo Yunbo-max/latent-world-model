@@ -52,3 +52,39 @@ S是key-by-value；S_t=(I−β_t k_t k_t^T)D_t S_{t−1}+β_t k_t v_t^T，不能
 进一步续接：[决定充分性的低秩边界与 Delta 动作秩控制](STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md)、[来源/代码/native 审计](sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md)、[独立双重审查](reviews/STEP2_ACTION_SUFFICIENT_RANK.review.md)。固定 SPD 二次 regret、线性 feature/head 下的宽度风险是加权 RRR 的尾奇异值；Task-Sufficient Contraction、Bayes quotient、DSSR 与 RRR/EYM 已分别覆盖静态充分性、递归 future-reader 评分和低秩截断。只保留随机信息依赖 metric × 完整递归 Jacobian × 因果可估计性的未准入残余；计数不变。
 
 最新续接：[递归随机条件矩、完整 Jacobian 与因果动作误差界](STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md)、[固定来源/代码/native 审计](sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md)。固定 teacher-forced 后缀上的联合对象严格化为 GGN 加权的变分可观测 Gramian；精确 Hessian、prefix-only 条件估计和自由运行反事实边界均已分开。主要部件被 observability/GGN/DDP-iLQR/DNI/RTRL-UORO-e-prop/DSSR 覆盖；只保留 Delta rank-one 结构能否形成更低成本联合 estimator 的未准入残余，计数不变。
+
+
+## 2026-10-09 新增 Delta 自改进更新器授权
+
+【2026-10-09 12:48:59 Europe/London 新增授权：Delta 自我改进更新器的数学发现】
+用户原话：“我认为这个方向值得深入，但目前它是候选研究路线 我觉得你可以把这个扩展下搞idea在后台”。接续同一 latent-world-model / Delta 数学目标，将“学习如何更新自身 Delta 记忆，区分有益覆盖与破坏性遗忘”加入并优先展开。这里 RSI 指语言模型递归自我改进，不是修改 Research Autopilot 插件本身。不是新项目，不建立第二个任务或writer；不借用 theory/test10.8/4d 的代码、预算或执行授权。
+
+本次只扩展数学、最近工作审查和原生测量可行性。保留原20候选/全池审查/前15目标及历史；下列是推导入口，不是6个已成立或原创候选，不要求固定数量，更不要求把它们拼成6个模块。Diffusion仍是可选辅助，不作为主创新。原候选模型代码、完整可执行实验矩阵、软件测试和训练/评分均不在当前数学阶段启动。未来代码/完整设计义务保留，不能因本次数学扩展假称已经完成。
+
+执行前固定实时main，恢复全部已完成推导、碰撞、独立审查和累计历史。当前bootstrap只读到87380653675efecf29335f522190a3a95bb6f67b，该SHA不是永久最新；该revision已包含 STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md 及其review/source audit，完整Jacobian、GGN/DDP、RTRL/UORO/e-prop、DNI及DSSR有已记录碰撞。不要重复推导并换名计数。先核对真实服务运行者/写入归属，保持一个集成writer；当前bootstrap只修改该任务指令，不并发改项目文件，不再次run_now。下一次可接续时将本次授权、填好的研究目标和任务配置实际readback记录同步到本Delta GOAL/PROGRESS/checkpoint，保留既有字段和来源。
+
+研究问题：在同样可见前缀、记忆容量和计算预算下，能否利用Delta的结构，学习更有效的更新规则，在吸收新知识/任务时减少仍有效旧能力受损，并改善后续学习效率？先区分参数级连续SFT、跨会话持久化fast weights和单上下文状态适应；不能将上下文记忆提高直接解释为基础能力提升。Transformer不擅长SFT、attention必然导致遗忘、冻结主干即不遗忘、Delta自然解决遗忘均不是已证事实。
+
+以S为key-by-value，e=v-S^T k。先从标准Delta ΔS=β k e^T、其他查询改变Δo(q)=β(q^T k)e及已审查的完整后续递推出发。定义可见信息过滤、更新器状态/参数、外部反馈和未来损失；部署时不得访问未来token、任务答案、旧知识有效性oracle或内部理想edit标签。未来真实token可仅作为训练监督，其预测误差不自动提供事实有效性标签。
+
+优先探索以下相互关联但尚待甄别的推导入口：
+1. 更新干扰的可行性和容量边界：新写入误差与仍有效旧查询损伤的联合几何；保护空间与修订空间重叠时的最小风险、不可行/病态边界。硬投影、soft预条件、EWC/GEM/A-GEM/OGD、已审查rank控制为强简单对照；只有实质残余差异可成为候选。
+2. 保护与释放的可辨识性：在未知知识是否过时的条件下，联合更新有效性与未来查询/target几何；明确能从真实因果输入及反馈估计什么、不可识别什么、误释放风险及额外证据成本。已有Bayes条件矩、变化检测/e-process/revision控制不能重新包装计数。
+3. 延迟反馈对学习更新器的价值：推导多步post-update真实未来损失对写入方向/力度及更新器的梯度，区分固定未来特征和完整Jacobian、状态梯度和元梯度、有限horizon偏差。查重MAML/learned optimizers/TTT/SEAL/HOPE/DSSR/RTRL/critic/eligibility trace，要求Delta结构带来可证明且有条件的计算或统计后果；普通远期CE和直接action predictor是必须比较的同信息替代。
+4. 自修改更新器的稳定性：联合状态包含记忆和更新器内部状态，推导耦合Jacobian、反馈放大、稳定而不学习/学习而遗忘的边界；冻结outer-trained更新器只是元学习策略，部署中更新记忆只是适应，改进更新器仍需真实反馈与未来任务证据，不能凭循环/RL标签宣称RSI。
+5. 快慢记忆间巩固的条件：从可靠证据、预测贡献和跨任务可转移性推出何时允许从快状态进入较慢参数，分析巩固偏差/损伤和长期成本。多时间尺度、replay、distillation、CMS及快慢权重本身已知；需证明具体Delta巩固机制有残余作用，不能靠增加容量/保存原文获得不公平优势。
+6. 反事实更新收益的因果可估计性：比较写入/不写入/替代更新后的未来损失，在相同信息和资源下推导估计偏差、方差、有限反馈与数据泄漏边界。不能把模型自评或自生成未来当新的外部证据；保留固定Delta、普通SFT/LoRA+replay、固定learned updater和同容量记忆为适用对照。
+
+来源启动入口（必须全文公式+实际作者实现检查，不把摘要当完成）：
+HOPE/Nested Learning https://arxiv.org/abs/2512.24695 与官方 https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/；
+SEAL https://arxiv.org/abs/2506.10943、作者 https://jyopari.github.io/posts/seal、实际作者仓库 https://github.com/Continual-Intelligence/SEAL；
+Titans https://arxiv.org/abs/2501.00663；再按残余问题加入TTT、learned optimizer、continual learning等primary sources。SEAL作者已报告连续self-edit遗忘，作为重要负证据保留。HOPE并不证明无限或保证递归自我改进；第三方HOPE实现不冒充作者代码。
+
+交付：每个实质线索有formal object、假设、连续推导、可计算构造或有价值理论、预测、反例/失败边界、最强简单替代、最近论文/实际实现差异、资源/信息成本、可由既有原生benchmark衡量的主张与measurement gaps。区分训练后有适应性/学到更新策略/部署中更新策略/跨新任务提高学习效率，分别列所需证据。已覆盖机制归baseline/control；推导成立但原创性/测量未闭的保留lead，不计资格。独立review绑定真实artifact字节与assignment，全池按原合同去重排序，最终给中文直白结果和最有希望的2–3项，不能承诺必有新架构或永久变强。
+
+沿用该项目已绑定的可信skill/workflow版本；读取当前真正适用模块并记录来源，不能因为另一个项目已安装autonomous-rsi而静默替换本项目模式。此任务是研究模型的RSI可能性，不安装daemon、不改插件、不发起付费API/云算力，不制造新host。保留同任务和原hourly触发；每轮应完成实质推导/核查并交付main精确readback，只报真实新证据、未完成项和下一动作。当前生效的已有Worker可能仍使用上次指令，更新配置不等于向正在执行的worker热注入，不声称已开始新增方向。
+
+
+本轮实际入口：[耦合更新器稳定性与保护纤维](STEP2_COUPLED_UPDATER_STABILITY.md)。本项目沿用已绑定 restored-research-baseline，不采用另一个项目的 autonomous-rsi 技能分支。配置读取记录与来源哈希见 sources/RSI_AUTHORIZATION_READBACK.json；它不证明持续运行或科学完成。
+
+本轮独立审查：[条件数学及修订历史](reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md)、[来源/后果边界](reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md)。两位实际工作者分别审查最终字节；来源作者的自身审计不冒称第二次独立来源审查。

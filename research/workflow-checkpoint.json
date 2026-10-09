@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T11:43:00Z",
+  "recorded_at": "2026-10-09T12:49:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -22,6 +22,12 @@
         "user_local_submission_time": "2026-10-09T09:42:48+01:00",
         "quote": "我觉得你继续做数学推导然后或者看看有没有其他的结合方式或推论可以优美的解决一些问题 ，根据这轮的发现去重走2",
         "interpretation": "Return to step2 with current mathematical evidence; investigate necessary compositions and useful corollaries within Delta; preserve math-only scope and unfinished pool."
+      },
+      "delta_updater_extension": {
+        "user_local_submission_time": "2026-10-09T12:48:59+01:00",
+        "quote": "我认为这个方向值得深入，但目前它是候选研究路线 我觉得你可以把这个扩展下搞idea在后台",
+        "interpretation": "Learn Delta update rules that distinguish beneficial overwrite from destructive forgetting, under the same causal information, memory and total compute; RSI refers to model behavior, not plugin modification.",
+        "scope": "mathematics_primary_sources_author_interfaces_native_feasibility_only"
       }
     }
   },
@@ -104,7 +110,8 @@
     "User-directed step2 re-entry: derived full versus frozen Jacobian product difference, coupled query-target quadratic Bayes edit with nonzero cross moment, conditional-moment sufficiency/random-action penalty and value-of-observed-evidence identity. Root self-check only; independent review and method admission pending. Preserved 5 history / 0 active / 0 scientific / 0 selected.",
     "Independent exact-byte reviews completed for noisy-key identification/prediction control and joint conditional-risk supplement; primary EIV/Bayes/APO and fixed author/native interfaces audited. Preserved concurrent a00997c Step2 reentry. These are conditional mathematical/source outcomes, not new admitted cards or execution.",
     "Derived the complete recursive edit gradient, exact Hessian and CE/GGN finite-horizon variational-Gramian decomposition; added matrix-free JVP/VJP, estimator-to-action regret and local sufficient-decrease bounds plus explicit teacher-forced/free-running identification limits.",
-    "Two independent exact-byte reviews accepted the corrected recursive-random-metric math and source/native audit. Major components collide with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; no D ID or candidate admission."
+    "Two independent exact-byte reviews accepted the corrected recursive-random-metric math and source/native audit. Major components collide with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; no D ID or candidate admission.",
+    "Actual Work invocation read current task RSI authorization and latest8738065 main, retained same bound skill revision; derived full coupled Delta-updater Jacobian, gate/shear and slow-clock counterexamples, uniform small-gain and protected-fiber bounds; full primary/available author-interface audit and two exact-byte independent reviews. No new candidate, project execution or experiment plan."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -148,18 +155,22 @@
     "timing_mode": "flexible_schedule",
     "default_timezone": "Europe/London",
     "configuration_prompt_equal": true,
-    "service_updated_at": "2026-10-09T09:06:04.799316+00:00",
-    "last_run_time": "2026-10-09T09:05:41.851522+00:00",
+    "service_updated_at": "2026-10-09T11:52:03.234675+00:00",
+    "last_run_time": "2026-10-09T11:48:49.728765+00:00",
     "last_run_scope": "service timestamp for prior invocation; current actual Work math invocation separately observed",
     "stop_rule": "Complete honest Delta math cards, reviews, whole-pool ranking/top15 and exact main readback, or preserve a concrete unresolved prerequisite; no code/GPU continuation.",
     "next_run_time": null,
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09T11:43:00Z",
-    "configuration_note": "Current same-task Step2 prompt and concurrently published owner goal preserved. No task mutation/new task performed."
+    "last_math_milestone_recorded_at": "2026-10-09T12:49:00Z",
+    "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
+    "configuration_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
+      "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+    }
   },
-  "next_action": "Continue Step2 only on the Delta-specific structural residual after the recursive conditional metric closed as a known variational-Gramian/GGN/critic synthesis: determine whether rank-one edit structure enables a prefix-only estimator with a provable compute, variance, reuse or sample-complexity advantage over same-information direct action, CE, synthetic-gradient and DSSR controls. Preserve off-policy/free-running and native-label gaps; no D ID without non-colliding construction and review. Math-only scope and 20/15 deficits persist.",
+  "next_action": "Continue the newly authorized Delta updater question from Step2: use complete coupled dynamics and protected-fiber requirements to seek a same-information/capacity/compute construction or theorem with a substantive residual beyond SRWM/ACL/HOPE and generic small-gain controls. Next derive delayed-feedback update-policy estimation/interference effects with legal observed targets, preserving full versus frozen Jacobian, retention/revision identifiability, and teacher-forced versus free-running gaps. Prioritize independent ready mathematics; no D identifier before a complete non-colliding contribution and independent review. No candidate code or experiment matrix; 20/15 deficits persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -280,6 +291,33 @@
       "parent_head": "ead8a4ed7a38c37653ca9c2acab525c0aabe0278",
       "scope": "Math/source-only Step2 milestone: complete recursive edit gradient and exact-Hessian versus GGN/variational-Gramian decomposition, matrix-free products, action-regret and local-decrease bounds, causal/off-policy boundary, pinned primary/code/native audit and two independent exact-byte reviews. Major component collision; zero new candidate/admission/selection and no project execution.",
       "verification": "Expected-parent non-force main update and exact changed-file readback are performed and reported by this publishing session."
+    },
+    "delta_coupled_updater_math_milestone": {
+      "parent_head": "87380653675efecf29335f522190a3a95bb6f67b",
+      "refs": {
+        "math": {
+          "path": "research/delta-discovery-2026-10-08/STEP2_COUPLED_UPDATER_STABILITY.md",
+          "sha256": "70f3cff118db5699a67dd9cf808157d16779acc6b5f57ea6edadd3a620629d4b"
+        },
+        "source": {
+          "path": "research/delta-discovery-2026-10-08/sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md",
+          "sha256": "a41e52ad8631a5479d02ae3ca3064697d40b46f1ca671c98cadf9b5fcb375978"
+        },
+        "math_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md",
+          "sha256": "524b1c3d94958952e3dddeb2ca09f9330b94f7b6243047ab139e57680ee06aad"
+        },
+        "source_review": {
+          "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md",
+          "sha256": "42e26f25187a6b9fe8ef9fbf06441c4d217f735d9187bf0a42c0a5ac62fdcce5"
+        },
+        "config_receipt": {
+          "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
+          "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+        }
+      },
+      "scope": "Documentation-only new-authorized Delta RSI Step2 derivation/source/review milestone; preserve code, old tasks, history and Local runtime records.",
+      "verification": "Expected-parent non-force literal-main update and exact per-file readback performed and reported by publishing session; this file is not itself the receipt."
     }
   },
   "skill": {
@@ -319,6 +357,27 @@
       "entry_sha256": "94c45c0228aee9bca712589af813ffdb6f292631cd8d132650537b453cfce63d",
       "source_audit": "research/delta-discovery-2026-10-08/sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
       "scope_resolution": "installed autonomous-rsi text is not this project's runtime choice; explicit owner math-only same-main task controls; no skill/runtime/branch changes"
+    },
+    "current_delta_rsi_read_revision": {
+      "source_root": "/root/.codex/skills/remote-skills/.runtime-sources/restored-research-baseline",
+      "hashes": {
+        "SKILL.md": "f3162304a6c3ea30d617544e7b5a7477ba05b1a706b67008724f8e7fdd3d2c84",
+        "references/workflow-harness.md": "e6db3ca81e4e63c4b6b755eb2f08a77a874e2c3317a045a86b86bac7a259a0ae",
+        "references/web-background-work.md": "6b7ff0d966190acd530bc010782e0566a21cf7fa56e516fadf764d9b712f14d3",
+        "references/math-analysis.md": "e27e60718518b34d4995a4f2109588aa93746665c4466ab7ac31c049334ccbc8",
+        "references/math-operation-graph.md": "e82711e4c307d6d901486f4da569e4572e5ce7a4fe006976789bc5d174b749a2",
+        "references/math-derivation-paths.md": "787bc32d0a7620cb22a8193b3acd2828c304a4a658d0b3f3cc995e5acd0533d3",
+        "references/method-verification.md": "0e8c78cd19b9f04aa6341c2c0500f1ae2fe48e01688a5857103c4d611503ee05",
+        "references/research-quality-bar.md": "cb4e4522337f6815f3c53f5e0c193783ada6a492e652c6531e90b30cb580c409",
+        "references/literature-evidence.md": "a3612904bc54490c6d254fe620a5057aa119a281c74bffc9bb4069cb30e619df",
+        "references/repository-round-trips.md": "bbb78c2d8c56c0a43dec286b1673e8c7413b7ae68e9f10149852b4e15cca78eb",
+        "references/idea-generation.md": "55473c87628fe77e8372f784844b419c2529f0acca4a45b4f6dd7e59391a2b49"
+      },
+      "config_receipt": {
+        "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
+        "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+      },
+      "resolution": "same project-bound restored baseline; installed autonomous-rsi entry not adopted"
     }
   },
   "workflow_clarification": {
@@ -727,5 +786,47 @@
       "status": "independent_exact_byte_math_and_source_reviews_accepted;major_component_collision;not_candidate",
       "same_line_not_new_candidate": true
     }
+  },
+  "delta_updater_rsi_math": {
+    "authorization_local_time": "2026-10-09T12:48:59+01:00",
+    "quote": "我认为这个方向值得深入，但目前它是候选研究路线 我觉得你可以把这个扩展下搞idea在后台",
+    "purpose": "Learn Delta update rules that distinguish beneficial overwrite from destructive forgetting, under the same causal information, memory and total compute; RSI refers to model behavior, not plugin modification.",
+    "scope": "mathematics_primary_sources_author_interfaces_native_feasibility_only",
+    "refs": {
+      "math": {
+        "path": "research/delta-discovery-2026-10-08/STEP2_COUPLED_UPDATER_STABILITY.md",
+        "sha256": "70f3cff118db5699a67dd9cf808157d16779acc6b5f57ea6edadd3a620629d4b"
+      },
+      "source": {
+        "path": "research/delta-discovery-2026-10-08/sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md",
+        "sha256": "a41e52ad8631a5479d02ae3ca3064697d40b46f1ca671c98cadf9b5fcb375978"
+      },
+      "math_review": {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.math-review.md",
+        "sha256": "524b1c3d94958952e3dddeb2ca09f9330b94f7b6243047ab139e57680ee06aad"
+      },
+      "source_review": {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COUPLED_UPDATER_STABILITY.source-review.md",
+        "sha256": "42e26f25187a6b9fe8ef9fbf06441c4d217f735d9187bf0a42c0a5ac62fdcce5"
+      },
+      "config_receipt": {
+        "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
+        "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
+      }
+    },
+    "status": "independent_exact_byte_math_and_source_consequence_reviews_accepted_conditionally;known_control_not_candidate",
+    "new_candidates_counted": 0,
+    "deployment_objects": [
+      "parameter_continual_SFT",
+      "cross_session_persistent_fast_weights",
+      "single_context_state_adaptation"
+    ],
+    "remaining": [
+      "Same-resource Delta-specific learned update construction or valuable distinct theorem not already covered by SRWM/ACL/HOPE and known control theory.",
+      "Observable protection/release and causal delayed-feedback estimation; existing validity-oracle and free-running identification gaps preserved.",
+      "Later-new-task learning efficiency native measurement; existing QA endpoints do not by themselves establish recursive capability improvement.",
+      "HOPE/Titans author-code availability and HOPE variant/chunk ambiguities if a faithful implementation becomes a dependency.",
+      "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
+    ]
   }
 }

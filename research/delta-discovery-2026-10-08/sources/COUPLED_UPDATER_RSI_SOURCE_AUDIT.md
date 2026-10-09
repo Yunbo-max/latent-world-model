@@ -1,0 +1,75 @@
+# Delta 自修改更新器：独立 primary-source / author-interface audit
+
+Reviewer/assignment: `/root/rsi_primary_sources`; assigned by `/root` to read sources and native feasibility only. Observation date: 2026-10-09 UTC. Project parent supplied by writer: `87380653675efecf29335f522190a3a95bb6f67b`; this worker did not change main. Role is `web_supervisor`; no imports, project execution, tests, inference, scores, training, GPU work, model/data downloads or paid calls occurred. This is bounded source evidence, not an originality verdict or a qualified candidate. Counts remain 5 historical / 0 active / 0 admitted / 0 selected.
+
+## Newly inspected scientific sources
+
+| Work | Fixed identity and actual read scope | Relevant mechanism / consequence |
+|---|---|---|
+| Nested Learning / HOPE | [arXiv2512.24695v1](https://arxiv.org/html/2512.24695v1), 2025-12-31; §§7.1–7.3, 8.1–8.3, 9.1 scientific sections inspected; Google [official blog](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/) 2025-11-07, full short article | CMS Eq70–74: chained blocks with scheduled accumulated updates and meta-learned initializations. §8.1 Eq79–82 adapts key/value/query/learning-rate/decay modules. Eq86–88 generates per-module latent targets and updates those modules themselves. §8.2 Eq90 uses chunk-frozen features/gradients; §8.3 Eq94–97 combines self-modifying memory with CMS. This directly covers the broad combination “learn key/value/gates and their updates, then add slower memories.” |
+| Titans | [arXiv2501.00663v1](https://arxiv.org/html/2501.00663v1), 2024-12-31; §§3.1–3.3 mechanism inspected | Inner associative objective Eq12: `||M(k)-v||²`. Eq13–14: `M_t=(1-alpha_t)M_{t-1}+s_t`, `s_t=eta_t s_{t-1}-theta_t grad ell(M_{t-1};x_t)`. Here `s` is momentum, not the project's key-by-value state S. Outer training learns projections/controls; test-time memory adaptation uses them. “Persistent memory” §3.3 is task-level trained data-independent parameters, not demonstrated cross-session updater improvement. |
+| SEAL | [arXiv2506.10943v2](https://arxiv.org/html/2506.10943v2), 2025-09-18; §§3–5, AppendixA2–A4/B1–B5 inspected; [author post](https://jyopari.github.io/posts/seal) inspected in full | Eq1/Alg1 optimizes generated edit policy by downstream reward after `theta'=SFT(theta,SE)`. Eq3–4 is score-function training with reward stop-gradient, not differentiation through the SFT reward. Current policy parameters are part of RL state; stale edits/rewards are problematic. §5/Fig6: sequential edits degrade earlier-task performance; retention was not directly optimized. §5 also exposes the requirement for context-paired downstream supervision. |
+| ACL / Metalearning Continual Learning Algorithms | [arXiv2312.00276v3](https://arxiv.org/html/2312.00276v3), 2025-02-17, TMLR identity linked by paper to [OpenReview](https://openreview.net/forum?id=IaUh7CSD3k); §§2.1–3 and §4.2 inspected | Eq1–3: `W u -> (o,k,q,beta)`, `v=W softmax(q)`, `vbar=W softmax(k)`, then `W+=sigmoid(beta)(v-vbar) softmax(k)^T`. Eq4–5 extends to four block-specific rates. Eq6 already supervises immediate task-A, task-B after A/B, and retention of A after B. Thus self-generated Delta instructions plus old/new task meta-loss are known. Meta-test freezes outer theta; dynamic W continues adapting. |
+| Sleep (newly found adjacent work) | [arXiv2606.03979v2](https://arxiv.org/html/2606.03979v2), 2026-07-10; author's [homepage](https://alibehrouz.com/) led to this identity; §§3.2–3.4 and4.1 inspected | Adds/unlocks low-rank experts, then compute–consolidate–update before resetting fast experts. Knowledge Seeding mixes on/off-policy distillation and imitation rewards; Dreaming uses selected synthetic samples, isolated LoRA updates and SEAL-style ReSTEM. Capacity expansion is explicit. This is a direct nearest work for consolidation + learned self-editing, but cannot be used as evidence for fixed-capacity success. |
+
+Full texts, rather than abstracts, supported these mechanism checks. Bibliographies and unrelated experimental sections were not exhaustively audited; no broad collision-saturation claim is made. SRWM2022 official [PMLR identity](https://proceedings.mlr.press/v162/irie22b.html) located; root independently handles full SRWM source reading. OpenReview PDF for ACL returned a browser-verification wall; its primary arXivv3 was readable and used instead.
+
+## Exact author code readback
+
+SEAL official repo (author post and paper link establish authorship): [Continual-Intelligence/SEAL](https://github.com/Continual-Intelligence/SEAL), pinned latest observed commit `6d9c9f9ee392c6cc618e771f399d436d190f6ca4` (2025-08-01). This predates the v2 paper: do not call it a verified v2 reproduction.
+
+| File at pinned commit | Git blob SHA | Actual inspected interface |
+|---|---|---|
+| `README.md` | `26d948d3eb0ed9f7e3311d0c8949b33a6b29f5ae` | Official setup uses OpenAI key; says two A100/H100 GPUs, other hardware may need refactoring. |
+| `general-knowledge/README.md` | `88e80a992c4989b3fe5cff971b1f97468f8724e3` | Links temporary-adapter TTT server, EM SFT pipeline and continual driver. |
+| `general-knowledge/src/inner/TTT_server.py` | `ffa2b8f3e04ce45a3b8737645fd7819c88f0096c` | `main`: request `train_sequences`, `eval_questions`, LoRA/rate/epoch controls; trains adapter, compares base/adapted predictions, returns booleans and gains. `accuracy_and_texts` calls `format_answer_prompts`, then GPT4 grader; denominator is question count including empty outputs. |
+| `general-knowledge/src/continual/continual_self_edits.py` | `24fc1506c20b9a1f7159e51db6818ccc1bfeb137` | `run_one_sequence`: generate from passage, build train sequences, aggregate all past questions, tune/evaluate, `_merge_lora` into next base. Produces pre-update plus lower-triangular accuracy matrices. State is persistent base parameters through merges, not only an ephemeral context state. |
+| `general-knowledge/scripts/continual_self_edits.sh` | `673fce0d611916158ca2f2bfb74625332db0c63d` | Two GPU layout, Qwen2.5-7B,8 sequences×8 passages, LoRA32/alpha64,10 epochs; this is inspected author configuration, not a proposed run. |
+| `general-knowledge/src/utils.py`, lines1–200 | `2538e6e9513ebae765b3a30cb780246c09914ca0` | `format_answer_prompts` exposes question only; gold answer is consumed by grader. `grade_with_gpt4` requests `gpt-4.1`, alias rather than v2 paper's dated grader. API grading failure becomes False; no scorer run. |
+| `few-shot/README.md` | `719e941885d126b56b7ef736550197482cb827b5` | Author instructions use filtered ARC train/eval sets. README12train/10eval differs from v2 AppA11train/8eval; no all-ARC denominator inference. Few-shot evaluator source not audited this assignment, so ARC feasibility is not closed. |
+
+Code-backed interpretation: inner TTT server is stateless across requests, while continual driver explicitly persists merged weights. Its self-edit generator is the current merged LM; that can change generated policies implicitly, but does not by itself demonstrate policy learning driven by new external feedback during deployment. No author implementation here supports calling ordinary single-context Delta adaptation recursive improvement of base abilities.
+
+ACL official [IDSIA/automated-cl](https://github.com/IDSIA/automated-cl), pinned `3d7b53adb4b6b43acd82b9a381a2c631d0e59a5d` (2024-04-01):
+
+- `layer.py`, blob`d1337ce58999cd637d5440e9ecf8c5ed91fbe433`: `SRWMlayer.forward(h,state=None,get_state=False)` restores four state shifts into learned initial `W_y/W_q/W_k/w_b`, calls self-referential kernel, returns state shifts; distinct from `FastFFlayer` slow-net-generated fixed Delta instructions.
+- `self_ref_v0/__init__.py`, lines1–200, blob`e42aa7a4de146cc1714eaa0aefdd435d78d13c8c`: CUDA-only `SelfRefv0`/`StatefulSelfRefv0` forward/backward interfaces; import uses JIT compilation. Read as text only; no import. Full CUDA kernel and ACL main loss source remain unchecked here.
+- `model_few_shot.py`, lines1–100, blob`0faa1b4b5b05b4656e9f899daf74959fbba8bb08`: vision/model integration located. This is not language-model native measurement evidence.
+
+HOPE author-code gap: current author homepage, full official blog and relevant paper sections have no located implementation link. This means **not located in bounded author-source search**, not proof that none exists. [Author Titans repo](https://github.com/ABehrouz/Titans) was directly observed empty; no executable author interface can be pinned there. Unofficial repositories found by search were not substituted. Sleep author's implementation was not located/read in this assignment.
+
+HOPE source ambiguity to retain: Eq90 chunk indices use `C ceil(t/C)` whereas surrounding prose specifies preceding-chunk state; Eq92 printed target sign and the arbitrary-MLP matrix-factor notation require reconciliation before implementation. Treat Eq86–88/96 as source specification, not a mechanically verified causal code path. No author's code was available to resolve it.
+
+## Native measurement feasibility and claim boundaries
+
+This worker reused `research/delta-discovery-2026-10-08/sources/MEASUREMENT_FEASIBILITY_2026-10-09.md` as existing source evidence, not a new native replay. Keep bAbI20 tasks/20,000 and LAMBADA5,153 as full denominators. LongMemEval knowledge-update/temporal tasks can measure changing-fact answer outcomes, but do not certify updater/base capability improvement, and official judge has a paid dependency. Existing bAbI/LAMBADA do not constitute a serial SFT/learning-to-learn protocol.
+
+New actual SEAL native driver/scorer inspection gives a direct retention outcome: old passages' question accuracy after later merges. It does not provide an obsolete-fact validity oracle or paired causal randomization. Its official QA evaluation depends on GPT4.1; **blocked under current no-paid-service constraint**. Replacing it with exact-match or a local judge would change the author's metric, not close the native gap. Released data location in README is only located, not downloaded/qualified. Default7B/two GPU setup is not a promise for2080Ti. ARC author filtered tasks and unanswered scorer-source obligation must remain explicit.
+
+Proof/diagnostic versus natural-performance obligation:
+
+| Claim | Necessary evidence; current status |
+|---|---|
+| Fixed pretrained update policy can adapt memory | Causal state pathway plus held-out tasks; known control, source-supported mechanism. No project experiment. |
+| Policy learned how to update | Compare outer-trained updater with fixed Delta/simple same-info learned predictor under held-out tasks; ACL/SEAL already do related outer-policy learning. No new candidate. |
+| Deployment updates its policy | Show genuinely changed update-producing parameters/state with causal external feedback; distinguish merely changed content memory. Sources do not prove this project's claim. |
+| Later new tasks become easier to learn | Same tasks/feedback/compute/capacity and prospective learning-efficiency evidence; native retained assets do not yet establish this. |
+| Coupled system stable | Explicit full joint Jacobian and certified sufficient assumptions, not gate ranges alone; source implementations do not supply a project certificate. Stability alone cannot certify learning or preservation. |
+
+## Navigation decision / residual opportunity
+
+**Inference from the inspected sources:** broad self-modifying Delta/learned gates/old+new meta-objective/CMS/distillation/dreaming are covered control families. A meaningful residual may instead be a Delta-specific, auditable interaction bound or computation advantage for **joint** memory/updater dynamics under same resources, with protected directions and legitimate release treated explicitly. Merely adding generic small-gain bounds or a retention CE term is insufficient for a new method claim; the theorem could still be a useful scoped control result. Root's coupled-Jacobian work should distinguish frozen-instruction Delta from complete nonlinear updater, and retain generic stable-learning alternatives.
+
+No originality admission follows from this bounded audit. Next legal actions: independent semantic review of exact coupled derivation; resolve HOPE causal/chunk notation if it becomes an implementation dependency; audit same-resource measurable residual rather than generic RSI loop. No candidate IDs allocated, no full experiment plan or model code generated.
+
+## Integration writer's additional primary reads
+
+`/root` independently read SRWM ICML2022 [published PDF](https://proceedings.mlr.press/v162/irie22b/irie22b.pdf), §2–3 pp2–3 Eq1–8: the entire matrix produces modifier key, analyser query and rate; its own query/key reads supply the Delta residual. This directly establishes self-modifying Delta as prior work. ACL's pinned author `layer.py` inspection above is reused for the SRWM state interface; the original modern-srwm CUDA implementation has not been audited in this round, so no extra author implementation claim is added.
+
+`/root` also read [A Small-Gain Theorem for Discrete-Time Convergent Systems](https://arxiv.org/pdf/2105.02376), arXiv2105.02376v1, §II–IV, Theorem5/8 and Corollary11. It treats uniform output/state convergence of well-posed interconnected systems under composed gains. The current note independently derives a narrower linear positive-comparison-matrix sufficient condition for same-input incremental contraction; it does not claim to implement or extend that theorem. Pointwise Jacobian checks do not satisfy its uniform/trajectory obligations.
+
+Primary HOPE/Titans abstracts were opened only to confirm version dates, while mechanism evidence uses their full sections. Root read HOPE §8.1 Eq79–85 and confirmed the exact printed §8.1 self-modifying variant retains a non-adaptive q projection in Eq83/85 prose, while the later deep formulation Eq86–88 lists q among modules. Do not conflate those variants or treat all HOPE projections as one causal implementation. The chunk/sign ambiguity above remains unresolved pending code/spec reconciliation, affecting only a future faithful implementation dependency.
+
+## Search/coverage receipt
+
+Provider: search_service_web_run; exact system1 discovery queries: `site:github.com google research hope nested learning official code Ali Behrouz`; `site:github.com Titans Ali Behrouz official code`; `site:jyopari.github.io/posts/seal "Self-Adapting"`. No domain/recency filters, provider default order. Primary links were then opened directly; author-source links expanded only to Sleep/Titans/ACL. Github connector queried latest commits for SEAL and ACL then read pinned files. Retrieval/index version and exhaustive pagination were not exposed; therefore this is a bounded mechanism audit, not a collision-coverage-certified ADVANCE/KILL. Search snippets were used only to locate primary sources. A mistaken un-nested `general-knowledge/src/TTT_server.py`404 was corrected to actual `src/inner/TTT_server.py`; ACL`model.py`404 corrected to actual `model_few_shot.py`.

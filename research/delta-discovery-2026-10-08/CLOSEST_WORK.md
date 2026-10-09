@@ -69,3 +69,9 @@
 
 [固定来源/接口/native审计](sources/RECURSIVE_RANDOM_METRIC_SOURCE_AUDIT.md)保留 variational-Gramian、UORO/e-prop、iLQR 代码 pin 以及 bAbI/LAMBADA/LongMemEval 的真实标签边界。prefix-only 条件矩可用 suffix 作随机 teacher，但逐 suffix Newton 动作不能先求解再平均；自由运行分布被 edit 改变时还缺 score-function/反事实识别项。该线索形成严谨控制和误差界，没有获得 D 编号；当前残余只剩 Delta rank-one 结构能否给出相对 direct action/CE/synthetic-gradient 的可证明低成本优势。
 
+
+## Delta 自改进更新器授权：新增近邻和稳定性控制
+
+[完整来源/作者接口审查](sources/COUPLED_UPDATER_RSI_SOURCE_AUDIT.md)加入 HOPE/Titans、SEALv2及持续LoRA合并/原生GPT grader、SRWM/ACL、Sleepv2。自身产生Delta指令、旧/新任务元目标、多频率巩固和self-edit已覆盖；Sleep扩容量，SEAL评分依赖付费服务，HOPE/Titans作者代码未可得，均不能冒称同资源已验证实现。
+
+[实际推导](STEP2_COUPLED_UPDATER_STABILITY.md)给完整gate-feedback Jacobian及O(n)局部结构乘积、bounded-beta和slow-clock反例、统一小增益与固定保护纤维条件。这是已知微分/控制几何的Delta实例化，不分配D编号；动态保护/合法释放和同预算学习效率仍待构造、查重与自然测量。
