@@ -172,18 +172,18 @@ teacher-forced 风险 `E_(P_data)L` 与自由运行 `E_(P_phi)L` 也不同。参
 本轮新发现的最近工作是 **Self-Generated Feedback Destabilizes Test-Time Training**（arXiv:2610.05076v1，2026-10-04）及作者仓库 `lingjivoo/ttt-ouroboros` commit `f7811f878679864e686c84abcd83dd05efdc0417`。它已经：
 
 - 用 Fixed Generation、Recorded Replay 和 paired one-update 分离生成反馈、读入与持久写入；
-- 计算 `g_real^T Delta W` 与实际 paired harm 的关系；
+- 把 `g_real^T Delta W` 与实际 paired harm 的关系作为 gradient-conflict **诊断**，不是提交选择规则；
 - 用未来到达的独立真实文本比较候选状态与未写状态，按顺序验证并提交 Settlement；
 - 在作者 `scripts/deferred.py` 中实际维护 pending updates、baseline/candidate probe、顺序接受、容量淘汰和生命周期计数。
 
-因此“等未来真实文本到了再验一次”“用独立文本梯度给写入打分”“pending 后选择提交”都已是强直接基线，不能作为新候选。其结果是该论文设定的负/正证据，不是本项目实验结果；仓库配置还面向 CUDA、125M/760M/3B 或 Qwen3-4B 等资源，不能推断 2080Ti 可行。
+因此“等未来真实文本到了再作 paired 验证”“pending 后选择提交”已是强直接基线，不能作为新候选。梯度内积是强诊断/近邻；同预算、部署合法的 projected-gradient selector 仍需另行查重和证明，不能被该实现一概判死。其结果是该论文设定的负/正证据，不是本项目实验结果；仓库配置还面向 CUDA、125M/760M/3B 或 Qwen3-4B 等资源，不能推断 2080Ti 可行。
 
-更广泛地，DNI/synthetic gradients 已预测未来 gradient；RTRL/UORO/e-prop 已覆盖完整或近似在线 sensitivity/eligibility；ACL/SRWM 已用自生成 Delta 指令并以旧/新任务 meta-loss 训练；HOPE 已有 self-modifying multi-frequency memory；SEAL 已用 downstream reward 学 self-edit；learned optimizers/MAML/PES 已处理长 unroll 与 meta-gradient。前轮 `STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md` 已审查 GGN/DDP/DSSR 等，不重复计数。
+更广泛地，DNI/synthetic gradients 已预测未来 gradient；RTRL/UORO/e-prop 已覆盖完整或近似 online sensitivity/eligibility；ACL/SRWM 已用自生成 value/target、key 与 rate pattern 形成 Delta rule，并以旧/新任务 meta-loss 训练；HOPE 已有 self-modifying multi-frequency memory；SEAL 已用 downstream reward 学 self-edit；learned optimizers/MAML/PES 已处理长 unroll 与 meta-gradient。前轮 `STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md` 已审查 GGN/DDP/DSSR 等，不重复计数。
 
 保留但**尚未准入**的窄线索只有：对固定小维 Delta 动作族，用动作投影伴随在一次后缀反传后复用多个候选，并把可识别阶数/动作 span 作为选择 updater 自由度的显式成本约束。要成为候选，至少还需证明它在相同独立证据、动作容量和总计算下优于：
 
 1. TTT Ouroboros Settlement / sequential paired validation；
-2. `g_real^T Delta W` 一阶筛选及 GEM/A-GEM/OGD 类保护；
+2. `g_real^T Delta W` 一阶冲突诊断、可能的投影选择器及 GEM/A-GEM/OGD 类保护；
 3. 同信息直接 action predictor 或普通远期 CE；
 4. 固定 learned updater、ACL/SRWM/HOPE；
 5. 只减小 gate、拒绝全部写入或增加外部真实文本。

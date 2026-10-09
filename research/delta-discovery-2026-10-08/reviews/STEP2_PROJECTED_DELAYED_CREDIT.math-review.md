@@ -3,7 +3,7 @@
 Reviewer: `/root/projected_credit_math_review`  
 Assignment: independent semantic review of dimensions, ordered Jacobians/adjoints, Delta differential, frozen-path rank-one eligibility, action-span representation bound, local intervention identifiability, finite-horizon bounds, counterexamples and hidden costs.  
 Final artifact: `research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md`  
-Final SHA256: `b6df898dd549ad3d563deb10ff791c11ab179f8d86a90ef157fa2a25dd6876d0`  
+Final SHA256: `922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd`  
 Mode: static mathematics only; no project/upstream execution, tests, training, inference, scoring, downloads, GPU or Docker.
 
 ## Review history
@@ -26,6 +26,8 @@ The writer corrected all six issues. Review of SHA256 `06c8fc68b775ed53b33287c3a
 `S^+=bar S+k a^T`,
 
 `de=dv-(d bar S)^T k-bar S^T dk`, `d bar S=(dD)S+D(dS)`.
+
+After the mathematical acceptance, the writer synchronized the nearest-work wording with the independent source review: TTT Ouroboros's `g_real^T Delta W` is a diagnostic rather than its selector, the direct collision is paired sequential Settlement, and ACL/SRWM's generated objects are named explicitly. The reviewer checked final SHA256 `922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd`; no formula, condition or proof changed and **ACCEPT** remained in force.
 
 ## Final checks
 

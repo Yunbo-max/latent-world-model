@@ -324,7 +324,7 @@
       "refs": {
         "math": {
           "path": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
-          "sha256": "b6df898dd549ad3d563deb10ff791c11ab179f8d86a90ef157fa2a25dd6876d0"
+          "sha256": "922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd"
         },
         "source": {
           "path": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
@@ -332,7 +332,7 @@
         },
         "math_review": {
           "path": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md",
-          "sha256": "3dd10b05e01d71f160806486bafe7dfa2bee761bee350603bbff0d4a6141b6af"
+          "sha256": "c14cfc462cb27563bb64375686f23921908be955c960232c88e016270ed03a6c"
         },
         "source_review": {
           "path": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md",

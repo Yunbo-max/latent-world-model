@@ -565,11 +565,11 @@
     },
     "projected_delayed_credit_control": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_PROJECTED_DELAYED_CREDIT.md",
-      "sha256": "b6df898dd549ad3d563deb10ff791c11ab179f8d86a90ef157fa2a25dd6876d0",
+      "sha256": "922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd",
       "source_audit": "research/delta-discovery-2026-10-08/sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
       "source_sha256": "dc333fd7e81645ab8e205b7f19712d8d455956a1508cc46bf19a69e7902c2cab",
       "math_review": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.math-review.md",
-      "math_review_sha256": "3dd10b05e01d71f160806486bafe7dfa2bee761bee350603bbff0d4a6141b6af",
+      "math_review_sha256": "c14cfc462cb27563bb64375686f23921908be955c960232c88e016270ed03a6c",
       "source_review": "research/delta-discovery-2026-10-08/reviews/STEP2_PROJECTED_DELAYED_CREDIT.source-review.md",
       "source_review_sha256": "cbab40345bec34de94e5372e65801afcfaa03cb4c8383370ce80f6705054574d",
       "status": "independent_exact_byte_math_and_source_reviews_accepted;major_direct_collision;conditional_control_not_candidate",
