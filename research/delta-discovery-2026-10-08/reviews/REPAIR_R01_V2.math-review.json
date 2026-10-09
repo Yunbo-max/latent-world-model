@@ -1,0 +1,30 @@
+{
+  "kind": "method-review",
+  "version": "1.0.0",
+  "subject_kind": "repair_theory_child",
+  "subject_path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
+  "subject_sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5",
+  "reviewer": "/root/r01v2_math_review",
+  "assignment": "independent final-byte semantic mathematics review; no subject generation or edits",
+  "initial_subject_sha256": "b9132df801abfb54479a51d8014ca56d39111e6449a6078b722e73cae8fdc75c",
+  "initial_decision": "accept_with_required_corrections",
+  "required_corrections": [
+    "restrict the row-space lower bound to nondegenerate transitions and actual weighted readouts",
+    "separate the carry-map time-varying kernel condition from the complete Jacobian and retain A=0/cancellation exceptions",
+    "fix compatible Frobenius and Euclidean norm conventions"
+  ],
+  "final_decision": "accept_conditional_mathematics",
+  "candidate_admitted": false,
+  "selection_verified": false,
+  "execution": "none",
+  "unclosed": [
+    "complete joint Jacobian",
+    "reachable-tangent quotient",
+    "causal prefix-only W",
+    "cheap leakage certificate",
+    "cross-horizon union-width bound",
+    "matched-total-cost advantage",
+    "originality and empirical effect"
+  ],
+  "prose_review": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.md"
+}

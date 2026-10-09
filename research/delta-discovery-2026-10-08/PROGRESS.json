@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T16:54:51Z",
+  "recorded_at": "2026-10-09T17:48:05Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R01_independent_final_math_source_reviews_supported_conditional_lead_no_candidate_admission",
+  "status": "repair_R01_v2_credit_quotient_independent_final_reviews_accepted_conditional_theory_control_no_candidate_admission",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -50,7 +50,7 @@
       "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     }
   },
-  "delivery_parent": "1caa11db9d40253f285a7504bcb93f9621f9bc62",
+  "delivery_parent": "13114650c049ac2cd757f4df6959c11880d6630d",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -132,10 +132,11 @@
       "Derived exact frozen-path rank-one eligibility for one scalar Delta gate and conditional intervention-rank requirements for local slope/curvature; full feedback and multiple pending edits retain long-horizon cost.",
       "Found a direct recent collision: TTT Ouroboros already implements pending candidate updates, independent real-text sequential validation and Settlement; delayed validation alone is not a candidate.",
       "Proved that strict contraction of every complete scalar-gate Delta tangent step does not imply low relative effective rank: a legal path has a flat H-dimensional normalized singular spectrum. Logarithmic absolute epsilon-rank needs stronger rank-bounded injection, rank-preserving transport and fading-age assumptions, and may only reflect vanished credit. Unbiased rank-r compression has an explicit flat-spectrum variance lower bound.",
-      "Repaired rather than discarded two linked leads: exact fixed-right-value-span scalar-gate-feedback closure with leakage recurrence, and goal-weighted residual scalar credit interval plus legal finite-step margin. Corrected bound-sequence notation after independent attack; old contraction/flat-spectrum counterexample remains. Conditional math supported; generic controls/novelty, costs and empirical utility separate; no new candidate."
+      "Repaired rather than discarded two linked leads: exact fixed-right-value-span scalar-gate-feedback closure with leakage recurrence, and goal-weighted residual scalar credit interval plus legal finite-step margin. Corrected bound-sequence notation after independent attack; old contraction/flat-spectrum counterexample remains. Conditional math supported; generic controls/novelty, costs and empirical utility separate; no new candidate.",
+      "R01 v2 keeps the nominal Delta memory full-width and compresses only a decision-relevant tangent/credit quotient U=XW. For nondegenerate steps, exact fixed-W quotient closure requires the gate covector G to satisfy G=GWW^T; exact scalar credit additionally requires C=CWW^T. A row-span lower bound, time-varying carry kernel condition, leakage recurrence and two 2x2 counterexamples preserve the capacity and rotating-basis failure boundaries. Independent final-byte math and source reviews accepted this only as a conditional Delta specialization of known lumping/goal-oriented reduction principles; originality, matched-budget advantage and empirical effect remain open, so no D candidate was admitted."
     ]
   },
-  "next_action": "Continue R01 repair from its exact reviewed bytes. First examine whether causal value geometry can preserve needed capacity, or whether gate residual/costate bounds are cheaper than full VJP at matched total bytes/FLOPs. Compare same-r ordinary Delta and exact BPTT/RTRL/direct action predictor. Do not repeat generic low-rank or margin formulas as new candidates; no new D/code/experiment until contribution and scientific obligations are met. Park only the unsupported practical advantage, preserving useful theory and concrete reopen conditions.",
+  "next_action": "Treat R01 v2 as a bounded conditional theory control. Attempt R01 v3 only if a concrete causal interface yields a provably smaller certified quotient at matched total state/FLOPs than plain scalar forward JVP or reverse VJP; otherwise park it and repair the next promising line, prioritizing protection/release identifiability or counterfactual update benefit. Preserve all counterexamples and do not assign a D identifier before distinctness, source and measurement obligations close.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -816,6 +817,70 @@
       "sha256": "9965db1df11342a350ac1760cf06ad4c9b2d87e928300ea1619d3c215d80d0a8"
     },
     "delivery_status": "published_expected_parent_main_and_all_13_files_exact_byte_readback_completed_at_1caa11db9d40253f285a7504bcb93f9621f9bc62"
+  },
+  "repair_v2_credit_quotient": {
+    "repair_id": "R01",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts_per_line": 3,
+    "lineage": [
+      "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md",
+      "research/delta-discovery-2026-10-08/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "research/delta-discovery-2026-10-08/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
+      "sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V2_CREDIT_QUOTIENT_SOURCE_AUDIT.md",
+      "sha256": "3ea1ebcce6d15bf085b150d7af872143ec07c8587af3b2dd75e72c448d51862f"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.json",
+      "sha256": "134668ccc83146305b4550a571c04a3bf29c70d101e1c8c4b4b9276d3bb0d7e5"
+    },
+    "math_review_prose_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.md",
+      "sha256": "67756fb9d085c55d9eedfc520537d67c34cbf1b95f878d5e98e7f6a0b091e1cb"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.source-review.md",
+      "sha256": "8f8e28bbd163303d847a4aae76874fcf0b44e19597b91dcc44ee12e94af7993d"
+    },
+    "independent_reviewers": [
+      "/root/r01v2_math_review",
+      "/root/r01v2_source_review"
+    ],
+    "mathematical_status": "accepted_conditional_after_degenerate_index_time_varying_basis_and_norm_corrections",
+    "contribution_status": "general_mechanism_known_useful_Delta_specialization_originality_unresolved",
+    "feasibility_status": "conditional_on_small_certifiable_covector_union_and_matched_budget_advantage",
+    "empirical_status": "unknown_no_execution",
+    "new_candidate_count": 0,
+    "corrected_claims": [
+      "Full nominal S is retained; only tangent/credit quotient U=XW is compressed.",
+      "For nondegenerate scalar-gate steps, exact fixed-W quotient closure for all X requires G=GWW^T; exact scalar credit requires C=CWW^T.",
+      "The exact width lower bound uses only nondegenerate transition covectors and nonzero-weight loss covectors; reachable-set restrictions may be smaller.",
+      "A changing basis is not free: carry closure requires a kernel-inclusion condition, reducing to nested ranges when A is nonzero; the full Jacobian may have special cancellations.",
+      "Approximate quotient error includes leakage driven by the omitted full tangent, so a small quotient alone does not certify cheap closure."
+    ],
+    "strong_controls": [
+      "plain scalar forward-mode JVP or direct tangent",
+      "reverse VJP/BPTT with checkpointing",
+      "RTRL/SnAp-style structured sensitivity",
+      "same-information direct action predictor",
+      "full-width Delta with bottleneck W",
+      "R01 v1 smaller-value-width Delta",
+      "general exact lumping and goal-oriented model reduction"
+    ],
+    "unclosed": [
+      "Whether the union of causal gate and loss covectors remains substantially below d_v on real tasks.",
+      "Whether W, G/C and leakage or costate certificates cost less than plain JVP/VJP at matched total resources.",
+      "Whether the Delta specialization is sufficiently distinct from exact lumping and goal-oriented/time-varying model reduction.",
+      "Native measurement of internal quotient exactness, retention and later-task learning efficiency.",
+      "Any empirical benefit; no model code, training, inference or scoring was run."
+    ],
+    "delivery_status": "pending_expected_parent_main_publish_and_exact_readback"
   },
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",

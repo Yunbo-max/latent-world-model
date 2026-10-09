@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T16:54:51Z",
+  "recorded_at": "2026-10-09T17:48:05Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -179,7 +179,7 @@
       "sha256": "e8a3b01dc7326a36b4de5faf7216590c333177dabb1de85692cd88dbdfe6d131"
     }
   },
-  "next_action": "Continue only from the narrowed structural residual: determine whether the actual complete Delta transition exposes a checkable rank-preserving or low-action-width closure with a matched-budget costate/action-gradient advantage over reverse VJP, adaptive TBPTT, ARTBP/randomized telescopes, UORO/KF-RTRL/OK/SnAp and same-information direct action prediction. Mere contraction, low absolute sensitivity, generic streaming SVD or unweighted effective rank is insufficient. No D identifier, code, experiment matrix or execution before a complete distinct construction and independent review; 20/15 deficits persist.",
+  "next_action": "Treat R01 v2 as a bounded conditional theory control. Attempt a third R01 revision only if a concrete causal interface yields a certified quotient materially smaller and cheaper than plain scalar forward JVP or reverse VJP at matched total resources; otherwise park it and repair protection/release identifiability or counterfactual update benefit next. Preserve counterexamples; no D identifier, code, experiment matrix or execution before distinctness, source and measurement obligations close. The 20/15 deficits persist.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -811,17 +811,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R01_independent_final_math_source_reviews_supported_conditional_lead_no_candidate_admission",
+    "status": "repair_R01_v2_credit_quotient_independent_final_reviews_accepted_conditional_theory_control_no_candidate_admission",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "1caa11db9d40253f285a7504bcb93f9621f9bc62",
+    "current_delivery_parent": "13114650c049ac2cd757f4df6959c11880d6630d",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "Fixed value/right span gives exact scalar-gate-feedback tangent closure; omitted span feeds back through the gate unless its derivative annihilates that span. Full ordered residual/costate weighting gives scalar credit interval and a finite-step decrease certificate only when margin and whole-segment curvature are legally bounded. Old flat-spectrum counterexample retained.",
-    "originality_and_native_measurement": "Generic invariant subspace/reduced Delta and inexact-gradient/adjoint-weighted residual overlap kept as strong controls; causal geometry and matched-budget legal certificate advantage open. Native endpoint tasks do not expose internal derivative/curvature truth; current asset variant lambada_openai preserved, older standard statement historical.",
+    "latest_math_result": "R01 v2 retains full nominal Delta memory S and compresses only the decision-relevant tangent/credit quotient U=XW. On nondegenerate scalar-gate steps, exact fixed-W closure for every full tangent requires G=GWW^T; exact scalar credit requires C=CWW^T. The corrected width lower bound uses only nondegenerate transition and nonzero-weight loss covectors; changing bases require kernel inclusion, and approximation has explicit omitted-tangent leakage. Two 2x2 counterexamples retain failure boundaries.",
+    "originality_and_native_measurement": "Exact lumping plus goal-oriented/DWR and time-varying model reduction cover the general mechanism, so current contribution is a useful Delta specialization/corollary rather than an admitted original method. Real-task covector width, matched-budget advantage and native internal-credit measurement remain open; no empirical execution occurred.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -932,6 +932,41 @@
         "sha256": "9965db1df11342a350ac1760cf06ad4c9b2d87e928300ea1619d3c215d80d0a8"
       },
       "delivery_status": "published_expected_parent_main_and_all_13_files_exact_byte_readback_completed_at_1caa11db9d40253f285a7504bcb93f9621f9bc62"
+    },
+    "repair_v2_credit_quotient": {
+      "repair_id": "R01",
+      "version": "v2",
+      "substantive_attempt": 2,
+      "artifact_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
+        "sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V2_CREDIT_QUOTIENT_SOURCE_AUDIT.md",
+        "sha256": "3ea1ebcce6d15bf085b150d7af872143ec07c8587af3b2dd75e72c448d51862f"
+      },
+      "math_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.json",
+        "sha256": "134668ccc83146305b4550a571c04a3bf29c70d101e1c8c4b4b9276d3bb0d7e5"
+      },
+      "math_review_prose_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.math-review.md",
+        "sha256": "67756fb9d085c55d9eedfc520537d67c34cbf1b95f878d5e98e7f6a0b091e1cb"
+      },
+      "source_review_ref": {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V2.source-review.md",
+        "sha256": "8f8e28bbd163303d847a4aae76874fcf0b44e19597b91dcc44ee12e94af7993d"
+      },
+      "independent_reviewers": [
+        "/root/r01v2_math_review",
+        "/root/r01v2_source_review"
+      ],
+      "mathematical_status": "accepted_conditional_after_required_corrections",
+      "contribution_status": "known_general_mechanism_useful_Delta_specialization_originality_unresolved",
+      "feasibility_status": "conditional_on_small_certifiable_covector_union_and_matched_budget_advantage",
+      "empirical_status": "unknown_no_execution",
+      "new_candidate_count": 0,
+      "delivery_status": "pending_expected_parent_main_publish_and_exact_readback"
     }
   },
   "delta_updater_rsi_math": {

@@ -35,3 +35,5 @@ D07 的比较对象是普通远期 CE、Delayed Supervision、How Linear Attenti
 [有效秩与随机截断控制](STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md)又关闭了“只要完整路径收缩，高秩切向就会低相对秩”的外推：严格收缩路径仍可有平坦 H 维归一化奇异谱。年龄截断的对数绝对误差界需要额外保秩和 fading assumptions，无偏截断还承担 survival/variance 条件；Adaptive TBPTT、ARTBP、Randomized Telescopes、稳定 RNN 与 streaming/online sensitivity compression 已覆盖主要机制。它只留下真实非交换 Delta closure 和 costate-weighted matched-budget 优势这一窄缺口，不分配 D 编号或进入排序；计数仍为 **5历史 / 0活动 / 0准入 / 0选择**。
 [R01 v1修复](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)完成两条关联线索的独立最终字节审查。研究优先级为：先核实A的因果value-span闭包/容量条件，再核实B的goal-weighted residual证书能否省总成本；这是修复工作的先后依赖，不是正式候选排名或top15。已知降维Delta与inexact-gradient/adjoint weighting作为强对照保留；未闭贡献/成本/效果分别记录。活动/准入/选择仍0，池20/选择15短缺未填充。数学成立的控制不等于整个科学问题淘汰，旧反例也不删除。
 
+[R01 v2修复](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)解决了 v1“直接缩小 value-width 会丢容量”的目标错配：完整 `S` 不压缩，只压缩切向/信用商。但精确商宽度至少覆盖所有非退化 gate 与目标协向量的联合行空间，时变基还需核包含，近似闭合仍依赖被省略的完整切向泄漏。由于核心机制与 exact lumping、goal-oriented/time-varying MOR 重合，它目前是有用的条件理论控制，不进入正式排名。只有证明真实因果协向量并集小且总成本优于 plain JVP/VJP，才有重开候选资格；否则 R01 在第二次实质修订后暂存。计数仍为5历史/0活动/0科学准入/0选择，20/15短缺不变。
+

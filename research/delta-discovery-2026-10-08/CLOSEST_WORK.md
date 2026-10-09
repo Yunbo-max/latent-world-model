@@ -114,3 +114,7 @@ generic streaming sketch 对任意非交换 `L_t` 的 co-range/core 更新并不
 
 [修订推导](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)、[固定来源审计](sources/REPAIR_R01_SOURCE_AUDIT.md)与[独立最终来源审查](reviews/REPAIR_R01.source-review.md)保留以下对照：离散固定右-span闭包不同于Lubich–Oseledets连续variable-factor projector splitting，但都是已知不变量/低秩表示几何；强制S=ZVᵀ、v=Vw就是较小value-width Delta。SnAp的稀疏结构是其他合法full-sensitivity简化对照。Vernimmen–Glineur v2及固定作者utilities_neuro.py使用relative-gradient oracle和已给smoothness参数，不能提供本项目的合法残差/曲率常数或神经loss全局收敛。R01的absolute scalar interval和finite-step majorizer自行推导，仍属inexact-gradient/adjoint error原则，不称新优化器。Hallak全文尚缺；adjoint作者overview仅支持已知原则，不冒充全文公式审查。残余是因果value几何或Delta-specific、同总成本可得的goal-weighted certificate；它们尚未构成D候选，不因已知部件就否定全部后续修复。
 
+### R01 v2: full-capacity credit quotient
+
+[R01 v2](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)保留完整 `S`，只问线性切向商 `X↦XW` 是否足以递推并恢复目标信用。CLUE 的精确线性 lumping 已给出 Jacobian 行空间不变与最小不变子空间闭包；goal-oriented/DWR model reduction 已知以目标权重选择降维误差；线性时变 MOR 也直接覆盖时变投影/基接口。因此 `G=GWW^T`、`C=CWW^T`、相关协向量并集的宽度下界、时变基核包含与泄漏信用界，当前只记作这些通用原则在 scalar-gate Delta Jacobian 上的具体化/推论，不声明新机制。精确固定版本、作者实现接口、已读范围与未读缺口在[来源审计](sources/REPAIR_R01_V2_CREDIT_QUOTIENT_SOURCE_AUDIT.md)中；[数学审查](reviews/REPAIR_R01_V2.math-review.md)和[来源审查](reviews/REPAIR_R01_V2.source-review.md)绑定最终 artifact SHA `93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5`。残余只可能是：真实 Delta 因果接口能以显著小于 `d_v` 的可证协向量并集工作，并且总成本优于 plain forward JVP / reverse VJP；目前无证据，故不准入。
+

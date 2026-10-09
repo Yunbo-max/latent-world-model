@@ -8,6 +8,8 @@
 
 本轮实际交付：[R01 v1 修复推导](repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md)与[来源及原生测量审查](sources/REPAIR_R01_SOURCE_AUDIT.md)。两条相互关联修订为固定value-span的完整gate-feedback闭包/泄漏、残差到动作信用区间及有限步裕量；不是两个新D候选。原收缩/平坦谱反例继续成立。数学条件、贡献差异与实验未知分开记录，旧5张卡不抵扣活动池，20/15目标不变。[实际配置读回](sources/REPAIR_AUTHORIZATION_READBACK.json)与修复交付分开；同任务保持启用，本轮未调用run_now或新建任务。
 
+R01 v2 的[修订推导](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)不再把模型本身压成小 value-width：完整名义记忆 `S` 保留，仅压缩决策相关切向/信用商 `U=XW`。非退化步上，固定 `W` 对所有切向精确闭合要求 gate 协向量满足 `G=GWW^T`，目标信用还要求 `C=CWW^T`；相应行空间下界、时变基的核包含条件、泄漏递推与两个 2×2 反例均已保留。独立最终字节数学/来源审查接受其为“数学有条件成立的 Delta 特化理论控制”，但通用 lumping、goal-oriented/time-varying model reduction 已覆盖核心机制；原创性、同预算优势与实际效果未闭，因此仍不计 D 候选，计数保持 5历史/0活动/0准入/0选择。
+
 实际服务：复用 scheduled_authoring_continuation 任务 `6ac78ded796081918d2123402544d760`；按小时续接。此文件不是启动回执，连续执行未经证明。原代码阶段已完成/停用历史保留。
 
 恢复入口：同commit的 PROGRESS.json、method-batch.json、项目 research/workflow-checkpoint.json。

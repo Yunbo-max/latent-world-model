@@ -88,6 +88,10 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_MARGIN.v1.md",
       "sha256": "f5feb459fa62ce9cbe3d0568ca61b812cd9de44b4e80c672306a295c2b6b85d3"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md",
+      "sha256": "93683c851ddee51fbfa197e6b088bda6968ab112b38aad351f351c851021d2b5"
     }
   ],
   "counting_policy": {
