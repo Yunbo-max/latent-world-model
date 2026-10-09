@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09T16:54:00Z",
+  "recorded_at": "2026-10-09T16:54:51Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -50,7 +50,7 @@
       "sha256": "558638300289e011dccb8fcf7cb44a392062ff4570db31af81242e54171548b5"
     }
   },
-  "delivery_parent": "4c15ce42cc8fee0808a444e079f9a0c09417dbf6",
+  "delivery_parent": "1caa11db9d40253f285a7504bcb93f9621f9bc62",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -810,7 +810,12 @@
       "Contribution beyond generic invariant spans, smaller value-width Delta and inexact-gradient/adjoint weighting.",
       "Actual native endpoints, retention and later-new-task learning efficiency; no empirical effect measured.",
       "Hallak full-formula review if projected-gradient novelty becomes dependent; historical lambada_standard note must not override current lambada_openai pinned asset."
-    ]
+    ],
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_DELIVERY_READBACK.json",
+      "sha256": "9965db1df11342a350ac1760cf06ad4c9b2d87e928300ea1619d3c215d80d0a8"
+    },
+    "delivery_status": "published_expected_parent_main_and_all_13_files_exact_byte_readback_completed_at_1caa11db9d40253f285a7504bcb93f9621f9bc62"
   },
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",
