@@ -138,3 +138,7 @@ R06 v2 数学、来源和对抗终审通过，但其正面机制属于已知稳�
 
 R01 v3 is **not added to the active pool or top-15 ranking**. It contributes a conditionally correct Delta-specialized theorem—minimum ambient right width from adjoint-transported declared credits—and a formal full-width boundary. General quotient/observability/lumping machinery is already known; the exact statistic needs future covectors/full costates; lawful native-loss/reachable-tangent realizability, matched-cost advantage and native mechanism measurement remain open. After independent final-byte review, the lineage is parked at attempt 3/3 with candidate delta zero. Global counts and shortages are unchanged.
 
+## R02 v2 ranking decision (2026-10-10)
+
+R02 v2 **不进入活动池或 top-15**。它修复了真实错误：粗商状态上的 AIPW/DR 可能因历史内 propensity 与 outcome 的协方差而有偏；并给出序贯商充分性条件和固定声明标量族的 Delta 右商宽度下界。但 Hao 等状态抽象 OPE、STAR、abstracted MIS、一般序贯 DR 和 R18 已覆盖主体机制；合法部署商、原生测量、同信息成本或统计优势都未闭。三路最终字节审查通过的是 conditional theory/control，不是原创候选或实验效果。R02 在 attempt 2/3 后 park，候选增量0；全局计数与短缺不变。
+

@@ -304,6 +304,15 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V3_DELIVERY_READBACK.json",
         "sha256": "fd19146b3ebe71825e96af3b3464a8879e21beedb433e223e17c96c4cb471bed"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R02_CAUSAL_DR_QUOTIENT.v2.md",
+      "sha256": "255e687deff4c9f6ccde2130efc97e480e92f384fcadec8a905625d7033d921d",
+      "status": "accepted_conditional_causal_DR_quotient_bias_and_fixed_family_right_quotient_control_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": null
     }
   ],
   "counting_policy": {
@@ -334,6 +343,7 @@
       "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment.",
       "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3.",
       "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment."
+      ,"R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment."
     ]
   },
   "counting_policy_repair": {
@@ -352,7 +362,8 @@
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded."
+    "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded.",
+    "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery pending expected-parent main update."
   }
 }
 

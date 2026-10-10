@@ -268,3 +268,13 @@ Closest mechanisms and disposition:
 
 Therefore the bounded outcome is `REROUTE_REPLICATION_OR_TRANSFER` / theory-control, not novelty. Native bAbI, LAMBADA, RULER, LongMemEval and BABILong scorers expose endpoints, not transported covectors, quotient rank or equivalence truth. Candidate delta is zero and R01 is parked after attempt 3/3.
 
+## R02 v2 — causal DR quotient debugging (2026-10-10)
+
+| 本次结果 | 最近工作/控制 | 残余与处置 |
+|---|---|---|
+| quotient-only AIPW 的精确条件偏差 `Cov(mu_a(H),m_a(H)|q)/bar_mu_a(q)` | Jiang–Li sequential DR；一般 OPE | 全历史随机化仍有效；粗商 propensity/outcome 不能无条件替代历史 |
+| policy、即时期望损失和 action-conditioned next-quotient kernel 都经商状态因子化时，序贯价值递推可下降 | Hao et al. deeply-abstracted states；STAR；Pavse–Hanna abstracted MIS | 主体因果抽象机制直接碰撞；保留为条件性调试控制 |
+| 固定声明有限标量族的 Delta 右商兼容性给出行空间宽度下界 | R01/R18；观测性、lumping、bisimulation | 只是固定族下界，不是存在性/等号；若 observable 依赖 `W`，闭包是固定点/不变子空间问题 |
+
+作者实现方面，Hao 等论文链接的 `pufffs/state-abstraction` 在本轮固定日期读取为 404，故只审查论文公式与附录接口，没有冒充源码审查。原生 LM benchmark 不提供行为 propensity、商转移核真值或反事实回报。R02 v2 因此是 `CONTROL_ONLY`，候选增量0、实验未知；第三次尝试只在出现合法前缀可检查商和同信息总成本/统计优势时重开。
+

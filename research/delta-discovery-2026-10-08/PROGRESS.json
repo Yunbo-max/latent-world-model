@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T17:51:24Z",
+  "recorded_at": "2026-10-10T18:51:48Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R01_v3_transported_credit_quotient_published_exact_readback_no_candidate",
+  "status": "repair_R02_v2_causal_DR_quotient_reviewed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "49e6beea2d1ab454dfbdd6c34c312db5b17194df",
+  "delivery_parent": "392f592ded90e0f86153cf5c2b4d0163974e1df7",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -171,7 +171,13 @@
       "research/delta-discovery-2026-10-08/sources/R01_V3_TRANSPORTED_CREDIT_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R02_REPAIR_LINE_SCREEN.v2.md",
+      "research/delta-discovery-2026-10-08/repairs/R02_CAUSAL_DR_QUOTIENT.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R02_V2_CAUSAL_DR_QUOTIENT_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -202,10 +208,11 @@
       "R20 v2 replaced the dense future-curvature oracle with a strictly prefix-measurable damped low-rank surrogate and derived its exact equality-constrained projected Woodbury action. It recovers the v1 witness, distinguishes per-example gradient outer products from GGN, and adds exact drift and norm-blowup counterexamples. Final-byte math/source/adversarial reviews pass only a conditional theorem/control. M-FAC, SENG, WoodFisher, OGD, GEM and SketchOGD are major controls; transfer, total-cost advantage and native measurement remain open, so candidate delta is 0.",
       "R20 v3 completed the final bounded repair. On the affine feasible span, a relative future/surrogate spectral sandwich gives the sharp shared-constraint competitive factor (M+m)^2/(4Mm), or 1/(1-delta^2) for a symmetric radius. Symmetric Loewner minimax returns the unchanged v2 action. Independent review supplied tangent-only, linear-term, nonlinear, semidefinite and missed-direction counterexamples; two identical-prefix futures prove that no nontrivial deterministic transfer radius is action-time checkable without an external continuation law. Spectral-sketch/Newton, Hessian-averaging and online-regret literature cover the positive mechanism under stronger assumptions. R20 is exhausted and parked as a theorem/no-go control; candidate delta 0, empirical effect unknown.",
       "R06 v2 replaced the unproved prefix sensitivity proxy with an exact frozen-path contraction envelope X=|beta|||k||||e||. It derives the finite-frame rectangular-minimax HT/PPS allocation, a sharp (1+alpha)^2/(4alpha) factor under an externally justified two-sided continuation law, and an identical-prefix annihilation/preservation witness proving unbounded clairvoyant regret without that lower law. Independent final-byte math/source/adversarial reviews pass the conditional theorem and reject candidate admission because Neyman/PPS/active-testing mechanisms are known, the normalization is offline, the full Jacobian and native joint audit object are missing, and empirical effect is unknown.",
-      "R01 v3 replaced the raw local gate/loss covector union with exact adjoint-transported covectors for a declared finite scalar-credit family. The joint transported row span is the minimum ambient right-quotient width; a formal class allowing arbitrary rank-one terminal covectors and ambient perturbations forces full value width, but native LM-loss/reachable-tangent realizability is unproved. Independent final-byte math/source/adversarial reviews passed the conditional theorem. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; candidate delta zero, measurement gap, empirical unknown, lineage parked after attempt 3/3."
+      "R01 v3 replaced the raw local gate/loss covector union with exact adjoint-transported covectors for a declared finite scalar-credit family. The joint transported row span is the minimum ambient right-quotient width; a formal class allowing arbitrary rank-one terminal covectors and ambient perturbations forces full value width, but native LM-loss/reachable-tangent realizability is unproved. Independent final-byte math/source/adversarial reviews passed the conditional theorem. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; candidate delta zero, measurement gap, empirical unknown, lineage parked after attempt 3/3.",
+      "R02 v2 derived the exact quotient-only AIPW coarsening bias Cov(mu_a(H),m_a(H)|q)/bar_mu_a(q), supplied a two-history bias witness, and stated strong sequential quotient conditions under which DR value functions descend. For a declared finite scalar family, Delta right-quotient compatibility imposes a value-side row-span lower bound; quotient-dependent observables make recursive closure a fixed-point/invariant-subspace problem. Independent final-byte math/source/adversarial reviews pass this only as a conditional causal-debugging control. Hao et al., STAR, Pavse-Hanna MIS, generic sequential DR and R18 cover the principal mechanism; candidate delta zero, native measurement gap and empirical status unknown, parked after attempt 2/3."
     ]
   },
-  "next_action": "R01 has exhausted attempt 3/3 and is parked as a conditional theory/control with candidate delta zero. Do not reopen it without a prefix-checkable continuation-support law plus matched-cost/native-measurement advantage; continue the earliest independent unexhausted evidence-backed lineage.",
+  "next_action": "R02 v2 is parked after attempt 2/3 as a conditional causal-debugging control with candidate delta zero. Reopen its final attempt only with a lawful prefix-checkable Delta causal quotient and a matched-information total-cost or statistical advantage over full-history/ratio-ledger DR, direct recurrent Q or policy prediction, Hao et al., STAR, MIS and R18; otherwise continue the earliest independent unexhausted evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2389,6 +2396,60 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V3_DELIVERY_READBACK.json",
       "sha256": "fd19146b3ebe71825e96af3b3464a8879e21beedb433e223e17c96c4cb471bed"
     }
+  },
+  "repair_R02_v2_causal_DR_quotient": {
+    "repair_id": "R02",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts_per_line": 3,
+    "lineage_parent": "repair_R02_randomized_action_credit_v1",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R02_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "bb15df9ab1f5f227d882f3ecac31419bb0d16a9fb44be900028d486f29a0af16"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R02_CAUSAL_DR_QUOTIENT.v2.md",
+      "sha256": "255e687deff4c9f6ccde2130efc97e480e92f384fcadec8a905625d7033d921d"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R02_V2_CAUSAL_DR_QUOTIENT_SOURCE_AUDIT.md",
+      "sha256": "b2fa8474edf4c1f66ee551b5319157cbcd06baf2b10b4f225e3244b594338a81"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.math-review.md",
+      "sha256": "f148d4af84b6b758d4fc5e7d2f0d50b9a7645d6cdcaaa3310360a940a56d9508",
+      "reviewer": "/root/r02_v2_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.source-review.md",
+      "sha256": "262e8fb42bbde955d2da8d7478033a42351d179694556ce3d071627378d99df5",
+      "reviewer": "/root/r02_v2_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.adversarial-review.md",
+      "sha256": "298fde615f6068ed2d96e7f98ea4c4c4ffbb59258814f388119ad178256ca41e",
+      "reviewer": "/root/r02_v2_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_causal_DR_quotient_control_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_one_step_coarsening_bias_strong_sequential_sufficient_conditions_and_fixed_family_right_quotient_lower_bound",
+      "contribution": "useful_Delta_specific_causal_compression_debugging_bridge_not_a_new_DR_or_state_abstraction_mechanism",
+      "novelty": "major_Hao_STAR_Pavse_Hanna_MIS_sequential_DR_and_R18_collision",
+      "measurement": "native_language_memory_scorers_do_not_expose_behavior_propensities_quotient_kernel_truth_or_counterfactual_returns",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R02_v1_full_history_randomization_AIPW_identification_and_delayed_outcome_boundaries_remain_valid",
+    "repair_delta": "replace_invalid_quotient_only_DR_assumption_with_exact_coarsening_bias_then_require_policy_reward_transition_sufficiency_and_translate_declared_finite_observables_into_a_Delta_right_quotient_row_span_boundary",
+    "unclosed": [
+      "A lawful prefix-checkable Delta quotient that satisfies the sequential policy, reward and transition conditions.",
+      "A matched-information total-cost or statistical advantage over full-history or exact-ratio-ledger sequential DR.",
+      "A benefit over direct recurrent Q-value, policy or action prediction and over Hao et al., STAR, MIS and R18.",
+      "Native measurements exposing quotient-kernel validity, behavior propensities and counterfactual outcomes.",
+      "Empirical effect remains unknown because no model or benchmark execution was authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main"
   }
 }
 
