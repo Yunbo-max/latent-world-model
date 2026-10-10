@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T09:55:00Z",
+  "recorded_at": "2026-10-10T10:58:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -812,7 +812,7 @@
       }
     ]
   },
-  "research_next_action": "R12 is parked after attempt 1 as a subspace-syndrome/protected-readout theorem-control. Reopen only with an externally imposed or implicit syndrome interface, an equal-precision compute/layout advantage over direct row-space coordinates, and a native mechanism measurement path; otherwise continue another evidence-backed lineage.",
+  "research_next_action": "R17 is parked after attempt 1 as a predictive-quotient decodability theorem-control. Reopen only with a lawful prefix-only recursively closed quotient, a deployed decoder or direct semantic-preservation equality, matched-total-cost advantage over direct sufficient coordinates, and a native mechanism measurement path; otherwise continue the earliest independent evidence-backed lineage.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -1770,5 +1770,68 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_DELIVERY_READBACK.json",
       "sha256": "c747e4b5a084bba96a1aaf7f80d0d4831d3aee26eef0990fbf7ff3140893006a"
     }
+  },
+  "repair_R17_predictive_quotient_decodability": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/NOGO_CAP_02.md",
+      "repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.md",
+      "sha256": "7f1404798ed0a66f8325bebb6de0847ab3b158a478523f454ad1d180a2a03bfc"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
+      "sha256": "8e765da62723fe76480397284c716259ac8dad6ddacc9c8da18842c5d56df78a"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R17_PREDICTIVE_QUOTIENT_SOURCE_AUDIT.md",
+      "sha256": "2b94f1e9c3ec3d8753e045462fbb81cdc57db3f41a38ea249182c5ff73279ba2"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.math-review.md",
+      "sha256": "87142f86cd80d758d326e89aa04e2774f12fdc6d7a6af4c02e92688a2a254006",
+      "reviewer": "/root/r17_quotient_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.source-review.md",
+      "sha256": "fa23facce2286c0e8d0073a38bcddee9e0d33985d05d556bb0ede9ff6dd8c89e",
+      "reviewer": "/root/r17_quotient_sources",
+      "corroborating_reviewer": "/root/r17_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.adversarial-review.md",
+      "sha256": "55646692ee45145057a70ca7b69fcf0d84e2a6bfc73587a63f1a348352df37c5",
+      "reviewer": "/root/r17_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_predictive_quotient_decodability_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_Delta_overwrite_kernel_old_quotient_factorization_future_query_Gram_and_conditional_rate_distortion_boundary",
+    "contribution_status": "scoped_ordinary_Delta_diagnostic_corollary;predictive_fiber_linear_quotient_task_sufficiency_and_rate_distortion_components_known",
+    "novelty_status": "MAJOR_COMPONENT_COLLISION_BOUNDED_COMPOSITE_SPECIALIZATION_NOT_FOUND",
+    "measurement_status": "endpoint_assets_do_not_natively_expose_counterfactual_overwrite_kernel_quotient_suffix_Gram_or_conditional_source",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "exact_overwrite_old_state_map_is_singular_and_equal_bit_split_codes_have_no_free_direct_code_advantage",
+    "repair_delta": "replace_full_state_recovery_with_declared_old_quotient_decodability_and_replace_full_behavior_capacity_with_conditional_quotient_rate_distortion",
+    "screened_lines": {
+      "posterior_moment_noisy_key": "correct_conditional_ridge_control_extra_information_known_RLS_Kalman_collision_not_selected",
+      "predictive_quotient_rate_distortion": "completed_R17_parked_as_control",
+      "low_rank_rollback_ledger": "event_identity_payload_or_replay_cost_and_generic_low_rank_collision_not_selected"
+    },
+    "unclosed": [
+      "A lawful prefix-only future-query family and weights rather than a future oracle.",
+      "A recursively closed quotient and deployed decoder or direct semantic-preservation equality.",
+      "A matched-total-cost advantage over direct sufficient-coordinate storage and ordinary Delta.",
+      "Native measurement of the overwrite-kernel quotient rather than downstream endpoints alone.",
+      "Field-wide originality and empirical effect; no execution authorized."
+    ],
+    "delivery_status": "final_reviewed_packet_prepared_expected_parent_main_delivery_pending"
   }
 }

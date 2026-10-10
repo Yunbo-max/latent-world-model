@@ -92,3 +92,9 @@ R09不进入活动池或top15。它确实修复了一个目标/构造错配：�
 R16 不进入活动池或 top15。它修复了 scalar exact-flow 假设过窄与 homogeneous-only 比较遗漏 affine source 两个具体问题，并得到可证伪的 Krylov-rank、二维 full-rank deviation 与 matched-source leakage 边界。
 
 但自然 joint flow 不满足 exact overwrite；端点修复严格等价于已知 normalized inverse-metric Delta，通用 exact discretization/Krylov/DPR1 数值机制已有直接近邻，一般转移又失去 KDA 的 compact 应用结构。bounded search 没找到同构 ML recurrence 只能留下 INCONCLUSIVE_EXPAND_SEARCH，不能升级原创性。无 matched-budget 优势、原生机制测量或 revision-validity 证据，故处置为 parked conditional theorem/control；候选、准入与选择增量均为0。
+
+## R17 预测商 exact-overwrite 排名处置
+
+R17 不进入活动池或 top15。它真实修复了 NOGO-CAP-02 的一个过强目标：exact overwrite 不必恢复对任何允许未来行为都无影响的状态差异。修订给出了 sharp kernel-containment iff、可逆/奇异 decay 边界、传播查询 Gram 的精确可见损失，以及 quotient 级 conditional rate-distortion 下界。
+
+但 predictive fibers、task/regret-sufficient compression、functional observers、conditional rate distortion 和本项目 R01/R12/R13 已覆盖主体机制；R10 又证明同总比特 split code 在同一 quotient 上不能优于直接码。当前残余只是 ordinary Delta exact-overwrite 核与声明未来查询的显式专门化，没有因果 query-law estimator、递归闭包、同预算优势或原生内部 measurement。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0。

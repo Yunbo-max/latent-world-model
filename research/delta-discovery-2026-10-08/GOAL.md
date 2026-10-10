@@ -224,3 +224,11 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 自然联合流并不能精确覆盖目标；若强制有限端点精确写入，唯一的 \(P_\tau^{-1}\)-metric 最小改动恰是 R09/PDN/RLS 型归一化 inverse-metric Delta，且旧状态因子仍奇异。真正保留的新边界是：相对纯 decay 的差异支撑在 \(\operatorname{span}\{k,\Lambda k,\ldots\}\) 上，非交换时可立即超过 rank one；二维行列式首项与 affine source 的二阶差都已独立复核。
 
 三路最终字节审查通过条件数学并固定 KDA、EFLA、PDN、Longhorn、S4/S5 与 matrix-function/Krylov 作者接口。exact ZOH、inverse-metric endpoint 和数值 action 均有强已知近邻；bounded novelty 仍是 INCONCLUSIVE_EXPAND_SEARCH，且一般稠密转移没有同预算优势或语义 revision 证据。因此 R16 在第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。
+
+## R17 预测商可解码性修复里程碑（2026-10-10）
+
+[R17 三线筛选](repairs/R17_REPAIR_LINE_SCREEN.md)比较了 noisy-key 后验矩写入、预测商/rate-distortion 与低秩 rollback。后验矩路线可严格重推为条件 ridge，但需要额外校准后验并与 RLS/Kalman 重合；低秩 rollback 仍需事件级身份/载荷或 replay。唯一实际改变原过强目标且不添加观测的路线，是只要求 exact overwrite 后仍能解码声明的旧未来行为商；这不自动等于部署更新保持该语义不变。
+
+[R17 修订](repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md)证明：对 `A=(I-kk^T)D`，覆盖后状态能恢复声明的线性未来行为，当且仅当 `ker(A·) subseteq ker O`。`D` 可逆时被删除的矩阵方向恰为 `{D^-1 k a^T}`，于是条件等价于每个传播后的有效查询满足 `q_u^T P_u D^-1 k=0`；在 post-decay 比较域中则等价于 `q_u^T P_u k=0`。对应 PSD Gram 的零二次型给充要条件和非零时的精确可见损失。有限比特下，全状态 Fano 下界被收紧为声明商的 conditional rate-distortion；离散零失真才可写 `B>=H(Q|K)`。
+
+旧反例没有删除：只要一个被抹除方向对允许查询可见，exact overwrite 仍不可逆地合并不同行为；R10 的同等比特直接码支配在 quotient 上继续成立。predictive fibers、task/regret-sufficient compression、conditional rate-distortion、functional observer 与本项目 R01/R12/R13 已覆盖主体机制。保留的只是 ordinary Delta kernel 与 frozen future-query Gram 的显式桥接。它不产生 causal revision 证据、便宜在线 quotient 或原生内部 scorer，故 R17 第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。

@@ -201,3 +201,9 @@ R15 把有限 Delta 动作提升成 quadratic features 后，满秩 Gram、kerne
 R16 与 KDA 的离散 decay-first recurrence 不同，也不等于 EFLA 的 pure-rank-one/scalar-commuting exact flow；它的真实残余是 \(\Lambda\)-Krylov 支撑、可高于 rank-one 的 homogeneous 差，以及被单独保留的 affine source 二阶差。但 exact ZOH 属标准 SSM/control，matrix exponential action、low-rank matrix-function update 与 diagonal-plus-rank-one eigensolver已有直接数值线代近邻。强制端点覆盖又严格回到 R09/RLS/full-metric PDN 式 normalized inverse geometry。
 
 作者实现固定到 KDA 07ca1e49、EFLA f188eae5、PDN 7bd75327、Longhorn 4ea17459 / CUDA 1be52220、S4 e757cef5 与 S5 3c18fdb6。没有找到同一 token-varying joint recurrence 不代表不存在；novelty 保持 INCONCLUSIVE_EXPAND_SEARCH。没有 compact exact action、同预算优势或 causal retain/release evidence 前，R16 只作为 parked theorem/control，候选增量0。
+
+## R17 predictive quotient exact-overwrite 的最近工作处置
+
+最直接的机制碰撞是 Zhang–Xu 的 predictive fibers：corrector 只能删除完整未来不可区分的方向；Task-Sufficient Contraction 与 Walsh rate–regret 又把保留对象收紧到任务/动作充分商；conditional rate-distortion、IB、PSR、functional observer 和 observable-preserving lumping覆盖编码、预测状态与核因子化。项目内部 R01、R10、R12、R13 已分别记录 quotient closure、同等比特直接码支配、直接充分坐标与动态协向量保护。
+
+[R17 source audit](sources/R17_PREDICTIVE_QUOTIENT_SOURCE_AUDIT.md)未在有界检索中发现把 ordinary Delta 的 `ker((I-kk^T)D)={D^-1ka^T}`、frozen future-query Gram 与 conditional quotient rate-distortion 写成同一公式的原文；这只能支持“未找到完全相同 composite specialization”，不能支持首创。保留价值是精确区分 pre-decay 的 `D^-1k` 与 post-decay 的 `k`，并给出 sharp query witness。主体机制重合、递归闭包/因果 query law/同预算优势/原生测量未闭，故 R17 是 parked theorem/control，候选增量0。
