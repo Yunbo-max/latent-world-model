@@ -1,0 +1,30 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "repair_id": "R16_NONCOMMUTING_JOINT_FLOW.v1",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "f9f4cdfc1d07ee0e88015879b60d59a9e1dec1b2",
+  "substantive_commit": "40f2b50bef7f901afe8a0d5abc8b50fa410e75d2",
+  "tree": "0cdddf51851c77dde1650ac49e884121c105b6fa",
+  "ref_update": {
+    "force": false,
+    "expected_sha_matched": true
+  },
+  "verification": "Every changed file was fetched from the exact substantive commit and its Git blob SHA matched the local committed blob SHA.",
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob_sha": "704e679e9fb29bf9263471d4d58bba11e9e648a5"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "48b456c6deeb155cb3065962578a55c38904cc07"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "74e44e374e1c2c9c86ae7b6e461577fd333d88a9"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob_sha": "4777d6450f5b5f66cefcde175891022e27e49473"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "359dbfb347c8a33147e53c64b7f12fde4f995f48"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md", "blob_sha": "38b5096a4a4f72b151b6e374a781ef6ee7800b24", "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md", "blob_sha": "2ec0e455f4aafa3795eacfa8e23f26523c6227d0"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md", "blob_sha": "b2aa133cca44117528a04e5caa8c67cecb4da791"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md", "blob_sha": "7d1afa12d9adc7b5ac01102364e06b2e1241d7c6"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md", "blob_sha": "4a0ac5088b627999a5248ce7b0df9bbca3ec51f7"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md", "blob_sha": "026c38cf5130e3465eece1f7ecfc49a589791bf1"},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "167368ca082b940b08870dcd7c4d8906c21aaeae"}
+  ],
+  "all_exact_blob_matches": true,
+  "execution": "math_source_review_only_no_code_tests_training_inference_scoring_or_benchmark_run"
+}

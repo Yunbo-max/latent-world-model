@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T10:00:00Z",
+  "recorded_at": "2026-10-10T10:05:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R16_noncommuting_joint_flow_reviewed_pending_main_publication_no_candidate",
+  "status": "repair_R16_noncommuting_joint_flow_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "f9f4cdfc1d07ee0e88015879b60d59a9e1dec1b2",
+  "delivery_parent": "40f2b50bef7f901afe8a0d5abc8b50fa410e75d2",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -1867,6 +1867,11 @@
       "A native measurement object for the declared internal mechanism.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "40f2b50bef7f901afe8a0d5abc8b50fa410e75d2",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_DELIVERY_READBACK.json",
+      "sha256": "c747e4b5a084bba96a1aaf7f80d0d4831d3aee26eef0990fbf7ff3140893006a"
+    }
   }
 }

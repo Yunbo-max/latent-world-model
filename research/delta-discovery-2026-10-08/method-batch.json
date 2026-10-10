@@ -206,7 +206,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
       "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6",
-      "status": "accepted_conditional_noncommuting_joint_flow_theorem_control_parked_not_candidate"
+      "status": "accepted_conditional_noncommuting_joint_flow_theorem_control_parked_not_candidate",
+      "publication_commit": "40f2b50bef7f901afe8a0d5abc8b50fa410e75d2",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_DELIVERY_READBACK.json",
+        "sha256": "c747e4b5a084bba96a1aaf7f80d0d4831d3aee26eef0990fbf7ff3140893006a"
+      }
     }
   ],
   "counting_policy": {
@@ -242,6 +247,6 @@
     "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment.",
     "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
     "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
-    "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment."
+    "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }
