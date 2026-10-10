@@ -174,3 +174,10 @@ R10保留D04的原反例：不随`A_t`传输的残差不能恢复原仿射轨迹
 [R11修订](repairs/R11_ORDER_GAP_COMPRESSION.v1.md)没有再把交换子当成应被消掉的误差，而是保留真实顺序差：两种相邻Delta写入顺序之差在key侧秩至多2；给定共同、因果的未来查询Gram，秩预算的最优误差等于加权奇异值尾和。若隐藏的二元语义顺序标签在可见信息中不可辨识，则共同估计量还有精确Bayes风险下界。旧反例被保留：同key时线性转移可交换，但affine write仍可不交换；正交key时顺序差退化为0。
 
 三路独立最终字节审查修正了奇异G核空间秩约束、分支共享度量、binary proxy边界、suffix符号、完整状态与白化成本，以及作者代码/原生scorer固定版本。来源核查显示有序WY chunk与DeltaProduct已经保留顺序，weighted SVD是通用控制；现有group state-tracking只测非交换表达能力，不测有害覆盖selector或未来query Gram。故R11作为条件theorem/control在第一次修订后park，不分配D编号；计数仍为5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。
+
+## R12子空间syndrome读出修复里程碑（2026-10-10）
+
+[R12修订](repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md)保留了原checksum路线的语义反例：压缩不能凭空判断revision/coexistence或latest truth。本次把错误目标改成checksum实际能回答的数值问题。若编辑限制在`Delta=BA`，syndrome为`H^T Delta`，则它能对所有允许编辑精确恢复保护读出`Q^T Delta`，当且仅当`ker(H^TB) subset ker(Q^TB)`；失败时存在同syndrome、相反保护输出的成对不可辨识编辑。伪逆给出噪声与子空间泄漏界，单次rank-one Delta是其一维特例。
+
+三路独立最终字节审查进一步证明了强简单对照：对任意已知未来保护函数族，联合行空间维数为`s`时，任何精确syndrome至少需秩`s`，直接保存`JA`也只需`s d_v`标量。因此自由设计的`H`只是充分统计量换坐标，没有标量容量优势；语义有效性仍未识别。来源审计固定了OSE/压缩感知、FLA Delta接口及LongMemEval scorer边界，但精确定理优先权仍为`INCONCLUSIVE_EXPAND_SEARCH`。R12作为条件theorem/control在第一次修订后park，不分配D编号；计数仍5历史/0活动/0科学准入/0选择，实际效果未知且未执行代码、训练或评分。
+

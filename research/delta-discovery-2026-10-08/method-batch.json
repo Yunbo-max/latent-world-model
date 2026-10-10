@@ -167,6 +167,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md",
       "sha256": "38d5ba6cb4e897b602b9897c940468cdaab0b603f5e3d9055b3f98dc52e1929b",
       "status": "accepted_conditional_order_gap_query_risk_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce",
+      "status": "accepted_conditional_subspace_syndrome_readout_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -184,7 +189,8 @@
       "R08 v1 supplies a reviewed temporal-belief/action-margin/POMDP correction and adds zero active/admitted/selected candidates.",
       "R09 v1 supplies a reviewed finite-budget static Pareto control and adds zero active/admitted/selected candidates.",
       "R10 v1 supplies a reviewed equal-bit representation/operator-boundary control and adds zero active/admitted/selected candidates.",
-      "R11 v1 supplies a reviewed exact order-gap rank/query-risk theorem-control and adds zero active/admitted/selected candidates."
+      "R11 v1 supplies a reviewed exact order-gap rank/query-risk theorem-control and adds zero active/admitted/selected candidates.",
+      "R12 v1 supplies a reviewed subspace-syndrome protected-readout theorem and same-width direct-statistic dominance result; zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
@@ -192,6 +198,7 @@
     "reason": "Recovered owner-sourced policy object and retained malformed history.",
     "r09": "Reviewed static Pareto/control entry; zero active constructed, scientific admission or selection increment.",
     "r10": "Reviewed equal-bit transported-residual representation/operator-boundary entry; zero active constructed, scientific admission or selection increment.",
-    "r11": "Reviewed order-gap/query-risk theorem-control; zero active constructed, scientific admission or selection increment."
+    "r11": "Reviewed order-gap/query-risk theorem-control; zero active constructed, scientific admission or selection increment.",
+    "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment."
   }
 }

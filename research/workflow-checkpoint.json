@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T05:47:00Z",
+  "recorded_at": "2026-10-10T06:55:14Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R10 is parked after attempt 1 as an equal-bit representation/operator-boundary control. Reopen only with a Delta-specific result that escapes decoded-codebook equivalence and the DAMP/STEPQuant plus coarse-visible-feedback collisions under matched total state/metadata/traffic, or continue another evidence-backed lineage.",
+  "next_action": "R12 is parked after attempt 1 as a subspace-syndrome/protected-readout theorem-control. Reopen only with an externally imposed or implicit syndrome interface, an equal-precision compute/layout advantage over direct row-space coordinates, and a native mechanism measurement path; otherwise continue another evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -812,7 +812,7 @@
       }
     ]
   },
-  "research_next_action": "R03 v2 completed a second bounded repair and is parked as a conditional control. Continue from another existing repair lineage with a substantive new delta; retain unchanged 20/15 shortage and no experiment/code scope.",
+  "research_next_action": "R12 is parked after attempt 1 as a subspace-syndrome/protected-readout theorem-control. Reopen only with an externally imposed or implicit syndrome interface, an equal-precision compute/layout advantage over direct row-space coordinates, and a native mechanism measurement path; otherwise continue another evidence-backed lineage.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 05:47:00 UTC",
+  "updated_at": "2026-10-10 06:55:14 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1480,5 +1480,40 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_DELIVERY_READBACK.json",
       "sha256": "5346a77d5fad6e909511187dd666e1d989c2ce116055817c94cf1557d10f9126"
     }
+  },
+  "repair_R12_subspace_syndrome": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/CHECKSUM_REVISION_SKETCH.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R12_SUBSPACE_SYNDROME_SOURCE_AUDIT.md",
+      "sha256": "66228ab044f660263684559e85803e373cb1bddb87a541efa5598a14f5b3e1ed"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md",
+      "sha256": "b25a471343afd40f17b2e009efdf19187b7c46cfe578e64d84bd7a231ea92910",
+      "reviewer": "/root/r12_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md",
+      "sha256": "45bae08ed02f64c24821e2e7913a7a05ed38652e397ddadb7b3e7933ad2a3a35",
+      "reviewer": "/root/r12_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md",
+      "sha256": "a5daf307188420b609b88f29e5fcb2ed5b7214f6e022a1ac3dd0d771115df7d2",
+      "reviewer": "/root/r12_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_subspace_syndrome_control_parked_not_candidate",
+    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback",
+    "publication_commit": null
   }
 }

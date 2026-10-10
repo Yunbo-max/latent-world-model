@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T05:47:00Z",
+  "recorded_at": "2026-10-10T06:55:14Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R11_order_gap_compression_published_exact_readback_no_candidate",
+  "status": "repair_R12_subspace_syndrome_final_byte_reviews_passed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "039ca2d3587cc43e165bccd5763e62cddc1b78e7",
+  "delivery_parent": "58d5995a3ba238de5c855c7b08687f8a48594ade",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -135,7 +135,12 @@
       "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "research/delta-discovery-2026-10-08/sources/R12_SUBSPACE_SYNDROME_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -157,10 +162,11 @@
       "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution.",
       "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred.",
       "R11 repaired commutator cancellation into signed order-gap compression: adjacent frozen-feature Delta order gaps have key-side rank at most two, with exact query-weighted rank-tail risk and a common-metric Bayes selector lower bound.",
-      "Independent final-byte math/source/adversarial reviews passed after tightening singular-G, branch-metric, semantic-proxy, compute-cost, code-pin, scorer-readiness and novelty-scope conditions; R11 parked, candidate delta zero."
+      "Independent final-byte math/source/adversarial reviews passed after tightening singular-G, branch-metric, semantic-proxy, compute-cost, code-pin, scorer-readiness and novelty-scope conditions; R11 parked, candidate delta zero.",
+      "R12 repaired checksum semantic-target mismatch into a precise protected-readout observability theorem: on edits Δ=BA, syndrome H^TΔ recovers Q^TΔ iff ker(H^TB) is contained in ker(Q^TB). A symmetric hidden-edit pair gives the coordinate-invariant minimax obstruction; pseudoinverse noise/leakage bounds and the noiseless rank-one Delta specialization were independently checked. The stronger same-width control stores a basis JA for the joint target row space, so no scalar-state advantage or semantic revision identification survives. Exact theorem priority remains INCONCLUSIVE_EXPAND_SEARCH, empirical value unknown, no execution/new D."
     ]
   },
-  "next_action": "R11 is parked after attempt 1 as an exact order-gap/query-risk control. Reopen only with causal same-budget G and selector evidence that is not reducible to exact ordered WY/DeltaProduct or generic weighted SVD; otherwise continue another evidence-backed lineage.",
+  "next_action": "R12 is parked after attempt 1 as a subspace-syndrome/protected-readout theorem-control. Reopen only with an externally imposed or implicit syndrome interface, an equal-precision compute/layout advantage over direct row-space coordinates, and a native mechanism measurement path; otherwise continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -662,6 +668,21 @@
       "result": "PASS after strict-budget/equality-boundary and AlphaEdit+ corrections; no remaining blocker",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
       "sha256": "6f2996d78589079d9c585b847ad8e48bde78d72d4100d8565048dc8c85dca81c"
+    },
+    {
+      "identity": "/root/r12_math_review",
+      "result": "Independent final-byte mathematical PASS for nullspace iff, minimax obstruction, conditioning/leakage and Delta specialization; not candidate admission.",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md"
+    },
+    {
+      "identity": "/root/r12_source_review",
+      "result": "Independent final-byte source-scope PASS with pinned OSE/CRT/FLA/LongMemEval interfaces; exact priority INCONCLUSIVE_EXPAND_SEARCH.",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md"
+    },
+    {
+      "identity": "/root/r12_adversarial_review",
+      "result": "Independent final-byte adversarial PASS; direct joint-row-space coordinates same-width dominate, semantic no-go retained.",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md"
     }
   ],
   "step2_reentry": {
@@ -1512,5 +1533,40 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_DELIVERY_READBACK.json",
       "sha256": "5346a77d5fad6e909511187dd666e1d989c2ce116055817c94cf1557d10f9126"
     }
+  },
+  "repair_R12_subspace_syndrome": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/CHECKSUM_REVISION_SKETCH.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R12_SUBSPACE_SYNDROME_SOURCE_AUDIT.md",
+      "sha256": "66228ab044f660263684559e85803e373cb1bddb87a541efa5598a14f5b3e1ed"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md",
+      "sha256": "b25a471343afd40f17b2e009efdf19187b7c46cfe578e64d84bd7a231ea92910",
+      "reviewer": "/root/r12_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md",
+      "sha256": "45bae08ed02f64c24821e2e7913a7a05ed38652e397ddadb7b3e7933ad2a3a35",
+      "reviewer": "/root/r12_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md",
+      "sha256": "a5daf307188420b609b88f29e5fcb2ed5b7214f6e022a1ac3dd0d771115df7d2",
+      "reviewer": "/root/r12_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_subspace_syndrome_control_parked_not_candidate",
+    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback",
+    "publication_commit": null
   }
 }
