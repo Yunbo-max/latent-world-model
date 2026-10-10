@@ -1,0 +1,28 @@
+{
+  "kind": "github-exact-readback-receipt",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "f37094f6d6574c8e9f320d6950baf8f306b1f28f",
+  "initial_substantive_commit": "e6b85b75865b926742ee3598fcb5436c77971664",
+  "substantive_commit": "32586c3575e854571ad77cbaebf6289ce5543aa0",
+  "recorded_at": "2026-10-10T20:32:00Z",
+  "expected_parent_updates": true,
+  "force": false,
+  "all_files_exact_readback": true,
+  "note": "The immediate child restores full tracker bytes after detecting host-output truncation in two large blobs; exact readback is bound to the corrected substantive commit.",
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R03_REPAIR_LINE_SCREEN.v3.md", "git_blob_sha": "1c921da928598025037c930f34d52bbcd27cf102"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md", "git_blob_sha": "aa1fd95d740093f944ef0611692df0175ef61572"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R03_V3_WASSERSTEIN_FREE_RUNNING_SOURCE_AUDIT.md", "git_blob_sha": "352d1809fd8b83353d33b3e28b212a5ba59422be"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V3.math-review.md", "git_blob_sha": "392df9206ef79da31027aa74e0d85c0a29fcda56"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V3.source-review.md", "git_blob_sha": "ea763a50b1ab2b46719663f311ff55207161666e"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R03_V3.adversarial-review.md", "git_blob_sha": "495f19eea74290927a5ebcfa083379077315838d"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "git_blob_sha": "78e061f954c8d9654b07564d14046d656cdbeac1"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "git_blob_sha": "c2a900e9430aef3661cdbc015121725e4c0d22ae"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "git_blob_sha": "b69c1e15fc163b76153a947250852456a00e31e7"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "git_blob_sha": "325ab23586ea95a968f58b4f877786b6a49056cc"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "git_blob_sha": "ab18b5f0bc79fc476396ad751a3f0dead1d420b9"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "git_blob_sha": "312ee99dc8f2dde4d696321b90b82858197c887c"},
+    {"path": "research/workflow-checkpoint.json", "git_blob_sha": "4a96a30384d33658b290ecc89859b8e072f52c73"}
+  ]
+}
