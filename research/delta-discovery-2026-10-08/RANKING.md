@@ -72,3 +72,10 @@ R06 比 R05 多了一种真实信息：随机抽取一部分写入购买外部�
 R07 的问题价值高于“真实性 posterior 直接当 gate”：它给出可证伪的有符号 action margin，并精确区分正小步、binary full-write 与连续 full-write。两世界反例还证明，真实性与无符号位移能量不足以恢复正确动作。
 
 它仍不进入活动池或 top15。主体是标准受约束凸二次/cost-sensitive 决策，target-versus-preservation 与正交/零空间保护有强直接近邻；Delta residual 目前只有结构化计算表达，没有同预算计算、样本复杂度或校准优势。AToKe 能测时间有效性却不能原生测动作边际，实际效果完全未知。最终处置为 conditional theory/control、parked not candidate；计数保持5历史/0活动/0准入/0选择。
+
+
+## R08 排名处置
+
+R08 不进入活动池或 top15。它修正了两个真实错误：时间有效性后验不能直接代替释放收益，e-process 的错误释放证据控制也不能证明释放的效用。数学给出了固定 full action 的精确阈值方向、sharp endpoint robust certificate、one-step query VoI，以及含 switching/continuation 的 Bellman 决策边界。
+
+但主要机制均有强直接近邻，Delta 残余只有 signed action-margin 专门化；连续优化方向不保证单阈值，动作影响证据时还需完整 belief+memory state。原生机制测量缺失且未执行实验。故独立审查通过的是 conditional theory/control，不是原创候选；全池仍0活动、0准入、0选择。

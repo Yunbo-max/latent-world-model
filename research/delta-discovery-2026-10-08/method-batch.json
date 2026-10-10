@@ -147,6 +147,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md",
       "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad",
       "status": "accepted_conditional_validity_to_action_margin_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
+      "sha256": "574a66f55b62c57cf08c2866ea16d6711dbc49d14c37c4d3c0dbe9b1bf19fd4a",
+      "status": "accepted_conditional_temporal_validity_release_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -160,7 +165,8 @@
       "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates.",
       "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates.",
       "R06 v1 supplies a reviewed selective-audit control and adds zero active/admitted/selected candidates.",
-      "R07 v1 supplies a reviewed validity-to-action quadratic margin control and adds zero active/admitted/selected candidates."
+      "R07 v1 supplies a reviewed validity-to-action quadratic margin control and adds zero active/admitted/selected candidates.",
+      "R08 v1 supplies a reviewed temporal-belief/action-margin/POMDP correction and adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {

@@ -230,3 +230,12 @@ QED 的全文公式缺口也已正式闭合：query-derived 项进入同一个 e
 这个结论也保留了明确失败边界：不知道 signed `c` 时，两个有相同真实性、收益和曲率的世界仍可要求相反动作；延迟拿到的 `Y` 不能回填同一次在线 gate；固定后缀局部风险也不能冒充自由运行总效果。Delta rank-one 结构让 `b,c,h` 可写成具体 JVP/二次型，但尚未证明比直接 action-value predictor 更便宜或更准。
 
 KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 和普通 cost-sensitive/凸二次决策已覆盖主体问题或机制。AToKe 提供历史/当前事实的时间标签，是比 CounterFact/KnowEdit/SEAL 更接近的测量资产，但仍缺动作前 `(b,c,h)` 与成对写/不写结果。因此 R07 保存为数学成立、贡献碰撞、实验未知的条件控制，不计候选；总计仍5历史/0活动/0准入/0选择，没有执行模型代码或实验。
+
+
+## R08：事实过时的概率，不等于现在该释放保护
+
+这轮把旧 posterior gate 修成了一个更诚实的决策问题。先估旧事实仍有效的概率 `p`，再把两个语义世界各自的 Delta 写入收益与保护损伤混成 `D_p(a)=h(p)a²-2q(p)a`。固定完整动作时可以得到精确阈值，但阈值方向由两边实际损失决定，不是永远“p 越低越该写”。两个 posterior 完全相同的世界，只要保护交叉项不同，就会要求相反动作。
+
+若写入会擦掉以后能辨别真假的证据，或改变 memory/updater state，还必须加 Bellman continuation 与切换成本；一时有利的写入可能长期更差。联合 belief 区间能给保守端点证书，一步 query value 也能算，但这些分别是已知 robust Bayes 与 VoI/POMDP 工具。BOCPD、controlled QCD、时间事实阈值、AToKe、StableEdit、RLEdit 都是强近邻。
+
+所以 R08 的价值是把“真实性判断”和“动作收益”严格拆开，并给出何时可用简单阈值、何时必须 abstain/求解动态状态的边界；它不是新架构。最可能失败在动作前 `q,h,Gamma` 不可得、多个事实联合状态爆炸，以及现有 benchmark 只看规定 edit 后的 QA。当前数学有条件成立、贡献碰撞、实验未知，不计候选。

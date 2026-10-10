@@ -144,3 +144,10 @@ R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没
 [修订推导](repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md)补上 R06 最早的语义断点。对动作强度 `a∈[0,1]`，固定参考分布下的局部二次风险变化写成 `Δ_Y(a)=h_Ya²-2a(Yb-c)`：`b` 是新 target 的一阶收益，`c` 是仍有效保护对象的有符号一阶代价，`h_Y` 是曲率。由此得到精确边界：存在有益的正小步当且仅当 `Yb-c>0`；完整写入优于不写当且仅当 `Yb-c>h_Y/2`；完整写入还是连续最优才要求 `Yb-c≥h_Y`。因此“事实为真”本身不等于“现在应该完整写入”。
 
 Delta rank-one 写入把这些量具体化为可检查的 key/residual/JVP 二次型，但旧反例仍成立：只知道 `Y`、收益幅度和曲率，若不知道保护交叉项 `c`，两个世界可给相反动作。修复后的贡献是一个条件性 action-margin control，不是新架构。KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 与普通 cost-sensitive/凸二次决策覆盖问题分解和主要机制；AToKe 虽提供历史/当前事实时间标签，仍不提供动作前 `(b,c,h)`、随机 propensity 或成对动作结果。故 R07 park，实验未知，候选增量0；总计仍5历史/0活动/0准入/0选择。
+
+
+## R08：时间有效性不是释放动作，但可以接到有符号动作边际
+
+[修订推导](repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md)把旧的静态 posterior gate 与 martingale release 线索重新接到 R07 的动作几何。隐藏旧事实有效性 belief 只决定分支权重；真正动作由 `D_p(a)=h(p)a²-2q(p)a` 决定。固定 full action 时得到方向可反转的精确 posterior 阈值；固定 belief 时，保护交叉项仍能让两个世界选择相反动作。故“检测到事实过时”与“释放保护现在有收益”被明确分开。
+
+动态时必须加入 switching cost 和 Bellman continuation `Gamma`；写入会破坏后续证据或改变 memory/updater state 时，myopic 阈值可被最小反例反转。联合 sharp belief interval 可给端点 robust certificate；one-step query value 属普通 Bayes VoI。BOCPD、POMDP/controlled QCD、Zhang–Choi 时间后验阈值、AToKe、StableEdit 与 RLEdit 已提供直接近邻。[来源审计](sources/REPAIR_R08_TEMPORAL_VALIDITY_SOURCE_AUDIT.md)和独立最终字节数学/来源复核均通过。R08 因此保存为条件 theory/control，不计候选；实验未知，计数仍5历史/0活动/0准入/0选择。

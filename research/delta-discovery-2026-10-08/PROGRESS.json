@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10 01:53:00 UTC",
+  "recorded_at": "2026-10-10T02:34:52Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R07_validity_to_action_margin_published_exact_readback_no_candidate",
+  "status": "repair_R08_temporal_validity_release_final_reviews_passed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -142,11 +142,12 @@
       "R03 repaired R02 with an exact Delta rank-one protected-query displacement certificate, protected squared-risk cross-term/sufficient bound, and explicit positivity-damage feasibility boundary; generic safe logging/design collision prevents candidate admission.",
       "R03 v2 repaired the one-step-only gap with a pre-action measurable coupled-state gain certificate, endogenous-query composite observable, exact-first-step hybrid horizon bound, and exact logging-simplex feasibility condition. Independent final-byte math/source reviews accept the conditional expected-harm theorem, not actionwise semantic safety, free-running total-effect identification, novelty, same-budget advantage or empirical utility; no candidate was admitted.",
       "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
-      "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D."
-      ,"R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D."
+      "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D.",
+      "R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D.",
+      "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution."
     ]
   },
-  "next_action": "R07 is parked as a constrained quadratic/action-margin control. Reopen only with a prefix-only Delta sufficient statistic for b,c,h that has a proved same-budget advantage, a coupled-state bridge that closes beyond the fixed-reference law, or native old/new validity plus randomized paired action outcomes; otherwise continue another evidence-backed lineage.",
+  "next_action": "R08 is parked as a conditional temporal-belief plus action-margin control. Reopen only with a prefix-only sufficient state for p,q,h,Gamma that has a same-budget advantage, a Delta-specific threshold/continuation theorem cheaper than generic POMDP/QCD, or native causal old/new validity plus action propensity and paired/identifiable outcomes; otherwise continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -608,6 +609,25 @@
       "result": "PASS source scope; known primitives and endpoint-only measurement correctly bounded; not candidate",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md",
       "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1"
+    },
+    {
+      "identity": "/root/r08_adversarial",
+      "assignment": "independent counterexample and hidden-cost attack",
+      "result": "posterior-only gate fails; Bellman continuation, switching, joint-interval and filtration conditions supplied; park supported"
+    },
+    {
+      "identity": "/root/r08_math_derivation",
+      "assignment": "independent derivation and exact final-byte mathematical review",
+      "result": "PASS conditional control; signs, thresholds, endpoint certificates, VoI and Bellman correction verified",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.math-review.md",
+      "sha256": "0004500a68b5167306fc08236345abc85b2504ec7cc09434d1e9a2704d72fea1"
+    },
+    {
+      "identity": "/root/r08_source_audit",
+      "assignment": "primary/full-formula, author-interface, originality and native-measurement audit plus exact final-byte review",
+      "result": "PASS source accuracy; direct temporal-action and sequential-control collisions verified; no native causal action-margin object",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.source-review.md",
+      "sha256": "27d91a3332040fcdd9c076912a51fa86f9f09dce818d62dcf1f27b2beb7d75e7"
     }
   ],
   "step2_reentry": {
@@ -1113,13 +1133,36 @@
     "max_substantive_attempts": 3,
     "lineage_parent": "STEP2_JOINT_CONDITIONAL_RISK.md",
     "versions": [
-      {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md", "sha256": "ce124a8bbe131f12c697f23ba0755650a18d72fbfe17d674a908b447a2bb602e", "status": "preserved_initial_derivation"},
-      {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md", "sha256": "84a54cd908c1b60be4bbd3baf5fa2c51223312af8f9d928c0a3b50372a813e24", "status": "preserved_intermediate_review_revision"},
-      {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md", "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c", "status": "accepted_conditional_control_parked"}
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md",
+        "sha256": "ce124a8bbe131f12c697f23ba0755650a18d72fbfe17d674a908b447a2bb602e",
+        "status": "preserved_initial_derivation"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md",
+        "sha256": "84a54cd908c1b60be4bbd3baf5fa2c51223312af8f9d928c0a3b50372a813e24",
+        "status": "preserved_intermediate_review_revision"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+        "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c",
+        "status": "accepted_conditional_control_parked"
+      }
     ],
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md", "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19", "reviewer": "/root/r05_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1", "reviewer": "/root/r05_source_review"},
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md",
+      "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md",
+      "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19",
+      "reviewer": "/root/r05_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md",
+      "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1",
+      "reviewer": "/root/r05_source_review"
+    },
     "mathematical_status": "accepted_sharp_scalar_partial_identification_minimax_regret_and_no_write_boundary",
     "contribution_status": "known_Frechet_partial_identification_Gamma_minimax_and_moment_DRO;Delta_specialization_not_scientifically_admitted",
     "measurement_status": "behavior_endpoints_available_but_no_native_per_write_r_J_Z_m_or_paired_potential_outcomes",
@@ -1129,7 +1172,10 @@
     "review_feedback_repair": "Independent reviews narrowed matrix sharpness to scalar projections, added atom/randomization and finite-sample qualifications, fixed EvEdit endpoint wording and pinned interfaces, then repaired the general A=0 branch and TeX bytes.",
     "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
     "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json",
+      "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"
+    }
   },
   "repair_R06_selective_validity_audit": {
     "repair_id": "R06",
@@ -1137,10 +1183,24 @@
     "substantive_attempt": 1,
     "max_substantive_attempts": 3,
     "lineage_parent": "R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md", "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md", "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md", "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a", "reviewer": "/root/r06_final_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
+      "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md",
+      "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md",
+      "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a",
+      "reviewer": "/root/r06_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md",
+      "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332",
+      "reviewer": "/root/r06_final_source_review"
+    },
     "mathematical_status": "accepted_design_unbiased_two_phase_audit_estimator_optimal_allocation_and_conditional_certificate_interface",
     "contribution_status": "known_HT_AIPW_Neyman_two_phase_validation_active_testing_and_adaptive_inference;Delta_specialization_not_scientifically_admitted",
     "measurement_status": "behavior_endpoints_exist_but_no_native_joint_grounded_Y_Delta_Z_audit_propensity_or_paired_action_outcomes",
@@ -1156,7 +1216,10 @@
     ],
     "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
     "publication_commit": "c9b1973e7e6f36007b3116f1eed20a9b75719bec",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json", "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json",
+      "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"
+    }
   },
   "repair_R07_validity_to_action_margin": {
     "repair_id": "R07",
@@ -1164,10 +1227,24 @@
     "substantive_attempt": 1,
     "max_substantive_attempts": 3,
     "lineage_parent": "R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md", "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md", "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md", "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e", "reviewer": "/root/r07_final_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md", "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763", "reviewer": "/root/r07_final_source_review"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md",
+      "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md",
+      "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md",
+      "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e",
+      "reviewer": "/root/r07_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md",
+      "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763",
+      "reviewer": "/root/r07_final_source_review"
+    },
     "mathematical_status": "accepted_fixed_reference_quadratic_action_margin_exact_gate_thresholds_robust_certificates_and_Delta_rank_one_specialization",
     "contribution_status": "known_convex_quadratic_cost_sensitive_and_target_preservation_controls;Delta_structured_readout_only_not_scientifically_admitted",
     "measurement_status": "AToKe_partially_closes_temporal_validity_but_no_native_pre_action_b_c_h_randomized_propensity_or_paired_action_outcomes",
@@ -1183,12 +1260,58 @@
     ],
     "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
     "publication_commit": "f296d46c66f6b0226c93331a4ff40b265eba372c",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_DELIVERY_READBACK.json", "sha256": "c961ea8ed6ccf27352189b5ce8c237a375ccef3decd431554f6fa6569fa2ce7f"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_DELIVERY_READBACK.json",
+      "sha256": "c961ea8ed6ccf27352189b5ce8c237a375ccef3decd431554f6fa6569fa2ce7f"
+    }
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",
     "prior_counting_policy": "[object Object] R03 is a reviewed repair/control and contributes zero active or selected candidates.",
     "prior_milestone": "R03 repaired R02 with an exact Delta rank-one protected-query displacement certificate, protected squared-risk cross-term/sufficient bound, and explicit positivity-damage feasibility boundary; generic safe logging/design collision prevents candidate admission.",
     "reason": "Prior R03 update stringified counting-policy object and replaced cumulative milestone object. Restored cumulative sourced objects and retained exact prior strings; targets/counts unchanged."
+  },
+  "repair_R08_temporal_validity_release": {
+    "repair_id": "R08",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+      "rejected/MARTINGALE_RELEASE_CONTROL.md",
+      "repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
+      "sha256": "574a66f55b62c57cf08c2866ea16d6711dbc49d14c37c4d3c0dbe9b1bf19fd4a"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_TEMPORAL_VALIDITY_SOURCE_AUDIT.md",
+      "sha256": "dfd8c1ed84d1512698e995c708683980d6d27d9d7e4cb4a173d6cbafe1093d1a"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.math-review.md",
+      "sha256": "0004500a68b5167306fc08236345abc85b2504ec7cc09434d1e9a2704d72fea1",
+      "reviewer": "/root/r08_math_derivation"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.source-review.md",
+      "sha256": "27d91a3332040fcdd9c076912a51fa86f9f09dce818d62dcf1f27b2beb7d75e7",
+      "reviewer": "/root/r08_source_audit"
+    },
+    "mathematical_status": "accepted_conditional_temporal_belief_to_signed_action_margin_threshold_robust_endpoint_VoI_and_Bellman_correction",
+    "contribution_status": "known_cost_sensitive_Bayes_BOCPD_value_of_information_POMDP_controlled_QCD_and_temporal_threshold_mechanisms;Delta_bridge_only_not_scientifically_admitted",
+    "measurement_status": "AToKe_endpoint_temporal_QA_available_but_no_native_likelihood_hazard_query_cost_pre_action_q_h_propensity_paired_outcome_or_continuation_value",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_conditional_control",
+    "review_feedback_repair": "Independent adversarial review preserved posterior-action counterexamples. Final math review passed exact threshold, robust and dynamic signs. Source review required and then verified BOCPD complexity/version pins, StableEdit theorem/interface separation and AToKe scorer/metric boundaries.",
+    "unclosed": [
+      "Prefix-only sufficient statistic for p,q,h,Gamma with proved same-budget advantage over direct action-advantage prediction.",
+      "Delta-specific coupled-state threshold or continuation theorem materially cheaper than generic POMDP/QCD.",
+      "Native causal temporal object with old/new validity, pre-action margins, propensity and paired or identifiable action outcomes.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   }
 }

@@ -172,7 +172,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-10 01:53:00 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 02:34:52 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -183,7 +183,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R07 is parked as a constrained quadratic/action-margin control. Reopen only with a prefix-only Delta sufficient statistic for b,c,h that has a proved same-budget advantage, a coupled-state bridge beyond the fixed-reference law, or native old/new validity plus randomized paired action outcomes; otherwise continue another evidence-backed lineage.",
+  "next_action": "R08 is parked as a conditional temporal-belief plus action-margin control. Reopen only with a prefix-only sufficient state for p,q,h,Gamma that has a same-budget advantage, a Delta-specific threshold/continuation theorem cheaper than generic POMDP/QCD, or native causal old/new validity plus action propensity and paired/identifiable outcomes; otherwise continue another evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1162,44 +1162,95 @@
   "repair_R05_partial_identification": {
     "version": "v3",
     "lineage_parent": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md", "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md", "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md", "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19", "reviewer": "/root/r05_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1", "reviewer": "/root/r05_source_review"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+      "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md",
+      "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md",
+      "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19",
+      "reviewer": "/root/r05_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md",
+      "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1",
+      "reviewer": "/root/r05_source_review"
+    },
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
     "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
     "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json",
+      "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"
+    }
   },
   "repair_R06_selective_validity_audit": {
     "version": "v1",
     "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md", "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md", "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md", "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a", "reviewer": "/root/r06_final_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
+      "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md",
+      "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md",
+      "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a",
+      "reviewer": "/root/r06_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md",
+      "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332",
+      "reviewer": "/root/r06_final_source_review"
+    },
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_two_phase_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
     "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
     "publication_commit": "c9b1973e7e6f36007b3116f1eed20a9b75719bec",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json", "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json",
+      "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"
+    }
   },
   "repair_R07_validity_to_action_margin": {
     "version": "v1",
     "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md", "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md", "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"},
-    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md", "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e", "reviewer": "/root/r07_final_math_review"},
-    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md", "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763", "reviewer": "/root/r07_final_source_review"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md",
+      "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md",
+      "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md",
+      "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e",
+      "reviewer": "/root/r07_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md",
+      "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763",
+      "reviewer": "/root/r07_final_source_review"
+    },
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_action_margin_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
     "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
     "publication_commit": "f296d46c66f6b0226c93331a4ff40b265eba372c",
-    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_DELIVERY_READBACK.json", "sha256": "c961ea8ed6ccf27352189b5ce8c237a375ccef3decd431554f6fa6569fa2ce7f"}
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_DELIVERY_READBACK.json",
+      "sha256": "c961ea8ed6ccf27352189b5ce8c237a375ccef3decd431554f6fa6569fa2ce7f"
+    }
   },
   "delta_updater_rsi_math": {
     "authorization_local_time": "2026-10-09T12:48:59+01:00",
@@ -1243,5 +1294,35 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 01:53:00 UTC"
+  "updated_at": "2026-10-10 02:34:52 UTC",
+  "repair_R08_temporal_validity_release": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+      "rejected/MARTINGALE_RELEASE_CONTROL.md",
+      "repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
+      "sha256": "574a66f55b62c57cf08c2866ea16d6711dbc49d14c37c4d3c0dbe9b1bf19fd4a"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_TEMPORAL_VALIDITY_SOURCE_AUDIT.md",
+      "sha256": "dfd8c1ed84d1512698e995c708683980d6d27d9d7e4cb4a173d6cbafe1093d1a"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.math-review.md",
+      "sha256": "0004500a68b5167306fc08236345abc85b2504ec7cc09434d1e9a2704d72fea1",
+      "reviewer": "/root/r08_math_derivation"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.source-review.md",
+      "sha256": "27d91a3332040fcdd9c076912a51fa86f9f09dce818d62dcf1f27b2beb7d75e7",
+      "reviewer": "/root/r08_source_audit"
+    },
+    "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_temporal_release_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+  }
 }

@@ -169,3 +169,10 @@ Delta 当前只提供 acquisition score `Z=||Ju||²` 的具体形式。普通事
 R07 把 R06 未闭的 `Y→r` 口号收紧为固定参考分布下的局部二次动作条件：`Yb-c` 同时纳入新 target 收益与仍有效保护对象的有符号代价，`h_Y` 则区分任意有益小步、binary full-write 与连续 full-write 三种阈值。Delta 的 rank-one 结构给出 `b,c,h` 的专门 JVP/二次型表达；只知道真实性而缺 signed `c` 时仍存在相反最优动作的两世界反例。
 
 最近工作决定其身份仍是 control：KnowledgeEditor 已把 target edit 与非目标保持写成约束优化，AlphaEdit/O-Edit 已控制保护/顺序干扰，LyapLock 已把长期 edit 与 preservation 置于同一约束目标，cost-sensitive learning 与凸二次决策覆盖阈值主体。AToKe 提供历史/当前知识的时间有效性标签，收窄了 measurement gap，但没有动作前 Delta `(b,c,h)`、randomized propensity 或 paired action outcomes。R07 只有在 prefix-only 结构带来同预算效率/校准优势、耦合状态递推闭合，或出现动作级原生测量时才重开；当前 parked，候选增量0。
+
+
+## R08 时间有效性释放的最近工作处置
+
+R08 的静态骨架并不新：BOCPD/HMM 负责 hazard 与 belief 更新，cost-sensitive Bayes 负责 belief 到动作，Bayesian VoI 负责是否购买一次额外信息，POMDP/controlled quickest-change 负责动作改变未来观测与状态时的 continuation。Zhang–Choi 已直接使用事实持续时间后验和 0.5 阈值触发检索/弃用；StableEdit 与 RLEdit 又分别覆盖顺序保护几何和状态化更新控制。
+
+可保留的窄残余是把时间 belief 接到 R07 的有符号 Delta 风险 `D_p(a)=h(p)a²-2q(p)a`，并明确证明 validity posterior 不是 action utility：相同 posterior 可因 signed protection term 选择相反动作；写入破坏后续证据时，myopic 阈值又会被 Bellman continuation 反转。AToKe 只给规定编辑后的历史/当前 QA endpoint，官方固定仓库没有 executable native scorer，更不提供 likelihood、hazard、query cost、`(q,h)`、propensity 或 paired outcomes。最终处置为 parked conditional control，候选增量0。
