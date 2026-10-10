@@ -1,0 +1,26 @@
+{
+  "kind": "github-exact-readback-receipt",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "392f592ded90e0f86153cf5c2b4d0163974e1df7",
+  "substantive_commit": "862e3f52ee8873c00be7d684ab86dc9a13f6a3d0",
+  "recorded_at": "2026-10-10T18:56:00Z",
+  "expected_parent_update": true,
+  "force": false,
+  "all_files_exact_readback": true,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R02_REPAIR_LINE_SCREEN.v2.md", "git_blob_sha": "8cfb5acf77ed22975941bca1df6a459946a84779"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R02_CAUSAL_DR_QUOTIENT.v2.md", "git_blob_sha": "ae21f8bb3564ce606d3198eb6cc95bac8e7684d1"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R02_V2_CAUSAL_DR_QUOTIENT_SOURCE_AUDIT.md", "git_blob_sha": "6e792145059a8df9adc544200e1376e985c70b41"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.math-review.md", "git_blob_sha": "3c6054408089c0a1e8850dc94a8fa19eac55319c"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.source-review.md", "git_blob_sha": "7975dbf61edbe1a629fdc8868dfc63d1164c5215"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.adversarial-review.md", "git_blob_sha": "84ba903221e82e8776536a3ea2a0c4f89a114beb"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "git_blob_sha": "e7634017394bf524f392d112ee89a78358581941"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "git_blob_sha": "dbfc1f816462728d24aab831aeea83d20587c249"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "git_blob_sha": "1976f92e64106e48c4b738828919163b97466b6c"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "git_blob_sha": "edfcadc820c88d834c3d2135708d38f418c8b22d"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "git_blob_sha": "deba10390be92495ac39ba6fc3a9fe326296da22"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "git_blob_sha": "ba18a9ea34bb5b4065b5c298139dff7442cf4fc6"},
+    {"path": "research/workflow-checkpoint.json", "git_blob_sha": "eb0e645d2ac0afede3d34a8feb27bd1ad539882a"}
+  ]
+}

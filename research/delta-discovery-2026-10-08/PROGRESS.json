@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T18:51:48Z",
+  "recorded_at": "2026-10-10T18:55:36Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R02_v2_causal_DR_quotient_reviewed_pending_delivery_no_candidate",
+  "status": "repair_R02_v2_causal_DR_quotient_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2430,7 +2430,7 @@
       "sha256": "298fde615f6068ed2d96e7f98ea4c4c4ffbb59258814f388119ad178256ca41e",
       "reviewer": "/root/r02_v2_adversarial_review"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_causal_DR_quotient_control_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_causal_DR_quotient_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_one_step_coarsening_bias_strong_sequential_sufficient_conditions_and_fixed_family_right_quotient_lower_bound",
       "contribution": "useful_Delta_specific_causal_compression_debugging_bridge_not_a_new_DR_or_state_abstraction_mechanism",
@@ -2449,7 +2449,12 @@
       "Native measurements exposing quotient-kernel validity, behavior propensities and counterfactual outcomes.",
       "Empirical effect remains unknown because no model or benchmark execution was authorized."
     ],
-    "delivery_status": "pending_expected_parent_main"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "862e3f52ee8873c00be7d684ab86dc9a13f6a3d0",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V2_DELIVERY_READBACK.json",
+      "sha256": "6b303821dbca1065df1cbf3f7c1f811871aab75ee30fe97611cfeab1cd6f957f"
+    }
   }
 }
 
