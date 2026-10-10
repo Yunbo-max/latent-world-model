@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T03:48:21Z",
+  "recorded_at": "2026-10-10T04:50:06Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R09_finite_budget_pareto_published_exact_readback_no_candidate",
+  "status": "repair_R10_equal_bit_residual_independently_reviewed_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "e707ec26930f9683f5cf7c2b449f7e278eef380d",
+  "delivery_parent": "ca384afc014e4222b47c9935677788b59635669d",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -153,7 +153,7 @@
       "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred."
     ]
   },
-  "next_action": "R09 is parked as a conditional finite-budget static geometry control. Reopen only with a prefix-only same-budget dynamic/action-weighted G estimator, an information/state lower bound that is stronger than generic constrained least squares, or a native causal protected-action measurement object; otherwise continue another evidence-backed lineage.",
+  "next_action": "R10 is parked after attempt 1 as an equal-bit representation/operator-boundary control. Reopen only with a Delta-specific result that escapes decoded-codebook equivalence and the DAMP/STEPQuant plus coarse-visible-feedback collisions under matched total state/metadata/traffic, or continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1400,5 +1400,53 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_DELIVERY_READBACK.json",
       "sha256": "de1b4c03002b27e508d1cd05e84a891a87dd3f8562fb665032d9a868fb5d1c6d"
     }
+  },
+  "repair_R10_equal_bit_transported_residual": {
+    "repair_id": "R10",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/D04_COMPENSATION_COLLISION.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_EQUAL_BIT_RESIDUAL_SOURCE_AUDIT.md",
+      "sha256": "310d36ac4942281fc44eaffd9116b3a9042f0e7acffb4d8be0a9ef8603552758"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.math-review.md",
+      "sha256": "295b50d4ca3c334e6b2a1943f893d6b82c1a255a2cd9455d200f67c9a646f01a",
+      "reviewer": "/root/r10_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.source-review.md",
+      "sha256": "ac7a58624fb85e1a3ea124d9151163a35649ee0b6890a0dc317ba5d93cc231a1",
+      "reviewer": "/root/r10_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.adversarial-review.md",
+      "sha256": "2fc3946a9b6f0adeac9dbda5754d642affca8979a20a28af8d89517947a7577c",
+      "reviewer": "/root/r10_adversarial"
+    },
+    "mathematical_status": "accepted_conditional_exact_error_recurrence_equal_cardinality_representation_boundary_and_future_risk_allocation_control",
+    "contribution_status": "major_collision_with_DAMP_STEPQuant_persistence_readout_allocation_and_published_coarse_visible_residual_write_timing;scoped_equivalence_operator_boundary_only",
+    "measurement_status": "downstream_native_tasks_exist_but_no_affordable_native_object_separates_decoded_codebook_equivalence_from_operator_interface_compatibility",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_conditional_representation_control",
+    "preserved_old_result": "unchanged_feedback_does_not_transport_the_residual_and_exact_transported_compensation_requires_another_full_state",
+    "repair_delta": "quantize_the_transported_residual_under_explicit_total_bits_compare_against_the_strongest_equal_cardinality_direct_codebook_and_separate_decoded_state_from_coarse_visible_feedback",
+    "unclosed": [
+      "A Delta-specific rate result that escapes direct decoded-codebook equivalence under matched metadata and total traffic.",
+      "A correlated noise-shaping theorem with a distinct observable consequence beyond the published coarse-visible residual/direction-memory operator.",
+      "An affordable native measurement object that separates representation from operator-interface compatibility.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
+

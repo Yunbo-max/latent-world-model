@@ -157,6 +157,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
       "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab",
       "status": "accepted_conditional_finite_budget_Pareto_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763",
+      "status": "accepted_conditional_equal_bit_representation_boundary_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -171,12 +176,16 @@
       "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates.",
       "R06 v1 supplies a reviewed selective-audit control and adds zero active/admitted/selected candidates.",
       "R07 v1 supplies a reviewed validity-to-action quadratic margin control and adds zero active/admitted/selected candidates.",
-      "R08 v1 supplies a reviewed temporal-belief/action-margin/POMDP correction and adds zero active/admitted/selected candidates."
+      "R08 v1 supplies a reviewed temporal-belief/action-margin/POMDP correction and adds zero active/admitted/selected candidates.",
+      "R09 v1 supplies a reviewed finite-budget static Pareto control and adds zero active/admitted/selected candidates.",
+      "R10 v1 supplies a reviewed equal-bit representation/operator-boundary control and adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
     "prior_corrupted_value": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate. R03 adds a reviewed Delta-local safety certificate/control but no active constructed or selected candidate.",
     "reason": "Recovered owner-sourced policy object and retained malformed history.",
-    "r09": "Reviewed static Pareto/control entry; zero active constructed, scientific admission or selection increment."
+    "r09": "Reviewed static Pareto/control entry; zero active constructed, scientific admission or selection increment.",
+    "r10": "Reviewed equal-bit transported-residual representation/operator-boundary entry; zero active constructed, scientific admission or selection increment."
   }
 }
+

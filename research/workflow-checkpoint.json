@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T03:48:21Z",
+  "recorded_at": "2026-10-10T04:50:06Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R09 is parked as a conditional finite-budget static geometry control. Reopen only with a prefix-only same-budget dynamic/action-weighted G estimator, an information/state lower bound that is stronger than generic constrained least squares, or a native causal protected-action measurement object; otherwise continue another evidence-backed lineage.",
+  "next_action": "R10 is parked after attempt 1 as an equal-bit representation/operator-boundary control. Reopen only with a Delta-specific result that escapes decoded-codebook equivalence and the DAMP/STEPQuant plus coarse-visible-feedback collisions under matched total state/metadata/traffic, or continue another evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 03:48:21 UTC",
+  "updated_at": "2026-10-10 04:50:06 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1404,5 +1404,39 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_DELIVERY_READBACK.json",
       "sha256": "de1b4c03002b27e508d1cd05e84a891a87dd3f8562fb665032d9a868fb5d1c6d"
     }
+  },
+  "repair_R10_equal_bit_transported_residual": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/D04_COMPENSATION_COLLISION.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_EQUAL_BIT_RESIDUAL_SOURCE_AUDIT.md",
+      "sha256": "310d36ac4942281fc44eaffd9116b3a9042f0e7acffb4d8be0a9ef8603552758"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.math-review.md",
+      "sha256": "295b50d4ca3c334e6b2a1943f893d6b82c1a255a2cd9455d200f67c9a646f01a",
+      "reviewer": "/root/r10_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.source-review.md",
+      "sha256": "ac7a58624fb85e1a3ea124d9151163a35649ee0b6890a0dc317ba5d93cc231a1",
+      "reviewer": "/root/r10_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.adversarial-review.md",
+      "sha256": "2fc3946a9b6f0adeac9dbda5754d642affca8979a20a28af8d89517947a7577c",
+      "reviewer": "/root/r10_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_equal_bit_representation_operator_boundary_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
+

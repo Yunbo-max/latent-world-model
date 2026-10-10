@@ -1,0 +1,36 @@
+{
+  "kind": "repair-context-readback",
+  "repair_id": "R10",
+  "recorded_at": "2026-10-10T04:50:06Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "ca384afc014e4222b47c9935677788b59635669d",
+  "parent_tree": "31f0b430a96c1f1f7c7ff03eb7491699ef36eeab",
+  "lineage_parent": {
+    "path": "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md",
+    "blob": "61bc4bc29f8724793ea9fed20a1d11c80c4e404b"
+  },
+  "primary_sources": [
+    {
+      "id": "arXiv:2609.04490v1",
+      "date": "2026-09-03",
+      "role": "coarse-visible residual and direction-memory write timing",
+      "author_code": "withheld_pending_acceptance"
+    },
+    {
+      "id": "arXiv:2608.27513v2",
+      "date": "2026-09-30",
+      "role": "decay-aware persistence-weighted mixed precision",
+      "author_code": "not_confirmed_in_bounded_audit"
+    },
+    {
+      "id": "arXiv:2609.38169v1",
+      "date": "2026-09-29",
+      "role": "lifetime/readout-aware recurrent-state bit allocation",
+      "author_repository": "Dreamer-Toby/STEPQuant",
+      "author_commit": "61f24c9c2bc188b60a6c7525e7f86c7459bc737d",
+      "author_tree": "ebdd3e3b828d4a32fe3b7db3b27a0f7575a599f3"
+    }
+  ],
+  "execution": "none_read_math_source_and_author_interface_only"
+}
