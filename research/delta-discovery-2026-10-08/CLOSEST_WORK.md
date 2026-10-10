@@ -252,6 +252,17 @@ R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis proje
 
 来源与固定接口见 [R06 v2 source audit](sources/R06_V2_CONTRACTIVE_ENVELOPE_SOURCE_AUDIT.md)。
 
+## R06 v3：生存裕量、负特征值与可逆残差近邻
+
+| 本次部件 | 最近工作/控制 | 真实残余与结论 |
+|---|---|---|
+| `I-beta kk^T` 的精确奇异值与上下分支 | Grazzi et al. 已直接分析 generalized-Householder 因子与 `2*sigmoid` 负特征值分支；pinned FLA layer defaults 提供 L2 key / sigmoid beta 接口 | v3 的差异只是显式排除奇异带并把有效 `rho=beta||k||²` 写成审计假设，不是新更新器 |
+| 有限时域最小奇异值乘积 | i-ResNet、Residual Flows 已覆盖残差块可逆性与 bi-Lipschitz margin | Delta rank-one 精确式成立，但只覆盖 frozen memory path，不是完整 autoregressive Jacobian |
+| envelope PPS 的 Kantorovich 因子 | Imberg、Active Testing 与经典 PPS/Neyman 覆盖相邻 inverse-probability/proposal allocation 家族 | 独立 Bernoulli rectangular-robust factor 是本 packet 的条件推导；仍需固定 horizon、inactive caps 与原生 joint object |
+| `e+=(1-rho)e` 的可塑性代价 | 普通 damped Delta 与可逆 residual 是强简单对照 | 同一 margin 同时保留旧扰动并阻止一步 exact correction；这是有用 debug boundary，不构成原创候选 |
+
+完整来源审计见 [R06 v3 source audit](sources/R06_V3_SURVIVAL_MARGIN_SOURCE_AUDIT.md)。结论为 conditional control、direct ingredient collision、attempt 3/3 lineage exhausted。
+
 ## R01 v3 — transported-credit right quotient (2026-10-10)
 
 The final R01 child is not a new observability mechanism. Its exact residual is narrow: for

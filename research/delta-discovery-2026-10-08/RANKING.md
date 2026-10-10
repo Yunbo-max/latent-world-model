@@ -152,3 +152,9 @@ R05 v4 **不进入活动池或 top-15**。它修复了 v3 的真实构造错位�
 
 但 conditional LP、individualized partial-ID policy、covariate-assisted bounds 和 robust baseline policy 已覆盖主要贡献骨架；新闭式只是 Delta 固定方向二次 surrogate 的特例。动作前 joint moments、simultaneous coverage、自由运行 total effect 与同信息同预算优势仍缺。三路最终字节审查通过的是 conditional control theorem，不是原创方法或实效。R05 在 attempt 3/3 后耗尽并 park，候选增量0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
 
+## R06 v3 ranking decision (2026-10-10)
+
+R06 v3 **不进入活动池或 top-15**。它完成了 v2 留下的数学缺口：在每个未来冻结 Delta 因子有公开正最小奇异值裕量时，写入影响得到两侧乘积界，envelope PPS 获得明确竞争因子；同一裕量又严格下界当前 key 的剩余误差，给出 preservation--plasticity 边界。
+
+但这个正面结果依赖额外 margin enforcement，长 horizon 上可指数变松；完整 Jacobian、原生 joint audit tuple、paired outcome 与同成本优势仍缺。Grazzi 等已覆盖 Delta/generalized-Householder 谱与负特征值分支，i-ResNet/Residual Flows 覆盖可逆残差机制，PPS/Neyman/active-testing 覆盖抽样骨架。最终字节三路审查通过的是 conditional theorem/debugging control，不是新 updater、估计器或实效。R06 在 attempt 3/3 后耗尽并 park，候选增量0；计数保持 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
+

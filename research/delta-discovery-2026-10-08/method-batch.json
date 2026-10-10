@@ -343,6 +343,16 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V4_DELIVERY_READBACK.json",
         "sha256": "1a0fdfbede3d4f59e390d98038a348ad8787fa0fc74c68df849931829909f046"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+      "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+      "status": "accepted_conditional_survival_margin_audit_factor_and_plasticity_boundary_control_lineage_exhausted_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -376,6 +386,7 @@
       ,"R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment."
       ,"R03 v3 supplies a reviewed full-law Wasserstein perturbation recurrence, ordered horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility condition. Generic Markov perturbation/robust-MDP collisions, non-native constants and measurement gaps leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
       ,"R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
+      ,"R06 v3 supplies a reviewed exact rank-one singular survival product, conditional Kantorovich audit factor and matching current-residual plasticity floor. Generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus the missing native joint object leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {
@@ -396,7 +407,8 @@
     "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded.",
     "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery completed with exact readback.",
-    "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
+    "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
+    "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; publication and exact readback pending."
   }
 }
 

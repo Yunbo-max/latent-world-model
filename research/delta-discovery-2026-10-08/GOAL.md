@@ -275,6 +275,12 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 
 决定性反例均被保留：线性项、有限非线性余项、半正定端点和低秩遗漏方向都能破坏外推；两个完全相同前缀可接出一个满足、一个违反夹逼的未来，因此非平凡 `delta` 不能仅从合法前缀确定。独立数学、来源和对抗复核确认 sketch/Newton、Hessian averaging 与 online/dynamic regret 已覆盖带强假设的正面机制。R20 用满三次修订并最终 park；留下的是条件定理和 no-go/control，不增加候选、准入或选择，实验未知且未执行。
 
+## R06 v3 生存裕量—可塑性最终修订（2026-10-10）
+
+[第三次修订](repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md)没有删除 v2 的“同一前缀可被未来抹除或保留”反例，而是明确增加可部署检查的假设：每个冻结 Delta 因子同时非扩张并具有公开的最小奇异值裕量。于是无须假定未来 key 交换，就有 `alpha||U||<=||PU||<=||U||`；在固定或前缀可测 horizon、两套比例设计都不触发 cap 时，v2 的 envelope PPS 相对未来 oracle 的因子不超过 `(1+alpha)^2/(4alpha)`。
+
+同一个 rank-one 因子也给出 `e+=(1-rho)e`，所以生存裕量强制 `||e+||>=eta||e||`：保留旧扰动和快速消掉当前误差不是免费兼得。统一裕量在长 horizon 上指数衰减；非零无限乘积又要求有限总 certified overwrite-cap budget。三路最终字节审查通过该条件定理，同时确认 generalized-Householder、invertible residual 与 PPS/proposal allocation 的直接碰撞及原生联合测量缺口。R06 已用满 3/3 次修订并 park；候选增量为零、实验未知，计数仍为5历史/0活动/0科学准入/0选择。
+
 
 ## R06 v2：收缩包络修复
 

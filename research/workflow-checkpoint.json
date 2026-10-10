@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T20:49:11Z",
+  "recorded_at": "2026-10-10T21:40:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -176,7 +176,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-10 20:32:00 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 21:40:00 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -187,7 +187,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Publish and exact-readback R05 v4, then continue the earliest independent unexhausted evidence-backed repair lineage. R05 is exhausted after attempt 3/3; reopen only for Delta-specific solvable nonrectangular structure, lawful joint evidence with simultaneous coverage, or matched-information total-cost/statistical advantage over direct contextual prediction or conditional DRO.",
+  "next_action": "Publish and exact-readback R06 v3, then continue the earliest independent unexhausted evidence-backed repair lineage. R06 is exhausted after attempt 3/3; reopen only for a tractable complete-state margin, lawful native matched-cost audit object, or proved same-information advantage over the preservation-plasticity boundary.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -871,17 +871,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R03_v2_coupled_horizon_published_exact_readback_no_candidate",
+    "status": "repair_R06_v3_survival_margin_final_reviews_passed_pending_delivery_no_candidate_lineage_exhausted",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "bcb8a7e486267ba0ddf36aad08b43e444d320cfd",
+    "current_delivery_parent": "894e652f466f8b05e383f316b7b4f3b375faba1c",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R04 v3 combines explicit slow/fast representability with the v2 ordered E(I-D) forcing and a fixed-law joint quadratic future risk. The constrained normal equation is known mathematics; p>alpha^T is a correct generic scalar survival boundary, not Delta-specific novelty. Final-byte independent math/source reviews pass conditional accuracy and support parking after attempt 3; no execution/new D.",
-    "originality_and_native_measurement": "Generic quadratic Bayes action, selective fast/slow consolidation and cost-aware counterfactual routing are known. Dual-Layer 2608.22215v2, Leimer 2019, Goldman 2024, two distinct Sleep lines, SynControl and SEAL are recorded with implementation gaps. LongMemEval/SEAL expose endpoints, not C/L/G/g or paired potential outcomes; no native same-budget joint-survival measurement.",
+    "latest_math_result": "R06 v3 enforces a public per-factor minimum singular margin on the frozen Delta path, proving alpha||U||<=||PU||<=||U||, a conditional Kantorovich audit factor, and the exact matching residual floor ||e+||>=eta||e||. Final-byte math/source/adversarial reviews pass only the conditional theorem; long-horizon decay, full-Jacobian scope and plasticity cost remain explicit. R06 is exhausted after attempt 3; no execution/new D.",
+    "originality_and_native_measurement": "Grazzi et al. directly cover generalized-Householder Delta spectra and the negative-eigenvalue branch; i-ResNet/Residual Flows cover invertible residual margins; PPS/Neyman/Imberg/Active Testing cover adjacent audit allocation principles. Existing native assets do not expose the joint audit tuple, enforced effective margin, paired update outcomes or frozen/full-Jacobian comparison.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -2151,6 +2151,25 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V2_DELIVERY_READBACK.json",
       "sha256": "6b303821dbca1065df1cbf3f7c1f811871aab75ee30fe97611cfeab1cd6f957f"
     }
+  },
+  "repair_R06_v3_survival_margin_plasticity": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R06_v2_contractive_envelope",
+    "screen_sha256": "5adaebe0d6d915ba1102a745d5a4daeb3def86b3e8ffbbe76d07430da35e0338",
+    "artifact_sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+    "source_audit_sha256": "50d1c6adc7801e4244d104dfeec257114391f081cf9039605045274e4ff1f304",
+    "math_review_sha256": "9d14bd508d430accfe5d5e276187bfe15464a7070f053650cf3105e2f363acde",
+    "source_review_sha256": "e8bd21ca96c492803188173287f3ae2efc74a590282481cdcc86b4d673e57375",
+    "adversarial_review_sha256": "bc20cb69cc473e846f45e4dbfca02b4fdce99d6b05570e78e83f06b046d20295",
+    "mathematical_status": "passed_conditional_exact_rank_one_survival_product_audit_competitive_factor_and_plasticity_boundary",
+    "contribution_status": "direct_generalized_Householder_invertible_residual_and_PPS_collision_Delta_specific_debug_control_only",
+    "measurement_status": "native_joint_margin_propensity_paired_outcome_and_full_Jacobian_object_missing",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_3_of_3_lineage_exhausted",
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
   }
 }
 
