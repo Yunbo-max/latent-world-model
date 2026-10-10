@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T12:54:32Z",
+  "recorded_at": "2026-10-10T13:58:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R19_switched_protection_fiber_published_exact_readback_no_candidate",
+  "status": "repair_R20_nonseparable_curvature_rank_boundary_reviewed_ready_for_expected_parent_publication_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "c82ed7a183b18f35fa59a772243474136f0e8d18",
+  "delivery_parent": "ce191201e0721cb37bbc25841209e67ac5291ba8",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -195,7 +195,7 @@
       "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0."
     ]
   },
-  "next_action": "R16 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions. Reopen R16 only with independent justification of the simultaneous ODE plus a structured exact or certified approximate action with matched-budget advantage, or with new causal revision evidence.",
+  "next_action": "R20 is parked after attempt 1 as a nonseparable-curvature rank-boundary theorem/control. Reopen only with a legal prefix-causal structured curvature estimator, a certified matched-total-cost advantage over rank-r Delta/direct predictors/iterative solves, and a native measurable consequence; otherwise continue the earliest independent evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2075,5 +2075,65 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_DELIVERY_READBACK.json",
       "sha256": "909f2c187c755c441e65b0152b9673170b70123811c171e6e281fd550c37ab2b"
     }
+  },
+  "repair_R20_nonseparable_curvature_rank_boundary": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "cards/D03.json",
+      "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_REPAIR_LINE_SCREEN.md",
+      "sha256": "d13fd7abcc42f2b3af25472f5f448691459abb42d1b995ab3304ddec2164d24a"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_NONSEPARABLE_CURVATURE_EDIT.v1.md",
+      "sha256": "481880030ff3ac535bc6137320bfc3939007e8efb9a1c8838df1d962e813f33e"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R20_NONSEPARABLE_CURVATURE_SOURCE_AUDIT.md",
+      "sha256": "3c6032df1fbdc126ea397ba91ca355001e33f2b1132cc3c357c5bfea75308ad3"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V1.math-review.md",
+      "sha256": "c8867587cc9826807c4427f1047f1f216f99a1467b4585759f51f8986b8870c3",
+      "reviewer": "/root/r20_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V1.source-review.md",
+      "sha256": "819a333e742928f3beb6840cb5208cd2f8c85e13071eef7e65b8d815791fdac1",
+      "reviewer": "/root/r20_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V1.adversarial-review.md",
+      "sha256": "2aa031e28a58aee42bd135651f632108d75b5203476ebc44f908f0db9b252d6d",
+      "reviewer": "/root/r20_adversarial"
+    },
+    "status": "independent_final_byte_math_source_distinctness_measurement_adversarial_reviews_passed_conditional_rank_boundary_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_KKT_separable_cancellation_rank_two_witness_best_rank_one_gap_and_structural_rank_bound",
+    "contribution_status": "scoped_Delta_exact_constraint_rank_boundary;general_local_curvature_family_and_solvers_known",
+    "novelty_status": "MAJOR_KKT_GGN_KFAC_SHAMPOO_SYLVESTER_CrispEdit_AND_STEP2_COLLISION",
+    "measurement_status": "native_endpoints_do_not_expose_fast_state_H_KKT_residual_optimal_rank_or_paired_same_state_actions",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "R09_rank_one_representer_remains_correct_for_left_only_or_fully_separable_metrics",
+    "repair_delta": "derive_general_exact_constraint_KKT;prove_single_Kronecker_right_factor_cancellation;exhibit_nonseparable_rank_two_optimum_with_best_rank_one_gap_1_over_48",
+    "screened_lines": {
+      "nonseparable_query_value_curvature": "completed_R20_parked_as_control",
+      "stability_margin_feedback_response": "standard_resolvent_or_H_infinity_sensitivity_without_new_observable_deferred",
+      "finite_precision_noisy_overwrite": "reduces_to_Kalman_RLS_EMA_rate_distortion_and_quantized_filtering_not_selected"
+    },
+    "unclosed": [
+      "A lawful prefix-causal structured estimator of the coupled curvature.",
+      "A certified matched-total-cost advantage over rank-r Delta, DeltaProduct, constrained CG/Krylov or a direct action predictor.",
+      "A native benchmark object exposing the mechanism rather than downstream endpoints only.",
+      "Factual-validity and release evidence, field-wide originality and empirical effect; no execution authorized."
+    ],
+    "delivery_status": "reviewed_final_bytes_ready_for_expected_parent_main_publication"
   }
 }

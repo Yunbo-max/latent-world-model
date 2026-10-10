@@ -252,3 +252,11 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 若释放让过去不计能量的方向变成 transverse，identity reset 下 jump factor 必为无穷；二维反例明确复现。修复不是删掉反例，而是用完整 reset 转移该方向，或携带至少 (\operatorname{rank}(P_\tau^{1/2}R_{\tau\sigma}K_\sigma)) 个局部实线性动态坐标，并把释放注入显式加入递推。
 
 独立最终字节审查实际发现并修正了同模 reset 漏因子、ledger row-space 维度错配和 selector 分支边界。Baum 等 arXiv:2512.16338v1 已直接覆盖 mode-dependent PSD seminorm、共同 invariant kernel、跨模式矩阵比较和 dwell/leave 条件；Multiple-Lyapunov、广义 Rayleigh、functional observer/充分坐标及本项目 R08/R13/R18 还覆盖其余主体机制。原生任务也不提供保护半范数、reset tangent、cross-kernel 或 paired release state。故 R19 只保留为“共同 kernel 改变时”的 Delta-specific 组合接口调试 theorem/control，第一次修订后 park，不分配 D 编号；计数保持5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。
+
+## R20 非可分 query×value 曲率边界（2026-10-10）
+
+[R20 三线筛选](repairs/R20_REPAIR_LINE_SCREEN.md)选择重新检查 R09/D03 的 rank-one representer 假设。修订没有否定 R09：对左侧度量，甚至对完整的单 Kronecker 度量，右侧 value 因子都会在精确约束 `X^T k=e` 下消去，最优 edit 仍是归一化 inverse-left-metric rank one。
+
+[R20 修订](repairs/R20_NONSEPARABLE_CURVATURE_EDIT.v1.md)给出一般正定 edit-space 曲率的 KKT/Schur 解，并证明真正非可分的 query×value 曲率和精确 damping 之和可以要求更高秩。一个 2×2 可核例的唯一最优 edit 为 rank 2；最佳可行 rank-one 的目标仍严格高 `1/48`。这保留了一个有用的条件边界：完整输出曲率不能总被一个新的左写方向吸收。
+
+但一般 KKT、GGN/natural gradient、K-FAC、Shampoo、generalized Sylvester/Krylov 和 CrispEdit 已覆盖主体数学或相邻功能；PDN/GKA、DeltaProduct、多步 Delta、constrained CG 与 direct rank-r action predictor 是更便宜的同信息对照。当前没有 prefix-only 的合法 coupled-curvature estimator、同预算求解优势或原生 rank-gap scorer。故 R20 作为 reviewed conditional theorem/control park，候选增量0；状态仍为5历史/0活动/0科学准入/0选择，实验未知且未执行。

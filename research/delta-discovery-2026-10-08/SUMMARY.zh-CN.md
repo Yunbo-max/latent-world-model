@@ -245,3 +245,9 @@ KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 和普通 cost-sensitive/凸二�
 这轮修的是一个组合接口。旧结果分别说明固定保护纤维内可以收缩、固定读出可以 transport、证据足够时可以考虑释放；但只要释放把过去被半范数忽略的方向重新算作误差，旧证书就可能从零瞬间跳到正值。R19 给出了精确条件：旧 kernel 经 reset 后必须仍落在新 kernel，有限乘法 jump factor 才存在。否则必须 erase/transfer，或额外保存新暴露方向的动态坐标，并把这笔注入成本写进递推。
 
 独立审查先抓出了同模 reset 漏乘、ledger basis 与动态 coefficient 混淆、离散 selector 边界外推三处问题；修订后条件数学通过。它最可能失败在完整状态 metric 太贵、释放真实性仍不可辨识、非线性/不同分支没有统一证书，以及 direct value ledger 更简单。Baum 等 2025 switched-seminorm 工作已经直接覆盖共同 kernel 下的 mode-dependent 半范数与 dwell/leave；R19 只剩 kernel 改变时的 sharp debug boundary。因此它是有用的 theorem/control，不是新架构。当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行代码或实验。
+
+## R20：右侧曲率不是简单多乘一个矩阵
+
+R09 的 rank-one 结论没有错；它假设所有 value 列共享同一个左侧风险度量。R20 把完整 query×value 曲率放回精确约束 `X^T k=e`：如果整个 metric 仍是一个 Kronecker 乘积，右侧因子会严格抵消，还是 rank one；但不可分的 Kronecker 和可以让不同输出模态需要不同左写方向。
+
+最小 2×2 例中，唯一最优 edit 的确是 rank 2，而且最佳 rank-one 仍差 `1/48`。所以“完整曲率下 rank one 永远足够”这一外推被修正了。它最可能失败在三个地方：合法前缀看不到真正未来曲率；稠密 KKT/Sylvester solve 太贵；rank-r Delta、CG 或直接 predictor 用同样信息已经能做同样动作。K-FAC、Shampoo、CrispEdit、一般 GGN/KKT 和矩阵方程方法也形成重大碰撞。故 R20 保留为条件数学边界，不是新架构；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知且没有运行实验。

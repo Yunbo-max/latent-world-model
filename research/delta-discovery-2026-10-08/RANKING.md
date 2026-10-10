@@ -110,3 +110,9 @@ R18 不进入活动池或 top15。它修复了 R17 的递归作用域：memory-o
 R19 不进入活动池或 top15。它修复了三个正确但不闭合的旧结果之间的接口：每个模式内的 transverse contraction、固定 protected read 的 transport 与 evidence-triggered release，并给出 semidefinite kernel shrinking 时不存在有限 cross-mode multiplier 的 sharp 条件、二维反例和 released-coordinate rank 下界。
 
 但 Baum 等 arXiv:2512.16338v1 已直接覆盖 mode-dependent PSD seminorm、共同 invariant kernel、跨模式比较和 dwell/leave；multiple-Lyapunov、PSD domination、switched disturbance bound 和直接充分坐标又覆盖其余主体数学。R08/R13/R18 也分别覆盖 release decision、动态读出和完整联合状态商。R19 无可辨识事实释放证据、同预算状态/计算优势或原生内部 scorer。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0，实验效果未知。
+
+## R20 非可分曲率秩边界排名处置
+
+R20 不进入活动池或 top15。它确实修复了 R09/D03 的假设边界：单 Kronecker 两侧度量在 `X^T k=e` 下仍退化为 rank-one inverse-left-metric edit，而非可分 sum-of-Kroneckers 可以使唯一最优 edit 升到 rank 2；最小 witness 相对最佳 rank-one 有精确 `1/48` gap。
+
+然而一般 KKT/GGN、K-FAC、Shampoo、generalized Sylvester/Krylov 和 CrispEdit 已覆盖主体机制或功能，D03 的 full recursive metric 也已包含一般 edit coordinates。完整 solve 的状态与计算远超 ordinary Delta；同信息 rank-r Delta/DeltaProduct、constrained CG 和 direct action prediction 都是强对照。prefix-only 曲率估计、matched-cost advantage 和 native mechanism scorer 均未闭。故 R20 排名处置为 parked conditional theorem/control，候选、准入和选择增量均为0，实验未知。

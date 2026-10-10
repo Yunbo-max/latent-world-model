@@ -219,3 +219,9 @@ R18 的 backward invisible-subspace recursion 与 quotient factorization 是经�
 R19 的 mode-dependent quadratic energies、cross-mode comparison factor 与 switch-count/average-dwell bound 不仅是一般 multiple-Lyapunov 逻辑，也被 Baum 等 arXiv:2512.16338v1 的 switched-seminorm 框架直接覆盖：其 Definition 6、Lemma 1 和 Theorem 2 使用 mode-indexed PSD seminorm、共同 invariant kernel、`P_new preceq beta P_old` 以及 dwell/leave 条件。半正定支配的有限因子条件又是标准 generalized-Rayleigh/kernel inclusion；释放坐标的附加项与 switched disturbance accounting、functional observer 和直接充分坐标也有强近邻。
 
 [R19 source audit](sources/R19_SWITCHED_PROTECTION_FIBER_SOURCE_AUDIT.md)保留的窄差异，仅是把 Baum 等固定共同 kernel 的前提与 ordinary Delta 的 evidence-dependent protection release 接起来，给出 kernel shrinking 时 cross factor 无穷的精确反例，以及必须转移或显式携带的局部动态坐标秩。它没有新 release policy、事实有效性证据、低成本 metric estimator 或 native mechanism scorer；最强同信息控制是 common full metric、direct protected-value ledger、reset transfer 与经典 hybrid certificate。故处置为 parked conditional theorem/control，候选增量0。
+
+## R20 nonseparable curvature rank boundary 的最近工作处置
+
+R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis projection；其矩阵形式是 multi-term generalized Sylvester equation。K-FAC 明确从 empirical Fisher/GGN 的 expectation-of-Kronecker 块出发，并以 product-of-expectations 做可逆近似；Shampoo 已有 tensor-mode 双侧预条件与 metric-proximal 视角。CrispEdit 又直接用 capability-preservation GNH/K-FAC factors、eigenbasis mask 和 sequential curvature cache 做参数编辑。它与 Delta fast-state exact interpolation 不同，但已是重大功能碰撞。
+
+[R20 source audit](sources/R20_NONSEPARABLE_CURVATURE_SOURCE_AUDIT.md)保留的窄差异，是同一当前-key 精确修正约束下的 sharp rank boundary：完整 metric 若真可分，value 因子严格消去；若是不可重新因式分解的 Kronecker 和，则唯一最优动作可高于 rank one，2×2 witness 对最佳 rank-one 有 `1/48` 严格 gap。PDN/GKA/QED仍是低成本单左方向或 query-solve 对照，DeltaProduct/多步 Delta 能表达 rank-r 动作，constrained CG 和 direct action predictor 是同信息强对照。没有 causal estimator、成本优势或 native rank-gap object，因此只作 parked theorem/control，不进入候选池。
