@@ -216,7 +216,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
       "sha256": "8e765da62723fe76480397284c716259ac8dad6ddacc9c8da18842c5d56df78a",
-      "status": "accepted_conditional_predictive_quotient_decodability_control_parked_not_candidate"
+      "status": "accepted_conditional_predictive_quotient_decodability_control_parked_not_candidate",
+      "publication_commit": "3f7904385001a60cb6cc7e3ff8ebefddcfed5b06",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_DELIVERY_READBACK.json",
+        "sha256": "2642f9b80b75d6c12fe011fed271ab62ffb1649627d376c7df7ccb23b82e7960"
+      }
     }
   ],
   "counting_policy": {
@@ -254,6 +259,6 @@
     "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
     "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
     "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; expected-parent main delivery pending."
+    "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }

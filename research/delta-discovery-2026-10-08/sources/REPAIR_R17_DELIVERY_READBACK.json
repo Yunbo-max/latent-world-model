@@ -1,0 +1,75 @@
+{
+  "kind": "literal-main-exact-readback-receipt",
+  "recorded_at": "2026-10-10T11:02:55Z",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "c82ed7a183b18f35fa59a772243474136f0e8d18",
+  "publication_commit": "3f7904385001a60cb6cc7e3ff8ebefddcfed5b06",
+  "publication_tree": "8c9821ab97dd2866d919934503d0337259eae0e4",
+  "local_equivalent_commit": "f720d1dae79caba3d5e1f7601135488f79470248",
+  "force": false,
+  "expected_sha_enforced": true,
+  "result": "all_12_substantive_files_exact_blob_and_sha256_readback_verified",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "git_blob": "80f65a9de26248f5bcb258a9760b007d2f480cd8",
+      "sha256": "d39a0b5da42e19a3725f452b8ed0a4fb77f6905c9efcce8ad66844e636c8e406"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "git_blob": "fb486e4ed00a386fec48b14e32747d3aa0136050",
+      "sha256": "cef87d9613f3345433b461652d8b5416452c150996b99522edbb8fb2e99667c3"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "git_blob": "2d9a4b10ff983878a0f7d396f69dce898db188c9",
+      "sha256": "e52b6eb120f5c9a67f72da3c96d72744bc3ebd6577b4dc3d5775cbb6c02bf086"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "git_blob": "c79cd7e75d5ba46a739584f972f80a5902e123ca",
+      "sha256": "060db5a301f6d2af466d355ba63c21cfe3f27b5c76c20e7e36fa1dd28c739599"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "git_blob": "3994c7f1dbb4825829f52513077e9f3dc2be5ed6",
+      "sha256": "30af798c5174d5eb605d2faf532ca3db0a022be70b7d7994dd280f443bb5ceda"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
+      "git_blob": "0bfcd0c01d4cc787c58eb090057ccb01ffcf07b4",
+      "sha256": "8e765da62723fe76480397284c716259ac8dad6ddacc9c8da18842c5d56df78a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.md",
+      "git_blob": "b87d94e93c7270db3e60abfebf7632f759285b7d",
+      "sha256": "7f1404798ed0a66f8325bebb6de0847ab3b158a478523f454ad1d180a2a03bfc"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.adversarial-review.md",
+      "git_blob": "de14709b6ec366ba33c370813c9d0c281a47128a",
+      "sha256": "55646692ee45145057a70ca7b69fcf0d84e2a6bfc73587a63f1a348352df37c5"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.math-review.md",
+      "git_blob": "052131392ab5ab47f58468d91bbc09cbe1abc8a2",
+      "sha256": "87142f86cd80d758d326e89aa04e2774f12fdc6d7a6af4c02e92688a2a254006"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V1.source-review.md",
+      "git_blob": "1d898dd5882cf05e1681cc79928aff5e17d30557",
+      "sha256": "fa23facce2286c0e8d0073a38bcddee9e0d33985d05d556bb0ede9ff6dd8c89e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R17_PREDICTIVE_QUOTIENT_SOURCE_AUDIT.md",
+      "git_blob": "8bff3b9c3e5ff7c6a8f69bef4f28d5a2b13d2266",
+      "sha256": "2b94f1e9c3ec3d8753e045462fbb81cdc57db3f41a38ea249182c5ff73279ba2"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "git_blob": "4e6ab785098e24170862b8d09bd22d0d3c9c0e3b",
+      "sha256": "ba2b08fe9c69bb8eeb710d405b75e6c57834c1a905d64e80510d036569656cab"
+    }
+  ]
+}
