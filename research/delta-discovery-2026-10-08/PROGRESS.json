@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T17:48:18Z",
+  "recorded_at": "2026-10-10T17:51:24Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R01_v3_transported_credit_quotient_final_reviewed_pending_publication_no_candidate",
+  "status": "repair_R01_v3_transported_credit_quotient_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2355,7 +2355,7 @@
       "sha256": "3605b67b69fbdf560d1c226e179cdeaa29bb2da8471a345e03017365e07e7412",
       "reviewer": "/root/r01_v3_adversarial"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_transported_credit_quotient_control_pending_publication",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_transported_credit_quotient_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditional_affine_frozen_path_transported_adjoint_minimum_right_width_for_declared_ambient_scalar_credit_family",
       "contribution": "useful_Delta_specialized_minimum_right_width_and_formal_full_width_boundary_not_new_observability_quotient_mechanism",
@@ -2383,7 +2383,12 @@
       "Objective/goal-oriented adjoint model-reduction nearest-work coverage before any broader field claim.",
       "Native mechanism measurement and empirical effect; no model code, training, inference or scoring was run."
     ],
-    "delivery_status": "pending_expected_parent_publication"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "968c4f536abff1f8bdcfa067e3f7bdd7b3f52da3",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R01_V3_DELIVERY_READBACK.json",
+      "sha256": "fd19146b3ebe71825e96af3b3464a8879e21beedb433e223e17c96c4cb471bed"
+    }
   }
 }
 

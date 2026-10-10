@@ -1,0 +1,26 @@
+{
+  "kind": "github-exact-readback-receipt",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "49e6beea2d1ab454dfbdd6c34c312db5b17194df",
+  "substantive_commit": "968c4f536abff1f8bdcfa067e3f7bdd7b3f52da3",
+  "recorded_at": "2026-10-10T17:51:24Z",
+  "expected_parent_update": true,
+  "force": false,
+  "all_files_exact_readback": true,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R01_REPAIR_LINE_SCREEN.v3.md", "git_blob_sha": "fa5b1102d414bfc111fe5d137e43ab8fee8349f6"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md", "git_blob_sha": "789d4f08367f180d6020e525358216f4bbdfb1c0"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R01_V3_TRANSPORTED_CREDIT_SOURCE_AUDIT.md", "git_blob_sha": "06c3922ed51313cbb196758c511822ebe40fdf8a"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.math-review.md", "git_blob_sha": "f6e624e99c542727cafb5c5f5fc00cabf92244fd"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.source-review.md", "git_blob_sha": "292aa49a2f01c96dcd0338657f7df0db67e76b5f"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.adversarial-review.md", "git_blob_sha": "4890e796e2ac44434ba2af4082e0a3e28d284a06"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "git_blob_sha": "f4ea8b0aceba5c9ef357e8cc871740412d9ee059"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "git_blob_sha": "4839818d33f28bbf2e49c339bce847baf463069e"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "git_blob_sha": "703891940b035f46d0a16cae549c30ab393b2bc9"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "git_blob_sha": "7fa86b6ad90e9ac448f7a1cb4f70f994fe0d6bb4"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "git_blob_sha": "147d39c5d6453d97b4144179c638abaf58b43c46"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "git_blob_sha": "a375de9b22d5df3bc3ba005c36f0be8d9d1bcc6c"},
+    {"path": "research/workflow-checkpoint.json", "git_blob_sha": "b6debe8c55acf51664b68f5ec4184e48e30f1feb"}
+  ]
+}
