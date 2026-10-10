@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T04:50:06Z",
+  "recorded_at": "2026-10-10T04:52:19Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 04:50:06 UTC",
+  "updated_at": "2026-10-10 04:52:19 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1436,7 +1436,12 @@
     "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_equal_bit_representation_operator_boundary_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_10_files_exact_readback_verified",
+    "publication_commit": "c1eb39bdea7dc116418acbd3517be30d6720a040",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_DELIVERY_READBACK.json",
+      "sha256": "256a67a75eb1ce1d978670f28c5b6acdcdd6939614b50d749fb2ef1700703159"
+    }
   }
 }
 

@@ -1,0 +1,70 @@
+{
+  "kind": "exact-delivery-readback",
+  "repair_id": "R10",
+  "recorded_at": "2026-10-10T04:52:19Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "ca384afc014e4222b47c9935677788b59635669d",
+  "substantive_commit": "c1eb39bdea7dc116418acbd3517be30d6720a040",
+  "force": false,
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "995fab0a867a490b3c2b66de76b4f4b3f3d5df8067bbc8b77b04198c71b81c2d",
+      "blob_sha": "53d0acdc1accf74fa5863f36cd583a53757041f3"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "9c292d00282be1cbe0bbb933ab21417cbe3698d80e5e0b4a17e16d8f64015a9a",
+      "blob_sha": "2ed674043719b3f72e326c050e2979d7fa7c25d6"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "2cc8a25ad1b6656614ddbc2e7ec754881cbb20e47d4ae82e8d634c23d7d0602f",
+      "blob_sha": "44a52b8652dd9664709771352bffa91f180094e3"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "53aa8edd16b47f204da19aa289d85a39aeaa1b1a01f26744c13dc07a67fd3dfc",
+      "blob_sha": "1373c025cec0ae48d3bc77eb2d30fa7380ee1c25"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763",
+      "blob_sha": "d6a18658248f046421c6b0897ad71161bd110e3d"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_EQUAL_BIT_RESIDUAL_SOURCE_AUDIT.md",
+      "sha256": "310d36ac4942281fc44eaffd9116b3a9042f0e7acffb4d8be0a9ef8603552758",
+      "blob_sha": "b4072d75aa68e920c777da4e91a5ac3033de907c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.math-review.md",
+      "sha256": "295b50d4ca3c334e6b2a1943f893d6b82c1a255a2cd9455d200f67c9a646f01a",
+      "blob_sha": "abd6fb1cd31f3e9ac5e85e81dd636e6c36d4d610"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.source-review.md",
+      "sha256": "ac7a58624fb85e1a3ea124d9151163a35649ee0b6890a0dc317ba5d93cc231a1",
+      "blob_sha": "3b99c7b5020ffe077c8f4b7ac763ef5add0d914e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.adversarial-review.md",
+      "sha256": "2fc3946a9b6f0adeac9dbda5754d642affca8979a20a28af8d89517947a7577c",
+      "blob_sha": "0fd0d346cb9768c3e36ba481bd9f85622ff71894"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_CONTEXT_READBACK.json",
+      "sha256": "dd432d3dfc52fd4db522ac0a2ff07b03876849197ceef5a80a1fc1a8bb2e1b32",
+      "blob_sha": "021e1c88a4678701e497cb87e82e2b9d1cbb6009"
+    }
+  ],
+  "verification": "all_10_remote_files_equal_local_bytes_at_substantive_commit",
+  "counts_after": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientific_admitted": 0,
+    "selected": 0
+  },
+  "execution": "none_math_source_review_only"
+}
