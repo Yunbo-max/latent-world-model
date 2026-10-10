@@ -2027,9 +2027,14 @@
       "source": "a4928a785b5a0c2cacdd9394aa8c5c32849625784754514ee285f26fd1a663c1",
       "adversarial": "b073c407cab454453156c8311099d780d9ab18ce6545d85dd330c74fb5e87ba4"
     },
-    "status": "reviewed_conditional_control_parked_not_candidate_pending_delivery",
+    "status": "reviewed_conditional_control_parked_not_candidate_published_exact_readback",
     "candidate_delta": 0,
     "empirical_status": "unknown_no_execution",
-    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "55b897e9fb6b369d54e0ae509eb4c7376a576964",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V2_DELIVERY_READBACK.json",
+      "sha256": "df2bf24fc48c6c04a1c43725f676e214f42f82147811ba623d485f6bba87d813"
+    }
   }
 }

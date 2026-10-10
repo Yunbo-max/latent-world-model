@@ -1,0 +1,32 @@
+{
+  "kind": "literal-main-exact-readback-receipt",
+  "recorded_at": "2026-10-10T14:54:26Z",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "a9808056ece5f74a65282fe0477ecde96acc60f9",
+  "publication_commit": "55b897e9fb6b369d54e0ae509eb4c7376a576964",
+  "force": false,
+  "exact_readback": true,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R20_REPAIR_LINE_SCREEN.v2.md", "sha256": "b70b3f7e1d8a80ccfa22975eaedf22f9177f98ce1813e75c8a5dbc09ae0c307b"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md", "sha256": "dfe5b8b1cde3c0798432411e76178f5dc87925cae4510856df1862c5a1cf367c"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R20_V2_PREFIX_CAUSAL_CURVATURE_SOURCE_AUDIT.md", "sha256": "cfab7352929684c72bb70793b9c13fac71e23c9a79b0a445ab57a228adfbe23f"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.math-review.md", "sha256": "98b4eae4f62419ad0ef340ffc71cae22a7402239a6fd7839d6d85d5db416e346"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.source-review.md", "sha256": "a4928a785b5a0c2cacdd9394aa8c5c32849625784754514ee285f26fd1a663c1"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.adversarial-review.md", "sha256": "b073c407cab454453156c8311099d780d9ab18ce6545d85dd330c74fb5e87ba4"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "sha256": "c3799e84ef596f6d4506c8158fe18e2b57e90211ee7c34631059fa9b3e26d6e1"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "sha256": "3bed7570589e3c02de441bdebbc0cd170816b4cbfa6bf98584cb733a27d915d9"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "sha256": "1748aac2683d4dba04c15a3c511e2b674e3e75f4b51eb0690908ecea84cfa115"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "sha256": "32ce60e8e402b185f2c9e63fa47d7265c2c906e20f6b7228257543ba02f66968"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "sha256": "b42beceb1e3e12afc0216d41973b10de500d6fc9adf20ace8f23528916280929"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "sha256": "ff9a4d5c92e68f74c93e0dcdf983f9c5f9a6cb67545690cd2b230e0604bd5412"},
+    {"path": "research/workflow-checkpoint.json", "sha256": "f500f802c4a91e37766065cf0a00ef1f51c79fad1c8810a58f2ff4ff04c44438"}
+  ],
+  "counts_after_readback": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientific_admitted": 0,
+    "selected": 0
+  },
+  "execution": "no project code, tests, model execution, training, inference, scoring, dataset/model download, GPU job or Docker"
+}

@@ -259,7 +259,12 @@
       "status": "accepted_conditional_prefix_causal_lowrank_curvature_control_parked_not_candidate",
       "candidate_delta": 0,
       "substantive_attempt": 2,
-      "empirical_status": "unknown_no_execution"
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": "55b897e9fb6b369d54e0ae509eb4c7376a576964",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V2_DELIVERY_READBACK.json",
+        "sha256": "df2bf24fc48c6c04a1c43725f676e214f42f82147811ba623d485f6bba87d813"
+      }
     }
   ],
   "counting_policy": {
@@ -305,6 +310,6 @@
     "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; delivery pending."
+    "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }
