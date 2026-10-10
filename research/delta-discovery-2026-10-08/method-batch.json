@@ -187,8 +187,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
       "sha256": "9b08b160d5b0a28c6fcabb7d88ea5d1fadca373f370f580640be343aeb20dbca",
       "status": "accepted_conditional_posterior_provenance_identity_ambiguity_control_parked_not_candidate",
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "664261c15af8d18a710f2bfdd2f719943895a19b",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_DELIVERY_READBACK.json",
+        "sha256": "c7a699da0d204491158fc3cef8de0107a9b729aabac97713f20fa842213fd75f"
+      }
     }
   ],
   "counting_policy": {

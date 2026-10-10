@@ -1,0 +1,80 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R14",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "d6f9bd833586f253afddfd5fcb6f11d2b401c50c",
+  "publication_commit": "664261c15af8d18a710f2bfdd2f719943895a19b",
+  "publication_tree": "08a65c15615bf7d3bd89b187e21e0104a3081228",
+  "verified_at": "2026-10-10T08:44:00Z",
+  "exact_ref": "664261c15af8d18a710f2bfdd2f719943895a19b",
+  "branch_head_at_readback": "664261c15af8d18a710f2bfdd2f719943895a19b",
+  "force": false,
+  "execution_boundary": "math_source_review_only_no_project_code_test_training_inference_or_scoring",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "99e82f3080e04c7a28533d86dffd6f8eafad52312322dad10415004a21f2afb6",
+      "bytes": 113180
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "da0e87997fed659583709626d2fec8ced066ac540ef181d96a487f95fd114560",
+      "bytes": 12366
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "8fa892a75902af775e6895ee9b2f8f0b4317dd40f42c01ff568bc1e5cd093898",
+      "bytes": 42729
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "0fbc39525a4496864541a221db6d12b50e0171573d1a209ce3b44aa6fb3d6139",
+      "bytes": 39435
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "4cbfb818b30ee1851b4823703a3b2d2d3895facf65e69a90e22d281befc5c2bd",
+      "bytes": 111945
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.md",
+      "sha256": "98d33cc16cb1afaeddb2c6cb67c8f7b3953410a0399211c4f6a8f9818b4fc642",
+      "bytes": 2627
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
+      "sha256": "9b08b160d5b0a28c6fcabb7d88ea5d1fadca373f370f580640be343aeb20dbca",
+      "bytes": 13883
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R14_POSTERIOR_PROVENANCE_SOURCE_AUDIT.md",
+      "sha256": "1ce269bade6d255ab14cf8acd4cec530ee1e8de89fa21c3016ce448f88d55d37",
+      "bytes": 8718
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.math-review.md",
+      "sha256": "d591dc04c0774086fe67b7b2dad98101e913f51de9567fafba97f3d504385b8d",
+      "bytes": 2292
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.source-review.md",
+      "sha256": "10d5d2a97b9f6c7eb592a9a60a54a7778465d3f654381121f8827bb891006fcb",
+      "bytes": 2440
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.adversarial-review.md",
+      "sha256": "3c265d018ad183fcd024e40d48a6d8fa05d674654563894c1b07bf984143348e",
+      "bytes": 1749
+    }
+  ],
+  "count_status": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientific_admitted": 0,
+    "selected": 0,
+    "candidate_delta": 0
+  },
+  "conclusion": "All 11 changed publication files were fetched at the exact publication commit and SHA256-verified. R14 is a parked conditional theorem/control, not an admitted candidate; empirical effect remains unknown."
+}
