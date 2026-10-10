@@ -1,0 +1,30 @@
+{
+  "kind": "expected-parent-main-delivery-readback",
+  "repair_id": "R06",
+  "version": "v3",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "894e652f466f8b05e383f316b7b4f3b375faba1c",
+  "publication_commit": "ee157a8e0bcac7fd63ae3d6767927150c05d1dca",
+  "publication_tree": "1dec3a428599a081026214f8a80c0752776b2d79",
+  "force": false,
+  "branch_head_after_update": "ee157a8e0bcac7fd63ae3d6767927150c05d1dca",
+  "tree_truncated": false,
+  "all_changed_blob_shas_match": true,
+  "changed_files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R06_REPAIR_LINE_SCREEN.v3.md", "blob_sha": "4661c0c7db707165703bc9778010ee25cdbf0fbe"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md", "blob_sha": "c130ae0b59b86046c3011e8dd5fb299c8620e95b"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R06_V3_SURVIVAL_MARGIN_SOURCE_AUDIT.md", "blob_sha": "f45a59ea74d9d582926e67de15715e635d2e09b1"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V3.math-review.md", "blob_sha": "5111e63473531ef456244b4c90958e399978f9cb"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V3.source-review.md", "blob_sha": "828cf7068d7b780b2dd0dbe3716687be435fde84"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V3.adversarial-review.md", "blob_sha": "2c775155c03a622b09255f64dfcb92267572ded1"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "3ec58e34b8ce57db5d58103e5517ee85f6f94d86"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "6abf103a0a24a43de7a87b76169bc353e156317c"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "2c250045b0f4cd3bca5b569d0ea79f1f9448d808"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob_sha": "516f4a8c01c1f0177454f425415ca8f5e8dfe469"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob_sha": "02b6c25fc4e9231f100da218afc9f3e7112e4f56"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "blob_sha": "e80262e82c72b6fe54587f78b4713de942a64db2"},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "7e6cd2991c1955e463ff61e813f63583ae65949e"}
+  ],
+  "scope": "Mathematical/source/measurement feasibility only; no code, tests, training, inference, scoring, data/model download, GPU, paid service or Docker execution."
+}

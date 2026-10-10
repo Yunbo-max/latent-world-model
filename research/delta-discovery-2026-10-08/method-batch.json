@@ -351,8 +351,11 @@
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "ee157a8e0bcac7fd63ae3d6767927150c05d1dca",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_V3_DELIVERY_READBACK.json",
+        "sha256": "668efbaf5d39daccf862e8ac17cb70701d393936fa389e807c49af98311e67bf"
+      }
     }
   ],
   "counting_policy": {
@@ -408,7 +411,7 @@
     "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded.",
     "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery completed with exact readback.",
     "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
-    "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; publication and exact readback pending."
+    "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
   }
 }
 
