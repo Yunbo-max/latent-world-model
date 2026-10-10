@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T15:55:12Z",
+  "recorded_at": "2026-10-10T16:39:35Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R20_v3_sharp_spectral_transfer_and_prefix_impossibility_published_exact_readback_no_candidate",
+  "status": "repair_R06_v2_contractive_envelope_independent_reviews_passed_pending_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "ce191201e0721cb37bbc25841209e67ac5291ba8",
+  "delivery_parent": "1c8636fdc0c86f8da7d9c04c634994173c56147a",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -194,10 +194,11 @@
       "R15 screened three repair lines and repaired the finite-action counterfactual-credit line into an exact multivariate response-surface rank theorem: full quadratic coefficients require a full-rank lifted Gram, scalar write/no-write cannot separate slope/curvature, and ill-conditioning has an explicit information price. Independent exact-byte math/source/adversarial reviews pass only a conditional control. R02/Step2, response-surface design, OPE, MIPS/OffCEM and Ouroboros already cover the mechanism; parked after attempt 1 with candidate delta 0 and empirical effect unknown.",
       "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0.",
       "R20 v2 replaced the dense future-curvature oracle with a strictly prefix-measurable damped low-rank surrogate and derived its exact equality-constrained projected Woodbury action. It recovers the v1 witness, distinguishes per-example gradient outer products from GGN, and adds exact drift and norm-blowup counterexamples. Final-byte math/source/adversarial reviews pass only a conditional theorem/control. M-FAC, SENG, WoodFisher, OGD, GEM and SketchOGD are major controls; transfer, total-cost advantage and native measurement remain open, so candidate delta is 0.",
-      "R20 v3 completed the final bounded repair. On the affine feasible span, a relative future/surrogate spectral sandwich gives the sharp shared-constraint competitive factor (M+m)^2/(4Mm), or 1/(1-delta^2) for a symmetric radius. Symmetric Loewner minimax returns the unchanged v2 action. Independent review supplied tangent-only, linear-term, nonlinear, semidefinite and missed-direction counterexamples; two identical-prefix futures prove that no nontrivial deterministic transfer radius is action-time checkable without an external continuation law. Spectral-sketch/Newton, Hessian-averaging and online-regret literature cover the positive mechanism under stronger assumptions. R20 is exhausted and parked as a theorem/no-go control; candidate delta 0, empirical effect unknown."
+      "R20 v3 completed the final bounded repair. On the affine feasible span, a relative future/surrogate spectral sandwich gives the sharp shared-constraint competitive factor (M+m)^2/(4Mm), or 1/(1-delta^2) for a symmetric radius. Symmetric Loewner minimax returns the unchanged v2 action. Independent review supplied tangent-only, linear-term, nonlinear, semidefinite and missed-direction counterexamples; two identical-prefix futures prove that no nontrivial deterministic transfer radius is action-time checkable without an external continuation law. Spectral-sketch/Newton, Hessian-averaging and online-regret literature cover the positive mechanism under stronger assumptions. R20 is exhausted and parked as a theorem/no-go control; candidate delta 0, empirical effect unknown.",
+      "R06 v2 replaced the unproved prefix sensitivity proxy with an exact frozen-path contraction envelope X=|beta|||k||||e||. It derives the finite-frame rectangular-minimax HT/PPS allocation, a sharp (1+alpha)^2/(4alpha) factor under an externally justified two-sided continuation law, and an identical-prefix annihilation/preservation witness proving unbounded clairvoyant regret without that lower law. Independent final-byte math/source/adversarial reviews pass the conditional theorem and reject candidate admission because Neyman/PPS/active-testing mechanisms are known, the normalization is offline, the full Jacobian and native joint audit object are missing, and empirical effect is unknown."
     ]
   },
-  "next_action": "R20 is exhausted and parked after attempt 3. Continue the earliest independent evidence-backed lineage; do not reopen R20 without a new prefix-checkable continuation law with explicit coverage or native matched-total-cost advantage.",
+  "next_action": "R06 has used attempt 2 of 3 and remains parked as a conditional theory/control. Reopen only with a prefix-checkable two-sided continuation or residual law, a native randomized audit object, or matched-total-cost advantage over generic learned influence/direct action proposals; otherwise continue the earliest independent evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2254,5 +2255,59 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V3_DELIVERY_READBACK.json",
       "sha256": "a97e5b7e9379a653f69e05274de65a570b9518f35bc38d6d08ab608922cc37ff"
     }
+  },
+  "repair_R06_v2_contractive_envelope": {
+    "repair_id": "R06",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R06_selective_validity_audit",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "e79c48eac13c774e3aac0f17dab904dd2eecf6f36978950be940aa10a1c42030"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_CONTRACTIVE_ENVELOPE_AUDIT.v2.md",
+      "sha256": "93c92c3b31a8b3b46820dfd5a0d90c08de834370e3a347641dfbb7aa887dc5cd"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R06_V2_CONTRACTIVE_ENVELOPE_SOURCE_AUDIT.md",
+      "sha256": "960c9d6878060d51c8fac86e802cfbb8d06195f0829eeb97cae68b7abbc5f348"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V2.math-review.md",
+      "sha256": "4071b86927a1b77ed5f45a2c5fde3674a34882fa93803f57e7b400a3785693b2",
+      "reviewer": "/root/r06_v2_math_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V2.adversarial-review.md",
+      "sha256": "99239aedf72936c276f08ae8cf6a997b93d9ebf6a29fca83330af68e48d08915",
+      "reviewer": "/root/r06_v2_adversarial"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V2.source-review.md",
+      "sha256": "9284ea4af3ada3278b23759842b900434eb5ec0f0a1fe93f7aae221d091502ff",
+      "reviewer": "/root/r06_v2_source_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_contractive_envelope_and_prefix_impossibility_control_pending_exact_readback",
+    "scientific_states": {
+      "mathematics": "accepted_conditional_frozen_path_contraction_envelope_rectangular_minimax_HT_allocation_sharp_two_sided_ratio_and_unbounded_no_lower_bound",
+      "contribution": "useful_Delta_specialized_control_theorem_and_impossibility_boundary_not_new_sampling_or_updater_mechanism",
+      "novelty": "robust_Neyman_PPS_active_testing_and_prior_R20_Kantorovich_prefix_no_go_collision",
+      "measurement": "no_native_joint_Y_X_Z_propensity_continuation_lower_bound_or_paired_counterfactual_audit_object",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R06_v1_HT_AIPW_selective_validity_estimators_and_truth_not_action_boundary_remain_valid",
+    "repair_delta": "replace_the_unproved_prefix_sensitivity_proxy_with_an_exact_contractivity_envelope_and_finite_frame_minimax_allocation_then_prove_the_clairvoyant_ratio_is_unbounded_without_a_two_sided_continuation_law",
+    "unclosed": [
+      "A genuinely prefix-checkable two-sided continuation or AIPW-residual law with explicit coverage.",
+      "A native randomized audit object jointly recording grounded labels, prefix envelope, post-horizon influence and propensity.",
+      "A matched-total-cost advantage over learned influence, direct residual/action prediction and fixed-size PPS controls.",
+      "A full closed-loop Jacobian or lawful sequential-feedback/OPE treatment; the frozen product is not enough.",
+      "Empirical effect remains unknown because no model or benchmark execution was authorized."
+    ],
+    "delivery_status": "substantive_commit_pending_expected_parent_update_and_exact_readback"
   }
 }

@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T15:55:12Z",
+  "recorded_at": "2026-10-10T16:39:35Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -139,7 +139,10 @@
     "selected": 0,
     "implementation_count": 0,
     "batch": "research/method-batch.json",
-    "scope": "Historical original-discovery batch only; these are not counts of engineered modules or experimental arms."
+    "scope": "Historical original-discovery batch only; these are not counts of engineered modules or experimental arms.",
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientifically_admitted": 0
   },
   "scientific_status": {
     "parent_problem": "provisional; no Natural Gate 0 evidence",
@@ -184,7 +187,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R20 is exhausted and parked after attempt 3. Continue the earliest independent evidence-backed lineage; reopen R20 only with a new prefix-checkable continuation law with explicit coverage or native matched-total-cost advantage.",
+  "next_action": "R06 has used attempt 2 of 3 and remains parked as a conditional theory/control. Reopen only with a prefix-checkable two-sided continuation or residual law, a native randomized audit object, or matched-total-cost advantage over generic learned influence/direct action proposals; otherwise continue the earliest independent evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -812,7 +815,7 @@
       }
     ]
   },
-  "research_next_action": "R20 is parked after attempt 2 as a prefix-causal low-rank curvature theorem/control. Reserve the third attempt for a checkable prefix-to-future approximation/regret guarantee or a native matched-total-cost advantage; otherwise continue the earliest independent evidence-backed lineage.",
+  "research_next_action": "R06 has used attempt 2 of 3 and remains parked as a conditional theory/control. Reopen only with a prefix-checkable two-sided continuation or residual law, a native randomized audit object, or matched-total-cost advantage over generic learned influence/direct action proposals; otherwise continue the earliest independent evidence-backed lineage.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -1329,7 +1332,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 13:58:00 UTC",
+  "updated_at": "2026-10-10T16:39:35Z",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -2063,5 +2066,18 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V3_DELIVERY_READBACK.json",
       "sha256": "a97e5b7e9379a653f69e05274de65a570b9518f35bc38d6d08ab608922cc37ff"
     }
+  },
+  "repair_R06_v2_contractive_envelope": {
+    "artifact_sha256": "93c92c3b31a8b3b46820dfd5a0d90c08de834370e3a347641dfbb7aa887dc5cd",
+    "source_audit_sha256": "960c9d6878060d51c8fac86e802cfbb8d06195f0829eeb97cae68b7abbc5f348",
+    "math_review_sha256": "4071b86927a1b77ed5f45a2c5fde3674a34882fa93803f57e7b400a3785693b2",
+    "source_review_sha256": "9284ea4af3ada3278b23759842b900434eb5ec0f0a1fe93f7aae221d091502ff",
+    "adversarial_review_sha256": "99239aedf72936c276f08ae8cf6a997b93d9ebf6a29fca83330af68e48d08915",
+    "mathematical_status": "passed_conditional_frozen_path_envelope_minimax_allocation_and_no_lower_bound_impossibility",
+    "contribution_status": "known_sampling_mechanism_Delta_specialized_theory_control_only",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_of_3",
+    "publication_commit": "pending_exact_readback"
   }
 }

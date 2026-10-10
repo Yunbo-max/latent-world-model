@@ -278,6 +278,15 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V3_DELIVERY_READBACK.json",
         "sha256": "a97e5b7e9379a653f69e05274de65a570b9518f35bc38d6d08ab608922cc37ff"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_CONTRACTIVE_ENVELOPE_AUDIT.v2.md",
+      "sha256": "93c92c3b31a8b3b46820dfd5a0d90c08de834370e3a347641dfbb7aa887dc5cd",
+      "status": "accepted_conditional_contractivity_envelope_minimax_audit_and_prefix_impossibility_control_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": "pending_exact_readback"
     }
   ],
   "counting_policy": {
@@ -306,7 +315,8 @@
       "R19 v1 supplies a reviewed changed-kernel switch-factor obstruction and local released-coordinate ledger-rank control; decisive switched-seminorm collision leaves zero active/admitted/selected candidate increment.",
       "R20 v1 supplies a reviewed exact-constraint separable-cancellation and nonseparable rank-gap boundary; KKT/GGN/K-FAC/Shampoo/Sylvester/CrispEdit and Step2 collisions leave zero active/admitted/selected candidate increment.",
       "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment.",
-      "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3."
+      "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3.",
+      "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment."
     ]
   },
   "counting_policy_repair": {

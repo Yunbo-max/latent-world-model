@@ -240,3 +240,14 @@ R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis proje
 - **Real residual:** for the shared affine constraint, the sharp factor is the Kantorovich constant rather than the loose endpoint chain, and the required prior domain is the affine feasible span.
 - **No-go:** a symmetric robust interval leaves the v2 action unchanged, while identical-prefix continuations defeat any deterministic nontrivial transfer radius without a separate continuation law.
 - **Disposition:** method-level mechanism covered; retain only a conditional theorem/no-go control. R20 exhausted after attempt 3; candidate delta 0 and empirical status unknown.
+
+
+## R06 v2：Delta 收缩包络与抽样近邻
+
+| 本次部件 | 最近工作/控制 | 真实残余与结论 |
+|---|---|---|
+| \(X_i=|\beta_i|\|k_i\|\|e_i\|\) 冻结路径上界 | DeltaNet residual update；Parallel DeltaNet/FLA 有序乘积 | Delta 特化的可检查上界成立，但不是完整闭环 Jacobian |
+| \(\pi_i\propto X_i\) 的矩形最坏 HT 二阶矩最优 | Neyman/PPS、optimal unbiased active learning、active testing | 有限帧稳健设计已知；在线归一化、总成本和原生对象未闭 |
+| 两侧延续率的 sharp factor 与无下界 no-go | classical Kantorovich；R20 v3 同前缀未来不可区分 | 有价值的条件边界，但不是新更新器/抽样原理 |
+
+来源与固定接口见 [R06 v2 source audit](sources/R06_V2_CONTRACTIVE_ENVELOPE_SOURCE_AUDIT.md)。

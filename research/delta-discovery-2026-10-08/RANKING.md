@@ -128,3 +128,8 @@ v2 修复了 v1 最早的部署缺口：曲率因子必须在动作前由真实�
 V3 把理论界收紧为 `(M+m)^2/(4Mm)`，并修正了谱夹逼必须覆盖仿射可行空间而非只覆盖切向差分。它没有提升方法资格：稳健集给出同一个 v2 动作，未来夹逼事件在不受限 continuation 下不是 prefix-measurable，且 sketch/Newton、Hessian averaging 和 online regret 已覆盖强假设下的主要机制。
 
 R20 因此在第三次实质修订后耗尽并 park，只保留高价值 theorem/no-go control。计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
+
+
+## R06 v2 排名影响
+
+R06 v2 数学、来源和对抗终审通过，但其正面机制属于已知稳健 Neyman/PPS/active-testing 控制，且只有冻结路径上界、没有可检查的正延续下界、完整 Jacobian、原生随机审计对象或同总成本优势。因此状态为 **parked conditional theory/control**，候选增量为 0；活动池、科学准入和选择仍为 0，尚不能生成全池排名或 top-15。
