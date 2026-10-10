@@ -222,6 +222,11 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_DELIVERY_READBACK.json",
         "sha256": "2642f9b80b75d6c12fe011fed271ab62ffb1649627d376c7df7ccb23b82e7960"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
+      "sha256": "c3b32f912637b5ba3f1e6978f0c981d517a3d561736e246a7b2d392011d8f559",
+      "status": "accepted_conditional_recursive_joint_quotient_debugging_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -245,7 +250,8 @@
       "R14 v1 supplies a reviewed posterior-provenance Bayes-action/identity-ambiguity control; zero active/admitted/selected candidates.",
       "R15 v1 supplies a reviewed multivariate intervention-rank/conditioning control and explicitly consolidates prior R02/Step2 results; zero active/admitted/selected candidates.",
       "R16 v1 supplies a reviewed noncommuting joint-flow Krylov-rank and affine-source boundary; the endpoint repair collides with normalized inverse-metric Delta, so it adds zero active/admitted/selected candidates.",
-      "R17 v1 supplies a reviewed exact-overwrite old-quotient decodability and conditional rate-distortion boundary; it is not semantic identity preservation and adds zero active/admitted/selected candidates."
+      "R17 v1 supplies a reviewed exact-overwrite old-quotient decodability and conditional rate-distortion boundary; it is not semantic identity preservation and adds zero active/admitted/selected candidates.",
+      "R18 v1 supplies a reviewed complete-joint recursive invisibility and cross-block rescue/exposure debugging control; it adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
@@ -259,6 +265,7 @@
     "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
     "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
     "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
+    "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
+    "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; expected-parent main delivery pending."
   }
 }

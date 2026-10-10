@@ -232,3 +232,11 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 [R17 修订](repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md)证明：对 `A=(I-kk^T)D`，覆盖后状态能恢复声明的线性未来行为，当且仅当 `ker(A·) subseteq ker O`。`D` 可逆时被删除的矩阵方向恰为 `{D^-1 k a^T}`，于是条件等价于每个传播后的有效查询满足 `q_u^T P_u D^-1 k=0`；在 post-decay 比较域中则等价于 `q_u^T P_u k=0`。对应 PSD Gram 的零二次型给充要条件和非零时的精确可见损失。有限比特下，全状态 Fano 下界被收紧为声明商的 conditional rate-distortion；离散零失真才可写 `B>=H(Q|K)`。
 
 旧反例没有删除：只要一个被抹除方向对允许查询可见，exact overwrite 仍不可逆地合并不同行为；R10 的同等比特直接码支配在 quotient 上继续成立。predictive fibers、task/regret-sufficient compression、conditional rate-distortion、functional observer 与本项目 R01/R12/R13 已覆盖主体机制。保留的只是 ordinary Delta kernel 与 frozen future-query Gram 的显式桥接。它不产生 causal revision 证据、便宜在线 quotient 或原生内部 scorer，故 R17 第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。
+
+## R18 完整联合状态递归商修复里程碑（2026-10-10）
+
+[R18 三线筛选](repairs/R18_REPAIR_LINE_SCREEN.md)复查了完整联合 Jacobian 商、带噪概率商和自适应 probe。后两条分别需要额外噪声律/后验与外部交互，或退化为必须计费的预写 side ledger；本轮选择修复 R17 的递归闭包缺口。
+
+[R18 修订](repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md)把判据从 memory-only/frozen query 提升为“完整当前更新的核包含于完整未来递归不可见子空间”。它区分全局 fiber factorization、仿射精确有限时域和非线性一阶证书，并给出两个相反见证：后来 cross-block 会暴露被 memory-only 检查漏掉的方向；同一步 auxiliary state 也可能保存 memory block 擦除的声明商，但其状态、精度与成本必须计入。
+
+独立最终字节审查修正了 PSD 权重只能证明加权不可见商、部署/参考两分支须使用各自下游导数、以及 side-state rescue 不能冒充全局可逆。Pappas/van der Schaft/Tabuada、微分可观测 Gramian、Wang 的有限深度 predictive fibers 与 Li 等的递归 behavioral memory 已覆盖主体机制；R12/R13/R17/Step2 也有直接内部碰撞。故 R18 只保留为 Delta-specific 调试 theorem/control，第一次修订后 park，不分配 D 编号；计数保持5历史/0活动/0科学准入/0选择，原生机制测量仍缺失，实验未知且未执行代码、训练或评分。

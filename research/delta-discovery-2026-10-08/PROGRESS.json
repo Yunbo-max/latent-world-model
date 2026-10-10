@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T11:02:55Z",
+  "recorded_at": "2026-10-10T11:56:57Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R17_predictive_quotient_decodability_published_exact_readback_no_candidate",
+  "status": "repair_R18_recursive_joint_quotient_final_reviews_passed_pending_main_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1941,5 +1941,68 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_DELIVERY_READBACK.json",
       "sha256": "2642f9b80b75d6c12fe011fed271ab62ffb1649627d376c7df7ccb23b82e7960"
     }
+  },
+  "repair_R18_recursive_joint_quotient": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
+      "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+      "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_REPAIR_LINE_SCREEN.md",
+      "sha256": "5f3032a65f29baa443295246928fe9d846958836cda49618e5542f27c6156df9"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
+      "sha256": "c3b32f912637b5ba3f1e6978f0c981d517a3d561736e246a7b2d392011d8f559"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md",
+      "sha256": "235699ba4d48e4bb427e4b43bb5371f77e6f00875f789b2ed8f92c47d63ae72f"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.math-review.md",
+      "sha256": "5eb3c0c11a8d456073b0c1bd2cb7d812702f05ee9512d0f26c3efeec6c5ee768",
+      "reviewer": "/root/r18_joint_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.source-review.md",
+      "sha256": "09f469ca159a5d3007f68626a30dc02fe07457821af221a0905f3793cd235c40",
+      "reviewer": "/root/r18_sources",
+      "corroborating_reviewer": "/root/r18_distinctness",
+      "measurement_reviewer": "/root/r18_measurement"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.adversarial-review.md",
+      "sha256": "18791cf8419f4084ec6f6966cf78be8957e5457fd523453369043f4ebb9f6639",
+      "reviewer": "/root/r18_adversarial"
+    },
+    "status": "independent_final_byte_math_source_measurement_distinctness_adversarial_reviews_passed_conditional_recursive_joint_quotient_control_parked_not_candidate",
+    "mathematical_status": "accepted_complete_update_kernel_backward_invisible_subspace_affine_exact_and_nonlinear_first_order_factorization_control",
+    "contribution_status": "scoped_Delta_joint_state_cross_block_rescue_exposure_debugging_corollary;recursive_quotient_observability_and_behavioral_memory_components_known",
+    "novelty_status": "MAJOR_COMPONENT_COLLISION_SCOPED_DELTA_DEBUGGING_RESIDUAL_ONLY",
+    "measurement_status": "native_endpoints_do_not_expose_paired_joint_state_interventions_J_C_invisible_subspace_or_overwrite_counterfactual_truth",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "R17_exact_overwrite_old_quotient_condition_remains_correct_for_its_fixed_suffix_scope",
+    "repair_delta": "replace_memory_only_frozen_suffix_with_complete_current_update_kernel_and_full_joint_backward_invisible_subspace;separate_weighted_affine_exact_and_nonlinear_local_claims",
+    "screened_lines": {
+      "recursive_joint_quotient": "completed_R18_parked_as_control",
+      "noisy_probabilistic_quotient": "requires_extra_noise_law_posterior_and_collides_with_Bayes_Kalman_rate_distortion_not_selected",
+      "adaptive_query_probes": "post_write_probes_cannot_split_update_fibers;pre_write_retention_is_charged_side_state;external_probes_change_information_budget_not_selected"
+    },
+    "unclosed": [
+      "A lawful prefix-only quotient construction rather than future-suffix audit information.",
+      "A globally checkable nonlinear congruence across every allowed future input, including discrete routing.",
+      "A matched-total-cost advantage over full JVP/VJP or direct sufficient-coordinate storage.",
+      "Native measurement of paired joint-state overwrite fibers and recursive invisibility rather than downstream endpoints alone.",
+      "Field-wide originality and empirical effect; no execution authorized."
+    ],
+    "delivery_status": "final_reviewed_packet_prepared_expected_parent_main_delivery_pending"
   }
 }

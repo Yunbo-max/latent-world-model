@@ -207,3 +207,9 @@ R16 与 KDA 的离散 decay-first recurrence 不同，也不等于 EFLA 的 pure
 最直接的机制碰撞是 Zhang–Xu 的 predictive fibers：corrector 只能删除完整未来不可区分的方向；Task-Sufficient Contraction 与 Walsh rate–regret 又把保留对象收紧到任务/动作充分商；conditional rate-distortion、IB、PSR、functional observer 和 observable-preserving lumping覆盖编码、预测状态与核因子化。项目内部 R01、R10、R12、R13 已分别记录 quotient closure、同等比特直接码支配、直接充分坐标与动态协向量保护。
 
 [R17 source audit](sources/R17_PREDICTIVE_QUOTIENT_SOURCE_AUDIT.md)未在有界检索中发现把 ordinary Delta 的 `ker((I-kk^T)D)={D^-1ka^T}`、frozen future-query Gram 与 conditional quotient rate-distortion 写成同一公式的原文；这只能支持“未找到完全相同 composite specialization”，不能支持首创。保留价值是精确区分 pre-decay 的 `D^-1k` 与 post-decay 的 `k`，并给出 sharp query witness。主体机制重合、递归闭包/因果 query law/同预算优势/原生测量未闭，故 R17 是 parked theorem/control，候选增量0。
+
+## R18 recursive joint quotient 的最近工作处置
+
+R18 的 backward invisible-subspace recursion 与 quotient factorization 是经典 observability/bisimulation refinement 的时变有限时域形式；完整 joint-Jacobian Gram 又与项目 Step2 和 differential observability Gramian 同构。Wang 2608.15976 直接覆盖有限深度 predictive fiber、过渡后 depth loss、prefix-depth repair 及局部/全局 fiber 边界；Li 2609.25757 直接区分 instantaneous sufficiency 与 right-congruent recurrent memory，并给出可递归更新的最小类。
+
+[R18 source audit](sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md)保留的差异只有 ordinary Delta exact-overwrite 核放入完整联合切空间后出现的两个相反调试见证：后续 cross-block exposure 与同一步 side-state rescue。它没有新 updater、causal quotient estimator、prefix-only 计算优势或原生内部 scorer；最强同信息控制仍是完整 unrolled JVP/VJP 或直接保存 `rank(QK)` 个充分坐标。因此处置为 parked conditional theorem/control，候选增量0。

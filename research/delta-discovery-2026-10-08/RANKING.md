@@ -98,3 +98,9 @@ R16 不进入活动池或 top15。它修复了 scalar exact-flow 假设过窄与
 R17 不进入活动池或 top15。它真实修复了 NOGO-CAP-02 的一个过强目标：exact overwrite 不必恢复对任何允许未来行为都无影响的状态差异。修订给出了 sharp kernel-containment iff、可逆/奇异 decay 边界、传播查询 Gram 的精确可见损失，以及 quotient 级 conditional rate-distortion 下界。
 
 但 predictive fibers、task/regret-sufficient compression、functional observers、conditional rate distortion 和本项目 R01/R12/R13 已覆盖主体机制；R10 又证明同总比特 split code 在同一 quotient 上不能优于直接码。当前残余只是 ordinary Delta exact-overwrite 核与声明未来查询的显式专门化，没有因果 query-law estimator、递归闭包、同预算优势或原生内部 measurement。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0。
+
+## R18 完整联合状态递归商排名处置
+
+R18 不进入活动池或 top15。它修复了 R17 的递归作用域：memory-only frozen suffix 可能因 later cross-block 给出假安全，也可能因忽略同一步 auxiliary copy 给出假毁损。正确局部判据使用完整 `ker DW_t` 与完整 backward invisible subspace；仿射时可精确，非线性 Jacobian 只是一阶证书。PSD Gram 只证明加权商，完整声明行为还需相关输出上的权重可注入。
+
+但递归不变商、右同余、微分可观测 Gramian、predictive fibers 和 recurrent behavioral memory 都有直接近邻；项目 R12/R13/R17/Step2 已覆盖充分坐标、动态协向量、原子覆盖核与完整 Jacobian。R18 无 prefix-only quotient、matched-budget 优势或 native mechanism scorer，最强控制是完整 JVP/VJP 与直接 `rank(QK)` ledger。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0，实验效果未知。
