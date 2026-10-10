@@ -360,10 +360,15 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
       "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
-      "status": "accepted_conditional_sharp_quotient_bias_and_uniform_dynamic_defect_control_lineage_exhausted_parked_not_candidate_publication_pending",
+      "status": "accepted_conditional_sharp_quotient_bias_and_uniform_dynamic_defect_control_lineage_exhausted_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 3,
-      "empirical_status": "unknown_no_execution"
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": "d2d7a85fa8319381588d7fdd1b1b884c4030dae4",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V3_DELIVERY_READBACK.json",
+        "sha256": "494c5e1a77820f3a78889b74079f10b5776ed6f8d69e19e69b09393b6a75a1db"
+      }
     }
   ],
   "counting_policy": {
@@ -421,7 +426,7 @@
     "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery completed with exact readback.",
     "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
-    "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; publication and exact readback pending."
+    "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
   }
 }
 

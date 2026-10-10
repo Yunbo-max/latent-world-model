@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T22:45:00Z",
+  "recorded_at": "2026-10-10T22:55:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R02_v3_approximate_causal_dynamic_quotient_reviewed_no_candidate_lineage_exhausted_publication_pending",
+  "status": "repair_R02_v3_approximate_causal_dynamic_quotient_published_exact_readback_no_candidate_lineage_exhausted",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -214,7 +214,7 @@
       "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown."
     ]
   },
-  "next_action": "Publish and exact-readback R02 v3. R02 is exhausted after attempt 3/3 and should not reopen without a lawful prefix-estimable defect certificate, estimator-specific sequential-DR theorem, native joint measurement object, and matched-information advantage. Then continue the earliest independent unexhausted evidence-backed repair lineage.",
+  "next_action": "Continue the earliest independent unexhausted evidence-backed repair lineage. R02 is exhausted after attempt 3/3 and should not reopen without a lawful prefix-estimable defect certificate, estimator-specific sequential-DR theorem, native joint measurement object, and matched-information advantage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2583,7 +2583,7 @@
       "sha256": "cf10733934f7f3f6799e37d60042633a7da15dc07f5536b85b5f4edfa09aaf53",
       "reviewer": "/root/r02v3_adversarial"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_quantitative_quotient_control_lineage_exhausted_not_candidate_publication_pending",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_quantitative_quotient_control_lineage_exhausted_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditional_sharp_quotient_AIPW_bias_and_fixed_policy_uniform_defect_value_recursion",
       "contribution": "useful_Delta_quotient_debugging_specialization_not_new_estimator_or_updater",
@@ -2602,7 +2602,12 @@
       "Matched-information total-cost or statistical advantage over full-history ledgers, direct prediction, AIS, OPE abstractions or R18.",
       "A native joint mechanism measurement object and empirical evidence."
     ],
-    "delivery_status": "publication_pending"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "d2d7a85fa8319381588d7fdd1b1b884c4030dae4",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V3_DELIVERY_READBACK.json",
+      "sha256": "494c5e1a77820f3a78889b74079f10b5776ed6f8d69e19e69b09393b6a75a1db"
+    }
   }
 }
 

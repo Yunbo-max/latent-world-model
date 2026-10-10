@@ -1,0 +1,30 @@
+{
+  "kind": "expected-parent-main-delivery-readback",
+  "repair_id": "R02",
+  "version": "v3",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "c1273d5a8f3eafd1d6cad6a8e574739d1831edba",
+  "publication_commit": "d2d7a85fa8319381588d7fdd1b1b884c4030dae4",
+  "publication_tree": "37aa9bee08d816015e4c08df3fc24f32e0632ed0",
+  "force": false,
+  "branch_head_after_update": "d2d7a85fa8319381588d7fdd1b1b884c4030dae4",
+  "tree_truncated": false,
+  "all_changed_blob_shas_match": true,
+  "changed_files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R02_REPAIR_LINE_SCREEN.v3.md", "blob_sha": "595e033c522635b961c88001fcb499fe66266cff"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md", "blob_sha": "dfc404561c04d38d14381d6f7ea6ab340818686c"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R02_V3_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT_SOURCE_AUDIT.md", "blob_sha": "24e2b83048166e3963942a2f435ad3b4651a3899"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V3.math-review.md", "blob_sha": "3d6b6a3885e5a310b04dd60f42499295e6f5e2de"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V3.source-review.md", "blob_sha": "f50f5e0186fae7e6ef0ba2fcea87c1ac651913a4"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V3.adversarial-review.md", "blob_sha": "f1f5ad19f0e515a73a34685c6d3903a6f2330f35"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "b7ac481474301fd37632020c1c262e382e69bbf7"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "d3e4fdbcb4ec4b49eb6be92142992e3ff2bb3932"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "8c9624707343ffcf9adcc59b75923de8a44c7be2"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob_sha": "0994bfeeb09e3e142723484e262064b3469f7485"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob_sha": "cbb4e997e96bcfdbca412b3eaf54758a4cdc1427"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "blob_sha": "04306263c4ab5e68443b3ed2b935330f0ed9d132"},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "82d2848a14fc81958f689a748ca4700ad7b44435"}
+  ],
+  "scope": "Mathematical/source/measurement feasibility only; no code, tests, training, inference, scoring, separate data/model acquisition, GPU, paid service or Docker execution."
+}
