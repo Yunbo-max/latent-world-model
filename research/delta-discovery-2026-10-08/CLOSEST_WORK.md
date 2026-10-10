@@ -306,3 +306,13 @@ No reviewed source supplies the full proposed packet verbatim, but the functiona
 
 The full Delta scalar formula was not located verbatim, so the proper collision claim is contribution/function-level rather than exact formula identity. Author-code commit pins for the newest conditional-ID papers remain unclosed, but paper-level collision is decisive enough to prevent scientific admission. R05 v4 is parked after attempt 3/3 with candidate delta zero.
 
+## R02 v3 quantitative causal/dynamic quotient decision (2026-10-10)
+
+| Repaired component | Closest work | Residual and decision |
+|---|---|---|
+| Sharp quotient-only AIPW bias bound | Jiang--Li sequential DR; Hao et al. abstract-state OPE; elementary Cauchy--Schwarz/Grüss | Exact equality witness and non-identifiability are useful debugging controls, not a new estimator |
+| Uniform reward/transition defect recursion | Subramanian et al. approximate information states, Theorem 9; Abel et al. approximate state abstraction; simulation/bisimulation bounds | R02 v3 is a fixed-target-policy, explicit-discount TV/span specialization |
+| Delta quotient `q=SW` and coefficient leakage | R18 complete joint fibers; R03 closed-loop/free-running controls | `AEW=0` removes the direct term, but coefficient derivatives can retain hidden-state dependence; no prefix-checkable certificate follows |
+
+The AIS author implementation was inspected at `info-structures/ais@d2eca3b5d19d28c0225253e35f01fd256c6a2f43`, and Abel's implementation at `david-abel/state_abstraction@a8a8157e4fceea6bf1e8a1da3632b3c29cf6e260`. Hao's paper-linked repository was unavailable, which remains a code-source gap. These collisions leave R02 v3 as a quantitative theorem/debugging control only. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect remains unknown.
+

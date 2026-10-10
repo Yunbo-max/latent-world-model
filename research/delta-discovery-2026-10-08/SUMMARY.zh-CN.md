@@ -317,3 +317,9 @@ v2 已经证明，只知道未来不扩张，当前写入可能被后续 key 完
 
 这不是新架构。Delta/generalized-Householder 的谱、可逆残差和 PPS/active testing 都有直接近邻；完整闭环 Jacobian 与原生联合审计对象仍不存在。三类独立终审接受的是一个有用的条件定理和失败边界，不是原创 updater 或实验成功。R06 已达 3/3 次修订上限并 park，候选增量0；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知，没有运行代码或实验。
 
+## R02 v3：能量化商状态误差，但不能把两种保证拼成 DR
+
+这次修复把两个问题彻底分开。第一，若只在粗 quotient 上做 AIPW，偏差正好是 propensity 与 outcome 在同一 quotient cell 内的条件协方差除以 quotient propensity；Cauchy--Schwarz 给出的方差界是 sharp 的。第二，若另行假设每个可达完整历史上的即时奖励缺陷和下一 quotient 分布缺陷都统一有界，才可递推得到 fixed-policy 的有限时域 value 误差界。行为分布平均误差很小仍可隐藏目标策略下接近满幅的错误，因此两条结果不能拼成“近似 DR”。
+
+Delta 专门化也只得到一个诊断：`q=SW` 会消掉被丢弃方向的直接 `AEW` 项，但 gate、key、value 等系数若依赖完整状态，导数仍可把隐藏信息漏回 quotient 动力学。独立审查已把 fiber 修成同时固定 `(q,z)`。最近工作中 AIS、approximate state abstraction、abstract-state OPE 和 bisimulation 已覆盖主要定量机制，所以这是一条有用控制而不是新方法。R02 三次修订额度已用完并 park；候选增量0，实效未知，未执行模型代码或实验。
+

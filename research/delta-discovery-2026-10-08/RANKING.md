@@ -158,3 +158,9 @@ R06 v3 **不进入活动池或 top-15**。它完成了 v2 留下的数学缺口�
 
 但这个正面结果依赖额外 margin enforcement，长 horizon 上可指数变松；完整 Jacobian、原生 joint audit tuple、paired outcome 与同成本优势仍缺。Grazzi 等已覆盖 Delta/generalized-Householder 谱与负特征值分支，i-ResNet/Residual Flows 覆盖可逆残差机制，PPS/Neyman/active-testing 覆盖抽样骨架。最终字节三路审查通过的是 conditional theorem/debugging control，不是新 updater、估计器或实效。R06 在 attempt 3/3 后耗尽并 park，候选增量0；计数保持 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
 
+## R02 v3 ranking decision (2026-10-10)
+
+R02 v3 **不进入活动池或 top-15**。它给出 quotient-only AIPW 偏差的 sharp 条件方差界，并用同观测分布、不同目标均值的两世界反例保留 v2 的不可识别性；另在完全不同的 uniform-defect 假设下，给出 fixed-policy 有限时域 value-error 递推。两条界不能相加后称为 approximate sequential DR。
+
+独立审查还修正了 fiber 必须同时固定 side state `z`，并明确欧氏小状态差不推出 TV 小。AIS Theorem 9、Abel approximate abstraction、Hao abstract-state OPE、bisimulation/simulation 以及内部 R18/R03 已覆盖主体机制；Delta 残余只是 `q=SW` 下直接 `AEW` 消失而系数导数仍可泄漏隐藏态。R02 达到 attempt 3/3 后 park，候选增量0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，实际效果未知、未运行实验。
+
