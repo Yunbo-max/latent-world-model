@@ -157,3 +157,9 @@ This does not create a new safe-learning mechanism. Safe exploration/design supp
 R05 的 support/quantile 端点属于固定边缘 Fréchet class 与 rearrangement 极值；区间上的 minimax-regret 决策属于 partial-identification/robust-Bayes 邻域，moment-DRO 是更宽泛对照。残余仅是把这些已知原理映射到 `validity × Delta horizon sensitivity` 的标量风险、并导出 no-write 可认证边界；这是一条待查重的专门化 corollary，不足以形成新算法候选。
 
 原生接口核查限定在固定版本：ROME/CounterFact、EvEdit、EasyEdit、sequential editing 均能测 efficacy/locality/reasoning/下游退化等 endpoint，但不记录 R05 所需逐次 `r,J,Z,m` 或两个潜在动作结果。来源、贡献差异与 measurement gap 的最终独立复核均通过；处置为 parked control，候选增量0。
+
+## R06 选择性真实性审计的最近工作处置
+
+R06 把 R05 的“没有联合证据”修成可执行的两阶段审计：合法随机 propensity 下用 HT/AIPW 点估计 `E[YZ]`，并按 residual influence 分配标签预算。Imberg 的无偏 active learning、Kossen 的 active testing、Amorim 与 Chen--Lumley 的 two-phase validation/Neyman allocation，以及适应性 AIPW/置信序列直接覆盖主体机制。
+
+Delta 当前只提供 acquisition score `Z=||Ju||²` 的具体形式。普通事实真实性 `Y` 不等于理想动作 `r`；完整未来 `Z` 也通常不能在写入时用于 acquisition。固定 ROME、EvEdit、EasyEdit、lifelong editing 和 SEAL 接口均缺 `(grounded Y, Delta Z, audit pi)` 的联合原生记录。独立最终字节审查通过后的处置是 mechanism collision / parked control；仅在 `Y→r` bridge、prefix-only proxy 效率优势、sequential sufficient state 或 native audit closure 上重开。

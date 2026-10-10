@@ -649,6 +649,24 @@
         {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md", "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1", "reviewer": "/root/r05_source_review"}
       ],
       "candidate_delta": 0
+    },
+    {
+      "id": "R06",
+      "kind": "repair_control",
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
+      "status": "parked_not_candidate",
+      "substantive_attempts": 1,
+      "mathematical_status": "accepted_design_unbiased_selective_audit_and_conditional_certificate_interface",
+      "contribution_status": "known_HT_AIPW_Neyman_two_phase_validation_active_testing_and_adaptive_inference;not_scientifically_admitted",
+      "empirical_status": "unknown_no_execution",
+      "reason": "R06 adds real randomized validity audits to R05 and correctly derives HT/AIPW estimation, residual-aware propensity allocation, positivity/delay limits and a conditional no-write certificate. Independent review preserves the Y-versus-r semantic gap and future-Z leakage boundary. The estimator and allocation mechanisms are standard, and native assets lack the joint audit variables, so it remains a control.",
+      "evidence_refs": [
+        {"path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md", "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"},
+        {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md", "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md", "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a", "reviewer": "/root/r06_final_math_review"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"}
+      ],
+      "candidate_delta": 0
     }
   ]
 }

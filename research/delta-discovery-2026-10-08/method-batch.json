@@ -137,6 +137,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
       "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c",
       "status": "accepted_conditional_partial_identification_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
+      "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3",
+      "status": "accepted_conditional_two_phase_audit_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -146,9 +151,10 @@
     "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting.",
     "repair_controls_count_as_candidates": false,
     "notes": [
-      "R01–R05 repair/control records do not populate active pool or selection.",
+      "R01–R06 repair/control records do not populate active pool or selection.",
       "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates.",
-      "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates."
+      "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates.",
+      "R06 v1 supplies a reviewed selective-audit control and adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {

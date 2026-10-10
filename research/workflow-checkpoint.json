@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-09T23:51:04Z",
+  "recorded_at": "2026-10-10T02:31:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -172,7 +172,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-09 22:46:42 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 02:31:00 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -183,7 +183,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R05 v3 is parked as a conditional partial-identification control. Continue only from an existing lineage with new joint evidence, a tighter auditable coupling class, or a same-budget Delta-specific estimator advantage; do not count R05 as a candidate.",
+  "next_action": "R06 is parked as a known two-phase audit control. Reopen only with a checkable Y-to-r bridge, a truly prefix-only Delta sensitivity proxy with efficiency/cost advantage, a sequential Delta sufficient-state advantage, or a native randomized audit closure; otherwise continue another evidence-backed lineage without counting R06 as a candidate.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1173,6 +1173,18 @@
     "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
     "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
   },
+  "repair_R06_selective_validity_audit": {
+    "version": "v1",
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md", "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md", "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"},
+    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md", "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a", "reviewer": "/root/r06_final_math_review"},
+    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"},
+    "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_two_phase_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+  },
   "delta_updater_rsi_math": {
     "authorization_local_time": "2026-10-09T12:48:59+01:00",
     "quote": "我认为这个方向值得深入，但目前它是候选研究路线 我觉得你可以把这个扩展下搞idea在后台",
@@ -1215,5 +1227,5 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-09 23:51:04 UTC"
+  "updated_at": "2026-10-10 02:31:00 UTC"
 }

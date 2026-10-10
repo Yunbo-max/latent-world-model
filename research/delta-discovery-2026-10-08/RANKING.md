@@ -60,3 +60,9 @@ R04 v3完成第三次有界修订：用可表示接口和联合未来风险选�
 R05 修复了“联合标签不可得就只能停止”的过强结论：边际信息仍能给 `m=E[rZ]` 的锐利识别区间、minimax-regret gate 和 no-write 的充要认证边界。数学、来源与 measurement scope 的最终字节审查均通过。
 
 它仍不进入活动池或 top15。原因不是公式错误，而是核心决策工具已由 Fréchet coupling、partial identification、Gamma-minimax 与 moment-DRO 覆盖；Delta 残余目前只是标量专门化，没有同预算 estimator 优势，也缺原生 joint mechanism measurement。R05 在 v3 后 park，候选增量0；全池仍0活动、0准入、0选择。
+
+## R06 排名处置
+
+R06 比 R05 多了一种真实信息：随机抽取一部分写入购买外部真实性标签。它严谨恢复 `E[YZ]` 的设计型点估计，给出正确的 HT/AIPW 方差、最优 propensity、positivity/延迟边界和条件证书接口。
+
+它不进入活动池或 top15。主体是已知 two-phase validation、HT/AIPW、Neyman/PPS 与 active testing；`Y` 不是理想动作 `r`，事后 horizon sensitivity 也不能泄漏到在线 gate。原生编辑资产没有联合审计字段。数学/来源最终字节独立审查均通过，但贡献差异与实效未通过；R06 在 v1 后 park，候选增量0，计数仍5历史/0活动/0准入/0选择。

@@ -10,6 +10,8 @@
 
 R01 v2 的[修订推导](repairs/R01_VALUE_SPAN_AND_CREDIT_QUOTIENT.v2.md)不再把模型本身压成小 value-width：完整名义记忆 `S` 保留，仅压缩决策相关切向/信用商 `U=XW`。非退化步上，固定 `W` 对所有切向精确闭合要求 gate 协向量满足 `G=GWW^T`，目标信用还要求 `C=CWW^T`；相应行空间下界、时变基的核包含条件、泄漏递推与两个 2×2 反例均已保留。独立最终字节数学/来源审查接受其为“数学有条件成立的 Delta 特化理论控制”，但通用 lumping、goal-oriented/time-varying model reduction 已覆盖核心机制；原创性、同预算优势与实际效果未闭，因此仍不计 D 候选，计数保持 5历史/0活动/0准入/0选择。
 
+R06 [选择性真实性审计](repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md)沿 R05 增加真实随机审计：在选择时 propensity 可预测且 positivity 成立时，HT/AIPW 可点估计 `E[YZ]`，并给出 residual-aware 审计分配与条件 no-write 认证接口。独立最终字节审查实际修正了可行性/退化条件和论文、代码定位。普通真实性 `Y` 不等于理想动作 `r`，完整 horizon `Z` 也通常不是在线 prefix 可见；主体机制又与 HT/AIPW、Neyman、two-phase validation 和 active testing 直接碰撞。因此 R06 park 为 control，不计 D 候选；5历史/0活动/0准入/0选择及20/15短缺不变。
+
 实际服务：复用 scheduled_authoring_continuation 任务 `6ac78ded796081918d2123402544d760`；按小时续接。此文件不是启动回执，连续执行未经证明。原代码阶段已完成/停用历史保留。
 
 恢复入口：同commit的 PROGRESS.json、method-batch.json、项目 research/workflow-checkpoint.json。

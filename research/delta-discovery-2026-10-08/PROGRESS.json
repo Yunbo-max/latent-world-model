@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-09 23:51:04 UTC",
+  "recorded_at": "2026-10-10 02:31:00 UTC",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R05_v3_partial_identification_published_exact_readback_no_candidate",
+  "status": "repair_R06_selective_validity_audit_final_reviews_passed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -146,7 +146,7 @@
       ,"R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D."
     ]
   },
-  "next_action": "R05 v3 is parked as a conditional partial-identification control. Continue from an existing lineage only with new joint evidence, a tighter auditable coupling class, or a same-budget Delta-specific estimator advantage; do not count R05 as a candidate.",
+  "next_action": "R06 is parked as a known two-phase audit control. Reopen only with a checkable Y-to-r bridge, a truly prefix-only Delta sensitivity proxy with efficiency/cost advantage, a sequential Delta sufficient-state advantage, or a native randomized audit closure; otherwise continue another evidence-backed lineage without counting R06 as a candidate.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1130,6 +1130,31 @@
     "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
     "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
     "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json", "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"}
+  },
+  "repair_R06_selective_validity_audit": {
+    "repair_id": "R06",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md", "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_SELECTIVE_VALIDITY_AUDIT_SOURCE_AUDIT.md", "sha256": "0c3f9b32cc1e92296b51d03386c673852ab640b37ac65ada3367106426e5fccb"},
+    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.math-review.md", "sha256": "6f9824cb1de1cb7b049b89e63b6121b1fe1038607e918db9a13e5483baedbd7a", "reviewer": "/root/r06_final_math_review"},
+    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"},
+    "mathematical_status": "accepted_design_unbiased_two_phase_audit_estimator_optimal_allocation_and_conditional_certificate_interface",
+    "contribution_status": "known_HT_AIPW_Neyman_two_phase_validation_active_testing_and_adaptive_inference;Delta_specialization_not_scientifically_admitted",
+    "measurement_status": "behavior_endpoints_exist_but_no_native_joint_grounded_Y_Delta_Z_audit_propensity_or_paired_action_outcomes",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_known_control",
+    "review_feedback_repair": "Independent final-byte reviews corrected no-clipping feasibility, the U_A=0 bridge degeneracy, adaptive variance wording, author attribution, equation/section locators and exact author-repository paths before passing the final bytes.",
+    "unclosed": [
+      "A checkable validity-to-ideal-action bridge Y-to-r that includes protection and long-run action cost.",
+      "A genuinely prefix-only Delta sensitivity proxy with a proved efficiency/regret and total-cost advantage.",
+      "A Delta-specific sufficient state or variance advantage for sequential DR/OPE under audit feedback.",
+      "A native randomized audit object jointly recording grounded labels, Delta sensitivity and propensity."
+    ],
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",
