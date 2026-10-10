@@ -265,6 +265,14 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V2_DELIVERY_READBACK.json",
         "sha256": "df2bf24fc48c6c04a1c43725f676e214f42f82147811ba623d485f6bba87d813"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+      "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+      "status": "accepted_conditional_sharp_spectral_transfer_and_prefix_impossibility_control_lineage_exhausted_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution"
     }
   ],
   "counting_policy": {
@@ -292,7 +300,8 @@
       "R18 v1 supplies a reviewed complete-joint recursive invisibility and cross-block rescue/exposure debugging control; it adds zero active/admitted/selected candidates.",
       "R19 v1 supplies a reviewed changed-kernel switch-factor obstruction and local released-coordinate ledger-rank control; decisive switched-seminorm collision leaves zero active/admitted/selected candidate increment.",
       "R20 v1 supplies a reviewed exact-constraint separable-cancellation and nonseparable rank-gap boundary; KKT/GGN/K-FAC/Shampoo/Sylvester/CrispEdit and Step2 collisions leave zero active/admitted/selected candidate increment.",
-      "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment."
+      "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment.",
+      "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {
@@ -310,6 +319,7 @@
     "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
+    "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
+    "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; publication/readback pending."
   }
 }

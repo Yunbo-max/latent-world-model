@@ -266,3 +266,9 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 [第二次修订](repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md)不再沿用未来稠密曲率 oracle，而要求 `Hhat=lambda I+ZZ^T` 在动作前由可见前缀产生。精确约束 `X^T k=e` 下的解为 `x*=x0-PZ(lambda I+Z^TPZ)^(-1)Z^Tx0`；因子列 `z_j=w_j otimes p_j` 时只需求 `r x r` 系统并得到至多 `r+1` 个 rank-one factors，且精确恢复 v1 rank-two witness。
 
 独立数学审查先抓出 empirical-Fisher/GGN 范围过宽和两个反例遗漏标量 `e=1`，修正后最终字节复审通过。旋转曲率反例证明 stale prefix metric 可能比 Euclidean Delta 更坏，近奇异 key 反例还会产生 `1/epsilon` 动作范数。[来源审计](sources/R20_V2_PREFIX_CAUSAL_CURVATURE_SOURCE_AUDIT.md)确认 M-FAC/SENG/WoodFisher 已覆盖 past-gradient 小 Gram/Woodbury，OGD/GEM/SketchOGD 已覆盖 past-gradient projection/sketch。合法前缀不等于未来曲率准确，更不识别事实是否仍有效；feature/JVP/replay 成本也不能忽略。因此 v2 是第二次有界 theorem/control，park、候选增量0、实验未知。第三次尝试只在出现可检查的 prefix-to-future transfer/regret 定理或同总预算原生优势时重开。
+
+## R20 v3 锐利谱迁移与前缀不可认证边界（2026-10-10）
+
+[第三次修订](repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md)把“过去曲率代表未来”改写为明确的相对谱夹逼。固定仿射约束下的锐利竞争因子是 `(M+m)^2/(4Mm)`，对称半径时为 `1/(1-delta^2)`；夹逼必须覆盖仿射可行集的线性包，而非只覆盖可行差分。对称 Loewner minimax 仍返回 v2 动作，没有产生新 updater。
+
+决定性反例均被保留：线性项、有限非线性余项、半正定端点和低秩遗漏方向都能破坏外推；两个完全相同前缀可接出一个满足、一个违反夹逼的未来，因此非平凡 `delta` 不能仅从合法前缀确定。独立数学、来源和对抗复核确认 sketch/Newton、Hessian averaging 与 online/dynamic regret 已覆盖带强假设的正面机制。R20 用满三次修订并最终 park；留下的是条件定理和 no-go/control，不增加候选、准入或选择，实验未知且未执行。

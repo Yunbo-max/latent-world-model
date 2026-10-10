@@ -122,3 +122,9 @@ R20 不进入活动池或 top15。它确实修复了 R09/D03 的假设边界：�
 v2 修复了 v1 最早的部署缺口：曲率因子必须在动作前由真实前缀获得，精确解降为 `r x r` 投影 Woodbury 系统。数学后果包括精确 surrogate improvement、`r+1` rank bound、v1 witness 恢复、漂移失效和动作范数爆炸边界。
 
 它仍不进入活动池或 top15。M-FAC/SENG/WoodFisher 与 OGD/GEM/SketchOGD 已覆盖低秩经验曲率和 past-gradient protection；合法前缀不保证未来风险或事实有效性，完整 feature/replay 成本也可能高于 direct rank-r action predictor。故它是第二次有界修订后的 parked theorem/control，候选、准入和选择增量均为0，实验未知。
+
+### R20 v3 最终排名更新
+
+V3 把理论界收紧为 `(M+m)^2/(4Mm)`，并修正了谱夹逼必须覆盖仿射可行空间而非只覆盖切向差分。它没有提升方法资格：稳健集给出同一个 v2 动作，未来夹逼事件在不受限 continuation 下不是 prefix-measurable，且 sketch/Newton、Hessian averaging 和 online regret 已覆盖强假设下的主要机制。
+
+R20 因此在第三次实质修订后耗尽并 park，只保留高价值 theorem/no-go control。计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。

@@ -233,3 +233,10 @@ R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis proje
 - **Real distinction:** Delta equality constraint 与 factorized action corollary 被显式写出；若正确因子确实在前缀可得，两个 feature columns 可恢复 v1 witness。
 - **Unclosed:** prefix-to-future curvature transfer、事实有效性、trust-region/condition safety、feature/replay 总成本，以及对 rank-r Delta、constrained CG 或 direct action prediction 的优势。
 - **Disposition:** 独立复审通过的 conditional theorem/control；attempt 2 后 park，候选增量0，实验未知。
+
+### R20 v3 — sharp spectral transfer and prefix impossibility
+
+- **Direct collisions:** relative Loewner Hessian approximation in approximate/subsampled Newton; constrained Iterative Hessian Sketch; Adaptive Newton Sketch; PROMISE's infrequently refreshed low-rank curvature; Hessian averaging; online Newton and dynamic-regret analyses under explicit variation/prediction assumptions.
+- **Real residual:** for the shared affine constraint, the sharp factor is the Kantorovich constant rather than the loose endpoint chain, and the required prior domain is the affine feasible span.
+- **No-go:** a symmetric robust interval leaves the v2 action unchanged, while identical-prefix continuations defeat any deterministic nontrivial transfer radius without a separate continuation law.
+- **Disposition:** method-level mechanism covered; retain only a conditional theorem/no-go control. R20 exhausted after attempt 3; candidate delta 0 and empirical status unknown.

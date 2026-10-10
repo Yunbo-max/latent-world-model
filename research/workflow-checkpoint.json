@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T13:58:00Z",
+  "recorded_at": "2026-10-10T18:58:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R20 is parked after attempt 2 as a prefix-causal low-rank curvature theorem/control. Reserve the third attempt for a checkable prefix-to-future approximation/regret guarantee or a native matched-total-cost advantage; otherwise continue the earliest independent evidence-backed lineage.",
+  "next_action": "R20 is exhausted and parked after attempt 3. Continue the earliest independent evidence-backed lineage; reopen R20 only with a new prefix-checkable continuation law with explicit coverage or native matched-total-cost advantage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -2036,5 +2036,27 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V2_DELIVERY_READBACK.json",
       "sha256": "df2bf24fc48c6c04a1c43725f676e214f42f82147811ba623d485f6bba87d813"
     }
+  },
+  "repair_R20_v3_spectral_transfer_certificate": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+      "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R20_V3_SPECTRAL_TRANSFER_SOURCE_AUDIT.md",
+      "sha256": "f094a5bde09a76c59fd2f1b23da2997700f5ea464837a63f4607dc839a102dfd"
+    },
+    "reviews": {
+      "math": "044bf22b95d32ac5a7f5691ece21febdb99c1bd3ce560c657bd57e81c37350a7",
+      "source": "91aba88cacd1c853118a1010454b1f58181559b89a88fd7c9928b21ba1ae7ecb",
+      "adversarial": "3b479ccc65fb9b4447744ffc2816301bb46d9b7ffc1a3327421780847d4b4081"
+    },
+    "status": "reviewed_conditional_sharp_spectral_transfer_and_prefix_impossibility_control_lineage_exhausted_parked_not_candidate_pending_delivery",
+    "candidate_delta": 0,
+    "empirical_status": "unknown_no_execution",
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
   }
 }
