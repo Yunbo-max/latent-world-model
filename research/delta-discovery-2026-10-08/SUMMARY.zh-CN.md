@@ -293,3 +293,11 @@ R09 的 rank-one 结论没有错；它假设所有 value 列共享同一个左�
 
 三类独立终审通过的是这个有条件的 theorem/control，不是原创架构、原生测量或实验效果。R01 已用完第 3 次实质修订并 park，候选增量为 0；当前仍为 **5 历史 / 0 活动 / 0 科学准入 / 0 选择**，没有启动代码或实验。
 
+## R03 v3：终于检查自由运行分布，但不是 Delta 独有新机制
+
+R03 v2 只能在共同外生后缀上追踪两条耦合轨迹，不能证明真实自由运行策略改变后的分布安全。v3 把比较对象改成完整状态 law：参考转移每步把旧差异按 `kappa_h` 收缩，动作转移再注入 `epsilon_(a,h)` 的 kernel mismatch，于是得到有序乘积递推。Kantorovich–Rubinstein 对偶把状态距离转成 Lipschitz 保护损失上界；若常数有统一界，还能写出折扣总预算和随机动作概率的可行单纯形。
+
+独立审查实际修了四个问题：metric 到 Frobenius 范数的不等式方向；持续 forcing 只能让**证书上包络**平台化，不能证明真实 gap 有正下界；动作前覆盖应是独立校准数据上的外层统一事件或在线 anytime 事件，不能写成退化的 `F_t` 条件概率；保护损失几何衰减还需要统一的 loss-Lipschitz 上界。
+
+最近工作碰撞很强：一般 Markov/Wasserstein perturbation、Lipschitz model error、bisimulation metric 和 Wasserstein-robust MDP 已覆盖主体。Delta 的残余只是把 rank-one 写入范数接到通用证书的第一项。真正可能失败处是动作前根本估不准统一常数、全局 Lipschitz 太松导致永远不写、以及现有原生任务不暴露成对自由运行 law 和保护真实性。故 R03 三次修订额度已用完并 park，计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；实际效果未知，没有运行代码或实验。
+

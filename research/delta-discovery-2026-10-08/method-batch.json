@@ -317,6 +317,16 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V2_DELIVERY_READBACK.json",
         "sha256": "6b303821dbca1065df1cbf3f7c1f811871aab75ee30fe97611cfeab1cd6f957f"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+      "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+      "status": "accepted_conditional_Wasserstein_free_running_perturbation_control_lineage_exhausted_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -348,6 +358,7 @@
       "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3.",
       "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment."
       ,"R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment."
+      ,"R03 v3 supplies a reviewed full-law Wasserstein perturbation recurrence, ordered horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility condition. Generic Markov perturbation/robust-MDP collisions, non-native constants and measurement gaps leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {
@@ -367,7 +378,8 @@
     "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded.",
-    "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery pending expected-parent main update."
+    "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery completed with exact readback.",
+    "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive delivery pending expected-parent main update."
   }
 }
 

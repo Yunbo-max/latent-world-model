@@ -288,3 +288,9 @@ The same derivation also closes the boundary honestly: a formal suffix/credit cl
 
 Independent final-byte math, source and adversarial reviews passed only the conditional theorem/control. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; goal-oriented adjoint model reduction remains an explicit extra search gap. R01 is parked after attempt 3/3 with candidate delta zero, measurement gap and empirical status unknown. Counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected; no code or experiment was started.
 
+## R03 v3 free-running-law repair milestone (2026-10-10)
+
+[R03 v3](repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md) repairs the v2 common-path limitation by comparing complete action-conditional state laws. Under declared Wasserstein contraction and one-step kernel-mismatch constants, it derives the ordered recurrence `delta_(h+1) <= kappa_h delta_h + epsilon_(a,h)`, its finite-horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility test. Independent review corrected the metric/Frobenius implication, removed an unjustified true-gap floor, replaced a degenerate history-conditional coverage statement with outer calibration coverage, and restricted geometric loss decay to uniformly bounded loss Lipschitz constants.
+
+The result is a useful Delta specialization—the initial discrepancy is the rank-one write—but the main mechanism strongly collides with generic Markov/Wasserstein perturbation, Lipschitz model-error and robust-MDP value bounds. Prefix-time constants, native joint measurement and matched-cost advantage remain absent. R03 is therefore exhausted and parked after attempt 3/3 with candidate delta zero; counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and no code or experiment was run.
+

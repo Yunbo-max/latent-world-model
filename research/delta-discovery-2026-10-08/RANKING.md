@@ -142,3 +142,7 @@ R01 v3 is **not added to the active pool or top-15 ranking**. It contributes a c
 
 R02 v2 **不进入活动池或 top-15**。它修复了真实错误：粗商状态上的 AIPW/DR 可能因历史内 propensity 与 outcome 的协方差而有偏；并给出序贯商充分性条件和固定声明标量族的 Delta 右商宽度下界。但 Hao 等状态抽象 OPE、STAR、abstracted MIS、一般序贯 DR 和 R18 已覆盖主体机制；合法部署商、原生测量、同信息成本或统计优势都未闭。三路最终字节审查通过的是 conditional theory/control，不是原创候选或实验效果。R02 在 attempt 2/3 后 park，候选增量0；全局计数与短缺不变。
 
+## R03 v3 ranking decision (2026-10-10)
+
+R03 v3 **不进入活动池或 top-15**。它把 v2 的共同后缀路径灵敏度修成完整自由运行分布的 Wasserstein 递推，并给出有序 horizon、折扣保护损失和随机日志可行性上界；但这些结论依赖动作前可用的统一 contraction、kernel mismatch、loss-Lipschitz 与校准覆盖。Rudolf–Schweizer、Asadi 等及 robust-MDP/bisimulation 文献已覆盖主体机制，Delta 只提供首步 rank-one 注入的专门化。三路独立最终字节审查通过的是 conditional theory/control，不是新方法或实验效果。R03 在 attempt 3/3 后耗尽并 park，候选增量0；全局计数与短缺不变。
+

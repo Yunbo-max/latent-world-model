@@ -278,3 +278,9 @@ Therefore the bounded outcome is `REROUTE_REPLICATION_OR_TRANSFER` / theory-cont
 
 作者实现方面，Hao 等论文链接的 `pufffs/state-abstraction` 在本轮固定日期读取为 404，故只审查论文公式与附录接口，没有冒充源码审查。原生 LM benchmark 不提供行为 propensity、商转移核真值或反事实回报。R02 v2 因此是 `CONTROL_ONLY`，候选增量0、实验未知；第三次尝试只在出现合法前缀可检查商和同信息总成本/统计优势时重开。
 
+## R03 v3 Wasserstein free-running nearest-work decision (2026-10-10)
+
+The repaired recurrence is structurally the standard perturbation decomposition for inhomogeneous Markov kernels: contract the prior law discrepancy under the reference kernel, then add the same-state action/reference kernel discrepancy. Rudolf and Schweizer provide general Wasserstein perturbation bounds; Asadi, Misra and Littman give the geometric multi-step Lipschitz model-error analogue; Ferns, Panangaden and Precup connect state metrics to value differences; Neufeld and Sester provide Wasserstein-robust MDP value controls. The Delta-specific part is only the inexpensive initial rank-one displacement bound and its composition with the existing R03 safe-logging simplex.
+
+No reviewed source supplies the full proposed packet verbatim, but the functional mechanism and theorem family are already strongly covered. Since legal prefix-time estimates of all simultaneous constants, native protected-validity/counterfactual laws and a total-cost advantage over generic perturbation bounds or rollout are missing, novelty is not established and candidate delta remains zero.
+
