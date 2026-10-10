@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T16:39:35Z",
+  "recorded_at": "2026-10-10T17:48:18Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R06_v2_contractive_envelope_published_exact_readback_no_candidate",
+  "status": "repair_R01_v3_transported_credit_quotient_final_reviewed_pending_publication_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "1c8636fdc0c86f8da7d9c04c634994173c56147a",
+  "delivery_parent": "49e6beea2d1ab454dfbdd6c34c312db5b17194df",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -165,7 +165,13 @@
       "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R01_REPAIR_LINE_SCREEN.v3.md",
+      "research/delta-discovery-2026-10-08/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "research/delta-discovery-2026-10-08/sources/R01_V3_TRANSPORTED_CREDIT_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -195,10 +201,11 @@
       "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0.",
       "R20 v2 replaced the dense future-curvature oracle with a strictly prefix-measurable damped low-rank surrogate and derived its exact equality-constrained projected Woodbury action. It recovers the v1 witness, distinguishes per-example gradient outer products from GGN, and adds exact drift and norm-blowup counterexamples. Final-byte math/source/adversarial reviews pass only a conditional theorem/control. M-FAC, SENG, WoodFisher, OGD, GEM and SketchOGD are major controls; transfer, total-cost advantage and native measurement remain open, so candidate delta is 0.",
       "R20 v3 completed the final bounded repair. On the affine feasible span, a relative future/surrogate spectral sandwich gives the sharp shared-constraint competitive factor (M+m)^2/(4Mm), or 1/(1-delta^2) for a symmetric radius. Symmetric Loewner minimax returns the unchanged v2 action. Independent review supplied tangent-only, linear-term, nonlinear, semidefinite and missed-direction counterexamples; two identical-prefix futures prove that no nontrivial deterministic transfer radius is action-time checkable without an external continuation law. Spectral-sketch/Newton, Hessian-averaging and online-regret literature cover the positive mechanism under stronger assumptions. R20 is exhausted and parked as a theorem/no-go control; candidate delta 0, empirical effect unknown.",
-      "R06 v2 replaced the unproved prefix sensitivity proxy with an exact frozen-path contraction envelope X=|beta|||k||||e||. It derives the finite-frame rectangular-minimax HT/PPS allocation, a sharp (1+alpha)^2/(4alpha) factor under an externally justified two-sided continuation law, and an identical-prefix annihilation/preservation witness proving unbounded clairvoyant regret without that lower law. Independent final-byte math/source/adversarial reviews pass the conditional theorem and reject candidate admission because Neyman/PPS/active-testing mechanisms are known, the normalization is offline, the full Jacobian and native joint audit object are missing, and empirical effect is unknown."
+      "R06 v2 replaced the unproved prefix sensitivity proxy with an exact frozen-path contraction envelope X=|beta|||k||||e||. It derives the finite-frame rectangular-minimax HT/PPS allocation, a sharp (1+alpha)^2/(4alpha) factor under an externally justified two-sided continuation law, and an identical-prefix annihilation/preservation witness proving unbounded clairvoyant regret without that lower law. Independent final-byte math/source/adversarial reviews pass the conditional theorem and reject candidate admission because Neyman/PPS/active-testing mechanisms are known, the normalization is offline, the full Jacobian and native joint audit object are missing, and empirical effect is unknown.",
+      "R01 v3 replaced the raw local gate/loss covector union with exact adjoint-transported covectors for a declared finite scalar-credit family. The joint transported row span is the minimum ambient right-quotient width; a formal class allowing arbitrary rank-one terminal covectors and ambient perturbations forces full value width, but native LM-loss/reachable-tangent realizability is unproved. Independent final-byte math/source/adversarial reviews passed the conditional theorem. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; candidate delta zero, measurement gap, empirical unknown, lineage parked after attempt 3/3."
     ]
   },
-  "next_action": "R06 has used attempt 2 of 3 and remains parked as a conditional theory/control. Reopen only with a prefix-checkable two-sided continuation or residual law, a native randomized audit object, or matched-total-cost advantage over generic learned influence/direct action proposals; otherwise continue the earliest independent evidence-backed lineage.",
+  "next_action": "R01 has exhausted attempt 3/3 and is parked as a conditional theory/control with candidate delta zero. Do not reopen it without a prefix-checkable continuation-support law plus matched-cost/native-measurement advantage; continue the earliest independent unexhausted evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2314,5 +2321,69 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_V2_DELIVERY_READBACK.json",
       "sha256": "a8054d5483d330e2713ca4a5c4d9dc3d57531e1a70310a291e3bc4bc16c6576e"
     }
+  },
+  "repair_R01_v3_transported_credit_quotient": {
+    "repair_id": "R01",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts_per_line": 3,
+    "lineage_parent": "repair_v2_credit_quotient",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "499a9d06330c7a15cd8c2d170e0bfe8facff37e38bf1332744798a1955656866"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R01_V3_TRANSPORTED_CREDIT_SOURCE_AUDIT.md",
+      "sha256": "e0511cefaa0b0b51f299263bd7e802e0e002f6891514e781fbb400e55895e4ac"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.math-review.md",
+      "sha256": "17e1751b936f00872fb09e6d9af763c0dfe653dcb4703fe762a9a9a81fdce37c",
+      "reviewer": "/root/r01_v3_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.source-review.md",
+      "sha256": "58b23101a577c3027da32f3bd9a99debf9ad6917830b6de89a9682cf6d7a2dc9",
+      "reviewer": "/root/r01_v3_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R01_V3.adversarial-review.md",
+      "sha256": "3605b67b69fbdf560d1c226e179cdeaa29bb2da8471a345e03017365e07e7412",
+      "reviewer": "/root/r01_v3_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_transported_credit_quotient_control_pending_publication",
+    "scientific_states": {
+      "mathematics": "accepted_conditional_affine_frozen_path_transported_adjoint_minimum_right_width_for_declared_ambient_scalar_credit_family",
+      "contribution": "useful_Delta_specialized_minimum_right_width_and_formal_full_width_boundary_not_new_observability_quotient_mechanism",
+      "novelty": "major_observability_bisimulation_exact_lumping_behavioral_memory_and_R18_collision_goal_oriented_adjoint_MOR_gap_retained",
+      "measurement": "native_language_memory_scorers_do_not_expose_transported_covectors_rank_or_quotient_truth",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_3_lineage_exhausted_conditional_theory_control",
+    "preserved_old_result": "R01_v2_fixed_W_closure_conditions_row_span_lower_bound_time_varying_carry_and_leakage_recurrence_remain_valid",
+    "repair_delta": "replace_raw_local_C_G_union_as_minimal_claim_with_exact_adjoint_transported_declared_credit_covectors_and_prove_minimum_ambient_right_width_plus_formal_same_prefix_full_width_boundary",
+    "strong_controls": [
+      "full reverse VJP/BPTT with checkpointing",
+      "forward JVP per focal action",
+      "R18 full joint recursive quotient",
+      "CLUE/exact lumping under its assumptions",
+      "direct sufficient-coordinate ledger",
+      "same-information direct action or credit predictor"
+    ],
+    "unclosed": [
+      "A lawful native loss/readout realization of the formal arbitrary rank-one terminal covector class.",
+      "A prefix-checkable continuation-support law that keeps transported row rank below d_v.",
+      "A reachable-tangent restricted dual and the full joint recurrent Jacobian rather than the frozen Delta-only path.",
+      "Matched-total-cost advantage over reverse VJP/BPTT, direct prediction, CLUE or R18.",
+      "Objective/goal-oriented adjoint model-reduction nearest-work coverage before any broader field claim.",
+      "Native mechanism measurement and empirical effect; no model code, training, inference or scoring was run."
+    ],
+    "delivery_status": "pending_expected_parent_publication"
   }
 }
+

@@ -133,3 +133,8 @@ R20 因此在第三次实质修订后耗尽并 park，只保留高价值 theorem
 ## R06 v2 排名影响
 
 R06 v2 数学、来源和对抗终审通过，但其正面机制属于已知稳健 Neyman/PPS/active-testing 控制，且只有冻结路径上界、没有可检查的正延续下界、完整 Jacobian、原生随机审计对象或同总成本优势。因此状态为 **parked conditional theory/control**，候选增量为 0；活动池、科学准入和选择仍为 0，尚不能生成全池排名或 top-15。
+
+## R01 v3 ranking decision (2026-10-10)
+
+R01 v3 is **not added to the active pool or top-15 ranking**. It contributes a conditionally correct Delta-specialized theorem—minimum ambient right width from adjoint-transported declared credits—and a formal full-width boundary. General quotient/observability/lumping machinery is already known; the exact statistic needs future covectors/full costates; lawful native-loss/reachable-tangent realizability, matched-cost advantage and native mechanism measurement remain open. After independent final-byte review, the lineage is parked at attempt 3/3 with candidate delta zero. Global counts and shortages are unchanged.
+

@@ -251,3 +251,20 @@ R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis proje
 | 两侧延续率的 sharp factor 与无下界 no-go | classical Kantorovich；R20 v3 同前缀未来不可区分 | 有价值的条件边界，但不是新更新器/抽样原理 |
 
 来源与固定接口见 [R06 v2 source audit](sources/R06_V2_CONTRACTIVE_ENVELOPE_SOURCE_AUDIT.md)。
+
+## R01 v3 — transported-credit right quotient (2026-10-10)
+
+The final R01 child is not a new observability mechanism. Its exact residual is narrow: for
+`J[X]=AX+K<G,X>`, the adjoint is `J*[Y]=A^T Y+G<K,Y>`; transporting each declared future scalar-credit covector backward and taking their joint value-side row span gives the minimum **ambient** right-quotient width.
+
+Closest mechanisms and disposition:
+
+- Pappas linear bisimulation and Tabuada–Pappas nonlinear/control bisimulation already characterize output-preserving quotients and forward-compatible fibers.
+- Variational observability Gramians already transport output sensitivities through ordered dynamics; the pinned code forms `Phi`, `Psi=C*Phi`, and `Psi^T Psi` on full/vectorized state.
+- CLUE already computes minimal invariant lumpings preserving declared observables.
+- arXiv:2609.25757 and its DIACRITIC author code cover recurrent behavioral compatibility under enumerable-history/reset-oracle assumptions.
+- R18 is broader in joint-state/output scope and already records the backward invisible-subspace recursion.
+- Reverse VJP/BPTT and objective/goal-oriented adjoint model reduction are mandatory same-information neighbors; the latter remains an explicit unclosed coverage family before any broader field claim.
+
+Therefore the bounded outcome is `REROUTE_REPLICATION_OR_TRANSFER` / theory-control, not novelty. Native bAbI, LAMBADA, RULER, LongMemEval and BABILong scorers expose endpoints, not transported covectors, quotient rank or equivalence truth. Candidate delta is zero and R01 is parked after attempt 3/3.
+

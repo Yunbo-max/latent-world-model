@@ -277,3 +277,12 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 ## R06 v2：收缩包络修复
 
 R06 第二次实质修订把“前缀敏感度代理”收紧为可检查的冻结路径收缩包络：若未来 Delta 因子满足 \(0\le\beta_s\|k_s\|^2\le2\)，则 \(Z_i=\|P_{i,H}U_i\|_F\le X_i=|\beta_i|\|k_i\|\|e_i\|\)。在有限日志帧上，矩形最坏情形的 HT 二阶矩由 \(\pi_i\propto X_i\) 精确最小化；若另有 \(\alpha\le Z_i/X_i\le1\)，相对未来知情分配器的最坏比为 \((1+\alpha)^2/(4\alpha)\)。但收缩本身只给上界；同一前缀可由未来 key 抹除或保留当前写入，故无正下界时该比无界。该结果是条件理论/强对照，和 Neyman/PPS/active testing 及既有 R20 不等式碰撞，不增加候选。R06 已用 2/3 次修订；实验效果未知。
+
+## 2026-10-10 R01 v3 final bounded repair
+
+R01 used its third and final substantive repair attempt. The v2 fixed-`W` closure theorem is preserved; the new child replaces the raw local gate/loss row-space union as a purported minimum with the exact adjoint-transported covectors of a declared finite future scalar-credit family. For ambient perturbations, their joint row span is the minimum width of an exact right quotient `X -> XW`.
+
+The same derivation also closes the boundary honestly: a formal suffix/credit class that allows arbitrary rank-one terminal covectors and ambient perturbations forces full value width for a prefix-only exact rule, but lawful language-model/native-loss and reachable-tangent realizability are not proved. The construction needs future covectors/full costates and is not a causal deployment statistic.
+
+Independent final-byte math, source and adversarial reviews passed only the conditional theorem/control. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; goal-oriented adjoint model reduction remains an explicit extra search gap. R01 is parked after attempt 3/3 with candidate delta zero, measurement gap and empirical status unknown. Counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected; no code or experiment was started.
+

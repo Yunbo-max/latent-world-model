@@ -291,6 +291,16 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_V2_DELIVERY_READBACK.json",
         "sha256": "a8054d5483d330e2713ca4a5c4d9dc3d57531e1a70310a291e3bc4bc16c6576e"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+      "status": "accepted_conditional_transported_credit_minimum_right_width_and_formal_full_width_boundary_control_lineage_exhausted_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -342,3 +352,4 @@
     "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded."
   }
 }
+
