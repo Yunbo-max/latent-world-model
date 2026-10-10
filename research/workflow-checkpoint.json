@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T04:52:19Z",
+  "recorded_at": "2026-10-10T05:44:05Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 04:52:19 UTC",
+  "updated_at": "2026-10-10 05:44:05 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1442,6 +1442,38 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_DELIVERY_READBACK.json",
       "sha256": "256a67a75eb1ce1d978670f28c5b6acdcdd6939614b50d749fb2ef1700703159"
     }
+  },
+  "repair_R11_order_gap_compression": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md",
+      "sha256": "38d5ba6cb4e897b602b9897c940468cdaab0b603f5e3d9055b3f98dc52e1929b"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md",
+      "sha256": "dcf788d57146e87ffe7416d1e3f8567aeabf672051040dc84e2f64d79fb3a569"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md",
+      "sha256": "6e73d529f151696b43ed099fba042dc4636f4be47426aa8c27758a45ac7ed0ef",
+      "reviewer": "/root/r11_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md",
+      "sha256": "ffe370a53a92f70a996be13f4316b02c43dbbd50d78530515f5bf7c70f3ede0c",
+      "reviewer": "/root/r11_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md",
+      "sha256": "6872da0d3c8206b16ed9bd7a37e2d940bec4f17f08a2e25df675339b10c0ee45",
+      "reviewer": "/root/r11_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_order_gap_query_risk_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
-

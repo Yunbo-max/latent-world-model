@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T04:52:19Z",
+  "recorded_at": "2026-10-10T05:44:05Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R10_equal_bit_residual_published_exact_readback_no_candidate",
+  "status": "repair_R11_order_gap_compression_independently_reviewed_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "c1eb39bdea7dc116418acbd3517be30d6720a040",
+  "delivery_parent": "05991b3397f272ab37a482a52e6023e3fc6478a1",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -130,7 +130,12 @@
       "research/delta-discovery-2026-10-08/sources/REPAIR_R09_OVERWRITE_PROTECTION_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md",
+      "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -150,10 +155,12 @@
       "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D.",
       "R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D.",
       "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution.",
-      "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred."
+      "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred.",
+      "R11 repaired commutator cancellation into signed order-gap compression: adjacent frozen-feature Delta order gaps have key-side rank at most two, with exact query-weighted rank-tail risk and a common-metric Bayes selector lower bound.",
+      "Independent final-byte math/source/adversarial reviews passed after tightening singular-G, branch-metric, semantic-proxy, compute-cost, code-pin, scorer-readiness and novelty-scope conditions; R11 parked, candidate delta zero."
     ]
   },
-  "next_action": "R10 is parked after attempt 1 as an equal-bit representation/operator-boundary control. Reopen only with a Delta-specific result that escapes decoded-codebook equivalence and the DAMP/STEPQuant plus coarse-visible-feedback collisions under matched total state/metadata/traffic, or continue another evidence-backed lineage.",
+  "next_action": "R11 is parked after attempt 1 as an exact order-gap/query-risk control. Reopen only with causal same-budget G and selector evidence that is not reducible to exact ordered WY/DeltaProduct or generic weighted SVD; otherwise continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1452,6 +1459,53 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_DELIVERY_READBACK.json",
       "sha256": "256a67a75eb1ce1d978670f28c5b6acdcdd6939614b50d749fb2ef1700703159"
     }
+  },
+  "repair_R11_order_gap_compression": {
+    "repair_id": "R11",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md",
+      "sha256": "38d5ba6cb4e897b602b9897c940468cdaab0b603f5e3d9055b3f98dc52e1929b"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md",
+      "sha256": "dcf788d57146e87ffe7416d1e3f8567aeabf672051040dc84e2f64d79fb3a569"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md",
+      "sha256": "6e73d529f151696b43ed099fba042dc4636f4be47426aa8c27758a45ac7ed0ef",
+      "reviewer": "/root/r11_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md",
+      "sha256": "ffe370a53a92f70a996be13f4316b02c43dbbd50d78530515f5bf7c70f3ede0c",
+      "reviewer": "/root/r11_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md",
+      "sha256": "6872da0d3c8206b16ed9bd7a37e2d940bec4f17f08a2e25df675339b10c0ee45",
+      "reviewer": "/root/r11_adversarial_review"
+    },
+    "mathematical_status": "accepted_conditional_exact_order_gap_rank_bound_weighted_low_rank_tail_and_common_metric_Bayes_risk",
+    "contribution_status": "ordered_WY_and_DeltaProduct_cover_order_preservation_and_generic_weighted_SVD_covers_compression;bounded_collision_evidence_sufficient_to_park_not_exhaustive_novelty_adjudication",
+    "measurement_status": "permutation_group_state_tracking_located_but_sfirah_scorer_revision_unpinned_and_no_native_harmful_order_selector_or_query_Gram_object",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_conditional_theorem_control",
+    "preserved_old_result": "commutator_cancellation_erases_legitimate_chronology_and_affine_writes_can_fail_to_commute_even_when_linear_transitions_commute",
+    "repair_delta": "replace_commutator_cancellation_with_signed_order_gap_compression_under_explicit_query_metric_rank_and_selector_information",
+    "unclosed": [
+      "A causal same-budget estimator of future query Gram G with a native observable.",
+      "Evidence distinguishing beneficial chronology from harmful overwrite beyond the binary order-choice proxy.",
+      "A Delta-specific computational consequence not reducible to exact ordered composition, DeltaProduct, or generic weighted low-rank approximation.",
+      "Pinned native scorer bytes and a task exposing paired orders, query weights, and semantic selector labels.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
-
