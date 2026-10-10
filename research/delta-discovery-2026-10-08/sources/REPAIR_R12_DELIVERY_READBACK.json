@@ -1,0 +1,24 @@
+{
+  "kind": "exact-delivery-readback",
+  "repair_id": "R12",
+  "recorded_at": "2026-10-10T06:55:00Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "58d5995a3ba238de5c855c7b08687f8a48594ade",
+  "substantive_commit": "0a8c0e8d7a449fb1ed4b734e47e527a071f55b53",
+  "force": false,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md", "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce", "blob_sha": "f6796d7a8f40195a6917b24b936653d2bdc0a9a5", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/R12_SUBSPACE_SYNDROME_SOURCE_AUDIT.md", "sha256": "66228ab044f660263684559e85803e373cb1bddb87a541efa5598a14f5b3e1ed", "blob_sha": "a1c30dc81946e4b44b720a792c0e2d17ca7172bf", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md", "sha256": "b25a471343afd40f17b2e009efdf19187b7c46cfe578e64d84bd7a231ea92910", "blob_sha": "28bd1dd6a8a3bf838defd91271c108a4b1ef83ef", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md", "sha256": "45bae08ed02f64c24821e2e7913a7a05ed38652e397ddadb7b3e7933ad2a3a35", "blob_sha": "ce26db306583bd415c8c3de94b24ee5a1ce2b99c", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md", "sha256": "a5daf307188420b609b88f29e5fcb2ed5b7214f6e022a1ac3dd0d771115df7d2", "blob_sha": "40580e89835aff42e2ddfc64e7d16873f9246264", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "29142d6e1ddc794d4e43e90206a1b9c269ad2893", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "753c229fd0239c66c5a7e21f10dd1b9509899be9", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "20278a531c5293077cc9d5d66b5adfb8e83953db", "exact_bytes": true},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "154f3d929f7d6bc9a2309be0882b6e17750c02ae", "exact_bytes": true}
+  ],
+  "verification": "all_9_remote_files_equal_authoring_bytes_at_substantive_commit",
+  "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0},
+  "execution": "none_math_source_review_only"
+}
