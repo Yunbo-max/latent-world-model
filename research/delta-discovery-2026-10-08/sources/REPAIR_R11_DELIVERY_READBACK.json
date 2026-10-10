@@ -1,0 +1,24 @@
+{
+  "kind": "exact-delivery-readback",
+  "repair_id": "R11",
+  "recorded_at": "2026-10-10T05:47:00Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "05991b3397f272ab37a482a52e6023e3fc6478a1",
+  "substantive_commit": "039ca2d3587cc43e165bccd5763e62cddc1b78e7",
+  "force": false,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "9f71ce27ef642bee124a98977f6d73eb73103bc9", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "511205ecc0d615938f62c2783b896ad1c9bd7a8f", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "6e759d8e06cf9dd929ef829a169039170d9516fb", "exact_bytes": true},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "39ad6df8caedd09ad1b5d795f6e5e59b252b0480", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md", "sha256": "38d5ba6cb4e897b602b9897c940468cdaab0b603f5e3d9055b3f98dc52e1929b", "blob_sha": "6c1dbba007e41d311baa7427654e617a15b85ba6", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md", "sha256": "dcf788d57146e87ffe7416d1e3f8567aeabf672051040dc84e2f64d79fb3a569", "blob_sha": "1b813156c7160a9a13920b40e63b0f14b129f167", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md", "sha256": "6e73d529f151696b43ed099fba042dc4636f4be47426aa8c27758a45ac7ed0ef", "blob_sha": "ef2a12989d5793bc3f2356dd287fa44e13c5946d", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md", "sha256": "ffe370a53a92f70a996be13f4316b02c43dbbd50d78530515f5bf7c70f3ede0c", "blob_sha": "ec1c5fb769b19475eb9da144beb4828af427a5c8", "exact_bytes": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md", "sha256": "6872da0d3c8206b16ed9bd7a37e2d940bec4f17f08a2e25df675339b10c0ee45", "blob_sha": "347fc8bcced0e6993b7f1edd30f8d2d328a02ef1", "exact_bytes": true}
+  ],
+  "verification": "all_9_remote_files_equal_authoring_bytes_at_substantive_commit",
+  "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0},
+  "execution": "none_math_source_review_only"
+}
