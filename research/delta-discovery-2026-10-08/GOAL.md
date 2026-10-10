@@ -138,3 +138,9 @@ R02 的随机 write/no-write 解决了平均动作效果的可识别性，却没
 [v1 原推导](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v1.md)、[v2 审查修订](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v2.md)与[最终 v3](repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md)把“未知语义有效性 `r` 与未来敏感度 `Z` 的联合矩不可得”改造成可计算的部分识别问题。只知道 `p=E[r]`、`mu=E[Z]` 和共同上界 `U` 时，`m=E[rZ]` 落在锐利 Fréchet/support 区间；区间中点给出 minimax-regret gate，且存在统一优于 no-write 的正 gate 当且仅当下界 `m_->0`。完整 `Z` 边际可用分位耦合进一步收紧，但仍不能凭边际点识别联合收益。
 
 独立审查保留并修复了矩阵 sharpness、原子端点、动作前状态、`A=0` 除零与效益语义。来源审计确认 Fréchet/partial identification/Gamma-minimax/moment-DRO 是直接近邻；ROME/CounterFact、EvEdit、EasyEdit 与 sequential editing 只给行为 endpoints，不原生提供逐次 `r,J,Z,m` 或配对潜在结果。故 R05 是条件数学 control，不分配 D 编号、不进入 top15；计数仍为5历史/0活动/0准入/0选择，实际效果未知且未执行代码或实验。
+
+## R07：把“真实性”修成“写入动作边际”
+
+[修订推导](repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md)补上 R06 最早的语义断点。对动作强度 `a∈[0,1]`，固定参考分布下的局部二次风险变化写成 `Δ_Y(a)=h_Ya²-2a(Yb-c)`：`b` 是新 target 的一阶收益，`c` 是仍有效保护对象的有符号一阶代价，`h_Y` 是曲率。由此得到精确边界：存在有益的正小步当且仅当 `Yb-c>0`；完整写入优于不写当且仅当 `Yb-c>h_Y/2`；完整写入还是连续最优才要求 `Yb-c≥h_Y`。因此“事实为真”本身不等于“现在应该完整写入”。
+
+Delta rank-one 写入把这些量具体化为可检查的 key/residual/JVP 二次型，但旧反例仍成立：只知道 `Y`、收益幅度和曲率，若不知道保护交叉项 `c`，两个世界可给相反动作。修复后的贡献是一个条件性 action-margin control，不是新架构。KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 与普通 cost-sensitive/凸二次决策覆盖问题分解和主要机制；AToKe 虽提供历史/当前事实时间标签，仍不提供动作前 `(b,c,h)`、随机 propensity 或成对动作结果。故 R07 park，实验未知，候选增量0；总计仍5历史/0活动/0准入/0选择。

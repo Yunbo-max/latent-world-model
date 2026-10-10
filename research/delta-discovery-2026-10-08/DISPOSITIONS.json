@@ -667,6 +667,24 @@
         {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R06_V1.source-review.md", "sha256": "bf07657ffc3f3a3c5e4a696995d639cbf44acd6343d92eba62c7f6b9d67d5332", "reviewer": "/root/r06_final_source_review"}
       ],
       "candidate_delta": 0
+    },
+    {
+      "id": "R07",
+      "kind": "repair_control",
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md",
+      "status": "parked_not_candidate",
+      "substantive_attempts": 1,
+      "mathematical_status": "accepted_fixed_reference_quadratic_action_margin_and_Delta_rank_one_specialization",
+      "contribution_status": "known_convex_quadratic_cost_sensitive_target_preservation_and_orthogonal_protection_controls;not_scientifically_admitted",
+      "empirical_status": "unknown_no_execution",
+      "reason": "R07 repairs the Y-to-action semantic gap by deriving exact small-step, binary full-write and continuous full-write thresholds from signed target benefit, protection cross-term and curvature. A two-world counterexample preserves the need for signed protection evidence. The decision mathematics and edit/preservation mechanisms have direct prior-art collisions, and AToKe only partly closes temporal validity rather than action-level measurement.",
+      "evidence_refs": [
+        {"path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md", "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"},
+        {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md", "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md", "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e", "reviewer": "/root/r07_final_math_review"},
+        {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md", "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763", "reviewer": "/root/r07_final_source_review"}
+      ],
+      "candidate_delta": 0
     }
   ]
 }

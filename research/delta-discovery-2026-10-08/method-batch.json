@@ -142,6 +142,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
       "sha256": "9f2d3ab00aa6c036c5cde10f18cddb73fa1a120545f43d0f83f8df0da7cdc8a3",
       "status": "accepted_conditional_two_phase_audit_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md",
+      "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad",
+      "status": "accepted_conditional_validity_to_action_margin_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -154,7 +159,8 @@
       "R01–R06 repair/control records do not populate active pool or selection.",
       "R03 v2 extends the certificate to a conditional coupled horizon but adds zero active/admitted/selected candidates.",
       "R05 v3 supplies a reviewed partial-identification control and adds zero active/admitted/selected candidates.",
-      "R06 v1 supplies a reviewed selective-audit control and adds zero active/admitted/selected candidates."
+      "R06 v1 supplies a reviewed selective-audit control and adds zero active/admitted/selected candidates.",
+      "R07 v1 supplies a reviewed validity-to-action quadratic margin control and adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {

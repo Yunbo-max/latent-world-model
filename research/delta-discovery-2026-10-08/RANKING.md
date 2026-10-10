@@ -66,3 +66,9 @@ R05 修复了“联合标签不可得就只能停止”的过强结论：边际�
 R06 比 R05 多了一种真实信息：随机抽取一部分写入购买外部真实性标签。它严谨恢复 `E[YZ]` 的设计型点估计，给出正确的 HT/AIPW 方差、最优 propensity、positivity/延迟边界和条件证书接口。
 
 它不进入活动池或 top15。主体是已知 two-phase validation、HT/AIPW、Neyman/PPS 与 active testing；`Y` 不是理想动作 `r`，事后 horizon sensitivity 也不能泄漏到在线 gate。原生编辑资产没有联合审计字段。数学/来源最终字节独立审查均通过，但贡献差异与实效未通过；R06 在 v1 后 park，候选增量0，计数仍5历史/0活动/0准入/0选择。
+
+## R07 排名处置
+
+R07 的问题价值高于“真实性 posterior 直接当 gate”：它给出可证伪的有符号 action margin，并精确区分正小步、binary full-write 与连续 full-write。两世界反例还证明，真实性与无符号位移能量不足以恢复正确动作。
+
+它仍不进入活动池或 top15。主体是标准受约束凸二次/cost-sensitive 决策，target-versus-preservation 与正交/零空间保护有强直接近邻；Delta residual 目前只有结构化计算表达，没有同预算计算、样本复杂度或校准优势。AToKe 能测时间有效性却不能原生测动作边际，实际效果完全未知。最终处置为 conditional theory/control、parked not candidate；计数保持5历史/0活动/0准入/0选择。

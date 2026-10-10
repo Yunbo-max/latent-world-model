@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10 02:31:00 UTC",
+  "recorded_at": "2026-10-10 01:53:00 UTC",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R06_selective_validity_audit_published_exact_readback_no_candidate",
+  "status": "repair_R07_validity_to_action_margin_final_reviews_passed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -146,7 +146,7 @@
       ,"R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D."
     ]
   },
-  "next_action": "R06 is parked as a known two-phase audit control. Reopen only with a checkable Y-to-r bridge, a truly prefix-only Delta sensitivity proxy with efficiency/cost advantage, a sequential Delta sufficient-state advantage, or a native randomized audit closure; otherwise continue another evidence-backed lineage without counting R06 as a candidate.",
+  "next_action": "R07 is parked as a constrained quadratic/action-margin control. Reopen only with a prefix-only Delta sufficient statistic for b,c,h that has a proved same-budget advantage, a coupled-state bridge that closes beyond the fixed-reference law, or native old/new validity plus randomized paired action outcomes; otherwise continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1157,6 +1157,31 @@
     "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
     "publication_commit": "c9b1973e7e6f36007b3116f1eed20a9b75719bec",
     "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json", "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"}
+  },
+  "repair_R07_validity_to_action_margin": {
+    "repair_id": "R07",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "R06_SELECTIVE_VALIDITY_AUDIT.v1.md",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md", "sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md", "sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b"},
+    "math_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md", "sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e", "reviewer": "/root/r07_final_math_review"},
+    "source_review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md", "sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763", "reviewer": "/root/r07_final_source_review"},
+    "mathematical_status": "accepted_fixed_reference_quadratic_action_margin_exact_gate_thresholds_robust_certificates_and_Delta_rank_one_specialization",
+    "contribution_status": "known_convex_quadratic_cost_sensitive_and_target_preservation_controls;Delta_structured_readout_only_not_scientifically_admitted",
+    "measurement_status": "AToKe_partially_closes_temporal_validity_but_no_native_pre_action_b_c_h_randomized_propensity_or_paired_action_outcomes",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_conditional_control",
+    "review_feedback_repair": "Independent review corrected the continuous/full-write threshold distinction, Taylor root branches, self-key scaling, KnowledgeEditor mechanism description and overbroad native-validity claim; final math and source bytes passed independently.",
+    "unclosed": [
+      "A prefix-only Delta sufficient statistic for b,c,h with a proved same-budget compute, sample-efficiency or calibration advantage over a direct action-value predictor.",
+      "A coupled-state theorem that propagates the signed margin beyond the fixed-reference quadratic without future leakage or full-rollout cost.",
+      "A native old/new validity object jointly recording randomized propensity and paired action outcomes; AToKe supplies temporal validity only.",
+      "Empirical free-running evidence; no execution was authorized in this phase."
+    ],
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",
