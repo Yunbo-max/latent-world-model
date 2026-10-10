@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R06_v2_contractive_envelope_independent_reviews_passed_pending_exact_readback_no_candidate",
+  "status": "repair_R06_v2_contractive_envelope_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2289,7 +2289,7 @@
       "sha256": "9284ea4af3ada3278b23759842b900434eb5ec0f0a1fe93f7aae221d091502ff",
       "reviewer": "/root/r06_v2_source_review"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_contractive_envelope_and_prefix_impossibility_control_pending_exact_readback",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_contractive_envelope_and_prefix_impossibility_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditional_frozen_path_contraction_envelope_rectangular_minimax_HT_allocation_sharp_two_sided_ratio_and_unbounded_no_lower_bound",
       "contribution": "useful_Delta_specialized_control_theorem_and_impossibility_boundary_not_new_sampling_or_updater_mechanism",
@@ -2308,6 +2308,11 @@
       "A full closed-loop Jacobian or lawful sequential-feedback/OPE treatment; the frozen product is not enough.",
       "Empirical effect remains unknown because no model or benchmark execution was authorized."
     ],
-    "delivery_status": "substantive_commit_pending_expected_parent_update_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "c2347b28fa1ec58c8d5021ebd8b1db92f7fb14d4",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_V2_DELIVERY_READBACK.json",
+      "sha256": "a8054d5483d330e2713ca4a5c4d9dc3d57531e1a70310a291e3bc4bc16c6576e"
+    }
   }
 }
