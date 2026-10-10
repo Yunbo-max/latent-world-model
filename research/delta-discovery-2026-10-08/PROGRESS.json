@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T02:34:52Z",
+  "recorded_at": "2026-10-10T03:45:19Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R08_temporal_validity_release_published_exact_readback_no_candidate",
+  "status": "repair_R09_finite_budget_pareto_published_pending_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "bcb8a7e486267ba0ddf36aad08b43e444d320cfd",
+  "delivery_parent": "e707ec26930f9683f5cf7c2b449f7e278eef380d",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -125,7 +125,12 @@
       "research/delta-discovery-2026-10-08/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
       "research/delta-discovery-2026-10-08/sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.math-review.md",
-      "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md"
+      "research/delta-discovery-2026-10-08/reviews/STEP2_EFFECTIVE_RANK_TRUNCATION.source-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "research/delta-discovery-2026-10-08/sources/REPAIR_R09_OVERWRITE_PROTECTION_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -144,10 +149,11 @@
       "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
       "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D.",
       "R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D.",
-      "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution."
+      "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution.",
+      "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred."
     ]
   },
-  "next_action": "R08 is parked as a conditional temporal-belief plus action-margin control. Reopen only with a prefix-only sufficient state for p,q,h,Gamma that has a same-budget advantage, a Delta-specific threshold/continuation theorem cheaper than generic POMDP/QCD, or native causal old/new validity plus action propensity and paired/identifiable outcomes; otherwise continue another evidence-backed lineage.",
+  "next_action": "R09 is parked as a conditional finite-budget static geometry control. Reopen only with a prefix-only same-budget dynamic/action-weighted G estimator, an information/state lower bound that is stronger than generic constrained least squares, or a native causal protected-action measurement object; otherwise continue another evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -628,6 +634,27 @@
       "result": "PASS source accuracy; direct temporal-action and sequential-control collisions verified; no native causal action-margin object",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V1.source-review.md",
       "sha256": "27d91a3332040fcdd9c076912a51fa86f9f09dce818d62dcf1f27b2beb7d75e7"
+    },
+    {
+      "identity": "/root/r09_frontier_math",
+      "assignment": "independent derivation and exact final-byte mathematical review",
+      "result": "PASS conditional static Pareto theorem/control; endpoints, KKT boundary, dual support and old singularity verified; no candidate",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
+      "sha256": "5c12cda85eebd23ea9bfb7ba16cfb8b4fbf73ac1a5637e0703622451fd84c6d9"
+    },
+    {
+      "identity": "/root/r09_source_audit",
+      "assignment": "independent primary/full-formula, author-interface, originality and native-measurement review",
+      "result": "PASS source accuracy; AlphaEdit/AlphaEdit+ ownership and direct mechanism collision verified; no candidate",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
+      "sha256": "73f96c9f82141b14a3e8cb5703710d132c26d00cd73dc83f8c63fdcd648fcc0d"
+    },
+    {
+      "identity": "/root/r09_adversarial",
+      "assignment": "independent endpoint, multiplier, loss-scope, hidden-cost and collision attack",
+      "result": "PASS after strict-budget/equality-boundary and AlphaEdit+ corrections; no remaining blocker",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
+      "sha256": "6f2996d78589079d9c585b847ad8e48bde78d72d4100d8565048dc8c85dca81c"
     }
   ],
   "step2_reentry": {
@@ -961,7 +988,8 @@
     "interpretation": "Substantially distinct exploration pool, not a guarantee of 20 original/admitted/experimentally successful methods. Retired history and control/theory repair entries do not populate the active candidate pool. Select only eligible candidates; honest shortage reporting.",
     "repair_controls_count_as_candidates": false,
     "notes": [
-      "R01–R04 repair/control records do not populate active pool or selection."
+      "R01–R04 repair/control records do not populate active pool or selection.",
+      "R09 is a reviewed finite-budget Pareto theorem/control and contributes zero active/admitted/selected candidates."
     ]
   },
   "repair_R02_randomized_action_credit": {
@@ -1318,5 +1346,54 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_DELIVERY_READBACK.json",
       "sha256": "d3cb9631845f824fbb49c4f985cccd1b184a1d301de352b438b606b99ad38f48"
     }
+  },
+  "repair_R09_finite_budget_overwrite_protection": {
+    "repair_id": "R09",
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/NOGO_CAP_02.md",
+      "rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+      "STEP2_IDENTIFIABILITY_PROJECTION_BOUNDARY.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_OVERWRITE_PROTECTION_SOURCE_AUDIT.md",
+      "sha256": "c74e96dcc7c19f9b9fd8a1e261f839b5c81002cf9340fa8452adc20a24408c01"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
+      "sha256": "5c12cda85eebd23ea9bfb7ba16cfb8b4fbf73ac1a5637e0703622451fd84c6d9",
+      "reviewer": "/root/r09_frontier_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
+      "sha256": "73f96c9f82141b14a3e8cb5703710d132c26d00cd73dc83f8c63fdcd648fcc0d",
+      "reviewer": "/root/r09_source_audit"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
+      "sha256": "6f2996d78589079d9c585b847ad8e48bde78d72d4100d8565048dc8c85dca81c",
+      "reviewer": "/root/r09_adversarial"
+    },
+    "mathematical_status": "accepted_conditional_general_matrix_finite_budget_overwrite_protection_Pareto_certificate",
+    "contribution_status": "major_collision_with_inverse_Gram_RLS_nullspace_and_AlphaEditPlus_soft_conflict_mechanisms;Delta_specialized_ratio_equality_singular_endpoint_and_infeasibility_theorem_only",
+    "measurement_status": "endpoint_edit_benchmarks_exist_but_no_native_prefix_only_causal_protected_action_metric_or_same_budget_dynamic_G_object",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
+    "disposition": "park_after_attempt_1_conditional_static_geometry_control",
+    "preserved_old_result": "full_correction_gamma_1_keeps_affine_path_singular_and_exact_protection_can_remain_infeasible_or_ill_conditioned",
+    "repair_delta": "replace_binary_exact_or_no_write_target_with_exact_approximate_correction_protected_displacement_update_energy_frontier_without_deleting_counterexamples",
+    "unclosed": [
+      "Prefix-only same-budget estimator of a dynamic or action-weighted protected metric G.",
+      "Information/state lower bound or Delta-specific computation theorem beyond generic constrained least squares.",
+      "Native causal object linking pre-action protection geometry, update choice and paired or identifiable later outcomes.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback"
   }
 }

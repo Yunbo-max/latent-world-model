@@ -151,3 +151,10 @@ Delta rank-one 写入把这些量具体化为可检查的 key/residual/JVP 二�
 [修订推导](repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md)把旧的静态 posterior gate 与 martingale release 线索重新接到 R07 的动作几何。隐藏旧事实有效性 belief 只决定分支权重；真正动作由 `D_p(a)=h(p)a²-2q(p)a` 决定。固定 full action 时得到方向可反转的精确 posterior 阈值；固定 belief 时，保护交叉项仍能让两个世界选择相反动作。故“检测到事实过时”与“释放保护现在有收益”被明确分开。
 
 动态时必须加入 switching cost 和 Bellman continuation `Gamma`；写入会破坏后续证据或改变 memory/updater state 时，myopic 阈值可被最小反例反转。联合 sharp belief interval 可给端点 robust certificate；one-step query value 属普通 Bayes VoI。BOCPD、POMDP/controlled QCD、Zhang–Choi 时间后验阈值、AToKe、StableEdit 与 RLEdit 已提供直接近邻。[来源审计](sources/REPAIR_R08_TEMPORAL_VALIDITY_SOURCE_AUDIT.md)和独立最终字节数学/来源复核均通过。R08 因此保存为条件 theory/control，不计候选；实验未知，计数仍5历史/0活动/0准入/0选择。
+
+
+## R09有限预算覆盖—保护修复里程碑（2026-10-10）
+
+R09没有删除`NOGO_CAP_02`的反例，而是修正了“只能精确覆盖或完全不写”的目标错配。对任意矩阵编辑`Delta S`，在固定纠错量、保护位移`tr(Delta S^T G Delta S)`与Frobenius能量之间导出了精确Pareto前沿、奇异端点、预算可行性和双上限支持函数。普通Delta被证明是固定纠错下唯一的最小能量端点，并非被预条件方向无条件支配；`gamma=1`时原仿射覆盖路径仍奇异。
+
+三路独立最终字节审查通过的是条件静态几何定理。逆Gram/RLS、零空间编辑及AlphaEdit+软冲突松弛与主要机制直接重合；动态`G`的因果可得性、同预算优势和原生保护—动作测量仍未闭，实际效果未知。因此R09作为control/theory停放，不分配D编号，活动/准入/选择计数均不变。重开条件是获得prefix-only同预算动态/动作加权`G`估计、强于通用约束最小二乘的信息/状态下界，或原生因果protected-action对象。

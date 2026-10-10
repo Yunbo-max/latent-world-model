@@ -79,3 +79,10 @@ R07 的问题价值高于“真实性 posterior 直接当 gate”：它给出可
 R08 不进入活动池或 top15。它修正了两个真实错误：时间有效性后验不能直接代替释放收益，e-process 的错误释放证据控制也不能证明释放的效用。数学给出了固定 full action 的精确阈值方向、sharp endpoint robust certificate、one-step query VoI，以及含 switching/continuation 的 Bellman 决策边界。
 
 但主要机制均有强直接近邻，Delta 残余只有 signed action-margin 专门化；连续优化方向不保证单阈值，动作影响证据时还需完整 belief+memory state。原生机制测量缺失且未执行实验。故独立审查通过的是 conditional theory/control，不是原创候选；全池仍0活动、0准入、0选择。
+
+
+## R09排名处置
+
+R09不进入活动池或top15。它确实修复了一个目标/构造错配：从“精确保护不可行”前进到纠错、声明保护位移和更新能量的完整有限预算Pareto证书，并证明普通Delta是最小能量端点而非被无条件支配。数学边界通过独立复核，旧奇异性与病态反例均保留。
+
+但逆Gram/RLS、nullspace/projection editing和AlphaEdit+软冲突松弛已覆盖主要构造；R09尚无prefix-only动态metric估计、同预算计算/统计优势或原生因果protected-action测量。实际效果未知且未执行实验。因此处置为conditional static theory/control、parked not candidate；计数保持5历史/0活动/0准入/0选择。

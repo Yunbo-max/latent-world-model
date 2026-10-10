@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T02:31:00Z",
+  "recorded_at": "2026-10-10T03:45:19Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -120,7 +120,8 @@
     "Derived the complete recursive edit gradient, exact Hessian and CE/GGN finite-horizon variational-Gramian decomposition; added matrix-free JVP/VJP, estimator-to-action regret and local sufficient-decrease bounds plus explicit teacher-forced/free-running identification limits.",
     "Two independent exact-byte reviews accepted the corrected recursive-random-metric math and source/native audit. Major components collide with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; no D ID or candidate admission.",
     "Actual Work invocation read current task RSI authorization and latest8738065 main, retained same bound skill revision; derived full coupled Delta-updater Jacobian, gate/shear and slow-clock counterexamples, uniform small-gain and protected-fiber bounds; full primary/available author-interface audit and two exact-byte independent reviews. No new candidate, project execution or experiment plan.",
-    "Latest owner repair feedback acted on: two linked versioned rederivations (fixed value-span closed-loop tangent/leakage and scalar credit-error/finite-step margin), old counterexamples retained; independent final math/source reviews bound to exact bytes after K/Q notation correction. No candidate promotion or code/experiment execution."
+    "Latest owner repair feedback acted on: two linked versioned rederivations (fixed value-span closed-loop tangent/leakage and scalar credit-error/finite-step margin), old counterexamples retained; independent final math/source reviews bound to exact bytes after K/Q notation correction. No candidate promotion or code/experiment execution.",
+    "R09 bounded repair completed: preserved exact-overwrite/protection no-go and counterexamples, derived the general-matrix finite-budget Pareto certificate, ordinary-Delta minimum-energy endpoint, singular limits, exact dual support and soft correction; three independent exact-final-byte reviews passed conditional accuracy and found direct inverse-Gram/nullspace/AlphaEdit+ collision. No code, execution or new D."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -172,7 +173,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-10 02:34:52 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 03:45:19 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -183,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R08 is parked as a conditional temporal-belief plus action-margin control. Reopen only with a prefix-only sufficient state for p,q,h,Gamma that has a same-budget advantage, a Delta-specific threshold/continuation theorem cheaper than generic POMDP/QCD, or native causal old/new validity plus action propensity and paired/identifiable outcomes; otherwise continue another evidence-backed lineage.",
+  "next_action": "R09 is parked as a conditional finite-budget static geometry control. Reopen only with a prefix-only same-budget dynamic/action-weighted G estimator, an information/state lower bound that is stronger than generic constrained least squares, or a native causal protected-action measurement object; otherwise continue another evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -377,6 +378,36 @@
       },
       "scope": "Math/source-only Step2 milestone: exact endogenous scalar-gate tangent recurrence, tight linear matrix-rank growth construction, fixed-rank singular-tail boundary, ordered truncation/frozen-feedback error bounds, primary/code/native audit and two independent exact-byte reviews. Major component collision; zero new candidate/admission/selection and no project execution.",
       "verification": "Expected-parent non-force literal-main update and exact changed-file readback are performed and reported by the publishing session; this file is not itself the receipt."
+    },
+    "delta_math_repair_R09_milestone": {
+      "parent_head": "e707ec26930f9683f5cf7c2b449f7e278eef380d",
+      "refs": {
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+          "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab"
+        },
+        "source_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_OVERWRITE_PROTECTION_SOURCE_AUDIT.md",
+          "sha256": "c74e96dcc7c19f9b9fd8a1e261f839b5c81002cf9340fa8452adc20a24408c01"
+        },
+        "math_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
+          "sha256": "5c12cda85eebd23ea9bfb7ba16cfb8b4fbf73ac1a5637e0703622451fd84c6d9",
+          "reviewer": "/root/r09_frontier_math"
+        },
+        "source_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
+          "sha256": "73f96c9f82141b14a3e8cb5703710d132c26d00cd73dc83f8c63fdcd648fcc0d",
+          "reviewer": "/root/r09_source_audit"
+        },
+        "adversarial_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
+          "sha256": "6f2996d78589079d9c585b847ad8e48bde78d72d4100d8565048dc8c85dca81c",
+          "reviewer": "/root/r09_adversarial"
+        }
+      },
+      "scope": "Math/source-only bounded repair: retain the exact-overwrite/protection no-go, derive the finite-budget correction–protection–energy Pareto certificate and singular endpoints, audit direct closest-work collisions, and bind three independent exact-byte reviews. Zero candidate/admission/selection increment; no project execution.",
+      "verification": "Expected-parent non-force literal-main update is pending in this publishing session."
     }
   },
   "skill": {
@@ -1294,7 +1325,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 02:34:52 UTC",
+  "updated_at": "2026-10-10 03:45:19 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1329,5 +1360,40 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_DELIVERY_READBACK.json",
       "sha256": "d3cb9631845f824fbb49c4f985cccd1b184a1d301de352b438b606b99ad38f48"
     }
+  },
+  "repair_R09_finite_budget_overwrite_protection": {
+    "version": "v1",
+    "lineage_parents": [
+      "rejected/NOGO_CAP_02.md",
+      "rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+      "STEP2_IDENTIFIABILITY_PROJECTION_BOUNDARY.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_OVERWRITE_PROTECTION_SOURCE_AUDIT.md",
+      "sha256": "c74e96dcc7c19f9b9fd8a1e261f839b5c81002cf9340fa8452adc20a24408c01"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.math-review.md",
+      "sha256": "5c12cda85eebd23ea9bfb7ba16cfb8b4fbf73ac1a5637e0703622451fd84c6d9",
+      "reviewer": "/root/r09_frontier_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.source-review.md",
+      "sha256": "73f96c9f82141b14a3e8cb5703710d132c26d00cd73dc83f8c63fdcd648fcc0d",
+      "reviewer": "/root/r09_source_audit"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V1.adversarial-review.md",
+      "sha256": "6f2996d78589079d9c585b847ad8e48bde78d72d4100d8565048dc8c85dca81c",
+      "reviewer": "/root/r09_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_static_Pareto_control_parked_not_candidate",
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback"
   }
 }

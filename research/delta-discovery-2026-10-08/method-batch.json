@@ -152,6 +152,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
       "sha256": "574a66f55b62c57cf08c2866ea16d6711dbc49d14c37c4d3c0dbe9b1bf19fd4a",
       "status": "accepted_conditional_temporal_validity_release_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab",
+      "status": "accepted_conditional_finite_budget_Pareto_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -171,6 +176,7 @@
   },
   "counting_policy_repair": {
     "prior_corrupted_value": "[object Object] R02 adds a reviewed repair/control but no active constructed or selected candidate. R03 adds a reviewed Delta-local safety certificate/control but no active constructed or selected candidate.",
-    "reason": "Recovered owner-sourced policy object and retained malformed history."
+    "reason": "Recovered owner-sourced policy object and retained malformed history.",
+    "r09": "Reviewed static Pareto/control entry; zero active constructed, scientific admission or selection increment."
   }
 }
