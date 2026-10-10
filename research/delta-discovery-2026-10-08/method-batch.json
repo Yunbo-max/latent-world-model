@@ -192,6 +192,11 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_DELIVERY_READBACK.json",
         "sha256": "c7a699da0d204491158fc3cef8de0107a9b729aabac97713f20fa842213fd75f"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
+      "sha256": "23dd9536139c1beb4858a0407c4e21c1f32e6750e6d85521bec9eeba1c6a9c53",
+      "status": "accepted_conditional_multivariate_intervention_rank_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -211,7 +216,9 @@
       "R10 v1 supplies a reviewed equal-bit representation/operator-boundary control and adds zero active/admitted/selected candidates.",
       "R11 v1 supplies a reviewed exact order-gap rank/query-risk theorem-control and adds zero active/admitted/selected candidates.",
       "R12 v1 supplies a reviewed subspace-syndrome protected-readout theorem and same-width direct-statistic dominance result; zero active/admitted/selected candidates.",
-      "R13 v1 supplies a reviewed dynamic-covector transport/overwrite-obstruction theorem and direct-ledger dominance result; zero active/admitted/selected candidates."
+      "R13 v1 supplies a reviewed dynamic-covector transport/overwrite-obstruction theorem and direct-ledger dominance result; zero active/admitted/selected candidates.",
+      "R14 v1 supplies a reviewed posterior-provenance Bayes-action/identity-ambiguity control; zero active/admitted/selected candidates.",
+      "R15 v1 supplies a reviewed multivariate intervention-rank/conditioning control and explicitly consolidates prior R02/Step2 results; zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
@@ -221,6 +228,8 @@
     "r10": "Reviewed equal-bit transported-residual representation/operator-boundary entry; zero active constructed, scientific admission or selection increment.",
     "r11": "Reviewed order-gap/query-risk theorem-control; zero active constructed, scientific admission or selection increment.",
     "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment.",
-    "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment."
+    "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment.",
+    "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
+    "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment."
   }
 }

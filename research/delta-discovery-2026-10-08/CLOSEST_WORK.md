@@ -188,3 +188,10 @@ R09把二元exact-protect/exact-overwrite no-go修成了可计算的有限预算
 R14 的数学残余不是“给 Delta 加身份向量”，而是精确区分两个条件动作：逐槽后验风险最小化使用各自残差、signed protection term 与 curvature；把 posterior mean 当 tensor address 则制造一个共同残差，只有严格对齐条件下才相同。两世界与多槽公式给出 identity ambiguity 的条件风险下界。
 
 这不形成新架构。Jordan–Jacobs HME 已覆盖潜变量责任度与 posterior-weighted fitting/RLS；PKM、FwPKM、Sparse Delta Memory 与 ARM 已覆盖硬/软/稀疏槽位路由和在线局部更新；Smolensky tensor binding、Fast Weight Memory 与 linear fast weights 覆盖表示和外积写入；R07/R09 已覆盖 signed/quadratic protection geometry。最强同信息实现是直接读取候选槽位、计算逐槽 residual/curvature 并作 top-\(B\) gain 选择。bAbI/LAMBADA/RULER/LongMemEval 与普通模型编辑 scorer 不联合提供所需 posterior 和潜在动作后果，因此只保留条件 theorem/control，候选增量0。
+
+
+## R15 finite-action intervention rank 的最近工作处置
+
+R15 把有限 Delta 动作提升成 quadratic features 后，满秩 Gram、kernel indistinguishability、prediction-variance/conditioning 与 D/G-optimal design 都是标准 response-surface / linear-design 结论。Dudík 与 Jiang--Li 覆盖 AIPW/DR 和 sequential OPE；MIPS/OffCEM 说明低维 action embedding 仍需 no-direct-effect/local-correctness 才能借力；Ouroboros 作者实现已经从同一基态枚举 finite dose、在独立真实文本上 Settlement。
+
+项目内部碰撞也直接：R02 已有 randomized Delta action/AIPW/DR；`STEP2_PROJECTED_DELAYED_CREDIT.md` 已有 \(B^\top\lambda\)、标量 quadratic Gram、paired baseline+两个非零幅度、binary endpoint 限制、finite-H/free-running 与 OPE；`STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md` 已有 Hessian/GGN pullback。R15 可保留的价值只是把它们整合为 multivariate intervention-rank iff theorem，并明确病态设计、fixed-descendant replay 和 branch-cost 边界。它不是新 updater，候选增量0。

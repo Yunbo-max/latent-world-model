@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T08:44:00Z",
+  "recorded_at": "2026-10-10T09:55:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -173,7 +173,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-10 03:45:19 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 09:55:00 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R13 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions; reopen R13 only with a causal protected-object/validity selector and an operation not solved by the cheaper direct ledger.",
+  "next_action": "R15 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions. The noncommuting exact-flow line remains only an unaudited lead; reopen R15 only with a full coupled/free-running exact response law or matched-budget advantage over direct response/Q/OPE controls.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1642,5 +1642,66 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_DELIVERY_READBACK.json",
       "sha256": "c7a699da0d204491158fc3cef8de0107a9b729aabac97713f20fa842213fd75f"
     }
+  },
+  "repair_R15_intervention_rank": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
+      "repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
+      "STEP2_PROJECTED_DELAYED_CREDIT.md",
+      "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.md",
+      "sha256": "d37cb6d4013dfdc02d9e154ea4e7629b57334c9e7955e76c9e731e68e2d662fe"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
+      "sha256": "23dd9536139c1beb4858a0407c4e21c1f32e6750e6d85521bec9eeba1c6a9c53"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_INTERVENTION_RANK_SOURCE_AUDIT.md",
+      "sha256": "f1306aadf3d6d0834c624f7d161ae1ca3554152fa9e211b3364cafde2e8b95e9"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.math-review.md",
+      "sha256": "d622def537f706092f0d0d13bf6d9724e7f59c873c3a952a0b4903abba4c3ce3",
+      "reviewer": "/root/r15_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.source-review.md",
+      "sha256": "311da22f32a5c95c9356624dc6cb1aaff5fd3ee0282c2cc41ace351bd71a4391",
+      "reviewer": "/root/r15_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.adversarial-review.md",
+      "sha256": "912a5d9a967c19503c183ee138838b02e2b08cf0472dcf1a39f4dfe2705798d5",
+      "reviewer": "/root/r15_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_intervention_rank_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_multivariate_quadratic_feature_Gram_identifiability_nullspace_lower_bound_and_conditioning_boundary",
+    "contribution_status": "multivariate_consolidation_of_existing_R02_Step2_controls;standard_response_surface_optimal_design_OPE_and_Ouroboros_collision",
+    "novelty_status": "MAJOR_FUNCTIONAL_COLLISION_CONTROL_ONLY",
+    "measurement_status": "generic_logged_bandit_estimators_measurable_but_no_native_Delta_randomized_branch_consistent_response_surface_object",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "passive_factual_loss_does_not_identify_unchosen_write_and_fixed_recorded_suffix_credit_is_not_free_running_total_effect",
+    "repair_delta": "add_explicit_exact_quadratic_action_response_assumption_and_derive_full_multivariate_intervention_rank_condition_nullspace_counterexample_and_budget_price",
+    "screened_lines": {
+      "counterfactual_action_rank": "completed_R15_parked_as_control",
+      "causal_polynomial_future": "R09_R11_and_unknown_suffix_collision_parked",
+      "noncommuting_exact_flow": "unqualified_next_lead_pending_formula_code_audit"
+    },
+    "unclosed": [
+      "A checkable exact low-order or low-rank response law for full coupled free-running Delta dynamics.",
+      "A matched-support, information, state, compute and sample advantage over arm means, OLS/WLS design, AIPW/sequential DR, direct Q prediction and Settlement.",
+      "A native lawful branch-consistent Delta-action measurement object.",
+      "Long-horizon sequential support without exponential variance or branch cost.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_publication_and_exact_readback"
   }
 }
