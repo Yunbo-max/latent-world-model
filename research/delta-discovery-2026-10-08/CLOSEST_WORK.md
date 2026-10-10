@@ -195,3 +195,9 @@ R14 的数学残余不是“给 Delta 加身份向量”，而是精确区分两
 R15 把有限 Delta 动作提升成 quadratic features 后，满秩 Gram、kernel indistinguishability、prediction-variance/conditioning 与 D/G-optimal design 都是标准 response-surface / linear-design 结论。Dudík 与 Jiang--Li 覆盖 AIPW/DR 和 sequential OPE；MIPS/OffCEM 说明低维 action embedding 仍需 no-direct-effect/local-correctness 才能借力；Ouroboros 作者实现已经从同一基态枚举 finite dose、在独立真实文本上 Settlement。
 
 项目内部碰撞也直接：R02 已有 randomized Delta action/AIPW/DR；`STEP2_PROJECTED_DELAYED_CREDIT.md` 已有 \(B^\top\lambda\)、标量 quadratic Gram、paired baseline+两个非零幅度、binary endpoint 限制、finite-H/free-running 与 OPE；`STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md` 已有 Hessian/GGN pullback。R15 可保留的价值只是把它们整合为 multivariate intervention-rank iff theorem，并明确病态设计、fixed-descendant replay 和 branch-cost 边界。它不是新 updater，候选增量0。
+
+## R16 noncommuting joint-flow 的最近工作处置
+
+R16 与 KDA 的离散 decay-first recurrence 不同，也不等于 EFLA 的 pure-rank-one/scalar-commuting exact flow；它的真实残余是 \(\Lambda\)-Krylov 支撑、可高于 rank-one 的 homogeneous 差，以及被单独保留的 affine source 二阶差。但 exact ZOH 属标准 SSM/control，matrix exponential action、low-rank matrix-function update 与 diagonal-plus-rank-one eigensolver已有直接数值线代近邻。强制端点覆盖又严格回到 R09/RLS/full-metric PDN 式 normalized inverse geometry。
+
+作者实现固定到 KDA 07ca1e49、EFLA f188eae5、PDN 7bd75327、Longhorn 4ea17459 / CUDA 1be52220、S4 e757cef5 与 S5 3c18fdb6。没有找到同一 token-varying joint recurrence 不代表不存在；novelty 保持 INCONCLUSIVE_EXPAND_SEARCH。没有 compact exact action、同预算优势或 causal retain/release evidence 前，R16 只作为 parked theorem/control，候选增量0。

@@ -202,6 +202,11 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
         "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+      "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6",
+      "status": "accepted_conditional_noncommuting_joint_flow_theorem_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -223,7 +228,8 @@
       "R12 v1 supplies a reviewed subspace-syndrome protected-readout theorem and same-width direct-statistic dominance result; zero active/admitted/selected candidates.",
       "R13 v1 supplies a reviewed dynamic-covector transport/overwrite-obstruction theorem and direct-ledger dominance result; zero active/admitted/selected candidates.",
       "R14 v1 supplies a reviewed posterior-provenance Bayes-action/identity-ambiguity control; zero active/admitted/selected candidates.",
-      "R15 v1 supplies a reviewed multivariate intervention-rank/conditioning control and explicitly consolidates prior R02/Step2 results; zero active/admitted/selected candidates."
+      "R15 v1 supplies a reviewed multivariate intervention-rank/conditioning control and explicitly consolidates prior R02/Step2 results; zero active/admitted/selected candidates.",
+      "R16 v1 supplies a reviewed noncommuting joint-flow Krylov-rank and affine-source boundary; the endpoint repair collides with normalized inverse-metric Delta, so it adds zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
@@ -235,6 +241,7 @@
     "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment.",
     "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment.",
     "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
-    "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment."
+    "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
+    "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment."
   }
 }

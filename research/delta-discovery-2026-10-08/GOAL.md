@@ -216,3 +216,11 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 则全部系数可辨识当且仅当 lifted feature Gram \(G=\mathbb E[\phi(Z)\phi(Z)^\top\mid\mathcal F]\) 满秩；任意 \(d\in\ker G\) 都给出日志支持上相同、未试动作上不同的两世界。线性 \(r\) 维动作至少需要 baseline 加 \(r\) 个独立方向；任意二次响应需要 \(1+r+r(r+1)/2\) 个独立 feature rows。标量 gate 的 paired baseline 加两个非零幅度可分离斜率/曲率，而 write/no-write 只能识别端点差。
 
 独立最终字节审查补正了增广状态注入维度、quadratic feature 的四阶矩条件、固定条件层 CRLB、paired intercept cancellation，以及 fixed recorded descendants 与 lawful common-random-number free-running pairing的区别。来源/作者接口审计确认 response-surface/optimal design、AIPW/sequential DR、MIPS/OffCEM 与 Ouroboros finite-dose Settlement 都是强直接控制；本项目 `STEP2_PROJECTED_DELAYED_CREDIT.md` 已含标量版本与大部分边界。故 R15 只是 multivariate consolidation/lower-bound control，第一次修订后 park，不分配 D 编号；计数保持5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。
+
+## R16 非交换 joint-flow 修复里程碑（2026-10-10）
+
+[R16 三线筛选](repairs/R16_REPAIR_LINE_SCREEN.md)接续 R15 留下的 noncommuting exact-flow lead，并同时复查 symmetric split/Magnus 与 R09 inverse-metric endpoint。选中的[修订推导](repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md)把标量 residual flow 改为冻结的联合生成元 \(M=\Lambda+kk^\top\)，推导完整 affine exact flow，而不是只比较齐次交换子。
+
+自然联合流并不能精确覆盖目标；若强制有限端点精确写入，唯一的 \(P_\tau^{-1}\)-metric 最小改动恰是 R09/PDN/RLS 型归一化 inverse-metric Delta，且旧状态因子仍奇异。真正保留的新边界是：相对纯 decay 的差异支撑在 \(\operatorname{span}\{k,\Lambda k,\ldots\}\) 上，非交换时可立即超过 rank one；二维行列式首项与 affine source 的二阶差都已独立复核。
+
+三路最终字节审查通过条件数学并固定 KDA、EFLA、PDN、Longhorn、S4/S5 与 matrix-function/Krylov 作者接口。exact ZOH、inverse-metric endpoint 和数值 action 均有强已知近邻；bounded novelty 仍是 INCONCLUSIVE_EXPAND_SEARCH，且一般稠密转移没有同预算优势或语义 revision 证据。因此 R16 在第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。

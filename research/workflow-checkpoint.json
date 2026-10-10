@@ -1708,5 +1708,62 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
       "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
     }
+  },
+  "repair_R16_noncommuting_joint_flow": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+      "rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+      "repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "repairs/R11_ORDER_GAP_COMPRESSION.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md",
+      "sha256": "4ec35e67d9b3f45411c5496a01da45102ddb9ab724289313f1ba1d1a30618980"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+      "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
+      "sha256": "442beb38d5f4c09a82f1c13488122e12a1bcf307e1500319de6cac3db0ccf3ca"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
+      "sha256": "b4867a21e212ba4beb9e232984953990828564998b033b4d72780cbffa01cefb",
+      "reviewer": "/root/r16_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
+      "sha256": "4ecd8fd0466b4311b0f8726913bb95395799d9c30904dce73c9873ce0413d070",
+      "reviewer": "/root/r16_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md",
+      "sha256": "9a688173443da3cce4677e64ec504003d66716827ba05c681fe477bb4aecb3bc",
+      "reviewer": "/root/r16_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_joint_flow_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_affine_flow_endpoint_inverse_metric_collision_Krylov_rank_and_affine_source_gap",
+    "contribution_status": "partial_theorem_delta;exact_ZOH_inverse_metric_and_matrix_function_mechanisms_known",
+    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
+    "measurement_status": "endpoint_tasks_do_not_natively_expose_joint_generator_internal_exact_action_or_validity_labels",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "scalar_exact_flow_only_changes_gate;exact_overwrite_is_singular;commutator_order_and_semantic_validity_gaps_remain",
+    "repair_delta": "replace_commuting_scalar_flow_with_full_noncommuting_frozen_generator_and_derive_Krylov_rank_endpoint_collision_and_affine_source_gap",
+    "unclosed": [
+      "Independent scientific justification for the simultaneous sub-token ODE rather than KDA's declared order.",
+      "A structured exact or certified approximate action with matched-budget advantage.",
+      "A causal selector for revision versus still-valid collision.",
+      "A native measurement object for the declared internal mechanism.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   }
 }

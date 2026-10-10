@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T09:55:00Z",
+  "recorded_at": "2026-10-10T10:00:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R15_intervention_rank_published_exact_readback_no_candidate",
+  "status": "repair_R16_noncommuting_joint_flow_reviewed_pending_main_publication_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "72fe5940247ded9496d3a896828ecfa779de5914",
+  "delivery_parent": "f9f4cdfc1d07ee0e88015879b60d59a9e1dec1b2",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -77,7 +77,8 @@
       "sources/OBSERVED_PREDICTIVE_TARGET_SOURCE_AUDIT.md",
       "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
       "sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
-      "sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md"
+      "sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
+      "sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -158,7 +159,13 @@
       "research/delta-discovery-2026-10-08/sources/R15_INTERVENTION_RANK_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md",
+      "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+      "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -184,10 +191,11 @@
       "R12 repaired checksum semantic-target mismatch into a precise protected-readout observability theorem: on edits Δ=BA, syndrome H^TΔ recovers Q^TΔ iff ker(H^TB) is contained in ker(Q^TB). A symmetric hidden-edit pair gives the coordinate-invariant minimax obstruction; pseudoinverse noise/leakage bounds and the noiseless rank-one Delta specialization were independently checked. The stronger same-width control stores a basis JA for the joint target row space, so no scalar-state advantage or semantic revision identification survives. Exact theorem priority remains INCONCLUSIVE_EXPAND_SEARCH, empirical value unknown, no execution/new D.",
       "R13 screened dynamic covector transport, retroactive rollback, reciprocal cycle and a set-valued quotient. The selected child derives exact affine readout transport iff ker(A) is contained in ker(Q^T), the Delta exact-overwrite obstruction and near-singular conditioning/offset cost. Independent final-byte math/source/adversarial reviews pass only a conditional control. Functional-observer/generalized-inverse/adjoint/reversible-memory collisions and a strictly simpler direct value ledger leave no method-level residual; R13 is parked, no execution/new D.",
       "R14 replaced the provenance-code oracle with a causal latent-slot posterior, derived the exact slotwise local Bayes action, proved a sharp identity-ambiguity floor and showed posterior-mean tensor writing generally uses the wrong common residual. Independent exact-byte reviews passed conditional mathematics/source scope, but HME/Bayesian routing plus routed sparse memory and prior protected quadratic controls cover the mechanism; direct routed slots are the stronger same-information baseline. Parked after attempt 1; candidate delta 0 and empirical effect unknown.",
-      "R15 screened three repair lines and repaired the finite-action counterfactual-credit line into an exact multivariate response-surface rank theorem: full quadratic coefficients require a full-rank lifted Gram, scalar write/no-write cannot separate slope/curvature, and ill-conditioning has an explicit information price. Independent exact-byte math/source/adversarial reviews pass only a conditional control. R02/Step2, response-surface design, OPE, MIPS/OffCEM and Ouroboros already cover the mechanism; parked after attempt 1 with candidate delta 0 and empirical effect unknown."
+      "R15 screened three repair lines and repaired the finite-action counterfactual-credit line into an exact multivariate response-surface rank theorem: full quadratic coefficients require a full-rank lifted Gram, scalar write/no-write cannot separate slope/curvature, and ill-conditioning has an explicit information price. Independent exact-byte math/source/adversarial reviews pass only a conditional control. R02/Step2, response-surface design, OPE, MIPS/OffCEM and Ouroboros already cover the mechanism; parked after attempt 1 with candidate delta 0 and empirical effect unknown.",
+      "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0."
     ]
   },
-  "next_action": "R15 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions. The screened noncommuting exact-flow line is only a lead until exact-discretization/SSM/KDA/PDN formulas and author interfaces are audited; reopen R15 only with a full coupled/free-running exact response law or matched-budget advantage over direct response/Q/OPE controls.",
+  "next_action": "R16 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions. Reopen R16 only with independent justification of the simultaneous ODE plus a structured exact or certified approximate action with matched-budget advantage, or with new causal revision evidence.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -704,6 +712,27 @@
       "identity": "/root/r12_adversarial_review",
       "result": "Independent final-byte adversarial PASS; direct joint-row-space coordinates same-width dominate, semantic no-go retained.",
       "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md"
+    },
+    {
+      "identity": "/root/r16_math",
+      "assignment": "independent derivation and exact final-byte mathematical review",
+      "result": "PASS_CONDITIONAL; endpoint control, Krylov-rank theorem, determinant, leakage and affine signs verified; park supported",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
+      "sha256": "b4867a21e212ba4beb9e232984953990828564998b033b4d72780cbffa01cefb"
+    },
+    {
+      "identity": "/root/r16_sources",
+      "assignment": "primary formula, author-interface, novelty and measurement audit plus exact final-byte review",
+      "result": "PASS_CONDITIONAL with novelty INCONCLUSIVE_EXPAND_SEARCH; KDA/EFLA/PDN/Longhorn/S4/S5 and matrix-function collisions pinned",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
+      "sha256": "4ecd8fd0466b4311b0f8726913bb95395799d9c30904dce73c9873ce0413d070"
+    },
+    {
+      "identity": "/root/r16_adversarial",
+      "assignment": "independent counterexample, overclaim, hidden-cost and final-byte attack",
+      "result": "PASS_CONDITIONAL after residual, matched-leakage and non-lower-bound cost corrections; park required",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md",
+      "sha256": "9a688173443da3cce4677e64ec504003d66716827ba05c681fe477bb4aecb3bc"
     }
   ],
   "step2_reentry": {
@@ -1782,5 +1811,62 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
       "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
     }
+  },
+  "repair_R16_noncommuting_joint_flow": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+      "rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+      "repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
+      "repairs/R11_ORDER_GAP_COMPRESSION.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md",
+      "sha256": "4ec35e67d9b3f45411c5496a01da45102ddb9ab724289313f1ba1d1a30618980"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+      "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
+      "sha256": "442beb38d5f4c09a82f1c13488122e12a1bcf307e1500319de6cac3db0ccf3ca"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
+      "sha256": "b4867a21e212ba4beb9e232984953990828564998b033b4d72780cbffa01cefb",
+      "reviewer": "/root/r16_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
+      "sha256": "4ecd8fd0466b4311b0f8726913bb95395799d9c30904dce73c9873ce0413d070",
+      "reviewer": "/root/r16_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md",
+      "sha256": "9a688173443da3cce4677e64ec504003d66716827ba05c681fe477bb4aecb3bc",
+      "reviewer": "/root/r16_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_joint_flow_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_affine_flow_endpoint_inverse_metric_collision_Krylov_rank_and_affine_source_gap",
+    "contribution_status": "partial_theorem_delta;exact_ZOH_inverse_metric_and_matrix_function_mechanisms_known",
+    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
+    "measurement_status": "endpoint_tasks_do_not_natively_expose_joint_generator_internal_exact_action_or_validity_labels",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "scalar_exact_flow_only_changes_gate;exact_overwrite_is_singular;commutator_order_and_semantic_validity_gaps_remain",
+    "repair_delta": "replace_commuting_scalar_flow_with_full_noncommuting_frozen_generator_and_derive_Krylov_rank_endpoint_collision_and_affine_source_gap",
+    "unclosed": [
+      "Independent scientific justification for simultaneous sub-token dynamics.",
+      "A structured exact or certified approximate action with matched-budget advantage.",
+      "A causal selector for revision versus still-valid collision.",
+      "A native measurement object for the declared internal mechanism.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   }
 }

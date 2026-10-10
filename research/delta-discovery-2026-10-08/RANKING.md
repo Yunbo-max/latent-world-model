@@ -86,3 +86,9 @@ R08 不进入活动池或 top15。它修正了两个真实错误：时间有效�
 R09不进入活动池或top15。它确实修复了一个目标/构造错配：从“精确保护不可行”前进到纠错、声明保护位移和更新能量的完整有限预算Pareto证书，并证明普通Delta是最小能量端点而非被无条件支配。数学边界通过独立复核，旧奇异性与病态反例均保留。
 
 但逆Gram/RLS、nullspace/projection editing和AlphaEdit+软冲突松弛已覆盖主要构造；R09尚无prefix-only动态metric估计、同预算计算/统计优势或原生因果protected-action测量。实际效果未知且未执行实验。因此处置为conditional static theory/control、parked not candidate；计数保持5历史/0活动/0准入/0选择。
+
+## R16 排名处置
+
+R16 不进入活动池或 top15。它修复了 scalar exact-flow 假设过窄与 homogeneous-only 比较遗漏 affine source 两个具体问题，并得到可证伪的 Krylov-rank、二维 full-rank deviation 与 matched-source leakage 边界。
+
+但自然 joint flow 不满足 exact overwrite；端点修复严格等价于已知 normalized inverse-metric Delta，通用 exact discretization/Krylov/DPR1 数值机制已有直接近邻，一般转移又失去 KDA 的 compact 应用结构。bounded search 没找到同构 ML recurrence 只能留下 INCONCLUSIVE_EXPAND_SEARCH，不能升级原创性。无 matched-budget 优势、原生机制测量或 revision-validity 证据，故处置为 parked conditional theorem/control；候选、准入与选择增量均为0。
