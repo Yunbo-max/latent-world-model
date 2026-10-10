@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T22:55:00Z",
+  "recorded_at": "2026-10-10T23:52:08Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -121,7 +121,8 @@
     "Two independent exact-byte reviews accepted the corrected recursive-random-metric math and source/native audit. Major components collide with observability/GGN/DDP-iLQR, DNI, RTRL/UORO/e-prop and DSSR; no D ID or candidate admission.",
     "Actual Work invocation read current task RSI authorization and latest8738065 main, retained same bound skill revision; derived full coupled Delta-updater Jacobian, gate/shear and slow-clock counterexamples, uniform small-gain and protected-fiber bounds; full primary/available author-interface audit and two exact-byte independent reviews. No new candidate, project execution or experiment plan.",
     "Latest owner repair feedback acted on: two linked versioned rederivations (fixed value-span closed-loop tangent/leakage and scalar credit-error/finite-step margin), old counterexamples retained; independent final math/source reviews bound to exact bytes after K/Q notation correction. No candidate promotion or code/experiment execution.",
-    "R09 bounded repair completed: preserved exact-overwrite/protection no-go and counterexamples, derived the general-matrix finite-budget Pareto certificate, ordinary-Delta minimum-energy endpoint, singular limits, exact dual support and soft correction; three independent exact-final-byte reviews passed conditional accuracy and found direct inverse-Gram/nullspace/AlphaEdit+ collision. No code, execution or new D."
+    "R09 bounded repair completed: preserved exact-overwrite/protection no-go and counterexamples, derived the general-matrix finite-budget Pareto certificate, ordinary-Delta minimum-energy endpoint, singular limits, exact dual support and soft correction; three independent exact-final-byte reviews passed conditional accuracy and found direct inverse-Gram/nullspace/AlphaEdit+ collision. No code, execution or new D.",
+    "R07 v2 repaired the frozen-reference scope with complete-state first/second directional recursions, costate-weighted dynamics curvature, a Taylor decrease certificate and explicit free-running boundaries. Three independent final-byte reviews passed conditional accuracy and found major adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collision; attempt 2/3 parked, candidate delta zero, no execution."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -176,7 +177,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-10 21:40:00 UTC",
+    "last_math_milestone_recorded_at": "2026-10-10 23:52:08 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -187,7 +188,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue the earliest independent unexhausted evidence-backed repair lineage. R02 is exhausted after attempt 3/3; reopen only for lawful prefix-estimable defect certificates, estimator-specific sequential-DR math, native joint measurement and matched-information advantage.",
+  "next_action": "After publishing R07 v2, continue R08 v2 as the earliest independent unexhausted evidence-backed repair lineage. Reopen R07 attempt 3 only for a lawful prefix estimator, Delta-specific matched-cost advantage, free-running causal bridge or native action-level measurement.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -871,7 +872,7 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R02_v3_approximate_causal_dynamic_quotient_published_exact_readback_no_candidate_lineage_exhausted",
+    "status": "repair_R07_v2_coupled_directional_margin_reviewed_conditional_control_pending_publication",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
@@ -880,8 +881,8 @@
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R02 v3 proves a sharp quotient-AIPW covariance/variance tolerance, separately derives a fixed-policy finite-horizon target-reachable uniform-defect value recursion, preserves quotient-only and rare-occupancy counterexamples, and shows Delta coefficient derivatives can leak discarded state despite the direct AEW term vanishing. Final-byte math/source/adversarial reviews pass only the conditional theorem; R02 is exhausted after attempt 3 with no execution/new D.",
-    "originality_and_native_measurement": "Approximate Information State Theorem 9, Abel approximate abstraction, Hao abstract-state OPE, bisimulation/simulation and internal R18/R03 cover the main mechanism. Existing native assets do not jointly expose full history, internal action propensities, complete quotient fibers, target-reachable uniform defects and paired continuations.",
+    "latest_math_result": "R07 v2 repairs the frozen-reference scope with a complete recurrent-state fixed-policy finite-horizon first/second directional margin, costate-weighted dynamics curvature, remainder certificate and explicit free-running distribution boundary. Final-byte math/source/adversarial reviews pass only the conditional debugging theorem; attempt 2/3 is parked with no execution/new D.",
+    "originality_and_native_measurement": "Adjoint sensitivity, DDP/iLQR, differentiable MPC, MAML/learned optimizers and Bellman evaluation cover the main mechanism. Existing native assets do not jointly expose complete pre-action state, action-time costate/curvature, validity, randomized propensity, paired outcomes, free-running distribution effect and matched cost.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -2199,6 +2200,25 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V3_DELIVERY_READBACK.json",
       "sha256": "494c5e1a77820f3a78889b74079f10b5776ed6f8d69e19e69b09393b6a75a1db"
     }
+  },
+  "repair_R07_v2_coupled_directional_margin": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R07_validity_to_action_margin",
+    "screen_sha256": "fc0383ceca9fc888aa3eb1dcaae4af9ba5d11a02171728bdd478c8f4a5aeca0c",
+    "artifact_sha256": "4259fee0afb25db2624972efcbd7ed6658b5aec16af84163583b8c14b96fdee3",
+    "source_audit_sha256": "6689600f72bdbc42e8df30c888a1ce6023d5e342bae25f38a3cc9933a18fe8b5",
+    "math_review_sha256": "6984c5a10b70fd79631b9b64013e1775cc33308aab06fb5d192ff2425812586d",
+    "source_review_sha256": "da16ed1a431fe730ee2b68cb9e9191a3f26c2bbe5fde5266abd09cdcbfe459d5",
+    "adversarial_review_sha256": "95f372c154260a4b6ccac9e3de5bf4159b9006e260ac57d2419471233d8790c1",
+    "mathematical_status": "passed_conditional_complete_state_fixed_policy_finite_horizon_directional_margin_and_remainder_control",
+    "contribution_status": "major_adjoint_DDP_iLQR_differentiable_MPC_meta_gradient_collision_Delta_debug_control_only",
+    "measurement_status": "native_complete_state_costate_curvature_validity_propensity_paired_outcome_free_running_and_matched_cost_object_missing",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_of_3",
+    "delivery_status": "substantive_commit_pending"
   }
 }
 

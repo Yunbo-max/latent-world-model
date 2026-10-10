@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T22:55:00Z",
+  "recorded_at": "2026-10-10T23:52:08Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R02_v3_approximate_causal_dynamic_quotient_published_exact_readback_no_candidate_lineage_exhausted",
+  "status": "repair_R07_v2_coupled_directional_margin_reviewed_conditional_control_pending_publication",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -214,7 +214,7 @@
       "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown."
     ]
   },
-  "next_action": "Continue the earliest independent unexhausted evidence-backed repair lineage. R02 is exhausted after attempt 3/3 and should not reopen without a lawful prefix-estimable defect certificate, estimator-specific sequential-DR theorem, native joint measurement object, and matched-information advantage.",
+  "next_action": "After publishing R07 v2, continue R08 v2 as the earliest independent unexhausted repair lineage. Reopen R07 attempt 3 only with a lawful prefix estimator, a Delta-specific matched-cost advantage, a free-running causal bridge, or native action-level measurement.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2608,6 +2608,59 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V3_DELIVERY_READBACK.json",
       "sha256": "494c5e1a77820f3a78889b74079f10b5776ed6f8d69e19e69b09393b6a75a1db"
     }
+  },
+  "repair_R07_v2_coupled_directional_margin": {
+    "repair_id": "R07",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts_per_line": 3,
+    "lineage_parent": "repair_R07_validity_to_action_margin",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "fc0383ceca9fc888aa3eb1dcaae4af9ba5d11a02171728bdd478c8f4a5aeca0c"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_COUPLED_DIRECTIONAL_MARGIN.v2.md",
+      "sha256": "4259fee0afb25db2624972efcbd7ed6658b5aec16af84163583b8c14b96fdee3"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R07_V2_COUPLED_DIRECTIONAL_MARGIN_SOURCE_AUDIT.md",
+      "sha256": "6689600f72bdbc42e8df30c888a1ce6023d5e342bae25f38a3cc9933a18fe8b5"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.math-review.md",
+      "sha256": "6984c5a10b70fd79631b9b64013e1775cc33308aab06fb5d192ff2425812586d",
+      "reviewer": "/root/r07v2_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.source-review.md",
+      "sha256": "da16ed1a431fe730ee2b68cb9e9191a3f26c2bbe5fde5266abd09cdcbfe459d5",
+      "reviewer": "/root/r07v2_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.adversarial-review.md",
+      "sha256": "95f372c154260a4b6ccac9e3de5bf4159b9006e260ac57d2419471233d8790c1",
+      "reviewer": "/root/r07v2_adversary"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_coupled_directional_control_not_candidate_pending_publication",
+    "scientific_states": {
+      "mathematics": "accepted_conditional_complete_state_fixed_policy_finite_horizon_first_and_second_directional_margin_with_remainder_certificate",
+      "contribution": "useful_R07_debugging_extension_not_new_updater_estimator_or_architecture",
+      "novelty": "major_adjoint_DDP_iLQR_differentiable_MPC_MAML_learned_optimizer_and_Bellman_collision",
+      "measurement": "no_native_complete_state_costate_curvature_validity_propensity_paired_outcome_free_running_and_matched_cost_object",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R07_v1_signed_truth_protection_quadratic_full_write_threshold_and_two_world_truth_action_counterexample_remain_valid",
+    "repair_delta": "replace_the_frozen_reference_quadratic_as_a_general_claim_with_a_complete_recurrent_state_fixed_policy_finite_horizon_directional_derivative_exact_dynamics_curvature_and_explicit_free_running_distribution_boundaries",
+    "unclosed": [
+      "A lawful prefix-only estimator or simultaneous bound for q, h and the remainder constant.",
+      "A Delta-specific theorem giving lower total state or FLOPs than JVP/VJP, BPTT, DDP, RTRL or direct action-value prediction.",
+      "A valid bridge from common-suffix derivatives to the action-dependent free-running law and its finite tail.",
+      "A native joint action-level measurement object and empirical evidence."
+    ],
+    "delivery_status": "substantive_commit_pending"
   }
 }
 

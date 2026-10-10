@@ -369,6 +369,14 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R02_V3_DELIVERY_READBACK.json",
         "sha256": "494c5e1a77820f3a78889b74079f10b5776ed6f8d69e19e69b09393b6a75a1db"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_COUPLED_DIRECTIONAL_MARGIN.v2.md",
+      "sha256": "4259fee0afb25db2624972efcbd7ed6658b5aec16af84163583b8c14b96fdee3",
+      "status": "accepted_conditional_complete_state_finite_horizon_directional_margin_control_parked_not_candidate_pending_publication",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution"
     }
   ],
   "counting_policy": {
@@ -404,6 +412,7 @@
       ,"R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
       ,"R06 v3 supplies a reviewed exact rank-one singular survival product, conditional Kantorovich audit factor and matching current-residual plasticity floor. Generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus the missing native joint object leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
       ,"R02 v3 supplies a reviewed sharp quotient-AIPW covariance tolerance, a separately scoped fixed-policy uniform-defect value recursion, a rare-occupancy failure witness and a Delta coefficient-leakage identity. AIS, approximate abstraction, abstract-state OPE, bisimulation and internal R18/R03 collisions leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
+      ,"R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked."
     ]
   },
   "counting_policy_repair": {
@@ -426,7 +435,8 @@
     "r02_v2": "Reviewed quotient-only DR coarsening-bias and sequential causal-quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive delivery completed with exact readback.",
     "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
-    "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
+    "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
+    "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3, publication pending."
   }
 }
 

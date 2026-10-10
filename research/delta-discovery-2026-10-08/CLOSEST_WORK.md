@@ -1,5 +1,11 @@
 # 定向近邻图与阅读边界
 
+## R07 v2 完整状态方向边际
+
+R07 v2 最近的数学机制是 full DDP/adjoint sensitivity：写入动作是有限时域 Bellman/local-Q 目标的一维切片，精确二阶导数包含 costate 加权的转移动力学曲率；iLQG/GGN 正是省略该项的近似。Differentiable MPC 提供相同的隐式/固定点伴随计算，MAML 与 learned optimizers 已覆盖通过内层更新求未来损失导数。SEAL、TTT Ouroboros 与 HOPE 分别增加下游损失、延迟结算和多时间尺度/自修改记忆重叠，但都不提供免费的在线 Delta costate oracle。
+
+残余 Delta 特化很窄：初始动作方向是 `vec(beta k e^T)`，所以一阶导数收缩为 `beta k^T G_S e`；其余 continuation 计算仍是一般机制。尚无同信息定理证明总状态/FLOPs 低于 JVP/VJP、BPTT、DDP、RTRL 或直接动作价值预测；原生端点也不联合暴露完整动作证书。最近工作结论：**major component collision；保留为修复后的 theorem/debugging control，不是独立候选**。
+
 2026-10-08 实际阅读。箭头表示候选必须比较的最近机制，不代表证明相同或原创。精确版本、section/公式、作者 commit/文件/函数与字节固定见下列 source audit；没有接口阅读的项目明确 pending。
 
 | 方向 | 已知机制/实际区别 | 状态与证据入口 |

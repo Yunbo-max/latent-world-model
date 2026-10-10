@@ -1,5 +1,11 @@
 # 全池排名尚未到达：当前活动池为零
 
+## R07 v2 排名处置（2026-10-10）
+
+R07 v2 **不进入活动池或 top-15**。它修复了真实的范围错误：把写入传播到完整递归状态，并保留精确动力学曲率、不定曲率分支、Taylor 余项与自由运行分布边界；在仿射冻结极限又精确恢复 v1，而非删除旧结论。
+
+正面构造仍是标准 adjoint/DDP/Bellman differentiation 加一个 Delta rank-one 初始方向。没有获得 prefix-only estimator、Delta-specific matched-cost advantage、自由运行因果桥或原生联合测量对象。三路独立最终字节审查因此只接受 conditional theory/debugging control。R07 在 attempt 2/3 后 park，候选增量0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
+
 目标是最多 20 个实质不同、数学成立且通过近邻审查的候选，再对完整池排序并默认选择前 15。构造历史现有 D01、D03、D05、D06、D07 五张卡；决定性审查已把五张全部移为控制、诊断或历史，当前活动池为 **0**。D07 的条件数学仍成立，但完整公式与作者代码审计确认：一般 source contribution、realized-path survival 及同-key 特例已被直接近邻覆盖，主功能又有 write-rate decay 与 delayed semantic supervision；只余 direct arbitrary-key hinge 的窄实现差异，不足以科学准入。
 
 **没有全池排名、没有 method-selection、没有 selection-review，也没有 `selection_verified`。** 零张活动卡不能产生 top-15，五张被移出的卡也不能被反向计入排名。
