@@ -226,7 +226,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
       "sha256": "c3b32f912637b5ba3f1e6978f0c981d517a3d561736e246a7b2d392011d8f559",
-      "status": "accepted_conditional_recursive_joint_quotient_debugging_control_parked_not_candidate"
+      "status": "accepted_conditional_recursive_joint_quotient_debugging_control_parked_not_candidate",
+      "publication_commit": "80aafe57836411ab15f799b252e7dd57e685965b",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
+        "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
+      }
     }
   ],
   "counting_policy": {
@@ -266,6 +271,6 @@
     "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
     "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; expected-parent main delivery pending."
+    "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }

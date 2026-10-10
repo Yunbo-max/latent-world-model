@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T11:56:57Z",
+  "recorded_at": "2026-10-10T11:59:11Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R18_recursive_joint_quotient_final_reviews_passed_pending_main_delivery_no_candidate",
+  "status": "repair_R18_recursive_joint_quotient_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2003,6 +2003,11 @@
       "Native measurement of paired joint-state overwrite fibers and recursive invisibility rather than downstream endpoints alone.",
       "Field-wide originality and empirical effect; no execution authorized."
     ],
-    "delivery_status": "final_reviewed_packet_prepared_expected_parent_main_delivery_pending"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "80aafe57836411ab15f799b252e7dd57e685965b",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
+      "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T11:56:57Z",
+  "recorded_at": "2026-10-10T11:59:11Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1900,6 +1900,11 @@
       "Native measurement of paired joint-state overwrite fibers and recursive invisibility rather than downstream endpoints alone.",
       "Field-wide originality and empirical effect; no execution authorized."
     ],
-    "delivery_status": "final_reviewed_packet_prepared_expected_parent_main_delivery_pending"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "80aafe57836411ab15f799b252e7dd57e685965b",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
+      "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
+    }
   }
 }
