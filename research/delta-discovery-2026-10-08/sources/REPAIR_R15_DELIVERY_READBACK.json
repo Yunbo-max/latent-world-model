@@ -1,0 +1,29 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "repair_id": "R15_INTERVENTION_RANK_BOUND.v1",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "b25aef83f8b4c87f2c2af3f4f17a517041c6d956",
+  "substantive_commit": "72fe5940247ded9496d3a896828ecfa779de5914",
+  "tree": "e089519d06bc06e66e1887507e9b1b4c2eaf09cf",
+  "ref_update": {
+    "force": false,
+    "expected_sha_matched": true
+  },
+  "verification": "Every changed file was fetched from the exact substantive commit and its Git blob SHA matched the uploaded blob SHA.",
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.md", "blob_sha": "e3816d0d98aaaa776af8dd43d85a1a94632b6140"},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md", "blob_sha": "dfbf4a363bb47cd0cc1a5dae3a7bd95808092273", "sha256": "23dd9536139c1beb4858a0407c4e21c1f32e6750e6d85521bec9eeba1c6a9c53"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R15_INTERVENTION_RANK_SOURCE_AUDIT.md", "blob_sha": "3f8ebd9cf7b398d72a201b7c69970dc42b18da1b"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.math-review.md", "blob_sha": "cf4515c1db49b6aaf3792607b62089718f74f31e"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.source-review.md", "blob_sha": "2965742be6ccaafd1cd141b2addfe33d8ba41e40"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.adversarial-review.md", "blob_sha": "585a2c7f6b20a0aeca0ad3745c64b6b48a77b9df"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "1cd1b5fff8f2ce7d043b56ff0915a830ecb27f6c"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob_sha": "6752ec7e880261b4aa9c4c821391e5f54db696b3"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "9d9e22581d06d1129e9fc32cce6b786278b4754c"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "7a1952c3de7656517e2c337fa9c2e5423bd62d12"},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "ef1314a6343a41b07b60a10278bb97abe2ac4f0f"}
+  ],
+  "all_exact_blob_matches": true,
+  "execution": "math_source_review_only_no_code_tests_training_inference_scoring_or_benchmark_run"
+}

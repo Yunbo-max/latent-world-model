@@ -196,7 +196,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
       "sha256": "23dd9536139c1beb4858a0407c4e21c1f32e6750e6d85521bec9eeba1c6a9c53",
-      "status": "accepted_conditional_multivariate_intervention_rank_control_parked_not_candidate"
+      "status": "accepted_conditional_multivariate_intervention_rank_control_parked_not_candidate",
+      "publication_commit": "72fe5940247ded9496d3a896828ecfa779de5914",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
+        "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
+      }
     }
   ],
   "counting_policy": {

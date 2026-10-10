@@ -1702,6 +1702,11 @@
       "Long-horizon sequential support without exponential variance or branch cost.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified",
+    "publication_commit": "72fe5940247ded9496d3a896828ecfa779de5914",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
+      "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
+    }
   }
 }
