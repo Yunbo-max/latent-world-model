@@ -104,3 +104,9 @@ R17 不进入活动池或 top15。它真实修复了 NOGO-CAP-02 的一个过强
 R18 不进入活动池或 top15。它修复了 R17 的递归作用域：memory-only frozen suffix 可能因 later cross-block 给出假安全，也可能因忽略同一步 auxiliary copy 给出假毁损。正确局部判据使用完整 `ker DW_t` 与完整 backward invisible subspace；仿射时可精确，非线性 Jacobian 只是一阶证书。PSD Gram 只证明加权商，完整声明行为还需相关输出上的权重可注入。
 
 但递归不变商、右同余、微分可观测 Gramian、predictive fibers 和 recurrent behavioral memory 都有直接近邻；项目 R12/R13/R17/Step2 已覆盖充分坐标、动态协向量、原子覆盖核与完整 Jacobian。R18 无 prefix-only quotient、matched-budget 优势或 native mechanism scorer，最强控制是完整 JVP/VJP 与直接 `rank(QK)` ledger。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0，实验效果未知。
+
+## R19 切换保护纤维排名处置
+
+R19 不进入活动池或 top15。它修复了三个正确但不闭合的旧结果之间的接口：每个模式内的 transverse contraction、固定 protected read 的 transport 与 evidence-triggered release，并给出 semidefinite kernel shrinking 时不存在有限 cross-mode multiplier 的 sharp 条件、二维反例和 released-coordinate rank 下界。
+
+但 Baum 等 arXiv:2512.16338v1 已直接覆盖 mode-dependent PSD seminorm、共同 invariant kernel、跨模式比较和 dwell/leave；multiple-Lyapunov、PSD domination、switched disturbance bound 和直接充分坐标又覆盖其余主体数学。R08/R13/R18 也分别覆盖 release decision、动态读出和完整联合状态商。R19 无可辨识事实释放证据、同预算状态/计算优势或原生内部 scorer。故处置为 parked conditional theorem/control；候选、准入与选择增量均为0，实验效果未知。

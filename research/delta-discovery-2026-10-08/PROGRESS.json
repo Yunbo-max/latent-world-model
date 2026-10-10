@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T11:59:11Z",
+  "recorded_at": "2026-10-10T12:54:32Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R18_recursive_joint_quotient_published_exact_readback_no_candidate",
+  "status": "repair_R19_switched_protection_fiber_reviewed_pending_publication_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2009,5 +2009,68 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
       "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
     }
+  },
+  "repair_R19_switched_protection_fiber": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "STEP2_COUPLED_UPDATER_STABILITY.md",
+      "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
+      "repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.md",
+      "sha256": "e14b8689f9d544ed05f6a0c8b2e5018660bbc28adfc5e28808d67c73d57c6745"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+      "sha256": "c589931307d5821b6abd3f4542c21fd6d5a98af5e43d2764cb3d7a22efa93bf6"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_SWITCHED_PROTECTION_FIBER_SOURCE_AUDIT.md",
+      "sha256": "8056962e86bcf3a94ddcb2b3d1a41de7be88562f019b0654d4d3c9773da2ce6f"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.math-review.md",
+      "sha256": "16913bb079730f17f1e4fbed2e0cf104669efb34d07ec80da34f564777e78b47",
+      "reviewer": "/root/r19_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.source-review.md",
+      "sha256": "8edb9276f0665f8ae6c18ed9af33a5c8239322c8beae3a8a5301473fe4e0b159",
+      "reviewer": "/root/r19_final_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.adversarial-review.md",
+      "sha256": "529721722444a94530956677e5da6320604143726f5ffe277d70d31d62df9023",
+      "reviewer": "/root/r19_final_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_distinctness_measurement_adversarial_reviews_passed_conditional_changed_kernel_switch_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_PSD_cross_mode_domination_kernel_condition_sharp_factor_release_jump_witness_and_local_linear_ledger_rank_control",
+    "contribution_status": "scoped_Delta_changed_protection_kernel_debugging_corollary;switched_seminorm_multiple_Lyapunov_dwell_and_sufficient_coordinate_components_known",
+    "novelty_status": "DECISIVE_SWITCHED_SEMINORM_COLLISION_CHANGED_KERNEL_DELTA_COROLLARY_ONLY",
+    "measurement_status": "native_endpoints_do_not_expose_P_sigma_reset_tangent_cross_kernel_truth_or_paired_same_state_mode_interventions",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "fixed_mode_transverse_contraction_R13_transport_and_R08_release_decision_remain_correct_in_their_declared_scopes",
+    "repair_delta": "add_exact_cross_mode_kernel_compatibility_and_when_it_fails_charge_reset_transfer_or_rank_r_rel_dynamic_released_coordinate_ledger",
+    "screened_lines": {
+      "switched_protection_fiber": "completed_R19_parked_as_control",
+      "finite_precision_noisy_overwrite": "reduces_to_EMA_Kalman_RLS_and_quantized_filtering_with_terminal_write_noise_floor_not_selected",
+      "stability_margin_feedback_response": "standard_resolvent_input_output_sensitivity_without_validity_or_matched_budget_advantage_deferred"
+    },
+    "unclosed": [
+      "Identifiable prefix-causal evidence that a protected fact should be released.",
+      "A Delta-specific representation making cross-mode certification or released-coordinate storage cheaper than direct protected values or a common metric at matched total cost.",
+      "Uniform nonlinear and branch-aware certification beyond a common positive-margin local mode sequence.",
+      "Native measurement of protection metrics, reset tangents, cross-kernel truth and paired same-state mode interventions.",
+      "Field-wide originality and empirical effect; no execution authorized."
+    ],
+    "delivery_status": "reviews_complete_expected_parent_publication_and_exact_readback_pending",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }

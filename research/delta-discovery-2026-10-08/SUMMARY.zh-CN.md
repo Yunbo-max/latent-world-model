@@ -239,3 +239,9 @@ KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 和普通 cost-sensitive/凸二�
 若写入会擦掉以后能辨别真假的证据，或改变 memory/updater state，还必须加 Bellman continuation 与切换成本；一时有利的写入可能长期更差。联合 belief 区间能给保守端点证书，一步 query value 也能算，但这些分别是已知 robust Bayes 与 VoI/POMDP 工具。BOCPD、controlled QCD、时间事实阈值、AToKe、StableEdit、RLEdit 都是强近邻。
 
 所以 R08 的价值是把“真实性判断”和“动作收益”严格拆开，并给出何时可用简单阈值、何时必须 abstain/求解动态状态的边界；它不是新架构。最可能失败在动作前 `q,h,Gamma` 不可得、多个事实联合状态爆炸，以及现有 benchmark 只看规定 edit 后的 QA。当前数学有条件成立、贡献碰撞、实验未知，不计候选。
+
+## R19：每个保护模式都稳定，不代表释放时仍稳定
+
+这轮修的是一个组合接口。旧结果分别说明固定保护纤维内可以收缩、固定读出可以 transport、证据足够时可以考虑释放；但只要释放把过去被半范数忽略的方向重新算作误差，旧证书就可能从零瞬间跳到正值。R19 给出了精确条件：旧 kernel 经 reset 后必须仍落在新 kernel，有限乘法 jump factor 才存在。否则必须 erase/transfer，或额外保存新暴露方向的动态坐标，并把这笔注入成本写进递推。
+
+独立审查先抓出了同模 reset 漏乘、ledger basis 与动态 coefficient 混淆、离散 selector 边界外推三处问题；修订后条件数学通过。它最可能失败在完整状态 metric 太贵、释放真实性仍不可辨识、非线性/不同分支没有统一证书，以及 direct value ledger 更简单。Baum 等 2025 switched-seminorm 工作已经直接覆盖共同 kernel 下的 mode-dependent 半范数与 dwell/leave；R19 只剩 kernel 改变时的 sharp debug boundary。因此它是有用的 theorem/control，不是新架构。当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行代码或实验。

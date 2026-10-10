@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T11:59:11Z",
+  "recorded_at": "2026-10-10T12:54:32Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -812,7 +812,7 @@
       }
     ]
   },
-  "research_next_action": "R18 is parked after attempt 1 as a recursive complete-joint quotient debugging theorem-control. Reopen only with a lawful prefix-only globally checkable nonlinear congruence, matched-total-cost advantage over full JVP/VJP or direct sufficient coordinates, and a native paired-state mechanism measurement path; otherwise continue the earliest independent evidence-backed lineage.",
+  "research_next_action": "R19 is parked after attempt 1 as a changed-protection-kernel switch debugging theorem-control. Reopen only with identifiable release evidence, a Delta-specific matched-total-cost advantage over a common metric/direct protected-value ledger, a branch-aware nonlinear certificate, and a native paired-state mechanism measurement path; otherwise continue the earliest independent evidence-backed lineage.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -1906,5 +1906,54 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
       "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
     }
+  },
+  "repair_R19_switched_protection_fiber": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "lineage_parents": [
+      "STEP2_COUPLED_UPDATER_STABILITY.md",
+      "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
+      "repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.md",
+      "sha256": "e14b8689f9d544ed05f6a0c8b2e5018660bbc28adfc5e28808d67c73d57c6745"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+      "sha256": "c589931307d5821b6abd3f4542c21fd6d5a98af5e43d2764cb3d7a22efa93bf6"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_SWITCHED_PROTECTION_FIBER_SOURCE_AUDIT.md",
+      "sha256": "8056962e86bcf3a94ddcb2b3d1a41de7be88562f019b0654d4d3c9773da2ce6f"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.math-review.md",
+      "sha256": "16913bb079730f17f1e4fbed2e0cf104669efb34d07ec80da34f564777e78b47",
+      "reviewer": "/root/r19_final_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.source-review.md",
+      "sha256": "8edb9276f0665f8ae6c18ed9af33a5c8239322c8beae3a8a5301473fe4e0b159",
+      "reviewer": "/root/r19_final_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.adversarial-review.md",
+      "sha256": "529721722444a94530956677e5da6320604143726f5ffe277d70d31d62df9023",
+      "reviewer": "/root/r19_final_adversarial_review"
+    },
+    "status": "reviewed_changed_kernel_switch_control_parked_not_candidate",
+    "scientific_states": {
+      "mathematics": "accepted_conditional_exact_local_linear_control",
+      "contribution": "changed_kernel_Delta_debugging_corollary_only",
+      "novelty": "decisive_Baum_switched_seminorm_collision",
+      "measurement": "native_internal_mechanism_gap",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "delivery_status": "reviews_complete_expected_parent_publication_and_exact_readback_pending",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }

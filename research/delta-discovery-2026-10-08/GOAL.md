@@ -240,3 +240,15 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 [R18 修订](repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md)把判据从 memory-only/frozen query 提升为“完整当前更新的核包含于完整未来递归不可见子空间”。它区分全局 fiber factorization、仿射精确有限时域和非线性一阶证书，并给出两个相反见证：后来 cross-block 会暴露被 memory-only 检查漏掉的方向；同一步 auxiliary state 也可能保存 memory block 擦除的声明商，但其状态、精度与成本必须计入。
 
 独立最终字节审查修正了 PSD 权重只能证明加权不可见商、部署/参考两分支须使用各自下游导数、以及 side-state rescue 不能冒充全局可逆。Pappas/van der Schaft/Tabuada、微分可观测 Gramian、Wang 的有限深度 predictive fibers 与 Li 等的递归 behavioral memory 已覆盖主体机制；R12/R13/R17/Step2 也有直接内部碰撞。故 R18 只保留为 Delta-specific 调试 theorem/control，第一次修订后 park，不分配 D 编号；计数保持5历史/0活动/0科学准入/0选择，原生机制测量仍缺失，实验未知且未执行代码、训练或评分。
+
+## R19 切换保护纤维修复里程碑（2026-10-10）
+
+[R19 三线筛选](repairs/R19_REPAIR_LINE_SCREEN.md)复查了保护模式切换、有限精度 noisy overwrite 和稳定裕量—反馈响应。后两条分别回落到 Kalman/RLS/量化滤波，或标准输入输出灵敏度；本轮选择补齐固定保护纤维、动态协向量保护和证据触发释放之间缺少的 cross-mode 条件。
+
+[R19 修订](repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md)证明：旧保护半范数 (P_\sigma) 的乘法证书能穿过 reset (R_{\tau\sigma})，当且仅当
+\[
+\ker P_\sigma\subseteq\ker(R_{\tau\sigma}^\top P_\tau R_{\tau\sigma}).
+\]
+若释放让过去不计能量的方向变成 transverse，identity reset 下 jump factor 必为无穷；二维反例明确复现。修复不是删掉反例，而是用完整 reset 转移该方向，或携带至少 (\operatorname{rank}(P_\tau^{1/2}R_{\tau\sigma}K_\sigma)) 个局部实线性动态坐标，并把释放注入显式加入递推。
+
+独立最终字节审查实际发现并修正了同模 reset 漏因子、ledger row-space 维度错配和 selector 分支边界。Baum 等 arXiv:2512.16338v1 已直接覆盖 mode-dependent PSD seminorm、共同 invariant kernel、跨模式矩阵比较和 dwell/leave 条件；Multiple-Lyapunov、广义 Rayleigh、functional observer/充分坐标及本项目 R08/R13/R18 还覆盖其余主体机制。原生任务也不提供保护半范数、reset tangent、cross-kernel 或 paired release state。故 R19 只保留为“共同 kernel 改变时”的 Delta-specific 组合接口调试 theorem/control，第一次修订后 park，不分配 D 编号；计数保持5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。

@@ -213,3 +213,9 @@ R16 与 KDA 的离散 decay-first recurrence 不同，也不等于 EFLA 的 pure
 R18 的 backward invisible-subspace recursion 与 quotient factorization 是经典 observability/bisimulation refinement 的时变有限时域形式；完整 joint-Jacobian Gram 又与项目 Step2 和 differential observability Gramian 同构。Wang 2608.15976 直接覆盖有限深度 predictive fiber、过渡后 depth loss、prefix-depth repair 及局部/全局 fiber 边界；Li 2609.25757 直接区分 instantaneous sufficiency 与 right-congruent recurrent memory，并给出可递归更新的最小类。
 
 [R18 source audit](sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md)保留的差异只有 ordinary Delta exact-overwrite 核放入完整联合切空间后出现的两个相反调试见证：后续 cross-block exposure 与同一步 side-state rescue。它没有新 updater、causal quotient estimator、prefix-only 计算优势或原生内部 scorer；最强同信息控制仍是完整 unrolled JVP/VJP 或直接保存 `rank(QK)` 个充分坐标。因此处置为 parked conditional theorem/control，候选增量0。
+
+## R19 switched protection fiber 的最近工作处置
+
+R19 的 mode-dependent quadratic energies、cross-mode comparison factor 与 switch-count/average-dwell bound 不仅是一般 multiple-Lyapunov 逻辑，也被 Baum 等 arXiv:2512.16338v1 的 switched-seminorm 框架直接覆盖：其 Definition 6、Lemma 1 和 Theorem 2 使用 mode-indexed PSD seminorm、共同 invariant kernel、`P_new preceq beta P_old` 以及 dwell/leave 条件。半正定支配的有限因子条件又是标准 generalized-Rayleigh/kernel inclusion；释放坐标的附加项与 switched disturbance accounting、functional observer 和直接充分坐标也有强近邻。
+
+[R19 source audit](sources/R19_SWITCHED_PROTECTION_FIBER_SOURCE_AUDIT.md)保留的窄差异，仅是把 Baum 等固定共同 kernel 的前提与 ordinary Delta 的 evidence-dependent protection release 接起来，给出 kernel shrinking 时 cross factor 无穷的精确反例，以及必须转移或显式携带的局部动态坐标秩。它没有新 release policy、事实有效性证据、低成本 metric estimator 或 native mechanism scorer；最强同信息控制是 common full metric、direct protected-value ledger、reset transfer 与经典 hybrid certificate。故处置为 parked conditional theorem/control，候选增量0。
