@@ -1323,6 +1323,11 @@
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_temporal_release_control_parked_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "8c1f44d7a98f7d97a4346252b78d23827e7a7084",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_DELIVERY_READBACK.json",
+      "sha256": "d3cb9631845f824fbb49c4f985cccd1b184a1d301de352b438b606b99ad38f48"
+    }
   }
 }

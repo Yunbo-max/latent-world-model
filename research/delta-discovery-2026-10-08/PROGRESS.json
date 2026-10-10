@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R08_temporal_validity_release_final_reviews_passed_pending_delivery_no_candidate",
+  "status": "repair_R08_temporal_validity_release_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1312,6 +1312,11 @@
       "Native causal temporal object with old/new validity, pre-action margins, propensity and paired or identifiable action outcomes.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "8c1f44d7a98f7d97a4346252b78d23827e7a7084",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_DELIVERY_READBACK.json",
+      "sha256": "d3cb9631845f824fbb49c4f985cccd1b184a1d301de352b438b606b99ad38f48"
+    }
   }
 }
