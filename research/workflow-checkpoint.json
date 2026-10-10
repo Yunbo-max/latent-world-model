@@ -2004,6 +2004,11 @@
       "empirical": "unknown_no_execution"
     },
     "candidate_delta": 0,
-    "delivery_status": "reviewed_final_bytes_ready_for_expected_parent_main_publication"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "79b52291552dd3b434b30ae2207eab01b0c774f0",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_DELIVERY_READBACK.json",
+      "sha256": "e2c3ea4a7ff2455e6a5b3506c894a5a3729d136e31d942cc85e1bb1032bcd8cd"
+    }
   }
 }

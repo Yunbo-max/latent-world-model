@@ -246,7 +246,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R20_NONSEPARABLE_CURVATURE_EDIT.v1.md",
       "sha256": "481880030ff3ac535bc6137320bfc3939007e8efb9a1c8838df1d962e813f33e",
-      "status": "accepted_conditional_nonseparable_curvature_rank_boundary_control_parked_not_candidate"
+      "status": "accepted_conditional_nonseparable_curvature_rank_boundary_control_parked_not_candidate",
+      "publication_commit": "79b52291552dd3b434b30ae2207eab01b0c774f0",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_DELIVERY_READBACK.json",
+        "sha256": "e2c3ea4a7ff2455e6a5b3506c894a5a3729d136e31d942cc85e1bb1032bcd8cd"
+      }
     }
   ],
   "counting_policy": {
@@ -290,6 +295,6 @@
     "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; expected-parent publication pending."
+    "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }
