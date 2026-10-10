@@ -237,8 +237,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
       "sha256": "c589931307d5821b6abd3f4542c21fd6d5a98af5e43d2764cb3d7a22efa93bf6",
       "status": "accepted_conditional_changed_kernel_switch_debugging_control_parked_not_candidate",
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "f4d8ea029051c6a5b157bd6a737e963316e9cf2c",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_DELIVERY_READBACK.json",
+        "sha256": "909f2c187c755c441e65b0152b9673170b70123811c171e6e281fd550c37ab2b"
+      }
     }
   ],
   "counting_policy": {
@@ -280,6 +283,6 @@
     "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; publication/readback pending."
+    "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
   }
 }

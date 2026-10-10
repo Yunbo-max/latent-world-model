@@ -1,0 +1,80 @@
+{
+  "kind": "literal-main-exact-readback-receipt",
+  "recorded_at": "2026-10-10T12:54:32Z",
+  "project": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "7ff336692cc8b3fb661a413215680088540d695e",
+  "publication_commit": "f4d8ea029051c6a5b157bd6a737e963316e9cf2c",
+  "publication_tree": "1920ad3de6c0d1af9ec90f6bdf84cc81492cf623",
+  "local_equivalent_commit": "6d4cc163aaf76ba8b7a8558708955f7017b53c08",
+  "force": false,
+  "expected_sha_enforced": true,
+  "result": "all_13_substantive_files_exact_blob_base64_and_sha256_readback_verified",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "git_blob": "fcb0ae4a8d03e59324f87b9913f4a6d5ced63f94",
+      "sha256": "bd9628dafa6196b885ffb3e98f76736fe5acab56ca697c0eabe7b84a585e25e2"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "git_blob": "78f4df52c67d04f4bef0c9b9982dd925a23c2afe",
+      "sha256": "b0982fd15f91fa53b9877836686508f123a38c95421857f115fb44cef78cc0a5"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "git_blob": "978c3437e11a04326430c43305996aaa6e7640e0",
+      "sha256": "c0fdb4c3b5c1fc3c6dcc14e7d41c7d1c852cb1f28b103073bca5dd8a4627683c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "git_blob": "d99c9b201ec661eae2cb0f509264baf1c228154f",
+      "sha256": "af4904c05b23504491482bef2cf2054189167b0809a3812b99edf32c11bdbe19"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "git_blob": "9701417cd9885e3cd313917859e2812ce8a190b0",
+      "sha256": "bdc38d6ebde332f43c96e13fd0c657387e8cfd7136335819d3324a885ca12c3f"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "git_blob": "84414b5062a02062da061f0b04542cae08c515a8",
+      "sha256": "4ab0e1875933f41242890a7cfe5da767ff63fcd0713b50a52e63998d4f314c86"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.md",
+      "git_blob": "39969dca250b4788e86615a236df2be4c99f3a14",
+      "sha256": "e14b8689f9d544ed05f6a0c8b2e5018660bbc28adfc5e28808d67c73d57c6745"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+      "git_blob": "3ccbe98a9bd3fd6631cd752340cb52cdfa15a9e7",
+      "sha256": "c589931307d5821b6abd3f4542c21fd6d5a98af5e43d2764cb3d7a22efa93bf6"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.adversarial-review.md",
+      "git_blob": "a924356f61a181d32f62b1164a39801f4c716756",
+      "sha256": "529721722444a94530956677e5da6320604143726f5ffe277d70d31d62df9023"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.math-review.md",
+      "git_blob": "5f44a6edab2705ca3561faab3c38364e4cd306ed",
+      "sha256": "16913bb079730f17f1e4fbed2e0cf104669efb34d07ec80da34f564777e78b47"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V1.source-review.md",
+      "git_blob": "52d8d467bee1ed9706842f10e1e1be00b9fc6fc5",
+      "sha256": "8edb9276f0665f8ae6c18ed9af33a5c8239322c8beae3a8a5301473fe4e0b159"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_SWITCHED_PROTECTION_FIBER_SOURCE_AUDIT.md",
+      "git_blob": "d3fc137c3c70a8a3a0d0b896e99c908df69fad3e",
+      "sha256": "8056962e86bcf3a94ddcb2b3d1a41de7be88562f019b0654d4d3c9773da2ce6f"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "git_blob": "88bbed6d1d8137ee945d76f2ba5e9b03a1516311",
+      "sha256": "03b06a4997bd0fc06569364bec76b79b46fcf02e8fbe589a5a8213c2a7d5fbc1"
+    }
+  ]
+}
