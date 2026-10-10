@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R06_selective_validity_audit_final_reviews_passed_pending_delivery_no_candidate",
+  "status": "repair_R06_selective_validity_audit_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1154,7 +1154,9 @@
       "A Delta-specific sufficient state or variance advantage for sequential DR/OPE under audit feedback.",
       "A native randomized audit object jointly recording grounded labels, Delta sensitivity and propensity."
     ],
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "c9b1973e7e6f36007b3116f1eed20a9b75719bec",
+    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R06_DELIVERY_READBACK.json", "sha256": "e125933a0e7344d6d72969972a2653b120e533274adb3dad1d41fd3251c39512"}
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",
