@@ -373,10 +373,15 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R07_COUPLED_DIRECTIONAL_MARGIN.v2.md",
       "sha256": "4259fee0afb25db2624972efcbd7ed6658b5aec16af84163583b8c14b96fdee3",
-      "status": "accepted_conditional_complete_state_finite_horizon_directional_margin_control_parked_not_candidate_pending_publication",
+      "status": "accepted_conditional_complete_state_finite_horizon_directional_margin_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
-      "empirical_status": "unknown_no_execution"
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": "5ff6e163dd378b2eaf4cd61f25eceb4598d6f687",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V2_DELIVERY_READBACK.json",
+        "sha256": "7f5d8791ac36a5a3ff1b6617e1186efa6b9cd123bb4646d79e0ae7db0828a56f"
+      }
     }
   ],
   "counting_policy": {
@@ -436,7 +441,7 @@
     "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
-    "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3, publication pending."
+    "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
   }
 }
 

@@ -1,0 +1,27 @@
+{
+  "kind": "exact-main-readback-receipt",
+  "branch": "main",
+  "repository": "Yunbo-max/latent-world-model",
+  "parent_commit": "379da510cb1654b87e725af46599f70fb8ab69e7",
+  "substantive_commit": "5ff6e163dd378b2eaf4cd61f25eceb4598d6f687",
+  "expected_parent_non_force": true,
+  "all_paths_exact_readback_verified": true,
+  "files": [
+    {"path":"research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v2.md","sha256":"fc0383ceca9fc888aa3eb1dcaae4af9ba5d11a02171728bdd478c8f4a5aeca0c","git_blob_sha":"c1a0f5ddac50bda2422907efc05be1b648943f44"},
+    {"path":"research/delta-discovery-2026-10-08/repairs/R07_COUPLED_DIRECTIONAL_MARGIN.v2.md","sha256":"4259fee0afb25db2624972efcbd7ed6658b5aec16af84163583b8c14b96fdee3","git_blob_sha":"bc75ca377652b5eecf26b061c99e723dd4b59754"},
+    {"path":"research/delta-discovery-2026-10-08/sources/R07_V2_COUPLED_DIRECTIONAL_MARGIN_SOURCE_AUDIT.md","sha256":"6689600f72bdbc42e8df30c888a1ce6023d5e342bae25f38a3cc9933a18fe8b5","git_blob_sha":"30bac31cf5d5b1128830426f0a982cc0fb313ae4"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.math-review.md","sha256":"6984c5a10b70fd79631b9b64013e1775cc33308aab06fb5d192ff2425812586d","git_blob_sha":"e5ef1a3adc0dd91681cd82f1903380fffc11ae1a"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.source-review.md","sha256":"da16ed1a431fe730ee2b68cb9e9191a3f26c2bbe5fde5266abd09cdcbfe459d5","git_blob_sha":"3ff0e4170c7b81f60f195f73a6ca71a85f07210f"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V2.adversarial-review.md","sha256":"95f372c154260a4b6ccac9e3de5bf4159b9006e260ac57d2419471233d8790c1","git_blob_sha":"6fea83385840870c6017803924e9fb7a4d0491cc"},
+    {"path":"research/delta-discovery-2026-10-08/PROGRESS.json","sha256":"681cc242b219d47691393b516847f00f1d622cf7aa0e69684bdc1b8b8b2cb0e8","git_blob_sha":"6619404a4f50362a0dc556c0b22c4154d0ee1ece"},
+    {"path":"research/delta-discovery-2026-10-08/method-batch.json","sha256":"27f3f38868f51e371688eb2c577095e7e0343cf7553405faca2312e2bc7d0a03","git_blob_sha":"09a0d25f9bc742e7678f9439625405b4aa1addfc"},
+    {"path":"research/delta-discovery-2026-10-08/GOAL.md","sha256":"37a5294eddb3290b3dd2307db31244b524d50fe9cccb762e0e4abfcff12ec411","git_blob_sha":"5fe07da57332006632fb84f13f0f8c46da1f2fb9"},
+    {"path":"research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md","sha256":"572a7c4554b3e7eb9e32a5fdc592b7e8966a6bd0d90bf9e3f36968d2d4153a35","git_blob_sha":"c7a69b676019f2bfe6869cd07a17e2c71134ec2d"},
+    {"path":"research/delta-discovery-2026-10-08/CLOSEST_WORK.md","sha256":"33d21f9c05c4435c509abcf45c7f0f65eded0c26c37c9e84c7db73bbe9ca7fbe","git_blob_sha":"9d62514af8bd62efdfaeea2952899a1051702202"},
+    {"path":"research/delta-discovery-2026-10-08/RANKING.md","sha256":"4a064f6450deacaca504e694e577af982bba443a090fbc2627442ace5ccf3717","git_blob_sha":"21dbc71ab75d9042997165418774fdf85fe79795"},
+    {"path":"research/workflow-checkpoint.json","sha256":"b8c2f4a84e65c11c2debb79cb77453d0a16e05ce96076a2402ad19a019d81da6","git_blob_sha":"46b6e64704486b4a2d62f2ede81986ece429192f"}
+  ],
+  "counts_after": {"constructed_history":5,"active_constructed":0,"scientifically_admitted":0,"selected":0},
+  "candidate_delta": 0,
+  "experiment_executed": false
+}
