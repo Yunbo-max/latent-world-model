@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R07_validity_to_action_margin_final_reviews_passed_pending_delivery_no_candidate",
+  "status": "repair_R07_validity_to_action_margin_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1181,7 +1181,9 @@
       "A native old/new validity object jointly recording randomized propensity and paired action outcomes; AToKe supplies temporal validity only.",
       "Empirical free-running evidence; no execution was authorized in this phase."
     ],
-    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "f296d46c66f6b0226c93331a4ff40b265eba372c",
+    "delivery_readback_ref": {"path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_DELIVERY_READBACK.json", "sha256": "c961ea8ed6ccf27352189b5ce8c237a375ccef3decd431554f6fa6569fa2ce7f"}
   },
   "record_shape_repair": {
     "recovered_from_commit": "f667326",

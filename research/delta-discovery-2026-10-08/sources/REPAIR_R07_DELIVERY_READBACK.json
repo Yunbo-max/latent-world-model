@@ -1,0 +1,37 @@
+{
+  "kind": "delta_math_delivery_readback",
+  "repair_id": "R07",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "60dac13012ed561770e8101b45f4c69878aebc64",
+  "substantive_commit": "f296d46c66f6b0226c93331a4ff40b265eba372c",
+  "tree": "b522b7abae0dbf9d527d5e9f57d9821384a5eafe",
+  "force": false,
+  "exact_commit_readback": true,
+  "changed_files_read_back": 12,
+  "artifact_sha256": "e7e40477dc9eab96f7df18e9c30cba0bcbd65a4d9c67939d80f92579258be1ad",
+  "source_audit_sha256": "a649af73e90b0529a95c2bdf726159b76133321f5a491feb063fdf6490c3c16b",
+  "math_review_sha256": "0c79c7b7fe602088f284f8a8dc6bc547e9c53359a9cdceeb44138c9fdcb42b5e",
+  "source_review_sha256": "5927f56d30cc35bf479ec2dcfdc9e49d097a3112a9ded85e2f30242ffe2be763",
+  "remote_blob_shas": {
+    "research/delta-discovery-2026-10-08/GOAL.md": "c05914d02e20257582e76476f95145487f624d85",
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "430a5e71d7bd86e513b10c632767e4c497cdfadd",
+    "research/delta-discovery-2026-10-08/method-batch.json": "c6cbe119f75e1659982d581b4f259d89592f2850",
+    "research/delta-discovery-2026-10-08/DISPOSITIONS.json": "00d29118196b610546255096a3a38bd5a32c2899",
+    "research/delta-discovery-2026-10-08/CLOSEST_WORK.md": "fefc633862fea022c23af437afe6af5ba8ee3f65",
+    "research/delta-discovery-2026-10-08/RANKING.md": "813e0d8db646f6f908eee2a7d29bac1a667db89f",
+    "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md": "51b44058284f2113dda029b7bdbe2ad55220bf6a",
+    "research/workflow-checkpoint.json": "ac7f361ef2e245cd3adb98b5f6ed6888d1d00183",
+    "research/delta-discovery-2026-10-08/repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md": "ca42f7ebea3db617e0ead5f011f19ba42133bb5d",
+    "research/delta-discovery-2026-10-08/sources/REPAIR_R07_VALIDITY_TO_ACTION_SOURCE_AUDIT.md": "35ef40e21d982147f0ac4fd665a02e6cbc79094f",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.math-review.md": "3aa205faf993b7501504a41abe797970295759e4",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V1.source-review.md": "84f152e102db851d0a25381778fb05fea3295323"
+  },
+  "scientific_counts_after_delivery": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientifically_admitted": 0,
+    "selected": 0
+  },
+  "execution": "none_math_source_review_only"
+}
