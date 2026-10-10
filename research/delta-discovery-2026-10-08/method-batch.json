@@ -330,6 +330,15 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R03_V3_DELIVERY_READBACK.json",
         "sha256": "12c8e9f299587fbc7644a2761c729600aa9c7514b8b388dcf1ce79b57f929424"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+      "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+      "status": "accepted_conditional_prefix_stratified_partial_ID_regret_and_baseline_safe_gate_control_lineage_exhausted_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": null
     }
   ],
   "counting_policy": {
@@ -362,6 +371,7 @@
       "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment."
       ,"R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment."
       ,"R03 v3 supplies a reviewed full-law Wasserstein perturbation recurrence, ordered horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility condition. Generic Markov perturbation/robust-MDP collisions, non-native constants and measurement gaps leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
+      ,"R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {

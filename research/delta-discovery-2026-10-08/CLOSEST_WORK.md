@@ -284,3 +284,14 @@ The repaired recurrence is structurally the standard perturbation decomposition 
 
 No reviewed source supplies the full proposed packet verbatim, but the functional mechanism and theorem family are already strongly covered. Since legal prefix-time estimates of all simultaneous constants, native protected-validity/counterfactual laws and a total-cost advantage over generic perturbation bounds or rollout are missing, novelty is not established and candidate delta remains zero.
 
+## R05 v4 prefix-conditioned partial-identification nearest-work decision (2026-10-10)
+
+| R05 v4 component | Closest work | Residual and decision |
+|---|---|---|
+| Conditional sharp bounds then expectation over prefix context | Ben-Michael, *Partial identification via conditional linear programs*; Ji–Lei–Spector covariate-assisted bounds | R05 is a two-variable closed-form Delta specialization, not a new conditional-ID primitive |
+| Individualized minimax-regret gate | D'Adamo, *Orthogonal Policy Learning Under Ambiguity*; Christensen–Moon–Schorfheide | Contribution skeleton and nuisance-estimation problem already covered |
+| Only deviate from no-write where evidence supports it | Kallus–Zhou confounding-robust baseline policy, under a well-specified uncertainty set | Ambiguity sets differ; baseline-safe contextual policy is still not a new paradigm |
+| `a_R` versus `a_S` separation and pooled-zero/selective-positive witness | Elementary interval regret plus conditional Fréchet bounds | Useful debugging/control corollary; no same-budget advantage or native joint labels |
+
+The full Delta scalar formula was not located verbatim, so the proper collision claim is contribution/function-level rather than exact formula identity. Author-code commit pins for the newest conditional-ID papers remain unclosed, but paper-level collision is decisive enough to prevent scientific admission. R05 v4 is parked after attempt 3/3 with candidate delta zero.
+

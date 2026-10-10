@@ -146,3 +146,9 @@ R02 v2 **不进入活动池或 top-15**。它修复了真实错误：粗商状�
 
 R03 v3 **不进入活动池或 top-15**。它把 v2 的共同后缀路径灵敏度修成完整自由运行分布的 Wasserstein 递推，并给出有序 horizon、折扣保护损失和随机日志可行性上界；但这些结论依赖动作前可用的统一 contraction、kernel mismatch、loss-Lipschitz 与校准覆盖。Rudolf–Schweizer、Asadi 等及 robust-MDP/bisimulation 文献已覆盖主体机制，Delta 只提供首步 rank-one 注入的专门化。三路独立最终字节审查通过的是 conditional theory/control，不是新方法或实验效果。R03 在 attempt 3/3 后耗尽并 park，候选增量0；全局计数与短缺不变。
 
+## R05 v4 ranking decision (2026-10-10)
+
+R05 v4 **不进入活动池或 top-15**。它修复了 v3 的真实构造错位：pooling 可以把某些 prefix strata 中的正 lower bound 抹成零，因此 gate 应允许依赖合法动作前 context。最终定理明确区分 minimax-regret gate 与 baseline-safe gate，并保留 unresolved stratum 内的原 no-go。
+
+但 conditional LP、individualized partial-ID policy、covariate-assisted bounds 和 robust baseline policy 已覆盖主要贡献骨架；新闭式只是 Delta 固定方向二次 surrogate 的特例。动作前 joint moments、simultaneous coverage、自由运行 total effect 与同信息同预算优势仍缺。三路最终字节审查通过的是 conditional control theorem，不是原创方法或实效。R05 在 attempt 3/3 后耗尽并 park，候选增量0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`。
+

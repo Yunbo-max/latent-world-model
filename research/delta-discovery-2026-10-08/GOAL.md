@@ -294,3 +294,9 @@ Independent final-byte math, source and adversarial reviews passed only the cond
 
 The result is a useful Delta specialization—the initial discrepancy is the rank-one write—but the main mechanism strongly collides with generic Markov/Wasserstein perturbation, Lipschitz model-error and robust-MDP value bounds. Prefix-time constants, native joint measurement and matched-cost advantage remain absent. R03 is therefore exhausted and parked after attempt 3/3 with candidate delta zero; counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and no code or experiment was run.
 
+## R05 v4 prefix-conditioned repair milestone (2026-10-10)
+
+[R05 v4](repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md) repairs v3's pooled constant-gate mismatch without deleting its impossibility result. A lawful action-time context `C` yields per-stratum sharp Fréchet bounds `ell_c,h_c`. Under a declared rectangular conditional ambiguity set, the oracle-regret gate is `(ell_c+h_c)/(2A_c)`, while the distinct baseline-safe release is `ell_c/A_c`; only the latter writes exactly where the lower bound is positive. A two-stratum witness has pooled lower bound zero but a positive safe-write stratum, and the old identical-marginal/different-coupling counterexample remains valid inside every unresolved stratum.
+
+Independent final-byte math, source and adversarial reviews fixed layer-random update cost, `A=0`, integrability, sharpness scope and the earlier regret/safety gate conflation. Ben-Michael conditional LP, D'Adamo individualized ambiguity policy, Ji–Lei–Spector covariate-assisted bounds and Kallus–Zhou robust policy improvement cover the contribution skeleton. Existing edit benchmarks still lack the pre-action joint variables. R05 is exhausted and parked after attempt 3/3 as a useful conditional control, with candidate delta zero and no experiment run.
+

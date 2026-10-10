@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T20:32:00Z",
+  "recorded_at": "2026-10-10T20:49:11Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R03_v3_wasserstein_free_running_safety_published_exact_readback_no_candidate",
+  "status": "repair_R05_v4_prefix_conditional_partial_ID_final_reviews_passed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -196,6 +196,7 @@
       "R04 proved immediate readout preservation does not preserve future Delta recursion; full affine compensation is exact ordinary-Delta equivalence; total residual with fast-only decay yields ordered E(I-D)M forcing. Independent review fixed EC versus E(I-D)C under nonuniform decay, preserved v1 and counterexample, and re-reviewed v2 final bytes. Source review accepts conditional control, not theory novelty or native consolidation measurement; no execution/new D.",
       "R04 v3 completed the third bounded repair: explicit slow/fast representability interfaces and the v2 ordered forcing define a joint future quadratic action. The constrained normal equation is known mathematics; the scalar survival condition p>alpha^T is correct but generic, not Delta-specific. Exact-byte math/source reviews pass conditional accuracy and reject scientific admission. Selective consolidation and counterfactual cost-aware routing have direct recent coverage; R04 is parked, no execution/new D.",
       "R05 v3 repaired the unavailable validity-sensitivity joint label with sharp Fréchet/support and quantile identification bounds, a minimax-regret gate, and an iff no-write certification boundary for the declared local regularized surrogate. Independent exact-byte math and source/native reviews fixed degeneracy, matrix-sharpness and benchmark-scope errors. Known partial-identification and robust-decision collisions prevent candidate admission; no execution/new D.",
+      "R05 v4 completed the third bounded repair by conditioning the v3 identified set on lawful prefix context. It proves sharp per-stratum bounds, an exact rectangular minimax-regret gate, a distinct baseline-safe gate, aggregate pooling inequalities and a two-stratum selective-write witness while preserving the within-stratum coupling counterexample. Independent final-byte reviews fixed cost conditioning, A=0, integrability and gate identity. Conditional-LP and individualized ambiguity-policy collisions plus absent native joint labels leave candidate delta zero; lineage exhausted and parked.",
       "R08 repaired static validity-posterior and e-process release gates by composing temporal belief with R07 signed Delta action margins. It derived exact fixed-action threshold direction, sharp endpoint certificates, one-step query VoI, and a Bellman continuation/switching correction; fixed-posterior and information-destruction counterexamples preserve the action-utility gap. BOCPD, POMDP/controlled QCD, temporal-duration thresholding, AToKe, StableEdit and RLEdit cover the principal mechanisms. Independent final-byte math/source reviews pass this as a conditional theory/control, not a candidate; no execution.",
       "R09 repaired the binary exact-overwrite/protection target mismatch into a sharp finite-budget Pareto certificate for general matrix edits. A representer theorem yields the optimal rank-one direction; ordinary Delta is proved the unique minimum-energy endpoint, while inverse-metric directions trade update energy for declared protected displacement with an exact Kantorovich-type ratio and equality condition. Singular zero-damage and positive-damage endpoints, a hard-budget feasibility boundary, exact two-cap support dual, and the old full-overwrite singularity are all preserved. Independent final-byte math, source and adversarial reviews pass the bounded theorem. Inverse-Gram/RLS and AlphaEdit+ soft-conflict mechanisms are direct collisions, dynamic metric identification and native causal measurement remain open, and no execution/new D occurred.",
       "R11 repaired commutator cancellation into signed order-gap compression: adjacent frozen-feature Delta order gaps have key-side rank at most two, with exact query-weighted rank-tail risk and a common-metric Bayes selector lower bound.",
@@ -212,7 +213,7 @@
       "R02 v2 derived the exact quotient-only AIPW coarsening bias Cov(mu_a(H),m_a(H)|q)/bar_mu_a(q), supplied a two-history bias witness, and stated strong sequential quotient conditions under which DR value functions descend. For a declared finite scalar family, Delta right-quotient compatibility imposes a value-side row-span lower bound; quotient-dependent observables make recursive closure a fixed-point/invariant-subspace problem. Independent final-byte math/source/adversarial reviews pass this only as a conditional causal-debugging control. Hao et al., STAR, Pavse-Hanna MIS, generic sequential DR and R18 cover the principal mechanism; candidate delta zero, native measurement gap and empirical status unknown, parked after attempt 2/3."
     ]
   },
-  "next_action": "R03 is exhausted after attempt 3/3 and parked as a conditional Wasserstein/Markov perturbation theory control with candidate delta zero. Continue the earliest independent unexhausted evidence-backed repair lineage; do not reopen R03 without a lawful prefix-time estimator of the simultaneous constants plus a matched-information total-cost or statistical advantage over generic perturbation bounds, rollout, robust-MDP planning or sequential OPE.",
+  "next_action": "Publish and exact-readback R05 v4. R05 is exhausted after attempt 3/3 and should not reopen without Delta-specific solvable nonrectangular structure, lawful joint evidence with simultaneous coverage, or a matched-information total-cost/statistical advantage over direct contextual prediction or conditional DRO. Then continue the earliest independent unexhausted evidence-backed repair lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1270,8 +1271,8 @@
   },
   "repair_R05_partial_identification": {
     "repair_id": "R05",
-    "version": "v3",
-    "substantive_attempt": 2,
+    "version": "v4",
+    "substantive_attempt": 3,
     "max_substantive_attempts": 3,
     "lineage_parent": "STEP2_JOINT_CONDITIONAL_RISK.md",
     "versions": [
@@ -1289,31 +1290,45 @@
         "path": "research/delta-discovery-2026-10-08/repairs/R05_PARTIALLY_IDENTIFIED_VALIDITY_GEOMETRY.v3.md",
         "sha256": "c8911d5910f96f73e4c7320827a048f57d33f2c2c00c0c2cbd7d172687d9325c",
         "status": "accepted_conditional_control_parked"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+        "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+        "status": "independent_final_byte_reviews_passed_conditional_control_lineage_exhausted_parked_not_candidate"
       }
     ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R05_REPAIR_LINE_SCREEN.v4.md",
+      "sha256": "76c812636c20ae9029db130aa5a3017766c8b8488cd29b31b6ef2728c7a3a964"
+    },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V2_PARTIAL_ID_SOURCE_AUDIT.md",
-      "sha256": "67105cd08b1fe8d48fd8a99753fd47f1e8bc9c0ea4afb1c1ccde7f7c1aeb0014"
+      "path": "research/delta-discovery-2026-10-08/sources/R05_V4_PREFIX_CONDITIONAL_SOURCE_AUDIT.md",
+      "sha256": "3d431f1e0f3367014950a55641780fb11785fd54a89527becaf5e5d951619a24"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.math-review.md",
-      "sha256": "b28a137c0f640580e2d0cb28dad3d52ba194ff40efa17538846deeb7c3620d19",
-      "reviewer": "/root/r05_math_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.math-review.md",
+      "sha256": "1990746ecadca87ddda2054ccf8e867da9c6e0190b15002e4c64756394feb0c2",
+      "reviewer": "/root/r05_v4_math_review"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V3.source-review.md",
-      "sha256": "56095eea2b1d9adcb3632e5fb3312de50f0d9f4f2f5ec61c90ff20d4e8b921a1",
-      "reviewer": "/root/r05_source_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.source-review.md",
+      "sha256": "c61048468085c5d23298c0b048f61b68cb4d5af04fb7e0d9083e14feaca52293",
+      "reviewer": "/root/r05_v4_source_review"
     },
-    "mathematical_status": "accepted_sharp_scalar_partial_identification_minimax_regret_and_no_write_boundary",
-    "contribution_status": "known_Frechet_partial_identification_Gamma_minimax_and_moment_DRO;Delta_specialization_not_scientifically_admitted",
-    "measurement_status": "behavior_endpoints_available_but_no_native_per_write_r_J_Z_m_or_paired_potential_outcomes",
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.adversarial-review.md",
+      "sha256": "c3736ead710c381f26cc89e7d74bad03fec270004b715f9079a6e742eb93d9f0",
+      "reviewer": "/root/r05_v4_adversarial_review"
+    },
+    "mathematical_status": "accepted_conditional_prefix_stratified_sharp_bounds_rectangular_minimax_regret_and_baseline_safe_gate_theorem",
+    "contribution_status": "conditional_LP_individualized_partial_ID_policy_covariate_assisted_bounds_and_robust_policy_direct_contribution_collision;Delta_closed_form_specialization_not_scientifically_admitted",
+    "measurement_status": "behavior_endpoints_available_but_no_native_pre_action_contextual_p_mu_U_m_propensity_or_paired_write_no_write_outcomes",
     "empirical_status": "unknown_no_execution",
     "candidate_admission": 0,
-    "disposition": "park_after_attempt_2_conditional_control",
-    "review_feedback_repair": "Independent reviews narrowed matrix sharpness to scalar projections, added atom/randomization and finite-sample qualifications, fixed EvEdit endpoint wording and pinned interfaces, then repaired the general A=0 branch and TeX bytes.",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_15_files_exact_readback_verified",
-    "publication_commit": "0461dca72636634028f331f034e231f10abcf0a5",
+    "disposition": "lineage_exhausted_park_after_attempt_3_conditional_control",
+    "review_feedback_repair": "v4 changed the lawful information and decision class rather than deleting the v3 no-go: prefix-measurable strata yield conditional sharp bounds and separate regret-optimal versus baseline-safe gates. Independent review fixed stratum-random update cost, A=0, integrability, gate identity, sharpness scope and example domain. Direct conditional-policy collisions and native measurement gaps leave candidate delta zero.",
+    "delivery_status": "final_reviewed_bytes_pending_expected_parent_main_delivery",
+    "publication_commit": null,
     "delivery_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json",
       "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"

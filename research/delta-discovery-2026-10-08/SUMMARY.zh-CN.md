@@ -301,3 +301,11 @@ R03 v2 只能在共同外生后缀上追踪两条耦合轨迹，不能证明真�
 
 最近工作碰撞很强：一般 Markov/Wasserstein perturbation、Lipschitz model error、bisimulation metric 和 Wasserstein-robust MDP 已覆盖主体。Delta 的残余只是把 rank-one 写入范数接到通用证书的第一项。真正可能失败处是动作前根本估不准统一常数、全局 Lipschitz 太松导致永远不写、以及现有原生任务不暴露成对自由运行 law 和保护真实性。故 R03 三次修订额度已用完并 park，计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；实际效果未知，没有运行代码或实验。
 
+## R05 v4：不是把旧反例删掉，而是只在有条件证据的地方写
+
+v3 的结论是：把所有 prefix 混在一起时，已知“修订概率”和“未来敏感度”的各自边际仍不够识别它们是否在同一条样本上同时发生。这个结论没有错；错位在于只考虑一个全局常数 gate。v4 允许 gate 看动作前本来就可见的 context，并在每个 stratum 重新做同一套 sharp bounds。
+
+结果有两个门，不能混用：`a_R=(ell+h)/(2A)` 最小化“相对知道真实 joint moment 的 oracle regret”，即使 `ell=0` 也可能写；`a_S=ell/A` 才是相对 no-write 可认证的安全释放，只在 `ell>0` 时写。两个等概率 strata 可以出现 pooled lower bound 为零、但其中一层 lower bound 为 `0.8`，所以选择性写入确实比全局 no-write 更有表达力。与此同时，同边际不同耦合的旧反例仍能在另一层原样发生，安全门在那里保持不写。
+
+这条修复数学上通过了三类独立终审，但不是新的研究候选。条件 LP、个体化 partial-ID policy、协变量辅助 bounds 与 robust baseline policy 已经覆盖主要思想；原生编辑任务又不提供动作前 joint labels。最可能失败的是 context 过细导致统计不确定性反而放大、`U` 太松使 lower bound 归零、或 common-path surrogate 与真实自由运行效果不一致。R05 三次修订额度已用完并 park；候选增量0，实际效果未知，没有执行模型代码或实验。
+
