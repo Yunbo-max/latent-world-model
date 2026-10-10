@@ -190,3 +190,16 @@ R10保留D04的原反例：不随`A_t`传输的残差不能恢复原仿射轨迹
 [选中的 R13 修订](repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md)把固定保护读出改为穿过已实现仿射 Delta 转移的动态解码。精确条件是 \\(\\ker A_t\\subseteq\\ker Q_{t-1}^\\top\\)；在 exact overwrite 时退化为 \\(Q_{t-1}^\\top D_t^{-1}k_t=0\\)，否则两个不同旧状态会塌缩为同一 post-state。覆盖前的重叠分量按 \\(1/|1-\\beta\\|k\\|^2|\\) 放大，affine offset 只能扣除已知写入，不能恢复被奇异方向抹掉的信息。
 
 三路独立最终字节审查修正了 endpoint/intermediate reader、full-Jacobian/VJP、offset-free singular proof、总状态和比特精度、对照公平性及来源固定。最终数学只作为 conditional theorem/control 通过。对当前“保存既定数值读出”的目标，直接保存 \\(Y\\) 只需 \\(p d_v\\) 标量，严格优于持久化 \\(Q_t,C_t\\) 的 \\(p d_k+p d_v\\)；functional observer、广义逆、adjoint 与 reversible memory 又覆盖主要机制。因此 R13 第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，原创性未建立，实验未知且未执行代码、训练或评分。
+
+
+## R14 后验 provenance 写入修复里程碑（2026-10-10）
+
+[R14 三线筛选](repairs/R14_REPAIR_LINE_SCREEN.md)选择了 provenance identity-oracle 缺口：原张量绑定公式本身不必错误，但它把“新观察属于哪个实体/版本”作为已知 code 输入，因而不能作为可部署 revision selector。
+
+[修订推导](repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md)把 oracle code 改为因果可见信息下的槽位后验 \(\pi_i\)，并在带有有符号保护代价和二次损伤的局部风险下导出逐槽 Bayes 动作
+\[
+a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
+\]
+同一后验直接写入 tensor address 则共享残差 \(v-\sum_i\pi_i y_i\)，一般不等于上述动作；两槽反例中其风险与 no-write 都为1，而逐槽 Bayes 风险为1/2。对不可区分身份又得到精确正的 ambiguity floor，说明记忆几何不能制造缺失的身份证据。等写入数预算下，最强同信息对照是按 \(G_i=b_i^\top H_i^\dagger b_i\) 选择 top-\(B\) 的直接槽位路由，而不是 tensor lift。
+
+三路独立最终字节复核通过条件数学、固定来源/作者接口、反例与成本边界。HME/加权LS-RLS、PKM/FwPKM/SDM/ARM 路由记忆、tensor binding/fast weights 及本项目 R07/R09 保护二次几何已覆盖主体机制；原生端点又不联合暴露校准身份后验与成对动作后果。故 R14 在第一次修订后保留为 theorem/control 并 park，不分配 D 编号；计数仍5历史/0活动/0科学准入/0选择，实验未知且未执行代码、训练或评分。

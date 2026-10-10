@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T07:38:28Z",
+  "recorded_at": "2026-10-10T08:38:29Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 07:38:28 UTC",
+  "updated_at": "2026-10-10 08:38:29 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1583,5 +1583,61 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_DELIVERY_READBACK.json",
       "sha256": "11337c3fc69ef49d6f1780074d48b9a7787bb7da2fbbaebf73fea38810063cb6"
     }
+  },
+  "repair_R14_posterior_provenance": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/PROVENANCE_TENSOR_DELTA.md",
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.md",
+      "sha256": "98d33cc16cb1afaeddb2c6cb67c8f7b3953410a0399211c4f6a8f9818b4fc642"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
+      "sha256": "9b08b160d5b0a28c6fcabb7d88ea5d1fadca373f370f580640be343aeb20dbca"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R14_POSTERIOR_PROVENANCE_SOURCE_AUDIT.md",
+      "sha256": "1ce269bade6d255ab14cf8acd4cec530ee1e8de89fa21c3016ce448f88d55d37"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.math-review.md",
+      "sha256": "d591dc04c0774086fe67b7b2dad98101e913f51de9567fafba97f3d504385b8d",
+      "reviewer": "/root/r14_math_derivation"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.source-review.md",
+      "sha256": "10d5d2a97b9f6c7eb592a9a60a54a7778465d3f654381121f8827bb891006fcb",
+      "reviewer": "/root/r14_source_audit"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.adversarial-review.md",
+      "sha256": "3c265d018ad183fcd024e40d48a6d8fa05d674654563894c1b07bf984143348e",
+      "reviewer": "/root/r14_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_posterior_provenance_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_local_Bayes_action_tensor_common_residual_non_equivalence_and_identity_ambiguity_floor",
+    "contribution_status": "conditional_theorem_and_control;Bayesian_routing_HME_sparse_memory_and_prior_protected_quadratic_collision",
+    "novelty_status": "NOT_ESTABLISHED_BOUNDED_SEARCH",
+    "measurement_status": "native_endpoints_do_not_jointly_expose_identity_posterior_and_counterfactual_action_consequences",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "semantic_key_plus_identity_oracle_tensorization_is_explicit_routing_and_residual_alone_does_not_identify_revision_identity",
+    "repair_delta": "replace_identity_oracle_with_causal_posterior_and_derive_slotwise_Bayes_write_exact_ambiguity_floor_and_stronger_direct_router",
+    "unclosed": [
+      "A calibrated causal prefix-only identity posterior or likelihood.",
+      "A matched-resource Delta-specific estimator cheaper or more informative than direct routed slots.",
+      "Native action-level measurement of posterior, signed/quadratic consequences and paired counterfactual writes.",
+      "Long-horizon full-Jacobian consequences and capacity under finite precision.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "substantive_commit_pending_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }

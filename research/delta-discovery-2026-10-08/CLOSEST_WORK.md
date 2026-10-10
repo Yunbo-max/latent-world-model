@@ -181,3 +181,10 @@ R08 的静态骨架并不新：BOCPD/HMM 负责 hazard 与 belief 更新，cost-
 ## R09有限预算覆盖—保护Pareto证书的最近工作处置
 
 R09把二元exact-protect/exact-overwrite no-go修成了可计算的有限预算前沿，但主体机制与PDN/递推最小二乘的逆Gram方向、OWM/AlphaEdit的零空间保护，以及AlphaEdit+对冲突保护约束的软化/正则化直接碰撞。保留的窄残余是Delta专门化的精确标量化代价比及特征子空间等号条件、奇异零损伤/正损伤端点、双上限支持函数和`gamma=1`仿射奇异性的一体化边界。它没有给出部署时可得的动态`G`、语义释放标签或长期递推保证；故身份为parked conditional theorem/control，候选增量0。
+
+
+## R14 后验 provenance 的最近工作处置
+
+R14 的数学残余不是“给 Delta 加身份向量”，而是精确区分两个条件动作：逐槽后验风险最小化使用各自残差、signed protection term 与 curvature；把 posterior mean 当 tensor address 则制造一个共同残差，只有严格对齐条件下才相同。两世界与多槽公式给出 identity ambiguity 的条件风险下界。
+
+这不形成新架构。Jordan–Jacobs HME 已覆盖潜变量责任度与 posterior-weighted fitting/RLS；PKM、FwPKM、Sparse Delta Memory 与 ARM 已覆盖硬/软/稀疏槽位路由和在线局部更新；Smolensky tensor binding、Fast Weight Memory 与 linear fast weights 覆盖表示和外积写入；R07/R09 已覆盖 signed/quadratic protection geometry。最强同信息实现是直接读取候选槽位、计算逐槽 residual/curvature 并作 top-\(B\) gain 选择。bAbI/LAMBADA/RULER/LongMemEval 与普通模型编辑 scorer 不联合提供所需 posterior 和潜在动作后果，因此只保留条件 theorem/control，候选增量0。

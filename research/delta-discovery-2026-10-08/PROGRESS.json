@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T07:38:28Z",
+  "recorded_at": "2026-10-10T08:38:29Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R13_dynamic_covector_published_exact_readback_no_candidate",
+  "status": "repair_R14_posterior_provenance_substantive_commit_pending_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "57f325690068a3a2f02603883fbf82144e08976e",
+  "delivery_parent": "d6f9bd833586f253afddfd5fcb6f11d2b401c50c",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -146,7 +146,13 @@
       "research/delta-discovery-2026-10-08/sources/R13_DYNAMIC_COVECTOR_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.md",
+      "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
+      "research/delta-discovery-2026-10-08/sources/R14_POSTERIOR_PROVENANCE_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -170,10 +176,11 @@
       "R11 repaired commutator cancellation into signed order-gap compression: adjacent frozen-feature Delta order gaps have key-side rank at most two, with exact query-weighted rank-tail risk and a common-metric Bayes selector lower bound.",
       "Independent final-byte math/source/adversarial reviews passed after tightening singular-G, branch-metric, semantic-proxy, compute-cost, code-pin, scorer-readiness and novelty-scope conditions; R11 parked, candidate delta zero.",
       "R12 repaired checksum semantic-target mismatch into a precise protected-readout observability theorem: on edits Δ=BA, syndrome H^TΔ recovers Q^TΔ iff ker(H^TB) is contained in ker(Q^TB). A symmetric hidden-edit pair gives the coordinate-invariant minimax obstruction; pseudoinverse noise/leakage bounds and the noiseless rank-one Delta specialization were independently checked. The stronger same-width control stores a basis JA for the joint target row space, so no scalar-state advantage or semantic revision identification survives. Exact theorem priority remains INCONCLUSIVE_EXPAND_SEARCH, empirical value unknown, no execution/new D.",
-      "R13 screened dynamic covector transport, retroactive rollback, reciprocal cycle and a set-valued quotient. The selected child derives exact affine readout transport iff ker(A) is contained in ker(Q^T), the Delta exact-overwrite obstruction and near-singular conditioning/offset cost. Independent final-byte math/source/adversarial reviews pass only a conditional control. Functional-observer/generalized-inverse/adjoint/reversible-memory collisions and a strictly simpler direct value ledger leave no method-level residual; R13 is parked, no execution/new D."
+      "R13 screened dynamic covector transport, retroactive rollback, reciprocal cycle and a set-valued quotient. The selected child derives exact affine readout transport iff ker(A) is contained in ker(Q^T), the Delta exact-overwrite obstruction and near-singular conditioning/offset cost. Independent final-byte math/source/adversarial reviews pass only a conditional control. Functional-observer/generalized-inverse/adjoint/reversible-memory collisions and a strictly simpler direct value ledger leave no method-level residual; R13 is parked, no execution/new D.",
+      "R14 replaced the provenance-code oracle with a causal latent-slot posterior, derived the exact slotwise local Bayes action, proved a sharp identity-ambiguity floor and showed posterior-mean tensor writing generally uses the wrong common residual. Independent exact-byte reviews passed conditional mathematics/source scope, but HME/Bayesian routing plus routed sparse memory and prior protected quadratic controls cover the mechanism; direct routed slots are the stronger same-information baseline. Parked after attempt 1; candidate delta 0 and empirical effect unknown."
     ]
   },
-  "next_action": "R13 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions; reopen R13 only with a causal protected-object/validity selector and an operation not solved by the cheaper direct ledger.",
+  "next_action": "R14 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions; reopen R14 only with a causal calibrated identity/protection statistic and matched-state/compute advantage over the direct posterior-weighted router.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1643,5 +1650,61 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_DELIVERY_READBACK.json",
       "sha256": "11337c3fc69ef49d6f1780074d48b9a7787bb7da2fbbaebf73fea38810063cb6"
     }
+  },
+  "repair_R14_posterior_provenance": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "rejected/PROVENANCE_TENSOR_DELTA.md",
+      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.md",
+      "sha256": "98d33cc16cb1afaeddb2c6cb67c8f7b3953410a0399211c4f6a8f9818b4fc642"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
+      "sha256": "9b08b160d5b0a28c6fcabb7d88ea5d1fadca373f370f580640be343aeb20dbca"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R14_POSTERIOR_PROVENANCE_SOURCE_AUDIT.md",
+      "sha256": "1ce269bade6d255ab14cf8acd4cec530ee1e8de89fa21c3016ce448f88d55d37"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.math-review.md",
+      "sha256": "d591dc04c0774086fe67b7b2dad98101e913f51de9567fafba97f3d504385b8d",
+      "reviewer": "/root/r14_math_derivation"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.source-review.md",
+      "sha256": "10d5d2a97b9f6c7eb592a9a60a54a7778465d3f654381121f8827bb891006fcb",
+      "reviewer": "/root/r14_source_audit"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.adversarial-review.md",
+      "sha256": "3c265d018ad183fcd024e40d48a6d8fa05d674654563894c1b07bf984143348e",
+      "reviewer": "/root/r14_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_posterior_provenance_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_local_Bayes_action_tensor_common_residual_non_equivalence_and_identity_ambiguity_floor",
+    "contribution_status": "conditional_theorem_and_control;Bayesian_routing_HME_sparse_memory_and_prior_protected_quadratic_collision",
+    "novelty_status": "NOT_ESTABLISHED_BOUNDED_SEARCH",
+    "measurement_status": "native_endpoints_do_not_jointly_expose_identity_posterior_and_counterfactual_action_consequences",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "semantic_key_plus_identity_oracle_tensorization_is_explicit_routing_and_residual_alone_does_not_identify_revision_identity",
+    "repair_delta": "replace_identity_oracle_with_causal_posterior_and_derive_slotwise_Bayes_write_exact_ambiguity_floor_and_stronger_direct_router",
+    "unclosed": [
+      "A calibrated causal prefix-only identity posterior or likelihood.",
+      "A matched-resource Delta-specific estimator cheaper or more informative than direct routed slots.",
+      "Native action-level measurement of posterior, signed/quadratic consequences and paired counterfactual writes.",
+      "Long-horizon full-Jacobian consequences and capacity under finite precision.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "substantive_commit_pending_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
