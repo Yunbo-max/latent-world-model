@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T06:56:24Z",
+  "recorded_at": "2026-10-10T07:38:28Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R12 is parked after attempt 1 as a subspace-syndrome/protected-readout theorem-control. Reopen only with an externally imposed or implicit syndrome interface, an equal-precision compute/layout advantage over direct row-space coordinates, and a native mechanism measurement path; otherwise continue another evidence-backed lineage.",
+  "next_action": "R13 is parked after attempt 1. Continue the earliest independent evidence-backed lineage that changes information, target, state or assumptions; reopen R13 only with a causal protected-object/validity selector and an operation not solved by the cheaper direct ledger.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1329,7 +1329,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-10 06:56:24 UTC",
+  "updated_at": "2026-10-10 07:38:28 UTC",
   "repair_R08_temporal_validity_release": {
     "version": "v1",
     "lineage_parents": [
@@ -1519,5 +1519,64 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_DELIVERY_READBACK.json",
       "sha256": "94d50d11c1d0236096b3abac478d8c50301138a4546e3e26afbd6acf352e4a1b"
     }
+  },
+  "repair_R13_dynamic_covector": {
+    "version": "v1",
+    "substantive_attempt": 1,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "STEP2_COUPLED_UPDATER_STABILITY.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.md",
+      "sha256": "5f45c68010335a6f03bd5b4cb087079957621e5665b790df83c7a264ec468cbc"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "sha256": "0d9d55f56434ddf9a96a8b309bbcceb1ae4be8c53645679d600c4cda70de6183"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R13_DYNAMIC_COVECTOR_SOURCE_AUDIT.md",
+      "sha256": "aa369c688c74c12cd3a38dfccb298945513ec4d48809a0fb75209d196b9ea0c6"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.math-review.md",
+      "sha256": "ebaa6f67b24bf1976292cc6cfeb242ce3686110c0c88ebee17693a03eb91b10e",
+      "reviewer": "/root/r13_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.source-review.md",
+      "sha256": "fe9cb083932db65d50f4c8e037268730a72840b7d79abc7e1c350448527e650e",
+      "reviewer": "/root/r13_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.adversarial-review.md",
+      "sha256": "110fa63f8ceeffe732a2b69b378370b9107ef2fc6e88cdd33d521ff4d364700b",
+      "reviewer": "/root/r13_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_dynamic_covector_control_parked_not_candidate",
+    "mathematical_status": "accepted_exact_affine_readout_transport_iff_Delta_overwrite_obstruction_conditioning_and_offset_boundary",
+    "contribution_status": "generalized_inverse_functional_observer_adjoint_and_reversible_memory_collision;direct_value_ledger_strictly_simpler_for_declared_invariant",
+    "novelty_status": "NOT_ESTABLISHED_BOUNDED_SEARCH",
+    "measurement_status": "endpoint_QA_available_but_no_native_A_Q_singular_value_or_ledger_certificate",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_1_conditional_theory_control",
+    "preserved_old_result": "fixed_readout_protection_conflicts_with_erased_directions_and_semantic_validity_release_remains_unidentified",
+    "repair_delta": "replace_fixed_readout_target_with_exact_transported_affine_decoder_and_derive_overwrite_conditioning_and_side_information_boundary",
+    "screened_lines": {
+      "dynamic_covector": "completed_R13_parked",
+      "retroactive_rollback": "exact_record_omission_plus_retroactive_ordered_product_collision_parked",
+      "reciprocal_cycle": "residual_postprocessing_plus_CCA_collision_parked",
+      "set_valued_query_quotient": "functional_observer_set_membership_collision_parked"
+    },
+    "unclosed": [
+      "Causal selector for the initial protected object and its validity.",
+      "A downstream operation unavailable to the cheaper direct protected-value ledger.",
+      "Matched state, bit precision, compute, latency and information-access advantage.",
+      "Native efficacy object that can distinguish the internal certificate from endpoint behavior.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_substantive_commit_and_exact_readback"
   }
 }

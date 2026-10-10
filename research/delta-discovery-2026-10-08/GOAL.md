@@ -181,3 +181,12 @@ R10保留D04的原反例：不随`A_t`传输的残差不能恢复原仿射轨迹
 
 三路独立最终字节审查进一步证明了强简单对照：对任意已知未来保护函数族，联合行空间维数为`s`时，任何精确syndrome至少需秩`s`，直接保存`JA`也只需`s d_v`标量。因此自由设计的`H`只是充分统计量换坐标，没有标量容量优势；语义有效性仍未识别。来源审计固定了OSE/压缩感知、FLA Delta接口及LongMemEval scorer边界，但精确定理优先权仍为`INCONCLUSIVE_EXPAND_SEARCH`。R12作为条件theorem/control在第一次修订后park，不分配D编号；计数仍5历史/0活动/0科学准入/0选择，实际效果未知且未执行代码、训练或评分。
 
+
+
+## R13 动态协向量保护修复里程碑（2026-10-10）
+
+[R13 三线筛选](repairs/R13_REPAIR_LINE_SCREEN.md)实际重推了动态读出、retroactive rollback 与 reciprocal cycle 三条较有希望的失败线索；后两条分别落回 exact-record omission/通用 retroactive ordered product，以及 bidirectional residual/CCA/GSA2 控制，因此有界停放。另检的 set-valued query quotient 也与 functional observer/set-membership optimal recovery 直接相邻。
+
+[选中的 R13 修订](repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md)把固定保护读出改为穿过已实现仿射 Delta 转移的动态解码。精确条件是 \\(\\ker A_t\\subseteq\\ker Q_{t-1}^\\top\\)；在 exact overwrite 时退化为 \\(Q_{t-1}^\\top D_t^{-1}k_t=0\\)，否则两个不同旧状态会塌缩为同一 post-state。覆盖前的重叠分量按 \\(1/|1-\\beta\\|k\\|^2|\\) 放大，affine offset 只能扣除已知写入，不能恢复被奇异方向抹掉的信息。
+
+三路独立最终字节审查修正了 endpoint/intermediate reader、full-Jacobian/VJP、offset-free singular proof、总状态和比特精度、对照公平性及来源固定。最终数学只作为 conditional theorem/control 通过。对当前“保存既定数值读出”的目标，直接保存 \\(Y\\) 只需 \\(p d_v\\) 标量，严格优于持久化 \\(Q_t,C_t\\) 的 \\(p d_k+p d_v\\)；functional observer、广义逆、adjoint 与 reversible memory 又覆盖主要机制。因此 R13 第一次修订后 park，不分配 D 编号；计数仍为5历史/0活动/0科学准入/0选择，原创性未建立，实验未知且未执行代码、训练或评分。

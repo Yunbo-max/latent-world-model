@@ -172,6 +172,11 @@
       "path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
       "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce",
       "status": "accepted_conditional_subspace_syndrome_readout_control_parked_not_candidate"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "sha256": "0d9d55f56434ddf9a96a8b309bbcceb1ae4be8c53645679d600c4cda70de6183",
+      "status": "accepted_conditional_dynamic_covector_transport_control_parked_not_candidate"
     }
   ],
   "counting_policy": {
@@ -190,7 +195,8 @@
       "R09 v1 supplies a reviewed finite-budget static Pareto control and adds zero active/admitted/selected candidates.",
       "R10 v1 supplies a reviewed equal-bit representation/operator-boundary control and adds zero active/admitted/selected candidates.",
       "R11 v1 supplies a reviewed exact order-gap rank/query-risk theorem-control and adds zero active/admitted/selected candidates.",
-      "R12 v1 supplies a reviewed subspace-syndrome protected-readout theorem and same-width direct-statistic dominance result; zero active/admitted/selected candidates."
+      "R12 v1 supplies a reviewed subspace-syndrome protected-readout theorem and same-width direct-statistic dominance result; zero active/admitted/selected candidates.",
+      "R13 v1 supplies a reviewed dynamic-covector transport/overwrite-obstruction theorem and direct-ledger dominance result; zero active/admitted/selected candidates."
     ]
   },
   "counting_policy_repair": {
@@ -199,6 +205,7 @@
     "r09": "Reviewed static Pareto/control entry; zero active constructed, scientific admission or selection increment.",
     "r10": "Reviewed equal-bit transported-residual representation/operator-boundary entry; zero active constructed, scientific admission or selection increment.",
     "r11": "Reviewed order-gap/query-risk theorem-control; zero active constructed, scientific admission or selection increment.",
-    "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment."
+    "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment.",
+    "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment."
   }
 }
