@@ -338,7 +338,11 @@
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
-      "publication_commit": null
+      "publication_commit": "83b7a9e9676004a08af73f0575286a6a05c58111",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V4_DELIVERY_READBACK.json",
+        "sha256": "1a0fdfbede3d4f59e390d98038a348ad8787fa0fc74c68df849931829909f046"
+      }
     }
   ],
   "counting_policy": {

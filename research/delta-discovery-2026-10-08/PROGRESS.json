@@ -1327,11 +1327,11 @@
     "candidate_admission": 0,
     "disposition": "lineage_exhausted_park_after_attempt_3_conditional_control",
     "review_feedback_repair": "v4 changed the lawful information and decision class rather than deleting the v3 no-go: prefix-measurable strata yield conditional sharp bounds and separate regret-optimal versus baseline-safe gates. Independent review fixed stratum-random update cost, A=0, integrability, gate identity, sharpness scope and example domain. Direct conditional-policy collisions and native measurement gaps leave candidate delta zero.",
-    "delivery_status": "final_reviewed_bytes_pending_expected_parent_main_delivery",
-    "publication_commit": null,
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "83b7a9e9676004a08af73f0575286a6a05c58111",
     "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_DELIVERY_READBACK.json",
-      "sha256": "efe57ca0668471d52aacc83ae3d9aa40a9eb71cd6fdeb31e25f2130a771ee29c"
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R05_V4_DELIVERY_READBACK.json",
+      "sha256": "1a0fdfbede3d4f59e390d98038a348ad8787fa0fc74c68df849931829909f046"
     }
   },
   "repair_R06_selective_validity_audit": {

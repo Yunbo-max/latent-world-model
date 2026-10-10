@@ -1,0 +1,27 @@
+{
+  "kind": "exact_commit_readback",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "3675c4c333da1a22cbb6338c9d420099af1fd778",
+  "publication_commit": "83b7a9e9676004a08af73f0575286a6a05c58111",
+  "force": false,
+  "verified_at": "2026-10-10T20:49:11Z",
+  "branch_head_verified": true,
+  "all_changed_blob_shas_verified": true,
+  "changed_files": {
+    "research/delta-discovery-2026-10-08/repairs/R05_REPAIR_LINE_SCREEN.v4.md": "d87335bb10b1ba2755efdc82906cc5cf3c3f0d3c",
+    "research/delta-discovery-2026-10-08/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md": "53ead48bf3154ef52fd3f200aa885d2ec72db308",
+    "research/delta-discovery-2026-10-08/sources/R05_V4_PREFIX_CONDITIONAL_SOURCE_AUDIT.md": "b5b4c875114ec4586488d40ab889346ba5332328",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.math-review.md": "ec6718e70e33de304e2bcd558b3f675178a5f0e8",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.source-review.md": "98041e826bcb11a05b36e566c954d1f9632a8ad1",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R05_V4.adversarial-review.md": "dbe64219c49d6918ec9d447194b3668f9d349d9d",
+    "research/delta-discovery-2026-10-08/GOAL.md": "0dde41e1bae1cfd2e037c20ef372f65d505978b4",
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "51867a0ec7fb018c21291ed95b655cf8bdcef841",
+    "research/delta-discovery-2026-10-08/method-batch.json": "6d6623bdbd0805e2747cfd3c31f71302ab96ea75",
+    "research/delta-discovery-2026-10-08/CLOSEST_WORK.md": "ce81b595c07f151da266da7eec2aa51541ec4adf",
+    "research/delta-discovery-2026-10-08/RANKING.md": "cadbb286c1d9844f93202b650d9dba87f46e2f62",
+    "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md": "fc917e6b45ef5df3f286a7545d9f7fc317f18343",
+    "research/workflow-checkpoint.json": "024d2e6a642b837263c2c5321636506a48526354"
+  },
+  "interpretation": "Exact commit and per-file Git blob readback verify delivery only; they do not prove mathematical truth, originality or empirical effectiveness."
+}
