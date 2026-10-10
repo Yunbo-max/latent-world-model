@@ -1,0 +1,24 @@
+{
+  "kind": "exact-commit-readback-receipt",
+  "repair_id": "R13",
+  "substantive_commit": "57f325690068a3a2f02603883fbf82144e08976e",
+  "parent_commit": "90dc36d502a536eea0efdead344af6735b76f0e4",
+  "branch": "main",
+  "expected_parent_used": true,
+  "force": false,
+  "all_files_exact": true,
+  "files": [
+    {"path":"research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.md","sha256":"5f45c68010335a6f03bd5b4cb087079957621e5665b790df83c7a264ec468cbc","git_blob":"677046d7fa0bd1b86c76f392b644387a5ee68e89"},
+    {"path":"research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md","sha256":"0d9d55f56434ddf9a96a8b309bbcceb1ae4be8c53645679d600c4cda70de6183","git_blob":"3956db26d9c3872c35291839f03bdbe0e8c7d540"},
+    {"path":"research/delta-discovery-2026-10-08/sources/R13_DYNAMIC_COVECTOR_SOURCE_AUDIT.md","sha256":"aa369c688c74c12cd3a38dfccb298945513ec4d48809a0fb75209d196b9ea0c6","git_blob":"60c629354fea1ebfa25e28de739a810f567408d0"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.math-review.md","sha256":"ebaa6f67b24bf1976292cc6cfeb242ce3686110c0c88ebee17693a03eb91b10e","git_blob":"a382a57347cf2d59655d27d363fefe7223da2dfe"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.source-review.md","sha256":"fe9cb083932db65d50f4c8e037268730a72840b7d79abc7e1c350448527e650e","git_blob":"dbc4bea1bc62fafd124458109765abd7769901c4"},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.adversarial-review.md","sha256":"110fa63f8ceeffe732a2b69b378370b9107ef2fc6e88cdd33d521ff4d364700b","git_blob":"4ca838523e00d05323e9d43cef7a933d8e89bdad"},
+    {"path":"research/delta-discovery-2026-10-08/PROGRESS.json","git_blob":"82002b09e915916ea2c87ac55c7c78615ebf0298"},
+    {"path":"research/delta-discovery-2026-10-08/method-batch.json","git_blob":"aa12bd6bc50649dfdbead45e6324a49c9d1a2e37"},
+    {"path":"research/delta-discovery-2026-10-08/GOAL.md","git_blob":"1c15d3045c74e023f1da8285ecc23c7683eaf101"},
+    {"path":"research/workflow-checkpoint.json","git_blob":"90298d78f9866992824c5047420006a0663f0976"}
+  ],
+  "execution": "none_math_source_review_only",
+  "candidate_delta": 0
+}

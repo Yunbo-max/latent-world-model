@@ -176,7 +176,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
       "sha256": "0d9d55f56434ddf9a96a8b309bbcceb1ae4be8c53645679d600c4cda70de6183",
-      "status": "accepted_conditional_dynamic_covector_transport_control_parked_not_candidate"
+      "status": "accepted_conditional_dynamic_covector_transport_control_parked_not_candidate",
+      "publication_commit": "57f325690068a3a2f02603883fbf82144e08976e",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_DELIVERY_READBACK.json",
+        "sha256": "11337c3fc69ef49d6f1780074d48b9a7787bb7da2fbbaebf73fea38810063cb6"
+      }
     }
   ],
   "counting_policy": {
