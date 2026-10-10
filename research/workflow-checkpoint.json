@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-10T18:58:00Z",
+  "recorded_at": "2026-10-10T15:55:12Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -2054,9 +2054,14 @@
       "source": "91aba88cacd1c853118a1010454b1f58181559b89a88fd7c9928b21ba1ae7ecb",
       "adversarial": "3b479ccc65fb9b4447744ffc2816301bb46d9b7ffc1a3327421780847d4b4081"
     },
-    "status": "reviewed_conditional_sharp_spectral_transfer_and_prefix_impossibility_control_lineage_exhausted_parked_not_candidate_pending_delivery",
+    "status": "reviewed_conditional_sharp_spectral_transfer_and_prefix_impossibility_control_lineage_exhausted_parked_not_candidate_published_exact_readback",
     "candidate_delta": 0,
     "empirical_status": "unknown_no_execution",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "751346079f343634bf837ac00ee208114adb2669",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V3_DELIVERY_READBACK.json",
+      "sha256": "a97e5b7e9379a653f69e05274de65a570b9518f35bc38d6d08ab608922cc37ff"
+    }
   }
 }

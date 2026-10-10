@@ -272,7 +272,12 @@
       "status": "accepted_conditional_sharp_spectral_transfer_and_prefix_impossibility_control_lineage_exhausted_parked_not_candidate",
       "candidate_delta": 0,
       "substantive_attempt": 3,
-      "empirical_status": "unknown_no_execution"
+      "empirical_status": "unknown_no_execution",
+      "publication_commit": "751346079f343634bf837ac00ee208114adb2669",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_V3_DELIVERY_READBACK.json",
+        "sha256": "a97e5b7e9379a653f69e05274de65a570b9518f35bc38d6d08ab608922cc37ff"
+      }
     }
   ],
   "counting_policy": {
@@ -320,6 +325,6 @@
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; publication/readback pending."
+    "r20_v3": "Reviewed sharp spectral-transfer and prefix-impossibility theorem/no-go control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive main commit and exact readback recorded."
   }
 }
