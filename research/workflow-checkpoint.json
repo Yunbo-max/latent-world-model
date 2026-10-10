@@ -184,7 +184,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "R20 is parked after attempt 1 as a nonseparable-curvature rank-boundary theorem/control. Reopen only with a legal prefix-causal structured curvature estimator, a certified matched-total-cost advantage over rank-r Delta/direct predictors/iterative solves, and a native measurable consequence; otherwise continue the earliest independent evidence-backed lineage.",
+  "next_action": "R20 is parked after attempt 2 as a prefix-causal low-rank curvature theorem/control. Reserve the third attempt for a checkable prefix-to-future approximation/regret guarantee or a native matched-total-cost advantage; otherwise continue the earliest independent evidence-backed lineage.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -812,7 +812,7 @@
       }
     ]
   },
-  "research_next_action": "R20 is parked after attempt 1 as a nonseparable-curvature rank-boundary theorem/control. Reopen only with a legal prefix-causal structured curvature estimator, a certified matched-total-cost advantage over rank-r Delta/direct predictors/iterative solves, and a native measurable consequence; otherwise continue the earliest independent evidence-backed lineage.",
+  "research_next_action": "R20 is parked after attempt 2 as a prefix-causal low-rank curvature theorem/control. Reserve the third attempt for a checkable prefix-to-future approximation/regret guarantee or a native matched-total-cost advantage; otherwise continue the earliest independent evidence-backed lineage.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -2010,5 +2010,26 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_DELIVERY_READBACK.json",
       "sha256": "e2c3ea4a7ff2455e6a5b3506c894a5a3729d136e31d942cc85e1bb1032bcd8cd"
     }
+  },
+  "repair_R20_v2_prefix_causal_lowrank_curvature": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md",
+      "sha256": "dfe5b8b1cde3c0798432411e76178f5dc87925cae4510856df1862c5a1cf367c"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R20_V2_PREFIX_CAUSAL_CURVATURE_SOURCE_AUDIT.md",
+      "sha256": "cfab7352929684c72bb70793b9c13fac71e23c9a79b0a445ab57a228adfbe23f"
+    },
+    "reviews": {
+      "math": "98b4eae4f62419ad0ef340ffc71cae22a7402239a6fd7839d6d85d5db416e346",
+      "source": "a4928a785b5a0c2cacdd9394aa8c5c32849625784754514ee285f26fd1a663c1",
+      "adversarial": "b073c407cab454453156c8311099d780d9ab18ce6545d85dd330c74fb5e87ba4"
+    },
+    "status": "reviewed_conditional_control_parked_not_candidate_pending_delivery",
+    "candidate_delta": 0,
+    "empirical_status": "unknown_no_execution",
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   }
 }

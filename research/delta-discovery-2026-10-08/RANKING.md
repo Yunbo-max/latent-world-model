@@ -116,3 +116,9 @@ R19 不进入活动池或 top15。它修复了三个正确但不闭合的旧结�
 R20 不进入活动池或 top15。它确实修复了 R09/D03 的假设边界：单 Kronecker 两侧度量在 `X^T k=e` 下仍退化为 rank-one inverse-left-metric edit，而非可分 sum-of-Kroneckers 可以使唯一最优 edit 升到 rank 2；最小 witness 相对最佳 rank-one 有精确 `1/48` gap。
 
 然而一般 KKT/GGN、K-FAC、Shampoo、generalized Sylvester/Krylov 和 CrispEdit 已覆盖主体机制或功能，D03 的 full recursive metric 也已包含一般 edit coordinates。完整 solve 的状态与计算远超 ordinary Delta；同信息 rank-r Delta/DeltaProduct、constrained CG 和 direct action prediction 都是强对照。prefix-only 曲率估计、matched-cost advantage 和 native mechanism scorer 均未闭。故 R20 排名处置为 parked conditional theorem/control，候选、准入和选择增量均为0，实验未知。
+
+### R20 v2 排名更新
+
+v2 修复了 v1 最早的部署缺口：曲率因子必须在动作前由真实前缀获得，精确解降为 `r x r` 投影 Woodbury 系统。数学后果包括精确 surrogate improvement、`r+1` rank bound、v1 witness 恢复、漂移失效和动作范数爆炸边界。
+
+它仍不进入活动池或 top15。M-FAC/SENG/WoodFisher 与 OGD/GEM/SketchOGD 已覆盖低秩经验曲率和 past-gradient protection；合法前缀不保证未来风险或事实有效性，完整 feature/replay 成本也可能高于 direct rank-r action predictor。故它是第二次有界修订后的 parked theorem/control，候选、准入和选择增量均为0，实验未知。

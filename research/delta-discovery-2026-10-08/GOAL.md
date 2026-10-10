@@ -260,3 +260,9 @@ a_i^*=H_i^{-1}(\pi_i r_i-\bar c_i).
 [R20 修订](repairs/R20_NONSEPARABLE_CURVATURE_EDIT.v1.md)给出一般正定 edit-space 曲率的 KKT/Schur 解，并证明真正非可分的 query×value 曲率和精确 damping 之和可以要求更高秩。一个 2×2 可核例的唯一最优 edit 为 rank 2；最佳可行 rank-one 的目标仍严格高 `1/48`。这保留了一个有用的条件边界：完整输出曲率不能总被一个新的左写方向吸收。
 
 但一般 KKT、GGN/natural gradient、K-FAC、Shampoo、generalized Sylvester/Krylov 和 CrispEdit 已覆盖主体数学或相邻功能；PDN/GKA、DeltaProduct、多步 Delta、constrained CG 与 direct rank-r action predictor 是更便宜的同信息对照。当前没有 prefix-only 的合法 coupled-curvature estimator、同预算求解优势或原生 rank-gap scorer。故 R20 作为 reviewed conditional theorem/control park，候选增量0；状态仍为5历史/0活动/0科学准入/0选择，实验未知且未执行。
+
+## R20 v2 前缀因果低秩曲率修复（2026-10-10）
+
+[第二次修订](repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md)不再沿用未来稠密曲率 oracle，而要求 `Hhat=lambda I+ZZ^T` 在动作前由可见前缀产生。精确约束 `X^T k=e` 下的解为 `x*=x0-PZ(lambda I+Z^TPZ)^(-1)Z^Tx0`；因子列 `z_j=w_j otimes p_j` 时只需求 `r x r` 系统并得到至多 `r+1` 个 rank-one factors，且精确恢复 v1 rank-two witness。
+
+独立数学审查先抓出 empirical-Fisher/GGN 范围过宽和两个反例遗漏标量 `e=1`，修正后最终字节复审通过。旋转曲率反例证明 stale prefix metric 可能比 Euclidean Delta 更坏，近奇异 key 反例还会产生 `1/epsilon` 动作范数。[来源审计](sources/R20_V2_PREFIX_CAUSAL_CURVATURE_SOURCE_AUDIT.md)确认 M-FAC/SENG/WoodFisher 已覆盖 past-gradient 小 Gram/Woodbury，OGD/GEM/SketchOGD 已覆盖 past-gradient projection/sketch。合法前缀不等于未来曲率准确，更不识别事实是否仍有效；feature/JVP/replay 成本也不能忽略。因此 v2 是第二次有界 theorem/control，park、候选增量0、实验未知。第三次尝试只在出现可检查的 prefix-to-future transfer/regret 定理或同总预算原生优势时重开。

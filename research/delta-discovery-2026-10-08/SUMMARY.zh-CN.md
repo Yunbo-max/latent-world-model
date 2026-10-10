@@ -251,3 +251,11 @@ KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 和普通 cost-sensitive/凸二�
 R09 的 rank-one 结论没有错；它假设所有 value 列共享同一个左侧风险度量。R20 把完整 query×value 曲率放回精确约束 `X^T k=e`：如果整个 metric 仍是一个 Kronecker 乘积，右侧因子会严格抵消，还是 rank one；但不可分的 Kronecker 和可以让不同输出模态需要不同左写方向。
 
 最小 2×2 例中，唯一最优 edit 的确是 rank 2，而且最佳 rank-one 仍差 `1/48`。所以“完整曲率下 rank one 永远足够”这一外推被修正了。它最可能失败在三个地方：合法前缀看不到真正未来曲率；稠密 KKT/Sylvester solve 太贵；rank-r Delta、CG 或直接 predictor 用同样信息已经能做同样动作。K-FAC、Shampoo、CrispEdit、一般 GGN/KKT 和矩阵方程方法也形成重大碰撞。故 R20 保留为条件数学边界，不是新架构；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知且没有运行实验。
+
+### R20 v2：把未来 oracle 换成合法前缀后，公式成立但问题还没解决
+
+这轮实际修了 R20 最明显的缺口：不再假装部署时知道未来稠密曲率，而只用写入前已经出现的低秩 feature。精确解只需一个小 Gram 系统，仍保持当前 key 的纠错约束，也能完整复现旧 rank-two 例子。
+
+但这里最容易误解的点是：**因果可用不等于能预测未来。** 旧 feature 可能已过时；用当前模型重算又需要 replay、旧 target 和 backward/JVP 成本。一个二维反例里，历史曲率一旋转，精确最小化旧 surrogate 的动作反而比普通 Delta 更伤；另一个近奇异例会让动作范数涨到 `1/epsilon`。M-FAC、SENG、WoodFisher 已经做了 past-gradient Woodbury，OGD/GEM/SketchOGD 已经做了过去梯度保护，所以小系统本身不是新方法。
+
+最终结论：v2 数学正确、debug 有价值，贡献差异和实际效果仍未闭。它在第二次修订后继续 park，计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**；没有执行模型代码或实验。

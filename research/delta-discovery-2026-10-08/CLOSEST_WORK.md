@@ -225,3 +225,11 @@ R19 的 mode-dependent quadratic energies、cross-mode comparison factor 与 swi
 R20 的一般解是标准 equality-constrained SPD quadratic / Mahalanobis projection；其矩阵形式是 multi-term generalized Sylvester equation。K-FAC 明确从 empirical Fisher/GGN 的 expectation-of-Kronecker 块出发，并以 product-of-expectations 做可逆近似；Shampoo 已有 tensor-mode 双侧预条件与 metric-proximal 视角。CrispEdit 又直接用 capability-preservation GNH/K-FAC factors、eigenbasis mask 和 sequential curvature cache 做参数编辑。它与 Delta fast-state exact interpolation 不同，但已是重大功能碰撞。
 
 [R20 source audit](sources/R20_NONSEPARABLE_CURVATURE_SOURCE_AUDIT.md)保留的窄差异，是同一当前-key 精确修正约束下的 sharp rank boundary：完整 metric 若真可分，value 因子严格消去；若是不可重新因式分解的 Kronecker 和，则唯一最优动作可高于 rank one，2×2 witness 对最佳 rank-one 有 `1/48` 严格 gap。PDN/GKA/QED仍是低成本单左方向或 query-solve 对照，DeltaProduct/多步 Delta 能表达 rank-r 动作，constrained CG 和 direct action predictor 是同信息强对照。没有 causal estimator、成本优势或 native rank-gap object，因此只作 parked theorem/control，不进入候选池。
+
+### R20 v2 — prefix-causal low-rank curvature
+
+- **Exact residual:** 用动作前前缀可测的 `lambda I+ZZ^T` 替代不可用的未来稠密 metric，并在约束切空间精确求解当前 key equality。
+- **Direct collisions:** M-FAC 的滑动 gradients/小 Gram inverse、SENG 的 sketched empirical natural gradient、WoodFisher 的 damped empirical-Fisher recursion，以及 OGD/GEM/SketchOGD 的 past-gradient projection/sketch；v1 的 KKT/GGN/K-FAC/Shampoo/CrispEdit 控制继续有效。
+- **Real distinction:** Delta equality constraint 与 factorized action corollary 被显式写出；若正确因子确实在前缀可得，两个 feature columns 可恢复 v1 witness。
+- **Unclosed:** prefix-to-future curvature transfer、事实有效性、trust-region/condition safety、feature/replay 总成本，以及对 rank-r Delta、constrained CG 或 direct action prediction 的优势。
+- **Disposition:** 独立复审通过的 conditional theorem/control；attempt 2 后 park，候选增量0，实验未知。

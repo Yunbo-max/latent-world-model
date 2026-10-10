@@ -252,6 +252,14 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_DELIVERY_READBACK.json",
         "sha256": "e2c3ea4a7ff2455e6a5b3506c894a5a3729d136e31d942cc85e1bb1032bcd8cd"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md",
+      "sha256": "dfe5b8b1cde3c0798432411e76178f5dc87925cae4510856df1862c5a1cf367c",
+      "status": "accepted_conditional_prefix_causal_lowrank_curvature_control_parked_not_candidate",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution"
     }
   ],
   "counting_policy": {
@@ -278,7 +286,8 @@
       "R17 v1 supplies a reviewed exact-overwrite old-quotient decodability and conditional rate-distortion boundary; it is not semantic identity preservation and adds zero active/admitted/selected candidates.",
       "R18 v1 supplies a reviewed complete-joint recursive invisibility and cross-block rescue/exposure debugging control; it adds zero active/admitted/selected candidates.",
       "R19 v1 supplies a reviewed changed-kernel switch-factor obstruction and local released-coordinate ledger-rank control; decisive switched-seminorm collision leaves zero active/admitted/selected candidate increment.",
-      "R20 v1 supplies a reviewed exact-constraint separable-cancellation and nonseparable rank-gap boundary; KKT/GGN/K-FAC/Shampoo/Sylvester/CrispEdit and Step2 collisions leave zero active/admitted/selected candidate increment."
+      "R20 v1 supplies a reviewed exact-constraint separable-cancellation and nonseparable rank-gap boundary; KKT/GGN/K-FAC/Shampoo/Sylvester/CrispEdit and Step2 collisions leave zero active/admitted/selected candidate increment.",
+      "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment."
     ]
   },
   "counting_policy_repair": {
@@ -295,6 +304,7 @@
     "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r18": "Reviewed recursive joint-state quotient theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r19": "Reviewed changed-kernel switched-protection theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
-    "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded."
+    "r20": "Reviewed nonseparable-curvature exact-edit rank-boundary theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
+    "r20_v2": "Reviewed prefix-causal low-rank curvature projected-Woodbury theorem-control; zero active constructed, scientific admission or selection increment; delivery pending."
   }
 }

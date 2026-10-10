@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-10T14:09:00Z",
+  "recorded_at": "2026-10-10T14:46:51Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R20_nonseparable_curvature_rank_boundary_published_exact_readback_no_candidate",
+  "status": "repair_R20_v2_prefix_causal_lowrank_curvature_reviewed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -192,10 +192,11 @@
       "R13 screened dynamic covector transport, retroactive rollback, reciprocal cycle and a set-valued quotient. The selected child derives exact affine readout transport iff ker(A) is contained in ker(Q^T), the Delta exact-overwrite obstruction and near-singular conditioning/offset cost. Independent final-byte math/source/adversarial reviews pass only a conditional control. Functional-observer/generalized-inverse/adjoint/reversible-memory collisions and a strictly simpler direct value ledger leave no method-level residual; R13 is parked, no execution/new D.",
       "R14 replaced the provenance-code oracle with a causal latent-slot posterior, derived the exact slotwise local Bayes action, proved a sharp identity-ambiguity floor and showed posterior-mean tensor writing generally uses the wrong common residual. Independent exact-byte reviews passed conditional mathematics/source scope, but HME/Bayesian routing plus routed sparse memory and prior protected quadratic controls cover the mechanism; direct routed slots are the stronger same-information baseline. Parked after attempt 1; candidate delta 0 and empirical effect unknown.",
       "R15 screened three repair lines and repaired the finite-action counterfactual-credit line into an exact multivariate response-surface rank theorem: full quadratic coefficients require a full-rank lifted Gram, scalar write/no-write cannot separate slope/curvature, and ill-conditioning has an explicit information price. Independent exact-byte math/source/adversarial reviews pass only a conditional control. R02/Step2, response-surface design, OPE, MIPS/OffCEM and Ouroboros already cover the mechanism; parked after attempt 1 with candidate delta 0 and empirical effect unknown.",
-      "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0."
+      "R16 repaired the scalar commuting exact-flow line into the full frozen noncommuting generator. The natural joint flow misses exact overwrite; the endpoint patch is exactly normalized inverse-metric Delta. The departure from pure decay has a Lambda-Krylov rank bound, can be rank two immediately, and has a separate affine-source order gap. Three exact-byte reviews pass a conditional theorem/control only; exact ZOH, PDN/RLS and matrix-function methods are strong collisions, novelty remains inconclusive, and candidate delta is 0.",
+      "R20 v2 replaced the dense future-curvature oracle with a strictly prefix-measurable damped low-rank surrogate and derived its exact equality-constrained projected Woodbury action. It recovers the v1 witness, distinguishes per-example gradient outer products from GGN, and adds exact drift and norm-blowup counterexamples. Final-byte math/source/adversarial reviews pass only a conditional theorem/control. M-FAC, SENG, WoodFisher, OGD, GEM and SketchOGD are major controls; transfer, total-cost advantage and native measurement remain open, so candidate delta is 0."
     ]
   },
-  "next_action": "R20 is parked after attempt 1 as a nonseparable-curvature rank-boundary theorem/control. Reopen only with a legal prefix-causal structured curvature estimator, a certified matched-total-cost advantage over rank-r Delta/direct predictors/iterative solves, and a native measurable consequence; otherwise continue the earliest independent evidence-backed lineage.",
+  "next_action": "R20 is parked after attempt 2 as a prefix-causal low-rank curvature theorem/control. Reserve the third attempt for a checkable prefix-to-future approximation/regret guarantee or a native matched-total-cost advantage over rank-r Delta, projected CG and direct action-factor prediction; otherwise continue the earliest independent evidence-backed lineage.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2140,5 +2141,55 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R20_DELIVERY_READBACK.json",
       "sha256": "e2c3ea4a7ff2455e6a5b3506c894a5a3729d136e31d942cc85e1bb1032bcd8cd"
     }
+  },
+  "repair_R20_v2_prefix_causal_lowrank_curvature": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R20_nonseparable_curvature_rank_boundary",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "b70b3f7e1d8a80ccfa22975eaedf22f9177f98ce1813e75c8a5dbc09ae0c307b"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R20_PREFIX_CAUSAL_LOWRANK_CURVATURE.v2.md",
+      "sha256": "dfe5b8b1cde3c0798432411e76178f5dc87925cae4510856df1862c5a1cf367c"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R20_V2_PREFIX_CAUSAL_CURVATURE_SOURCE_AUDIT.md",
+      "sha256": "cfab7352929684c72bb70793b9c13fac71e23c9a79b0a445ab57a228adfbe23f"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.math-review.md",
+      "sha256": "98b4eae4f62419ad0ef340ffc71cae22a7402239a6fd7839d6d85d5db416e346",
+      "reviewer": "/root/r20_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.source-review.md",
+      "sha256": "a4928a785b5a0c2cacdd9394aa8c5c32849625784754514ee285f26fd1a663c1",
+      "reviewer": "/root/r20_sources"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R20_V2.adversarial-review.md",
+      "sha256": "b073c407cab454453156c8311099d780d9ab18ce6545d85dd330c74fb5e87ba4",
+      "reviewer": "/root/r20_adversarial"
+    },
+    "status": "reviewed_prefix_causal_lowrank_curvature_control_parked_not_candidate_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_exact_conditional_projected_Woodbury_theorem_control",
+      "contribution": "Delta_exact_constraint_factorized_action_debugging_corollary",
+      "novelty": "major_MFAC_SENG_WoodFisher_OGD_GEM_SketchOGD_and_Step2_collision",
+      "measurement": "native_fast_state_curvature_and_paired_action_gap",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "unclosed": [
+      "A checkable prefix-to-future curvature approximation, drift or regret guarantee.",
+      "A matched-total-cost advantage over rank-r Delta, projected CG and direct action-factor prediction.",
+      "Native measurement of fast-state curvature, conditioning and paired same-state actions.",
+      "Factual-validity evidence and empirical effect; no execution authorized."
+    ],
+    "delivery_status": "pending_expected_parent_main_commit_and_exact_readback"
   }
 }
