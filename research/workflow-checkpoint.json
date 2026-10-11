@@ -207,12 +207,12 @@
     "changed_files_read_back": 63,
     "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
     "current_invocation_exact_source_readback": {
-      "commit": "a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa",
-      "receipt": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json",
-      "receipt_sha256": "5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579",
+      "commit": "3bd31945097eefe9d58a8a79feea45facb206a03",
+      "receipt": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V3_DELIVERY_READBACK.json",
+      "receipt_sha256": "ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba",
       "status": "verified",
-      "scope": "R13 v3 math/source/five reviews/trackers; no code or experiment execution",
-      "path_count": 15
+      "scope": "R14 v3 math/source/four reviews/trackers; no code or experiment execution",
+      "path_count": 14
     },
     "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
     "mathematical_reassessment_delivery": {
@@ -3449,7 +3449,7 @@
         "reviewer": "/root/r14_v3_measurement"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_scoped_terminal_theorem_control_pending_delivery",
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_theorem_control_published_exact_readback",
     "candidate_delta": 0,
     "disposition": "park_attempt3_exhausted_terminal_theorem_control",
     "scientific_states": {
@@ -3460,9 +3460,14 @@
     },
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "0052709f6ac9aa98b0e199a75b2d1da0608e974c",
-    "delivery_status": "pending_expected_parent_main_delivery_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "3bd31945097eefe9d58a8a79feea45facb206a03",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V3_DELIVERY_READBACK.json",
+      "sha256": "ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }
 
