@@ -554,3 +554,7 @@ Substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03` was advanced to li
 这不是无条件否定局部模型。统一 `(p+1)` 阶导数包络给出 Taylor 余项与 `2 epsilon` 优化 regret；精确低次数上界可使有限 jet 完全识别；已知值域/下界给出松弛 fallback；trust-region 的真实 trial outcome 则明确增加了信息。四路独立最终字节审查通过这个限定定理与来源/测量边界。高阶正则化、trust region、DDP/iLQR/GGN、直接 action/Q 预测、经验 dose means 与 OPE 都是强对照。
 
 R15 在第 3/3 次实质修订后以终止 theorem/control park，候选增量0，实际效果未知，未运行代码或实验。计数保持 5历史 / 0活动 / 0科学准入 / 0选择；下一条最早独立未耗尽路线是 R16 attempt 3。
+
+### R15 v3 delivery closure
+
+Substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d` was advanced to literal `main` with expected parent `072433bb5301ca8ae15a79e8122ba1d87c33f142` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
