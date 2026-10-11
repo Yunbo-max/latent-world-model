@@ -388,3 +388,16 @@ The literature search was bounded and some formula sections were unavailable, so
 | executable same-information rule | direct minimax per-slot router | algebraically identical to the R14 update | mandatory baseline; no architecture novelty |
 
 The bounded search found no exact Delta-slot formula duplicate, but that does not establish priority. Native slot-identity/all-counterfactual-write measurement and empirical evidence are absent.
+
+## R15 v2 coupled-response boundary
+
+| Object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| saturated polynomial identification | polynomial experimental design | exact Delta response is generally not globally low degree | known black-box control |
+| structured nonlinear response | Volterra-series identification | state-dependent Delta recurrence is a special structured system | mechanism collision |
+| local quadratic surrogate | DDP/iLQR/GGN and direct action optimization | lawful prefix radius and derivative certificate missing | theorem/debug control |
+| released Delta interface | Parallelizing DeltaNet plus pinned FLA code | abstract scalar witness is not a normalized FLA embedding | implementation scope fixed |
+| native measurement | randomized internal action plus branch-consistent free-running outcomes | no existing endpoint exposes the joint object | measurement gap |
+
+The saturated monomial count is not a universal intervention-rank lower bound, and the local derivative construction offers no evidence unavailable to same-information direct optimization. Candidate delta is zero; attempt 2/3 is parked.
+

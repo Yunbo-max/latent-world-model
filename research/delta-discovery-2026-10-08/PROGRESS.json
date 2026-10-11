@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T07:55:00+01:00",
+  "recorded_at": "2026-10-11T09:05:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R14_v2_credal_provenance_published_exact_readback_no_candidate",
+  "status": "repair_R15_v2_coupled_response_degree_reviewed_pending_publication_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -203,7 +203,13 @@
       "research/delta-discovery-2026-10-08/sources/R14_V2_CREDAL_PROVENANCE_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v2.md",
+      "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R15_V2_COUPLED_RESPONSE_DEGREE_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -243,10 +249,11 @@
       "R11 v2 corrected v1's dense-SVD cost story and its own first-draft midpoint/edit-budget mismatch. For two pure scalar-beta Delta steps, the exact adjacent gap factors as beta_i beta_j(k_i^T k_j)[k_i,k_j][e_j,-e_i]^T; common-prestate residuals are causally reconstructible at the second event, and every weighted optimum reduces to an at-most 2x2 core. Centered and physical-edit Bayes risks now separately expose selector uncertainty, rank tail and plug-in calibration error. Final-byte math/source/adversarial reviews pass only this conditional theorem/control. Ordered Delta/WY, DeltaProduct and generic core-SVD machinery cover the mechanisms; causal G/p, persistent-overlay cost advantage and native semantic measurement remain open. Candidate delta is 0, attempt 2/3 parked, empirical effect unknown.",
       "R12 v2 repaired v1's static-decodability target by requiring the syndrome Y=H^T S to evolve autonomously. For a frozen affine step F, exact closure is equivalent to ker(H^T) being contained in ker(H^T F), to F^T col(H) being invariant, and to H^T F=L H^T. For pure Delta with nonzero beta this holds exactly when the key is orthogonal to or lies inside the syndrome subspace. The least closed protected subspace is the key-activation fixed point; mixed keys give a same-syndrome next-step counterexample and normalized one-step leakage |beta| ||P_V k|| ||P_(V^perp) k||. Independent final-byte review corrected an overstrong coefficientwise necessity claim and the arbitrary scaling of raw H. Invariant quotient/bisimulation and internal R18 cover the general mechanism, direct orthonormal coordinates are the same-width control, native closure measurements are absent, and empirical value is unknown. Attempt 2/3 is parked with candidate delta 0.",
       "R13 v2 changes the information condition rather than relabelling v1: a decoder sees the affine-transition family but not the realized mode. Exact common affine recovery is equivalent to one block equation XM=N or ker(M) subseteq ker(N). Two individually invertible Delta steps yield the same post-state with different old protected values, giving a half-diameter point-decoder lower bound only on the same-information reachable set; failure of the block condition alone does not exclude nonlinear piecewise decoding. Independent final-byte reviews pass this scoped theorem/control. Moreno 2005 simultaneous functional observation is the strongest direct collision, a direct value ledger remains mandatory, native measurement is absent, candidate delta is 0, attempt 2/3 is parked, and empirical effect is unknown.",
-      "R14 v2 replaces the supplied point posterior with a certified interval and proves the exact two-slot minimax action, least-favourable posterior, posterior-misspecification regret, hard one-touch thresholds, invalid-certificate counterexample and a positive-curvature multi-slot QCQP extension. Independent final-byte reviews accept the conditional theorem/control. Gamma-minimax, credal DRO and posterior decision-regret mechanisms cover the method skeleton; the direct minimax router is algebraically identical, native measurement is absent and empirical effect is unknown, so candidate delta is zero and attempt 2 is parked."
+      "R14 v2 replaces the supplied point posterior with a certified interval and proves the exact two-slot minimax action, least-favourable posterior, posterior-misspecification regret, hard one-touch thresholds, invalid-certificate counterexample and a positive-curvature multi-slot QCQP extension. Independent final-byte reviews accept the conditional theorem/control. Gamma-minimax, credal DRO and posterior decision-regret mechanisms cover the method skeleton; the direct minimax router is algebraically identical, native measurement is absent and empirical effect is unknown, so candidate delta is zero and attempt 2 is parked.",
+      "R15 v2 repairs v1's frozen quadratic-response scope by propagating an intervention through a coupled continuation. Polynomial transition degrees multiply across the horizon; an abstract unconstrained scalar Delta recurrence realizes degree 2*3^H terminal loss. The saturated coefficient count binom(r+m,m) is explicitly not an inherent Delta rank lower bound. A branch-local quadratic Taylor surrogate has an M3*rho^3/6 remainder and M3*rho^3/3 optimizer-regret certificate. Independent exact-byte math/source/adversarial reviews pass this only as a theorem/debugging control. Polynomial/Volterra design and direct DDP/iLQR/GGN/action optimization cover the positive mechanisms; lawful prefix certificates, matched-cost advantage and native branch-consistent measurement are missing. Candidate delta zero, attempt 2/3 parked, empirical effect unknown."
     ]
   },
-  "next_action": "Continue R15 v2 as the earliest independent unexhausted repair lineage. Reopen R14 attempt 3 only with a lawful prefix-measurable tokenwise identity-set constructor, a Delta-specific operation unavailable to the direct minimax router, matched-total-cost advantage, and a native slot/counterfactual-write measurement object.",
+  "next_action": "Continue R16 v2 as the earliest independent unexhausted repair lineage. Reopen R15 attempt 3 only with a lawful prefix-measurable closure or radius certificate, a Delta-specific operation unavailable to same-information direct action optimization or Q prediction, matched-total-cost advantage, and a native branch-consistent action-response measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3042,5 +3049,71 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V2_DELIVERY_READBACK.json",
       "sha256": "fef02d6230c3a95d67b43510d506b4db726f24952237d77e3c2b25380bbeed78"
     }
+  },
+  "repair_R15_v2_coupled_response_degree": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
+      "research/delta-discovery-2026-10-08/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "d2bc96bc0346b967340570ba673fbd9db61b9fa79409717713e25c342b37ad0d"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md",
+      "sha256": "786bc749464ec9d400690fd279d1768a353f8917f8a68a5fa7d8c9ac9edf0ff7"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_V2_COUPLED_RESPONSE_DEGREE_SOURCE_AUDIT.md",
+      "sha256": "aa1477e3fe652b882c50ab300c323f0d092730cb9f0d3959c8f78cb218e79b26"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.math-review.md",
+        "sha256": "abb29bc8f90082fcbf113551822dfab507e9bed030597278a9f110d9fa327ba6",
+        "reviewer": "/root/r15_v2_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.source-review.md",
+        "sha256": "2a9caf933060544321ba598744c5f4c728d7189ee907bd1fa8a1e986e202dd8d",
+        "reviewer": "/root/r15_v2_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md",
+        "sha256": "b36f19ca7143312e8865a31320b78a2e6882702def0647a3043af43c3e13393d",
+        "reviewer": "/root/r15_v2_adversarial_review"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_coupled_response_degree_control_parked_not_candidate_pending_publication",
+    "scientific_states": {
+      "mathematics": "accepted_conditionally_for_degree_composition_abstract_Delta_witness_saturated_identification_and_local_Taylor_certificate",
+      "contribution": "useful_scope_repair_and_Delta_debugging_control_not_new_updater",
+      "closest_work": "polynomial_response_surface_Volterra_identification_DDP_iLQR_GGN_and_same_information_action_optimization",
+      "measurement": "no_native_prefix_randomized_internal_write_branch_consistent_outcome_and_degree_certificate_object",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_v1": "quadratic_lift_identifies_only_a_declared_quadratic_response_surface_under_full_lifted_Gram_and_conditioning_cost",
+    "repair_delta": "replace_frozen_quadratic_assumption_with_coupled_degree_propagation_and_a_separate_local_smooth_certificate",
+    "controls": [
+      "saturated polynomial response surface",
+      "structured recurrence model",
+      "direct DDP/iLQR/GGN or action optimizer",
+      "direct Q or outcome predictor with the same information"
+    ],
+    "unclosed": [
+      "A lawful prefix-measurable global closure or local radius/third-derivative certificate.",
+      "A Delta-specific sufficient statistic or optimizer unavailable to same-information direct action optimization.",
+      "A matched-total-cost advantage over structured recurrence and direct Q controls.",
+      "A native branch-consistent randomized internal-action response measurement object.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
+

@@ -203,3 +203,8 @@ R13 v2 does **not** enter the active pool or top-15. It repairs a real scope err
 ## R14 v2 ranking disposition (2026-10-11)
 
 R14 v2 does **not** enter the active pool or top-15. It repairs a real assumption gap by replacing a supplied exact posterior with a posterior interval and derives exact continuous minimax, hard-action and misspecification boundaries. The positive rule is nevertheless an ordinary Gamma-minimax/credal decision and is algebraically identical to a direct minimax per-slot router. Its external interval still needs a lawful tokenwise coverage construction, and no native task exposes the required slot identity and counterfactual writes. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.
+
+## R15 v2 ranking disposition (2026-10-11)
+
+R15 v2 does **not** enter the active pool or top-15. It fixes v1's global quadratic-response assumption and preserves a useful boundary: nonlinear coupled continuations can raise intervention degree rapidly, while a local quadratic model is valid only with an explicit branch/radius/third-derivative certificate. The saturated feature count is not a universal Delta-rank lower bound. Polynomial/Volterra design and same-information direct derivative/action optimization cover the constructive mechanism, and no native branch-consistent internal-action measurement exists. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.
+

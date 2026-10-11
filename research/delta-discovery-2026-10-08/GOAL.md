@@ -393,3 +393,12 @@ Independent final-byte math, source and adversarial reviews pass the scoped theo
 ### R14 v2 delivery closure
 
 Substantive commit `9f14558d4e7b1196a1606a0c6cd0ac5f9072e926` was written to literal `main` with an expected-parent, non-force update. All 13 authored paths were fetched at that exact commit and matched their SHA256 records. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R14_V2_DELIVERY_READBACK.json` (SHA256 `fef02d6230c3a95d67b43510d506b4db726f24952237d77e3c2b25380bbeed78`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
+
+## R15 v2: coupled response-degree repair (2026-10-11)
+
+R15 attempt 2/3 repairs v1's frozen-quadratic scope. For an action injected into the complete state and propagated through polynomial continuation maps, response degree is bounded by the terminal-loss degree times the product of transition degrees. An abstract unconstrained scalar Delta recurrence attains degree `2*3^H` under terminal square loss, so bare Delta algebra does not imply a global quadratic response. This witness is not claimed to instantiate normalized-key/sigmoid released FLA.
+
+The repair also removes a stronger false inference: `binom(r+m,m)` is only the dimension of a saturated black-box degree-`m` polynomial fit, not an inherent Delta intervention-rank lower bound. A fixed structured recurrence or optimizer-only target can be much smaller. Locally, a branch-smooth quadratic Taylor model has error at most `M3*rho^3/6` and optimizer regret at most `M3*rho^3/3` on a certified ball, but the needed uniform derivative/radius certificate is not presently prefix-available.
+
+Independent final-byte mathematics, source and adversarial reviews pass only this scoped theorem/debugging control. Polynomial/Volterra design and same-information DDP/iLQR/GGN/action optimization cover the positive mechanisms; native branch-consistent intervention measurement and matched-cost advantage are absent. R15 v2 is parked with candidate delta zero and empirical effect unknown. Counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected; no code or experiment was run.
+

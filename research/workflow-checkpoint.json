@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T06:55:00Z",
+  "recorded_at": "2026-10-11T08:05:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -189,7 +189,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R15 v2 as the earliest independent unexhausted repair lineage. Reopen R14 attempt 3 only with a lawful prefix-measurable tokenwise identity-set constructor, a Delta-specific operation unavailable to the direct minimax router, matched-total-cost advantage, and a native slot/counterfactual-write measurement object.",
+  "next_action": "Continue R16 v2 as the earliest independent unexhausted repair lineage. Reopen R15 attempt 3 only with a lawful prefix-measurable closure or radius certificate, a Delta-specific operation unavailable to same-information direct action optimization or Q prediction, matched-total-cost advantage, and a native branch-consistent action-response measurement object.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -851,7 +851,7 @@
       }
     ]
   },
-  "research_next_action": "Continue R15 v2 as the earliest independent unexhausted repair lineage. Reopen R14 attempt 3 only with a lawful prefix-measurable tokenwise identity-set constructor, a Delta-specific operation unavailable to the direct minimax router, matched-total-cost advantage, and a native slot/counterfactual-write measurement object.",
+  "research_next_action": "Continue R16 v2 as the earliest independent unexhausted repair lineage. Reopen R15 attempt 3 only with a lawful prefix-measurable closure or radius certificate, a Delta-specific operation unavailable to same-information direct action optimization or Q prediction, matched-total-cost advantage, and a native branch-consistent action-response measurement object.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -2551,5 +2551,45 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V2_DELIVERY_READBACK.json",
       "sha256": "fef02d6230c3a95d67b43510d506b4db726f24952237d77e3c2b25380bbeed78"
     }
+  },
+  "repair_R15_v2_coupled_response_degree": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md",
+      "sha256": "786bc749464ec9d400690fd279d1768a353f8917f8a68a5fa7d8c9ac9edf0ff7"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "d2bc96bc0346b967340570ba673fbd9db61b9fa79409717713e25c342b37ad0d"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_V2_COUPLED_RESPONSE_DEGREE_SOURCE_AUDIT.md",
+      "sha256": "aa1477e3fe652b882c50ab300c323f0d092730cb9f0d3959c8f78cb218e79b26"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.math-review.md",
+        "sha256": "abb29bc8f90082fcbf113551822dfab507e9bed030597278a9f110d9fa327ba6",
+        "reviewer": "/root/r15_v2_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.source-review.md",
+        "sha256": "2a9caf933060544321ba598744c5f4c728d7189ee907bd1fa8a1e986e202dd8d",
+        "reviewer": "/root/r15_v2_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md",
+        "sha256": "b36f19ca7143312e8865a31320b78a2e6882702def0647a3043af43c3e13393d",
+        "reviewer": "/root/r15_v2_adversarial_review"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_conditional_control_parked_not_candidate_pending_publication",
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback"
   }
 }
+
