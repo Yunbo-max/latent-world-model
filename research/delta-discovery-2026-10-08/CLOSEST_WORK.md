@@ -533,3 +533,9 @@ R12 sufficient coordinates and R19 zero-error side coding are broader internal c
 ### R13 v3 delivery closure
 
 Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to literal `main` with expected parent `7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02` and `force=false`. All 15 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json` (SHA256 `5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R14 v3 可观测等价与 posterior certificate 的最近工作处置
+
+R14 v3 的主体工具分别与三类公开理论相撞：Barber 对 binary conditional probability 的 distribution-free CI 长度下界；Barber--Candès--Ramdas--Tibshirani / Vovk 的 conditional-coverage 不可能性；以及 Le Cam 两点法、data processing 与 minimax/least-favourable Bayes 决策。v2 已记录 Gamma-minimax、credal DRO、posterior decision regret 和 inverse conformal risk control。故不能把“不可区分世界迫使宽区间/产生 minimax risk”宣称为新 Delta 机制。
+
+保留的窄贡献是精确的 Delta-slot 特化：两端 posterior 区间退化概率 `(1-2 alpha-delta)_+`，同信息更新器的锐 TV-only 风险下界 `(1-delta)lambda/(1+lambda)`，`delta=0` 与 v2 对称写的精确等号，以及连续动作与 deterministic/randomized hard-action 的边界。最强同信息对照仍是直接 Bayes/minimax router 或 direct action/loss predictor；新 ID、时间戳、延迟标签、active query 与 ledger 均属于新增信息/状态，必须等成本提供给对照。R14 exhausted 后不进入 active pool 或 top-15。
