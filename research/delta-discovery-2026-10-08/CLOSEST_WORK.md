@@ -567,3 +567,7 @@ Delivery closure: substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d`;
 | positive (r)-core | identical direct reduced affine recurrence | no extra information or operation | not a new updater |
 
 The pinned Martin--Cundy CUDA interface is only diagonal/elementwise; it is not evidence of a dense (r	imes r) implementation. The full summary also includes an independently closed and charged complement. Four final-byte reviews pass only the scoped theorem/control. Attempt 3/3 is exhausted; candidate delta is zero and empirical effect is unknown.
+
+### R16 v3 delivery closure
+
+Substantive commit `89f92b1a50da312199698fc644deb88021d077f1` was advanced to literal `main` with expected parent `8f8287cb7a62c8a3314ba5aab80ebbef1e58155e` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json` (SHA256 `b498e02d681fb1dac3453eca0a2de18af3047fac9e0373c79212f4765cd3e279`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit or experiment completion.

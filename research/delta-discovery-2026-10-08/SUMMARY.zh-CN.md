@@ -489,3 +489,7 @@ v2 已经说明，真实耦合 continuation 下响应次数可能快速增长；
 独立审查还修正了来源接口：Martin--Cundy 论文支持一般 affine scan 理论，但其公开 CUDA 只实现逐坐标/对角递推；不能拿来证明 dense (r	imes r) core 已有高效实现。最终数学通过的是条件定理和调试边界，不是新 updater。它与 direct reduced affine recurrence、Delta/WY、R10/R11/R12 和低秩维护强重合，也没有新的 retain/revise 证据、原生机制测量或匹配总成本优势。
 
 因此 R16 第 3/3 次修订后 park：候选增量0，实际效果未知，计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行模型代码或实验。下一步接续 R17 attempt 3。
+
+### R16 v3 delivery closure
+
+Substantive commit `89f92b1a50da312199698fc644deb88021d077f1` was advanced to literal `main` with expected parent `8f8287cb7a62c8a3314ba5aab80ebbef1e58155e` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json` (SHA256 `b498e02d681fb1dac3453eca0a2de18af3047fac9e0373c79212f4765cd3e279`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit or experiment completion.

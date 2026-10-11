@@ -1,0 +1,73 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R16_v3",
+  "target": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "8f8287cb7a62c8a3314ba5aab80ebbef1e58155e",
+  "substantive_commit": "89f92b1a50da312199698fc644deb88021d077f1",
+  "force": false,
+  "path_count": 14,
+  "all_paths_exact": true,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+      "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "7f76f5a07255f57087dbac1bc715978d5d9a55a499d76b8ed792a9206f569b81"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R16_V3_SHARED_CARRIER_SCAN_SOURCE_AUDIT.md",
+      "sha256": "e58768e3c40dc7ca8c26a7e0926a5b9a8b811b01401c83c543fdd99597407465"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.math-review.md",
+      "sha256": "9f428d12e1d31ac2ed079aee2c60bf5edf9b89e0b34e02a10459a633f23a1be0"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.source-review.md",
+      "sha256": "1d3bce3f714f972f0f81f6a51b88c58757e56b168d391060ee9a052531a1351f"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.adversarial-review.md",
+      "sha256": "b4fd652ebb3606e85c7f7febff6318f96ed7185d2e7fc1b6c0c01abbd061362a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.measurement-review.md",
+      "sha256": "457e36e608b5e3f9812d2cbfc4d28398ca9f8131fb3b0237b2d7f4db05832805"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "0f019a48537d71aa4b2d9318025580cbbf10578530c80725cc3647ea4adc68a4"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "514f8de3329d29789819acf3780d9bc723eac13aa8fe0e6579b64b83cb43b42e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "572cc4252f17c6a17bfbd1c7a42e5ed2f8c3dc84a04ae4cc62dd4f2a0fdbf678"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "be428af3d6bdcc7142e70eb3d4eddb6d19b7433272e0eef9b8a63c1e371e12c5"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "8374f7744f7c8396a76f6fc2e7332d6704976c6c8e242c23da8c906bf018383a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "sha256": "cb64f4606562402627a628d4bc0fa306d5e8f11d3cfd372b5292ac02016f6c95"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "599ce3c51ede4369e485674e35c88dd242c00df4c3cefea327c684de84838671"
+    }
+  ],
+  "scope": "Delivery verification for R16 v3 mathematics, bounded repair screen, source/interface audit, four independent final-byte reviews and cumulative entry records.",
+  "claim_boundary": "Exact readback proves delivery only; it does not establish novelty, candidate admission, native measurement validity, empirical benefit or experiment completion.",
+  "execution": "none_math_source_measurement_review_only"
+}

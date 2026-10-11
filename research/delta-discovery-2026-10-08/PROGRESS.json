@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R16_v3_attempt_3_final_byte_reviews_passed_pending_expected_parent_publication",
+  "status": "R16_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -4294,7 +4294,7 @@
         "reviewer": "/root/counterfactual_source_math"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_scoped_terminal_shared_carrier_scan_theorem_control_pending_publication_readback",
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_shared_carrier_scan_theorem_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "passed_scoped_exact_telescopes_sharp_cumulative_rank_shared_carrier_affine_scan_and_natural_flow_recompression_bound",
       "contribution": "useful_R16_specific_theorem_debug_boundary_not_new_updater_or_scan_primitive",
@@ -4324,8 +4324,13 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "8f8287cb7a62c8a3314ba5aab80ebbef1e58155e",
-    "delivery_status": "pending_expected_parent_non_force_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "89f92b1a50da312199698fc644deb88021d077f1",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json",
+      "sha256": "b498e02d681fb1dac3453eca0a2de18af3047fac9e0373c79212f4765cd3e279",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }
