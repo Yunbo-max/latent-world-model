@@ -455,3 +455,10 @@ The retained result is a precise conditional boundary, not evidence of originali
 
 The surviving result is an exact conditional theorem and negative boundary, not a new updater or total-cost advantage. Attempt 3/3 is exhausted; candidate delta is zero.
 
+## R08 v3 channel-free information envelope
+
+The mathematical delta is a sharp conditional certificate, not a novelty claim: binary affine loss gives exact uninformative-to-perfect-information bounds, support-restricted endpoint chords, rectangular action-difference intervals, and a same-prefix no-overlap impossibility witness. Closest generic coverage is EVPI/EVSI decision analysis, Blackwell experiment comparison and controlled sensing, partial identification/robust policy learning, and no-overlap off-policy evaluation. Internal R05 already covers conditional partial identification; R18 covers recursive sufficient-state closure.
+
+No native public endpoint inspected supplies randomized keep/release actions, action-specific observation channels, propensities, pre-action margins and identifiable paired temporal outcomes. Direct robust action-value prediction is therefore the strongest same-information control. Candidate delta remains zero; reopen only with a native action record or a lawful non-rectangular Delta restriction that tightens the bound at matched total cost.
+
+Delivery: pending exact main readback.

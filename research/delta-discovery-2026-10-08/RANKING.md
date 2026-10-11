@@ -244,3 +244,10 @@ R07 v3 does **not** enter the active pool or top-15. It provides a real repair: 
 
 Ranking does not improve because the positive mechanism is already covered by weighted least squares, Khatri--Rao/Hadamard Grams, condensed MPC, DDP/differentiable MPC and Delta/WY/DeltaProduct controls. The full-cost, prefix-information, free-running causal and native-measurement gaps remain. Four independent final-byte reviews therefore support only CONTROL_ONLY; attempt 3/3 is exhausted and parked, candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.
 
+## R08 v3 ranking decision (2026-10-11)
+
+R08 v3 is retained as a useful conditional theorem/debug control and parked after substantive attempt 3/3. It is not added to the active pool or selected set: the generic mechanism collides with established decision-information, controlled-sensing, partial-identification, robust-policy and OPE results; the native causal action object and matched-cost advantage remain absent; and empirical effect is unknown.
+
+Counts stay unchanged at 5 historical, 0 active, 0 scientifically admitted and 0 selected. The next independent unexhausted lineage is R09 attempt 3.
+
+Delivery: pending exact main readback.

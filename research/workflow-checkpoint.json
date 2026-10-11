@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T13:36:47+01:00",
+  "recorded_at": "2026-10-11T14:33:35+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -192,7 +192,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R08 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R07 only with a prefix-valid Delta-specific factorization of the full coupled Jacobian/Hessian including coefficient derivatives, nonvacuous drift/tail calibration cheaper than direct JVP or action prediction, and a native randomized multi-action causal record.",
+  "next_action": "Continue R09 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R08 only with a native randomized action-level temporal record, or a non-rectangular Delta channel structure that yields a provably tighter lawful bound and matched-total-cost advantage over direct robust action-value prediction.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -455,6 +455,12 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json",
         "sha256": "0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078"
       }
+    },
+    "pending_r08_v3_publication": {
+      "expected_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+      "force": false,
+      "status": "pending_exact_readback",
+      "scope": "R08 v3 math/source/reviews/trackers; no code or experiment execution"
     }
   },
   "skill": {
@@ -1399,45 +1405,83 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T13:36:47+01:00",
+  "updated_at": "2026-10-11T14:33:35+01:00",
   "repair_R08_temporal_validity_release": {
-    "version": "v2",
-    "lineage_parents": [
-      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
-      "rejected/MARTINGALE_RELEASE_CONTROL.md",
-      "repairs/R07_VALIDITY_TO_ACTION_MARGIN.v1.md"
-    ],
+    "repair_id": "R08",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md",
     "parent_artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R08_TEMPORAL_VALIDITY_RELEASE.v1.md",
-      "sha256": "574a66f55b62c57cf08c2866ea16d6711dbc49d14c37c4d3c0dbe9b1bf19fd4a"
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md",
+      "sha256": "7aae638473d20b5ac1c922c8fe8b9a01b187227280b67fcde6dfa5c01bc9815e",
+      "status": "preserved_exact_remote_main_bytes"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "319f2764b5bc70cbb6578100116f222b06c26dfcbdf5b841a49bc647fa4af857"
     },
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md",
-      "sha256": "7aae638473d20b5ac1c922c8fe8b9a01b187227280b67fcde6dfa5c01bc9815e"
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+      "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R08_V2_ACTION_DEPENDENT_INFORMATION_SOURCE_AUDIT.md",
-      "sha256": "81b3fff1ba9d03e3398086e8a9917aaf16d68bb84739e404bfb841a7dd75b699"
+      "path": "research/delta-discovery-2026-10-08/sources/R08_V3_SHARP_CHANNEL_FREE_SOURCE_AUDIT.md",
+      "sha256": "9219fa540321752a60f3acefa44799546a8c645eedc6216457a9d515155332f7"
     },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V2.math-review.md",
-      "sha256": "5182ce7ca16ee2097b8d350192ecc17617f241dcc81435fe519eb608a2dd23a4",
-      "reviewer": "/root/r08_v2_review"
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.math-review.md",
+        "sha256": "d11712b8ef4f3860f6cf0edca934db6e34934bbeb5ba5112ecf23e56cc685e1a",
+        "reviewer": "/root/r08_v3_final_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.source-review.md",
+        "sha256": "69e1f55ee00f1fa0ae491b8a717844fd48e66e367e1c11560384325d15e2bbb9",
+        "reviewer": "/root/r08_v3_final_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.adversarial-review.md",
+        "sha256": "7616a4f6622a1b909364b40a2dc1006183a016250a5628e11859fe41fcbb8c5a",
+        "reviewer": "/root/r08_v3_final_adversarial_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.measurement-review.md",
+        "sha256": "a32a678389cd645c0f902ff9819b5b0636dc66482f805c13564f9eb482e233fc",
+        "reviewer": "/root/r08_v3_final_measurement_review"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_sharp_channel_free_release_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+    "scientific_states": {
+      "mathematics": "accepted_exact_for_binary_state_affine_terminal_margin_unrestricted_Bayes_plausible_channel_envelope_endpoint_support_refinement_rectangular_action_interval_optional_measurement_cost_and_same_record_opposite_action_counterexample",
+      "contribution": "useful_sharp_partial_identification_release_certificate_and_debug_control_not_new_updater",
+      "closest_work": "EVPI_EVSI_Blackwell_controlled_sensing_partial_identification_robust_policy_no_overlap_OPE_and_internal_R05_R08_R18",
+      "measurement": "native_endpoints_do_not_expose_randomized_keep_release_actions_action_specific_observation_channels_propensities_pre_action_margins_or_identifiable_paired_temporal_outcomes",
+      "empirical": "unknown_no_execution"
     },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V2.source-review.md",
-      "sha256": "60110a37db60a9aa46237bab29a569390e76e31ec3d7ba1dae774a6ff9e3911e",
-      "reviewer": "/root/r08_v2_sources"
-    },
-    "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_action_dependent_information_control_parked_after_attempt_2_not_candidate",
     "candidate_delta": 0,
-    "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified_after_two_tracker_transport_repair",
-    "publication_commit": "d13820ab57d13627e179e189ddf93ca53649e11a",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V2_DELIVERY_READBACK.json",
-      "sha256": "f6f84c394abc8918201cc59c0653c6860a01d0620fba8d60ca2da33cade783d4"
-    }
+    "disposition": "park_after_attempt_3_exhausted_conditional_theorem_control",
+    "preserved_v2": "exact_two_stage_action_dependent_binary_envelope_information_value_and_Q_difference",
+    "repair_delta": "replace_unidentified_action_specific_channel_law_by_sharp_uninformative_to_perfect_information_bounds_and_derive_robust_action_certificate_plus_no_overlap_nonidentifiability",
+    "strong_controls": [
+      "direct robust action-value prediction",
+      "EVPI/EVSI decision analysis",
+      "Blackwell ordered controlled sensing",
+      "partial-identification robust policy",
+      "no-overlap off-policy bounds",
+      "R05 prefix-conditional partial-ID control",
+      "R18 recursive quotient closure"
+    ],
+    "unclosed": [
+      "Native randomized action-level temporal record with action-specific channels, propensities, pre-action margins and outcomes.",
+      "Non-rectangular Delta channel structure with provably tighter lawful bounds.",
+      "Matched-total-cost advantage over direct robust action-value prediction.",
+      "Joint outer optimization when base terms, transitions or coefficients are unknown.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
+    "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9"
   },
   "repair_R09_finite_budget_overwrite_protection": {
     "version": "v1",

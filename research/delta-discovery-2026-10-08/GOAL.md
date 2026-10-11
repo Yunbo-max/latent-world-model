@@ -467,3 +467,10 @@ R07 第三次也是本 lineage 最后一次有证据的数学修订，修掉了�
 
 Substantive commit `c3823b3e770d45c46c825a3c059aed0e113deefc` was written to literal `main` with expected parent `2efad2c3ad3b7ddaa52312f975a26676ef475b06` and `force=false`. All 13 authored paths were fetched at that exact commit and matched the submitted bytes or the declared tracker sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json` (SHA256 `fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20`). This verifies delivery only, not originality, candidate admission, native measurement or empirical benefit.
 
+## R08 v3 sharp channel-free release closure (2026-10-11)
+
+R08 is repaired through its final bounded attempt. For each action, the affine binary-state terminal margin now yields a sharp information-value envelope between the uninformative and fully revealing channels. Under explicitly rectangular channel ambiguity, the release-minus-keep difference lies in `[H-U_R, H+U_K]`; strict sign separation certifies a robust action, while interval overlap requires abstention or an explicit ambiguity rule. A same-record pair of unsupported release-channel worlds gives opposite optimal actions, so the missing action record is a real identification boundary rather than a reason to erase the useful conditional theorem.
+
+This is a theorem/debugging control, not a new updater. EVPI/EVSI, Blackwell/controlled sensing, partial identification, robust policy and no-overlap OPE cover the generic mechanism; R05 and R18 cover the nearest internal controls. Attempt 3/3 is exhausted, candidate/admission/selection counts remain 5 historical / 0 active / 0 admitted / 0 selected, and empirical effect remains unknown because no code or experiment was run.
+
+Delivery: pending exact main readback.
