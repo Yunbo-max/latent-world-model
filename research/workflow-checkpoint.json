@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T17:35:48+01:00",
+  "recorded_at": "2026-10-11T18:34:54+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -193,7 +193,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R12 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R11 only with a lawful semantic selector, a prefix-causal transported query object, matched-total-cost advantage over identical-overlay/direct-action controls, and a native mechanism-identifying record.",
+  "next_action": "After exact R12 v3 main readback, continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1484,7 +1484,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T17:35:48+01:00",
+  "updated_at": "2026-10-11T18:34:54+01:00",
   "repair_R08_temporal_validity_release": {
     "repair_id": "R08",
     "version": "v3",
@@ -3232,5 +3232,75 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R12_v3_gram_component_closure": {
+    "repair_id": "R12_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R12_autonomous_syndrome",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "9b357b384bb6d142b936aaa7da86ce9ad023ab2a91e8de2b7c886c1cbe5ed6a9"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+      "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R12_V3_GRAM_COMPONENT_SOURCE_AUDIT.md",
+      "sha256": "e39180a3ee83b9764b16b36d24e3620fe36f88d541516d70afca5e4e7627a36a"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.math-review.md",
+        "sha256": "ee7585d624bd7046405cbf5e75a7e03426094a44163b4c236bb1d3ae40297cba",
+        "reviewer": "/root/r12_v3_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.source-review.md",
+        "sha256": "e0e8255de289d3a5b3e98588e48052fd650b0019c8e6b8dfe7441c19c0ae548a",
+        "reviewer": "/root/r12_v3_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.adversarial-review.md",
+        "sha256": "dfff2f66bbb3d4451ab14b21a3b930e96978e7abb7a97d391827bd6070f0c133",
+        "reviewer": "/root/r12_v3_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.measurement-review.md",
+        "sha256": "047a026587d0c9040cf78211e5dbd217f3eb95a200f8feb71b1a96bd50f050ed",
+        "reviewer": "/root/r12_v3_measurement"
+      }
+    ],
+    "status": "conditional_gram_component_theorem_control_final_byte_reviews_passed_pending_exact_main_readback",
+    "scientific_states": {
+      "mathematics": "passed_scoped_finite_declared_key_family_graph_evaluation_of_v2_least_invariant_carrier_exact_reduced_recurrence_bridge_impossibility_and_leakage_boundary",
+      "contribution": "useful_Delta_specific_finite_graph_certificate_and_debugging_boundary_not_new_updater",
+      "novelty": "major_invariant_quotient_simultaneous_reducing_space_frame_graph_and_internal_R18_R09_R10_collision",
+      "measurement": "native_endpoint_assets_do_not_expose_ex_ante_key_family_Gram_components_equal_syndrome_pairs_or_bridge_counterfactual",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted",
+    "preserved_v2": "least_invariant_fixed_point_pure_Delta_dichotomy_and_recursive_syndrome_closure",
+    "repair_delta": "evaluate_v2_fixed_point_for_finite_declared_keys_by_seeded_nonorthogonality_components_add_rank_cost_certificate_future_bridge_no_go_and_threshold_leakage_boundary",
+    "strong_controls": [
+      "direct_orthonormal_UtS_coordinates",
+      "full_Delta_WY",
+      "R18_exact_recursive_quotient",
+      "R09_R10_common_invariant_carriers",
+      "fixed_orthogonal_blocks_slots_sparse_routing"
+    ],
+    "unclosed": [
+      "lawful_ex_ante_structured_key_family_with_proper_seeded_components",
+      "matched_total_cost_advantage_over_identical_direct_coordinates_and_full_Delta",
+      "prefix_causal_unseen_bridge_handling_without_equivalent_ledger",
+      "native_mechanism_identifying_record",
+      "empirical_effect"
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "fff24323509375fa79a540895428a34112d36245",
+    "delivery_status": "pending_substantive_commit_and_exact_readback"
   }
 }

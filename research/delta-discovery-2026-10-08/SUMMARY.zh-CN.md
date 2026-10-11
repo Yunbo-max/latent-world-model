@@ -429,3 +429,14 @@ v1 只证明了差异落在 \(\Lambda\)-Krylov 子空间，没有把它变成可
 - **状态**：四路独立最终字节审查通过限定结论；R11 尝试 3/3 已用完并 park；候选数不变，实际效果未知。
 
 Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).
+
+## R12 v3：有限 key 下能把最小闭包算出来，但不是新 updater
+
+这次确实修了一个具体缺口。v2 已经给出“保护摘要要递归自洽，必须落在所有 Delta 左因子的共同不变子空间”及最小 fixed point；v3 在完整 key 家族事先已知时，把这个 fixed point 化成一个很直观的图：两个 key 内积非零就连边，从与保护 query 有重叠的 seed 出发，整块连通分量都必须保留。最小宽度就是保护 query 与这些 key 的联合秩。
+
+它最有用的地方是一个 sharp debug：开始时与保护方向正交的 key 可以被省掉，但以后只要出现一个 bridge key 把两块连起来，先前省掉的历史就无法从旧摘要恢复。因此在线“看见新 key 再扩容”并不等价于事先知道完整 key 家族；要么保留完整状态/回放/ledger，要么承认信息已经丢失。把很小的 Gram 边直接阈值删掉也不是 exact，长序列误差还要看有序传播、状态大小和 conditioning。
+
+四路独立审查确认限定数学成立，也确认它只是一条 Delta 专门化的载体证书。一般不变商/双模拟、同时分块与 frame graph 已覆盖主体；真正运行的 \(Y=U^TS\) 与同一个基上的直接降维状态完全相同。字典、Gram、QR/SVD、基存储、key lookup 和精度成本都必须计入，现有 bAbI/LAMBADA/RULER/BABILong/LongMemEval 又不原生暴露这套内部图与 bridge counterfactual。
+
+所以 R12 第 3/3 次修订到此 park：数学正确、贡献是条件定理/调试控制、候选增量0、实验效果未知。计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行模型代码或实验。下一条接续为 R13 attempt 3。
+

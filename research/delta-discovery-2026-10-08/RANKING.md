@@ -274,3 +274,10 @@ Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact re
 R11 v3 is not inserted into the candidate ranking. Its exact lazy-overlay closure, sharp (2m) injection-rank construction and corrected-state (MC) term are retained as reviewed controls. Major mechanism collision and unresolved selector/measurement/cost conditions keep the active, admitted and selected counts unchanged. Attempt 3/3 is exhausted.
 
 Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).
+
+## R12 v3 ranking decision (2026-10-11)
+
+R12 v3 does **not** enter the active pool or top-15. It correctly evaluates v2's least invariant fixed point for a declared finite pure-Delta key family: seeded components of the key non-orthogonality graph give the exact carrier and its rank, while an unseen bridge key proves prefix-only expansion cannot recover discarded history.
+
+The executable state is nevertheless exactly direct reduced coordinates \(U^TS\). General invariant quotients, simultaneous reducing spaces, frame graphs and internal R18/R09/R10 cover the essential mechanism; the ex-ante dictionary and exact-zero assumptions are strong, total-cost advantage is absent, and native endpoints do not identify the mechanism. Four final-byte reviews pass only a conditional theorem/control. Attempt 3/3 is exhausted and parked; candidate/admission/selection deltas remain zero and empirical effect is unknown. The next independent unexhausted lineage is R13 attempt 3.
+

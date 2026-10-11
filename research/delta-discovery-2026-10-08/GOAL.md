@@ -508,3 +508,12 @@ R11 的第三次实质修订没有删除旧反例，而是修正了 v2 对 overl
 四份绑定最终字节的独立审查均通过这一限定定理/调试控制。它仍与 Delta/WY、DeltaProduct 和低秩 SVD 维护机制高度重合，且缺少合法语义 selector、前缀可因果 query metric、同总成本优势与原生机制测量。因此 R11 第 3/3 次尝试到此 park，候选增量为 0，实验效果未知；历史计数不变。下一条独立未耗尽线为 R12 第三次修订。
 
 Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).
+
+## R12 v3 有限 key Gram 连通闭包（2026-10-11）
+
+R12 第三次修订没有重新发明 v2 的最小不变 fixed point，而是在“完整 key 家族于压缩前已声明、纯 scalar-beta Delta、选择器不读取已丢弃状态”的条件下把它算成显式图证书：以与保护子空间非正交的 key 为 seed，最小精确载体正好是保护子空间加所有 seed 连通分量的 key span，宽度为 \(\operatorname{rank}[Q,K_R]\)。正交基坐标 \(Y=U^TS\) 给出精确封闭 Delta 递推。
+
+修订保留并加强了失败边界：一个以后才出现的 bridge key 可以让早先丢弃的正交方向突然变得必要，旧摘要无法事后补回；exact zero Gram edge 在有限精度下不连续，threshold 版本必须支付逐步泄漏与 conditioning；非标量 decay、隐藏状态 selector 和未声明 key 都需要回到完整算子/fiber 条件。字典、Gram、QR/SVD、基、缓存、lookup、precision 与 amortization 全部计费。
+
+四路最终字节独立审查只通过了限定定理/调试 control。一般 invariant quotient、simultaneous reducing-space/frame-graph 理论与内部 R18/R09/R10 已覆盖主体，且 \(U^TS\) 就是同信息直接坐标，不是新 checksum/updater。R12 attempt 3/3 因此耗尽并 park；candidate delta 为 0，实验效果未知，计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**。下一条最早未耗尽独立 lineage 是 R13 attempt 3。
+

@@ -505,3 +505,13 @@ Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact re
 Artifacts: `research/delta-discovery-2026-10-08/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md` (5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65); source audit: `research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md` (493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8). Four independent final-byte reviews passed the scoped result. Candidate delta: 0. R11 attempt 3/3 is exhausted and parked.
 
 Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).
+
+## R12 v3 Gram-component closure closest-work disposition
+
+- General mechanism: exact quotient/invariant-subspace theory (Pappas) and simultaneous block/reducing-space decomposition are decisive collisions.
+- Graph mechanism: nonzero coupling connected components and finite-frame non-orthogonality graphs are established; the seeded rank-one formula is an immediate Delta-specific specialization, not an originality certificate.
+- Author interface: pinned FLA generates dynamic keys and keeps full recurrent state; it does not expose an ex-ante finite dictionary or reduced-carrier API.
+- Same-information control: direct orthonormal \(U^TS\) is algebraically identical in state and update; full Delta/WY, structured blocks/slots and numerical truncation are required controls.
+- Residual value: an explicit finite-family dimension/cost certificate plus a sharp unseen-bridge and threshold-leakage boundary.
+- Decision: conditional theory/debug control only; attempt 3/3 exhausted, candidate delta 0, empirical effect unknown.
+

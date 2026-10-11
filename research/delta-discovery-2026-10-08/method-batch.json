@@ -984,7 +984,45 @@
     "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.source-review.md",
     "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.adversarial-review.md",
     "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.measurement-review.md",
-    "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json"
+    "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json",
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+      "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+      "status": "accepted_conditional_finite_declared_key_Gram_component_closure_theorem_control_parked_attempt3_exhausted_not_candidate_pending_exact_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R12_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "9b357b384bb6d142b936aaa7da86ce9ad023ab2a91e8de2b7c886c1cbe5ed6a9"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R12_V3_GRAM_COMPONENT_SOURCE_AUDIT.md",
+        "sha256": "e39180a3ee83b9764b16b36d24e3620fe36f88d541516d70afca5e4e7627a36a"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.math-review.md",
+          "sha256": "ee7585d624bd7046405cbf5e75a7e03426094a44163b4c236bb1d3ae40297cba",
+          "reviewer": "/root/r12_v3_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.source-review.md",
+          "sha256": "e0e8255de289d3a5b3e98588e48052fd650b0019c8e6b8dfe7441c19c0ae548a",
+          "reviewer": "/root/r12_v3_source"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.adversarial-review.md",
+          "sha256": "dfff2f66bbb3d4451ab14b21a3b930e96978e7abb7a97d391827bd6070f0c133",
+          "reviewer": "/root/r12_v3_adversarial"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.measurement-review.md",
+          "sha256": "047a026587d0c9040cf78211e5dbd217f3eb95a200f8feb71b1a96bd50f050ed",
+          "reviewer": "/root/r12_v3_measurement"
+        }
+      ]
+    }
   ],
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",
