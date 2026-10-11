@@ -329,3 +329,5 @@ R09 attempt 2/3 replaces v1's static protection metric by the exact finite-horiz
 The child preserves every v1 counterexample and adds an identical-prefix swapped-anisotropy construction. Without an externally justified continuation law, ordinary Delta is minimax on that two-future family and any prefix-only rule has competitive ratio `(M+m)^2/(4Mm)`; randomization does not remove the lower bound.
 
 Independent final-byte mathematics, source, and adversarial reviews pass only the stated conditional theorem/control. Kalman Delta Networks is now the closest Delta-specific uncertainty baseline: its filtering covariance is not the unseen future protected-query pullback, but it strengthens the collision and baseline burden. Candidate/admission/selection counts remain unchanged; empirical effect is unknown and no project execution occurred.
+
+R09 v2 delivery closure: substantive commit `0138a2a786f9b68b770ecf64251349aa3ecb491c`; all 12 changed paths matched exact-commit readback. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json` (SHA256 `0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078`).

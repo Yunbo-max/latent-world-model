@@ -1,0 +1,35 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R09",
+  "repair_version": "v2",
+  "recorded_at": "2026-10-11T03:00:55+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "781ffcb5746ea90a5075c943bf9a461943f0d826",
+  "substantive_commit": "0138a2a786f9b68b770ecf64251349aa3ecb491c",
+  "verification": "Each changed path was fetched at the exact substantive commit and compared byte-for-byte with the planned UTF-8 content or whitespace-normalized base64 encoding. All matched.",
+  "all_matched": true,
+  "execution_boundary": "documentation_math_source_review_only_no_project_code_test_training_inference_scoring_or_download",
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md", "matched": true, "git_blob_sha": "95136d704f86338dfb735f3aca363561ec10d563"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "matched": true, "git_blob_sha": "1c50d8567c1c1d1068ece6185f676eb0afd90033"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "matched": true, "git_blob_sha": "e1187f50a6c5a1f166933612aaf260df9e582c8a"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "matched": true, "git_blob_sha": "edd27886317469f158f6ba5ce0b6fb8193d3b0d6"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "matched": true, "git_blob_sha": "ec9148289f7377dd6a1832272c104d2bb829ff39"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "matched": true, "git_blob_sha": "002f342b02e2ce56c6433478dd82957da550f56d"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "matched": true, "git_blob_sha": "76bbcb96eac3472dcb73f5ff7ea3dcfe1be183d0"},
+    {"path": "research/workflow-checkpoint.json", "matched": true, "git_blob_sha": "abeb2198f460336b6f893d45a253d924dd5b429d"},
+    {"path": "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md", "matched": true, "git_blob_sha": "409645cc26b9736ed8e29114bed018bfb27c51fa"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md", "matched": true, "git_blob_sha": "b83636155777ededf8b84b11e12940d57594c057"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md", "matched": true, "git_blob_sha": "6db20f6265ada5a40de2ae8d97a852872cd11727"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md", "matched": true, "git_blob_sha": "84ccf77281282f498dc231991430d7001c4aa0b2"}
+  ],
+  "content_sha256": {
+    "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf",
+    "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md": "8894320661e2f608c28c6dc79e509b3902106b18a696e6e02e301cb5a4ff176d",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md": "0c3e5e9969dc922860aa5ea8e77a5c019433db899c5e3d2aa16dd49eadf64d0d",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md": "cd04ac3cbe030e424685568ba3891f650dd508eb9f8a86b872bb117b2bce75f3",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md": "52d08b0a6be84797d512ecb44515876fdfd9c8139468d2c71b65a8651ccdbcab"
+  }
+}
