@@ -1,0 +1,68 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair": "R16_v2_active_spectral_core",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "1c10e20f3868fe1fb62c84adbf33efc558e3c309",
+  "publication_commit": "a1da709feed580c5fe9e98a5be57f4739f5a3259",
+  "force": false,
+  "readback_ref": "a1da709feed580c5fe9e98a5be57f4739f5a3259",
+  "all_paths_exact_base64_match": true,
+  "recorded_at": "2026-10-11T09:25:00Z",
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "c74c0ecb87fdcb947f9365a6c3609b21af436b80c92f3f8db23d61cde87e721a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md",
+      "sha256": "e97793f06e6c10eb56bac6dd8913f3435fe604cb9c8de190a2b816d4ea6e43bb"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
+      "sha256": "4fc11ab72193f7e7f4a796ce2267424020c81e8650c6dfc374a2bf035449f488"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.math-review.md",
+      "sha256": "bbc1589c764447fb5725965757f8e62d41520c46db0a369cb9291e753b61be46"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.source-review.md",
+      "sha256": "5b6eea125cb296d069c531e8bac75082963ea8439d4b89c3e2d1f2513bcef0f9"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.adversarial-review.md",
+      "sha256": "5419eaed3fd4932ba47b1912e3999cc35ec0b0c8bf965def608a1e0988bfad1c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "6e5d2271050c18dc374f8b4b57374a4190c47753e3872c08aebd25c3bccc5e36"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "52831584909879424ae680da981700b81cec6f5cff4235aca527f24359291d5e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "c93ef5f858f600425913aeb6f275960d1a3bd0f4873723f00e18ff35250fae65"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "c6970a92287582128cbd1b3e5633658a797b4ebc59bda418ec9e65a43a17096e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "2cec47127177699c1acdf0641d76c7d7176ccf1986328682aa7c7f09b17122e1"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "sha256": "9887451da6d7d9cc252f564bb2e94ba4dac9dc21b6899963210b88ce7f11ba5d"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "64d773d3a8cd6f58e2d6d07ca04c5e93fc827703878d57f62887dfdf502659ad"
+    }
+  ],
+  "scope_note": "Exact readback verifies repository bytes only. It does not establish originality, scientific admission, native measurement validity or empirical benefit."
+}

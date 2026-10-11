@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R16_v2_active_spectral_core_reviewed_pending_delivery_no_candidate",
+  "status": "repair_R16_v2_active_spectral_core_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1990,7 +1990,7 @@
       "sha256": "5419eaed3fd4932ba47b1912e3999cc35ec0b0c8bf965def608a1e0988bfad1c",
       "reviewer": "/root/commutator_candidate"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_active_spectral_core_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_active_spectral_core_control_parked_not_candidate_published_exact_readback",
     "mathematical_status": "accepted_exact_active_eigenspace_DPR1_core_function_identity_grouping_error_and_normalized_direction_bounds",
     "contribution_status": "partial_theorem_delta;DPR1_matrix_function_expmv_and_grouped_KDA_mechanisms_known",
     "novelty_status": "major_numerical_mechanism_collision_and_inconclusive_residual",
@@ -2008,7 +2008,12 @@
       "A native measurement object for the declared internal mechanism.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_main_delivery_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "a1da709feed580c5fe9e98a5be57f4739f5a3259",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_V2_DELIVERY_READBACK.json",
+      "sha256": "c2786b967abae083b6d1a11e67c2943fc85f7038d33f0230b9db9097192bde4a"
+    }
   },
   "repair_R17_predictive_quotient_decodability": {
     "version": "v1",

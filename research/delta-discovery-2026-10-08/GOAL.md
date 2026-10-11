@@ -412,3 +412,7 @@ Substantive commit `d4fdc86f0c25b9495b51779a12074f26e98d027d` was written to lit
 
 独立审查纠正了初稿隐藏的成本过度声明：一般对称 \(\Lambda\) 的特征基可稠密，发现、变换和基础作用仍须分别计费；只有坐标对角或 tied-group（KDA 风格）结构，或另行计费的快速固定特征变换，才得到顺序执行的 (O(dm+r^2m+r^2)) 条件成本。DPR1 eigensolver、低秩 matrix-function update、expmv、KDA/DeltaProduct/CKDA 已覆盖主要数值机制；而 joint generator 的科学依据、scan closure、retain/revise 证据与原生机制测量仍缺失。故 R16 在第 2/3 次修订后继续作为 theorem/control park，不分配 D 编号；计数与实验状态不变。
 
+### R16 v2 delivery closure
+
+Substantive commit `a1da709feed580c5fe9e98a5be57f4739f5a3259` was written to literal `main` with expected parent `1c10e20f3868fe1fb62c84adbf33efc558e3c309` and `force=false`. All 13 authored paths were fetched at that exact commit and matched local bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R16_V2_DELIVERY_READBACK.json` (SHA256 `c2786b967abae083b6d1a11e67c2943fc85f7038d33f0230b9db9097192bde4a`). This verifies delivery only, not originality, admission, measurement validity or empirical benefit.
+
