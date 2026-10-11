@@ -546,3 +546,11 @@ Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to lit
 ### R14 v3 delivery closure
 
 Substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03` was advanced to literal `main` with expected parent `0052709f6ac9aa98b0e199a75b2d1da0608e974c` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R14_V3_DELIVERY_READBACK.json` (SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R15 v3 有限 jet 证书终止里程碑（2026-10-11）
+
+[R15 v3 推导](repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md)没有删除 v1 的二次识别条件或 v2 的次数增长反例，而是正面修补 v2 留下的“动作前怎样证明局部半径可信”缺口。对只看到同一 lawful prefix 与零动作处有限 `p`-jet 的任意规则，两个非负响应函数可以拥有完全相同的可见信息，却在固定正半径球上要求相反动作；奇偶次数分别给出显式 minimax regret 下界。因此，有限 jet 本身不能产生非平凡、与未知尺度无关的正半径优化保证。
+
+这不是无条件否定局部模型。统一 `(p+1)` 阶导数包络给出 Taylor 余项与 `2 epsilon` 优化 regret；精确低次数上界可使有限 jet 完全识别；已知值域/下界给出松弛 fallback；trust-region 的真实 trial outcome 则明确增加了信息。四路独立最终字节审查通过这个限定定理与来源/测量边界。高阶正则化、trust region、DDP/iLQR/GGN、直接 action/Q 预测、经验 dose means 与 OPE 都是强对照。
+
+R15 在第 3/3 次实质修订后以终止 theorem/control park，候选增量0，实际效果未知，未运行代码或实验。计数保持 5历史 / 0活动 / 0科学准入 / 0选择；下一条最早独立未耗尽路线是 R16 attempt 3。
