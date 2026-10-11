@@ -495,3 +495,8 @@ R10 attempt 3/3 preserves v1/v2 and repairs the remaining full-width-residual qu
 A legal noncommuting family of rank-one Delta modes can force any common carrier containing a declared dense residual direction to have width (d). The result is scoped: moving bases can preserve one realized low-rank path, but their basis state, traffic, factor precision, QR and dense core costs must be charged; new elementwise quantization residuals can also jump from rank one to full rank. Future keys/Gramians remain unlawful deployment inputs, and the frozen left-state theorem is not a full-network Jacobian guarantee.
 
 Independent final-byte math, source, adversarial and measurement reviews pass only this conditional boundary/debug theorem. Common invariant subspaces, switched reachability/model reduction, classical error feedback and packet-internal R09/R16/R18 are major collisions. Existing native tasks do not isolate closure/leakage from endpoint utility. Candidate delta is 0, empirical effect is unknown, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and R10 is parked after attempt 3/3. No code, model or scorer was executed.
+
+
+### R10 v3 delivery closure
+
+Substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` was written to literal `main` with expected parent `a0e2ce2fbbee06a615d4a573e777f50773b912d7` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json` (SHA256 `48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.

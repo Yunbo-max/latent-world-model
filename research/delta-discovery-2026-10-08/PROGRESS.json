@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R10_v3_attempt_3_final_byte_reviews_passed_pending_expected_parent_delivery",
+  "status": "R10_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "a0e2ce2fbbee06a615d4a573e777f50773b912d7",
+  "delivery_parent": "d6758ff92b7bbd9113547642e74bdc41130f2a5f",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -1800,9 +1800,12 @@
       "An affordable native object separating carrier closure from semantic utility.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "final_byte_reviews_passed_pending_expected_parent_main_delivery",
-    "publication_commit": null,
-    "delivery_readback_ref": null,
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_files_exact_readback_verified",
+    "publication_commit": "d6758ff92b7bbd9113547642e74bdc41130f2a5f",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json",
+      "sha256": "48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea"
+    },
     "preserved_version_refs": {
       "v2": {
         "repair_id": "R10",

@@ -491,3 +491,5 @@ Delivery: substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` exact re
 | moving basis | direct low-rank augmented recurrent state | must charge basis/gauge/QR/traffic | no matched-cost advantage |
 
 The source and implementation audit is pinned to exact paper versions and FLA, GatedDeltaNet, and STEPQuant paths. No exact formula duplicate was found for the Delta leakage/witness, but both are immediate specializations inside established families. Originality/admission therefore fails; the result remains a conditional theorem/control.
+
+Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json` (SHA256 `48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea`).

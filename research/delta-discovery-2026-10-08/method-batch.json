@@ -937,7 +937,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
       "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
-      "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_invariant_residual_carrier_boundary_parked_not_candidate_pending_delivery",
+      "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_invariant_residual_carrier_boundary_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -971,8 +971,11 @@
           "reviewer": "/root/r10_measurement"
         }
       ],
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "d6758ff92b7bbd9113547642e74bdc41130f2a5f",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json",
+        "sha256": "48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea"
+      }
     }
   ],
   "counting_policy": {
@@ -1048,6 +1051,6 @@
     "r17_v2": "Reviewed prefix-causal predictive-leakage certificate with exact robust-support/common-kernel and finite-sample boundary; zero active constructed, scientific-admission or selection increment; substantive main commit and exact 12-file readback recorded.",
     "r18_v2": "Reviewed prefix-causal robust recursive quotient theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r19_v2": "Reviewed prefix-causal branch-code theorem/debug control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r10_v3": "Reviewed invariant-residual-carrier boundary theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; final-byte reviews passed and expected-parent delivery pending."
+    "r10_v3": "Reviewed invariant-residual-carrier boundary theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
   }
 }

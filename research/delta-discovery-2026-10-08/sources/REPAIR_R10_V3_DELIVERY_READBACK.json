@@ -1,0 +1,104 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R10",
+  "repair_version": "v3",
+  "recorded_at": "2026-10-11T16:35:48+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "a0e2ce2fbbee06a615d4a573e777f50773b912d7",
+  "substantive_commit": "d6758ff92b7bbd9113547642e74bdc41130f2a5f",
+  "force": false,
+  "role": "web_supervisor_integration_writer",
+  "execution": "none_math_source_static_review_only",
+  "verification": "all_substantive_paths_fetched_at_exact_commit_and_byte_equal_to_submitted_contents",
+  "path_count": 14,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_REPAIR_LINE_SCREEN.v3.md",
+      "git_blob_sha": "30ba1763ff63c8f562f3791a0fbf2307a5413909",
+      "byte_equal": true,
+      "bytes_utf8": 2040
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+      "git_blob_sha": "55b0d0ccc96af02896c6e8f18d117f058266c1fe",
+      "byte_equal": true,
+      "bytes_utf8": 10921
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R10_V3_INVARIANT_RESIDUAL_CARRIER_SOURCE_AUDIT.md",
+      "git_blob_sha": "16456b87b915daa59abde1ca98fb56051be9d122",
+      "byte_equal": true,
+      "bytes_utf8": 10886
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.math-review.md",
+      "git_blob_sha": "a5ee34f9fd136de5995109ca37cdc000f5d621ae",
+      "byte_equal": true,
+      "bytes_utf8": 2248
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.source-review.md",
+      "git_blob_sha": "8591bb8c0f840ddf0543fcef52f9bcb41500791e",
+      "byte_equal": true,
+      "bytes_utf8": 1960
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.adversarial-review.md",
+      "git_blob_sha": "1b6873c44310b95e7bd924a704c4da09bd94e94b",
+      "byte_equal": true,
+      "bytes_utf8": 2058
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.measurement-review.md",
+      "git_blob_sha": "514b983da74ace1e75879b1431afaa14376772bf",
+      "byte_equal": true,
+      "bytes_utf8": 2159
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "git_blob_sha": "80ef4cb7abb3d43ff22eae335a29f76aa94de3e4",
+      "byte_equal": true,
+      "bytes_utf8": 255251
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "git_blob_sha": "4e96c13442f4bfd2217a8956d1f38714dd724a12",
+      "byte_equal": true,
+      "bytes_utf8": 67285
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "git_blob_sha": "5b687de057af8c894e30706d9f4a4c1e67df5ee9",
+      "byte_equal": true,
+      "bytes_utf8": 202875
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "git_blob_sha": "55e5f6306c078cccd9c90ec6146529de7245b0e5",
+      "byte_equal": true,
+      "bytes_utf8": 61946
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "git_blob_sha": "e5ba3630551b518f5c1887416c8d5c59756691e9",
+      "byte_equal": true,
+      "bytes_utf8": 30482
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "git_blob_sha": "d5e5d359bb93d0c4c164d5c0f4b1fe69bcdb1235",
+      "byte_equal": true,
+      "bytes_utf8": 61364
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "git_blob_sha": "a9ed3e54ebc7103d8df480f060e1639093f62214",
+      "byte_equal": true,
+      "bytes_utf8": 33944
+    }
+  ],
+  "scientific_note": "Delivery verification proves repository bytes only. It does not prove originality, candidate admission, native measurement validity, empirical benefit, or experiment completion."
+}
+
