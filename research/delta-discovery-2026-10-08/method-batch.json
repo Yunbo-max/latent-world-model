@@ -426,6 +426,37 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json",
         "sha256": "0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
+      "sha256": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08",
+      "status": "accepted_conditional_transition_matched_residual_and_spectral_noise_shaping_control_parked_not_candidate_pending_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
+        "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
+          "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
+          "reviewer": "/root/r10_v2_math_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
+          "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
+          "reviewer": "/root/r10_v2_source_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
+          "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
+          "reviewer": "/root/r10_v2_adversarial_review"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {

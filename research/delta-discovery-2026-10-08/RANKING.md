@@ -175,3 +175,10 @@ R02 v3 **不进入活动池或 top-15**。它给出 quotient-only AIPW 偏差的
 ## R09 v2 ranking disposition (2026-10-11)
 
 R09 v2 does not enter the active pool or top-15. It repairs a real target mismatch and adds a useful Delta-specific minimax boundary, but its positive mechanism is covered by observability/value-curvature machinery, PDN/RLS, Kalman Delta Networks, and R20 v3. The action-time future Gramian is not identifiable from an unrestricted common prefix. Attempt 2/3 is parked; candidate delta is 0 and all counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected.
+
+
+## R10 v2 ranking decision (2026-10-11)
+
+R10 v2 does **not** enter the active pool or top-15. It repairs a real missing derivation: under a declared feedback-invariant residual coupling, transition-matched feedback cancels older frozen-affine residual propagation; the restricted finite-horizon optimum is a Gramian/covariance projection, and correlated scalar residuals move the optimum according to a weighted one-lag spectrum. It also preserves the finite residual defect and equal-state information boundary.
+
+The contribution skeleton is nevertheless covered by classical state-space error-spectrum shaping, Zheng et al. graph-filter QEF, Ohno et al. fixed-rate error-feedback quantization, and recurrent-state quantization controls. Actual deterministic residuals are feedback-endogenous, future Gramians are not prefix observables, matched storage/traffic/compute dominance is absent, and native semantic measurement is missing. Final-byte math, source and adversarial reviews therefore pass only a conditional theorem/control. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, and no experiment was run.

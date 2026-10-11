@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T03:00:55+01:00",
+  "recorded_at": "2026-10-11T03:46:57+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R08_v2_action_dependent_information_value_published_exact_readback_no_candidate",
+  "status": "repair_R10_v2_transition_matched_noise_shaping_prepared_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "781ffcb5746ea90a5075c943bf9a461943f0d826",
+  "delivery_parent": "6ec55f81c0a97a3f8b9b9d7f25e25fcc7bb52f64",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -182,7 +182,12 @@
       "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -217,10 +222,11 @@
       "R01 v3 replaced the raw local gate/loss covector union with exact adjoint-transported covectors for a declared finite scalar-credit family. The joint transported row span is the minimum ambient right-quotient width; a formal class allowing arbitrary rank-one terminal covectors and ambient perturbations forces full value width, but native LM-loss/reachable-tangent realizability is unproved. Independent final-byte math/source/adversarial reviews passed the conditional theorem. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; candidate delta zero, measurement gap, empirical unknown, lineage parked after attempt 3/3.",
       "R02 v2 derived the exact quotient-only AIPW coarsening bias Cov(mu_a(H),m_a(H)|q)/bar_mu_a(q), supplied a two-history bias witness, and stated strong sequential quotient conditions under which DR value functions descend. For a declared finite scalar family, Delta right-quotient compatibility imposes a value-side row-span lower bound; quotient-dependent observables make recursive closure a fixed-point/invariant-subspace problem. Independent final-byte math/source/adversarial reviews pass this only as a conditional causal-debugging control. Hao et al., STAR, Pavse-Hanna MIS, generic sequential DR and R18 cover the principal mechanism; candidate delta zero, native measurement gap and empirical status unknown, parked after attempt 2/3.",
       "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown.",
-      "R09 v2 repaired the static-metric target mismatch with an exact transported finite-horizon protection Gramian under a declared frozen/exogenous suffix, a complete-state Gauss--Newton pullback boundary, and a swapped-anisotropy identical-prefix minimax theorem. The inverse-metric action and sharp spectral factor are correct, but observability/DDP, PDN, Kalman Delta Networks and R20 v3 cover the main mechanisms. Final-byte math/source/adversarial reviews pass conditional correctness; candidate delta is zero, attempt 2/3 is parked, and empirical effect is unknown."
+      "R09 v2 repaired the static-metric target mismatch with an exact transported finite-horizon protection Gramian under a declared frozen/exogenous suffix, a complete-state Gauss--Newton pullback boundary, and a swapped-anisotropy identical-prefix minimax theorem. The inverse-metric action and sharp spectral factor are correct, but observability/DDP, PDN, Kalman Delta Networks and R20 v3 cover the main mechanisms. Final-byte math/source/adversarial reviews pass conditional correctness; candidate delta is zero, attempt 2/3 is parked, and empirical effect is unknown.",
+      "R10 v2 repaired the unresolved correlated-defect branch with an exact transition-matched residual recurrence. Under a common exogenous/F-invariant residual law, F=A cancels older frozen-affine residual propagation and the finite-horizon risk becomes a Gramian/covariance projection; correlated scalar residuals yield a weighted one-lag spectral ratio. Independent review caught and fixed residual-feedback endogeneity, finite-residual nullspace scope, stability and comparator-fairness wording. Classical state-space ESS, Zheng graph QEF, Ohno fixed-rate error-feedback quantization and recurrent quantization controls cover the mechanism; candidate delta zero, attempt 2/3 parked, measurement gap and empirical status unknown."
     ]
   },
-  "next_action": "Continue R10 v2 as the earliest independent unexhausted repair lineage. Reopen R08 or R09 only with its recorded new-evidence condition; do not repeat parked arguments.",
+  "next_action": "Continue R11 v2 as the earliest independent unexhausted repair lineage. Reopen R10 attempt 3 only with the recorded Delta-specific noncommuting low-rank, lawful-prefix, matched-cost, native-measurement evidence.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1544,55 +1550,53 @@
   },
   "repair_R10_equal_bit_transported_residual": {
     "repair_id": "R10",
-    "version": "v1",
-    "substantive_attempt": 1,
+    "version": "v2",
+    "substantive_attempt": 2,
     "max_substantive_attempts": 3,
     "lineage_parents": [
-      "rejected/D04_COMPENSATION_COLLISION.md"
+      "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md"
     ],
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
-      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763"
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
+      "sha256": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_EQUAL_BIT_RESIDUAL_SOURCE_AUDIT.md",
-      "sha256": "310d36ac4942281fc44eaffd9116b3a9042f0e7acffb4d8be0a9ef8603552758"
+      "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
+      "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.math-review.md",
-      "sha256": "295b50d4ca3c334e6b2a1943f893d6b82c1a255a2cd9455d200f67c9a646f01a",
-      "reviewer": "/root/r10_math_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
+      "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
+      "reviewer": "/root/r10_v2_math_review"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.source-review.md",
-      "sha256": "ac7a58624fb85e1a3ea124d9151163a35649ee0b6890a0dc317ba5d93cc231a1",
-      "reviewer": "/root/r10_source_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
+      "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
+      "reviewer": "/root/r10_v2_source_review"
     },
     "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.adversarial-review.md",
-      "sha256": "2fc3946a9b6f0adeac9dbda5754d642affca8979a20a28af8d89517947a7577c",
-      "reviewer": "/root/r10_adversarial"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
+      "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
+      "reviewer": "/root/r10_v2_adversarial_review"
     },
-    "mathematical_status": "accepted_conditional_exact_error_recurrence_equal_cardinality_representation_boundary_and_future_risk_allocation_control",
-    "contribution_status": "major_collision_with_DAMP_STEPQuant_persistence_readout_allocation_and_published_coarse_visible_residual_write_timing;scoped_equivalence_operator_boundary_only",
-    "measurement_status": "downstream_native_tasks_exist_but_no_affordable_native_object_separates_decoded_codebook_equivalence_from_operator_interface_compatibility",
+    "mathematical_status": "accepted_conditional_transition_matched_residual_cancellation_Gramian_projection_and_F_invariant_one_lag_spectral_control",
+    "contribution_status": "major_collision_with_classical_state_space_error_spectrum_shaping_Zheng_graph_QEF_Ohno_fixed_rate_error_feedback_and_recurrent_quantization_controls",
+    "measurement_status": "native_graph_filter_output_noise_exists_but_no_affordable_native_Delta_object_exposes_residual_spectrum_feedback_Gramian_equal_state_transition_class_and_semantic_validity",
     "empirical_status": "unknown_no_execution",
     "candidate_admission": 0,
-    "disposition": "park_after_attempt_1_conditional_representation_control",
-    "preserved_old_result": "unchanged_feedback_does_not_transport_the_residual_and_exact_transported_compensation_requires_another_full_state",
-    "repair_delta": "quantize_the_transported_residual_under_explicit_total_bits_compare_against_the_strongest_equal_cardinality_direct_codebook_and_separate_decoded_state_from_coarse_visible_feedback",
+    "disposition": "park_after_attempt_2_conditional_theorem_control",
+    "preserved_old_result": "decoded_sum_split_has_no_equal_cardinality_capacity_advantage;coarse_visible_feedback_changes_the_operator;finite_residual_storage_reintroduces_a_transported_defect",
+    "repair_delta": "derive_exact_transition_matched_error_transfer_finite_horizon_query_risk_scalar_spectral_boundary_and_explicit_residual_endogeneity_and_equal_state_cost_limits",
     "unclosed": [
-      "A Delta-specific rate result that escapes direct decoded-codebook equivalence under matched metadata and total traffic.",
-      "A correlated noise-shaping theorem with a distinct observable consequence beyond the published coarse-visible residual/direction-memory operator.",
-      "An affordable native measurement object that separates representation from operator-interface compatibility.",
+      "A genuinely Delta-specific noncommuting low-rank feedback result with matched total storage, traffic, and compute advantage.",
+      "A lawful prefix estimator for the future readout Gramian or residual spectrum under explicit transfer assumptions.",
+      "An affordable native measurement object that separates representation capacity, operator compatibility, and semantic validity.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_10_files_exact_readback_verified",
-    "publication_commit": "c1eb39bdea7dc116418acbd3517be30d6720a040",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_DELIVERY_READBACK.json",
-      "sha256": "256a67a75eb1ce1d978670f28c5b6acdcdd6939614b50d749fb2ef1700703159"
-    }
+    "delivery_status": "prepared_for_expected_parent_main_publication_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   },
   "repair_R11_order_gap_compression": {
     "repair_id": "R11",

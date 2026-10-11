@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T00:53:50Z",
+  "recorded_at": "2026-10-11T02:46:57Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -188,7 +188,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R10 v2 as the earliest independent unexhausted repair lineage. Reopen R08 or R09 only with its recorded new-evidence condition; do not repeat parked arguments.",
+  "next_action": "Continue R11 v2 as the earliest independent unexhausted repair lineage; reopen R10 only with its recorded third-attempt evidence condition.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -906,7 +906,7 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R08_v2_action_dependent_information_value_published_exact_readback_no_candidate",
+    "status": "repair_R10_v2_prepared_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
@@ -915,7 +915,7 @@
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R08 v2 replaces the opaque one-step continuation in v1 with an exact two-stage binary Bayes-envelope identity, separates memory/cost/information effects, gives an optional-query truncation and a same-mean/same-variance posterior counterexample. Final-byte math and source reviews pass the conditional debugging theorem; attempt 2/3 is parked with no execution/new D.",
+    "latest_math_result": "R10 v2 derives exact frozen-affine transition-matched residual cancellation, conditional Gramian/covariance feedback projection, and an F-invariant weighted one-lag spectral boundary. Final-byte reviews pass only a known-mechanism debugging control; candidate delta zero, attempt 2/3 parked, no execution.",
     "originality_and_native_measurement": "Expected value of sample information, Blackwell comparison and controlled-sensing POMDPs cover the main mechanism; Delta contributes a signed action-margin specialization, not an admitted updater. Existing temporal-edit assets do not natively expose action-specific likelihoods, pre-action margins, propensities, query costs and identifiable paired keep/release outcomes.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
@@ -1394,7 +1394,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T03:00:55+01:00",
+  "updated_at": "2026-10-11T03:46:57+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -1475,42 +1475,41 @@
     }
   },
   "repair_R10_equal_bit_transported_residual": {
-    "version": "v1",
+    "version": "v2",
+    "substantive_attempt": 2,
     "lineage_parents": [
-      "rejected/D04_COMPENSATION_COLLISION.md"
+      "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md"
     ],
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
-      "sha256": "76ed51db1a0848a234f6e0d8176ff974a48371ad27d55d56c82d3961c0164763"
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
+      "sha256": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_EQUAL_BIT_RESIDUAL_SOURCE_AUDIT.md",
-      "sha256": "310d36ac4942281fc44eaffd9116b3a9042f0e7acffb4d8be0a9ef8603552758"
+      "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
+      "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.math-review.md",
-      "sha256": "295b50d4ca3c334e6b2a1943f893d6b82c1a255a2cd9455d200f67c9a646f01a",
-      "reviewer": "/root/r10_math_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
+      "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
+      "reviewer": "/root/r10_v2_math_review"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.source-review.md",
-      "sha256": "ac7a58624fb85e1a3ea124d9151163a35649ee0b6890a0dc317ba5d93cc231a1",
-      "reviewer": "/root/r10_source_review"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
+      "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
+      "reviewer": "/root/r10_v2_source_review"
     },
     "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V1.adversarial-review.md",
-      "sha256": "2fc3946a9b6f0adeac9dbda5754d642affca8979a20a28af8d89517947a7577c",
-      "reviewer": "/root/r10_adversarial"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
+      "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
+      "reviewer": "/root/r10_v2_adversarial_review"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_equal_bit_representation_operator_boundary_control_parked_not_candidate",
+    "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_pending_readback",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_10_files_exact_readback_verified",
-    "publication_commit": "c1eb39bdea7dc116418acbd3517be30d6720a040",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_DELIVERY_READBACK.json",
-      "sha256": "256a67a75eb1ce1d978670f28c5b6acdcdd6939614b50d749fb2ef1700703159"
-    }
+    "delivery_status": "prepared_for_expected_parent_main_publication_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   },
   "repair_R11_order_gap_compression": {
     "version": "v1",

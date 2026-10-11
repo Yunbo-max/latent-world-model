@@ -331,3 +331,14 @@ The AIS author implementation was inspected at `info-structures/ais@d2eca3b5d19d
 - PDN/RLS/editing methods cover inverse historical/static metrics.
 - Kalman Delta Networks (`arXiv:2609.07816v2`; author code pinned at `53e437be8591521a508bb6a04cd5b26594a3d5ec`) is the closest Delta-specific covariance-aware overwrite baseline. Its `P_t` measures current filtering uncertainty; it is not R09's future protected-query `G_{t:H}`.
 - R20 v3 already contains the sharp spectral-transfer factor. The R09 residue is a Delta-specific specialization plus the swapped-future minimax witness, so the result is a theorem/control, not a new updater.
+
+
+## R10 v2: transition-matched residual feedback and spectral noise shaping
+
+| Object | Closest primary mechanism | Actual overlap | Residual Delta-specific content | Decision |
+|---|---|---|---|---|
+| full feedback \(F_t=A_t\) | classical state-space error-spectrum shaping; Zheng et al. QEF | state transition, stored roundoff residual, output-noise quadratic, optimized feedback | ordered Delta factor \((I-\beta kk^T)D\) and exact old-residual cancellation identity | known-mechanism specialization |
+| scalar correlated optimum | Ohno et al. 2016 fixed-rate error-feedback quantization | downstream frequency weighting, strictly causal feedback, bits/range/overload and filter optimization | explicit one-lag ratio under a fixed residual-law coupling | collision; not a new spectral method |
+| finite residual memory | recurrent-state write-back; DAMP; STEPQuant | residual/direction state, persistence/readout allocation, write timing | proof that residual quantization reintroduces transported defect plus equal-state capacity boundary | strong control only |
+
+The direct \(2^B\)-state relabeling is an information-capacity comparator, not automatically an equal-arithmetic or equal-traffic implementation. R10 still lacks a lawful prefix Gramian/spectrum estimator, matched-total-cost advantage, native Delta mechanism object, and evidence about semantic validity.

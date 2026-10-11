@@ -331,3 +331,10 @@ The child preserves every v1 counterexample and adds an identical-prefix swapped
 Independent final-byte mathematics, source, and adversarial reviews pass only the stated conditional theorem/control. Kalman Delta Networks is now the closest Delta-specific uncertainty baseline: its filtering covariance is not the unseen future protected-query pullback, but it strengthens the collision and baseline burden. Candidate/admission/selection counts remain unchanged; empirical effect is unknown and no project execution occurred.
 
 R09 v2 delivery closure: substantive commit `0138a2a786f9b68b770ecf64251349aa3ecb491c`; all 12 changed paths matched exact-commit readback. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json` (SHA256 `0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078`).
+
+
+## R10 v2 transition-matched residual milestone (2026-10-11)
+
+The second bounded repair preserves v1's equal-cardinality and operator-change boundaries, then closes the correlated-defect branch. The exact frozen-affine recurrence is \(e_t=A_te_{t-1}-F_tr_{t-1}+r_t\). Under a common exogenous residual law invariant across compared feedback choices, \(F_t=A_t\) removes older residual propagation; scalar restrictions are future-read Gramian/covariance projections. For stationary correlated residuals the optimal restricted scalar is a weighted one-lag spectral ratio, not a universal Delta decay coefficient.
+
+Independent final-byte review found and repaired the hidden residual--feedback endogeneity assumption, finite-residual nullspace scope, stability statement, fixed-rate source omission and comparator-fairness wording. Classical state-space error-spectrum shaping, Zheng et al. graph QEF, Ohno et al. fixed-rate error-feedback quantization, recurrent-state write-back, DAMP and STEPQuant cover the mechanism family. R10 v2 is therefore a useful conditional Delta debugging theorem/control, parked after attempt 2/3 with candidate delta zero. Empirical effect and a native mechanism measurement remain unknown; no code, test, training, inference or scoring was run.
