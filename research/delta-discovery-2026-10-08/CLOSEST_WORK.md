@@ -441,3 +441,17 @@ No inspected native benchmark exposes the mode language, simultaneous conditiona
 | Stability over branch families | Path-complete/common Lyapunov and symbolic/approximate-bisimulation controls | Separate recoverability characterization; stability must be rederived on augmented state |
 
 The retained result is a precise conditional boundary, not evidence of originality or effectiveness. Native LongMemEval-family, EvoMemBench, AToKE, SEAL, bAbI/LAMBADA/RULER/BABILong endpoints do not identify the internal graph/fiber objects; measurement remains open.
+
+## R07 v3 closest-work update — factor-core joint margin
+
+| Component | Closest established mechanism/control | Residual and decision |
+|---|---|---|
+| Simultaneous fixed-proposal response | weighted least squares; Khatri--Rao/Schur/Hadamard Gram | exact Delta-coordinate response identity; useful debugging specialization only |
+| Joint bounded action | condensed linear-quadratic MPC; DDP/iLQR; differentiable MPC | box QP and cross-action curvature are established |
+| Frozen Delta transition | DeltaNet compact WY/UT; direct diagonal-plus-rank-one recurrence | arbitrary interleaved diagonal decay is handled by direct skinny recurrence, not claimed as the same WY kernel |
+| Multiple writes | DeltaProduct ordered Householder microsteps | stronger executable control recomputes later residuals; v3's simultaneous bank is different and narrower |
+| Coupled deployment | generic JVP/HVP/DDP or direct action-value prediction | state-dependent coefficient derivatives can reverse the first-order decision |
+| Native measurement | randomized internal multi-action record with paired outcomes and matched cost | no inspected endpoint exposes the full object; measurement gap remains |
+
+The surviving result is an exact conditional theorem and negative boundary, not a new updater or total-cost advantage. Attempt 3/3 is exhausted; candidate delta is zero.
+

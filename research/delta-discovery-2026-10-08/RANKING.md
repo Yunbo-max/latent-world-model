@@ -237,3 +237,10 @@ The constructive mechanism is nevertheless already covered by regular-language s
 - Prediction: complementary same-prefix release branches may require strictly more pre-write side state than a realized-branch oracle; a smaller exact code would falsify the scoped theorem.
 - Failure boundary: same-state hidden target ambiguity is impossible for every code; continuous/noisy states, coverage, compute and decoder metadata are outside the exact finite claim.
 - Decision: park after attempt 2/3, candidate_delta=0, empirical effect unknown. Reopen only with a structured tractable Delta family, matched-total-cost advantage and native mechanism measurement.
+
+## R07 v3 ranking disposition (2026-10-11)
+
+R07 v3 does **not** enter the active pool or top-15. It provides a real repair: simultaneous fixed rank-one writes through a frozen affine Delta suffix reduce exactly to a joint box QP whose Hessian is a Hadamard response Gram, and a legal state-dependent-gate counterexample shows why that result cannot be promoted to the coupled recurrence. This is valuable as a correctness baseline and as a falsifiable warning against scalar-margin composition.
+
+Ranking does not improve because the positive mechanism is already covered by weighted least squares, Khatri--Rao/Hadamard Grams, condensed MPC, DDP/differentiable MPC and Delta/WY/DeltaProduct controls. The full-cost, prefix-information, free-running causal and native-measurement gaps remain. Four independent final-byte reviews therefore support only CONTROL_ONLY; attempt 3/3 is exhausted and parked, candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.
+

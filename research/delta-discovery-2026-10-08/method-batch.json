@@ -801,6 +801,45 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json",
         "sha256": "41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+      "status": "accepted_conditional_factor_core_joint_margin_theorem_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "3ea3916467c4f5aebee4a4400bfa0b1cdfdf6e1839a41656145e71c86fe733be"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md",
+        "sha256": "83808934ddbaa0e15f15e2065b6e4c6d819fb535b028ca9679a50b86f02fca80"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.math-review.md",
+          "sha256": "399414e0adfd26b948abd45dbe43270d172c007302c7af6b81df181489c2cfef",
+          "reviewer": "/root/r07v3_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.source-review.md",
+          "sha256": "921372497abd3f9c751d7ac3706f7a31838a292f524896acac86d0cf7f31a530",
+          "reviewer": "/root/r07v3_sources"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.adversarial-review.md",
+          "sha256": "b5f82bf24b21ac63b8b242b82f7b73039b7b5d0eaf9d584b4f59b819949f4de6",
+          "reviewer": "/root/r07v3_adversary"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.measurement-review.md",
+          "sha256": "9a8a60cbd9adb3247121d20b421b6bb989c8065c68ed19fd0b69f590cee71922",
+          "reviewer": "/root/r07v3_measurement"
+        }
+      ],
+      "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06"
     }
   ],
   "counting_policy": {

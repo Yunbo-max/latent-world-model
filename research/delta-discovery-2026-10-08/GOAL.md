@@ -456,3 +456,10 @@ R19 v1 的已实现分支 PSD-kernel 阻塞保持不变；v2 修补其未来分�
 ### R19 v2 delivery closure
 
 Substantive commit `3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d` was written to literal `main` with expected parent `361497dc604b7cc02f3c5fe8fcac0917c371555a` and `force=false`. All 13 authored paths were fetched at that exact commit; seven new artifacts matched local bytes and six tracker/entry files matched the expected R19 v2 fields or sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json` (SHA256 `41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
+
+## R07 v3 因子核联合裕度修订（2026-10-11）
+
+R07 第三次也是本 lineage 最后一次有证据的数学修订，修掉了把多个写入的标量裕度独立相加的问题。在同时固定的 rank-one 提案、动作无关的仿射后缀和二次读出损失下，所有写入对未来读出的响应严格落在一个 m 维动作空间；联合 Hessian 精确为 Delta 响应的 Hadamard Gram，因此必须解联合 box QP，不能一般地逐写入决定。对角加 rank-one 的冻结 Delta 转移可用 skinny key factor 顺序传播，但 O(H d_k m) 只覆盖这一核心；残差构造、未来 probe/metric、Hessian、QP、最终 rank-m 写入及前缀预测均需另计。
+
+旧反例没有被删除：一个合法的状态依赖 gate 已足以让冻结模型的一阶决策符号反转。冻结核到真实耦合递推的误差一般是一阶，只有额外的一阶抵消才能得到二阶包络，而且 tube、tail 与常数必须在动作前合法获得。四路独立最终字节审查只通过了条件定理/调试 control；weighted least squares、Khatri--Rao/Hadamard Gram、condensed MPC、DDP/differentiable MPC、Delta/WY 与 DeltaProduct 已覆盖主要机制，原生 benchmark 又不提供联合内部动作对象。故 R07 attempt 3/3 已耗尽并 park，候选增量为 0，计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected；实验效果未知，未执行代码或实验。
+

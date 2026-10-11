@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T12:52:50+01:00",
+  "recorded_at": "2026-10-11T13:36:47+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R19_v2_prefix_causal_branch_code_published_exact_readback_no_candidate",
+  "status": "repair_R07_v3_factor_core_joint_margin_published_pending_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
+  "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -82,7 +82,8 @@
       "sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
       "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
       "sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md",
-      "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md"
+      "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -231,7 +232,14 @@
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v3.md",
+      "research/delta-discovery-2026-10-08/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.measurement-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -275,10 +283,11 @@
       "R15 v2 repairs v1's frozen quadratic-response scope by propagating an intervention through a coupled continuation. Polynomial transition degrees multiply across the horizon; an abstract unconstrained scalar Delta recurrence realizes degree 2*3^H terminal loss. The saturated coefficient count binom(r+m,m) is explicitly not an inherent Delta rank lower bound. A branch-local quadratic Taylor surrogate has an M3*rho^3/6 remainder and M3*rho^3/3 optimizer-regret certificate. Independent exact-byte math/source/adversarial reviews pass this only as a theorem/debugging control. Polynomial/Volterra design and direct DDP/iLQR/GGN/action optimization cover the positive mechanisms; lawful prefix certificates, matched-cost advantage and native branch-consistent measurement are missing. Candidate delta zero, attempt 2/3 parked, empirical effect unknown.",
       "R16 v2 repairs v1's computation gap conditionally: the exact correction lives in the r-dimensional active eigenspace and reduces to a diagonal-plus-rank-one core; coordinate-diagonal tied groups give O(dm+r^2m+r^2), while general symmetric bases retain discovery, transform and base-action costs. Duhamel grouping certificates are explicit. Independent exact-byte reviews caught and corrected a hidden dense-basis cost overclaim and pass only the final scoped theorem/control. DPR1, matrix-function, expmv, KDA, DeltaProduct and CKDA collisions, no scan closure, no generator evidence and no native measurement leave candidate delta zero; attempt 2/3 is parked and empirical effect remains unknown.",
       "R17 v2 repairs the v1 future-Gram oracle by defining a prefix-measurable PSD ambiguity/prediction set. Robust leakage is its support function; common-kernel exact invisibility, the exact spectral-ball support, conditional-mean and pathwise confidence layers, and the finite-sample impossibility of exact zero certification are derived. Independent final-byte reviews pass only a conditional theorem/debugging control; robust observability/DRO/matrix concentration and earlier quotient controls cover the mechanism, native measurement and matched-cost advantage remain open, so candidate delta is zero.",
-      "R19 v2 replaced the illegal realized-branch oracle by a finite prefix-declared branch relation. After an explicit same-state/visible-label target-consistency feasibility check, the minimum exact one-shot side alphabet is the chromatic number of the release-confusability graph; if feasibility fails, no code size works. The linear additional width is the joint release-row dimension modulo post-write visible information. Independent final-byte math/source/adversarial/measurement reviews passed after correcting both theorem-domain and post-write-rank bugs. Known zero-error coding, set-valued observer, switched-observability/R18 and saltation controls leave a conditional debug theorem only; candidate delta zero, empirical effect unknown."
+      "R19 v2 replaced the illegal realized-branch oracle by a finite prefix-declared branch relation. After an explicit same-state/visible-label target-consistency feasibility check, the minimum exact one-shot side alphabet is the chromatic number of the release-confusability graph; if feasibility fails, no code size works. The linear additional width is the joint release-row dimension modulo post-write visible information. Independent final-byte math/source/adversarial/measurement reviews passed after correcting both theorem-domain and post-write-rank bugs. Known zero-error coding, set-valued observer, switched-observability/R18 and saltation controls leave a conditional debug theorem only; candidate delta zero, empirical effect unknown.",
+      "R07 v3 completes attempt 3/3 by replacing invalid scalar-margin composition with an exact simultaneous fixed-proposal frozen-affine response factorization and joint box QP. The response Hessian is a Delta-coordinate Hadamard Gram and diagonal-plus-rank-one suffix factors propagate its skinny key core in O(H d_k m), while full residual, metric, QP, suffix and write costs remain charged. A legal state-dependent-gate witness reverses the frozen first-order decision; the perturbation bridge needs prefix-valid tube/tail constants. Four independent final-byte reviews pass only a theorem/debug control. Established weighted least squares, Khatri-Rao/Hadamard Gram, condensed MPC, DDP/differentiable MPC, Delta/WY and DeltaProduct mechanisms plus the native-measurement gap leave candidate delta zero; empirical effect unknown."
     ]
   },
-  "next_action": "Continue R07 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R19 attempt 3 only with a structured Delta transition family, a tractable prefix code strictly cheaper than the direct signature/full-state/R18 ledger at matched precision and compute, and a native mechanism-identifying measurement object.",
+  "next_action": "Continue R08 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R07 only with a prefix-valid Delta-specific factorization of the full coupled Jacobian/Hessian including coefficient derivatives, nonvacuous drift/tail calibration cheaper than direct JVP or action prediction, and a native randomized multi-action causal record.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3379,5 +3388,77 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json",
       "sha256": "41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88"
     }
+  },
+  "repair_R07_v3_factor_core_joint_margin": {
+    "repair_id": "R07",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R07_COUPLED_DIRECTIONAL_MARGIN.v2.md",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "3ea3916467c4f5aebee4a4400bfa0b1cdfdf6e1839a41656145e71c86fe733be"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md",
+      "sha256": "83808934ddbaa0e15f15e2065b6e4c6d819fb535b028ca9679a50b86f02fca80"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.math-review.md",
+        "sha256": "399414e0adfd26b948abd45dbe43270d172c007302c7af6b81df181489c2cfef",
+        "reviewer": "/root/r07v3_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.source-review.md",
+        "sha256": "921372497abd3f9c751d7ac3706f7a31838a292f524896acac86d0cf7f31a530",
+        "reviewer": "/root/r07v3_sources"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.adversarial-review.md",
+        "sha256": "b5f82bf24b21ac63b8b242b82f7b73039b7b5d0eaf9d584b4f59b819949f4de6",
+        "reviewer": "/root/r07v3_adversary"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.measurement-review.md",
+        "sha256": "9a8a60cbd9adb3247121d20b421b6bb989c8065c68ed19fd0b69f590cee71922",
+        "reviewer": "/root/r07v3_measurement"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_factor_core_joint_margin_control_parked_not_candidate_pending_exact_readback",
+    "scientific_states": {
+      "mathematics": "accepted_exact_for_simultaneous_fixed_proposals_action_independent_affine_suffix_quadratic_reads_Hadamard_Gram_PSD_box_QP_and_feedback_sign_reversal_boundary",
+      "contribution": "useful_Delta_coordinate_joint_action_theorem_and_debug_control_not_new_updater",
+      "closest_work": "weighted_least_squares_Khatri_Rao_Hadamard_Gram_condensed_MPC_DDP_differentiable_MPC_Delta_WY_DeltaProduct_and_internal_R07_R09_R11_R15_R20",
+      "measurement": "native_endpoints_do_not_expose_prefix_fixed_multiwrite_bank_frozen_suffix_internal_response_Gram_gold_joint_action_paired_same_prefix_outcomes_and_matched_cost",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_3_exhausted_conditional_theorem_control",
+    "preserved_v2": "complete_coupled_first_and_second_directional_margin_and_free_running_boundary",
+    "repair_delta": "replace_independent_scalar_margin_composition_by_exact_joint_multi_action_response_and_retain_an_explicit_state_dependent_coefficient_sign_reversal",
+    "strong_controls": [
+      "exact vectorized dense action QP",
+      "causal sequential Delta or DeltaProduct with recomputed residuals",
+      "independent diagonal QP with identical g and bounds",
+      "same-data batch ridge or least squares",
+      "small-m paired suffix rollout or finite differences",
+      "direct action-vector predictor",
+      "generic JVP HVP DDP outside frozen scope"
+    ],
+    "unclosed": [
+      "Full coupled coefficient-derivative factorization with lawful prefix information.",
+      "Nonvacuous action-time tube and tail calibration.",
+      "Matched-total-cost advantage over direct dense QP, rollout, JVP or action prediction.",
+      "Native randomized multi-action causal measurement.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_status": "substantive_commit_expected_parent_main_pending_exact_readback",
+    "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06"
   }
 }
