@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T20:39:58+01:00",
+  "recorded_at": "2026-10-11T21:33:36+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R14_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
+  "status": "R15_v3_attempt_3_final_byte_reviews_passed_terminal_finite_jet_theorem_control_pending_publication_readback",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -358,7 +358,7 @@
       "R12 v3 exhausts attempt 3/3 by evaluating v2's least jointly invariant syndrome carrier for a finite ex-ante declared pure-Delta key family. The unique least carrier is the protected span plus every key in seeded connected components of the non-orthogonality graph, with width rank[Q,K_R]. The theorem includes an exact reduced recurrence, a future bridge impossibility result, and a cumulative leakage boundary showing thresholded edges need conditioning. Four final-byte independent reviews pass only this conditional theorem/control. General invariant quotient/reducing-space/frame-graph theory and internal R18/R09/R10 are major collisions; direct U^T S is algebraically identical, native mechanism measurement is absent, and empirical effect is unknown. Candidate delta zero; R12 is parked."
     ]
   },
-  "next_action": "Continue R15 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R14 only with genuinely new lawful causal evidence or distributional assumptions, a Delta-specific same-information advantage, and a native mechanism-identifying record.",
+  "next_action": "Continue R16 attempt 3 as the earliest independent unexhausted repair lineage after R15 v3 delivery closes. Reopen R15 only with a lawful prefix-available derivative/radius or exact degree certificate, a matched-cost Delta-specific advantage unavailable to direct action optimization, and a native mechanism-identifying randomized action record.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -4133,6 +4133,82 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R15_v3_finite_jet_certificate_boundary": {
+    "repair_id": "R15_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "510e6c36279ebebe730f66c4d16f0a2e9746858793e5bc13f937c11810f23074"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_V3_FINITE_JET_CERTIFICATE_SOURCE_AUDIT.md",
+      "sha256": "ce02eca12e00251a9a76464d68e8e6f9b12517cbf31cdb1a927a9c3a6bb4800a"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.math-review.md",
+        "sha256": "db194c5faaed7d8157311ecd76d809bcda531e57908470656d3cf266044e4407",
+        "reviewer": "/root/r15_v3_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.source-review.md",
+        "sha256": "7204bf6136ad1dd4d55b45c4d1d32bb0e828f87c65af3ddd0931ead5948d7c9f",
+        "reviewer": "/root/r15_v3_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.adversarial-review.md",
+        "sha256": "c370af785dd82cbb2777371def5b6497fb0a2823b08473c31a687a2a34b37eaa",
+        "reviewer": "/root/r15_v3_adversarial_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.measurement-review.md",
+        "sha256": "d197dc1b614bd335c8af873a12107c5e04a0b7986f3474d9ec7f5647c7ac936e",
+        "reviewer": "/root/r15_v3_measurement_review"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_pending_publication_readback",
+    "scientific_states": {
+      "mathematics": "accepted_scoped_finite_jet_indistinguishability_lower_bound_nonnegative_loss_caveat_uniform_derivative_remainder_exact_degree_and_trial_outcome_boundaries",
+      "contribution": "useful_information_boundary_and_repair_map_not_new_Delta_updater",
+      "closest_work": "high_order_Taylor_regularization_trust_region_polynomial_response_DDP_iLQR_GGN_direct_action_and_OPE_controls",
+      "measurement": "native_assets_measure_logged_actions_or_endpoints_but_not_joint_finite_jet_global_envelope_and_free_running_counterfactual_object",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "preserved_v1_v2": "quadratic_lift_identification_degree_growth_and_local_Taylor_scope",
+    "repair_delta": "replace_the_missing_prefix_radius_certificate_with_a_sharp_finite_jet_indistinguishability_boundary_and_explicit_sufficient_reopening_conditions",
+    "strong_controls": [
+      "z_zero_no_write_or_ordinary_Delta",
+      "same_information_direct_action_or_Q_prediction",
+      "high_order_Taylor_or_regularized_optimization",
+      "trust_region_with_branch_consistent_trial_outcomes",
+      "empirical_per_dose_means_or_direct_validation",
+      "randomized_OPE_or_Settlement_when_support_and_outcomes_exist"
+    ],
+    "unclosed": [
+      "A lawful prefix-measurable uniform derivative envelope or exact degree cap on a positive action ball.",
+      "A Delta-specific sufficient statistic or optimizer unavailable to the same-information direct controls.",
+      "A matched-total-cost advantage including derivative, trial, state, solve and write costs.",
+      "A native randomized internal-action record with branch-consistent free-running outcomes.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "072433bb5301ca8ae15a79e8122ba1d87c33f142",
+    "delivery_status": "pending_expected_parent_main_update_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
 
