@@ -451,3 +451,8 @@ R19 v1 的已实现分支 PSD-kernel 阻塞保持不变；v2 修补其未来分�
 独立审查还纠正了线性附加宽度：解码器已经看到写后状态 A，因此最小新增实坐标是 rank([A;B_1;...;B_M])-rank(A)，而不是无条件的 stacked-rank。全路径版本使用相对于 row(A) 的联合行空间。硬 guard 反例、有限精度、着色计算、码本/解码器和完整增广状态成本均被保留。
 
 该正结果直接碰撞于零误差函数计算与 decoder side information；set-valued switched observers、switched observability/R18、saltation 与 path-complete/bisimulation 是强控制。原生 benchmark 不暴露 destructive fiber、合法分支关系、混淆图或配对 counterfactual。故 R19 v2 在 attempt 2/3 后作为 conditional theorem/debug control park，候选增量 0，实证效果未知，未执行代码或实验。
+
+
+### R19 v2 delivery closure
+
+Substantive commit `3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d` was written to literal `main` with expected parent `361497dc604b7cc02f3c5fe8fcac0917c371555a` and `force=false`. All 13 authored paths were fetched at that exact commit; seven new artifacts matched local bytes and six tracker/entry files matched the expected R19 v2 fields or sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json` (SHA256 `41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.

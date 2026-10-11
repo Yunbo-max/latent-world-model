@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T12:35:28+01:00",
+  "recorded_at": "2026-10-11T12:52:50+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R19_v2_prefix_causal_branch_code_reviewed_pending_publication_readback_no_candidate",
+  "status": "repair_R19_v2_prefix_causal_branch_code_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
+  "delivery_parent": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -3345,7 +3345,7 @@
         "reviewer": "/root/r19_v2_measurement"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_finite_prefix_declared_branch_relation_after_same_state_visible_label_target_single_valued_feasibility_check_with_chromatic_one_shot_code_and_postwrite_quotient_rank",
       "contribution": "useful_causal_Delta_release_debugging_bridge_and_exact_impossibility_boundary_not_new_updater",
@@ -3372,7 +3372,12 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
-    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
+    "publication_commit": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json",
+      "sha256": "41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88"
+    }
   }
 }

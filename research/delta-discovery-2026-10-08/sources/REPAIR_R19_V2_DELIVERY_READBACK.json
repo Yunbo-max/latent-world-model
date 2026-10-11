@@ -1,0 +1,94 @@
+{
+  "kind": "research-artifact-exact-commit-readback",
+  "version": "1.0.0",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
+  "publication_commit": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
+  "verified_at": "2026-10-11T12:52:50+01:00",
+  "verification": "all 13 authored paths fetched at the exact substantive commit; seven new artifacts matched local authored bytes and six tracker/entry files matched the expected R19 v2 fields or sections",
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "a934a63d588813c7a94773ecab012e8d0f23063cd1129a71297f6ae334f632a8",
+      "bytes": 3602,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md",
+      "sha256": "0d771029d39677e8077b7c23d761c90b2c9ffaecf03b81781a078ec8561ed105",
+      "bytes": 15605,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
+      "sha256": "c002bc988c7aab890307e21f9051c1922c1a41ac34aef55e7a090165d6baf7f8",
+      "bytes": 13711,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
+      "sha256": "52698a9c1956959deeb06ec6c947375ba79f0bf1b7d4426dd1c59317022d969d",
+      "bytes": 2043,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
+      "sha256": "2fa4f47951a357c3f231e934aebc9ae58a48f11388921b3e7b9b0e8487a400f7",
+      "bytes": 2014,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
+      "sha256": "5abf0e5bfccadc8206ccfaa782d81a78f3edc2ed903952cb5b04cbb1480571e5",
+      "bytes": 1538,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md",
+      "sha256": "d23a4b4cb9abbe8ffd93a27e72a59a356f147254bd97648476ce2f8fc3ee530d",
+      "bytes": 1818,
+      "check": "matched_local"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "300d0eef6f579789d5a78bb7aca94fcdeac639c331c5e9b5fc230f376386e9ce",
+      "bytes": 231919,
+      "check": "matched_expected_fields"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "5b433ac6d7b453a28da6bd347b6022ec7a87b669a17a665458e770046e481501",
+      "bytes": 57316,
+      "check": "matched_expected_fields"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "a61b08444fd1b486a65154e4a369b8c28df057b21fff7815813feecb98b2633c",
+      "bytes": 185688,
+      "check": "matched_expected_fields"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "3569e3d30fcb856b38837bcae26d8e21b4596e6759c55b5cf00668455ac35d92",
+      "bytes": 85841,
+      "check": "matched_expected_section"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "50f09baaf2a49c2b12d56c432904c9449d20ede5d21c7545c3561f16225a1d13",
+      "bytes": 39661,
+      "check": "matched_expected_section"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "3dcac10e81dbb6a50ee0cc0aac2951e87aadc4961a88a9f8697bd090b08e9be4",
+      "bytes": 72308,
+      "check": "matched_expected_section"
+    }
+  ],
+  "scientific_limits": [
+    "Byte delivery does not establish originality, scientific admission, native measurement validity or empirical benefit.",
+    "No project code, test, training, inference, score, model/data download or GPU experiment was run."
+  ]
+}

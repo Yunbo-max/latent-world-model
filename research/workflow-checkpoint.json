@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T12:35:28+01:00",
+  "recorded_at": "2026-10-11T12:52:50+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -204,7 +204,12 @@
     "expanded_source_tree": "93fcff37b796a191b19f24edf0ce7ba4e21da622",
     "changed_files_read_back": 63,
     "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
-    "current_invocation_exact_source_readback": "pending_after_R19_v2_substantive_commit",
+    "current_invocation_exact_source_readback": {
+      "commit": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
+      "receipt": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json",
+      "receipt_sha256": "41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88",
+      "status": "verified"
+    },
     "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
     "mathematical_reassessment_delivery": {
       "parent_head": "8a623985735e86cde761db45442b4d62f5844662",
@@ -904,12 +909,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R19_v2_reviewed_pending_publication_readback_no_candidate",
+    "status": "repair_R19_v2_published_exact_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
+    "current_delivery_parent": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
@@ -1392,7 +1397,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T12:35:28+01:00",
+  "updated_at": "2026-10-11T12:52:50+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2793,7 +2798,7 @@
         "reviewer": "/root/r19_v2_measurement"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_finite_prefix_declared_branch_relation_after_same_state_visible_label_target_single_valued_feasibility_check_with_chromatic_one_shot_code_and_postwrite_quotient_rank",
       "contribution": "useful_causal_Delta_release_debugging_bridge_and_exact_impossibility_boundary_not_new_updater",
@@ -2820,7 +2825,12 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
-    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
+    "publication_commit": "3894f2337c21d076fcbbecfd7a9c0c6b66f6d89d",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V2_DELIVERY_READBACK.json",
+      "sha256": "41fbe21f33d609d7f21600a02ea15ac1ff2cc7746aa70a65d15296e0b988ac88"
+    }
   }
 }
