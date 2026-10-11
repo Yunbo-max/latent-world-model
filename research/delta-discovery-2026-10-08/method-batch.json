@@ -156,7 +156,12 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md",
       "sha256": "7aae638473d20b5ac1c922c8fe8b9a01b187227280b67fcde6dfa5c01bc9815e",
-      "status": "accepted_conditional_two_stage_action_dependent_information_control_parked_after_attempt_2_not_candidate"
+      "status": "accepted_conditional_two_stage_action_dependent_information_control_parked_after_attempt_2_not_candidate_published_exact_readback",
+      "publication_commit": "d13820ab57d13627e179e189ddf93ca53649e11a",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V2_DELIVERY_READBACK.json",
+        "sha256": "f6f84c394abc8918201cc59c0653c6860a01d0620fba8d60ca2da33cade783d4"
+      }
     },
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
@@ -446,7 +451,8 @@
     "r03_v3": "Reviewed full-law Wasserstein free-running perturbation theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
-    "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
   }
 }
 

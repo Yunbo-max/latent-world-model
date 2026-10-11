@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T00:49:00Z",
+  "recorded_at": "2026-10-11T00:53:50Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -177,7 +177,7 @@
     "immediate_first_run": "Actual math-only Work invocation observed; no new immediate invocation requested.",
     "first_new_stage_run_observed": true,
     "setup_commit": "7de8dc7cbf217d27bdf762863d6203423cc536a7",
-    "last_math_milestone_recorded_at": "2026-10-11 00:49:00 UTC",
+    "last_math_milestone_recorded_at": "2026-10-11 00:53:50 UTC",
     "configuration_note": "Matching task configuration actually read. New authorization integrated during actual platform-confirmed Work invocation; no task mutation or duplicate task. Continuous execution remains unverified.",
     "configuration_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/RSI_AUTHORIZATION_READBACK.json",
@@ -188,7 +188,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "After publishing R08 v2, continue R09 v2 as the earliest independent unexhausted evidence-backed repair lineage. Reopen R08 attempt 3 only for a lawful prefix margin-law estimator with matched-budget advantage, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
+  "next_action": "Continue R09 v2 as the earliest independent unexhausted evidence-backed repair lineage. Reopen R08 attempt 3 only for a lawful prefix margin-law estimator with matched-budget advantage, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -872,17 +872,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R07_v2_coupled_directional_margin_published_exact_readback_no_candidate",
+    "status": "repair_R08_v2_action_dependent_information_value_published_exact_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "c1273d5a8f3eafd1d6cad6a8e574739d1831edba",
+    "current_delivery_parent": "d13820ab57d13627e179e189ddf93ca53649e11a",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R07 v2 repairs the frozen-reference scope with a complete recurrent-state fixed-policy finite-horizon first/second directional margin, costate-weighted dynamics curvature, remainder certificate and explicit free-running distribution boundary. Final-byte math/source/adversarial reviews pass only the conditional debugging theorem; attempt 2/3 is parked with no execution/new D.",
-    "originality_and_native_measurement": "Adjoint sensitivity, DDP/iLQR, differentiable MPC, MAML/learned optimizers and Bellman evaluation cover the main mechanism. Existing native assets do not jointly expose complete pre-action state, action-time costate/curvature, validity, randomized propensity, paired outcomes, free-running distribution effect and matched cost.",
+    "latest_math_result": "R08 v2 replaces the opaque one-step continuation in v1 with an exact two-stage binary Bayes-envelope identity, separates memory/cost/information effects, gives an optional-query truncation and a same-mean/same-variance posterior counterexample. Final-byte math and source reviews pass the conditional debugging theorem; attempt 2/3 is parked with no execution/new D.",
+    "originality_and_native_measurement": "Expected value of sample information, Blackwell comparison and controlled-sensing POMDPs cover the main mechanism; Delta contributes a signed action-margin specialization, not an admitted updater. Existing temporal-edit assets do not natively expose action-specific likelihoods, pre-action margins, propensities, query costs and identifiable paired keep/release outcomes.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -1360,7 +1360,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T00:49:00Z",
+  "updated_at": "2026-10-11T00:53:50Z",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -1393,9 +1393,12 @@
     "status": "independent_final_byte_math_source_originality_and_native_measurement_reviews_passed_conditional_action_dependent_information_control_parked_after_attempt_2_not_candidate",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified_after_two_tracker_transport_repair",
+    "publication_commit": "d13820ab57d13627e179e189ddf93ca53649e11a",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V2_DELIVERY_READBACK.json",
+      "sha256": "f6f84c394abc8918201cc59c0653c6860a01d0620fba8d60ca2da33cade783d4"
+    }
   },
   "repair_R09_finite_budget_overwrite_protection": {
     "version": "v1",

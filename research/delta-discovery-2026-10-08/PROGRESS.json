@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T00:49:00Z",
+  "recorded_at": "2026-10-11T00:53:50Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R08_v2_action_dependent_information_value_final_byte_reviewed_pending_publication_no_candidate",
+  "status": "repair_R08_v2_action_dependent_information_value_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -214,7 +214,7 @@
       "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown."
     ]
   },
-  "next_action": "After publishing R08 v2, continue R09 v2 as the earliest independent unexhausted repair lineage. Reopen R08 attempt 3 only with a lawful prefix margin-law estimator, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
+  "next_action": "Continue R09 v2 as the earliest independent unexhausted repair lineage. Reopen R08 attempt 3 only with a lawful prefix margin-law estimator, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1475,9 +1475,12 @@
       "Native causal temporal object with action-specific observation channels, pre-action margins, propensities and identifiable keep/release outcomes.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified_after_two_tracker_transport_repair",
+    "publication_commit": "d13820ab57d13627e179e189ddf93ca53649e11a",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V2_DELIVERY_READBACK.json",
+      "sha256": "f6f84c394abc8918201cc59c0653c6860a01d0620fba8d60ca2da33cade783d4"
+    }
   },
   "repair_R09_finite_budget_overwrite_protection": {
     "repair_id": "R09",
