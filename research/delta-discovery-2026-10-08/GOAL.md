@@ -533,3 +533,6 @@ R13 第 3/3 次修订修正了 v1 的一个真实成本缺口：不再默认保�
 
 因此 R13 attempt 3/3 耗尽并 park：candidate delta 0，实验效果未知，计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**。没有运行模型代码、测试、训练、推理、评分或实验。下一条独立未耗尽路线是 R14 attempt 3。
 
+### R13 v3 delivery closure
+
+Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to literal `main` with expected parent `7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02` and `force=false`. All 15 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json` (SHA256 `5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.

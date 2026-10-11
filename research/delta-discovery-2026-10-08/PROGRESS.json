@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R13_v3_attempt_3_final_byte_reviews_passed_pending_main_publication",
+  "status": "R13_v3_attempt_3_published_to_main_and_all_15_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -4016,7 +4016,7 @@
         "reviewer": "/root/r13_v3_novelty"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_novelty_reviews_passed_conditional_minimum_erasure_ledger_control_parked_not_candidate_pending_main_publication",
+    "status": "independent_final_byte_reviews_passed_conditional_minimum_erasure_ledger_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_scoped_minimum_real_linear_erasure_ledger_rank_SVD_attainment_cross_column_scalar_bound_kernel_tail_constrained_spectral_cut_Delta_one_vector_corollary_and_switching_boundary",
       "contribution": "useful_Delta_specific_minimum_erasure_certificate_and_v1_cost_repair_not_new_updater",
@@ -4047,6 +4047,13 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02",
-    "delivery_status": "final_bytes_reviewed_pending_expected_parent_nonforce_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_15_paths_exact_readback_verified",
+    "publication_commit": "a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json",
+      "sha256": "5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579",
+      "all_paths_exact": true,
+      "path_count": 15
+    }
   }
 }

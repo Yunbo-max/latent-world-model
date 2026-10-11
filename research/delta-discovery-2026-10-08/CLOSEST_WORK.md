@@ -530,3 +530,6 @@ Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact re
 
 R12 sufficient coordinates and R19 zero-error side coding are broader internal collisions. Five independent final-byte reviews pass only the scoped theorem/debug control. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect is unknown.
 
+### R13 v3 delivery closure
+
+Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to literal `main` with expected parent `7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02` and `force=false`. All 15 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json` (SHA256 `5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
