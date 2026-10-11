@@ -474,3 +474,11 @@ R08 is repaired through its final bounded attempt. For each action, the affine b
 This is a theorem/debugging control, not a new updater. EVPI/EVSI, Blackwell/controlled sensing, partial identification, robust policy and no-overlap OPE cover the generic mechanism; R05 and R18 cover the nearest internal controls. Attempt 3/3 is exhausted, candidate/admission/selection counts remain 5 historical / 0 active / 0 admitted / 0 selected, and empirical effect remains unknown because no code or experiment was run.
 
 Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).
+
+## R09 v3 鲁棒 Gramian 载体修订（2026-10-11）
+
+R09 的第 3/3 次修订把“单个已实现 suffix 的低秩 Gramian”改成动作前声明的有限合法未来族。每个模式的保护矩阵都可写成 transported factor Gram；最小公共精确载体是所有 transported factor range 的并空间，鲁棒写方向精确落在该载体与当前 key 的联合空间。对已知无 decay 主动子空间，rank-one Delta 后退递推每步为 \(O(s^2)\)，修正了 v2 对该特殊递推过粗的 \(O(Hd^3)\) 描述；basis、坐标、stage metric、solve 与物理写入成本仍单独计费。
+
+新的 sharp witness 取 \(A_i=I-\beta e_i e_i^T\)、\(Q=\mathbf 1\mathbf 1^T\)、\(0<\beta<1\)：每个已实现 Gramian 都是 rank one，但 transported factors 构成 \(\mathbf 1\mathbf 1^T-\beta I\)，故公共精确载体为整个 \(\mathbb R^d\)。这说明 rank-one Delta 不自动产生小的 prefix-robust 保护状态；小载体也不识别其内部 PSD core。
+
+四路最终字节审查在实际修正伴随顺序、半正定唯一性措辞和论文定位后通过。正结果与受约束语言 switched observability/quotient、switched Gramian/model reduction 及内部 R18/R16/R11/R20 决定性碰撞。原生 benchmark 不暴露动作前 carrier、未来 containment/core、grounded validity、propensity/paired outcome 与同成本记录。故 R09 attempt 3/3 耗尽并 park，candidate/admission/selection 增量均为 0，实验效果未知且未运行代码或实验。下一条独立未耗尽 lineage 为 R10 attempt 3。

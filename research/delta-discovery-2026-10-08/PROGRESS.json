@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T14:33:35+01:00",
+  "recorded_at": "2026-10-11T15:37:19+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R08_v3_attempt_3_published_to_main_and_all_13_substantive_paths_exact_readback_verified",
+  "status": "R09_v3_attempt_3_final_byte_reviews_passed_ready_for_expected_parent_publication",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+  "delivery_parent": "77f25334fff828a9e5a584e5949f45d957ead13c",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -84,7 +84,8 @@
       "sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md",
       "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md",
-      "research/delta-discovery-2026-10-08/sources/R08_V3_SHARP_CHANNEL_FREE_SOURCE_AUDIT.md"
+      "research/delta-discovery-2026-10-08/sources/R08_V3_SHARP_CHANNEL_FREE_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/sources/R09_V3_ROBUST_GRAMIAN_CARRIER_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -246,7 +247,14 @@
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.source-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.adversarial-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.measurement-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.measurement-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+      "research/delta-discovery-2026-10-08/repairs/R09_REPAIR_LINE_SCREEN.v3.md",
+      "research/delta-discovery-2026-10-08/sources/R09_V3_ROBUST_GRAMIAN_CARRIER_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.measurement-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -295,7 +303,7 @@
       "R08 v3 exhausts attempt 3/3 by bounding each unidentified action-specific information value between the uninformative and perfect-information extremes. Under rectangular channel ambiguity this gives the sharp release-minus-keep interval [H-U_R,H+U_K], strict robust action tests, and a same-record opposite-action no-overlap counterexample. Optional measurement costs are separated without double counting and all v1/v2 counterexamples remain. Four independent final-byte reviews pass only a conditional theorem/debug control. EVPI/EVSI, Blackwell/controlled sensing, partial identification, robust policy and no-overlap OPE cover the mechanism; native action record and matched-cost advantage remain absent, so candidate delta zero and empirical effect unknown."
     ]
   },
-  "next_action": "Continue R09 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R08 only with a native randomized action-level temporal record, or a non-rectangular Delta channel structure that yields a provably tighter lawful bound and matched-total-cost advantage over direct robust action-value prediction.",
+  "next_action": "Continue R10 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R09 only with a prefix-lawful structural carrier/continuation law, matched-total-cost advantage over direct robust action prediction and generic switched-observability controls, and a native randomized action-level measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3530,5 +3538,83 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json",
       "sha256": "fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20"
     }
+  },
+  "repair_R09_v3_robust_gramian_carrier": {
+    "repair_id": "R09",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+    "parent_artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+      "sha256": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf",
+      "status": "preserved_exact_remote_main_bytes"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "bccc8fa0bcaa9961d60c2eff5a766ae615bd31e7914c0b5f0414bb4e29737e87"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+      "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R09_V3_ROBUST_GRAMIAN_CARRIER_SOURCE_AUDIT.md",
+      "sha256": "a47085ed8245ededf337370fdb9ed07e9a478bb460ed38e932b60fc7f83c7699"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.math-review.md",
+        "sha256": "db99bb6fe9048d41f9e0efe91d84cc7c131ea1738c7589d4ca9b34d87e696271",
+        "reviewer": "/root/r09_v3_final_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.source-review.md",
+        "sha256": "33610bdd5a543b56be51d0f542f1a6c1df2c6ea33d6af021910438e8b3df046c",
+        "reviewer": "/root/r09_v3_final_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.adversarial-review.md",
+        "sha256": "ad1cd39047ad904a10ec7b0b0c4fa675ce9f3aa2b264083fbe75dac0de39dfb2",
+        "reviewer": "/root/r09_v3_final_adversarial_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.measurement-review.md",
+        "sha256": "5cfa3e470b672157210d9bda513fe57521017df0f9cf48b202a919e97c9c944c",
+        "reviewer": "/root/r09_v3_final_measurement_review"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_robust_Gramian_carrier_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+    "scientific_states": {
+      "mathematics": "accepted_exact_for_finite_prefix_declared_transported_factor_common_carrier_active_span_core_reduction_robust_representer_and_rank_one_realized_full_common_width_witness",
+      "contribution": "useful_Delta_specialized_switched_observability_carrier_theorem_cost_correction_and_debug_witness_not_new_updater",
+      "closest_work": "constrained_language_switched_observability_quotient_switched_Gramian_model_reduction_low_rank_Lyapunov_and_internal_R18_R16_R11_R20_R09v2",
+      "measurement": "native_endpoints_do_not_expose_preaction_carrier_factor_containment_core_grounded_validity_propensity_paired_outcome_and_matched_cost_record",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_3_exhausted_conditional_theorem_control",
+    "preserved_v2": "transported_finite_horizon_protection_Gramian_complete_state_scope_and_identical_prefix_anisotropy_lower_bound",
+    "repair_delta": "replace_realized_low_rank_Gramian_compression_with_minimum_common_carrier_over_a_prefix_declared_finite_future_family_add_exact_active_core_cost_correction_and_full_width_Delta_witness",
+    "strong_controls": [
+      "constrained-language switched observability quotient",
+      "R18 prefix-causal robust quotient",
+      "R16 active spectral core",
+      "R11 factor-core compression",
+      "R20 spectral-transfer certificate",
+      "direct robust action/Q prediction",
+      "full-dimensional robust QCQP"
+    ],
+    "unclosed": [
+      "A prefix-lawful natural structural carrier or calibrated continuation law that stays substantially below full width.",
+      "A matched-total-cost advantage after basis, coordinates, cores, calibration, derivatives, solves and physical write.",
+      "A native randomized action-level record exposing the declared carrier, containment/core, propensity, grounded validity and paired outcomes.",
+      "Free-running nonlinear and semantic keep/release validity.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "77f25334fff828a9e5a584e5949f45d957ead13c",
+    "delivery_status": "substantive_commit_pending_exact_readback",
+    "publication_commit": null
   }
 }

@@ -462,3 +462,16 @@ The mathematical delta is a sharp conditional certificate, not a novelty claim: 
 No native public endpoint inspected supplies randomized keep/release actions, action-specific observation channels, propensities, pre-action margins and identifiable paired temporal outcomes. Direct robust action-value prediction is therefore the strongest same-information control. Candidate delta remains zero; reopen only with a native action record or a lawful non-rectangular Delta restriction that tightens the bound at matched total cost.
 
 Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).
+
+## R09 v3 robust-Gramian-carrier closest-work update
+
+| Component | Closest established mechanism/control | Residual and decision |
+|---|---|---|
+| finite prefix-declared common carrier | Bastug et al. constrained-language switched observability/quotient; Petreczky switched realization | direct functional collision; R09 is the finite Delta/Gramian dual specialization |
+| Gramian range and shared projection | Pontes Duff--Grundel--Benner switched Gramians/model reduction | generic range/projection mechanism already established |
+| low-rank factor/core solve | Li--White low-rank Lyapunov/ADI; Woodbury; R11/R16 | exact active-core algebra and v2 cost correction are debugging value, not a new solver |
+| ordered Delta factors | DeltaNet/WY, DeltaProduct | implement transition products but do not supply the missing lawful future family/core |
+| full-width witness | R18 robust quotient full-state collapse; R20 spectral transfer | concise Delta rank-one specialization; approximate savings still need a spectral/action certificate |
+| deployment decision | direct robust action/Q or coefficient prediction on the same basis | no matched-total-cost advantage or native causal record |
+
+The source audit supports a conditional theorem/debug control only. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect is unknown.

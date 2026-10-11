@@ -251,3 +251,9 @@ R08 v3 is retained as a useful conditional theorem/debug control and parked afte
 Counts stay unchanged at 5 historical, 0 active, 0 scientifically admitted and 0 selected. The next independent unexhausted lineage is R09 attempt 3.
 
 Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).
+
+## R09 v3 ranking decision (2026-10-11)
+
+R09 v3 does **not** enter the active pool or top-15. It makes a real repair: it replaces an illegal realized-future low-rank compression claim with the exact minimum carrier for a prefix-declared finite future family, corrects the pure-Delta backward cost, and proves that rank-one realized Gramians can still require full common width. This is useful as a falsifiable debugging boundary.
+
+Ranking does not improve because constrained-language switched observability/quotients and switched-Gramian model reduction cover the main carrier mechanism; R18/R16/R11/R20 cover the nearest internal content; a small carrier still needs its PSD core; direct robust action/Q prediction is the same-information baseline; and native causal measurement plus matched-total-cost advantage are absent. Four independent final-byte reviews pass only a conditional theorem/control. Attempt 3/3 is exhausted and parked, candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown with no execution. The next independent unexhausted lineage is R10 attempt 3.

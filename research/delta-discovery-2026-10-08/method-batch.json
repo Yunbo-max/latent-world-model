@@ -889,6 +889,46 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json",
         "sha256": "4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+      "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+      "status": "accepted_conditional_robust_Gramian_carrier_theorem_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R09_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "bccc8fa0bcaa9961d60c2eff5a766ae615bd31e7914c0b5f0414bb4e29737e87"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R09_V3_ROBUST_GRAMIAN_CARRIER_SOURCE_AUDIT.md",
+        "sha256": "a47085ed8245ededf337370fdb9ed07e9a478bb460ed38e932b60fc7f83c7699"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.math-review.md",
+          "sha256": "db99bb6fe9048d41f9e0efe91d84cc7c131ea1738c7589d4ca9b34d87e696271",
+          "reviewer": "/root/r09_v3_final_math_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.source-review.md",
+          "sha256": "33610bdd5a543b56be51d0f542f1a6c1df2c6ea33d6af021910438e8b3df046c",
+          "reviewer": "/root/r09_v3_final_source_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.adversarial-review.md",
+          "sha256": "ad1cd39047ad904a10ec7b0b0c4fa675ce9f3aa2b264083fbe75dac0de39dfb2",
+          "reviewer": "/root/r09_v3_final_adversarial_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V3.measurement-review.md",
+          "sha256": "5cfa3e470b672157210d9bda513fe57521017df0f9cf48b202a919e97c9c944c",
+          "reviewer": "/root/r09_v3_final_measurement_review"
+        }
+      ],
+      "delivery_parent": "77f25334fff828a9e5a584e5949f45d957ead13c",
+      "publication_commit": null
     }
   ],
   "counting_policy": {
