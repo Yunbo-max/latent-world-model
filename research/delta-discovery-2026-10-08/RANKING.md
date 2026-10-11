@@ -308,3 +308,5 @@ R15 v3 不进入 active pool 或 top-15。它完成了 v2 最早未闭前提：�
 排序不提升的原因是正面机制由高阶 Taylor/regularized optimization、trust-region、DDP/iLQR/GGN 和直接 action/Q 预测覆盖；有限-jet pair 是调试定理，不是新 Delta 写入规则。原生资产不暴露 joint finite-jet/global-envelope/free-running counterfactual 对象，matched-total-cost 优势与经验收益均未建立。
 
 最终状态：attempt 3/3 exhausted；四路最终字节审查通过限定数学、来源/原创性、对抗与测量范围；`candidate_delta=0`；计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected。下一条是 R16 attempt 3。
+
+Delivery closure: substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`).
