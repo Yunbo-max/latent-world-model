@@ -402,3 +402,7 @@ The repair also removes a stronger false inference: `binom(r+m,m)` is only the d
 
 Independent final-byte mathematics, source and adversarial reviews pass only this scoped theorem/debugging control. Polynomial/Volterra design and same-information DDP/iLQR/GGN/action optimization cover the positive mechanisms; native branch-consistent intervention measurement and matched-cost advantage are absent. R15 v2 is parked with candidate delta zero and empirical effect unknown. Counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected; no code or experiment was run.
 
+### R15 v2 delivery closure
+
+Substantive commit `d4fdc86f0c25b9495b51779a12074f26e98d027d` was written to literal `main` with an expected-parent, non-force update. All 13 authored paths were fetched at that exact commit and matched their SHA256 records. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json` (SHA256 `120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
+

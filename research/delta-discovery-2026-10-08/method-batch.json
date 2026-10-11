@@ -608,7 +608,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md",
       "sha256": "786bc749464ec9d400690fd279d1768a353f8917f8a68a5fa7d8c9ac9edf0ff7",
-      "status": "accepted_conditional_coupled_response_degree_theorem_control_parked_not_candidate_pending_publication",
+      "status": "accepted_conditional_coupled_response_degree_theorem_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
       "empirical_status": "unknown_no_execution",
@@ -636,7 +636,12 @@
           "sha256": "b36f19ca7143312e8865a31320b78a2e6882702def0647a3043af43c3e13393d",
           "reviewer": "/root/r15_v2_adversarial_review"
         }
-      ]
+      ],
+      "publication_commit": "d4fdc86f0c25b9495b51779a12074f26e98d027d",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json",
+        "sha256": "120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f"
+      }
     }
   ],
   "counting_policy": {
@@ -703,7 +708,7 @@
     "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; effective substantive main delivery and exact readback completed after a non-force correction of two connector-truncated tracker blobs.",
     "r13_v2": "Reviewed robust common-covector theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; expected-parent delivery pending."
+    "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
   }
 }
 

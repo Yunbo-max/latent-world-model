@@ -1,0 +1,37 @@
+{
+  "kind": "exact_commit_delivery_readback",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "f235bb4fb171d8a122fbdf3f5175ade287eea07b",
+  "substantive_commit": "d4fdc86f0c25b9495b51779a12074f26e98d027d",
+  "update_mode": "expected_parent_force_false",
+  "all_sha256_match": true,
+  "files": {
+    "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v2.md": "d2bc96bc0346b967340570ba673fbd9db61b9fa79409717713e25c342b37ad0d",
+    "research/delta-discovery-2026-10-08/repairs/R15_COUPLED_RESPONSE_DEGREE.v2.md": "786bc749464ec9d400690fd279d1768a353f8917f8a68a5fa7d8c9ac9edf0ff7",
+    "research/delta-discovery-2026-10-08/sources/R15_V2_COUPLED_RESPONSE_DEGREE_SOURCE_AUDIT.md": "aa1477e3fe652b882c50ab300c323f0d092730cb9f0d3959c8f78cb218e79b26",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.math-review.md": "abb29bc8f90082fcbf113551822dfab507e9bed030597278a9f110d9fa327ba6",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.source-review.md": "2a9caf933060544321ba598744c5f4c728d7189ee907bd1fa8a1e986e202dd8d",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md": "b36f19ca7143312e8865a31320b78a2e6882702def0647a3043af43c3e13393d",
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "a1f356191de111614f7917535e89ae884fd7703f5041e51a890ac9fe38b82d25",
+    "research/delta-discovery-2026-10-08/method-batch.json": "1ec6660d970570b8d6ec6eb831bc39c721ffedaa894d6bbc63e6eb73c98f4070",
+    "research/delta-discovery-2026-10-08/GOAL.md": "812463f0693f035a59afdbda747a2ea7fe420bde72a0f2ac389b53d2eb3be92d",
+    "research/delta-discovery-2026-10-08/CLOSEST_WORK.md": "4805dde6c29cd43f190e68287b4a89dc3ee06e05abb841cc28d70e4096d41ece",
+    "research/delta-discovery-2026-10-08/RANKING.md": "a1a68ed4a3bb876d8d827aaf5ea4adcbae18cd16e0585b296fac801c3e039a03",
+    "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md": "b7eae9bf1220d59d8378a1efe6ebfac38d16b844e28683ec4ac8d42cc1b1387a",
+    "research/workflow-checkpoint.json": "51be1b8f00400f9460671d3f418b65edb556cfcbc2d637f63c7174796d8b4993"
+  },
+  "scientific_state": {
+    "mathematics": "conditional_pass",
+    "contribution": "theorem_debug_control_major_mechanism_collision",
+    "candidate_delta": 0,
+    "empirical": "unknown_no_execution"
+  },
+  "counts_after": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientific_admitted": 0,
+    "selected": 0
+  },
+  "scope_note": "This receipt verifies only the authored bytes at the substantive commit. It does not establish novelty, scientific admission, native measurement, or empirical benefit."
+}

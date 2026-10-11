@@ -2585,11 +2585,16 @@
         "reviewer": "/root/r15_v2_adversarial_review"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_conditional_control_parked_not_candidate_pending_publication",
+    "status": "independent_final_byte_reviews_passed_conditional_control_parked_not_candidate_published_exact_readback",
     "candidate_delta": 0,
     "disposition": "park_after_attempt_2_conditional_theory_control",
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "d4fdc86f0c25b9495b51779a12074f26e98d027d",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json",
+      "sha256": "120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f"
+    }
   }
 }
 
