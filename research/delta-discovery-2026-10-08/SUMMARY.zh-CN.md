@@ -427,3 +427,5 @@ v1 只证明了差异落在 \(\Lambda\)-Krylov 子空间，没有把它变成可
 - **保留价值**：得到 query 可见最小精确秩、加权最优截断误差以及初始误差不能漏掉的重压缩传播式。
 - **为什么仍未成为 idea 候选**：核心机制已被有序 Delta/WY、DeltaProduct 与低秩维护覆盖；语义 selector、因果 metric、同成本优势和原生测量都未闭合。
 - **状态**：四路独立最终字节审查通过限定结论；R11 尝试 3/3 已用完并 park；候选数不变，实际效果未知。
+
+Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).

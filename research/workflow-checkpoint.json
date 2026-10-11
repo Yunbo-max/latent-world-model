@@ -456,6 +456,18 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json",
         "sha256": "0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078"
       }
+    },
+    "delta_math_R11_v3_lazy_overlay_closure": {
+      "substantive_commit": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
+      "target": "Yunbo-max/latent-world-model",
+      "branch": "main",
+      "changed_files_read_back": 14,
+      "exact_readback": true,
+      "receipt": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json",
+        "sha256": "a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb"
+      },
+      "scientific_claim": "delivery only; theorem/control not candidate; no experiment"
     }
   },
   "skill": {
@@ -984,12 +996,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R11_v3_final_byte_reviews_passed_pending_delivery",
+    "status": "repair_R11_v3_published_exact_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "c41f4681e230d23db79156373afda71694364244",
+    "current_delivery_parent": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
@@ -3211,9 +3223,14 @@
       "native mechanism-identifying record"
     ],
     "execution": "none",
-    "delivery_parent": "c41f4681e230d23db79156373afda71694364244",
-    "delivery_status": "pending_expected_parent_delivery",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_parent": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
+    "delivery_status": "published_exact_readback_verified",
+    "publication_commit": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json",
+      "sha256": "a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }

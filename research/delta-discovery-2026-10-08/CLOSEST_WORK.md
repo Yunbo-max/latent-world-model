@@ -503,3 +503,5 @@ Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact re
 | Corrected-state commutator action | Affine switched systems and error-feedback state augmentation | The mandatory (MC) term repairs v2's passive-only wording; truncated state-dependent cores remain excluded | scoped correction |
 
 Artifacts: `research/delta-discovery-2026-10-08/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md` (5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65); source audit: `research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md` (493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8). Four independent final-byte reviews passed the scoped result. Candidate delta: 0. R11 attempt 3/3 is exhausted and parked.
+
+Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).

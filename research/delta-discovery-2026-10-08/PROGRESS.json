@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R11_v3_attempt_3_final_byte_reviews_passed_pending_expected_parent_delivery",
+  "status": "R11_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "c41f4681e230d23db79156373afda71694364244",
+  "delivery_parent": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -3829,8 +3829,13 @@
     ],
     "execution": "none",
     "delivery_parent": "c41f4681e230d23db79156373afda71694364244",
-    "delivery_status": "pending_expected_parent_delivery",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "published_exact_readback_verified",
+    "publication_commit": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json",
+      "sha256": "a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }

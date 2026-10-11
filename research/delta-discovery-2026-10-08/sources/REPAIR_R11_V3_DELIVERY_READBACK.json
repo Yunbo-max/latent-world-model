@@ -1,0 +1,27 @@
+{
+  "kind": "exact-byte-delivery-readback",
+  "artifact": "R11_v3_lazy_overlay_closure",
+  "target": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "c41f4681e230d23db79156373afda71694364244",
+  "substantive_commit": "aac96a58daa28a455012b95e8015dd1f0926c2ad",
+  "all_paths_exact": true,
+  "path_count": 14,
+  "files": [
+    {"path": "research/delta-discovery-2026-10-08/repairs/R11_REPAIR_LINE_SCREEN.v3.md", "sha256": "d0ea6b66ad776925139788a3bd57f13cfdbfa2d391588edc0bf26a4187485c7e", "git_blob": "63f3942fc656393bc26440f637b16a7affcdb2da", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md", "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65", "git_blob": "6c4cc53da3206e6cee36b835e27cc296b3fe8332", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md", "sha256": "493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8", "git_blob": "957e127b4b647160cad80f553dd672c544f811fd", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.math-review.md", "sha256": "4301fb0c07d4873f90964fff1cc7f99734e8e6643d85de0d8ea7185cedbaf4e0", "git_blob": "4ec948cdc4404ed9ce2b338d305af25eae237fb7", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.source-review.md", "sha256": "6be2aa477b1367a1246c14b620191bc472e90528d9cb8f96894391d2479cb4e4", "git_blob": "d5efd784c09f63693132d4adcc6afef4ac23aeaf", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.adversarial-review.md", "sha256": "7fc6690b3468ab60af922dd1e5b85074556dd827cb91f0c7a8ab5bd205b90e63", "git_blob": "880de937168f692439081054585cd1fbd0ef72d1", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.measurement-review.md", "sha256": "8f8bf56512ac601a7d8c0a3af04c6d0ba569581ffa2f44a3f41532693cfdfb6d", "git_blob": "81e1537e7cdc599c4a1b7fc9a96a05b806b6aba2", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "git_blob": "dbf431938630b4f9cc031c47e13b43c59a9e21b1", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "git_blob": "46d4d752958828b8d74fda74f1a438f3c19c363f", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "git_blob": "f70bc96c930edb406f9dd98952e4a0268c623ab0", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "git_blob": "52ac3643a45c3455b27979a98ec054f9b053006b", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "git_blob": "f62d6bff48c72abe811237def3f5756fa8ee8d3e", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "git_blob": "b5d7433501a135908c9f9ddaf8dbcc6f21738741", "exact": true},
+    {"path": "research/workflow-checkpoint.json", "git_blob": "90c60a14dc4fe18b72bf6bd4e94953b2a2c0c5af", "exact": true}
+  ],
+  "scope_note": "Exact delivery proves only that the reviewed bytes reached literal main. It does not prove novelty, scientific admission, implementation, experimental effect, or benchmark success."
+}

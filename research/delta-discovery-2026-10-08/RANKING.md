@@ -272,3 +272,5 @@ Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact re
 ## R11 v3 ranking decision
 
 R11 v3 is not inserted into the candidate ranking. Its exact lazy-overlay closure, sharp (2m) injection-rank construction and corrected-state (MC) term are retained as reviewed controls. Major mechanism collision and unresolved selector/measurement/cost conditions keep the active, admitted and selected counts unchanged. Attempt 3/3 is exhausted.
+
+Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V3_DELIVERY_READBACK.json` (SHA256 `a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb`).
