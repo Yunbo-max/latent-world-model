@@ -406,3 +406,9 @@ Independent final-byte mathematics, source and adversarial reviews pass only thi
 
 Substantive commit `d4fdc86f0c25b9495b51779a12074f26e98d027d` was written to literal `main` with an expected-parent, non-force update. All 13 authored paths were fetched at that exact commit and matched their SHA256 records. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json` (SHA256 `120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
 
+## R16 v2 主动谱核修订（2026-10-11）
+
+[v2 筛选](repairs/R16_REPAIR_LINE_SCREEN.v2.md)没有删除 v1 的反例，而是专门修补“非交换 joint flow 是否必然需要一般稠密矩阵函数”这个计算缺口。[v2 推导](repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md)按 decay 的不同特征值分组；若只有 (r) 个含有 (k) 分量的主动特征组，则所有相对纯 decay 的解析函数修正都严格落在该 (r) 维主动子空间，并化为 (B=D+cc^\top) 的 diagonal-plus-rank-one 核。精确指数、积分源项和归一化端点方向都由同一小核给出；近似分组另有显式 Duhamel 状态误差与归一化方向误差证书。
+
+独立审查纠正了初稿隐藏的成本过度声明：一般对称 \(\Lambda\) 的特征基可稠密，发现、变换和基础作用仍须分别计费；只有坐标对角或 tied-group（KDA 风格）结构，或另行计费的快速固定特征变换，才得到顺序执行的 (O(dm+r^2m+r^2)) 条件成本。DPR1 eigensolver、低秩 matrix-function update、expmv、KDA/DeltaProduct/CKDA 已覆盖主要数值机制；而 joint generator 的科学依据、scan closure、retain/revise 证据与原生机制测量仍缺失。故 R16 在第 2/3 次修订后继续作为 theorem/control park，不分配 D 编号；计数与实验状态不变。
+

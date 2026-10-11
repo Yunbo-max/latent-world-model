@@ -642,6 +642,39 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json",
         "sha256": "120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md",
+      "sha256": "e97793f06e6c10eb56bac6dd8913f3435fe604cb9c8de190a2b816d4ea6e43bb",
+      "status": "accepted_conditional_active_spectral_core_theorem_control_parked_not_candidate_pending_delivery",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v2.md",
+        "sha256": "c74c0ecb87fdcb947f9365a6c3609b21af436b80c92f3f8db23d61cde87e721a"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
+        "sha256": "4fc11ab72193f7e7f4a796ce2267424020c81e8650c6dfc374a2bf035449f488"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.math-review.md",
+          "sha256": "bbc1589c764447fb5725965757f8e62d41520c46db0a369cb9291e753b61be46",
+          "reviewer": "/root/commutator_compensation_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.source-review.md",
+          "sha256": "5b6eea125cb296d069c531e8bac75082963ea8439d4b89c3e2d1f2513bcef0f9",
+          "reviewer": "/root/counterfactual_source_audit"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.adversarial-review.md",
+          "sha256": "5419eaed3fd4932ba47b1912e3999cc35ec0b0c8bf965def608a1e0988bfad1c",
+          "reviewer": "/root/commutator_candidate"
+        }
+      ]
     }
   ],
   "counting_policy": {
@@ -680,7 +713,8 @@
       "R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
       "R12 v2 supplies a reviewed recursive autonomous-syndrome closure iff, pure-Delta key dichotomy, key-family fixed point, exact minimax one-step error and normalized leakage diagnostic. Invariant quotient/bisimulation and R18 collisions plus the same-width direct-coordinate control leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
       "R13 v2 supplies a reviewed common-affine-decoder block-kernel iff, an invertible hidden-mode Delta witness, and a same-information half-diameter lower bound while explicitly preserving nonlinear piecewise-decoder exceptions. Moreno 2005 simultaneous observation, common matrix equations, generalized inverses and set-membership controls plus the direct ledger leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
-      "R15 v2 supplies a reviewed coupled-response degree bound, abstract Delta degree-growth witness and local Taylor trust-region certificate. Saturated polynomial/Volterra identification and same-information DDP/iLQR/GGN/action optimization cover the positive mechanism; lawful prefix certificates, matched cost and native measurement remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked."
+      "R15 v2 supplies a reviewed coupled-response degree bound, abstract Delta degree-growth witness and local Taylor trust-region certificate. Saturated polynomial/Volterra identification and same-information DDP/iLQR/GGN/action optimization cover the positive mechanism; lawful prefix certificates, matched cost and native measurement remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
+      "R16 v2 supplies a reviewed active-eigenspace exact matrix-function reduction, diagonal-plus-rank-one core and approximate grouping certificate. General symmetric bases retain dense discovery/transform/base-action costs; DPR1, matrix-function, expmv and grouped KDA controls cover the computational mechanism. Zero active/admitted/selected increment; attempt 2/3 is parked."
     ]
   },
   "counting_policy_repair": {
@@ -708,7 +742,8 @@
     "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; effective substantive main delivery and exact readback completed after a non-force correction of two connector-truncated tracker blobs.",
     "r13_v2": "Reviewed robust common-covector theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r16_v2": "Reviewed active-spectral-core exact-reduction and approximate-grouping theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; delivery pending."
   }
 }
 

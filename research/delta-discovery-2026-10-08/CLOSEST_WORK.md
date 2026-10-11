@@ -401,3 +401,9 @@ The bounded search found no exact Delta-slot formula duplicate, but that does no
 
 The saturated monomial count is not a universal intervention-rank lower bound, and the local derivative construction offers no evidence unavailable to same-information direct optimization. Candidate delta is zero; attempt 2/3 is parked.
 
+## R16 v2 active spectral core 的最近工作处置
+
+v2 的精确恒等式把 (f(\Lambda+kk^\top)-f(\Lambda)) 限制到 (k) 触及的 decay 特征组，并将其化成 (r\times r) 的 DPR1 核。这解决了 v1“只说 Krylov 支撑、没有实际可计算结构”的局部缺口，但不是新的 updater：DPR1 谱分解、低秩矩阵函数更新、rational Krylov 与 expmv 都是直接数值线代近邻；KDA 已经给出坐标对角 decay，DeltaProduct/CKDA 又覆盖同一族离散更新和正交/反射式构造。
+
+成本结论严格分层：坐标对角 tied groups 可顺序执行为 (O(dm+r^2m+r^2))，而一般对称 decay 即使 (r\ll d)，仍可能有稠密基变换、特征子空间发现和 (f(\Lambda)) 基础作用成本。近似分组的误差证书是有用的理论残余，但它没有证明同预算优于 grouped KDA 或直接 DPR1/exponential-action control，也没有解决 sequence scan、generator 合理性或语义 revision。来源与三路终审因此只支持条件 theorem/control；原创残余保持未闭，候选增量0。
+

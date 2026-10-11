@@ -208,3 +208,9 @@ R14 v2 does **not** enter the active pool or top-15. It repairs a real assumptio
 
 R15 v2 does **not** enter the active pool or top-15. It fixes v1's global quadratic-response assumption and preserves a useful boundary: nonlinear coupled continuations can raise intervention degree rapidly, while a local quadratic model is valid only with an explicit branch/radius/third-derivative certificate. The saturated feature count is not a universal Delta-rank lower bound. Polynomial/Volterra design and same-information direct derivative/action optimization cover the constructive mechanism, and no native branch-consistent internal-action measurement exists. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.
 
+## R16 v2 ranking disposition (2026-10-11)
+
+R16 仍不进入活动池或 top-15。v2 的实质进步是把 v1 的抽象 Krylov 支撑变成精确主动特征组分解、(r\times r) DPR1 核、可计算的指数/源项/端点公式，以及近似谱分组误差证书。它也经独立审查修掉了“(r) 小就自动便宜”的隐藏成本错误：一般对称基仍可能使发现、变换和基础作用为二次或三次成本；只有坐标对角 tied groups 等额外结构才有小核优势。
+
+排序未提升的原因是主要计算机制已有 DPR1、matrix-function/Krylov、expmv 和 grouped KDA 近邻，端点方向仍碰撞 normalized inverse-metric Delta；同时没有 joint generator 的独立科学依据、scan closure、同预算优势、retain/revise 证据或原生内部测量。数学正确、贡献为窄条件定理、原创性残余未闭、效果未知，因此 attempt 2/3 后继续 park，候选/准入/选择增量均为0。
+

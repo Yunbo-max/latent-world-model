@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T09:05:00+01:00",
+  "recorded_at": "2026-10-11T10:15:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R15_v2_coupled_response_degree_published_exact_readback_no_candidate",
+  "status": "repair_R16_v2_active_spectral_core_reviewed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "9f14558d4e7b1196a1606a0c6cd0ac5f9072e926",
+  "delivery_parent": "1c10e20f3868fe1fb62c84adbf33efc558e3c309",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -78,7 +78,8 @@
       "sources/ACTION_SUFFICIENT_RANK_SOURCE_AUDIT.md",
       "sources/PROJECTED_DELAYED_CREDIT_SOURCE_AUDIT.md",
       "sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
-      "sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md"
+      "sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
+      "sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -209,7 +210,13 @@
       "research/delta-discovery-2026-10-08/sources/R15_V2_COUPLED_RESPONSE_DEGREE_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v2.md",
+      "research/delta-discovery-2026-10-08/repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -250,10 +257,11 @@
       "R12 v2 repaired v1's static-decodability target by requiring the syndrome Y=H^T S to evolve autonomously. For a frozen affine step F, exact closure is equivalent to ker(H^T) being contained in ker(H^T F), to F^T col(H) being invariant, and to H^T F=L H^T. For pure Delta with nonzero beta this holds exactly when the key is orthogonal to or lies inside the syndrome subspace. The least closed protected subspace is the key-activation fixed point; mixed keys give a same-syndrome next-step counterexample and normalized one-step leakage |beta| ||P_V k|| ||P_(V^perp) k||. Independent final-byte review corrected an overstrong coefficientwise necessity claim and the arbitrary scaling of raw H. Invariant quotient/bisimulation and internal R18 cover the general mechanism, direct orthonormal coordinates are the same-width control, native closure measurements are absent, and empirical value is unknown. Attempt 2/3 is parked with candidate delta 0.",
       "R13 v2 changes the information condition rather than relabelling v1: a decoder sees the affine-transition family but not the realized mode. Exact common affine recovery is equivalent to one block equation XM=N or ker(M) subseteq ker(N). Two individually invertible Delta steps yield the same post-state with different old protected values, giving a half-diameter point-decoder lower bound only on the same-information reachable set; failure of the block condition alone does not exclude nonlinear piecewise decoding. Independent final-byte reviews pass this scoped theorem/control. Moreno 2005 simultaneous functional observation is the strongest direct collision, a direct value ledger remains mandatory, native measurement is absent, candidate delta is 0, attempt 2/3 is parked, and empirical effect is unknown.",
       "R14 v2 replaces the supplied point posterior with a certified interval and proves the exact two-slot minimax action, least-favourable posterior, posterior-misspecification regret, hard one-touch thresholds, invalid-certificate counterexample and a positive-curvature multi-slot QCQP extension. Independent final-byte reviews accept the conditional theorem/control. Gamma-minimax, credal DRO and posterior decision-regret mechanisms cover the method skeleton; the direct minimax router is algebraically identical, native measurement is absent and empirical effect is unknown, so candidate delta is zero and attempt 2 is parked.",
-      "R15 v2 repairs v1's frozen quadratic-response scope by propagating an intervention through a coupled continuation. Polynomial transition degrees multiply across the horizon; an abstract unconstrained scalar Delta recurrence realizes degree 2*3^H terminal loss. The saturated coefficient count binom(r+m,m) is explicitly not an inherent Delta rank lower bound. A branch-local quadratic Taylor surrogate has an M3*rho^3/6 remainder and M3*rho^3/3 optimizer-regret certificate. Independent exact-byte math/source/adversarial reviews pass this only as a theorem/debugging control. Polynomial/Volterra design and direct DDP/iLQR/GGN/action optimization cover the positive mechanisms; lawful prefix certificates, matched-cost advantage and native branch-consistent measurement are missing. Candidate delta zero, attempt 2/3 parked, empirical effect unknown."
+      "R15 v2 repairs v1's frozen quadratic-response scope by propagating an intervention through a coupled continuation. Polynomial transition degrees multiply across the horizon; an abstract unconstrained scalar Delta recurrence realizes degree 2*3^H terminal loss. The saturated coefficient count binom(r+m,m) is explicitly not an inherent Delta rank lower bound. A branch-local quadratic Taylor surrogate has an M3*rho^3/6 remainder and M3*rho^3/3 optimizer-regret certificate. Independent exact-byte math/source/adversarial reviews pass this only as a theorem/debugging control. Polynomial/Volterra design and direct DDP/iLQR/GGN/action optimization cover the positive mechanisms; lawful prefix certificates, matched-cost advantage and native branch-consistent measurement are missing. Candidate delta zero, attempt 2/3 parked, empirical effect unknown.",
+      "R16 v2 repairs v1's computation gap conditionally: the exact correction lives in the r-dimensional active eigenspace and reduces to a diagonal-plus-rank-one core; coordinate-diagonal tied groups give O(dm+r^2m+r^2), while general symmetric bases retain discovery, transform and base-action costs. Duhamel grouping certificates are explicit. Independent exact-byte reviews caught and corrected a hidden dense-basis cost overclaim and pass only the final scoped theorem/control. DPR1, matrix-function, expmv, KDA, DeltaProduct and CKDA collisions, no scan closure, no generator evidence and no native measurement leave candidate delta zero; attempt 2/3 is parked and empirical effect remains unknown."
     ]
   },
-  "next_action": "Continue R16 v2 as the earliest independent unexhausted repair lineage. Reopen R15 attempt 3 only with a lawful prefix-measurable closure or radius certificate, a Delta-specific operation unavailable to same-information direct action optimization or Q prediction, matched-total-cost advantage, and a native branch-consistent action-response measurement object.",
+  "next_action": "Continue R17 v2 as the earliest independent unexhausted repair lineage. Reopen R16 attempt 3 only with independent justification for simultaneous grouped dynamics, a matched-cost Delta-specific consequence unavailable to grouped KDA or direct DPR1/exponential-action controls, scalable sequence computation, and a native mechanism-identifying measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -1931,8 +1939,8 @@
     }
   },
   "repair_R16_noncommuting_joint_flow": {
-    "version": "v1",
-    "substantive_attempt": 1,
+    "version": "v2",
+    "substantive_attempt": 2,
     "max_substantive_attempts": 3,
     "lineage_parents": [
       "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
@@ -1941,56 +1949,66 @@
       "repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
       "repairs/R11_ORDER_GAP_COMPRESSION.v1.md"
     ],
+    "preserved_version_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md",
+        "sha256": "4ec35e67d9b3f45411c5496a01da45102ddb9ab724289313f1ba1d1a30618980"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+        "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
+        "sha256": "442beb38d5f4c09a82f1c13488122e12a1bcf307e1500319de6cac3db0ccf3ca"
+      }
+    ],
     "screen_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.md",
-      "sha256": "4ec35e67d9b3f45411c5496a01da45102ddb9ab724289313f1ba1d1a30618980"
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "c74c0ecb87fdcb947f9365a6c3609b21af436b80c92f3f8db23d61cde87e721a"
     },
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
-      "sha256": "737f49385a232bdf9261c0fe7bec10955d0856ac7315e71ea226d7c78895d7d6"
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md",
+      "sha256": "e97793f06e6c10eb56bac6dd8913f3435fe604cb9c8de190a2b816d4ea6e43bb"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
-      "sha256": "442beb38d5f4c09a82f1c13488122e12a1bcf307e1500319de6cac3db0ccf3ca"
+      "path": "research/delta-discovery-2026-10-08/sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
+      "sha256": "4fc11ab72193f7e7f4a796ce2267424020c81e8650c6dfc374a2bf035449f488"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.math-review.md",
-      "sha256": "b4867a21e212ba4beb9e232984953990828564998b033b4d72780cbffa01cefb",
-      "reviewer": "/root/r16_math"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.math-review.md",
+      "sha256": "bbc1589c764447fb5725965757f8e62d41520c46db0a369cb9291e753b61be46",
+      "reviewer": "/root/commutator_compensation_math"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.source-review.md",
-      "sha256": "4ecd8fd0466b4311b0f8726913bb95395799d9c30904dce73c9873ce0413d070",
-      "reviewer": "/root/r16_sources"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.source-review.md",
+      "sha256": "5b6eea125cb296d069c531e8bac75082963ea8439d4b89c3e2d1f2513bcef0f9",
+      "reviewer": "/root/counterfactual_source_audit"
     },
     "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V1.adversarial-review.md",
-      "sha256": "9a688173443da3cce4677e64ec504003d66716827ba05c681fe477bb4aecb3bc",
-      "reviewer": "/root/r16_adversarial"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V2.adversarial-review.md",
+      "sha256": "5419eaed3fd4932ba47b1912e3999cc35ec0b0c8bf965def608a1e0988bfad1c",
+      "reviewer": "/root/commutator_candidate"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_joint_flow_control_parked_not_candidate",
-    "mathematical_status": "accepted_exact_affine_flow_endpoint_inverse_metric_collision_Krylov_rank_and_affine_source_gap",
-    "contribution_status": "partial_theorem_delta;exact_ZOH_inverse_metric_and_matrix_function_mechanisms_known",
-    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
-    "measurement_status": "endpoint_tasks_do_not_natively_expose_joint_generator_internal_exact_action_or_validity_labels",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_active_spectral_core_control_parked_not_candidate_pending_delivery",
+    "mathematical_status": "accepted_exact_active_eigenspace_DPR1_core_function_identity_grouping_error_and_normalized_direction_bounds",
+    "contribution_status": "partial_theorem_delta;DPR1_matrix_function_expmv_and_grouped_KDA_mechanisms_known",
+    "novelty_status": "major_numerical_mechanism_collision_and_inconclusive_residual",
+    "measurement_status": "endpoint_tasks_do_not_natively_expose_grouped_generator_active_core_scan_closure_or_validity_labels",
     "empirical_status": "unknown_no_execution",
     "candidate_delta": 0,
-    "disposition": "park_after_attempt_1_conditional_theory_control",
-    "preserved_old_result": "scalar_exact_flow_only_changes_gate;exact_overwrite_is_singular;commutator_order_and_semantic_validity_gaps_remain",
-    "repair_delta": "replace_commuting_scalar_flow_with_full_noncommuting_frozen_generator_and_derive_Krylov_rank_endpoint_collision_and_affine_source_gap",
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "natural_joint_flow_misses_exact_overwrite;forced_endpoint_is_normalized_inverse_metric_Delta;old_state_factor_is_singular;orthogonal_query_leakage_and_semantic_validity_gaps_remain",
+    "repair_delta": "diagonalize_decay_group_active_eigenspaces_reduce_exact_joint_matrix_functions_to_an_r_dimensional_DPR1_core_and_certify_approximate_grouping_error_without_hiding_dense_basis_cost",
     "unclosed": [
-      "Independent scientific justification for simultaneous sub-token dynamics.",
-      "A structured exact or certified approximate action with matched-budget advantage.",
+      "Independent scientific justification for simultaneous grouped sub-token dynamics rather than the declared sequential recurrence.",
+      "A matched-cost Delta-specific consequence unavailable to grouped KDA or direct DPR1 and exponential-action controls.",
+      "A scalable sequence or scan closure rather than a per-token dense or r-by-r matrix-function solve.",
       "A causal selector for revision versus still-valid collision.",
       "A native measurement object for the declared internal mechanism.",
       "Empirical effect; no execution authorized."
     ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
-    "publication_commit": "40f2b50bef7f901afe8a0d5abc8b50fa410e75d2",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_DELIVERY_READBACK.json",
-      "sha256": "c747e4b5a084bba96a1aaf7f80d0d4831d3aee26eef0990fbf7ff3140893006a"
-    }
+    "delivery_status": "pending_expected_parent_main_delivery_and_exact_readback"
   },
   "repair_R17_predictive_quotient_decodability": {
     "version": "v1",
