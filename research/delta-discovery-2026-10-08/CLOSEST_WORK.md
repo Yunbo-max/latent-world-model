@@ -539,3 +539,5 @@ Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to lit
 R14 v3 的主体工具分别与三类公开理论相撞：Barber 对 binary conditional probability 的 distribution-free CI 长度下界；Barber--Candès--Ramdas--Tibshirani / Vovk 的 conditional-coverage 不可能性；以及 Le Cam 两点法、data processing 与 minimax/least-favourable Bayes 决策。v2 已记录 Gamma-minimax、credal DRO、posterior decision regret 和 inverse conformal risk control。故不能把“不可区分世界迫使宽区间/产生 minimax risk”宣称为新 Delta 机制。
 
 保留的窄贡献是精确的 Delta-slot 特化：两端 posterior 区间退化概率 `(1-2 alpha-delta)_+`，同信息更新器的锐 TV-only 风险下界 `(1-delta)lambda/(1+lambda)`，`delta=0` 与 v2 对称写的精确等号，以及连续动作与 deterministic/randomized hard-action 的边界。最强同信息对照仍是直接 Bayes/minimax router 或 direct action/loss predictor；新 ID、时间戳、延迟标签、active query 与 ledger 均属于新增信息/状态，必须等成本提供给对照。R14 exhausted 后不进入 active pool 或 top-15。
+
+Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R14_V3_DELIVERY_READBACK.json` (SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`).
