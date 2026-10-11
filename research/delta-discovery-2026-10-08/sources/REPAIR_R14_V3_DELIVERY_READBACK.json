@@ -1,0 +1,30 @@
+{
+  "kind": "delta_repair_delivery_readback",
+  "repair_id": "R14_v3",
+  "recorded_at": "2026-10-11T20:39:58+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "0052709f6ac9aa98b0e199a75b2d1da0608e974c",
+  "substantive_commit": "3bd31945097eefe9d58a8a79feea45facb206a03",
+  "force": false,
+  "path_count": 14,
+  "all_paths_exact": true,
+  "paths": [
+    {"path":"research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.v3.md","sha256_expected":"69faa9df793a91bc6c1303c8dc03a20a4c67ca8c399528f1a92a7db7e6e04538","sha256_readback":"69faa9df793a91bc6c1303c8dc03a20a4c67ca8c399528f1a92a7db7e6e04538","git_blob_readback":"18c10f757bd042bd59b84c60304f1ff967c4d1ef","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md","sha256_expected":"7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81","sha256_readback":"7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81","git_blob_readback":"fc011d75d0a479fa6896d1ded3edcd99d4c65798","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/sources/R14_V3_OBSERVABLE_EQUIVALENCE_SOURCE_AUDIT.md","sha256_expected":"804720519bb026bcb15a5aff66947b2933062c5c6a109c1d1d6b1e2477369261","sha256_readback":"804720519bb026bcb15a5aff66947b2933062c5c6a109c1d1d6b1e2477369261","git_blob_readback":"2594738f7d4aaa38bbbc5c4a4bd96c8d1ffc72ef","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.math-review.md","sha256_expected":"4a67469b30b04e03bc2e5a05d0e02942c38cce5fb5653a024029d9b1a09faca4","sha256_readback":"4a67469b30b04e03bc2e5a05d0e02942c38cce5fb5653a024029d9b1a09faca4","git_blob_readback":"cdc5fc0aedd86a228c55307a3a79bb942c18f325","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.source-review.md","sha256_expected":"980e0b69f5c94c347e217b1041b306350659290a4673b27f923294e6f9c29ba2","sha256_readback":"980e0b69f5c94c347e217b1041b306350659290a4673b27f923294e6f9c29ba2","git_blob_readback":"0c4efa70bcfd22a8ca9c33352331dee02e4e5d90","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.adversarial-review.md","sha256_expected":"7b76e1e0c172a2175d8ae75a24d48c484791c327f6871b3aab415dd5a3e18866","sha256_readback":"7b76e1e0c172a2175d8ae75a24d48c484791c327f6871b3aab415dd5a3e18866","git_blob_readback":"3ee834cf27580a676a0cfe9d4b731d598f67730c","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.measurement-review.md","sha256_expected":"2417b13ceb0add6c26fe8d326c81afbece80a91e46058cb85197ad94cf1abb22","sha256_readback":"2417b13ceb0add6c26fe8d326c81afbece80a91e46058cb85197ad94cf1abb22","git_blob_readback":"70402dc40a97ea6d264f4890fe4cff27f8d77039","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/GOAL.md","sha256_expected":"5585cac6de9d20e624e5b8d7961183f942fbf2745632d978b1eb0fc0b869b145","sha256_readback":"5585cac6de9d20e624e5b8d7961183f942fbf2745632d978b1eb0fc0b869b145","git_blob_readback":"5258b4a87b40035731ee17222886e01db67537b2","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/PROGRESS.json","sha256_expected":"1450a87822bf0793f3bb926b9e50e1fe90364931a4e0084e6f77935c4c1d8c9a","sha256_readback":"1450a87822bf0793f3bb926b9e50e1fe90364931a4e0084e6f77935c4c1d8c9a","git_blob_readback":"7063421531e953c99594d8811e6779cf4837f1bf","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/method-batch.json","sha256_expected":"896e5c4001907cac16e6189c564c8f0df14cdde9db20633e873356c1649d9c7a","sha256_readback":"896e5c4001907cac16e6189c564c8f0df14cdde9db20633e873356c1649d9c7a","git_blob_readback":"a452419f3a23c0d1321f59e0471241177635aad7","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/CLOSEST_WORK.md","sha256_expected":"d4ec7f5be8ec402787df04ac49dbcd0b5ed0005d0fd093c52ae7bb413f434470","sha256_readback":"d4ec7f5be8ec402787df04ac49dbcd0b5ed0005d0fd093c52ae7bb413f434470","git_blob_readback":"591276d73ee7239eb7e05876cdfa0fd8c2bf7501","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/RANKING.md","sha256_expected":"6645e2454574ac499090fc707320ca6979dd3d90d7876a2f098298bdea6ba79c","sha256_readback":"6645e2454574ac499090fc707320ca6979dd3d90d7876a2f098298bdea6ba79c","git_blob_readback":"0542366e8f6e467a017cd9b5e6af3a2e25795868","exact":true},
+    {"path":"research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md","sha256_expected":"71e1646ef1a16d2e5966392c26a423fdec815768f2633d33fe7158c20997765c","sha256_readback":"71e1646ef1a16d2e5966392c26a423fdec815768f2633d33fe7158c20997765c","git_blob_readback":"bf16a1c4e24f5a9660ef6769589ccaeb52c655b4","exact":true},
+    {"path":"research/workflow-checkpoint.json","sha256_expected":"e143935954adffb48fb2c8d46e58361ec12e650b4e8532b540449d0b234d83a2","sha256_readback":"e143935954adffb48fb2c8d46e58361ec12e650b4e8532b540449d0b234d83a2","git_blob_readback":"8da33960fdad482f168bfda4be92fa8184afe69a","exact":true}
+  ],
+  "scope": "R14 v3 math, source audit, four independent final-byte reviews and packet trackers only; no model code, test, training, inference, scoring or experiment.",
+  "caveat": "Exact delivery does not establish originality, candidate admission, native measurement validity or empirical benefit."
+}
