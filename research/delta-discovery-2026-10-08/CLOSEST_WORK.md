@@ -407,3 +407,12 @@ v2 的精确恒等式把 (f(\Lambda+kk^\top)-f(\Lambda)) 限制到 (k) 触及的
 
 成本结论严格分层：坐标对角 tied groups 可顺序执行为 (O(dm+r^2m+r^2))，而一般对称 decay 即使 (r\ll d)，仍可能有稠密基变换、特征子空间发现和 (f(\Lambda)) 基础作用成本。近似分组的误差证书是有用的理论残余，但它没有证明同预算优于 grouped KDA 或直接 DPR1/exponential-action control，也没有解决 sequence scan、generator 合理性或语义 revision。来源与三路终审因此只支持条件 theorem/control；原创残余保持未闭，候选增量0。
 
+
+
+## R17 v2 causal predictive-leakage certificate 最近工作处置
+
+- **实质修复**：用动作前前缀可测的 PSD ambiguity/prediction set 替换 v1 的 realized-future-Gram oracle；严格分开 robust、conditional-mean 和 realized-path 三层声明。
+- **已知碰撞**：robust/stochastic observability、DRO support functions、Tropp matrix concentration、Howard 等 time-uniform confidence sequences、predictive fibers/task sufficiency，以及本项目 R09/R17 v1/R18。
+- **残余 Delta 专门化**：exact overwrite 的丢失方向为 (ka^	op)，故泄漏缩成 (lVert aVert^2 k^	op Gk)，并得到共同核与谱球的 sharp certificate。
+- **未闭条件**：deployed-law coverage、free-running nonlinear closure、同总成本优于 direct sufficient-coordinate ledger、原生 counterfactual measurement。
+- **处置**：来源审查支持的是窄条件定理和 no-zero-certificate 边界，不支持“首个”或新 updater 声明；candidate delta = 0。

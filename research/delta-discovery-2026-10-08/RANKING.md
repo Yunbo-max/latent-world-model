@@ -214,3 +214,10 @@ R16 仍不进入活动池或 top-15。v2 的实质进步是把 v1 的抽象 Kryl
 
 排序未提升的原因是主要计算机制已有 DPR1、matrix-function/Krylov、expmv 和 grouped KDA 近邻，端点方向仍碰撞 normalized inverse-metric Delta；同时没有 joint generator 的独立科学依据、scan closure、同预算优势、retain/revise 证据或原生内部测量。数学正确、贡献为窄条件定理、原创性残余未闭、效果未知，因此 attempt 2/3 后继续 park，候选/准入/选择增量均为0。
 
+
+
+## R17 v2 ranking disposition (2026-10-11)
+
+R17 v2 **不进入活动池或 top-15**。它修复了 v1 的真实因果缺口：未来真实查询 Gram 不能在写入时直接使用。新结果给出 prefix-measurable PSD 预测集合上的 exact robust support、共同核判据、谱球闭式，以及条件均值到 realized-path 的明确概率层次；同时证明有限历史中的全零泄漏不能在无额外支撑假设时认证确定零风险。
+
+排序仍不提升：主要数学机制属于 robust observability、DRO、矩阵浓缩和既有 predictive-quotient/protection controls；direct observable-coordinate ledger 是强同信息对照，原生 benchmark 又不暴露 overwrite counterfactual 与 realized suffix Gram。三路独立最终字节审查仅通过 conditional theorem/debugging control。Attempt 2/3 后 park，候选/科学准入/选择增量均为0，计数保持 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，实验效果未知且未执行。

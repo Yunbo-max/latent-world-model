@@ -416,3 +416,10 @@ Substantive commit `d4fdc86f0c25b9495b51779a12074f26e98d027d` was written to lit
 
 Substantive commit `a1da709feed580c5fe9e98a5be57f4739f5a3259` was written to literal `main` with expected parent `1c10e20f3868fe1fb62c84adbf33efc558e3c309` and `force=false`. All 13 authored paths were fetched at that exact commit and matched local bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R16_V2_DELIVERY_READBACK.json` (SHA256 `c2786b967abae083b6d1a11e67c2943fc85f7038d33f0230b9db9097192bde4a`). This verifies delivery only, not originality, admission, measurement validity or empirical benefit.
 
+
+
+## R17 v2 因果预测泄漏证书修订（2026-10-11）
+
+R17 v1 的 exact-overwrite 商定理保留，但其“未来查询 Gram”不是动作前可用量。v2 把它修成前缀可测的 PSD 预测集合 (mathcal G_t)：最坏泄漏是支持函数 (sup_{Ginmathcal G_t}k^	op Gk)，全集合精确不可见当且仅当 (k) 落在共同核中；谱范数球给出精确闭式 (k^	opwidehat Gk+arepsilonlVert kVert^2)。校准样本只支持条件均值和概率型路径界，不能在无支撑假设时把有限次零观测升级为确定零风险。
+
+这是真实的因果接口修复，但 robust observability、DRO、矩阵浓缩、predictive quotient 与 R09 已覆盖主体机制；直接保存声明可观测子空间坐标仍是同信息强对照。原生端点不暴露 overwrite counterfactual 或 realized suffix Gram，实际效果未知且未执行实验。独立最终字节数学、来源、对抗审查通过的是 conditional theorem/debugging control；R17 attempt 2/3 后继续 park，候选、科学准入和选择增量均为0。

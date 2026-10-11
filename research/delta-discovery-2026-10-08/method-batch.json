@@ -680,6 +680,40 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R16_V2_DELIVERY_READBACK.json",
         "sha256": "c2786b967abae083b6d1a11e67c2943fc85f7038d33f0230b9db9097192bde4a"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_CAUSAL_PREDICTIVE_LEAKAGE_CERTIFICATE.v2.md",
+      "sha256": "c7f7843a9508dbb5cc6fdf9525e23dc311eff070f58b572bb133850722eb1438",
+      "status": "accepted_conditional_causal_predictive_leakage_theorem_control_parked_not_candidate_pending_delivery",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.v2.md",
+        "sha256": "13ba62ba2cadd26ed07c33ebc7cf0be757ec68cfe3d0de3636272440b9cd418d"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
+        "sha256": "f8f7bd33008eda1750506833af5e5dff6be71d7f7bcaa60dbffac811e3929ea2"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.math-review.md",
+          "sha256": "ae2b4bf06cde758ba0deb25a38cc3d3cb5bc2e0791d49b7465734f6a678485c4",
+          "reviewer": "/root/r17v2_math_review",
+          "identity": "codex-independent-math-reviewer-r17v2-final"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.source-review.md",
+          "sha256": "f2f9ae23d996ed9903cc5a8663d193d92db4a8787972443b8b8cc490ced46548",
+          "reviewer": "/root/r17v2_source_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.adversarial-review.md",
+          "sha256": "e1b1e954b389d7691215222831024feae2211a8c7733d797a583f86943b6e618",
+          "reviewer": "/root/r17v2_adversarial_review"
+        }
+      ]
     }
   ],
   "counting_policy": {
@@ -748,7 +782,7 @@
     "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; effective substantive main delivery and exact readback completed after a non-force correction of two connector-truncated tracker blobs.",
     "r13_v2": "Reviewed robust common-covector theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r16_v2": "Reviewed active-spectral-core exact-reduction and approximate-grouping theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r16_v2": "Reviewed active-spectral-core exact-reduction and approximate-grouping theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r17_v2": "Reviewed prefix-causal predictive-leakage certificate with exact robust-support/common-kernel and finite-sample boundary; zero active constructed, scientific-admission or selection increment; pending expected-parent main publication/readback."
   }
 }
-
