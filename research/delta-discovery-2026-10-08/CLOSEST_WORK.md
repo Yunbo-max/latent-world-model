@@ -324,3 +324,10 @@ The full Delta scalar formula was not located verbatim, so the proper collision 
 
 The AIS author implementation was inspected at `info-structures/ais@d2eca3b5d19d28c0225253e35f01fd256c6a2f43`, and Abel's implementation at `david-abel/state_abstraction@a8a8157e4fceea6bf1e8a1da3632b3c29cf6e260`. Hao's paper-linked repository was unavailable, which remains a code-source gap. These collisions leave R02 v3 as a quantitative theorem/debugging control only. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect remains unknown.
 
+## R09 v2: dynamic protection Gramian and KDN boundary
+
+- Classical observability/empirical differential Gramians and Kazma--Taha variational Gramians cover transported output-sensitivity energy.
+- DDP/iLQR and differentiable control cover complete-state value-curvature pullbacks; R09 uses only frozen/exogenous or Gauss--Newton scope unless the omitted curvature terms are paid.
+- PDN/RLS/editing methods cover inverse historical/static metrics.
+- Kalman Delta Networks (`arXiv:2609.07816v2`; author code pinned at `53e437be8591521a508bb6a04cd5b26594a3d5ec`) is the closest Delta-specific covariance-aware overwrite baseline. Its `P_t` measures current filtering uncertainty; it is not R09's future protected-query `G_{t:H}`.
+- R20 v3 already contains the sharp spectral-transfer factor. The R09 residue is a Delta-specific specialization plus the swapped-future minimax witness, so the result is a theorem/control, not a new updater.

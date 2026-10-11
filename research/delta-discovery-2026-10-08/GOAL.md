@@ -322,3 +322,10 @@ Independent final-byte review accepts these equations only as a conditional theo
 
 The affine fixed-reference limit exactly recovers v1 and its truth-versus-action counterexample. Realized suffix derivatives remain retrospective/training quantities, not a deployment oracle; common-noise differentiation is not a free-running causal effect; multiple writes require cross-Hessian terms. Independent final-byte math, source and adversarial reviews pass only this conditional debugging theorem. Adjoint sensitivity, DDP/iLQR, differentiable MPC, MAML/learned optimizers and Bellman evaluation cover the main mechanism, while native tasks do not expose the required joint action-level object. R07 is parked after attempt 2/3, candidate delta zero, empirical effect unknown, and counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected. No code or experiment was run.
 
+## R09 v2 dynamic-protection Gramian milestone (2026-10-11)
+
+R09 attempt 2/3 replaces v1's static protection metric by the exact finite-horizon transported Gramian under a declared frozen/exogenous suffix. For a rank-one edit `Delta S=x e^T` and affine endpoint `k^T x=gamma`, the conditional optimizer is `x*=gamma H^{-1}k/(k^T H^{-1}k)`, with `H=G+mu I`.
+
+The child preserves every v1 counterexample and adds an identical-prefix swapped-anisotropy construction. Without an externally justified continuation law, ordinary Delta is minimax on that two-future family and any prefix-only rule has competitive ratio `(M+m)^2/(4Mm)`; randomization does not remove the lower bound.
+
+Independent final-byte mathematics, source, and adversarial reviews pass only the stated conditional theorem/control. Kalman Delta Networks is now the closest Delta-specific uncertainty baseline: its filtering covariance is not the unseen future protected-query pullback, but it strengthens the collision and baseline burden. Candidate/admission/selection counts remain unchanged; empirical effect is unknown and no project execution occurred.

@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T00:53:50Z",
+  "recorded_at": "2026-10-11T03:00:55+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "894e652f466f8b05e383f316b7b4f3b375faba1c",
+  "delivery_parent": "781ffcb5746ea90a5075c943bf9a461943f0d826",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -177,7 +177,12 @@
       "research/delta-discovery-2026-10-08/sources/R02_V2_CAUSAL_DR_QUOTIENT_SOURCE_AUDIT.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R02_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -211,10 +216,11 @@
       "R06 v2 replaced the unproved prefix sensitivity proxy with an exact frozen-path contraction envelope X=|beta|||k||||e||. It derives the finite-frame rectangular-minimax HT/PPS allocation, a sharp (1+alpha)^2/(4alpha) factor under an externally justified two-sided continuation law, and an identical-prefix annihilation/preservation witness proving unbounded clairvoyant regret without that lower law. Independent final-byte math/source/adversarial reviews pass the conditional theorem and reject candidate admission because Neyman/PPS/active-testing mechanisms are known, the normalization is offline, the full Jacobian and native joint audit object are missing, and empirical effect is unknown.",
       "R01 v3 replaced the raw local gate/loss covector union with exact adjoint-transported covectors for a declared finite scalar-credit family. The joint transported row span is the minimum ambient right-quotient width; a formal class allowing arbitrary rank-one terminal covectors and ambient perturbations forces full value width, but native LM-loss/reachable-tangent realizability is unproved. Independent final-byte math/source/adversarial reviews passed the conditional theorem. Observability, bisimulation, exact lumping, recurrent behavioral memory and R18 cover the general mechanism; candidate delta zero, measurement gap, empirical unknown, lineage parked after attempt 3/3.",
       "R02 v2 derived the exact quotient-only AIPW coarsening bias Cov(mu_a(H),m_a(H)|q)/bar_mu_a(q), supplied a two-history bias witness, and stated strong sequential quotient conditions under which DR value functions descend. For a declared finite scalar family, Delta right-quotient compatibility imposes a value-side row-span lower bound; quotient-dependent observables make recursive closure a fixed-point/invariant-subspace problem. Independent final-byte math/source/adversarial reviews pass this only as a conditional causal-debugging control. Hao et al., STAR, Pavse-Hanna MIS, generic sequential DR and R18 cover the principal mechanism; candidate delta zero, native measurement gap and empirical status unknown, parked after attempt 2/3.",
-      "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown."
+      "R06 v3 completed the bounded repair by imposing a public per-step minimum-singular-value margin on each frozen Delta factor. The exact product gives alpha||U||<=||PU||<=||U|| and therefore a sharp Kantorovich audit factor under fixed/prefix-measurable horizons and inactive caps. The same factor enforces ||e+||>=eta||e||, proving an explicit preservation-plasticity boundary and exponentially weakening long-horizon guarantees. Final-byte math/source/adversarial reviews pass the conditional theorem but identify direct generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus a native joint-measurement gap. R06 is exhausted and parked after attempt 3/3; candidate delta zero and empirical effect unknown.",
+      "R09 v2 repaired the static-metric target mismatch with an exact transported finite-horizon protection Gramian under a declared frozen/exogenous suffix, a complete-state Gauss--Newton pullback boundary, and a swapped-anisotropy identical-prefix minimax theorem. The inverse-metric action and sharp spectral factor are correct, but observability/DDP, PDN, Kalman Delta Networks and R20 v3 cover the main mechanisms. Final-byte math/source/adversarial reviews pass conditional correctness; candidate delta is zero, attempt 2/3 is parked, and empirical effect is unknown."
     ]
   },
-  "next_action": "Continue R09 v2 as the earliest independent unexhausted repair lineage. Reopen R08 attempt 3 only with a lawful prefix margin-law estimator, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
+  "next_action": "Continue R10 v2 as the earliest independent unexhausted repair lineage. Reopen R08 or R09 only with its recorded new-evidence condition; do not repeat parked arguments.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2671,6 +2677,64 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V2_DELIVERY_READBACK.json",
       "sha256": "7f5d8791ac36a5a3ff1b6617e1186efa6b9cd123bb4646d79e0ae7db0828a56f"
     }
+  },
+  "repair_R09_v2_dynamic_protection_gramian": {
+    "repair_id": "R09",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R09_finite_budget_overwrite_protection",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+      "sha256": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
+      "sha256": "8894320661e2f608c28c6dc79e509b3902106b18a696e6e02e301cb5a4ff176d"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
+      "sha256": "0c3e5e9969dc922860aa5ea8e77a5c019433db899c5e3d2aa16dd49eadf64d0d",
+      "reviewer": "/root/r09_v2_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
+      "sha256": "cd04ac3cbe030e424685568ba3891f650dd508eb9f8a86b872bb117b2bce75f3",
+      "reviewer": "/root/r09_final_source"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md",
+      "sha256": "52d08b0a6be84797d512ecb44515876fdfd9c8139468d2c71b65a8651ccdbcab",
+      "reviewer": "/root/r09_final_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_dynamic_protection_Gramian_control_parked_not_candidate_pending_publication",
+    "scientific_states": {
+      "mathematics": "accepted_conditionally_for_frozen_or_exogenous_suffix_left_separable_transported_Gramian_and_complete_state_Gauss_Newton_scope",
+      "contribution": "useful_R09_target_mismatch_repair_and_Delta_specialized_theorem_control_not_new_updater",
+      "novelty": "major_observability_DDP_iLQR_PDN_KDN_and_R20_v3_collision",
+      "measurement": "native_endpoint_assets_do_not_expose_pre_action_complete_state_action_indexed_continuation_propensity_paired_outcomes_or_oracle",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R09_v1_static_finite_budget_Pareto_certificate_and_old_counterexamples_preserved",
+    "repair_delta": "replace_static_protection_metric_with_exact_transported_finite_horizon_Gramian_under_declared_suffix_and_add_identical_prefix_minimax_boundary",
+    "strong_controls": [
+      "ordinary_Delta_minimax_on_swapped_future_family",
+      "Kalman_Delta_Networks",
+      "PDN_RLS",
+      "DDP_iLQR",
+      "R20_v3_spectral_transfer"
+    ],
+    "unclosed": [
+      "legal_prefix_estimator_or_continuation_model_for_future_Gramian",
+      "matched_total_cost_advantage_over_KDN_PDN_and_direct_controls",
+      "native_action_level_measurement",
+      "free_running_semantic_validity",
+      "empirical_effect"
+    ],
+    "delivery_status": "pending_expected_parent_non_force_main_commit_and_exact_readback",
+    "publication_commit": null,
+    "execution": "none_math_source_review_only"
   }
 }
-

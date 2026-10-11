@@ -188,7 +188,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R09 v2 as the earliest independent unexhausted evidence-backed repair lineage. Reopen R08 attempt 3 only for a lawful prefix margin-law estimator with matched-budget advantage, a Delta-specific smaller multi-step sufficient state, or native causal temporal action measurement.",
+  "next_action": "Continue R10 v2 as the earliest independent unexhausted repair lineage. Reopen R08 or R09 only with its recorded new-evidence condition; do not repeat parked arguments.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -416,6 +416,36 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_DELIVERY_READBACK.json",
         "sha256": "de1b4c03002b27e508d1cd05e84a891a87dd3f8562fb665032d9a868fb5d1c6d"
       }
+    },
+    "delta_math_repair_R09_v2_milestone": {
+      "parent_head": "781ffcb5746ea90a5075c943bf9a461943f0d826",
+      "refs": {
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+          "sha256": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf"
+        },
+        "source_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
+          "sha256": "8894320661e2f608c28c6dc79e509b3902106b18a696e6e02e301cb5a4ff176d"
+        },
+        "math_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
+          "sha256": "0c3e5e9969dc922860aa5ea8e77a5c019433db899c5e3d2aa16dd49eadf64d0d",
+          "reviewer": "/root/r09_v2_math"
+        },
+        "source_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
+          "sha256": "cd04ac3cbe030e424685568ba3891f650dd508eb9f8a86b872bb117b2bce75f3",
+          "reviewer": "/root/r09_final_source"
+        },
+        "adversarial_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md",
+          "sha256": "52d08b0a6be84797d512ecb44515876fdfd9c8139468d2c71b65a8651ccdbcab",
+          "reviewer": "/root/r09_final_adversarial"
+        }
+      },
+      "scope": "Math/source-only bounded repair: dynamic future-protection Gramian, complete-state Gauss--Newton boundary, exact spectral transfer specialization, identical-prefix minimax/no-identification theorem, KDN nearest-work correction, and three independent final-byte reviews. Zero candidate/admission/selection increment; no project execution.",
+      "verification": "Pending expected-parent non-force literal-main publication and exact changed-file readback by this integration writer."
     }
   },
   "skill": {
@@ -1360,7 +1390,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T00:53:50Z",
+  "updated_at": "2026-10-11T03:00:55+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2228,6 +2258,64 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V2_DELIVERY_READBACK.json",
       "sha256": "7f5d8791ac36a5a3ff1b6617e1186efa6b9cd123bb4646d79e0ae7db0828a56f"
     }
+  },
+  "repair_R09_v2_dynamic_protection_gramian": {
+    "repair_id": "R09",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "repair_R09_finite_budget_overwrite_protection",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+      "sha256": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
+      "sha256": "8894320661e2f608c28c6dc79e509b3902106b18a696e6e02e301cb5a4ff176d"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
+      "sha256": "0c3e5e9969dc922860aa5ea8e77a5c019433db899c5e3d2aa16dd49eadf64d0d",
+      "reviewer": "/root/r09_v2_math"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
+      "sha256": "cd04ac3cbe030e424685568ba3891f650dd508eb9f8a86b872bb117b2bce75f3",
+      "reviewer": "/root/r09_final_source"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md",
+      "sha256": "52d08b0a6be84797d512ecb44515876fdfd9c8139468d2c71b65a8651ccdbcab",
+      "reviewer": "/root/r09_final_adversarial"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_dynamic_protection_Gramian_control_parked_not_candidate_pending_publication",
+    "scientific_states": {
+      "mathematics": "accepted_conditionally_for_frozen_or_exogenous_suffix_left_separable_transported_Gramian_and_complete_state_Gauss_Newton_scope",
+      "contribution": "useful_R09_target_mismatch_repair_and_Delta_specialized_theorem_control_not_new_updater",
+      "novelty": "major_observability_DDP_iLQR_PDN_KDN_and_R20_v3_collision",
+      "measurement": "native_endpoint_assets_do_not_expose_pre_action_complete_state_action_indexed_continuation_propensity_paired_outcomes_or_oracle",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R09_v1_static_finite_budget_Pareto_certificate_and_old_counterexamples_preserved",
+    "repair_delta": "replace_static_protection_metric_with_exact_transported_finite_horizon_Gramian_under_declared_suffix_and_add_identical_prefix_minimax_boundary",
+    "strong_controls": [
+      "ordinary_Delta_minimax_on_swapped_future_family",
+      "Kalman_Delta_Networks",
+      "PDN_RLS",
+      "DDP_iLQR",
+      "R20_v3_spectral_transfer"
+    ],
+    "unclosed": [
+      "legal_prefix_estimator_or_continuation_model_for_future_Gramian",
+      "matched_total_cost_advantage_over_KDN_PDN_and_direct_controls",
+      "native_action_level_measurement",
+      "free_running_semantic_validity",
+      "empirical_effect"
+    ],
+    "delivery_status": "pending_expected_parent_non_force_main_commit_and_exact_readback",
+    "publication_commit": null,
+    "execution": "none_math_source_review_only"
   }
 }
-

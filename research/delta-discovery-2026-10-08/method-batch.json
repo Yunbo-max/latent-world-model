@@ -392,6 +392,36 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V2_DELIVERY_READBACK.json",
         "sha256": "7f5d8791ac36a5a3ff1b6617e1186efa6b9cd123bb4646d79e0ae7db0828a56f"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md",
+      "sha256": "aa78f4f15322ef501d14ce76d93e60e3544e2b07b16bebea7488eb308e11aacf",
+      "status": "accepted_conditional_dynamic_protection_Gramian_and_identical_prefix_minimax_control_parked_not_candidate_pending_publication",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R09_V2_DYNAMIC_GRAMIAN_SOURCE_AUDIT.md",
+        "sha256": "8894320661e2f608c28c6dc79e509b3902106b18a696e6e02e301cb5a4ff176d"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.math-review.md",
+          "sha256": "0c3e5e9969dc922860aa5ea8e77a5c019433db899c5e3d2aa16dd49eadf64d0d",
+          "reviewer": "/root/r09_v2_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.source-review.md",
+          "sha256": "cd04ac3cbe030e424685568ba3891f650dd508eb9f8a86b872bb117b2bce75f3",
+          "reviewer": "/root/r09_final_source"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R09_V2.adversarial-review.md",
+          "sha256": "52d08b0a6be84797d512ecb44515876fdfd9c8139468d2c71b65a8651ccdbcab",
+          "reviewer": "/root/r09_final_adversarial"
+        }
+      ],
+      "publication_commit": null
     }
   ],
   "counting_policy": {
@@ -421,13 +451,13 @@
       "R20 v1 supplies a reviewed exact-constraint separable-cancellation and nonseparable rank-gap boundary; KKT/GGN/K-FAC/Shampoo/Sylvester/CrispEdit and Step2 collisions leave zero active/admitted/selected candidate increment.",
       "R20 v2 supplies a reviewed prefix-causal projected-Woodbury exact constraint control with drift and norm-blowup boundaries; M-FAC/SENG/WoodFisher/OGD/GEM/SketchOGD collisions leave zero active/admitted/selected candidate increment.",
       "R20 v3 supplies a reviewed sharp affine spectral-transfer factor and an identical-prefix impossibility certificate; sketch/Newton, Hessian-averaging and online-regret collisions plus the missing continuation law leave zero active/admitted/selected candidate increment, and the lineage is exhausted after attempt 3.",
-      "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment."
-      ,"R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment."
-      ,"R03 v3 supplies a reviewed full-law Wasserstein perturbation recurrence, ordered horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility condition. Generic Markov perturbation/robust-MDP collisions, non-native constants and measurement gaps leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
-      ,"R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
-      ,"R06 v3 supplies a reviewed exact rank-one singular survival product, conditional Kantorovich audit factor and matching current-residual plasticity floor. Generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus the missing native joint object leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
-      ,"R02 v3 supplies a reviewed sharp quotient-AIPW covariance tolerance, a separately scoped fixed-policy uniform-defect value recursion, a rare-occupancy failure witness and a Delta coefficient-leakage identity. AIS, approximate abstraction, abstract-state OPE, bisimulation and internal R18/R03 collisions leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3."
-      ,"R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked."
+      "R06 v2 supplies a reviewed frozen-path contraction envelope, finite-frame robust PPS allocation and an unbounded-regret boundary without a two-sided continuation law; known sampling mechanisms and measurement gaps leave zero active/admitted/selected candidate increment.",
+      "R02 v2 supplies a reviewed exact quotient-AIPW coarsening-bias identity, strong sequential quotient sufficiency conditions and a declared-fixed-family Delta right-quotient lower bound; state-abstraction/OPE collisions and native measurement gaps leave zero active/admitted/selected candidate increment.",
+      "R03 v3 supplies a reviewed full-law Wasserstein perturbation recurrence, ordered horizon and discounted protected-loss envelopes, and a simultaneous safe-logging feasibility condition. Generic Markov perturbation/robust-MDP collisions, non-native constants and measurement gaps leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
+      "R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
+      "R06 v3 supplies a reviewed exact rank-one singular survival product, conditional Kantorovich audit factor and matching current-residual plasticity floor. Generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus the missing native joint object leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
+      "R02 v3 supplies a reviewed sharp quotient-AIPW covariance tolerance, a separately scoped fixed-policy uniform-defect value recursion, a rare-occupancy failure witness and a Delta coefficient-leakage identity. AIS, approximate abstraction, abstract-state OPE, bisimulation and internal R18/R03 collisions leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
+      "R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked."
     ]
   },
   "counting_policy_repair": {
@@ -455,4 +485,3 @@
     "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
   }
 }
-

@@ -172,3 +172,6 @@ R02 v3 **不进入活动池或 top-15**。它给出 quotient-only AIPW 偏差的
 
 独立审查还修正了 fiber 必须同时固定 side state `z`，并明确欧氏小状态差不推出 TV 小。AIS Theorem 9、Abel approximate abstraction、Hao abstract-state OPE、bisimulation/simulation 以及内部 R18/R03 已覆盖主体机制；Delta 残余只是 `q=SW` 下直接 `AEW` 消失而系数导数仍可泄漏隐藏态。R02 达到 attempt 3/3 后 park，候选增量0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，实际效果未知、未运行实验。
 
+## R09 v2 ranking disposition (2026-10-11)
+
+R09 v2 does not enter the active pool or top-15. It repairs a real target mismatch and adds a useful Delta-specific minimax boundary, but its positive mechanism is covered by observability/value-curvature machinery, PDN/RLS, Kalman Delta Networks, and R20 v3. The action-time future Gramian is not identifiable from an unrestricted common prefix. Attempt 2/3 is parked; candidate delta is 0 and all counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected.
