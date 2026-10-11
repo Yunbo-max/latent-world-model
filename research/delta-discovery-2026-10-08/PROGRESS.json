@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R15_v3_attempt_3_final_byte_reviews_passed_terminal_finite_jet_theorem_control_pending_publication_readback",
+  "status": "R15_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -4177,7 +4177,7 @@
         "reviewer": "/root/r15_v3_measurement_review"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_pending_publication_readback",
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_scoped_finite_jet_indistinguishability_lower_bound_nonnegative_loss_caveat_uniform_derivative_remainder_exact_degree_and_trial_outcome_boundaries",
       "contribution": "useful_information_boundary_and_repair_map_not_new_Delta_updater",
@@ -4206,9 +4206,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "072433bb5301ca8ae15a79e8122ba1d87c33f142",
-    "delivery_status": "pending_expected_parent_main_update_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "51f48c750b2212675e9e41df2f4b1b780d102f6d",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V3_DELIVERY_READBACK.json",
+      "sha256": "7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }
 
