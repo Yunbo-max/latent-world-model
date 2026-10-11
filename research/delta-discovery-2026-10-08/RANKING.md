@@ -300,3 +300,11 @@ R14 v3 不进入 active pool 或 top-15。它把 v2 的外部证书缺口修成�
 最终状态：attempt 3/3 exhausted；数学在声明条件下通过；贡献为已知理论的 Delta-slot 特化，不是新 updater；原生任务不提供 paired same-`O` opposite-identity worlds、逐 token certificate truth 或 all-action losses；实验未知且未执行；`candidate_delta=0`。计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected。下一条是 R15 attempt 3。
 
 Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R14_V3_DELIVERY_READBACK.json` (SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`).
+
+## R15 v3 ranking disposition (2026-10-11)
+
+R15 v3 不进入 active pool 或 top-15。它完成了 v2 最早未闭前提：仅有动作前有限 `p`-jet 时，固定正半径上不存在非平凡、scale-free 的统一优化证书；奇偶次数均有显式的同信息 regret 下界。它同时列清可修复条件：统一高阶导包络、精确次数上界、已知范围，或取得新的 branch-consistent trial outcome。
+
+排序不提升的原因是正面机制由高阶 Taylor/regularized optimization、trust-region、DDP/iLQR/GGN 和直接 action/Q 预测覆盖；有限-jet pair 是调试定理，不是新 Delta 写入规则。原生资产不暴露 joint finite-jet/global-envelope/free-running counterfactual 对象，matched-total-cost 优势与经验收益均未建立。
+
+最终状态：attempt 3/3 exhausted；四路最终字节审查通过限定数学、来源/原创性、对抗与测量范围；`candidate_delta=0`；计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected。下一条是 R16 attempt 3。
