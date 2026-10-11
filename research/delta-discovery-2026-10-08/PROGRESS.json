@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T10:38:00+01:00",
+  "recorded_at": "2026-10-11T10:48:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R17_v2_causal_predictive_leakage_reviewed_pending_delivery_no_candidate",
+  "status": "repair_R17_v2_causal_predictive_leakage_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2131,7 +2131,7 @@
       "sha256": "e1b1e954b389d7691215222831024feae2211a8c7733d797a583f86943b6e618",
       "reviewer": "/root/r17v2_adversarial_review"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_causal_predictive_leakage_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_causal_predictive_leakage_control_parked_not_candidate_published_exact_readback",
     "mathematical_status": "accepted_exact_robust_support_common_kernel_spectral_ball_conditional_mean_pathwise_and_finite_sample_zero_boundary",
     "contribution_status": "partial_theorem_delta;robust_observability_DRO_matrix_concentration_predictive_quotient_and_R09_mechanisms_known",
     "novelty_status": "major_component_collision_scoped_Delta_debugging_residual_only",
@@ -2153,7 +2153,12 @@
       "Recursive/free-running nonlinear validity beyond the explicitly frozen-linear certificate.",
       "Field-wide originality and empirical effect; no execution authorized."
     ],
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "86e4911f5c706f0b1340c01e5fc70e90541cc35c",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_V2_DELIVERY_READBACK.json",
+      "sha256": "117f7eb0868a9d882519fb95665c399f209cf081dd57a74453e18b914db81729"
+    }
   },
   "repair_R18_recursive_joint_quotient": {
     "version": "v1",

@@ -423,3 +423,8 @@ Substantive commit `a1da709feed580c5fe9e98a5be57f4739f5a3259` was written to lit
 R17 v1 的 exact-overwrite 商定理保留，但其“未来查询 Gram”不是动作前可用量。v2 把它修成前缀可测的 PSD 预测集合 (mathcal G_t)：最坏泄漏是支持函数 (sup_{Ginmathcal G_t}k^	op Gk)，全集合精确不可见当且仅当 (k) 落在共同核中；谱范数球给出精确闭式 (k^	opwidehat Gk+arepsilonlVert kVert^2)。校准样本只支持条件均值和概率型路径界，不能在无支撑假设时把有限次零观测升级为确定零风险。
 
 这是真实的因果接口修复，但 robust observability、DRO、矩阵浓缩、predictive quotient 与 R09 已覆盖主体机制；直接保存声明可观测子空间坐标仍是同信息强对照。原生端点不暴露 overwrite counterfactual 或 realized suffix Gram，实际效果未知且未执行实验。独立最终字节数学、来源、对抗审查通过的是 conditional theorem/debugging control；R17 attempt 2/3 后继续 park，候选、科学准入和选择增量均为0。
+
+
+### R17 v2 delivery closure
+
+R17 v2 数学卡、来源审计、三路独立最终字节审查及状态文件已在 substantive commit `86e4911f5c706f0b1340c01e5fc70e90541cc35c` 发布；12 个目标路径均从该精确 commit 读回并与提交字节一致。交付收据为 `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V2_DELIVERY_READBACK.json`（SHA256 `117f7eb0868a9d882519fb95665c399f209cf081dd57a74453e18b914db81729`）。计数不变，下一条独立未耗尽修复 lineage 为 R18 v2。

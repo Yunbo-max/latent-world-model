@@ -1,0 +1,78 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "lineage": "R17",
+  "repair_version": "v2",
+  "recorded_at": "2026-10-11T10:48:00+01:00",
+  "expected_parent": "cd082cdfa3ffddd47ea0603c2773fdebdf516775",
+  "publication_commit": "86e4911f5c706f0b1340c01e5fc70e90541cc35c",
+  "publication_tree": "29e1620d5f6c28bc9667ef5b354cd1b3271ce26a",
+  "branch": "main",
+  "force": false,
+  "readback_ref": "86e4911f5c706f0b1340c01e5fc70e90541cc35c",
+  "all_paths_exact_content_match": true,
+  "path_count": 12,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "13ba62ba2cadd26ed07c33ebc7cf0be757ec68cfe3d0de3636272440b9cd418d",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_CAUSAL_PREDICTIVE_LEAKAGE_CERTIFICATE.v2.md",
+      "sha256": "c7f7843a9508dbb5cc6fdf9525e23dc311eff070f58b572bb133850722eb1438",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
+      "sha256": "f8f7bd33008eda1750506833af5e5dff6be71d7f7bcaa60dbffac811e3929ea2",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.math-review.md",
+      "sha256": "ae2b4bf06cde758ba0deb25a38cc3d3cb5bc2e0791d49b7465734f6a678485c4",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.source-review.md",
+      "sha256": "f2f9ae23d996ed9903cc5a8663d193d92db4a8787972443b8b8cc490ced46548",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.adversarial-review.md",
+      "sha256": "e1b1e954b389d7691215222831024feae2211a8c7733d797a583f86943b6e618",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "8fb4db1e2480b40fecdc2563624de04045b6d9a59f16106b967bb0a985d49b92",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "ec2567a96f43c260d9c81e3bebf0adc0ee62fe8f18da3a7dfb2453d1d2d7ad1c",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "a79398ec48c59eb172d6579290f8e282cd1d661239fb2ec248fc20e98b4197b7",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "648860d92bbd6a4b3a5f90a5fcb53af6b9d59564aedafdb4ee1a27381165671f",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "de66e709f2909dc3a28f5999c15cf46f855829ce3a56449a72107aba20e5ce22",
+      "exact_content_match": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "c3dd173e44fc04d4eb0048118cfc31bb95f1903d2fda0b783a4d8d2b2588c0e2",
+      "exact_content_match": true
+    }
+  ],
+  "scope_note": "Mathematics, source/novelty audit, independent final-byte reviews and trackers only. No model code, training, inference, scoring, GPU job or experiment was run."
+}
