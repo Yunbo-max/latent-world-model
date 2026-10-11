@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T20:39:58+01:00",
+  "recorded_at": "2026-10-11T21:33:36+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -193,7 +193,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R15 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R14 only with genuinely new lawful causal evidence or distributional assumptions, a Delta-specific same-information advantage, and a native mechanism-identifying record.",
+  "next_action": "Continue R16 attempt 3 as the earliest independent unexhausted repair lineage after R15 v3 delivery closes. Reopen R15 only with a lawful prefix-available derivative/radius or exact degree certificate, a matched-cost Delta-specific advantage unavailable to direct action optimization, and a native mechanism-identifying randomized action record.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -1497,7 +1497,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T19:34:20+01:00",
+  "updated_at": "2026-10-11T21:33:36+01:00",
   "repair_R08_temporal_validity_release": {
     "repair_id": "R08",
     "version": "v3",
@@ -3468,6 +3468,59 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R15_v3_finite_jet_certificate_boundary": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "510e6c36279ebebe730f66c4d16f0a2e9746858793e5bc13f937c11810f23074"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_V3_FINITE_JET_CERTIFICATE_SOURCE_AUDIT.md",
+      "sha256": "ce02eca12e00251a9a76464d68e8e6f9b12517cbf31cdb1a927a9c3a6bb4800a"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.math-review.md",
+        "sha256": "db194c5faaed7d8157311ecd76d809bcda531e57908470656d3cf266044e4407",
+        "reviewer": "/root/r15_v3_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.source-review.md",
+        "sha256": "7204bf6136ad1dd4d55b45c4d1d32bb0e828f87c65af3ddd0931ead5948d7c9f",
+        "reviewer": "/root/r15_v3_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.adversarial-review.md",
+        "sha256": "c370af785dd82cbb2777371def5b6497fb0a2823b08473c31a687a2a34b37eaa",
+        "reviewer": "/root/r15_v3_adversarial_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.measurement-review.md",
+        "sha256": "d197dc1b614bd335c8af873a12107c5e04a0b7986f3474d9ec7f5647c7ac936e",
+        "reviewer": "/root/r15_v3_measurement_review"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_pending_publication_readback",
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "scientific_states": {
+      "mathematics": "passed_scoped",
+      "contribution": "theorem_debug_control_not_new_updater",
+      "measurement": "gap_open",
+      "empirical": "unknown_no_execution"
+    },
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "072433bb5301ca8ae15a79e8122ba1d87c33f142",
+    "delivery_status": "pending_expected_parent_main_update_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
 
