@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T06:35:28+01:00",
+  "recorded_at": "2026-10-11T06:38:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R13_v2_robust_common_covector_pending_delivery_no_candidate",
+  "status": "repair_R13_v2_robust_common_covector_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2934,7 +2934,7 @@
       "sha256": "7c129cac873fbe732a691280297ac705498e4d5bc5bfed39a2b0397363ce761b",
       "reviewer": "/root/r13_v2_adversarial_review"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_robust_common_covector_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_robust_common_covector_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditionally_for_common_affine_decoder_iff_block_kernel_condition_invertible_hidden_mode_counterexample_and_same_information_half_diameter_bound",
       "contribution": "useful_Delta_specialized_hidden_transition_identifiability_boundary_not_new_updater",
@@ -2960,8 +2960,11 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "4247399fd0b7471bac5aaed7c486b5c31a4f3bb8",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V2_DELIVERY_READBACK.json",
+      "sha256": "ec185523efc294e94b524d4d71f92972e2913bc23338ccf63ad6bc5ffa582027"
+    }
   }
 }

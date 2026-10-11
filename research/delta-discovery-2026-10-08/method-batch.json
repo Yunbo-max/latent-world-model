@@ -532,7 +532,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R13_ROBUST_COMMON_COVECTOR.v2.md",
       "sha256": "c6d611ffe4476035a54d5cd1cf7584895dbbb2248d7d499be69b07e6300647b0",
-      "status": "accepted_conditional_robust_common_covector_and_hidden_mode_indistinguishability_control_parked_not_candidate_pending_delivery",
+      "status": "accepted_conditional_robust_common_covector_and_hidden_mode_indistinguishability_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
       "empirical_status": "unknown_no_execution",
@@ -561,8 +561,11 @@
           "reviewer": "/root/r13_v2_adversarial_review"
         }
       ],
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "4247399fd0b7471bac5aaed7c486b5c31a4f3bb8",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V2_DELIVERY_READBACK.json",
+        "sha256": "ec185523efc294e94b524d4d71f92972e2913bc23338ccf63ad6bc5ffa582027"
+      }
     }
   ],
   "counting_policy": {
@@ -627,6 +630,6 @@
     "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; effective substantive main delivery and exact readback completed after a non-force correction of two connector-truncated tracker blobs.",
-    "r13_v2": "Reviewed robust common-covector theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; delivery pending expected-parent main and exact readback."
+    "r13_v2": "Reviewed robust common-covector theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
   }
 }
