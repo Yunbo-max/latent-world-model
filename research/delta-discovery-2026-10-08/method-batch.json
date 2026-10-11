@@ -1136,6 +1136,7 @@
     "r12": "Reviewed subspace-syndrome observability/control entry; zero active constructed, scientific admission or selection increment.",
     "r13": "Reviewed dynamic-covector transport theorem-control; zero active constructed, scientific admission or selection increment.",
     "r14": "Reviewed posterior-provenance identity-ambiguity theorem-control; zero active constructed, scientific admission or selection increment.",
+    "r14_v3": "Reviewed observable-equivalence certificate-collapse and sharp TV-risk theorem-control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; final-byte reviews passed pending delivery.",
     "r15": "Reviewed finite-action intervention-rank theorem-control; zero active constructed, scientific admission or selection increment.",
     "r16": "Reviewed noncommuting joint-flow theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
     "r17": "Reviewed predictive-quotient decodability theorem-control; zero active constructed, scientific admission or selection increment; substantive main commit and exact readback recorded.",
@@ -1260,5 +1261,61 @@
       "all_paths_exact": true,
       "path_count": 15
     }
+  },
+  "repair_R14_v3_observable_equivalence_closure": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "69faa9df793a91bc6c1303c8dc03a20a4c67ca8c399528f1a92a7db7e6e04538"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+      "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R14_V3_OBSERVABLE_EQUIVALENCE_SOURCE_AUDIT.md",
+      "sha256": "804720519bb026bcb15a5aff66947b2933062c5c6a109c1d1d6b1e2477369261"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.math-review.md",
+        "sha256": "4a67469b30b04e03bc2e5a05d0e02942c38cce5fb5653a024029d9b1a09faca4",
+        "reviewer": "/root/r14_v3_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.source-review.md",
+        "sha256": "980e0b69f5c94c347e217b1041b306350659290a4673b27f923294e6f9c29ba2",
+        "reviewer": "/root/r14_v3_sources"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.adversarial-review.md",
+        "sha256": "7b76e1e0c172a2175d8ae75a24d48c484791c327f6871b3aab415dd5a3e18866",
+        "reviewer": "/root/r14_v3_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.measurement-review.md",
+        "sha256": "2417b13ceb0add6c26fe8d326c81afbece80a91e46058cb85197ad94cf1abb22",
+        "reviewer": "/root/r14_v3_measurement"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_theorem_control_pending_delivery",
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "repair_delta": "observable_equivalence_class_replaces_assumed_certificate_and_yields_certificate_collapse_plus_sharp_TV_write_risk",
+    "strong_controls": [
+      "direct_same_information_minimax_router",
+      "no_write",
+      "hard_one_touch_router",
+      "same_information_direct_action_predictor",
+      "matched_budget_information_acquisition_or_ledger"
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "0052709f6ac9aa98b0e199a75b2d1da0608e974c",
+    "delivery_status": "pending_expected_parent_main_delivery_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
+
