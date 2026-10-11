@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T18:34:54+01:00",
+  "recorded_at": "2026-10-11T20:39:58+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -193,7 +193,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R14 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R13 only with a distinct lawful operation unavailable to the identical lost-coordinate ledger, matched-total-cost advantage, and a native mechanism-identifying record.",
+  "next_action": "Continue R15 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R14 only with genuinely new lawful causal evidence or distributional assumptions, a Delta-specific same-information advantage, and a native mechanism-identifying record.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -953,7 +953,7 @@
       }
     ]
   },
-  "research_next_action": "Continue R12 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R11 only with a lawful semantic selector, a prefix-causal transported query object, matched-total-cost advantage over identical-overlay/direct-action controls, and a native mechanism-identifying record.",
+  "research_next_action": "Continue R15 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R14 only with genuinely new lawful causal evidence or distributional assumptions, a Delta-specific same-information advantage, and a native mechanism-identifying record.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -3410,5 +3410,59 @@
       "all_paths_exact": true,
       "path_count": 15
     }
+  },
+  "repair_R14_v3_observable_equivalence_closure": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+      "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "69faa9df793a91bc6c1303c8dc03a20a4c67ca8c399528f1a92a7db7e6e04538"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R14_V3_OBSERVABLE_EQUIVALENCE_SOURCE_AUDIT.md",
+      "sha256": "804720519bb026bcb15a5aff66947b2933062c5c6a109c1d1d6b1e2477369261"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.math-review.md",
+        "sha256": "4a67469b30b04e03bc2e5a05d0e02942c38cce5fb5653a024029d9b1a09faca4",
+        "reviewer": "/root/r14_v3_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.source-review.md",
+        "sha256": "980e0b69f5c94c347e217b1041b306350659290a4673b27f923294e6f9c29ba2",
+        "reviewer": "/root/r14_v3_sources"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.adversarial-review.md",
+        "sha256": "7b76e1e0c172a2175d8ae75a24d48c484791c327f6871b3aab415dd5a3e18866",
+        "reviewer": "/root/r14_v3_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V3.measurement-review.md",
+        "sha256": "2417b13ceb0add6c26fe8d326c81afbece80a91e46058cb85197ad94cf1abb22",
+        "reviewer": "/root/r14_v3_measurement"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_theorem_control_pending_delivery",
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "scientific_states": {
+      "mathematics": "accepted_scoped_certificate_collapse_TV_risk_floor_equality_and_randomization_boundary",
+      "contribution": "useful_Delta_specific_observable_equivalence_closure_not_new_updater",
+      "measurement": "blocked_for_native_mechanism_validation",
+      "empirical": "unknown_no_execution"
+    },
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "0052709f6ac9aa98b0e199a75b2d1da0608e974c",
+    "delivery_status": "pending_expected_parent_main_delivery_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
+
