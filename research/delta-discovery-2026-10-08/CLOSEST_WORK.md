@@ -416,3 +416,15 @@ v2 的精确恒等式把 (f(\Lambda+kk^\top)-f(\Lambda)) 限制到 (k) 触及的
 - **残余 Delta 专门化**：exact overwrite 的丢失方向为 (ka^	op)，故泄漏缩成 (lVert aVert^2 k^	op Gk)，并得到共同核与谱球的 sharp certificate。
 - **未闭条件**：deployed-law coverage、free-running nonlinear closure、同总成本优于 direct sufficient-coordinate ledger、原生 counterfactual measurement。
 - **处置**：来源审查支持的是窄条件定理和 no-zero-certificate 边界，不支持“首个”或新 updater 声明；candidate delta = 0。
+
+## R18 v2 prefix-causal robust quotient collision
+
+| R18 v2 object | closest primary mechanism/control | residual and decision |
+|---|---|---|
+| prefix-constrained future language and common invisible family | Baştuğ et al. regular-language \(L\)-unobservability, quotient Lemma 4 and automaton Algorithm 2 | decisive identity-level mechanism collision; Delta supplies only the exact-overwrite fiber specialization |
+| fixed realized switching path | Tanwani--Shim--Liberzon switched observability recursion | covers v1 audit path, not a lawful prefix selector |
+| path-conditioned recursive quotient | linear/nonlinear bisimulation, predictive fibers and minimal recurrent behavioral memory | same-labelled-word trace equivalence must not be promoted to general nondeterministic bisimulation |
+| learned/scenario mode family | Berger--Jungers--Wang common invariant-subspace identification | probabilistic near-invariance cannot be upgraded to exact closure without extra assumptions |
+| missing lost behavior | direct sufficient-coordinate ledger \(\operatorname{rank}(O_TP_tK_t)\) | exact same-information affine baseline attains the lower bound |
+
+No inspected native benchmark exposes the mode language, simultaneous conditional coverage, complete-state fibers or counterfactual overwrite reads. R18 v2 is therefore a reviewed theorem/control, not an admitted method.

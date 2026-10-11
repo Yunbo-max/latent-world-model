@@ -428,3 +428,13 @@ R17 v1 的 exact-overwrite 商定理保留，但其“未来查询 Gram”不是
 ### R17 v2 delivery closure
 
 R17 v2 数学卡、来源审计、三路独立最终字节审查及状态文件已在 substantive commit `86e4911f5c706f0b1340c01e5fc70e90541cc35c` 发布；12 个目标路径均从该精确 commit 读回并与提交字节一致。交付收据为 `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V2_DELIVERY_READBACK.json`（SHA256 `117f7eb0868a9d882519fb95665c399f209cf081dd57a74453e18b914db81729`）。计数不变，下一条独立未耗尽修复 lineage 为 R18 v2。
+
+## R18 v2 前缀因果鲁棒递归商空间（2026-10-11）
+
+R18 v1 的完整联合状态递推没有被删除；v2 修补其最早未闭前提：真实未来 suffix 只能用于事后审计，当前写入不能把它当 oracle。修订后，动作前缀必须给出一棵在整个 overwrite fiber 上一致的受约束仿射模式树；递推保留路径耦合，而不是把每一时刻的模式边际集合错误地做笛卡尔积。
+
+对每个树节点，最大共同不可见子空间满足沿合法边的 kernel/intersection/preimage 递推；由此显式构造递归 quotient。有限自动机版本是状态索引子空间族的最大不变 fixed point。当前完整更新线性部为 \(A_t\)、保护入口为 \(P_t\) 时，所有声明旧行为可从更新后状态恢复，当且仅当 \(\ker A_t\subseteq\ker(O_TP_t)\)。若失败，最小实线性 side ledger 宽度精确为 \(\operatorname{rank}(O_TP_tK_t)\)。
+
+修复同时保留了负边界：相同前缀的两个未来若分别读取互补方向，每个 oracle 分支只需一维，但合法鲁棒 quotient 可能必须保留全部状态；一般范数球不确定性也会让精确共同 kernel 退化为零。非线性、hard routing、覆盖失败和有限 horizon 不能被 Jacobian 证书自动解决。
+
+独立最终字节数学、来源、对抗与测量审查通过上述条件定理。Baştuğ 等人的正则语言 switched-system 不可观测子空间、quotient 与 Algorithm 2 是决定性机制碰撞；直接 lost-visible ledger 达到同一线性下界。现有 bAbI、LAMBADA、RULER、BABILong、LongMemEval 只测端点，不原生识别模式语言、覆盖率、overwrite fiber 或 quotient rank。故 R18 v2 在 attempt 2/3 后作为 theorem/debug control park，候选增量 0；实验效果未知，未运行代码或实验。

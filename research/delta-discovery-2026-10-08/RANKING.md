@@ -221,3 +221,9 @@ R16 仍不进入活动池或 top-15。v2 的实质进步是把 v1 的抽象 Kryl
 R17 v2 **不进入活动池或 top-15**。它修复了 v1 的真实因果缺口：未来真实查询 Gram 不能在写入时直接使用。新结果给出 prefix-measurable PSD 预测集合上的 exact robust support、共同核判据、谱球闭式，以及条件均值到 realized-path 的明确概率层次；同时证明有限历史中的全零泄漏不能在无额外支撑假设时认证确定零风险。
 
 排序仍不提升：主要数学机制属于 robust observability、DRO、矩阵浓缩和既有 predictive-quotient/protection controls；direct observable-coordinate ledger 是强同信息对照，原生 benchmark 又不暴露 overwrite counterfactual 与 realized suffix Gram。三路独立最终字节审查仅通过 conditional theorem/debugging control。Attempt 2/3 后 park，候选/科学准入/选择增量均为0，计数保持 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，实验效果未知且未执行。
+
+## R18 v2 ranking disposition (2026-10-11)
+
+R18 v2 does **not** enter the active pool or top-15. It repairs a real causal-information error: the recursively closed quotient is now computed from a prefix-measurable, fiber-uniform constrained affine mode tree, with exact path-conditioned recursion, an automaton-state all-horizon fixed point, a same-prefix robust-compression no-go, and the tight direct-ledger width \(\operatorname{rank}(O_TP_tK_t)\).
+
+The constructive mechanism is nevertheless already covered by regular-language switched-system unobservability/model reduction, classical bisimulation/predictive quotients and functional observers. Exact robustness often collapses to full-state retention; global nonlinear routing, conditional coverage under shift, matched-total-cost advantage and native mechanism measurement remain open. Four-way final-byte review passes only a conditional theorem/debug control. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and no experiment was run.

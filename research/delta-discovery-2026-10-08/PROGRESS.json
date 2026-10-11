@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T10:48:00+01:00",
+  "recorded_at": "2026-10-11T11:55:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R17_v2_causal_predictive_leakage_published_exact_readback_no_candidate",
+  "status": "repair_R18_v2_prefix_causal_robust_quotient_reviewed_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "cd082cdfa3ffddd47ea0603c2773fdebdf516775",
+  "delivery_parent": "23003feefe751b41e521d05ad0b13adcb4bb8892",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -80,7 +80,8 @@
       "sources/EFFECTIVE_RANK_TRUNCATION_SOURCE_AUDIT.md",
       "sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
       "sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
-      "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md"
+      "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
+      "sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -269,7 +270,7 @@
       "R17 v2 repairs the v1 future-Gram oracle by defining a prefix-measurable PSD ambiguity/prediction set. Robust leakage is its support function; common-kernel exact invisibility, the exact spectral-ball support, conditional-mean and pathwise confidence layers, and the finite-sample impossibility of exact zero certification are derived. Independent final-byte reviews pass only a conditional theorem/debugging control; robust observability/DRO/matrix concentration and earlier quotient controls cover the mechanism, native measurement and matched-cost advantage remain open, so candidate delta is zero."
     ]
   },
-  "next_action": "Continue R18 v2 as the earliest independent unexhausted repair lineage. Reopen R17 attempt 3 only with a prefix-valid deployed-law certificate, matched-total-cost advantage over a direct sufficient-coordinate ledger, and a native mechanism-identifying measurement object.",
+  "next_action": "Continue R19 v2 as the earliest independent unexhausted repair lineage. Reopen R18 attempt 3 only with a fiber-constant prefix-valid nonlinear/structured uncertainty construction, a matched-total-cost advantage over regular-language observability Algorithm 2 and the direct ledger, and a native mechanism-identifying measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2161,72 +2162,143 @@
     }
   },
   "repair_R18_recursive_joint_quotient": {
-    "version": "v1",
-    "substantive_attempt": 1,
+    "version": "v2",
+    "substantive_attempt": 2,
     "max_substantive_attempts": 3,
     "lineage_parents": [
-      "repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
-      "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
-      "repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
-      "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md"
+      "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
+      "research/delta-discovery-2026-10-08/sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md",
+      "research/delta-discovery-2026-10-08/repairs/R17_CAUSAL_PREDICTIVE_LEAKAGE_CERTIFICATE.v2.md"
     ],
+    "preserved_version_refs": {
+      "v1": {
+        "version": "v1",
+        "substantive_attempt": 1,
+        "max_substantive_attempts": 3,
+        "lineage_parents": [
+          "repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
+          "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+          "repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
+          "repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md"
+        ],
+        "screen_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R18_REPAIR_LINE_SCREEN.md",
+          "sha256": "5f3032a65f29baa443295246928fe9d846958836cda49618e5542f27c6156df9"
+        },
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
+          "sha256": "c3b32f912637b5ba3f1e6978f0c981d517a3d561736e246a7b2d392011d8f559"
+        },
+        "source_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md",
+          "sha256": "235699ba4d48e4bb427e4b43bb5371f77e6f00875f789b2ed8f92c47d63ae72f"
+        },
+        "math_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.math-review.md",
+          "sha256": "5eb3c0c11a8d456073b0c1bd2cb7d812702f05ee9512d0f26c3efeec6c5ee768",
+          "reviewer": "/root/r18_joint_math"
+        },
+        "source_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.source-review.md",
+          "sha256": "09f469ca159a5d3007f68626a30dc02fe07457821af221a0905f3793cd235c40",
+          "reviewer": "/root/r18_sources",
+          "corroborating_reviewer": "/root/r18_distinctness",
+          "measurement_reviewer": "/root/r18_measurement"
+        },
+        "adversarial_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.adversarial-review.md",
+          "sha256": "18791cf8419f4084ec6f6966cf78be8957e5457fd523453369043f4ebb9f6639",
+          "reviewer": "/root/r18_adversarial"
+        },
+        "status": "independent_final_byte_math_source_measurement_distinctness_adversarial_reviews_passed_conditional_recursive_joint_quotient_control_parked_not_candidate",
+        "mathematical_status": "accepted_complete_update_kernel_backward_invisible_subspace_affine_exact_and_nonlinear_first_order_factorization_control",
+        "contribution_status": "scoped_Delta_joint_state_cross_block_rescue_exposure_debugging_corollary;recursive_quotient_observability_and_behavioral_memory_components_known",
+        "novelty_status": "MAJOR_COMPONENT_COLLISION_SCOPED_DELTA_DEBUGGING_RESIDUAL_ONLY",
+        "measurement_status": "native_endpoints_do_not_expose_paired_joint_state_interventions_J_C_invisible_subspace_or_overwrite_counterfactual_truth",
+        "empirical_status": "unknown_no_execution",
+        "candidate_delta": 0,
+        "disposition": "park_after_attempt_1_conditional_theory_control",
+        "preserved_old_result": "R17_exact_overwrite_old_quotient_condition_remains_correct_for_its_fixed_suffix_scope",
+        "repair_delta": "replace_memory_only_frozen_suffix_with_complete_current_update_kernel_and_full_joint_backward_invisible_subspace;separate_weighted_affine_exact_and_nonlinear_local_claims",
+        "screened_lines": {
+          "recursive_joint_quotient": "completed_R18_parked_as_control",
+          "noisy_probabilistic_quotient": "requires_extra_noise_law_posterior_and_collides_with_Bayes_Kalman_rate_distortion_not_selected",
+          "adaptive_query_probes": "post_write_probes_cannot_split_update_fibers;pre_write_retention_is_charged_side_state;external_probes_change_information_budget_not_selected"
+        },
+        "unclosed": [
+          "A lawful prefix-only quotient construction rather than future-suffix audit information.",
+          "A globally checkable nonlinear congruence across every allowed future input, including discrete routing.",
+          "A matched-total-cost advantage over full JVP/VJP or direct sufficient-coordinate storage.",
+          "Native measurement of paired joint-state overwrite fibers and recursive invisibility rather than downstream endpoints alone.",
+          "Field-wide originality and empirical effect; no execution authorized."
+        ],
+        "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+        "publication_commit": "80aafe57836411ab15f799b252e7dd57e685965b",
+        "delivery_readback_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
+          "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
+        }
+      }
+    },
     "screen_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R18_REPAIR_LINE_SCREEN.md",
-      "sha256": "5f3032a65f29baa443295246928fe9d846958836cda49618e5542f27c6156df9"
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "f0f5266b74f8f56531f395acc1e5d66b4e075a3815408502eb94e6f6160d9411"
     },
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R18_RECURSIVE_JOINT_QUOTIENT.v1.md",
-      "sha256": "c3b32f912637b5ba3f1e6978f0c981d517a3d561736e246a7b2d392011d8f559"
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT.v2.md",
+      "sha256": "df90d64c215268d83d3a499be9e527a994a69d8b8d4a7969fbeffb8618e5f813"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R18_RECURSIVE_JOINT_QUOTIENT_SOURCE_AUDIT.md",
-      "sha256": "235699ba4d48e4bb427e4b43bb5371f77e6f00875f789b2ed8f92c47d63ae72f"
+      "path": "research/delta-discovery-2026-10-08/sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md",
+      "sha256": "4dd3fc6241f398539fcf158974f1a313c5a637eb6266e4428a598a2114d71870"
     },
     "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.math-review.md",
-      "sha256": "5eb3c0c11a8d456073b0c1bd2cb7d812702f05ee9512d0f26c3efeec6c5ee768",
-      "reviewer": "/root/r18_joint_math"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V2.math-review.md",
+      "sha256": "552295a6c749f0611c2b500b9ecdb6ffbe8ecf12bd24a0a27430be1efe80ee74",
+      "reviewer": "/root/r18v2_math_derivation"
     },
     "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.source-review.md",
-      "sha256": "09f469ca159a5d3007f68626a30dc02fe07457821af221a0905f3793cd235c40",
-      "reviewer": "/root/r18_sources",
-      "corroborating_reviewer": "/root/r18_distinctness",
-      "measurement_reviewer": "/root/r18_measurement"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V2.source-review.md",
+      "sha256": "52c94b5119ab781b9eb6efb3a0c103f0fb490e43cb32db2e72af61cdfefa53b7",
+      "reviewer": "/root/r18v2_source_collision",
+      "corroborating_reviewer": "/root/r18v2_measurement"
     },
     "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V1.adversarial-review.md",
-      "sha256": "18791cf8419f4084ec6f6966cf78be8957e5457fd523453369043f4ebb9f6639",
-      "reviewer": "/root/r18_adversarial"
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V2.adversarial-review.md",
+      "sha256": "1604b4ac04c5ddf0c74ece4bbece235d2aeedba2895157ecceba9d599d3c6f3a",
+      "reviewer": "/root/r18v2_adversarial"
     },
-    "status": "independent_final_byte_math_source_measurement_distinctness_adversarial_reviews_passed_conditional_recursive_joint_quotient_control_parked_not_candidate",
-    "mathematical_status": "accepted_complete_update_kernel_backward_invisible_subspace_affine_exact_and_nonlinear_first_order_factorization_control",
-    "contribution_status": "scoped_Delta_joint_state_cross_block_rescue_exposure_debugging_corollary;recursive_quotient_observability_and_behavioral_memory_components_known",
-    "novelty_status": "MAJOR_COMPONENT_COLLISION_SCOPED_DELTA_DEBUGGING_RESIDUAL_ONLY",
-    "measurement_status": "native_endpoints_do_not_expose_paired_joint_state_interventions_J_C_invisible_subspace_or_overwrite_counterfactual_truth",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_robust_quotient_control_parked_not_candidate_pending_delivery",
+    "mathematical_status": "accepted_exact_for_prefix_measurable_fiber_uniform_finite_affine_mode_tree_with_path_conditioned_recursion_automaton_fixed_point_affine_factorization_and_minimal_direct_ledger",
+    "contribution_status": "useful_Delta_exact_overwrite_debugging_theorem_and_same_prefix_robust_compression_no_go_not_new_updater",
+    "novelty_status": "major_regular_language_switched_unobservability_bisimulation_predictive_quotient_and_functional_observer_collision",
+    "measurement_status": "native_endpoints_do_not_expose_prefix_mode_language_coverage_complete_state_fibers_common_kernel_or_counterfactual_overwrite",
     "empirical_status": "unknown_no_execution",
     "candidate_delta": 0,
-    "disposition": "park_after_attempt_1_conditional_theory_control",
-    "preserved_old_result": "R17_exact_overwrite_old_quotient_condition_remains_correct_for_its_fixed_suffix_scope",
-    "repair_delta": "replace_memory_only_frozen_suffix_with_complete_current_update_kernel_and_full_joint_backward_invisible_subspace;separate_weighted_affine_exact_and_nonlinear_local_claims",
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_old_result": "R18 v1 complete-joint finite-horizon invisible-subspace recursion, affine factorization, cross-block rescue/exposure, nonlinear local boundary and direct-ledger rank remain valid in their stated realized-suffix audit scope.",
+    "repair_delta": "Replace the realized-future suffix oracle with a prefix-measurable fiber-uniform constrained affine mode tree; preserve path coupling; derive a causal quotient, automaton greatest fixed point, same-prefix collapse witness and exact lost-visible ledger rank.",
     "screened_lines": {
-      "recursive_joint_quotient": "completed_R18_parked_as_control",
-      "noisy_probabilistic_quotient": "requires_extra_noise_law_posterior_and_collides_with_Bayes_Kalman_rate_distortion_not_selected",
-      "adaptive_query_probes": "post_write_probes_cannot_split_update_fibers;pre_write_retention_is_charged_side_state;external_probes_change_information_budget_not_selected"
+      "prefix_causal_robust_mode_tree": "selected_and_completed_as_R18_v2_conditional_theorem_control",
+      "learned_scenario_invariant_set": "retained_only_as_probability_qualified_near_invariance_lead",
+      "active_probe_mode_acquisition": "parked_as_different_information_action_and_state_budget_problem"
     },
+    "controls": [
+      "Bastug regular-language automaton observability Algorithm 2",
+      "direct pre-write lost-visible ledger of width rank(O_T P_t K_t)",
+      "full branch joint-state JVP/VJP",
+      "same-prefix no-write partial-write soft-preconditioned and direct strength predictor"
+    ],
     "unclosed": [
-      "A lawful prefix-only quotient construction rather than future-suffix audit information.",
-      "A globally checkable nonlinear congruence across every allowed future input, including discrete routing.",
-      "A matched-total-cost advantage over full JVP/VJP or direct sufficient-coordinate storage.",
-      "Native measurement of paired joint-state overwrite fibers and recursive invisibility rather than downstream endpoints alone.",
+      "A deployed prefix-conditional joint or anytime coverage certificate for the admissible mode language under shift.",
+      "A fiber-constant global nonlinear or state-dependent routing congruence beyond local Jacobians.",
+      "A matched-total-cost advantage over regular-language observability dynamic programming and the direct ledger.",
+      "A native mechanism-identifying object exposing mode-language coverage, overwrite fibers and counterfactual reads.",
       "Field-wide originality and empirical effect; no execution authorized."
     ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
-    "publication_commit": "80aafe57836411ab15f799b252e7dd57e685965b",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_DELIVERY_READBACK.json",
-      "sha256": "265da63b1897f3c265a01eaea4088df527f134081c6f3bd83e059a7daecea46a"
-    }
+    "execution": "none_math_source_review_only",
+    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
+    "delivery_parent": "23003feefe751b41e521d05ad0b13adcb4bb8892"
   },
   "repair_R19_switched_protection_fiber": {
     "version": "v1",
