@@ -1172,7 +1172,47 @@
         "path_count": 14
       }
     },
-    "research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json"
+    "research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json",
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+      "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+      "status": "accepted_scoped_terminal_residual_scaled_spectral_certificate_theorem_control_parked_attempt3_exhausted_not_candidate_awaiting_publication_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "87c517c94e2540eba7e64bf588d202672b581488969c8372fc6a34a3641f5bcc"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R17_RESIDUAL_SCALED_SPECTRAL_SOURCE_AUDIT.v3.md",
+        "sha256": "ad288ebffcbf4bd90242265e2117e98370951de88fb806424c91d699bd932f97"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.math-review.md",
+          "sha256": "941518e3349b3f655ad9222a3a878849c0867d8d87be1dbde81b62f1910ed468",
+          "reviewer": "/root/capacity_candidate"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.source-review.md",
+          "sha256": "4b87c81205d4ce0d1c8db327ef2cc90c30fb359b8eed0f35fae2da2e8c08c0c9",
+          "reviewer": "/root/counterfactual_source_audit"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.adversarial-review.md",
+          "sha256": "9a58a226b984f8947a2c5457cc453bd679b2ac4f1c32e17b7e9a630b955afe95",
+          "reviewer": "/root/checksum_revision_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.distinctness-review.md",
+          "sha256": "d5237e16d7b977c9b44db132a944fb12e0873b4ae9460587b33ccc5f8805cd5e",
+          "reviewer": "/root/commutator_candidate"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
+    }
   ],
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",
@@ -1547,5 +1587,83 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R17_v3_residual_scaled_spectral_certificate": {
+    "repair_id": "R17_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R17_PREDICTIVE_QUOTIENT_OVERWRITE.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R17_CAUSAL_PREDICTIVE_LEAKAGE_CERTIFICATE.v2.md",
+      "research/delta-discovery-2026-10-08/repairs/R09_DYNAMIC_PROTECTION_GRAMIAN.v2.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "87c517c94e2540eba7e64bf588d202672b581488969c8372fc6a34a3641f5bcc"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+      "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R17_RESIDUAL_SCALED_SPECTRAL_SOURCE_AUDIT.v3.md",
+      "sha256": "ad288ebffcbf4bd90242265e2117e98370951de88fb806424c91d699bd932f97"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.math-review.md",
+        "sha256": "941518e3349b3f655ad9222a3a878849c0867d8d87be1dbde81b62f1910ed468",
+        "reviewer": "/root/capacity_candidate"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.source-review.md",
+        "sha256": "4b87c81205d4ce0d1c8db327ef2cc90c30fb359b8eed0f35fae2da2e8c08c0c9",
+        "reviewer": "/root/counterfactual_source_audit"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.adversarial-review.md",
+        "sha256": "9a58a226b984f8947a2c5457cc453bd679b2ac4f1c32e17b7e9a630b955afe95",
+        "reviewer": "/root/checksum_revision_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V3.distinctness-review.md",
+        "sha256": "d5237e16d7b977c9b44db132a944fb12e0873b4ae9460587b33ccc5f8805cd5e",
+        "reviewer": "/root/commutator_candidate"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_terminal_residual_scaled_spectral_certificate_theorem_control_parked_not_candidate_awaiting_publication_readback",
+    "scientific_states": {
+      "mathematics": "passed_exact_residual_scaled_frozen_path_energy_one_sided_PSD_spectral_tail_and_safe_gate_conditional_on_already_lawful_prefix_certificate",
+      "contribution": "useful_R17_action_target_repair_and_debugging_theorem_not_new_updater_gate_sketch_or_certificate_generator",
+      "closest_work": "Delta_scalar_gating_observability_Gramians_Eckart_Young_randomized_low_rank_Frequent_Directions_and_internal_R09",
+      "measurement": "native_assets_do_not_identify_paired_no_write_effective_query_Gram_prefix_PSD_coverage_or_matched_ledger",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "preserved_v1_v2": "exact overwrite quotient/rate-distortion boundary and prefix-measurable ambiguity certificate remain preserved with their original counterexamples and reviews",
+    "repair_delta": "narrow arbitrary-pair quotient leakage to the actual no-write-versus-Delta-write action; restore residual norm scaling; compress an already lawful future-Gram upper certificate with a certified one-sided spectral tail; derive a safe scalar gate",
+    "strong_controls": [
+      "direct calibrated scalar upper-score predictor",
+      "global or isotropic scalar bound",
+      "dense k^T U k gate",
+      "ordinary quadratic benefit/interference gate",
+      "R09 inverse-metric edit",
+      "direct protected-coordinate ledger",
+      "ordinary learned scalar Delta gate"
+    ],
+    "unclosed": [
+      "A deployed, prefix-visible and distribution-shift-valid procedure that issues the conditional Loewner certificate.",
+      "A matched-bit and matched-total-cost advantage over scalar, dense and direct-ledger controls.",
+      "A native mechanism-identifying object for paired no-write outcomes, certificate coverage and semantic retain-versus-revise validity.",
+      "Recursive/free-running nonlinear validity with action-dependent future features.",
+      "Field-wide originality and empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "291f4cb6f4d253f058fc6b2b4c157a3026280930",
+    "delivery_status": "prepared_for_expected_parent_main_commit_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }

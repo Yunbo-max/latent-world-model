@@ -493,3 +493,18 @@ v2 已经说明，真实耦合 continuation 下响应次数可能快速增长；
 ### R16 v3 delivery closure
 
 Substantive commit `89f92b1a50da312199698fc644deb88021d077f1` was advanced to literal `main` with expected parent `8f8287cb7a62c8a3314ba5aab80ebbef1e58155e` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R16_V3_DELIVERY_READBACK.json` (SHA256 `b498e02d681fb1dac3453eca0a2de18af3047fac9e0373c79212f4765cd3e279`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit or experiment completion.
+
+
+## R17 v3 — residual-scaled spectral certificate (attempt 3/3)
+
+R17's final repair changes the target from arbitrary overwritten-pair quotient recovery to the actual no-write-versus-Delta-write action. For a frozen/common-exogenous suffix,
+
+\[
+\mathcal I_\omega(\beta)=\beta^2\lVert e\rVert_2^2 k^\top G_\omega k.
+\]
+
+If an already lawful prefix certificate satisfies \(G_\omega\preceq U_t\preceq L_tL_t^\top+\epsilon_t I\), then the deployed score \(s_t=\lVert e\rVert^2(\lVert L_t^\top k\rVert^2+\epsilon_t\lVert k\rVert^2)\) yields the safe gate \(\beta=\min(1,\sqrt{\tau/s_t})\). This is a conditional theorem, not a construction of pointwise conditional coverage and not a semantic retain/revise oracle.
+
+The repair is mathematically useful but has major mechanism collision with learned scalar Delta gating, observability/future-query Gramians, Eckart--Young--Mirsky, randomized low-rank approximation and Frequent Directions. Direct scalar-score/global bounds, dense gating, the ordinary quadratic gate, R09 inverse-metric editing and a protected-coordinate ledger remain mandatory controls. Float-count savings do not establish matched-bit or matched-total-cost advantage; a certificate also has weaker capability than a ledger because it throttles or abstains instead of restoring protected values.
+
+Four independent final-byte reviews passed the stated conditional scope. Native bAbI/LAMBADA/RULER/LongMemEval endpoints do not identify the certificate mechanism, and no experiment was run. R17 is parked after attempt 3/3 with candidate delta 0; active/scientifically admitted/selected counts remain 0. Reopening requires a deployed lawful prefix certificate, matched-total-cost advantage and a native mechanism-identifying measurement. Next substantive line: R18 attempt 3.
