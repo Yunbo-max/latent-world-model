@@ -988,7 +988,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
       "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
-      "status": "accepted_conditional_finite_declared_key_Gram_component_closure_theorem_control_parked_attempt3_exhausted_not_candidate_pending_exact_readback",
+      "status": "accepted_conditional_finite_declared_key_Gram_component_closure_theorem_control_parked_attempt3_exhausted_not_candidate_published_exact_readback_verified",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -1021,8 +1021,16 @@
           "sha256": "047a026587d0c9040cf78211e5dbd217f3eb95a200f8feb71b1a96bd50f050ed",
           "reviewer": "/root/r12_v3_measurement"
         }
-      ]
-    }
+      ],
+      "publication_commit": "4e8effff833f0b553982532a9615b288dc95da14",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json",
+        "sha256": "8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4",
+        "all_paths_exact": true,
+        "path_count": 14
+      }
+    },
+    "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json"
   ],
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",

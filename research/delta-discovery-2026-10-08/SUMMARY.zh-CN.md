@@ -440,3 +440,4 @@ Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact re
 
 所以 R12 第 3/3 次修订到此 park：数学正确、贡献是条件定理/调试控制、候选增量0、实验效果未知。计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行模型代码或实验。下一条接续为 R13 attempt 3。
 
+Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.

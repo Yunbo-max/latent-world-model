@@ -193,7 +193,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "After exact R12 v3 main readback, continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
+  "next_action": "Continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -468,6 +468,18 @@
         "sha256": "a0618e7676b5173020e1897aee93e4072026df47105ad12a26890ed1e0e954fb"
       },
       "scientific_claim": "delivery only; theorem/control not candidate; no experiment"
+    },
+    "delta_math_R12_v3_gram_component_closure": {
+      "substantive_commit": "4e8effff833f0b553982532a9615b288dc95da14",
+      "target": "Yunbo-max/latent-world-model",
+      "branch": "main",
+      "changed_files_read_back": 14,
+      "exact_readback": true,
+      "receipt": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json",
+        "sha256": "8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4"
+      },
+      "scientific_claim": "delivery only; conditional theorem/debug control not candidate; no experiment"
     }
   },
   "skill": {
@@ -3273,7 +3285,7 @@
         "reviewer": "/root/r12_v3_measurement"
       }
     ],
-    "status": "conditional_gram_component_theorem_control_final_byte_reviews_passed_pending_exact_main_readback",
+    "status": "conditional_gram_component_theorem_control_final_byte_reviews_passed_and_published_exact_readback_verified",
     "scientific_states": {
       "mathematics": "passed_scoped_finite_declared_key_family_graph_evaluation_of_v2_least_invariant_carrier_exact_reduced_recurrence_bridge_impossibility_and_leakage_boundary",
       "contribution": "useful_Delta_specific_finite_graph_certificate_and_debugging_boundary_not_new_updater",
@@ -3300,7 +3312,14 @@
       "empirical_effect"
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_parent": "fff24323509375fa79a540895428a34112d36245",
-    "delivery_status": "pending_substantive_commit_and_exact_readback"
+    "delivery_parent": "4e8effff833f0b553982532a9615b288dc95da14",
+    "delivery_status": "published_exact_readback_verified",
+    "publication_commit": "4e8effff833f0b553982532a9615b288dc95da14",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json",
+      "sha256": "8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }

@@ -1,0 +1,98 @@
+{
+  "kind": "exact-byte-delivery-readback",
+  "artifact": "R12_v3_gram_component_closure",
+  "target": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "fff24323509375fa79a540895428a34112d36245",
+  "substantive_commit": "4e8effff833f0b553982532a9615b288dc95da14",
+  "all_paths_exact": true,
+  "path_count": 14,
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_REPAIR_LINE_SCREEN.v3.md",
+      "git_blob": "83289e76799b8c42516a4152c813b8fc804c31a2",
+      "exact": true,
+      "sha256": "9b357b384bb6d142b936aaa7da86ce9ad023ab2a91e8de2b7c886c1cbe5ed6a9"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+      "git_blob": "977696c25ce97e392cf223d688f6d86fb49c8158",
+      "exact": true,
+      "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R12_V3_GRAM_COMPONENT_SOURCE_AUDIT.md",
+      "git_blob": "77c6fc71a8f4f412cb12ec93388000aef6a2c8dc",
+      "exact": true,
+      "sha256": "e39180a3ee83b9764b16b36d24e3620fe36f88d541516d70afca5e4e7627a36a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.math-review.md",
+      "git_blob": "7286ccae2e19737c0da39e80b17724766bee61d6",
+      "exact": true,
+      "sha256": "ee7585d624bd7046405cbf5e75a7e03426094a44163b4c236bb1d3ae40297cba"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.source-review.md",
+      "git_blob": "a8f1c537d832b21250206fa1e957c5d0008c318d",
+      "exact": true,
+      "sha256": "e0e8255de289d3a5b3e98588e48052fd650b0019c8e6b8dfe7441c19c0ae548a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.adversarial-review.md",
+      "git_blob": "420f17713cc6c56a1f95649c68f1b09686513718",
+      "exact": true,
+      "sha256": "dfff2f66bbb3d4451ab14b21a3b930e96978e7abb7a97d391827bd6070f0c133"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V3.measurement-review.md",
+      "git_blob": "f2e92305fe39e8e8df0e661d2ab5c0c82bf17f96",
+      "exact": true,
+      "sha256": "047a026587d0c9040cf78211e5dbd217f3eb95a200f8feb71b1a96bd50f050ed"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "git_blob": "d6d6dcd77e473f4c891f76ece665e8fef816c156",
+      "exact": true,
+      "sha256": "0a754bd15041f36a846e884e52c8a05a82af3a00421b87764a1f8030e5c48d14"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "git_blob": "4a4685cd8763d2e9be02d6ebcdc6b7a9eb51beec",
+      "exact": true,
+      "sha256": "c1bc391bb6b9c72a840e99c64991a4e19861c80827686319c2e63e9351c9ad6f"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "git_blob": "a1e95ccb0641e04bc3c3f0cca98edea4dd35eb1b",
+      "exact": true,
+      "sha256": "4fca976cf70d38d70e1bef522ce09fe421cafb57390a03bdf04a1c1edb61f69c"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "git_blob": "ae04f0b7ec5a74b04a34aca4f136e7e712066c77",
+      "exact": true,
+      "sha256": "4d843d83f30a7e40e69e25449365ae7025ee9dfeede70fc17b5b083eefb4e861"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "git_blob": "a81d36f5909089d8e40c111e27ea97df290851f0",
+      "exact": true,
+      "sha256": "ffce2ce47cc4babfee57fa29d7a59c6744197732da4eb1d1a992683a405e31ce"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "git_blob": "f10c78a9d034a56e9595f97736340669e4f217dc",
+      "exact": true,
+      "sha256": "7d1fd05f7aaaeaaa2a9976d7e64e90749cc4a320f303dd44630b18286653410e"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "git_blob": "eebef2db0426a7a833b21844fd45adf90d4623ef",
+      "exact": true,
+      "sha256": "67d1ff045d70e4cf24f4025c98192529820471ed79e069a66175b6308744b1a1"
+    }
+  ],
+  "verified_at": "2026-10-11T18:34:54+01:00",
+  "scope_note": "Exact byte delivery only; not originality, scientific admission, native measurement, empirical benefit, or experiment completion."
+}

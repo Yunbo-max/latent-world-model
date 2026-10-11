@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R12_v3_attempt_3_final_byte_reviews_passed_conditional_gram_component_control_parked_not_candidate_pending_exact_main_readback",
+  "status": "R12_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "fff24323509375fa79a540895428a34112d36245",
+  "delivery_parent": "4e8effff833f0b553982532a9615b288dc95da14",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -136,6 +136,14 @@
           "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65"
         },
         "status": "conditional_lazy_overlay_closure_debug_theorem_not_candidate"
+      },
+      {
+        "repair_id": "R12_v3",
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b"
+        },
+        "status": "conditional_finite_declared_key_Gram_component_closure_debug_theorem_not_candidate"
       }
     ],
     "new_conditional_theory_leads": [
@@ -338,7 +346,7 @@
       "R12 v3 exhausts attempt 3/3 by evaluating v2's least jointly invariant syndrome carrier for a finite ex-ante declared pure-Delta key family. The unique least carrier is the protected span plus every key in seeded connected components of the non-orthogonality graph, with width rank[Q,K_R]. The theorem includes an exact reduced recurrence, a future bridge impossibility result, and a cumulative leakage boundary showing thresholded edges need conditioning. Four final-byte independent reviews pass only this conditional theorem/control. General invariant quotient/reducing-space/frame-graph theory and internal R18/R09/R10 are major collisions; direct U^T S is algebraically identical, native mechanism measurement is absent, and empirical effect is unknown. Candidate delta zero; R12 is parked."
     ]
   },
-  "next_action": "After exact R12 v3 main readback, continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
+  "next_action": "Continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3911,7 +3919,7 @@
         "reviewer": "/root/r12_v3_measurement"
       }
     ],
-    "status": "conditional_gram_component_theorem_control_final_byte_reviews_passed_pending_exact_main_readback",
+    "status": "conditional_gram_component_theorem_control_final_byte_reviews_passed_and_published_exact_readback_verified",
     "scientific_states": {
       "mathematics": "passed_scoped_finite_declared_key_family_graph_evaluation_of_v2_least_invariant_carrier_exact_reduced_recurrence_bridge_impossibility_and_leakage_boundary",
       "contribution": "useful_Delta_specific_finite_graph_certificate_and_debugging_boundary_not_new_updater",
@@ -3938,7 +3946,14 @@
       "empirical_effect"
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_parent": "fff24323509375fa79a540895428a34112d36245",
-    "delivery_status": "pending_substantive_commit_and_exact_readback"
+    "delivery_parent": "4e8effff833f0b553982532a9615b288dc95da14",
+    "delivery_status": "published_exact_readback_verified",
+    "publication_commit": "4e8effff833f0b553982532a9615b288dc95da14",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json",
+      "sha256": "8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }

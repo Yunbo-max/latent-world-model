@@ -517,3 +517,6 @@ R12 第三次修订没有重新发明 v2 的最小不变 fixed point，而是在
 
 四路最终字节独立审查只通过了限定定理/调试 control。一般 invariant quotient、simultaneous reducing-space/frame-graph 理论与内部 R18/R09/R10 已覆盖主体，且 \(U^TS\) 就是同信息直接坐标，不是新 checksum/updater。R12 attempt 3/3 因此耗尽并 park；candidate delta 为 0，实验效果未知，计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**。下一条最早未耗尽独立 lineage 是 R13 attempt 3。
 
+### R12 v3 delivery closure
+
+Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.

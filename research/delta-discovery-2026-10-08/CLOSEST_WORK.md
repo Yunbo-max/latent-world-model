@@ -515,3 +515,4 @@ Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact re
 - Residual value: an explicit finite-family dimension/cost certificate plus a sharp unseen-bridge and threshold-leakage boundary.
 - Decision: conditional theory/debug control only; attempt 3/3 exhausted, candidate delta 0, empirical effect unknown.
 
+Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
