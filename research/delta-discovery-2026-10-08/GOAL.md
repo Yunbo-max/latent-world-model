@@ -442,3 +442,12 @@ R18 v1 的完整联合状态递推没有被删除；v2 修补其最早未闭前�
 ### R18 v2 delivery closure
 
 Substantive commit `7cb9a1b6153f31ca056208bb9965ebb74ddb52d2` was written to literal `main` with expected parent `23003feefe751b41e521d05ad0b13adcb4bb8892` and `force=false`. All 12 authored paths were fetched at that exact commit; the six new artifacts matched local authored bytes and the six tracker/entry files matched the expected R18 fields or sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R18_V2_DELIVERY_READBACK.json` (SHA256 `c0b992be62fe2f53dc2721c57f91653f32638662218cbcf008db50b7e4bb2e9b`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
+
+
+## R19 v2 前缀因果分支码修订（2026-10-11）
+
+R19 v1 的已实现分支 PSD-kernel 阻塞保持不变；v2 修补其未来分支 oracle。对有限可达状态、破坏性写后映射、前缀声明的合法分支集合和事后可见标签，先检查同一状态在同一标签下是否欠两个不同目标：若是，则任何码长都无解；若否，则最小一发定长零误差 side-code 字母表恰为释放混淆图的色数。两个互补释放分支给出 K4 例子，说明每个已知分支只需 1 bit，并不代表写入前的合法码也只需 1 bit。
+
+独立审查还纠正了线性附加宽度：解码器已经看到写后状态 A，因此最小新增实坐标是 rank([A;B_1;...;B_M])-rank(A)，而不是无条件的 stacked-rank。全路径版本使用相对于 row(A) 的联合行空间。硬 guard 反例、有限精度、着色计算、码本/解码器和完整增广状态成本均被保留。
+
+该正结果直接碰撞于零误差函数计算与 decoder side information；set-valued switched observers、switched observability/R18、saltation 与 path-complete/bisimulation 是强控制。原生 benchmark 不暴露 destructive fiber、合法分支关系、混淆图或配对 counterfactual。故 R19 v2 在 attempt 2/3 后作为 conditional theorem/debug control park，候选增量 0，实证效果未知，未执行代码或实验。

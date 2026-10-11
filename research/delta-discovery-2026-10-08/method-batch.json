@@ -758,6 +758,44 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_V2_DELIVERY_READBACK.json",
         "sha256": "c0b992be62fe2f53dc2721c57f91653f32638662218cbcf008db50b7e4bb2e9b"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md",
+      "sha256": "0d771029d39677e8077b7c23d761c90b2c9ffaecf03b81781a078ec8561ed105",
+      "status": "accepted_conditional_prefix_causal_branch_code_theorem_control_parked_not_candidate_pending_delivery",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v2.md",
+        "sha256": "a934a63d588813c7a94773ecab012e8d0f23063cd1129a71297f6ae334f632a8"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
+        "sha256": "c002bc988c7aab890307e21f9051c1922c1a41ac34aef55e7a090165d6baf7f8"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
+          "sha256": "52698a9c1956959deeb06ec6c947375ba79f0bf1b7d4426dd1c59317022d969d",
+          "reviewer": "/root/r19_v2_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
+          "sha256": "2fa4f47951a357c3f231e934aebc9ae58a48f11388921b3e7b9b0e8487a400f7",
+          "reviewer": "/root/r19_v2_source"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
+          "sha256": "5abf0e5bfccadc8206ccfaa782d81a78f3edc2ed903952cb5b04cbb1480571e5",
+          "reviewer": "/root/r19_v2_adversarial"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md",
+          "sha256": "d23a4b4cb9abbe8ffd93a27e72a59a356f147254bd97648476ce2f8fc3ee530d",
+          "reviewer": "/root/r19_v2_measurement"
+        }
+      ]
     }
   ],
   "counting_policy": {
@@ -798,7 +836,8 @@
       "R13 v2 supplies a reviewed common-affine-decoder block-kernel iff, an invertible hidden-mode Delta witness, and a same-information half-diameter lower bound while explicitly preserving nonlinear piecewise-decoder exceptions. Moreno 2005 simultaneous observation, common matrix equations, generalized inverses and set-membership controls plus the direct ledger leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
       "R15 v2 supplies a reviewed coupled-response degree bound, abstract Delta degree-growth witness and local Taylor trust-region certificate. Saturated polynomial/Volterra identification and same-information DDP/iLQR/GGN/action optimization cover the positive mechanism; lawful prefix certificates, matched cost and native measurement remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R16 v2 supplies a reviewed active-eigenspace exact matrix-function reduction, diagonal-plus-rank-one core and approximate grouping certificate. General symmetric bases retain dense discovery/transform/base-action costs; DPR1, matrix-function, expmv and grouped KDA controls cover the computational mechanism. Zero active/admitted/selected increment; attempt 2/3 is parked.",
-      "R18 v2 supplies a reviewed prefix-causal constrained-mode-tree invisible quotient, automaton greatest fixed point, same-prefix robust-compression no-go and exact direct-ledger rank. Regular-language switched unobservability/Algorithm 2 and bisimulation cover the core mechanism; native mechanism measurement and matched-cost advantage remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked."
+      "R18 v2 supplies a reviewed prefix-causal constrained-mode-tree invisible quotient, automaton greatest fixed point, same-prefix robust-compression no-go and exact direct-ledger rank. Regular-language switched unobservability/Algorithm 2 and bisimulation cover the core mechanism; native mechanism measurement and matched-cost advantage remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
+      "R19 v2 supplies a reviewed finite prefix-causal release-confusability theorem: same-state hidden-label conflicts are infeasible, feasible one-shot exact coding reduces to graph coloring, and the linear extra ledger is quotiented by post-write information. Zero-error function-computation, set-valued-observer, switched-observability/R18 and saltation collisions plus native measurement gaps leave zero active/admitted/selected increment; attempt 2/3 is parked."
     ]
   },
   "counting_policy_repair": {
@@ -829,6 +868,7 @@
     "r15_v2": "Reviewed coupled-response degree and local Taylor certificate theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r16_v2": "Reviewed active-spectral-core exact-reduction and approximate-grouping theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r17_v2": "Reviewed prefix-causal predictive-leakage certificate with exact robust-support/common-kernel and finite-sample boundary; zero active constructed, scientific-admission or selection increment; substantive main commit and exact 12-file readback recorded.",
-    "r18_v2": "Reviewed prefix-causal robust recursive quotient theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r18_v2": "Reviewed prefix-causal robust recursive quotient theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r19_v2": "Reviewed prefix-causal branch-code theorem/debug control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; expected-parent delivery pending exact readback."
   }
 }

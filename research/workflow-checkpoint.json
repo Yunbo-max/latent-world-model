@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T11:58:00+01:00",
+  "recorded_at": "2026-10-11T12:35:28+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -124,7 +124,8 @@
     "R09 bounded repair completed: preserved exact-overwrite/protection no-go and counterexamples, derived the general-matrix finite-budget Pareto certificate, ordinary-Delta minimum-energy endpoint, singular limits, exact dual support and soft correction; three independent exact-final-byte reviews passed conditional accuracy and found direct inverse-Gram/nullspace/AlphaEdit+ collision. No code, execution or new D.",
     "R07 v2 repaired the frozen-reference scope with complete-state first/second directional recursions, costate-weighted dynamics curvature, a Taylor decrease certificate and explicit free-running boundaries. Three independent final-byte reviews passed conditional accuracy and found major adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collision; attempt 2/3 parked, candidate delta zero, no execution.",
     "R11 v2 corrected v1's dense-SVD cost story and its own first-draft midpoint/edit-budget mismatch. For two pure scalar-beta Delta steps, the exact adjacent gap factors as beta_i beta_j(k_i^T k_j)[k_i,k_j][e_j,-e_i]^T; common-prestate residuals are causally reconstructible at the second event, and every weighted optimum reduces to an at-most 2x2 core. Centered and physical-edit Bayes risks now separately expose selector uncertainty, rank tail and plug-in calibration error. Final-byte math/source/adversarial reviews pass only this conditional theorem/control. Ordered Delta/WY, DeltaProduct and generic core-SVD machinery cover the mechanisms; causal G/p, persistent-overlay cost advantage and native semantic measurement remain open. Candidate delta is 0, attempt 2/3 parked, empirical effect unknown.",
-    "R18 v2 repaired the realized-future oracle with a prefix-measurable path-conditioned affine mode tree, derived the exact causal quotient/automaton fixed point and minimal direct-ledger rank, and passed independent final-byte math, source, adversarial and native-measurement review. Major regular-language switched-unobservability/bisimulation collision leaves candidate delta zero; no execution."
+    "R18 v2 repaired the realized-future oracle with a prefix-measurable path-conditioned affine mode tree, derived the exact causal quotient/automaton fixed point and minimal direct-ledger rank, and passed independent final-byte math, source, adversarial and native-measurement review. Major regular-language switched-unobservability/bisimulation collision leaves candidate delta zero; no execution.",
+    "R19 v2 final-byte mathematics/source/adversarial/measurement reviews passed after repairing same-state hidden-branch infeasibility, squared-error scope, and post-write-aware quotient rank; conditional theorem/control only, candidate delta zero."
   ],
   "pending": [
     "Local runs the same-revision full suite and real CPU/CUDA sampling/source-filtered accounting checks; retains actual logs/skips/source/RNG/cost identities. Previous writer/auxiliary/nonempty-retrieval FP16, GradScaler, native and full experiment obligations remain pending.",
@@ -190,7 +191,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R19 v2 as the earliest independent unexhausted repair lineage. Reopen R18 attempt 3 only with a fiber-constant prefix-valid nonlinear/structured uncertainty construction, a matched-total-cost advantage over regular-language observability Algorithm 2 and the direct ledger, and a native mechanism-identifying measurement object.",
+  "next_action": "Continue R07 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R19 attempt 3 only with a structured Delta transition family, a tractable prefix code strictly cheaper than the direct signature/full-state/R18 ledger at matched precision and compute, and a native mechanism-identifying measurement object.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -203,12 +204,7 @@
     "expanded_source_tree": "93fcff37b796a191b19f24edf0ce7ba4e21da622",
     "changed_files_read_back": 63,
     "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
-    "current_invocation_exact_source_readback": {
-      "commit": "d8ee2a98208c9e4e68ceadae11c4fe4d2dc10564",
-      "files": 111,
-      "baseline_and_source_bytes_verified": true,
-      "source_behavior_changed_in_this_followup": false
-    },
+    "current_invocation_exact_source_readback": "pending_after_R19_v2_substantive_commit",
     "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
     "mathematical_reassessment_delivery": {
       "parent_head": "8a623985735e86cde761db45442b4d62f5844662",
@@ -852,7 +848,7 @@
       }
     ]
   },
-  "research_next_action": "Continue R18 v2 as the earliest independent unexhausted repair lineage. Reopen R17 attempt 3 only with a prefix-valid deployed-law certificate, matched-total-cost advantage over a direct sufficient-coordinate ledger, and a native mechanism-identifying measurement object.",
+  "research_next_action": "Continue R07 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R19 attempt 3 only with a structured Delta transition family, a tractable prefix code strictly cheaper than the direct signature/full-state/R18 ledger at matched precision and compute, and a native mechanism-identifying measurement object.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -908,12 +904,12 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R13_v2_robust_common_covector_published_exact_readback_no_candidate",
+    "status": "repair_R19_v2_reviewed_pending_publication_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "11bee1aac0429e0501a5b4d3244bca63d34bdc3b",
+    "current_delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
@@ -1396,7 +1392,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T11:58:00+01:00",
+  "updated_at": "2026-10-11T12:35:28+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2756,5 +2752,75 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json",
       "sha256": "120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f"
     }
+  },
+  "repair_R19_v2_prefix_causal_branch_code": {
+    "repair_id": "R19",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "a934a63d588813c7a94773ecab012e8d0f23063cd1129a71297f6ae334f632a8"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md",
+      "sha256": "0d771029d39677e8077b7c23d761c90b2c9ffaecf03b81781a078ec8561ed105"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
+      "sha256": "c002bc988c7aab890307e21f9051c1922c1a41ac34aef55e7a090165d6baf7f8"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
+        "sha256": "52698a9c1956959deeb06ec6c947375ba79f0bf1b7d4426dd1c59317022d969d",
+        "reviewer": "/root/r19_v2_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
+        "sha256": "2fa4f47951a357c3f231e934aebc9ae58a48f11388921b3e7b9b0e8487a400f7",
+        "reviewer": "/root/r19_v2_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
+        "sha256": "5abf0e5bfccadc8206ccfaa782d81a78f3edc2ed903952cb5b04cbb1480571e5",
+        "reviewer": "/root/r19_v2_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md",
+        "sha256": "d23a4b4cb9abbe8ffd93a27e72a59a356f147254bd97648476ce2f8fc3ee530d",
+        "reviewer": "/root/r19_v2_measurement"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_exact_for_finite_prefix_declared_branch_relation_after_same_state_visible_label_target_single_valued_feasibility_check_with_chromatic_one_shot_code_and_postwrite_quotient_rank",
+      "contribution": "useful_causal_Delta_release_debugging_bridge_and_exact_impossibility_boundary_not_new_updater",
+      "closest_work": "zero_error_function_computation_with_decoder_side_information_set_valued_switched_observers_switched_observability_R18_and_saltation_controls",
+      "measurement": "native_endpoints_do_not_expose_destructive_fiber_branch_relation_confusability_graph_minimum_code_or_paired_same_state_counterfactual",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theorem_control",
+    "preserved_v1": "realized_branch_PSD_kernel_domination_sharp_factor_changed_kernel_jump_and_local_released_ledger_rank",
+    "repair_delta": "replace_future_realized_branch_oracle_with_finite_prefix_declared_branch_relation_visible_label_feasibility_check_and_zero_error_side_code",
+    "strong_controls": [
+      "direct complete released-value signature",
+      "full pre-write state retention",
+      "R18 prefix-robust quotient/direct ledger",
+      "mode-matched set-valued observer bank",
+      "same-information latest-wins KV/replay/full-history controls"
+    ],
+    "unclosed": [
+      "A structured Delta transition family with tractable prefix code.",
+      "Matched-total-cost advantage over direct signature, full state and R18 ledger.",
+      "Native mechanism object exposing branch relation, destructive fiber and paired release counterfactual.",
+      "Approximate/noisy continuous-state extension with explicit distortion, coverage and precision.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
+    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a"
   }
 }

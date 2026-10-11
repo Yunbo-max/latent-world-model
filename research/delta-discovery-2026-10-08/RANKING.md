@@ -227,3 +227,13 @@ R17 v2 **不进入活动池或 top-15**。它修复了 v1 的真实因果缺口�
 R18 v2 does **not** enter the active pool or top-15. It repairs a real causal-information error: the recursively closed quotient is now computed from a prefix-measurable, fiber-uniform constrained affine mode tree, with exact path-conditioned recursion, an automaton-state all-horizon fixed point, a same-prefix robust-compression no-go, and the tight direct-ledger width \(\operatorname{rank}(O_TP_tK_t)\).
 
 The constructive mechanism is nevertheless already covered by regular-language switched-system unobservability/model reduction, classical bisimulation/predictive quotients and functional observers. Exact robustness often collapses to full-state retention; global nonlinear routing, conditional coverage under shift, matched-total-cost advantage and native mechanism measurement remain open. Four-way final-byte review passes only a conditional theorem/debug control. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and no experiment was run.
+
+
+## R19 v2 disposition — prefix-causal branch code
+
+- Pool/selection effect: **none**; counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected.
+- Mathematical value: exact finite zero-error feasibility/coloring characterization and a post-write-aware linear quotient-rank correction.
+- Distinctness: not a new coding theorem or updater; decisive collision with zero-error function computation, plus major set-valued-observer, switched-observability/R18 and saltation controls.
+- Prediction: complementary same-prefix release branches may require strictly more pre-write side state than a realized-branch oracle; a smaller exact code would falsify the scoped theorem.
+- Failure boundary: same-state hidden target ambiguity is impossible for every code; continuous/noisy states, coverage, compute and decoder metadata are outside the exact finite claim.
+- Decision: park after attempt 2/3, candidate_delta=0, empirical effect unknown. Reopen only with a structured tractable Delta family, matched-total-cost advantage and native mechanism measurement.

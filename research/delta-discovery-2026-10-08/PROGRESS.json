@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T11:58:00+01:00",
+  "recorded_at": "2026-10-11T12:35:28+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R18_v2_prefix_causal_robust_quotient_published_exact_readback_no_candidate",
+  "status": "repair_R19_v2_prefix_causal_branch_code_reviewed_pending_publication_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "7cb9a1b6153f31ca056208bb9965ebb74ddb52d2",
+  "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -81,7 +81,8 @@
       "sources/R16_NONCOMMUTING_JOINT_FLOW_SOURCE_AUDIT.md",
       "sources/R16_ACTIVE_SPECTRAL_CORE_SOURCE_AUDIT.v2.md",
       "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
-      "sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md"
+      "sources/R18_PREFIX_CAUSAL_ROBUST_QUOTIENT_SOURCE_AUDIT.v2.md",
+      "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md"
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -224,7 +225,13 @@
       "research/delta-discovery-2026-10-08/sources/R17_CAUSAL_PREDICTIVE_LEAKAGE_SOURCE_AUDIT.v2.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.math-review.md",
       "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.source-review.md",
-      "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.adversarial-review.md"
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R17_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v2.md",
+      "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
+      "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md"
     ],
     "latest_substantive_results": [
       "Derived exact Delta gate-feedback Jacobian and matrix-free JVP/VJP, including the residual-dependent rank-one term lost by frozen-gate analysis.",
@@ -267,10 +274,11 @@
       "R14 v2 replaces the supplied point posterior with a certified interval and proves the exact two-slot minimax action, least-favourable posterior, posterior-misspecification regret, hard one-touch thresholds, invalid-certificate counterexample and a positive-curvature multi-slot QCQP extension. Independent final-byte reviews accept the conditional theorem/control. Gamma-minimax, credal DRO and posterior decision-regret mechanisms cover the method skeleton; the direct minimax router is algebraically identical, native measurement is absent and empirical effect is unknown, so candidate delta is zero and attempt 2 is parked.",
       "R15 v2 repairs v1's frozen quadratic-response scope by propagating an intervention through a coupled continuation. Polynomial transition degrees multiply across the horizon; an abstract unconstrained scalar Delta recurrence realizes degree 2*3^H terminal loss. The saturated coefficient count binom(r+m,m) is explicitly not an inherent Delta rank lower bound. A branch-local quadratic Taylor surrogate has an M3*rho^3/6 remainder and M3*rho^3/3 optimizer-regret certificate. Independent exact-byte math/source/adversarial reviews pass this only as a theorem/debugging control. Polynomial/Volterra design and direct DDP/iLQR/GGN/action optimization cover the positive mechanisms; lawful prefix certificates, matched-cost advantage and native branch-consistent measurement are missing. Candidate delta zero, attempt 2/3 parked, empirical effect unknown.",
       "R16 v2 repairs v1's computation gap conditionally: the exact correction lives in the r-dimensional active eigenspace and reduces to a diagonal-plus-rank-one core; coordinate-diagonal tied groups give O(dm+r^2m+r^2), while general symmetric bases retain discovery, transform and base-action costs. Duhamel grouping certificates are explicit. Independent exact-byte reviews caught and corrected a hidden dense-basis cost overclaim and pass only the final scoped theorem/control. DPR1, matrix-function, expmv, KDA, DeltaProduct and CKDA collisions, no scan closure, no generator evidence and no native measurement leave candidate delta zero; attempt 2/3 is parked and empirical effect remains unknown.",
-      "R17 v2 repairs the v1 future-Gram oracle by defining a prefix-measurable PSD ambiguity/prediction set. Robust leakage is its support function; common-kernel exact invisibility, the exact spectral-ball support, conditional-mean and pathwise confidence layers, and the finite-sample impossibility of exact zero certification are derived. Independent final-byte reviews pass only a conditional theorem/debugging control; robust observability/DRO/matrix concentration and earlier quotient controls cover the mechanism, native measurement and matched-cost advantage remain open, so candidate delta is zero."
+      "R17 v2 repairs the v1 future-Gram oracle by defining a prefix-measurable PSD ambiguity/prediction set. Robust leakage is its support function; common-kernel exact invisibility, the exact spectral-ball support, conditional-mean and pathwise confidence layers, and the finite-sample impossibility of exact zero certification are derived. Independent final-byte reviews pass only a conditional theorem/debugging control; robust observability/DRO/matrix concentration and earlier quotient controls cover the mechanism, native measurement and matched-cost advantage remain open, so candidate delta is zero.",
+      "R19 v2 replaced the illegal realized-branch oracle by a finite prefix-declared branch relation. After an explicit same-state/visible-label target-consistency feasibility check, the minimum exact one-shot side alphabet is the chromatic number of the release-confusability graph; if feasibility fails, no code size works. The linear additional width is the joint release-row dimension modulo post-write visible information. Independent final-byte math/source/adversarial/measurement reviews passed after correcting both theorem-domain and post-write-rank bugs. Known zero-error coding, set-valued observer, switched-observability/R18 and saltation controls leave a conditional debug theorem only; candidate delta zero, empirical effect unknown."
     ]
   },
-  "next_action": "Continue R19 v2 as the earliest independent unexhausted repair lineage. Reopen R18 attempt 3 only with a fiber-constant prefix-valid nonlinear/structured uncertainty construction, a matched-total-cost advantage over regular-language observability Algorithm 2 and the direct ledger, and a native mechanism-identifying measurement object.",
+  "next_action": "Continue R07 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R19 attempt 3 only with a structured Delta transition family, a tractable prefix code strictly cheaper than the direct signature/full-state/R18 ledger at matched precision and compute, and a native mechanism-identifying measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3296,5 +3304,75 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V2_DELIVERY_READBACK.json",
       "sha256": "120e423e1a42558a6db4ee4596810b4a25c4019bf4865ee40674450a1bc1650f"
     }
+  },
+  "repair_R19_v2_prefix_causal_branch_code": {
+    "repair_id": "R19",
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parent": "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "a934a63d588813c7a94773ecab012e8d0f23063cd1129a71297f6ae334f632a8"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md",
+      "sha256": "0d771029d39677e8077b7c23d761c90b2c9ffaecf03b81781a078ec8561ed105"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_V2_PREFIX_BRANCH_CODE_SOURCE_AUDIT.md",
+      "sha256": "c002bc988c7aab890307e21f9051c1922c1a41ac34aef55e7a090165d6baf7f8"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.math-review.md",
+        "sha256": "52698a9c1956959deeb06ec6c947375ba79f0bf1b7d4426dd1c59317022d969d",
+        "reviewer": "/root/r19_v2_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.source-review.md",
+        "sha256": "2fa4f47951a357c3f231e934aebc9ae58a48f11388921b3e7b9b0e8487a400f7",
+        "reviewer": "/root/r19_v2_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.adversarial-review.md",
+        "sha256": "5abf0e5bfccadc8206ccfaa782d81a78f3edc2ed903952cb5b04cbb1480571e5",
+        "reviewer": "/root/r19_v2_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V2.measurement-review.md",
+        "sha256": "d23a4b4cb9abbe8ffd93a27e72a59a356f147254bd97648476ce2f8fc3ee530d",
+        "reviewer": "/root/r19_v2_measurement"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_branch_code_control_parked_not_candidate_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_exact_for_finite_prefix_declared_branch_relation_after_same_state_visible_label_target_single_valued_feasibility_check_with_chromatic_one_shot_code_and_postwrite_quotient_rank",
+      "contribution": "useful_causal_Delta_release_debugging_bridge_and_exact_impossibility_boundary_not_new_updater",
+      "closest_work": "zero_error_function_computation_with_decoder_side_information_set_valued_switched_observers_switched_observability_R18_and_saltation_controls",
+      "measurement": "native_endpoints_do_not_expose_destructive_fiber_branch_relation_confusability_graph_minimum_code_or_paired_same_state_counterfactual",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theorem_control",
+    "preserved_v1": "realized_branch_PSD_kernel_domination_sharp_factor_changed_kernel_jump_and_local_released_ledger_rank",
+    "repair_delta": "replace_future_realized_branch_oracle_with_finite_prefix_declared_branch_relation_visible_label_feasibility_check_and_zero_error_side_code",
+    "strong_controls": [
+      "direct complete released-value signature",
+      "full pre-write state retention",
+      "R18 prefix-robust quotient/direct ledger",
+      "mode-matched set-valued observer bank",
+      "same-information latest-wins KV/replay/full-history controls"
+    ],
+    "unclosed": [
+      "A structured Delta transition family with tractable prefix code.",
+      "Matched-total-cost advantage over direct signature, full state and R18 ledger.",
+      "Native mechanism object exposing branch relation, destructive fiber and paired release counterfactual.",
+      "Approximate/noisy continuous-state extension with explicit distortion, coverage and precision.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
+    "delivery_parent": "361497dc604b7cc02f3c5fe8fcac0917c371555a"
   }
 }

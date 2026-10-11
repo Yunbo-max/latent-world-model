@@ -428,3 +428,16 @@ v2 的精确恒等式把 (f(\Lambda+kk^\top)-f(\Lambda)) 限制到 (k) 触及的
 | missing lost behavior | direct sufficient-coordinate ledger \(\operatorname{rank}(O_TP_tK_t)\) | exact same-information affine baseline attains the lower bound |
 
 No inspected native benchmark exposes the mode language, simultaneous conditional coverage, complete-state fibers or counterfactual overwrite reads. R18 v2 is therefore a reviewed theorem/control, not an admitted method.
+
+
+## R19 v2 closest-work update — prefix-causal branch code
+
+| Component | Closest established mechanism | R19 v2 residual |
+|---|---|---|
+| Feasible finite exact release code | Zero-error function computation with decoder side information; characteristic/confusion graph coloring | Delta-specific mapping and causal debugging interpretation only |
+| Hidden branch/state uncertainty | Mode-matched set-valued observers with residual elimination and survivor union | Explicit destructive-write/release interface, no new estimator |
+| Linear all-path ledger | Switched-system observability/minimal realization and R18 prefix-robust quotient | Post-write-aware one-step quotient-rank corollary |
+| Smooth guard linearization | Saltation matrix with event-time sensitivity | Warning against differentiating arbitrary selectors, no new hybrid tool |
+| Stability over branch families | Path-complete/common Lyapunov and symbolic/approximate-bisimulation controls | Separate recoverability characterization; stability must be rederived on augmented state |
+
+The retained result is a precise conditional boundary, not evidence of originality or effectiveness. Native LongMemEval-family, EvoMemBench, AToKE, SEAL, bAbI/LAMBADA/RULER/BABILong endpoints do not identify the internal graph/fiber objects; measurement remains open.
