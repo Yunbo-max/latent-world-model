@@ -370,3 +370,7 @@ For pure Delta with nonzero gate, this collapses to a sharp key geometry: each k
 
 Independent final-byte math, source and adversarial review corrected two substantive overclaims: composite state-dependent closure does not require every coefficient to be individually fiber-constant, and raw `H` leakage is coordinate-scaled unless `H` is orthonormalized. The result remains a conditional theorem/control, not a new updater. Invariant quotient/bisimulation theory and internal R18 cover the general mechanism; direct coordinates on the same closed space and the full Delta state are mandatory controls. Native tasks do not expose exact fiber closure or semantic-revision identity. R12 v2 is parked after attempt 2/3 with candidate delta zero, empirical effect unknown, and no code or experiment run.
 
+### R12 v2 delivery closure
+
+The initial substantive commit `a5b4f859e8a05f4e471499aaeb187875fce1bf48` exposed connector-output truncation in two large tracker blobs during exact readback; the other ten paths matched. A second expected-parent, non-force commit `0067a6b304e3dc3ecff9b7e734c3fa83183c0aeb` rebuilt only those two blobs from three-byte-aligned chunks. All 12 authored paths then matched SHA256 at the effective substantive commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V2_DELIVERY_READBACK.json` (SHA256 `625006c07a1b950a47f9241cc0875cd2069720a653dee36cf2d66d39efae4a3d`). This verifies delivery bytes only, not originality, admission or empirical benefit.
+

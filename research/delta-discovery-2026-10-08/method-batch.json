@@ -498,7 +498,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R12_AUTONOMOUS_SYNDROME_CLOSURE.v2.md",
       "sha256": "4b7afa4ec82b770fa86e36435d0b4ae5173e4dc94186d161e592a4631175b916",
-      "status": "accepted_conditional_autonomous_syndrome_closure_theorem_control_parked_not_candidate_pending_delivery",
+      "status": "accepted_conditional_autonomous_syndrome_closure_theorem_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
       "empirical_status": "unknown_no_execution",
@@ -523,8 +523,11 @@
           "reviewer": "/root/r12_v2_adversarial_review"
         }
       ],
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "0067a6b304e3dc3ecff9b7e734c3fa83183c0aeb",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V2_DELIVERY_READBACK.json",
+        "sha256": "625006c07a1b950a47f9241cc0875cd2069720a653dee36cf2d66d39efae4a3d"
+      }
     }
   ],
   "counting_policy": {
@@ -587,7 +590,7 @@
     "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; delivery pending expected-parent main and exact readback."
+    "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; effective substantive main delivery and exact readback completed after a non-force correction of two connector-truncated tracker blobs."
   }
 }
 

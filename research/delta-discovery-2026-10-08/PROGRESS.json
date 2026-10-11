@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R12_v2_autonomous_syndrome_pending_delivery_no_candidate",
+  "status": "repair_R12_v2_autonomous_syndrome_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -2865,7 +2865,7 @@
         "reviewer": "/root/r12_v2_adversarial_review"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_conditional_autonomous_syndrome_closure_theorem_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_reviews_passed_conditional_autonomous_syndrome_closure_theorem_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditionally_for_fixed_affine_fiber_closure_pure_Delta_dichotomy_key_family_fixed_point_minimax_error_and_orthonormal_leakage",
       "contribution": "useful_R12_static_to_recursive_target_repair_and_Delta_specialized_boundary_not_new_updater",
@@ -2891,9 +2891,12 @@
       "empirical_effect"
     ],
     "execution": "none_math_source_review_only",
-    "delivery_status": "pending_expected_parent_main_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "effective_substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified_after_two_large_tracker_blobs_were_rebuilt_in_a_non_force_corrective_commit",
+    "publication_commit": "0067a6b304e3dc3ecff9b7e734c3fa83183c0aeb",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V2_DELIVERY_READBACK.json",
+      "sha256": "625006c07a1b950a47f9241cc0875cd2069720a653dee36cf2d66d39efae4a3d"
+    }
   }
 }
 

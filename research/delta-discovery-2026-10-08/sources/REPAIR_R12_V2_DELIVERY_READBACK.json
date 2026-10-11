@@ -1,0 +1,74 @@
+{
+  "kind": "research-math-delivery-readback",
+  "repair_id": "R12",
+  "version": "v2",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_before_delivery": "8ad283b0cadba4fbe6fe74e0d9e9d3360980ad34",
+  "initial_substantive_commit": "a5b4f859e8a05f4e471499aaeb187875fce1bf48",
+  "initial_delivery_issue": "The connector-side local-to-blob transfer truncated two large JSON payloads at its output limit; the other ten paths matched. No mathematical artifact or review byte changed.",
+  "corrective_substantive_commit": "0067a6b304e3dc3ecff9b7e734c3fa83183c0aeb",
+  "effective_substantive_commit": "0067a6b304e3dc3ecff9b7e734c3fa83183c0aeb",
+  "publication_mode": "expected-parent_non-force_main_updates",
+  "exact_commit_readback": true,
+  "all_files_match_authored_sha256": true,
+  "files": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_AUTONOMOUS_SYNDROME_CLOSURE.v2.md",
+      "sha256": "4b7afa4ec82b770fa86e36435d0b4ae5173e4dc94186d161e592a4631175b916"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R12_V2_AUTONOMOUS_SYNDROME_SOURCE_AUDIT.md",
+      "sha256": "3903fd6b35f4b1cff3fb844cf92aae354121b83e210f5787f77aace8f3499c9e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.math-review.md",
+      "sha256": "e8bd23d851b1c266183513563f5a5b069d11c783bcf9decef55b68bd6b6f454a"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.source-review.md",
+      "sha256": "36b89428e0f5fdf74b11b1ad53acf9699bcb85d70ccb0bfded5b27d4df62f683"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.adversarial-review.md",
+      "sha256": "7eb1ae65f8a0daeb61f39e1030ddf651176490b66b77758440fcc19a2c42e620"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "aee30fae5a553cb1ddf3592745a6943e3c76922aa92bed178907b17292455d28"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "74355593834fb57be335da7320f4697672af1acf2b4e5991fcfaeca54433dbb2"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "9510a99bc22415a7dc76a0c9fbd132cbdb055e334b72e8995e2d6a0d5dbd44f1"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "db2ca1ad379c186db88ac3b196a48bb46481b3be76d7c35120546969cf6a2a9e"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "fe3969aed7c720cfcc90252cdd3f67034e21407059e80b9a35989167e251bf90"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "77dfe2d9fb752cbbf9f4af01289f026097aa6ce33764477d50e8b7a1796f6f63"
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "sha256": "4c6c39a7ccfcd2a6b1279a1ce9b6281b9ae2f467083eddc6091b0ab4d7795bcf"
+    }
+  ],
+  "counts_after_delivery": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientifically_admitted": 0,
+    "selected": 0,
+    "candidate_delta": 0
+  },
+  "scientific_scope": "Conditional theorem/control only. Exact readback verifies delivery bytes, not originality, scientific admission or empirical benefit.",
+  "execution": "none_math_source_review_only"
+}
