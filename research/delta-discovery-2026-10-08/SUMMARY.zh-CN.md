@@ -1,5 +1,15 @@
 # Delta 数学发现：修复、候选历史与条件结论
 
+## R18 v3：从“精确商失败”修到“有预算的最小泄漏”
+
+这次不是把 R18 v2 判错。v2 已经正确说明：同一前缀允许的不同未来分支若暴露互补方向，公共精确不可见空间会塌成零，任何精确零泄漏商都必须退化为完整 ledger。v3 保留这个反例，但把目标修成有明确条件的近似问题：对一次固定 destructive map 所合并的 pairwise 状态差 `K alpha`，若 `||alpha||<=R`，rank-`r` side code 保留 `V^T alpha` 后的最坏未来输出能量，精确等于 `R^2 max_pi lambda_max((I-VV^T)G_pi(I-VV^T))`。因此“该保留哪些方向”不再是模糊直觉，而是一个明确 Grassmann min--max；pathwise SVD 给必要下界，common PSD envelope 给安全上界。
+
+一个二维例子说明为何这个区分重要：两条同前缀分支分别只看 `e1` 和 `e2`。只保留一维时，最优斜方向把最坏泄漏降到 `1/2`；公共 envelope `I` 的尾值却只能证到 `1`。所以 envelope 是可靠证书，不是最优解。
+
+最可能失败的地方也被写死了：等式只适用于精确实数 side code；有限位量化要增加 cell/noise 项。它只处理一次固定映射；连续不同方向覆盖需要尚未得到的 constant-width code transition。`beta=1` 的 erased-row 还要求 paired states 共享当前 `k/v/beta`，否则 state-dependent value 可能把“被擦除”信息重新编码。Prefix tree 与 pairwise radius 的 coverage、global nonlinear routing、真正消费 code 的 decoder、matched-total-cost 和原生内部 scorer 都没有。
+
+因此这是一条有价值的 Delta-specific 调试定理，不是新 updater。与 switched observability、balanced truncation、approximate bisimulation、直接 coefficient/protected-coordinate ledger 强碰撞；exact Grassmann 目标没有被伪称为已有逐式先例，也没有反过来被夸成原创性证明。四路独立最终字节审查通过后，R18 在 attempt 3/3 正式 park，候选/准入/选择增量为0。当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，没有运行任何实验。
+
 ## R07 v2：把局部二次动作边际接回完整递归状态
 
 这次修复的不是“真实性 gate”，而是 v1 把冻结参考二次式外推到耦合递归的范围错误。修订后，写入动作先注入完整状态（记忆、更新器、路由、belief、pending feedback 等），再在固定未来策略与共同外生后缀下传播。前向切向/反向 costate 给出精确一阶边际，二阶递推保留 costate 加权的动力学 Hessian；同时给出含余项的有限步下降证书，并修正 `q=0,h<0` 等不定曲率分支。仿射冻结极限精确退化回 v1，因此旧反例和正确阈值都被保留。
@@ -511,3 +521,4 @@ Four independent final-byte reviews passed the stated conditional scope. Native 
 
 
 Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 substantive paths were read back byte-for-byte at that exact commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json` (SHA256 `c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9`).
+

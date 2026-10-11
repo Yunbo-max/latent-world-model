@@ -1,5 +1,11 @@
 # 全池排名尚未到达：当前活动池为零
 
+## R18 v3 排名处置（attempt 3/3 exhausted）
+
+R18 v3 **不进入活动池或 top-15**。正面结果是一个严格的修复而非再次否定：在 exact-real、one-event/fixed-affine-map、prefix 声明路径树和 uniform pairwise radius 下，rank-`r` side ledger 的最坏 fiber leakage 有精确 min--max 公式，pathwise singular-tail 给必要下界，common PSD envelope 给可计算充分上界；互补路径反例证明 envelope 可能保守。
+
+但它没有提供 recurrent updater。有限位编码会扩大 fiber，多次不同方向 overwrite 需要未给出的 constant-width transition，state-dependent `k/v/beta` 必须回到完整 joint map，global nonlinear routing、decoder、matched-total-cost 与 native mechanism scorer 均缺失。主体机制又与 switched observability、balanced truncation、approximate bisimulation 和直接 sufficient-coordinate storage 强碰撞； exact Grassmann objective 仅保留为未作逐式优先权主张的窄数学残余。四路最终字节审查只接受 conditional theorem/debugging control。R18 第3/3次修订后 park，候选、科学准入和选择增量均为0；计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**，`selection_verified=false`，实验未知且未执行。
+
 ## R07 v2 排名处置（2026-10-10）
 
 R07 v2 **不进入活动池或 top-15**。它修复了真实的范围错误：把写入传播到完整递归状态，并保留精确动力学曲率、不定曲率分支、Taylor 余项与自由运行分布边界；在仿射冻结极限又精确恢复 v1，而非删除旧结论。
@@ -338,3 +344,4 @@ Four independent final-byte reviews passed the stated conditional scope. Native 
 
 
 Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 substantive paths were read back byte-for-byte at that exact commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json` (SHA256 `c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9`).
+

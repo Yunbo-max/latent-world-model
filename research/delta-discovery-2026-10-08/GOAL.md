@@ -1,5 +1,11 @@
 # Delta 数学发现后台阶段
 
+## 最新里程碑：R18 v3 有界纤维泄漏 ledger（attempt 3/3）
+
+[R18 v3 修订](repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md)没有删除 v2 的“精确公共不可见空间可能为零”反例，而是把全或无的精确商目标修成一个可量化问题。对 destructive map 合并的 pairwise coefficient difference `alpha`，在明确 `||alpha||<=R`、精确实数 side code 和 prefix 声明的有限仿射路径树下，rank-`r` ledger 的最坏剩余能量精确等于 `R^2 max_pi lambda_max(P_V G_pi P_V)`；最优 ledger 是一个 Grassmann min--max。任意 common PSD envelope 给出安全但可能保守的尾特征值证书；二维互补路径证明最优值可为 `1/2` 而 envelope 只证到 `1`。
+
+四路最终字节审查实际修正了谱尾端点、`beta<1` 的完整映射可逆性、量化误差、连续多次 overwrite 的 code transport、state-dependent `k/v/beta`、pairwise radius 与来源措辞。结果严格限于 exact-real、one-event/fixed-map 的表示定理；finite-bit、constant-width repeated-write recurrence、非线性路由、decoder 接线、matched-total-cost 与原生机制测量均未闭。Switched observability、balanced truncation、approximate bisimulation 与直接 ledger 构成强碰撞；精确 Grassmann 目标未被声称已有逐式先例。故 R18 在第 3/3 次修订后 park，candidate/admission/selection 增量均为0，计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实验未知且未执行。
+
 用户请求：2026-10-08 23:42 Europe/London，Delta 数学推导 10–20 个，后台慢慢推进。
 
 目标取 20 个实质不同候选；完整数学审查后全池排序、默认选择前15。Diffusion可选。阶段仅数学与来源/可行性审查，不含新模型代码或实验。
@@ -588,3 +594,4 @@ Four independent final-byte reviews passed the stated conditional scope. Native 
 
 
 Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 substantive paths were read back byte-for-byte at that exact commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json` (SHA256 `c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9`).
+

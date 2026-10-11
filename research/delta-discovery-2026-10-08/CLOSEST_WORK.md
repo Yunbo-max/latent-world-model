@@ -1,5 +1,11 @@
 # 定向近邻图与阅读边界
 
+## R18 v3 bounded-fiber leakage ledger 的最近工作处置
+
+R18 v3 的一般机制与 switched-system observability、common Gramians、balanced truncation、approximate bisimulation、functional/sufficient-coordinate ledgers 强重合。Petreczky--Wisniewski--Leth 的 common LMI 与 balanced-truncation error bound、Gosea 等的 coupled Lyapunov/balancing、Girard--Pola--Tabuada 的可控精度 approximate bisimulation，均是明确主来源近邻；`emgr` 是真实 trajectory-Gramian 构造接口，DIACRITIC 是环境细化/认证接口，FLA DeltaNet 已有 scalar `beta` gate。
+
+保留的窄差别是把完整 destructive Delta kernel 产生的 coefficient fiber，与同一有限路径族上的 rank-`r` side-code 最坏泄漏精确连接起来，并严格区分 exact Grassmann min--max 与 common-envelope 上界。 bounded search 未定位逐式相同的 exact operator-norm objective，因此不把 “min--max/common-subspace” 类别冒充直接优先权碰撞；但这也不是原创性证明。Direct full ledger、task-specific coordinates、普通 scalar gate、R17 actual-action gate 与 full JVP/VJP 是强对照。缺少 prefix-valid tree/radius、finite-bit 与 repeated-write transport、decoder、matched total cost 和 native mechanism scorer，所以只保留为 `PARTIAL_THEOREM_DELTA`，不进入候选池。
+
 ## R07 v2 完整状态方向边际
 
 R07 v2 最近的数学机制是 full DDP/adjoint sensitivity：写入动作是有限时域 Bellman/local-Q 目标的一维切片，精确二阶导数包含 costate 加权的转移动力学曲率；iLQG/GGN 正是省略该项的近似。Differentiable MPC 提供相同的隐式/固定点伴随计算，MAML 与 learned optimizers 已覆盖通过内层更新求未来损失导数。SEAL、TTT Ouroboros 与 HOPE 分别增加下游损失、延迟结算和多时间尺度/自修改记忆重叠，但都不提供免费的在线 Delta costate oracle。
@@ -589,3 +595,4 @@ Four independent final-byte reviews passed the stated conditional scope. Native 
 
 
 Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 substantive paths were read back byte-for-byte at that exact commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json` (SHA256 `c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9`).
+
