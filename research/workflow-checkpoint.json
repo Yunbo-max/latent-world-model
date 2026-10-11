@@ -206,11 +206,11 @@
     "changed_files_read_back": 63,
     "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
     "current_invocation_exact_source_readback": {
-      "commit": "c3823b3e770d45c46c825a3c059aed0e113deefc",
-      "receipt": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json",
-      "receipt_sha256": "fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20",
+      "commit": "a60b7071cd852d5662e74b733cec616bd7fa07b0",
+      "receipt": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json",
+      "receipt_sha256": "4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1",
       "status": "verified",
-      "scope": "R07 v3 math/source/review/tracker publication; no code or experiment execution"
+      "scope": "R08 v3 math/source/reviews/trackers; no code or experiment execution"
     },
     "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
     "mathematical_reassessment_delivery": {
@@ -455,12 +455,6 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V2_DELIVERY_READBACK.json",
         "sha256": "0cc32a7dac3a02c6372afc07b4d0a549387f55488d3cbedcdd5c55dfac563078"
       }
-    },
-    "pending_r08_v3_publication": {
-      "expected_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
-      "force": false,
-      "status": "pending_exact_readback",
-      "scope": "R08 v3 math/source/reviews/trackers; no code or experiment execution"
     }
   },
   "skill": {
@@ -1451,7 +1445,7 @@
         "reviewer": "/root/r08_v3_final_measurement_review"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_sharp_channel_free_release_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+    "status": "independent_final_byte_reviews_passed_conditional_sharp_channel_free_release_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_binary_state_affine_terminal_margin_unrestricted_Bayes_plausible_channel_envelope_endpoint_support_refinement_rectangular_action_interval_optional_measurement_cost_and_same_record_opposite_action_counterexample",
       "contribution": "useful_sharp_partial_identification_release_certificate_and_debug_control_not_new_updater",
@@ -1480,8 +1474,13 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
-    "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+    "publication_commit": "a60b7071cd852d5662e74b733cec616bd7fa07b0",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json",
+      "sha256": "4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1"
+    }
   },
   "repair_R09_finite_budget_overwrite_protection": {
     "version": "v1",

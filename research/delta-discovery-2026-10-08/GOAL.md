@@ -473,4 +473,4 @@ R08 is repaired through its final bounded attempt. For each action, the affine b
 
 This is a theorem/debugging control, not a new updater. EVPI/EVSI, Blackwell/controlled sensing, partial identification, robust policy and no-overlap OPE cover the generic mechanism; R05 and R18 cover the nearest internal controls. Attempt 3/3 is exhausted, candidate/admission/selection counts remain 5 historical / 0 active / 0 admitted / 0 selected, and empirical effect remains unknown because no code or experiment was run.
 
-Delivery: pending exact main readback.
+Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).

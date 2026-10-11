@@ -461,4 +461,4 @@ The mathematical delta is a sharp conditional certificate, not a novelty claim: 
 
 No native public endpoint inspected supplies randomized keep/release actions, action-specific observation channels, propensities, pre-action margins and identifiable paired temporal outcomes. Direct robust action-value prediction is therefore the strongest same-information control. Candidate delta remains zero; reopen only with a native action record or a lawful non-rectangular Delta restriction that tightens the bound at matched total cost.
 
-Delivery: pending exact main readback.
+Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).

@@ -849,7 +849,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
       "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
-      "status": "accepted_conditional_sharp_channel_free_release_theorem_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+      "status": "accepted_conditional_sharp_channel_free_release_theorem_control_parked_after_attempt_3_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -883,7 +883,12 @@
           "reviewer": "/root/r08_v3_final_measurement_review"
         }
       ],
-      "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9"
+      "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+      "publication_commit": "a60b7071cd852d5662e74b733cec616bd7fa07b0",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json",
+        "sha256": "4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1"
+      }
     }
   ],
   "counting_policy": {

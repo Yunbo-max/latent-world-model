@@ -250,4 +250,4 @@ R08 v3 is retained as a useful conditional theorem/debug control and parked afte
 
 Counts stay unchanged at 5 historical, 0 active, 0 scientifically admitted and 0 selected. The next independent unexhausted lineage is R09 attempt 3.
 
-Delivery: pending exact main readback.
+Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json` (SHA-256 `4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1`).

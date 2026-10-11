@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "substantive_R08_v3_attempt_3_reviewed_pending_expected_parent_publication_and_exact_readback",
+  "status": "R08_v3_attempt_3_published_to_main_and_all_13_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1604,7 +1604,7 @@
         "reviewer": "/root/r08_v3_final_measurement_review"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_sharp_channel_free_release_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_sharp_channel_free_release_control_parked_after_attempt_3_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_binary_state_affine_terminal_margin_unrestricted_Bayes_plausible_channel_envelope_endpoint_support_refinement_rectangular_action_interval_optional_measurement_cost_and_same_record_opposite_action_counterexample",
       "contribution": "useful_sharp_partial_identification_release_certificate_and_debug_control_not_new_updater",
@@ -1633,8 +1633,13 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
-    "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "delivery_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+    "publication_commit": "a60b7071cd852d5662e74b733cec616bd7fa07b0",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R08_V3_DELIVERY_READBACK.json",
+      "sha256": "4bc0d895443b54964671735260045d9744fa28010865d46d23791ea713498df1"
+    }
   },
   "repair_R09_finite_budget_overwrite_protection": {
     "repair_id": "R09",

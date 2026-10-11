@@ -1,0 +1,108 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R08-v3",
+  "recorded_at": "2026-10-11T14:33:35+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+  "substantive_commit": "a60b7071cd852d5662e74b733cec616bd7fa07b0",
+  "publication": {
+    "expected_parent": "67f7060698b9747daa63790ae96d1a7622b8d6b9",
+    "force": false,
+    "success": true
+  },
+  "all_substantive_paths_exact_readback_verified": true,
+  "substantive_path_count": 13,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "319f2764b5bc70cbb6578100116f222b06c26dfcbdf5b841a49bc647fa4af857",
+      "git_blob_sha": "3badd097092ed073c2628c6c9cc0e01b0f5027d1",
+      "bytes": 2467
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+      "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+      "git_blob_sha": "227f52614d02fc2eb3f2ea7d4a1f813bfe56c26d",
+      "bytes": 16268
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R08_V3_SHARP_CHANNEL_FREE_SOURCE_AUDIT.md",
+      "sha256": "9219fa540321752a60f3acefa44799546a8c645eedc6216457a9d515155332f7",
+      "git_blob_sha": "27b5171443f17288e5145d4d697d94739518f812",
+      "bytes": 14357
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.math-review.md",
+      "sha256": "d11712b8ef4f3860f6cf0edca934db6e34934bbeb5ba5112ecf23e56cc685e1a",
+      "git_blob_sha": "215c80817c5866e2e0e7079c3256e582e4b506f9",
+      "bytes": 1488
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.source-review.md",
+      "sha256": "69e1f55ee00f1fa0ae491b8a717844fd48e66e367e1c11560384325d15e2bbb9",
+      "git_blob_sha": "f7ad1dad195cd13763681c94322e23414ab2a5b1",
+      "bytes": 1869
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.adversarial-review.md",
+      "sha256": "7616a4f6622a1b909364b40a2dc1006183a016250a5628e11859fe41fcbb8c5a",
+      "git_blob_sha": "ffb1a73756cfcffbd3aa4913c93d526251691196",
+      "bytes": 1514
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R08_V3.measurement-review.md",
+      "sha256": "a32a678389cd645c0f902ff9819b5b0636dc66482f805c13564f9eb482e233fc",
+      "git_blob_sha": "0c891e0a2ae0bb958f0d4e9317690f38189284fc",
+      "bytes": 1456
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "d460d97e5ce94de5996db3981d67104b935eb90fdf804979a55da95b116c21d6",
+      "git_blob_sha": "f792d96f05a3e9c9c8c2dfb4673612ba9b15646c",
+      "bytes": 242782
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "967083d440a6aa83e84bb9d8b043ee0f8b99c3a0bbf8c33e78379e91627371b2",
+      "git_blob_sha": "c054ee688424ef5dafed1a340745428c05c9137d",
+      "bytes": 61972
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "ae6378f59c66c2b6b47d22b757d66bfba6d3475e620c42ae69c251330d3f3eb7",
+      "git_blob_sha": "6449c09526d0aeb7f653b169fa0aaa9df75b7a0e",
+      "bytes": 89740
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "ed9de6988a8a16e8461908a4b595a98d17fd1c2cb7506805a0e2b3d19fe54702",
+      "git_blob_sha": "1a03be69446788ee8892f1d43fbb1514c7863b89",
+      "bytes": 74794
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "d708e36823a60d9089a92f9a4f1d820c0e98502f0697c6f232e46a7b24d77e25",
+      "git_blob_sha": "a0aed273af8a703c8c667fe3e77e2975759f0e4f",
+      "bytes": 41342
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "d35fe70901150b3558c04126ae9fea591ad2bd6490f718d470e36b39fd361521",
+      "git_blob_sha": "78c4fab3efd3ec00ff2fe96eff434f8ec141fa0f",
+      "bytes": 192597
+    }
+  ],
+  "semantic_checks": {
+    "final_byte_math_review": "PASS_CONDITIONAL",
+    "final_byte_source_review": "PASS_CONDITIONAL",
+    "final_byte_adversarial_review": "PASS_CONDITIONAL",
+    "final_byte_measurement_review": "PASS_CONDITIONAL",
+    "candidate_delta": 0,
+    "substantive_attempt": "3/3_exhausted",
+    "counts": "5_historical_0_active_0_admitted_0_selected"
+  },
+  "scientific_scope": "Sharp channel-free information-value envelope, rectangular action-difference certificate, optional-measurement accounting, same-record no-overlap counterexample, source/collision/native-measurement audit and four independent final-byte reviews.",
+  "execution": "none_math_source_measurement_review_only"
+}
