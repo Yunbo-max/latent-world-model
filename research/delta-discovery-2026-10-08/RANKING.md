@@ -310,3 +310,9 @@ R15 v3 不进入 active pool 或 top-15。它完成了 v2 最早未闭前提：�
 最终状态：attempt 3/3 exhausted；四路最终字节审查通过限定数学、来源/原创性、对抗与测量范围；`candidate_delta=0`；计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected。下一条是 R16 attempt 3。
 
 Delivery closure: substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`).
+
+## R16 v3 ranking disposition (2026-10-11)
+
+R16 v3 does **not** enter the active pool or top-15. It proves a useful sharp boundary: rank-one token-local active cores can accumulate to full chunk width even for commuting PSD-exponential factors. A common reducing carrier gives an exact associative active core, but only together with a separately closed and charged complement, and the resulting computation is exactly the same as a direct reduced affine recurrence.
+
+Generic affine scan, ordered Delta/WY, low-rank maintenance and internal R10/R11/R12 cover the main mechanism. The released Martin--Cundy CUDA is diagonal-only, so no dense-core runtime advantage is established. The route still lacks a natural prefix-known small carrier, independent reason for the simultaneous generator, semantic retain/revise evidence and native mechanism measurement. Four independent final-byte reviews therefore support only a terminal conditional theorem/control. Attempt 3/3 is exhausted; candidate/admission/selection deltas remain zero. Next: R17 attempt 3.

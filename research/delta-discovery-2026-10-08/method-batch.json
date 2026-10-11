@@ -1126,6 +1126,46 @@
         "all_paths_exact": true,
         "path_count": 14
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+      "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+      "status": "accepted_scoped_terminal_shared_carrier_scan_theorem_control_parked_attempt3_exhausted_not_candidate_pending_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "7f76f5a07255f57087dbac1bc715978d5d9a55a499d76b8ed792a9206f569b81"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R16_V3_SHARED_CARRIER_SCAN_SOURCE_AUDIT.md",
+        "sha256": "e58768e3c40dc7ca8c26a7e0926a5b9a8b811b01401c83c543fdd99597407465"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.math-review.md",
+          "sha256": "9f428d12e1d31ac2ed079aee2c60bf5edf9b89e0b34e02a10459a633f23a1be0",
+          "reviewer": "/root/commutator_compensation_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.source-review.md",
+          "sha256": "1d3bce3f714f972f0f81f6a51b88c58757e56b168d391060ee9a052531a1351f",
+          "reviewer": "/root/counterfactual_source_audit"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.adversarial-review.md",
+          "sha256": "b4fd652ebb3606e85c7f7febff6318f96ed7185d2e7fc1b6c0c01abbd061362a",
+          "reviewer": "/root/commutator_candidate"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.measurement-review.md",
+          "sha256": "457e36e608b5e3f9812d2cbfc4d28398ca9f8131fb3b0237b2d7f4db05832805",
+          "reviewer": "/root/counterfactual_source_math"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -1419,6 +1459,82 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R16_v3_shared_carrier_scan": {
+    "repair_id": "R16_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R16_NONCOMMUTING_JOINT_FLOW.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R16_ACTIVE_SPECTRAL_CORE.v2.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "7f76f5a07255f57087dbac1bc715978d5d9a55a499d76b8ed792a9206f569b81"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+      "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R16_V3_SHARED_CARRIER_SCAN_SOURCE_AUDIT.md",
+      "sha256": "e58768e3c40dc7ca8c26a7e0926a5b9a8b811b01401c83c543fdd99597407465"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.math-review.md",
+        "sha256": "9f428d12e1d31ac2ed079aee2c60bf5edf9b89e0b34e02a10459a633f23a1be0",
+        "reviewer": "/root/commutator_compensation_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.source-review.md",
+        "sha256": "1d3bce3f714f972f0f81f6a51b88c58757e56b168d391060ee9a052531a1351f",
+        "reviewer": "/root/counterfactual_source_audit"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.adversarial-review.md",
+        "sha256": "b4fd652ebb3606e85c7f7febff6318f96ed7185d2e7fc1b6c0c01abbd061362a",
+        "reviewer": "/root/commutator_candidate"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R16_V3.measurement-review.md",
+        "sha256": "457e36e608b5e3f9812d2cbfc4d28398ca9f8131fb3b0237b2d7f4db05832805",
+        "reviewer": "/root/counterfactual_source_math"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_shared_carrier_scan_theorem_control_pending_publication_readback",
+    "scientific_states": {
+      "mathematics": "passed_scoped_exact_telescopes_sharp_cumulative_rank_shared_carrier_affine_scan_and_natural_flow_recompression_bound",
+      "contribution": "useful_R16_specific_theorem_debug_boundary_not_new_updater_or_scan_primitive",
+      "closest_work": "generic_affine_scan_Delta_WY_common_invariant_carriers_low_rank_maintenance_and_internal_R10_R11_R12",
+      "measurement": "native_assets_do_not_identify_exact_product_width_prefix_known_carrier_recompression_or_semantic_revision",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "preserved_v1_v2": "simultaneous_flow_endpoint_active_spectral_core_and_DPR1_boundary",
+    "repair_delta": "derive_exact_sequence_product_ledger_sharp_commuting_rank_growth_common_reducing_carrier_scan_and_scoped_recompression_certificate",
+    "strong_controls": [
+      "identical_direct_r_dimensional_affine_recurrence_and_scan_with_same_complement",
+      "full_dense_affine_composition",
+      "ordered_Delta_WY",
+      "grouped_KDA",
+      "sequential_DPR1_or_exponential_action",
+      "R11_factor_ledger_and_QR_SVD_recompression",
+      "DeltaProduct"
+    ],
+    "unclosed": [
+      "A lawful naturally occurring prefix-known low-dimensional carrier or another exact closed representation.",
+      "A matched-total-cost advantage including dense-core interface basis complement backward precision and traffic.",
+      "Independent scientific justification for the simultaneous generator.",
+      "A native mechanism-identifying record for carrier width and retain-versus-revise validity.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "8f8287cb7a62c8a3314ba5aab80ebbef1e58155e",
+    "delivery_status": "pending_expected_parent_non_force_publication_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
-

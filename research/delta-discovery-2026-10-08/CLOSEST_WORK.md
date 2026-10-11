@@ -555,3 +555,15 @@ Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`;
 有限 jet 下界不证明任意具体 Delta 网络都实现该 pair，也不排除值域或 no-write 的松弛保证。正面修复需要外部 smoothness/degree certificate 或真实 trial outcome；这些条件与成本必须同样给直接优化对照。故 R15 attempt 3/3 exhausted，`candidate_delta=0`，不进入 active pool/top-15。
 
 Delivery closure: substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`).
+
+## R16 v3 shared-carrier scan closest-work disposition
+
+| R16 object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| affine chunk pair | Martin--Cundy affine scan theory | R16 frozen joint-flow specialization | known scan algebra |
+| ordered Delta factors | Delta/WY author implementation | simultaneous exponential remains different | strong implementation control |
+| common reducing carrier | internal R10/R12; invariant-subspace theory | sharp PSD-exponential commuting width witness | theorem/debug residual |
+| lazy factors and recompression | internal R11; QR/SVD maintenance | natural-flow contraction certificate | known maintenance family |
+| positive (r)-core | identical direct reduced affine recurrence | no extra information or operation | not a new updater |
+
+The pinned Martin--Cundy CUDA interface is only diagonal/elementwise; it is not evidence of a dense (r	imes r) implementation. The full summary also includes an independently closed and charged complement. Four final-byte reviews pass only the scoped theorem/control. Attempt 3/3 is exhausted; candidate delta is zero and empirical effect is unknown.

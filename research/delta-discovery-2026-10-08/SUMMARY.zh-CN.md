@@ -479,3 +479,13 @@ v2 已经说明，真实耦合 continuation 下响应次数可能快速增长；
 因此 R15 在第 3/3 次实质修订后 park：留下有限-jet 不可辨识性定理与明确重开条件，候选增量0；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知，没有运行代码或实验。下一步转到 R16 attempt 3。
 
 交付闭环：实质内容已以旧 `main` 头 `072433bb5301ca8ae15a79e8122ba1d87c33f142` 为 expected parent、`force=false` 推进到 `51f48c750b2212675e9e41df2f4b1b780d102f6d`；14 个路径均从该精确提交读回且字节一致。收据：`sources/REPAIR_R15_V3_DELIVERY_READBACK.json`（SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`）。这只证明交付，不证明原创性、科学准入、原生测量有效性或实验收益。
+
+## R16 v3：单步小核不会自动变成序列小核
+
+这轮实际修了 v2 留下的关键问题。对每个 token，联合指数与纯 decay 的差可以落在很小的 active core；但把很多 token 连起来时，这些方向会累积。最直接的反例甚至不需要非交换：依次使用正交 key，每步 correction 都是秩1，整个 chunk 的 correction 却精确达到秩 (H)。所以“每步低秩”不能当作“整段固定低秩”的证明。
+
+正面边界也写清了：如果所有 key 和 decay 共享一个事先声明的 reducing carrier，就能把 active 部分做成精确的 (r) 维 affine scan；但补空间仍必须独立闭合并计费。若补空间或基是稠密的，总成本仍可能很高。离线 executor 可以读取已经给定的完整 chunk 来找基，但那不是固定的在线因果状态，basis discovery、存储和重构都不能免费。
+
+独立审查还修正了来源接口：Martin--Cundy 论文支持一般 affine scan 理论，但其公开 CUDA 只实现逐坐标/对角递推；不能拿来证明 dense (r	imes r) core 已有高效实现。最终数学通过的是条件定理和调试边界，不是新 updater。它与 direct reduced affine recurrence、Delta/WY、R10/R11/R12 和低秩维护强重合，也没有新的 retain/revise 证据、原生机制测量或匹配总成本优势。
+
+因此 R16 第 3/3 次修订后 park：候选增量0，实际效果未知，计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行模型代码或实验。下一步接续 R17 attempt 3。

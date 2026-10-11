@@ -558,3 +558,11 @@ R15 在第 3/3 次实质修订后以终止 theorem/control park，候选增量0�
 ### R15 v3 delivery closure
 
 Substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d` was advanced to literal `main` with expected parent `072433bb5301ca8ae15a79e8122ba1d87c33f142` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R16 v3 shared-carrier scan boundary (2026-10-11)
+
+R16 attempt 3/3 closes v2's earliest exact-scan gap. Exact ordered telescopes show that token-local correction ranks add in a lazy ledger. A legal commuting example with orthogonal keys has rank-one token cores but chunk-correction rank (H), so small per-token active spectra do not imply fixed sequence width. Under a declared common reducing carrier, the natural flow has an exact associative (r)-core affine scan together with an independently closed and charged complement action. Natural-flow recompression also has the exact transported-error recursion (F_t=E_tF_{t-1}+R_t).
+
+Four independent final-byte reviews passed after two real source/scope repairs: the invariant-hull family and offline/online distinction were made explicit, and Martin--Cundy's general paper theorem was separated from its diagonal-only released CUDA interface. The positive construction is still the identical direct reduced affine recurrence; generic affine scan, Delta/WY, R10/R11/R12 and low-rank maintenance cover the main mechanism. No causal retain/revise evidence, native mechanism record, matched-total-cost advantage or empirical result exists.
+
+R16 is therefore parked after attempt 3/3 as a conditional theorem/control. Candidate delta is 0; counts remain **5 historical / 0 active / 0 scientifically admitted / 0 selected**. Next independent lineage: R17 attempt 3.
