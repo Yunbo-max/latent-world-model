@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T11:55:00+01:00",
+  "recorded_at": "2026-10-11T11:58:00+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1396,7 +1396,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T11:55:00+01:00",
+  "updated_at": "2026-10-11T11:58:00+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2103,7 +2103,7 @@
       "sha256": "1604b4ac04c5ddf0c74ece4bbece235d2aeedba2895157ecceba9d599d3c6f3a",
       "reviewer": "/root/r18v2_adversarial"
     },
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_robust_quotient_control_parked_not_candidate_pending_delivery",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_prefix_causal_robust_quotient_control_parked_not_candidate_published_exact_readback",
     "mathematical_status": "accepted_exact_for_prefix_measurable_fiber_uniform_finite_affine_mode_tree_with_path_conditioned_recursion_automaton_fixed_point_affine_factorization_and_minimal_direct_ledger",
     "contribution_status": "useful_Delta_exact_overwrite_debugging_theorem_and_same_prefix_robust_compression_no_go_not_new_updater",
     "novelty_status": "major_regular_language_switched_unobservability_bisimulation_predictive_quotient_and_functional_observer_collision",
@@ -2132,8 +2132,13 @@
       "Field-wide originality and empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_pending_expected_parent_main_and_exact_readback",
-    "delivery_parent": "23003feefe751b41e521d05ad0b13adcb4bb8892"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "delivery_parent": "23003feefe751b41e521d05ad0b13adcb4bb8892",
+    "publication_commit": "7cb9a1b6153f31ca056208bb9965ebb74ddb52d2",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_V2_DELIVERY_READBACK.json",
+      "sha256": "c0b992be62fe2f53dc2721c57f91653f32638662218cbcf008db50b7e4bb2e9b"
+    }
   },
   "repair_R19_switched_protection_fiber": {
     "version": "v1",

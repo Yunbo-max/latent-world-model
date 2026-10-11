@@ -438,3 +438,7 @@ R18 v1 的完整联合状态递推没有被删除；v2 修补其最早未闭前�
 修复同时保留了负边界：相同前缀的两个未来若分别读取互补方向，每个 oracle 分支只需一维，但合法鲁棒 quotient 可能必须保留全部状态；一般范数球不确定性也会让精确共同 kernel 退化为零。非线性、hard routing、覆盖失败和有限 horizon 不能被 Jacobian 证书自动解决。
 
 独立最终字节数学、来源、对抗与测量审查通过上述条件定理。Baştuğ 等人的正则语言 switched-system 不可观测子空间、quotient 与 Algorithm 2 是决定性机制碰撞；直接 lost-visible ledger 达到同一线性下界。现有 bAbI、LAMBADA、RULER、BABILong、LongMemEval 只测端点，不原生识别模式语言、覆盖率、overwrite fiber 或 quotient rank。故 R18 v2 在 attempt 2/3 后作为 theorem/debug control park，候选增量 0；实验效果未知，未运行代码或实验。
+
+### R18 v2 delivery closure
+
+Substantive commit `7cb9a1b6153f31ca056208bb9965ebb74ddb52d2` was written to literal `main` with expected parent `23003feefe751b41e521d05ad0b13adcb4bb8892` and `force=false`. All 12 authored paths were fetched at that exact commit; the six new artifacts matched local authored bytes and the six tracker/entry files matched the expected R18 fields or sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R18_V2_DELIVERY_READBACK.json` (SHA256 `c0b992be62fe2f53dc2721c57f91653f32638662218cbcf008db50b7e4bb2e9b`). This verifies delivery bytes only, not originality, candidate admission, native measurement or empirical benefit.
