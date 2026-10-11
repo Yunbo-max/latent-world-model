@@ -1085,7 +1085,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
       "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
-      "status": "accepted_scoped_terminal_finite_jet_certificate_boundary_theorem_control_parked_attempt3_exhausted_not_candidate_pending_publication_readback",
+      "status": "accepted_scoped_terminal_finite_jet_certificate_boundary_theorem_control_parked_attempt3_exhausted_not_candidate_published_exact_readback_verified",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -1119,8 +1119,13 @@
           "reviewer": "/root/r15_v3_measurement_review"
         }
       ],
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "51f48c750b2212675e9e41df2f4b1b780d102f6d",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V3_DELIVERY_READBACK.json",
+        "sha256": "7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458",
+        "all_paths_exact": true,
+        "path_count": 14
+      }
     }
   ],
   "counting_policy": {
@@ -1401,14 +1406,19 @@
         "reviewer": "/root/r15_v3_measurement_review"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_pending_publication_readback",
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_published_exact_readback",
     "candidate_delta": 0,
     "disposition": "park_attempt3_exhausted_terminal_theorem_control",
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "072433bb5301ca8ae15a79e8122ba1d87c33f142",
-    "delivery_status": "pending_expected_parent_main_update_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "51f48c750b2212675e9e41df2f4b1b780d102f6d",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_V3_DELIVERY_READBACK.json",
+      "sha256": "7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }
 
