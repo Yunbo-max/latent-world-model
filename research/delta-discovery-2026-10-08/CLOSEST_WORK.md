@@ -477,3 +477,17 @@ Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact re
 The source audit supports a conditional theorem/debug control only. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect is unknown.
 
 Delivery: substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json` (SHA-256 `5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5`).
+
+
+## R10 v3 invariant residual carrier
+
+| Object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| fixed exact carrier (A_omega U=UB_omega) | Berger--Jungers--Wang common invariant subspaces | Delta-ordered leakage formula | direct theorem collision |
+| affine minimal carrier | Pontes Duff--Grundel--Benner switched reachability | explicit quantization-injection seed | specialized debug closure |
+| restricted mode family | Baştuğ et al. exact restricted-language reduction | prefix-lawful natural family still missing | conditional escape only |
+| low-rank switching | Schulze--Unger envelope-system MOR | noncommuting rank-one full-width witness | useful counterexample, not updater |
+| transported quantization residual | ESS, Ohno fixed-rate feedback, Zheng QEF, recurrent write-back, DAMP/STEPQuant | fixed-carrier Delta specialization | mechanism collision |
+| moving basis | direct low-rank augmented recurrent state | must charge basis/gauge/QR/traffic | no matched-cost advantage |
+
+The source and implementation audit is pinned to exact paper versions and FLA, GatedDeltaNet, and STEPQuant paths. No exact formula duplicate was found for the Delta leakage/witness, but both are immediate specializations inside established families. Originality/admission therefore fails; the result remains a conditional theorem/control.

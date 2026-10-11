@@ -933,6 +933,46 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json",
         "sha256": "5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+      "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_invariant_residual_carrier_boundary_parked_not_candidate_pending_delivery",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R10_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "a29bc3c5921768dbc4ee91fb89aab3bd38ac6dcb6fc7c666772b113abeb2edf9"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R10_V3_INVARIANT_RESIDUAL_CARRIER_SOURCE_AUDIT.md",
+        "sha256": "056ce512aaf123fe66a3d95a71b869a8d7713bd0f5889a7538bf86ec881be04c"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.math-review.md",
+          "sha256": "44314d45fedc2885565bd1b15ab035a7b9366591e6ea654c984aa11f27d278a8",
+          "reviewer": "/root/r10_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.source-review.md",
+          "sha256": "3e4c59aa90c5a877064dae04aebd2b0d126e9c657dcf48b065d51610e21bc4fe",
+          "reviewer": "/root/r10_sources"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.adversarial-review.md",
+          "sha256": "f69d6f41c638b50a6f57393ac851b3cd1b47a9650084827159b4614b22fc0001",
+          "reviewer": "/root/r10_adversary_v3"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.measurement-review.md",
+          "sha256": "d0a1ce7e06f20c4a8d5ccad34b502eaac9c6a1af4f83b54a903fb8820289a0f6",
+          "reviewer": "/root/r10_measurement"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -974,7 +1014,8 @@
       "R15 v2 supplies a reviewed coupled-response degree bound, abstract Delta degree-growth witness and local Taylor trust-region certificate. Saturated polynomial/Volterra identification and same-information DDP/iLQR/GGN/action optimization cover the positive mechanism; lawful prefix certificates, matched cost and native measurement remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R16 v2 supplies a reviewed active-eigenspace exact matrix-function reduction, diagonal-plus-rank-one core and approximate grouping certificate. General symmetric bases retain dense discovery/transform/base-action costs; DPR1, matrix-function, expmv and grouped KDA controls cover the computational mechanism. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R18 v2 supplies a reviewed prefix-causal constrained-mode-tree invisible quotient, automaton greatest fixed point, same-prefix robust-compression no-go and exact direct-ledger rank. Regular-language switched unobservability/Algorithm 2 and bisimulation cover the core mechanism; native mechanism measurement and matched-cost advantage remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
-      "R19 v2 supplies a reviewed finite prefix-causal release-confusability theorem: same-state hidden-label conflicts are infeasible, feasible one-shot exact coding reduces to graph coloring, and the linear extra ledger is quotiented by post-write information. Zero-error function-computation, set-valued-observer, switched-observability/R18 and saltation collisions plus native measurement gaps leave zero active/admitted/selected increment; attempt 2/3 is parked."
+      "R19 v2 supplies a reviewed finite prefix-causal release-confusability theorem: same-state hidden-label conflicts are infeasible, feasible one-shot exact coding reduces to graph coloring, and the linear extra ledger is quotiented by post-write information. Zero-error function-computation, set-valued-observer, switched-observability/R18 and saltation collisions plus native measurement gaps leave zero active/admitted/selected increment; attempt 2/3 is parked.",
+      "R10 v3 supplies a reviewed fixed-carrier common-invariance criterion, Delta-ordered leakage, affine injection hull, and noncommuting full-width witness. Standard invariant-subspace/switched-reachability/model-reduction and error-feedback collisions plus matched-cost and native-measurement gaps leave zero active/admitted/selected increment; the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {
@@ -1006,6 +1047,7 @@
     "r16_v2": "Reviewed active-spectral-core exact-reduction and approximate-grouping theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r17_v2": "Reviewed prefix-causal predictive-leakage certificate with exact robust-support/common-kernel and finite-sample boundary; zero active constructed, scientific-admission or selection increment; substantive main commit and exact 12-file readback recorded.",
     "r18_v2": "Reviewed prefix-causal robust recursive quotient theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r19_v2": "Reviewed prefix-causal branch-code theorem/debug control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r19_v2": "Reviewed prefix-causal branch-code theorem/debug control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r10_v3": "Reviewed invariant-residual-carrier boundary theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; final-byte reviews passed and expected-parent delivery pending."
   }
 }

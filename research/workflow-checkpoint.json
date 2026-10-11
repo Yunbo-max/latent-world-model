@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T15:37:19+01:00",
+  "recorded_at": "2026-10-11T16:35:48+01:00",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -192,7 +192,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R10 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R09 only with a prefix-lawful structural carrier/continuation law, matched-total-cost advantage over direct robust action prediction and generic switched-observability controls, and a native randomized action-level measurement object.",
+  "next_action": "Continue R11 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R10 only with a natural prefix-lawful restricted mode/injection family, controlled tail and saturation, matched-total-cost advantage over direct projected or low-rank augmented state, and a native mechanism object.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -701,6 +701,42 @@
       "identity": "/root/full_chain_review",
       "source": "rounds/full-plan-2026-10-08/INTEGRATION_SOURCE_REVIEW.md",
       "status": "completed_source_only"
+    },
+    {
+      "identity": "/root/r10_math",
+      "role": "R10_v3_math_final_byte_review",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.math-review.md",
+      "sha256": "44314d45fedc2885565bd1b15ab035a7b9366591e6ea654c984aa11f27d278a8",
+      "bound_math_sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "bound_source_sha256": null,
+      "decision": "conditional_pass_not_candidate"
+    },
+    {
+      "identity": "/root/r10_sources",
+      "role": "R10_v3_source_final_byte_review",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.source-review.md",
+      "sha256": "3e4c59aa90c5a877064dae04aebd2b0d126e9c657dcf48b065d51610e21bc4fe",
+      "bound_math_sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "bound_source_sha256": "056ce512aaf123fe66a3d95a71b869a8d7713bd0f5889a7538bf86ec881be04c",
+      "decision": "conditional_pass_not_candidate"
+    },
+    {
+      "identity": "/root/r10_adversary_v3",
+      "role": "R10_v3_adversarial_final_byte_review",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.adversarial-review.md",
+      "sha256": "f69d6f41c638b50a6f57393ac851b3cd1b47a9650084827159b4614b22fc0001",
+      "bound_math_sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "bound_source_sha256": null,
+      "decision": "conditional_pass_not_candidate"
+    },
+    {
+      "identity": "/root/r10_measurement",
+      "role": "R10_v3_measurement_final_byte_review",
+      "artifact": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.measurement-review.md",
+      "sha256": "d0a1ce7e06f20c4a8d5ccad34b502eaac9c6a1af4f83b54a903fb8820289a0f6",
+      "bound_math_sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "bound_source_sha256": "056ce512aaf123fe66a3d95a71b869a8d7713bd0f5889a7538bf86ec881be04c",
+      "decision": "conditional_pass_not_candidate"
     }
   ],
   "resumed_from_full_plan": {
@@ -855,7 +891,7 @@
       }
     ]
   },
-  "research_next_action": "Continue R07 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R19 attempt 3 only with a structured Delta transition family, a tractable prefix code strictly cheaper than the direct signature/full-state/R18 ledger at matched precision and compute, and a native mechanism-identifying measurement object.",
+  "research_next_action": "Continue R11 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R10 only with a natural prefix-lawful restricted mode/injection family, controlled tail and saturation, matched-total-cost advantage over direct projected or low-rank augmented state, and a native mechanism object.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -1399,7 +1435,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T15:37:19+01:00",
+  "updated_at": "2026-10-11T16:35:48+01:00",
   "repair_R08_temporal_validity_release": {
     "repair_id": "R08",
     "version": "v3",
@@ -1523,43 +1559,109 @@
     }
   },
   "repair_R10_equal_bit_transported_residual": {
-    "version": "v2",
-    "substantive_attempt": 2,
+    "repair_id": "R10",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
     "lineage_parents": [
       "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
       "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md"
     ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "a29bc3c5921768dbc4ee91fb89aab3bd38ac6dcb6fc7c666772b113abeb2edf9"
+    },
     "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
-      "sha256": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08"
+      "path": "research/delta-discovery-2026-10-08/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+      "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47"
     },
     "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
-      "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
+      "path": "research/delta-discovery-2026-10-08/sources/R10_V3_INVARIANT_RESIDUAL_CARRIER_SOURCE_AUDIT.md",
+      "sha256": "056ce512aaf123fe66a3d95a71b869a8d7713bd0f5889a7538bf86ec881be04c"
     },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
-      "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
-      "reviewer": "/root/r10_v2_math_review"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
-      "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
-      "reviewer": "/root/r10_v2_source_review"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
-      "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
-      "reviewer": "/root/r10_v2_adversarial_review"
-    },
-    "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_published_exact_readback",
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.math-review.md",
+        "sha256": "44314d45fedc2885565bd1b15ab035a7b9366591e6ea654c984aa11f27d278a8",
+        "reviewer": "/root/r10_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.source-review.md",
+        "sha256": "3e4c59aa90c5a877064dae04aebd2b0d126e9c657dcf48b065d51610e21bc4fe",
+        "reviewer": "/root/r10_sources"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.adversarial-review.md",
+        "sha256": "f69d6f41c638b50a6f57393ac851b3cd1b47a9650084827159b4614b22fc0001",
+        "reviewer": "/root/r10_adversary_v3"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V3.measurement-review.md",
+        "sha256": "d0a1ce7e06f20c4a8d5ccad34b502eaac9c6a1af4f83b54a903fb8820289a0f6",
+        "reviewer": "/root/r10_measurement"
+      }
+    ],
+    "mathematical_status": "accepted_conditional_fixed_carrier_invariance_Delta_ordered_leakage_affine_invariant_hull_error_recurrence_and_noncommuting_full_width_witness",
+    "contribution_status": "major_collision_with_common_invariant_subspaces_switched_reachability_model_reduction_error_feedback_and_internal_R09_R16_R18",
+    "measurement_status": "native_endpoints_do_not_expose_carrier_closure_leakage_tail_rank_basis_cost_or_semantic_attribution",
+    "empirical_status": "unknown_no_execution",
+    "candidate_admission": 0,
     "candidate_delta": 0,
-    "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
-    "publication_commit": "2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V2_DELIVERY_READBACK.json",
-      "sha256": "2700bae2e2d3bab87b8c394c1c67fa6a4f1dbdf21752597b0d3f38d0dcd12bda"
+    "disposition": "park_after_attempt_3_exhausted_conditional_boundary_theorem",
+    "preserved_old_result": "v1 equal-bit capacity boundary and v2 residual-law/spectral controls remain; finite residual storage and endogenous quantization defects remain explicit",
+    "repair_delta": "replace_full_width_transition_matched_residual_with_a_fixed_lowrank_carrier_then_derive_exact_common_invariance_Delta_leakage_affine_injection_closure_accumulated_error_and_a_legal_noncommuting_full_width_witness",
+    "unclosed": [
+      "A natural prefix-lawful restricted mode and injection family with a provably small carrier.",
+      "Matched total state, metadata, traffic and compute advantage over direct projected or low-rank augmented state.",
+      "A controlled new-defect tail and clipping/saturation theorem, including moving-basis finite precision if used.",
+      "An affordable native object separating carrier closure from semantic utility.",
+      "Empirical effect; no execution authorized."
+    ],
+    "delivery_status": "final_byte_reviews_passed_pending_expected_parent_main_delivery",
+    "publication_commit": null,
+    "delivery_readback_ref": null,
+    "preserved_version_refs": {
+      "v2": {
+        "version": "v2",
+        "substantive_attempt": 2,
+        "lineage_parents": [
+          "research/delta-discovery-2026-10-08/repairs/R10_EQUAL_BIT_TRANSPORTED_RESIDUAL.v1.md",
+          "research/delta-discovery-2026-10-08/rejected/D04_COMPENSATION_COLLISION.md"
+        ],
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md",
+          "sha256": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08"
+        },
+        "source_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
+          "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
+        },
+        "math_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
+          "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
+          "reviewer": "/root/r10_v2_math_review"
+        },
+        "source_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
+          "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
+          "reviewer": "/root/r10_v2_source_review"
+        },
+        "adversarial_review_ref": {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
+          "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
+          "reviewer": "/root/r10_v2_adversarial_review"
+        },
+        "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_published_exact_readback",
+        "candidate_delta": 0,
+        "execution": "none_math_source_review_only",
+        "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+        "publication_commit": "2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655",
+        "delivery_readback_ref": {
+          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V2_DELIVERY_READBACK.json",
+          "sha256": "2700bae2e2d3bab87b8c394c1c67fa6a4f1dbdf21752597b0d3f38d0dcd12bda"
+        }
+      }
     }
   },
   "repair_R11_order_gap_compression": {

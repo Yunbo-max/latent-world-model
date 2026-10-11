@@ -259,3 +259,10 @@ R09 v3 does **not** enter the active pool or top-15. It makes a real repair: it 
 Ranking does not improve because constrained-language switched observability/quotients and switched-Gramian model reduction cover the main carrier mechanism; R18/R16/R11/R20 cover the nearest internal content; a small carrier still needs its PSD core; direct robust action/Q prediction is the same-information baseline; and native causal measurement plus matched-total-cost advantage are absent. Four independent final-byte reviews pass only a conditional theorem/control. Attempt 3/3 is exhausted and parked, candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown with no execution. The next independent unexhausted lineage is R10 attempt 3.
 
 Delivery: substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json` (SHA-256 `5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5`).
+
+
+## R10 v3 ranking decision (2026-10-11)
+
+R10 v3 does **not** enter the active pool or top-15. It converts v2's open low-rank question into a precise boundary: exact fixed compression is equivalent to a common invariant carrier that contains every admissible injection direction, approximate compression pays an explicit transported leakage, and a legal noncommuting Delta family can force full width.
+
+The theorem is useful for debugging but its constructive object is standard invariant-subspace/switched-reachability/model-reduction machinery. Moving bases erase the fixed-carrier no-go only by becoming an ordinary costed low-rank augmented state; new quantization defects can be full rank; no lawful natural prefix family, matched-total-cost advantage, or native mechanism scorer is available. Four exact-byte reviews pass conditional correctness and the measurement gap only. Attempt 3/3 is exhausted, candidate/admission/selection deltas remain zero, and empirical effect is unknown.

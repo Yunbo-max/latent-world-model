@@ -486,3 +486,12 @@ R09 的第 3/3 次修订把“单个已实现 suffix 的低秩 Gramian”改成�
 ### R09 v3 delivery closure
 
 Substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` was written to literal `main` with expected parent `77f25334fff828a9e5a584e5949f45d957ead13c` and `force=false`. All 13 authored paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json` (SHA256 `5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5`). This verifies delivery only, not originality, candidate admission, native measurement validity or empirical benefit.
+
+
+## R10 v3 invariant residual carrier milestone (2026-10-11)
+
+R10 attempt 3/3 preserves v1/v2 and repairs the remaining full-width-residual question. For a fixed orthonormal carrier (U), exact transport under the real ordered Delta transition (A_t=(I-eta_tk_tk_t^	op)D_t) holds exactly when ((I-UU^	op)A_tU=0). The v3 child derives the projected core, exact leakage, accumulated error including off-carrier injections, and the affine invariant hull seeded by both initial residual and every allowed new defect.
+
+A legal noncommuting family of rank-one Delta modes can force any common carrier containing a declared dense residual direction to have width (d). The result is scoped: moving bases can preserve one realized low-rank path, but their basis state, traffic, factor precision, QR and dense core costs must be charged; new elementwise quantization residuals can also jump from rank one to full rank. Future keys/Gramians remain unlawful deployment inputs, and the frozen left-state theorem is not a full-network Jacobian guarantee.
+
+Independent final-byte math, source, adversarial and measurement reviews pass only this conditional boundary/debug theorem. Common invariant subspaces, switched reachability/model reduction, classical error feedback and packet-internal R09/R16/R18 are major collisions. Existing native tasks do not isolate closure/leakage from endpoint utility. Candidate delta is 0, empirical effect is unknown, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and R10 is parked after attempt 3/3. No code, model or scorer was executed.
