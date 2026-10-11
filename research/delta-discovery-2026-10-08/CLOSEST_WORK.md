@@ -541,3 +541,15 @@ R14 v3 的主体工具分别与三类公开理论相撞：Barber 对 binary cond
 保留的窄贡献是精确的 Delta-slot 特化：两端 posterior 区间退化概率 `(1-2 alpha-delta)_+`，同信息更新器的锐 TV-only 风险下界 `(1-delta)lambda/(1+lambda)`，`delta=0` 与 v2 对称写的精确等号，以及连续动作与 deterministic/randomized hard-action 的边界。最强同信息对照仍是直接 Bayes/minimax router 或 direct action/loss predictor；新 ID、时间戳、延迟标签、active query 与 ledger 均属于新增信息/状态，必须等成本提供给对照。R14 exhausted 后不进入 active pool 或 top-15。
 
 Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R14_V3_DELIVERY_READBACK.json` (SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`).
+
+## R15 v3 finite-jet certificate boundary 的最近工作处置
+
+| 对象 | 最近工作/强对照 | R15 v3 保留差异 | 处置 |
+|---|---|---|---|
+| 零动作处有限 jet | 多项式 response surface；Volterra/局部系统识别 | 同 jet 的非负对抗 pair 与固定半径 regret floor | 有用的信息边界，不是 updater |
+| 有界高阶导数下的局部保证 | Cartis--Gould--Toint 高阶 Taylor 正则化 | compact-ball 双侧余项与 optimizer-regret sandwich 的 packet 推导 | 正面机制已知 |
+| trial acceptance | deterministic/probabilistic trust-region model accuracy | 明确指出 branch-consistent outcome 是新增信息 | 强控制而非同信息突破 |
+| 递归动作优化 | DDP/iLQR/GGN、直接 action/Q predictor | Delta 语境的有限-jet 失败边界 | 主机制碰撞 |
+| 可测性 | empirical per-dose means、随机 OPE/Settlement、端点 benchmark | joint jet/envelope/free-running counterfactual 仍不由原生 scorer 暴露 | measurement gap |
+
+有限 jet 下界不证明任意具体 Delta 网络都实现该 pair，也不排除值域或 no-write 的松弛保证。正面修复需要外部 smoothness/degree certificate 或真实 trial outcome；这些条件与成本必须同样给直接优化对照。故 R15 attempt 3/3 exhausted，`candidate_delta=0`，不进入 active pool/top-15。
