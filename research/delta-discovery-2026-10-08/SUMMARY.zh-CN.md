@@ -467,3 +467,13 @@ Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to lit
 因此 R14 在第 3/3 次实质修订后正式 park：留下一个有用的证书坍缩与风险下界定理，不升级为新候选；实际效果未知，没有运行代码或实验。下一步转到 R15 的最后一次修订，而不是继续给 R14 换名循环。
 
 交付闭环：实质内容已以旧 `main` 头 `0052709f6ac9aa98b0e199a75b2d1da0608e974c` 为 expected parent、`force=false` 推进到 `3bd31945097eefe9d58a8a79feea45facb206a03`；14 个路径均从该精确提交读回且字节一致。收据：`sources/REPAIR_R14_V3_DELIVERY_READBACK.json`（SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`）。这只证明交付，不证明原创性、科学准入、原生测量有效性或实验收益。
+
+## R15 v3：局部导数不是半径证书，第三次修订到这里应当停
+
+v2 已经说明，真实耦合 continuation 下响应次数可能快速增长；但它仍留下一个希望：也许只看当前点的有限阶导数，就能选出一个安全的非零动作半径。v3 把这个希望直接检验了。对任意只使用同一 prefix 和零动作处 `p` 阶 jet 的规则，可以构造两种非负未来损失：它们在当前点到 `p` 阶完全一样，却在球的相反方向更优。于是规则至少在一个世界里承担显式 regret；仅凭有限 jet 不能得到非平凡、与未知尺度无关的固定半径保证。
+
+真正可修复的地方也保留了。若能在整个动作球附近合法证明 `(p+1)` 阶导数统一有界，Taylor 余项和动作 regret 都有可计算上界；若响应确实是已知低次数多项式，完整 jet 能识别它；若知道损失范围或允许不写，也有松弛安全界；若像 trust region 那样实际试一个动作并读到 branch-consistent outcome，则是新增证据，而不是从导数里凭空推出证书。
+
+这条线的数学边界通过四路独立最终字节审查，但不成为新 updater。高阶正则化/trust-region、DDP/iLQR/GGN、直接 action/Q predictor、经验 dose means 和 OPE 是强对照。现有 Open Bandit Pipeline、Ouroboros、LongMemEval、bAbI、LAMBADA、RULER 可以测日志动作或行为端点，却不提供 joint jet、全局包络和所有 free-running 分支结果。
+
+因此 R15 在第 3/3 次实质修订后 park：留下有限-jet 不可辨识性定理与明确重开条件，候选增量0；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知，没有运行代码或实验。下一步转到 R16 attempt 3。
