@@ -1081,7 +1081,47 @@
         "path_count": 15
       }
     },
-    "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json"
+    "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json",
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+      "status": "accepted_scoped_terminal_finite_jet_certificate_boundary_theorem_control_parked_attempt3_exhausted_not_candidate_pending_publication_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 3,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v3.md",
+        "sha256": "510e6c36279ebebe730f66c4d16f0a2e9746858793e5bc13f937c11810f23074"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R15_V3_FINITE_JET_CERTIFICATE_SOURCE_AUDIT.md",
+        "sha256": "ce02eca12e00251a9a76464d68e8e6f9b12517cbf31cdb1a927a9c3a6bb4800a"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.math-review.md",
+          "sha256": "db194c5faaed7d8157311ecd76d809bcda531e57908470656d3cf266044e4407",
+          "reviewer": "/root/r15_v3_math_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.source-review.md",
+          "sha256": "7204bf6136ad1dd4d55b45c4d1d32bb0e828f87c65af3ddd0931ead5948d7c9f",
+          "reviewer": "/root/r15_v3_source_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.adversarial-review.md",
+          "sha256": "c370af785dd82cbb2777371def5b6497fb0a2823b08473c31a687a2a34b37eaa",
+          "reviewer": "/root/r15_v3_adversarial_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.measurement-review.md",
+          "sha256": "d197dc1b614bd335c8af873a12107c5e04a0b7986f3474d9ec7f5647c7ac936e",
+          "reviewer": "/root/r15_v3_measurement_review"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
+    }
   ],
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",
@@ -1120,6 +1160,7 @@
       "R12 v2 supplies a reviewed recursive autonomous-syndrome closure iff, pure-Delta key dichotomy, key-family fixed point, exact minimax one-step error and normalized leakage diagnostic. Invariant quotient/bisimulation and R18 collisions plus the same-width direct-coordinate control leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
       "R13 v2 supplies a reviewed common-affine-decoder block-kernel iff, an invertible hidden-mode Delta witness, and a same-information half-diameter lower bound while explicitly preserving nonlinear piecewise-decoder exceptions. Moreno 2005 simultaneous observation, common matrix equations, generalized inverses and set-membership controls plus the direct ledger leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
       "R15 v2 supplies a reviewed coupled-response degree bound, abstract Delta degree-growth witness and local Taylor trust-region certificate. Saturated polynomial/Volterra identification and same-information DDP/iLQR/GGN/action optimization cover the positive mechanism; lawful prefix certificates, matched cost and native measurement remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
+      "R15 v3 exhausts attempt 3/3 by proving that a finite p-jet at the no-write point cannot alone support a nontrivial scale-free optimizer certificate on a fixed positive action radius: two nonnegative response losses share the same visible prefix and jet yet force an explicit odd/even minimax regret floor. Uniform derivative envelopes, exact degree caps, declared range bounds, or new trial outcomes are sufficient repairs, but the positive mechanisms collide with high-order Taylor/trust-region and direct-action controls. Four independent final-byte reviews pass the scoped theorem/control. Native mechanism measurement and matched-cost advantage remain absent; candidate delta zero and empirical effect unknown.",
       "R16 v2 supplies a reviewed active-eigenspace exact matrix-function reduction, diagonal-plus-rank-one core and approximate grouping certificate. General symmetric bases retain dense discovery/transform/base-action costs; DPR1, matrix-function, expmv and grouped KDA controls cover the computational mechanism. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R18 v2 supplies a reviewed prefix-causal constrained-mode-tree invisible quotient, automaton greatest fixed point, same-prefix robust-compression no-go and exact direct-ledger rank. Regular-language switched unobservability/Algorithm 2 and bisimulation cover the core mechanism; native mechanism measurement and matched-cost advantage remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R19 v2 supplies a reviewed finite prefix-causal release-confusability theorem: same-state hidden-label conflicts are infeasible, feasible one-shot exact coding reduces to graph coloring, and the linear extra ledger is quotiented by post-write information. Zero-error function-computation, set-valued-observer, switched-observability/R18 and saltation collisions plus native measurement gaps leave zero active/admitted/selected increment; attempt 2/3 is parked.",
@@ -1321,6 +1362,53 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R15_v3_finite_jet_certificate_boundary": {
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "510e6c36279ebebe730f66c4d16f0a2e9746858793e5bc13f937c11810f23074"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R15_V3_FINITE_JET_CERTIFICATE_SOURCE_AUDIT.md",
+      "sha256": "ce02eca12e00251a9a76464d68e8e6f9b12517cbf31cdb1a927a9c3a6bb4800a"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.math-review.md",
+        "sha256": "db194c5faaed7d8157311ecd76d809bcda531e57908470656d3cf266044e4407",
+        "reviewer": "/root/r15_v3_math_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.source-review.md",
+        "sha256": "7204bf6136ad1dd4d55b45c4d1d32bb0e828f87c65af3ddd0931ead5948d7c9f",
+        "reviewer": "/root/r15_v3_source_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.adversarial-review.md",
+        "sha256": "c370af785dd82cbb2777371def5b6497fb0a2823b08473c31a687a2a34b37eaa",
+        "reviewer": "/root/r15_v3_adversarial_review"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V3.measurement-review.md",
+        "sha256": "d197dc1b614bd335c8af873a12107c5e04a0b7986f3474d9ec7f5647c7ac936e",
+        "reviewer": "/root/r15_v3_measurement_review"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_terminal_finite_jet_theorem_control_pending_publication_readback",
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "072433bb5301ca8ae15a79e8122ba1d87c33f142",
+    "delivery_status": "pending_expected_parent_main_update_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
 
