@@ -805,7 +805,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
       "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
-      "status": "accepted_conditional_factor_core_joint_margin_theorem_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+      "status": "accepted_conditional_factor_core_joint_margin_theorem_control_parked_after_attempt_3_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -839,7 +839,12 @@
           "reviewer": "/root/r07v3_measurement"
         }
       ],
-      "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06"
+      "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06",
+      "publication_commit": "c3823b3e770d45c46c825a3c059aed0e113deefc",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json",
+        "sha256": "fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20"
+      }
     }
   ],
   "counting_policy": {

@@ -463,3 +463,7 @@ R07 第三次也是本 lineage 最后一次有证据的数学修订，修掉了�
 
 旧反例没有被删除：一个合法的状态依赖 gate 已足以让冻结模型的一阶决策符号反转。冻结核到真实耦合递推的误差一般是一阶，只有额外的一阶抵消才能得到二阶包络，而且 tube、tail 与常数必须在动作前合法获得。四路独立最终字节审查只通过了条件定理/调试 control；weighted least squares、Khatri--Rao/Hadamard Gram、condensed MPC、DDP/differentiable MPC、Delta/WY 与 DeltaProduct 已覆盖主要机制，原生 benchmark 又不提供联合内部动作对象。故 R07 attempt 3/3 已耗尽并 park，候选增量为 0，计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected；实验效果未知，未执行代码或实验。
 
+### R07 v3 delivery closure
+
+Substantive commit `c3823b3e770d45c46c825a3c059aed0e113deefc` was written to literal `main` with expected parent `2efad2c3ad3b7ddaa52312f975a26676ef475b06` and `force=false`. All 13 authored paths were fetched at that exact commit and matched the submitted bytes or the declared tracker sections. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json` (SHA256 `fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20`). This verifies delivery only, not originality, candidate admission, native measurement or empirical benefit.
+

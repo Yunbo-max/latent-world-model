@@ -1,0 +1,108 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "version": "1.0.0",
+  "repair_id": "R07_v3_factor_core_joint_margin",
+  "recorded_at": "2026-10-11T13:36:47+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06",
+  "substantive_commit": "c3823b3e770d45c46c825a3c059aed0e113deefc",
+  "publication": {
+    "expected_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06",
+    "force": false,
+    "success": true
+  },
+  "all_substantive_paths_exact_readback_verified": true,
+  "substantive_path_count": 13,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "3ea3916467c4f5aebee4a4400bfa0b1cdfdf6e1839a41656145e71c86fe733be",
+      "git_blob_sha": "9569cc72ba164f8a1fa76068a9902cf9c3e6cec8",
+      "bytes": 2718
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+      "git_blob_sha": "b9eb360217bfb7440c3f44e7d174a9cd3afebf70",
+      "bytes": 10981
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R07_V3_FACTOR_CORE_JOINT_MARGIN_SOURCE_AUDIT.md",
+      "sha256": "83808934ddbaa0e15f15e2065b6e4c6d819fb535b028ca9679a50b86f02fca80",
+      "git_blob_sha": "c4afd0ee8bee771526ca56bb300814efe92d732b",
+      "bytes": 11457
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.math-review.md",
+      "sha256": "399414e0adfd26b948abd45dbe43270d172c007302c7af6b81df181489c2cfef",
+      "git_blob_sha": "05215d3a54e1cc840ff78b4dcc87ebc25443f637",
+      "bytes": 3166
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.source-review.md",
+      "sha256": "921372497abd3f9c751d7ac3706f7a31838a292f524896acac86d0cf7f31a530",
+      "git_blob_sha": "3416a1bf87c01da9b69fb6b0f75b15be66bb215d",
+      "bytes": 2846
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.adversarial-review.md",
+      "sha256": "b5f82bf24b21ac63b8b242b82f7b73039b7b5d0eaf9d584b4f59b819949f4de6",
+      "git_blob_sha": "d00b072c01c207aebb096e895ad00e703f04c0b6",
+      "bytes": 2352
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R07_V3.measurement-review.md",
+      "sha256": "9a8a60cbd9adb3247121d20b421b6bb989c8065c68ed19fd0b69f590cee71922",
+      "git_blob_sha": "c9ccf2368d11c50815af2fdefc5fcac5741f8dc5",
+      "bytes": 2813
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "c51ebd1b0bbdc97905e88724592632594a97fa2e3dfea605539ba32a5209a69d",
+      "git_blob_sha": "0593abce592c850a7a148d7a1392eb0f23ca0e10",
+      "bytes": 237962
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "06a9e1faf85fd9d4e720b70250ff5f092004712fad0c61a194d6acd1855cf044",
+      "git_blob_sha": "be348b292a4d320303a71d1d0152837fcff3c0db",
+      "bytes": 59631
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "7a12e5c72918b96748623a983c9e89d733055d9d205a1ad8ba61c4b83d5d5f0e",
+      "git_blob_sha": "576d132a423bc19de1a768a91dbaedd939fbd3db",
+      "bytes": 87951
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "204ce56cbfda21673c1bf9d69daec6cb544d2291ce1876b9c46db1ea48cef19d",
+      "git_blob_sha": "81274cc85868f2e2fce248188a34aa04ea9d2aaa",
+      "bytes": 73668
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "d0dc1964a2819ea75b698809265c4a39f8ae62f0cd6930bae9e709260ffbad51",
+      "git_blob_sha": "c0966d38397cb15af6f384a2e095a22ebb6ab978",
+      "bytes": 40699
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "2aa9c23d1cbf0b61b25bc6ea1ec5dab8c5718edac0b1efb3aaa5d3a9d6ce4ea5",
+      "git_blob_sha": "1bceba83c4f05a51c944ac3186e376a5d6956fcf",
+      "bytes": 189336
+    }
+  ],
+  "semantic_checks": {
+    "progress_status": true,
+    "progress_repair_object": true,
+    "method_batch_ref": true,
+    "goal_section": true,
+    "closest_work_section": true,
+    "ranking_section": true,
+    "workflow_checkpoint_object": true
+  },
+  "scientific_scope": "delivery bytes only; does not prove originality, scientific admission, native measurement validity or empirical benefit",
+  "execution": "none_math_source_measurement_review_only"
+}

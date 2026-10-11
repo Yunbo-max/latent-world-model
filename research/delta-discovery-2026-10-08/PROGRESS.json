@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R07_v3_factor_core_joint_margin_published_pending_exact_readback_no_candidate",
+  "status": "repair_R07_v3_factor_core_joint_margin_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -3429,7 +3429,7 @@
         "reviewer": "/root/r07v3_measurement"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_factor_core_joint_margin_control_parked_not_candidate_pending_exact_readback",
+    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_factor_core_joint_margin_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_simultaneous_fixed_proposals_action_independent_affine_suffix_quadratic_reads_Hadamard_Gram_PSD_box_QP_and_feedback_sign_reversal_boundary",
       "contribution": "useful_Delta_coordinate_joint_action_theorem_and_debug_control_not_new_updater",
@@ -3458,7 +3458,12 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_measurement_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_pending_exact_readback",
-    "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "delivery_parent": "2efad2c3ad3b7ddaa52312f975a26676ef475b06",
+    "publication_commit": "c3823b3e770d45c46c825a3c059aed0e113deefc",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R07_V3_DELIVERY_READBACK.json",
+      "sha256": "fe5778210a0285bb2a7b37c06f04447df75e11180efbdfb16031d53984869e20"
+    }
   }
 }
