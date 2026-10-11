@@ -893,7 +893,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
       "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
-      "status": "accepted_conditional_robust_Gramian_carrier_theorem_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+      "status": "accepted_conditional_robust_Gramian_carrier_theorem_control_parked_after_attempt_3_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 3,
       "empirical_status": "unknown_no_execution",
@@ -928,7 +928,11 @@
         }
       ],
       "delivery_parent": "77f25334fff828a9e5a584e5949f45d957ead13c",
-      "publication_commit": null
+      "publication_commit": "09c5cd73d643dc2b51c9f91d8ca76aea639bbe27",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json",
+        "sha256": "5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5"
+      }
     }
   ],
   "counting_policy": {

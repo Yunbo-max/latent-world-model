@@ -482,3 +482,7 @@ R09 的第 3/3 次修订把“单个已实现 suffix 的低秩 Gramian”改成�
 新的 sharp witness 取 \(A_i=I-\beta e_i e_i^T\)、\(Q=\mathbf 1\mathbf 1^T\)、\(0<\beta<1\)：每个已实现 Gramian 都是 rank one，但 transported factors 构成 \(\mathbf 1\mathbf 1^T-\beta I\)，故公共精确载体为整个 \(\mathbb R^d\)。这说明 rank-one Delta 不自动产生小的 prefix-robust 保护状态；小载体也不识别其内部 PSD core。
 
 四路最终字节审查在实际修正伴随顺序、半正定唯一性措辞和论文定位后通过。正结果与受约束语言 switched observability/quotient、switched Gramian/model reduction 及内部 R18/R16/R11/R20 决定性碰撞。原生 benchmark 不暴露动作前 carrier、未来 containment/core、grounded validity、propensity/paired outcome 与同成本记录。故 R09 attempt 3/3 耗尽并 park，candidate/admission/selection 增量均为 0，实验效果未知且未运行代码或实验。下一条独立未耗尽 lineage 为 R10 attempt 3。
+
+### R09 v3 delivery closure
+
+Substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` was written to literal `main` with expected parent `77f25334fff828a9e5a584e5949f45d957ead13c` and `force=false`. All 13 authored paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json` (SHA256 `5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5`). This verifies delivery only, not originality, candidate admission, native measurement validity or empirical benefit.

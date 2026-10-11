@@ -2980,7 +2980,7 @@
         "reviewer": "/root/r09_v3_final_measurement_review"
       }
     ],
-    "status": "independent_final_byte_math_source_adversarial_measurement_reviews_passed_conditional_robust_Gramian_carrier_control_parked_after_attempt_3_not_candidate_pending_exact_readback",
+    "status": "independent_final_byte_reviews_passed_conditional_robust_Gramian_carrier_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_for_finite_prefix_declared_transported_factor_common_carrier_active_span_core_reduction_robust_representer_and_rank_one_realized_full_common_width_witness",
       "contribution": "useful_Delta_specialized_switched_observability_carrier_theorem_cost_correction_and_debug_witness_not_new_updater",
@@ -3010,7 +3010,11 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "77f25334fff828a9e5a584e5949f45d957ead13c",
-    "delivery_status": "substantive_commit_pending_exact_readback",
-    "publication_commit": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "09c5cd73d643dc2b51c9f91d8ca76aea639bbe27",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json",
+      "sha256": "5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5"
+    }
   }
 }

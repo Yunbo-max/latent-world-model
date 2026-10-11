@@ -475,3 +475,5 @@ Delivery: substantive commit `a60b7071cd852d5662e74b733cec616bd7fa07b0` exact re
 | deployment decision | direct robust action/Q or coefficient prediction on the same basis | no matched-total-cost advantage or native causal record |
 
 The source audit supports a conditional theorem/debug control only. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect is unknown.
+
+Delivery: substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R09_V3_DELIVERY_READBACK.json` (SHA-256 `5e000a72dfe1accdfa728496c1a04f5b31f681d5862dcece0b554eeec89999a5`).
