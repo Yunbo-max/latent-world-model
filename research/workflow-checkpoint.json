@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T06:47:35Z",
+  "recorded_at": "2026-10-11T06:55:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -1395,7 +1395,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T06:47:35Z",
+  "updated_at": "2026-10-11T06:55:00Z",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2519,7 +2519,7 @@
       "sha256": "8617410526f0d58e8b6b1f4a5ed7097dfa5723af2232b1e843c6a42866dff4db",
       "reviewer": "/root/r14_v2_adversarial"
     },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_credal_provenance_control_parked_not_candidate_pending_exact_readback",
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_credal_provenance_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_conditionally_for_two_slot_interval_minimax_exact_misspecification_regret_hard_action_thresholds_and_positive_curvature_multislot_extension",
       "contribution": "useful_Delta_slot_specialized_theorem_and_debug_control_not_new_updater",
@@ -2545,6 +2545,11 @@
       "Empirical effect; no execution authorized."
     ],
     "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_pending_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_files_exact_readback_verified",
+    "publication_commit": "9f14558d4e7b1196a1606a0c6cd0ac5f9072e926",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V2_DELIVERY_READBACK.json",
+      "sha256": "fef02d6230c3a95d67b43510d506b4db726f24952237d77e3c2b25380bbeed78"
+    }
   }
 }

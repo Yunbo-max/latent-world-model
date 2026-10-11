@@ -570,7 +570,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R14_CREDAL_PROVENANCE_WRITE.v2.md",
       "sha256": "073146ac7af184d9d39146911686af9b1de911688ed5a945d7f628ac5d5a6bbb",
-      "status": "accepted_conditional_credal_provenance_minimax_theorem_control_parked_not_candidate_pending_exact_readback",
+      "status": "accepted_conditional_credal_provenance_minimax_theorem_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
       "empirical_status": "unknown_no_execution",
@@ -598,7 +598,12 @@
           "sha256": "8617410526f0d58e8b6b1f4a5ed7097dfa5723af2232b1e843c6a42866dff4db",
           "reviewer": "/root/r14_v2_adversarial"
         }
-      ]
+      ],
+      "publication_commit": "9f14558d4e7b1196a1606a0c6cd0ac5f9072e926",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_V2_DELIVERY_READBACK.json",
+        "sha256": "fef02d6230c3a95d67b43510d506b4db726f24952237d77e3c2b25380bbeed78"
+      }
     }
   ],
   "counting_policy": {
