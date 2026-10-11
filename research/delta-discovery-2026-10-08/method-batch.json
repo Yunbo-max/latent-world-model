@@ -566,6 +566,39 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_V2_DELIVERY_READBACK.json",
         "sha256": "ec185523efc294e94b524d4d71f92972e2913bc23338ccf63ad6bc5ffa582027"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R14_CREDAL_PROVENANCE_WRITE.v2.md",
+      "sha256": "073146ac7af184d9d39146911686af9b1de911688ed5a945d7f628ac5d5a6bbb",
+      "status": "accepted_conditional_credal_provenance_minimax_theorem_control_parked_not_candidate_pending_exact_readback",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "screen_ref": {
+        "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.v2.md",
+        "sha256": "604e7e6e5f009bfa63b08f2358df17414625be0f32db1c14f31eb5b9bac90ac6"
+      },
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R14_V2_CREDAL_PROVENANCE_SOURCE_AUDIT.md",
+        "sha256": "002ab4052783c19b90e6bd5be7a15172293bb15d593f689faec014347461eddd"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.math-review.md",
+          "sha256": "9df54de6d2966ffdeb7635de91142fe49e2f6251d615a525f9954067315f89b1",
+          "reviewer": "/root/r14_v2_math"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.source-review.md",
+          "sha256": "7daa7eee041e96e2e765d44437221939550ea3796ced26715f695e47e0ed40a7",
+          "reviewer": "/root/r14_v2_sources"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V2.adversarial-review.md",
+          "sha256": "8617410526f0d58e8b6b1f4a5ed7097dfa5723af2232b1e843c6a42866dff4db",
+          "reviewer": "/root/r14_v2_adversarial"
+        }
+      ]
     }
   ],
   "counting_policy": {

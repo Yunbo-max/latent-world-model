@@ -383,3 +383,9 @@ Independent final-byte math, source and adversarial reviews pass the scoped theo
 ### R13 v2 delivery closure
 
 Substantive commit `4247399fd0b7471bac5aaed7c486b5c31a4f3bb8` was written to literal `main` with an expected-parent, non-force update. All 13 authored paths were fetched from that exact commit and matched their SHA256 records; the receipt is `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V2_DELIVERY_READBACK.json` (SHA256 `ec185523efc294e94b524d4d71f92972e2913bc23338ccf63ad6bc5ffa582027`). This verifies delivery bytes only, not originality, candidate admission, or empirical benefit.
+
+## R14 v2: credal provenance repair (2026-10-11)
+
+R14 v1 is preserved byte-for-byte. The v2 child replaces its supplied exact identity posterior with an external prefix-measurable interval `[ell,u]`. In the two-slot quadratic model, the exact minimax action is the point-posterior Bayes action evaluated at the projection of `1/2` onto that interval. The artifact also proves an exact posterior-misspecification regret identity, the separate hard one-touch/no-write thresholds, an invalid-certificate counterexample, and a positive-curvature multi-slot minimax/QCQP extension.
+
+Independent final-byte math, source and adversarial reviews pass the scoped theorem/control. They do not pass a method: Gamma-minimax and credal/DRO decision theory cover the minimax skeleton, posterior-error decision regret is known, and the strongest same-information baseline is the algebraically identical direct minimax per-slot router. A Bayesian credible interval or marginal reliability curve is not automatically a tokenwise deployment certificate; the construction and its sampling conditions must be supplied. No native endpoint exposes slot identity plus all counterfactual writes. R14 v2 is parked after attempt 2/3 with candidate delta zero, empirical effect unknown, and no model code or experiment run.

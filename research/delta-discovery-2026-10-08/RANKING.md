@@ -199,3 +199,7 @@ The result remains a conditional theorem/control. Invariant quotient/bisimulatio
 ## R13 v2 ranking disposition
 
 R13 v2 does **not** enter the active pool or top-15. It repairs a real scope error by distinguishing common-affine inconsistency from arbitrary-decoder impossibility and supplies a valid hidden-mode Delta counterexample. Its positive construction is still simultaneous functional observation/common matrix-equation machinery, while a direct protected-value ledger is the mandatory exact control and no native endpoint measures the certificate. Candidate delta is `0`; counts remain 5 historical, 0 active, 0 scientifically admitted, and 0 selected. Attempt 2/3 is parked.
+
+## R14 v2 ranking disposition (2026-10-11)
+
+R14 v2 does **not** enter the active pool or top-15. It repairs a real assumption gap by replacing a supplied exact posterior with a posterior interval and derives exact continuous minimax, hard-action and misspecification boundaries. The positive rule is nevertheless an ordinary Gamma-minimax/credal decision and is algebraically identical to a direct minimax per-slot router. Its external interval still needs a lawful tokenwise coverage construction, and no native task exposes the required slot identity and counterfactual writes. Attempt 2/3 is parked; candidate delta is 0, counts remain 5 historical / 0 active / 0 scientifically admitted / 0 selected, and empirical effect is unknown.

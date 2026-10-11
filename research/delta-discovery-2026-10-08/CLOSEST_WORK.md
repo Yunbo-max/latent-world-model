@@ -376,3 +376,15 @@ The decisive same-information baseline stores direct coordinates on the same clo
 | exact fixed-target control | direct protected-value ledger | avoids mode identification | mandatory baseline; no unconditional cost ordering |
 
 The literature search was bounded and some formula sections were unavailable, so the only justified originality statement is **not established**. No author observer implementation was tested, and no empirical equivalence or performance claim is made.
+
+## R14 v2 credal-provenance boundary
+
+| Object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| posterior-set minimax raw risk | Qiu--Luedtke Gamma-minimax; Chen et al. credal DRO | closed-form two-slot quadratic specialization | direct mechanism collision; theorem only |
+| posterior misspecification regret | Perez-Lebel et al.; Agarwal--Zhang | exact local identity for Delta-slot costs | useful diagnostic, not new updater |
+| certified uncertainty set | Zhou--Zhu inverse conformal risk control | tokenwise prefix-conditional posterior interval is still missing | certificate conditions must be explicit |
+| worst-case regret alternative | Yamao et al. robust DFL/Wasserstein DRO | different objective from worst-case raw risk | strong neighbouring control |
+| executable same-information rule | direct minimax per-slot router | algebraically identical to the R14 update | mandatory baseline; no architecture novelty |
+
+The bounded search found no exact Delta-slot formula duplicate, but that does not establish priority. Native slot-identity/all-counterfactual-write measurement and empirical evidence are absent.
