@@ -465,3 +465,5 @@ Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to lit
 最可能失败处也写清了：真实任务可能有能区分版本的 ID、时间戳、外部纠错信号或可查询证据；一旦加入这些信息，下界会变弱。但这些信息也必须给直接 Bayes/minimax router、事件 ledger 和 direct action predictor，并计入标签、状态、检索、延迟和计算成本。现有 bAbI/LAMBADA/RULER/LongMemEval/模型编辑原生 scorer 只能测行为端点，不能验证这一内部证书机制。
 
 因此 R14 在第 3/3 次实质修订后正式 park：留下一个有用的证书坍缩与风险下界定理，不升级为新候选；实际效果未知，没有运行代码或实验。下一步转到 R15 的最后一次修订，而不是继续给 R14 换名循环。
+
+交付闭环：实质内容已以旧 `main` 头 `0052709f6ac9aa98b0e199a75b2d1da0608e974c` 为 expected parent、`force=false` 推进到 `3bd31945097eefe9d58a8a79feea45facb206a03`；14 个路径均从该精确提交读回且字节一致。收据：`sources/REPAIR_R14_V3_DELIVERY_READBACK.json`（SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`）。这只证明交付，不证明原创性、科学准入、原生测量有效性或实验收益。
