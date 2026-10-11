@@ -536,3 +536,9 @@ R13 第 3/3 次修订修正了 v1 的一个真实成本缺口：不再默认保�
 ### R13 v3 delivery closure
 
 Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to literal `main` with expected parent `7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02` and `force=false`. All 15 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json` (SHA256 `5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R14 v3 可观测等价终止里程碑（2026-10-11）
+
+[R14 v3 修复筛选](repairs/R14_REPAIR_LINE_SCREEN.v3.md)把 v2 尚未闭合的“外部有效 posterior 区间”收紧为可判定的两世界问题：如果两种真实 provenance 对全部写前可见记录的分布总变差为 `delta`，但要求相反 slot，那么任何统一有效的区间必须以至少 `(1-2 alpha-delta)_+` 的概率退化为 `[0,1]`。同一个公共观测质量给出任意更新器的锐 TV 下界 `(1-delta) lambda/(1+lambda)`；`delta=0` 时 v2 对称连续写精确达到该下界，而确定性硬写/不写控制会选择不写，允许混合时另有 `min{1,(1+lambda)/2}` 边界。
+
+这不是把 R14 判作“以前全错”：v1 的 point-posterior Bayes action 与 v2 的 credal minimax action均保留。v3 只是证明，在不增加因果证据或分布假设时，Delta residual/hidden state/router score 作为同一记录的函数不能通过 data processing 制造 provenance 信息。独立数学、来源/原创性、对抗和原生测量审查绑定最终字节；R14 第 3/3 次修订后以有条件终止定理/control park，候选增量0，实际效果未知，没有执行代码或实验。下一条最早未耗尽的独立修复线是 R15 attempt 3。
