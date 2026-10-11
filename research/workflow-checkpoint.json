@@ -194,7 +194,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Publish R17 v3 with exact readback; next substantive lineage is R18 attempt 3. No model/code execution is authorized.",
+  "next_action": "Continue R18 attempt 3 as the earliest independent unexhausted lineage; R17 is terminally parked after exact readback. No model/code execution is authorized.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -968,7 +968,7 @@
       }
     ]
   },
-  "research_next_action": "Publish R17 v3 with exact readback; next substantive lineage is R18 attempt 3. No model/code execution is authorized.",
+  "research_next_action": "Continue R18 attempt 3 as the earliest independent unexhausted lineage; R17 is terminally parked after exact readback. No model/code execution is authorized.",
   "background_history": [
     {
       "recorded_at": "2026-10-08T22:45:26.846Z",
@@ -2131,7 +2131,7 @@
         "reviewer": "/root/commutator_candidate"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_terminal_residual_scaled_spectral_certificate_theorem_control_parked_not_candidate_awaiting_publication_readback",
+    "status": "independent_final_byte_reviews_passed_terminal_residual_scaled_spectral_certificate_theorem_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "passed_exact_residual_scaled_frozen_path_energy_one_sided_PSD_spectral_tail_and_safe_gate_conditional_on_already_lawful_prefix_certificate",
       "contribution": "useful_R17_action_target_repair_and_debugging_theorem_not_new_updater_gate_sketch_or_certificate_generator",
@@ -2161,9 +2161,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "291f4cb6f4d253f058fc6b2b4c157a3026280930",
-    "delivery_status": "prepared_for_expected_parent_main_commit_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null,
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "7772ff0a0ce4192127d6476bc93fecdb4cf65020",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json",
+      "sha256": "c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9",
+      "all_paths_exact": true,
+      "path_count": 14
+    },
     "preserved_version_refs": {
       "v2": {
         "version": "v2",

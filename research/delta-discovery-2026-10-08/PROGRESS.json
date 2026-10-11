@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R17_v3_attempt_3_final_byte_reviews_passed_prepared_for_main_publication",
+  "status": "R17_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -106,6 +106,12 @@
       {
         "path": "research/delta-discovery-2026-10-08/sources/R17_RESIDUAL_SCALED_SPECTRAL_SOURCE_AUDIT.v3.md",
         "sha256": "ad288ebffcbf4bd90242265e2117e98370951de88fb806424c91d699bd932f97"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json",
+        "sha256": "c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9",
+        "all_paths_exact": true,
+        "path_count": 14
       }
     ],
     "new_verified_controls": [
@@ -383,7 +389,7 @@
       "R17 v3 exhausts attempt 3/3 by repairing the target mismatch from arbitrary overwritten-pair quotient recovery to the actual no-write-versus-Delta-write action. It proves exact residual-scaled frozen-path energy, a one-sided low-rank-plus-certified-tail bound and a safe scalar gate conditional on an already lawful prefix certificate. Four final-byte reviews pass only this theorem/debug control. Delta gating, observability Gramians and classical/streaming spectral approximation are major collisions; prefix coverage construction, matched-total-cost advantage, nonlinear validity and native mechanism measurement remain open. Candidate delta zero; empirical effect unknown."
     ]
   },
-  "next_action": "Publish R17 v3 with expected-parent lease and exact readback; then continue R18 attempt 3 as the earliest independent unexhausted lineage.",
+  "next_action": "Continue R18 attempt 3 as the earliest independent unexhausted lineage; R17 is terminally parked after exact readback.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2403,7 +2409,7 @@
         "reviewer": "/root/commutator_candidate"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_terminal_residual_scaled_spectral_certificate_theorem_control_parked_not_candidate_awaiting_publication_readback",
+    "status": "independent_final_byte_reviews_passed_terminal_residual_scaled_spectral_certificate_theorem_control_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "passed_exact_residual_scaled_frozen_path_energy_one_sided_PSD_spectral_tail_and_safe_gate_conditional_on_already_lawful_prefix_certificate",
       "contribution": "useful_R17_action_target_repair_and_debugging_theorem_not_new_updater_gate_sketch_or_certificate_generator",
@@ -2433,9 +2439,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "291f4cb6f4d253f058fc6b2b4c157a3026280930",
-    "delivery_status": "prepared_for_expected_parent_main_commit_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null,
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "7772ff0a0ce4192127d6476bc93fecdb4cf65020",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json",
+      "sha256": "c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9",
+      "all_paths_exact": true,
+      "path_count": 14
+    },
     "preserved_version_refs": {
       "v2": {
         "version": "v2",
