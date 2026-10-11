@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T02:46:57Z",
+  "recorded_at": "2026-10-11T02:52:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -906,7 +906,7 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R10_v2_prepared_no_candidate",
+    "status": "repair_R10_v2_published_exact_readback_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
@@ -1394,7 +1394,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T03:46:57+01:00",
+  "updated_at": "2026-10-11T03:52:00+01:00",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -1504,12 +1504,15 @@
       "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
       "reviewer": "/root/r10_v2_adversarial_review"
     },
-    "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_pending_readback",
+    "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_published_exact_readback",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
-    "delivery_status": "prepared_for_expected_parent_main_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V2_DELIVERY_READBACK.json",
+      "sha256": "2700bae2e2d3bab87b8c394c1c67fa6a4f1dbdf21752597b0d3f38d0dcd12bda"
+    }
   },
   "repair_R11_order_gap_compression": {
     "version": "v1",

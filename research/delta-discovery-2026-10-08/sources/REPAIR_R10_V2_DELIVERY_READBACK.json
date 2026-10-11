@@ -1,0 +1,39 @@
+{
+  "kind": "delta-repair-delivery-readback",
+  "repair_id": "R10",
+  "version": "v2",
+  "recorded_at": "2026-10-11T03:52:00+01:00",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "parent_commit": "6ec55f81c0a97a3f8b9b9d7f25e25fcc7bb52f64",
+  "substantive_commit": "2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655",
+  "expected_parent_update": true,
+  "force": false,
+  "exact_readback_verified": true,
+  "files": {
+    "research/delta-discovery-2026-10-08/repairs/R10_TRANSITION_MATCHED_NOISE_SHAPING.v2.md": "3a9e0c3a185d0f1c0a5724b59a30063963794576f516e4f77ee3f63e71f21d08",
+    "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "4eaa3b6c48575008015cb60cb84ff4f36b56ed2a6aaf6fb3c8643edd2810065e",
+    "research/delta-discovery-2026-10-08/method-batch.json": "156cbc3e5d48c3bf1903644d8dd1dbf5a6e72a9630072faff515b840810b0ffa",
+    "research/workflow-checkpoint.json": "5822cd2ab4f34d36858997749a958353b76ec39e35f74b7aa8f9fe7a8c78cfcb",
+    "research/delta-discovery-2026-10-08/GOAL.md": "b2e21278c3c056a0fd495b9ee65c231a89196d95597fad779ca5fd50657cb3de",
+    "research/delta-discovery-2026-10-08/CLOSEST_WORK.md": "d70ce6164feab73d96c130b30e0611d2b4704abb4c4a2ba51f36c3a5fac69590",
+    "research/delta-discovery-2026-10-08/RANKING.md": "7fa3c942ae6b7bb835c610d26e51900d8f642801cbac03b04a3a13cdee4308c6",
+    "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md": "3afa98c51bb0e8aa8d742223167124e25b5c65795b051db7d7cac26ddf53e064"
+  },
+  "scientific_status": {
+    "mathematics": "independent_final_byte_reviews_passed_conditional_theorem_control",
+    "contribution": "major_known_mechanism_collision_no_candidate_admission",
+    "measurement": "native_Delta_mechanism_object_missing",
+    "empirical": "unknown_no_execution"
+  },
+  "counts_after": {
+    "constructed_history": 5,
+    "active_constructed": 0,
+    "scientifically_admitted": 0,
+    "selected": 0
+  }
+}
