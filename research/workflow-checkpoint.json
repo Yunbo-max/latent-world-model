@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-11T04:33:00Z",
+  "recorded_at": "2026-10-11T05:35:28Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -189,7 +189,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue R13 v2 as the earliest independent unexhausted repair lineage. Reopen R12 attempt 3 only with an externally imposed or implicit syndrome, a certified proper structured key/decay family, matched-total-cost advantage over direct orthonormal coordinates or full Delta, and a native measurement object.",
+  "next_action": "Continue R14 v2 as the earliest independent unexhausted repair lineage. Reopen R13 attempt 3 only with a causal native protected object, a certified structured uncertainty family, an operation unavailable to the direct protected-value ledger, matched-total-cost advantage, and a native or formal measurement object.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -907,17 +907,17 @@
       "scientific_admitted": 0,
       "selected": 0
     },
-    "status": "repair_R12_v2_autonomous_syndrome_published_exact_readback_no_candidate",
+    "status": "repair_R13_v2_robust_common_covector_pending_delivery_no_candidate",
     "previous_unqualified_batch_preserved": true,
     "code_generation_scope": "not included",
     "gpu_execution_scope": "not included",
     "nearest_work_admission": "D01/D03/D05/D06/D07 not admitted after collision audits; no originality claim",
-    "current_delivery_parent": "d13820ab57d13627e179e189ddf93ca53649e11a",
+    "current_delivery_parent": "11bee1aac0429e0501a5b4d3244bca63d34bdc3b",
     "summary": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
     "reentry": "research/delta-discovery-2026-10-08/STEP2_REENTRY_2026-10-09.zh-CN.md",
     "step2_entry": "research/delta-discovery-2026-10-08/STEP2_JOINT_CONDITIONAL_RISK.md",
-    "latest_math_result": "R10 v2 derives exact frozen-affine transition-matched residual cancellation, conditional Gramian/covariance feedback projection, and an F-invariant weighted one-lag spectral boundary. Final-byte reviews pass only a known-mechanism debugging control; candidate delta zero, attempt 2/3 parked, no execution.",
-    "originality_and_native_measurement": "Expected value of sample information, Blackwell comparison and controlled-sensing POMDPs cover the main mechanism; Delta contributes a signed action-margin specialization, not an admitted updater. Existing temporal-edit assets do not natively expose action-specific likelihoods, pre-action margins, propensities, query costs and identifiable paired keep/release outcomes.",
+    "latest_math_result": "R13 v2 derives the exact block-kernel condition for a common affine decoder across a declared hidden affine-transition family, an invertible two-key Delta counterexample, and a same-information half-diameter minimax bound. Final-byte math/source/adversarial reviews pass only a known-mechanism conditional theorem/control; candidate delta zero, attempt 2/3 parked, no execution.",
+    "originality_and_native_measurement": "Moreno 2005 simultaneous functional observation is the strongest direct collision, with common matrix equations/generalized inverses and set-membership estimation as further controls. Native endpoints do not expose realized-mode ambiguity, internal factors, compatible-target diameter or ledger state.",
     "step2_observed_target": {
       "entry": "research/delta-discovery-2026-10-08/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
       "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
@@ -1395,7 +1395,7 @@
       "SEAL paid native grader and hardware mismatch block that reproduction; no substitute service/metric authorized."
     ]
   },
-  "updated_at": "2026-10-11T05:33:00+01:00",
+  "updated_at": "2026-10-11T05:35:28Z",
   "repair_R08_temporal_validity_release": {
     "version": "v2",
     "lineage_parents": [
@@ -2414,6 +2414,70 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V2_DELIVERY_READBACK.json",
       "sha256": "625006c07a1b950a47f9241cc0875cd2069720a653dee36cf2d66d39efae4a3d"
     }
+  },
+  "repair_R13_v2_robust_common_covector": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "research/delta-discovery-2026-10-08/STEP2_COUPLED_UPDATER_STABILITY.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "84203e5af2549a4e8fe9a4ce1fc33e118526962e6097935ecdfa39697cc9ee55"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_ROBUST_COMMON_COVECTOR.v2.md",
+      "sha256": "c6d611ffe4476035a54d5cd1cf7584895dbbb2248d7d499be69b07e6300647b0"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R13_V2_ROBUST_COMMON_COVECTOR_SOURCE_AUDIT.md",
+      "sha256": "a607f442103b97c309ee1cc4fbdbe489cf4257b80387e9dfe6ec5cf954aaca62"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.math-review.md",
+      "sha256": "3b6322ad187693fb193a3f8dd8590f31000068f57647881461a74a89a61c5104",
+      "reviewer": "/root/r13_v2_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.source-review.md",
+      "sha256": "ba0c6cc00a17b9dafcb1f5fa9f9f9e3082a0117b4cc89b99492406dbed598fa8",
+      "reviewer": "/root/r13_v2_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.adversarial-review.md",
+      "sha256": "7c129cac873fbe732a691280297ac705498e4d5bc5bfed39a2b0397363ce761b",
+      "reviewer": "/root/r13_v2_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_robust_common_covector_control_parked_not_candidate_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_conditionally_for_common_affine_decoder_iff_block_kernel_condition_invertible_hidden_mode_counterexample_and_same_information_half_diameter_bound",
+      "contribution": "useful_Delta_specialized_hidden_transition_identifiability_boundary_not_new_updater",
+      "closest_work": "Moreno_2005_simultaneous_functional_observer_common_matrix_equations_generalized_inverses_and_set_membership_estimation",
+      "measurement": "no_native_hidden_mode_internal_matrix_compatible_target_diameter_or_ledger_endpoint",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_v1": "exact_single_transition_affine_transport_kernel_condition_Delta_overwrite_obstruction_conditioning_and_offset_boundary",
+    "repair_delta": "replace_known_realized_transition_with_declared_mode_hidden_affine_family_and_separate_common_affine_inconsistency_from_arbitrary_decoder_indistinguishability",
+    "controls": [
+      "direct protected-value ledger",
+      "mode label plus v1 decoder",
+      "set-membership observer",
+      "Bayes conditional mean under a supplied prior"
+    ],
+    "unclosed": [
+      "Causal native protected object and its validity.",
+      "Certified structured transition family or causal generator with charged storage and precision.",
+      "An operation unavailable to the direct protected-value ledger and a matched-total-cost advantage.",
+      "Native or formal measurement object exposing hidden mode or compatible-target ambiguity.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
-

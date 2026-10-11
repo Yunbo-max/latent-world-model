@@ -365,3 +365,14 @@ The exact residual identity is not claimed to appear in those papers and no prio
 
 The decisive same-information baseline stores direct coordinates on the same closed subspace; it has the same width. Keeping full `S` makes the syndrome only an auxiliary ledger. Existing LM benchmarks measure endpoints rather than exact quotient closure or semantic revision identity. Thus R12 v2 is `CONTROL_ONLY`, parked after attempt 2/3 with candidate delta zero and empirical effect unknown.
 
+## R13 v2 robust common-covector boundary
+
+| Object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| one decoder across hidden affine modes | Moreno (2005), *Simultaneous observation of linear systems* | one-step Delta block factorization | strongest direct mechanism collision; no method novelty |
+| `XM=N`, kernel iff, pseudoinverse family | simultaneous matrix equations; Penrose generalized inverse | compact family arrangement | elementary specialization |
+| compatible protected-target set | set-membership observers/zonotopes | declared old Delta readout | known feasible-set logic |
+| same-post-state half-diameter bound | indistinguishability/minimax triangle bound | invertible two-key Delta witness | useful negative control, not updater |
+| exact fixed-target control | direct protected-value ledger | avoids mode identification | mandatory baseline; no unconditional cost ordering |
+
+The literature search was bounded and some formula sections were unavailable, so the only justified originality statement is **not established**. No author observer implementation was tested, and no empirical equivalence or performance claim is made.

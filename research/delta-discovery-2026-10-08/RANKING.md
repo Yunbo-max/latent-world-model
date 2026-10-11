@@ -196,3 +196,6 @@ R12 v2 does **not** enter the active pool or top-15. It repairs a real target er
 
 The result remains a conditional theorem/control. Invariant quotient/bisimulation and internal R18 cover the general mechanism; direct coordinates on the same closed subspace are an equal-width simpler baseline, and retaining full `S` removes any compression claim. Certified structure for an implicit key/decay family, total-cost advantage and a native recursive-closure/semantic-revision measurement are absent. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, empirical effect is unknown, and no experiment was run.
 
+## R13 v2 ranking disposition
+
+R13 v2 does **not** enter the active pool or top-15. It repairs a real scope error by distinguishing common-affine inconsistency from arbitrary-decoder impossibility and supplies a valid hidden-mode Delta counterexample. Its positive construction is still simultaneous functional observation/common matrix-equation machinery, while a direct protected-value ledger is the mandatory exact control and no native endpoint measures the certificate. Candidate delta is `0`; counts remain 5 historical, 0 active, 0 scientifically admitted, and 0 selected. Attempt 2/3 is parked.

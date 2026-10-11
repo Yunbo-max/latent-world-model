@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T05:33:00+01:00",
+  "recorded_at": "2026-10-11T06:35:28+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R12_v2_autonomous_syndrome_published_exact_readback_no_candidate",
+  "status": "repair_R13_v2_robust_common_covector_pending_delivery_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "37e5e1b1d6098c6207fa3e753c1d6ed03b24c740",
+  "delivery_parent": "11bee1aac0429e0501a5b4d3244bca63d34bdc3b",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -235,10 +235,11 @@
       "R09 v2 repaired the static-metric target mismatch with an exact transported finite-horizon protection Gramian under a declared frozen/exogenous suffix, a complete-state Gauss--Newton pullback boundary, and a swapped-anisotropy identical-prefix minimax theorem. The inverse-metric action and sharp spectral factor are correct, but observability/DDP, PDN, Kalman Delta Networks and R20 v3 cover the main mechanisms. Final-byte math/source/adversarial reviews pass conditional correctness; candidate delta is zero, attempt 2/3 is parked, and empirical effect is unknown.",
       "R10 v2 repaired the unresolved correlated-defect branch with an exact transition-matched residual recurrence. Under a common exogenous/F-invariant residual law, F=A cancels older frozen-affine residual propagation and the finite-horizon risk becomes a Gramian/covariance projection; correlated scalar residuals yield a weighted one-lag spectral ratio. Independent review caught and fixed residual-feedback endogeneity, finite-residual nullspace scope, stability and comparator-fairness wording. Classical state-space ESS, Zheng graph QEF, Ohno fixed-rate error-feedback quantization and recurrent quantization controls cover the mechanism; candidate delta zero, attempt 2/3 parked, measurement gap and empirical status unknown.",
       "R11 v2 corrected v1's dense-SVD cost story and its own first-draft midpoint/edit-budget mismatch. For two pure scalar-beta Delta steps, the exact adjacent gap factors as beta_i beta_j(k_i^T k_j)[k_i,k_j][e_j,-e_i]^T; common-prestate residuals are causally reconstructible at the second event, and every weighted optimum reduces to an at-most 2x2 core. Centered and physical-edit Bayes risks now separately expose selector uncertainty, rank tail and plug-in calibration error. Final-byte math/source/adversarial reviews pass only this conditional theorem/control. Ordered Delta/WY, DeltaProduct and generic core-SVD machinery cover the mechanisms; causal G/p, persistent-overlay cost advantage and native semantic measurement remain open. Candidate delta is 0, attempt 2/3 parked, empirical effect unknown.",
-      "R12 v2 repaired v1's static-decodability target by requiring the syndrome Y=H^T S to evolve autonomously. For a frozen affine step F, exact closure is equivalent to ker(H^T) being contained in ker(H^T F), to F^T col(H) being invariant, and to H^T F=L H^T. For pure Delta with nonzero beta this holds exactly when the key is orthogonal to or lies inside the syndrome subspace. The least closed protected subspace is the key-activation fixed point; mixed keys give a same-syndrome next-step counterexample and normalized one-step leakage |beta| ||P_V k|| ||P_(V^perp) k||. Independent final-byte review corrected an overstrong coefficientwise necessity claim and the arbitrary scaling of raw H. Invariant quotient/bisimulation and internal R18 cover the general mechanism, direct orthonormal coordinates are the same-width control, native closure measurements are absent, and empirical value is unknown. Attempt 2/3 is parked with candidate delta 0."
+      "R12 v2 repaired v1's static-decodability target by requiring the syndrome Y=H^T S to evolve autonomously. For a frozen affine step F, exact closure is equivalent to ker(H^T) being contained in ker(H^T F), to F^T col(H) being invariant, and to H^T F=L H^T. For pure Delta with nonzero beta this holds exactly when the key is orthogonal to or lies inside the syndrome subspace. The least closed protected subspace is the key-activation fixed point; mixed keys give a same-syndrome next-step counterexample and normalized one-step leakage |beta| ||P_V k|| ||P_(V^perp) k||. Independent final-byte review corrected an overstrong coefficientwise necessity claim and the arbitrary scaling of raw H. Invariant quotient/bisimulation and internal R18 cover the general mechanism, direct orthonormal coordinates are the same-width control, native closure measurements are absent, and empirical value is unknown. Attempt 2/3 is parked with candidate delta 0.",
+      "R13 v2 changes the information condition rather than relabelling v1: a decoder sees the affine-transition family but not the realized mode. Exact common affine recovery is equivalent to one block equation XM=N or ker(M) subseteq ker(N). Two individually invertible Delta steps yield the same post-state with different old protected values, giving a half-diameter point-decoder lower bound only on the same-information reachable set; failure of the block condition alone does not exclude nonlinear piecewise decoding. Independent final-byte reviews pass this scoped theorem/control. Moreno 2005 simultaneous functional observation is the strongest direct collision, a direct value ledger remains mandatory, native measurement is absent, candidate delta is 0, attempt 2/3 is parked, and empirical effect is unknown."
     ]
   },
-  "next_action": "Continue R13 v2 as the earliest independent unexhausted repair lineage. Reopen R12 attempt 3 only with an externally imposed or implicit syndrome, a certified proper structured key/decay family, matched-total-cost advantage over direct orthonormal coordinates or full Delta, and a native measurement object.",
+  "next_action": "Continue R14 v2 as the earliest independent unexhausted repair lineage. Reopen R13 attempt 3 only with a causal native protected object, a certified structured uncertainty family, an operation unavailable to the direct protected-value ledger, matched-total-cost advantage, and a native or formal measurement object.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -2897,6 +2898,70 @@
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_V2_DELIVERY_READBACK.json",
       "sha256": "625006c07a1b950a47f9241cc0875cd2069720a653dee36cf2d66d39efae4a3d"
     }
+  },
+  "repair_R13_v2_robust_common_covector": {
+    "version": "v2",
+    "substantive_attempt": 2,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "research/delta-discovery-2026-10-08/STEP2_COUPLED_UPDATER_STABILITY.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.v2.md",
+      "sha256": "84203e5af2549a4e8fe9a4ce1fc33e118526962e6097935ecdfa39697cc9ee55"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_ROBUST_COMMON_COVECTOR.v2.md",
+      "sha256": "c6d611ffe4476035a54d5cd1cf7584895dbbb2248d7d499be69b07e6300647b0"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R13_V2_ROBUST_COMMON_COVECTOR_SOURCE_AUDIT.md",
+      "sha256": "a607f442103b97c309ee1cc4fbdbe489cf4257b80387e9dfe6ec5cf954aaca62"
+    },
+    "math_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.math-review.md",
+      "sha256": "3b6322ad187693fb193a3f8dd8590f31000068f57647881461a74a89a61c5104",
+      "reviewer": "/root/r13_v2_math_review"
+    },
+    "source_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.source-review.md",
+      "sha256": "ba0c6cc00a17b9dafcb1f5fa9f9f9e3082a0117b4cc89b99492406dbed598fa8",
+      "reviewer": "/root/r13_v2_source_review"
+    },
+    "adversarial_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V2.adversarial-review.md",
+      "sha256": "7c129cac873fbe732a691280297ac705498e4d5bc5bfed39a2b0397363ce761b",
+      "reviewer": "/root/r13_v2_adversarial_review"
+    },
+    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_robust_common_covector_control_parked_not_candidate_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_conditionally_for_common_affine_decoder_iff_block_kernel_condition_invertible_hidden_mode_counterexample_and_same_information_half_diameter_bound",
+      "contribution": "useful_Delta_specialized_hidden_transition_identifiability_boundary_not_new_updater",
+      "closest_work": "Moreno_2005_simultaneous_functional_observer_common_matrix_equations_generalized_inverses_and_set_membership_estimation",
+      "measurement": "no_native_hidden_mode_internal_matrix_compatible_target_diameter_or_ledger_endpoint",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_after_attempt_2_conditional_theory_control",
+    "preserved_v1": "exact_single_transition_affine_transport_kernel_condition_Delta_overwrite_obstruction_conditioning_and_offset_boundary",
+    "repair_delta": "replace_known_realized_transition_with_declared_mode_hidden_affine_family_and_separate_common_affine_inconsistency_from_arbitrary_decoder_indistinguishability",
+    "controls": [
+      "direct protected-value ledger",
+      "mode label plus v1 decoder",
+      "set-membership observer",
+      "Bayes conditional mean under a supplied prior"
+    ],
+    "unclosed": [
+      "Causal native protected object and its validity.",
+      "Certified structured transition family or causal generator with charged storage and precision.",
+      "An operation unavailable to the direct protected-value ledger and a matched-total-cost advantage.",
+      "Native or formal measurement object exposing hidden mode or compatible-target ambiguity.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_review_only",
+    "delivery_status": "pending_expected_parent_main_and_exact_readback",
+    "publication_commit": null,
+    "delivery_readback_ref": null
   }
 }
-
