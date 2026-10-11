@@ -298,3 +298,5 @@ Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to lit
 R14 v3 不进入 active pool 或 top-15。它把 v2 的外部证书缺口修成了一个真实、可复核的终止定理：可见记录近似不可区分时，统一有效的 provenance 区间频繁退化为全区间，任何同信息更新器也承担相应的两槽风险下界。这个结果有调试与条件边界价值，但 general conditional-probability CI lower bounds、Le Cam/TV、data processing 和 minimax Bayes 已覆盖主体；v2 直接 minimax router 在完全不可区分时已经达到精确下界。
 
 最终状态：attempt 3/3 exhausted；数学在声明条件下通过；贡献为已知理论的 Delta-slot 特化，不是新 updater；原生任务不提供 paired same-`O` opposite-identity worlds、逐 token certificate truth 或 all-action losses；实验未知且未执行；`candidate_delta=0`。计数保持 5 historical / 0 active / 0 scientifically admitted / 0 selected。下一条是 R15 attempt 3。
+
+Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R14_V3_DELIVERY_READBACK.json` (SHA256 `ff1a18601d70b479696ac703bdc3121cb4e3d13f42f3aa284e977a037948a1ba`).
