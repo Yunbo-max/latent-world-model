@@ -976,7 +976,14 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json",
         "sha256": "48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea"
       }
-    }
+    },
+    "research/delta-discovery-2026-10-08/repairs/R11_REPAIR_LINE_SCREEN.v3.md",
+    "research/delta-discovery-2026-10-08/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+    "research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.math-review.md",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.source-review.md",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.adversarial-review.md",
+    "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V3.measurement-review.md"
   ],
   "counting_policy": {
     "source": "owner_feedback_2026-10-09T17:08:50+01:00",
@@ -1018,7 +1025,8 @@
       "R16 v2 supplies a reviewed active-eigenspace exact matrix-function reduction, diagonal-plus-rank-one core and approximate grouping certificate. General symmetric bases retain dense discovery/transform/base-action costs; DPR1, matrix-function, expmv and grouped KDA controls cover the computational mechanism. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R18 v2 supplies a reviewed prefix-causal constrained-mode-tree invisible quotient, automaton greatest fixed point, same-prefix robust-compression no-go and exact direct-ledger rank. Regular-language switched unobservability/Algorithm 2 and bisimulation cover the core mechanism; native mechanism measurement and matched-cost advantage remain absent. Zero active/admitted/selected increment; attempt 2/3 is parked.",
       "R19 v2 supplies a reviewed finite prefix-causal release-confusability theorem: same-state hidden-label conflicts are infeasible, feasible one-shot exact coding reduces to graph coloring, and the linear extra ledger is quotiented by post-write information. Zero-error function-computation, set-valued-observer, switched-observability/R18 and saltation collisions plus native measurement gaps leave zero active/admitted/selected increment; attempt 2/3 is parked.",
-      "R10 v3 supplies a reviewed fixed-carrier common-invariance criterion, Delta-ordered leakage, affine injection hull, and noncommuting full-width witness. Standard invariant-subspace/switched-reachability/model-reduction and error-feedback collisions plus matched-cost and native-measurement gaps leave zero active/admitted/selected increment; the lineage is exhausted after attempt 3."
+      "R10 v3 supplies a reviewed fixed-carrier common-invariance criterion, Delta-ordered leakage, affine injection hull, and noncommuting full-width witness. Standard invariant-subspace/switched-reachability/model-reduction and error-feedback collisions plus matched-cost and native-measurement gaps leave zero active/admitted/selected increment; the lineage is exhausted after attempt 3.",
+      "R11 v3 supplies a reviewed exact lazy-overlay propagation theorem, sharp repeated-injection rank boundary, query-visible minimum rank, corrected-state MC term and initial-error-aware recompression recurrence. Ordered Delta/WY, DeltaProduct and low-rank SVD maintenance collisions plus selector, cost and native-measurement gaps leave zero active/admitted/selected increment; the lineage is exhausted after attempt 3."
     ]
   },
   "counting_policy_repair": {
@@ -1051,6 +1059,14 @@
     "r17_v2": "Reviewed prefix-causal predictive-leakage certificate with exact robust-support/common-kernel and finite-sample boundary; zero active constructed, scientific-admission or selection increment; substantive main commit and exact 12-file readback recorded.",
     "r18_v2": "Reviewed prefix-causal robust recursive quotient theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
     "r19_v2": "Reviewed prefix-causal branch-code theorem/debug control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r10_v3": "Reviewed invariant-residual-carrier boundary theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed."
+    "r10_v3": "Reviewed invariant-residual-carrier boundary theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
+    "r11_v3": {
+      "status": "conditional_debug_theorem_only",
+      "candidate_delta": 0,
+      "attempt": "3/3",
+      "disposition": "park_exhausted",
+      "artifact_sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+      "source_audit_sha256": "493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8"
+    }
   }
 }

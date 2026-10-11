@@ -493,3 +493,13 @@ Delivery: substantive commit `09c5cd73d643dc2b51c9f91d8ca76aea639bbe27` exact re
 The source and implementation audit is pinned to exact paper versions and FLA, GatedDeltaNet, and STEPQuant paths. No exact formula duplicate was found for the Delta leakage/witness, but both are immediate specializations inside established families. Originality/admission therefore fails; the result remains a conditional theorem/control.
 
 Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json` (SHA256 `48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea`).
+
+## R11 v3 lazy-overlay closure
+
+| Object | Closest primary mechanisms | Residual difference after audit | Decision |
+|---|---|---|---|
+| Exact passive low-rank overlay transport | DeltaNet ordered recurrence and WY form; DeltaProduct multi-step Delta; Brand low-rank SVD maintenance | Exact left-factor-only transport and the query-visible rank boundary are useful Delta-specific bookkeeping theorems, but not a distinct updater | theorem/debug control only |
+| Repeated order-gap injections | Ordered Delta products and low-rank update accumulation | Rank can grow sharply by two per disjoint legal gap; no fixed-rank universal closure | capacity boundary, not candidate |
+| Corrected-state commutator action | Affine switched systems and error-feedback state augmentation | The mandatory (MC) term repairs v2's passive-only wording; truncated state-dependent cores remain excluded | scoped correction |
+
+Artifacts: `research/delta-discovery-2026-10-08/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md` (5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65); source audit: `research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md` (493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8). Four independent final-byte reviews passed the scoped result. Candidate delta: 0. R11 attempt 3/3 is exhausted and parked.

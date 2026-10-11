@@ -500,3 +500,9 @@ Independent final-byte math, source, adversarial and measurement reviews pass on
 ### R10 v3 delivery closure
 
 Substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` was written to literal `main` with expected parent `a0e2ce2fbbee06a615d4a573e777f50773b912d7` and `force=false`. All 14 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json` (SHA256 `48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R11 v3 修订里程碑（2026-10-11）
+
+R11 的第三次实质修订没有删除旧反例，而是修正了 v2 对 overlay 传播的含混表述：固定且不随动作变化的纯 Delta 系数下，单个低秩修正只需更新左因子，秩不会自行增长；只有新的 gap 注入才累积秩，并可用合法的互不相交二维块达到 (2m) 的尖锐下界。修订同时补上了状态依赖 commutator 的 (MC) 项、query 可见最小精确秩、加权截断尾误差和包含初始误差的重压缩递推。
+
+四份绑定最终字节的独立审查均通过这一限定定理/调试控制。它仍与 Delta/WY、DeltaProduct 和低秩 SVD 维护机制高度重合，且缺少合法语义 selector、前缀可因果 query metric、同总成本优势与原生机制测量。因此 R11 第 3/3 次尝试到此 park，候选增量为 0，实验效果未知；历史计数不变。下一条独立未耗尽线为 R12 第三次修订。

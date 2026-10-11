@@ -268,3 +268,7 @@ R10 v3 does **not** enter the active pool or top-15. It converts v2's open low-r
 The theorem is useful for debugging but its constructive object is standard invariant-subspace/switched-reachability/model-reduction machinery. Moving bases erase the fixed-carrier no-go only by becoming an ordinary costed low-rank augmented state; new quantization defects can be full rank; no lawful natural prefix family, matched-total-cost advantage, or native mechanism scorer is available. Four exact-byte reviews pass conditional correctness and the measurement gap only. Attempt 3/3 is exhausted, candidate/admission/selection deltas remain zero, and empirical effect is unknown.
 
 Delivery: substantive commit `d6758ff92b7bbd9113547642e74bdc41130f2a5f` exact readback verified; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V3_DELIVERY_READBACK.json` (SHA256 `48ddb20af1c6505d827189eff125fc6296f3ab578e90bd7989b11e490ceba9ea`).
+
+## R11 v3 ranking decision
+
+R11 v3 is not inserted into the candidate ranking. Its exact lazy-overlay closure, sharp (2m) injection-rank construction and corrected-state (MC) term are retained as reviewed controls. Major mechanism collision and unresolved selector/measurement/cost conditions keep the active, admitted and selected counts unchanged. Attempt 3/3 is exhausted.
