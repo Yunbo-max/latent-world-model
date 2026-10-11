@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T04:35:22+01:00",
+  "recorded_at": "2026-10-11T04:41:00+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "repair_R11_v2_factor_core_order_gap_prepared_no_candidate",
+  "status": "repair_R11_v2_factor_core_order_gap_published_exact_readback_no_candidate",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "96fb673c2aefeba704a6bf09d0bca15faeebc3f7",
+  "delivery_parent": "37e5e1b1d6098c6207fa3e753c1d6ed03b24c740",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -2787,7 +2787,7 @@
         "reviewer": "/root/r11_v2_adversarial_review"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_conditional_pure_Delta_factor_core_and_physical_edit_risk_control_parked_not_candidate_pending_readback",
+    "status": "independent_final_byte_reviews_passed_conditional_pure_Delta_factor_core_and_physical_edit_risk_control_parked_not_candidate_published_exact_readback",
     "candidate_delta": 0,
     "execution": "none_math_source_review_only",
     "mathematical_status": "conditional_theorem_control",
@@ -2800,8 +2800,11 @@
       "Matched-total-cost benefit over exact ordered Delta and a direct rank-r action predictor including overlay carry/recompression.",
       "Pinned native object that measures harmful versus legitimate chronology."
     ],
-    "delivery_status": "prepared_for_expected_parent_main_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
+    "publication_commit": "37e5e1b1d6098c6207fa3e753c1d6ed03b24c740",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V2_DELIVERY_READBACK.json",
+      "sha256": "e96edb7ee8fca0661b26dbc943c863620a76913667fb0af8d629b463b4bcfddb"
+    }
   }
 }

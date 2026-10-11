@@ -356,3 +356,8 @@ K=\beta_i\beta_j(k_i^\top k_j)\,[k_i,k_j]\,[e_j,-e_i]^\top.
 The common-prestate second residual is reconstructible from the chronological post-first-write residual, and query-weighted low-rank optimization needs only two small Gram matrices plus an at-most \(2\times2\) SVD. Independent review then found and fixed a separate base-point error: rank relative to the branch midpoint is not the same as rank of an edit from the already executed physical order. The final theorem gives both budgets, the real no-op, and a plug-in selector-calibration penalty.
 
 Three independent final-byte reviews pass this only as a conditional pure-Delta theorem/control. It does not extend to an intervening decay matrix or state-dependent features. Ordered Delta/WY, DeltaProduct and classical factored/core SVD cover the principal mechanisms. A decision-time action-invariant \(G\), calibrated semantic selector, persistent-overlay cost advantage and native harmful-order measurement remain absent. R11 v2 is parked with candidate delta zero; empirical effect is unknown and no code or experiment was run.
+
+
+### R11 v2 delivery closure
+
+Substantive commit `37e5e1b1d6098c6207fa3e753c1d6ed03b24c740` was published to literal `main` by expected-parent, non-force update. All 12 changed paths were fetched again at that exact commit and matched the authored bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V2_DELIVERY_READBACK.json` (SHA256 `e96edb7ee8fca0661b26dbc943c863620a76913667fb0af8d629b463b4bcfddb`). This verifies delivery bytes only; it does not establish method novelty, empirical benefit, or scientific admission.

@@ -464,7 +464,7 @@
     {
       "path": "research/delta-discovery-2026-10-08/repairs/R11_FACTOR_CORE_ORDER_GAP.v2.md",
       "sha256": "452b5753a732a6b9d868ecf2d3647a9d6efcc5f8c0c8fd6932b58342847d0b63",
-      "status": "accepted_conditional_pure_Delta_factor_core_and_physical_edit_risk_control_parked_not_candidate_pending_readback",
+      "status": "accepted_conditional_pure_Delta_factor_core_and_physical_edit_risk_control_parked_not_candidate_published_exact_readback",
       "candidate_delta": 0,
       "substantive_attempt": 2,
       "empirical_status": "unknown_no_execution",
@@ -489,8 +489,11 @@
           "reviewer": "/root/r11_v2_adversarial_review"
         }
       ],
-      "publication_commit": null,
-      "delivery_readback_ref": null
+      "publication_commit": "37e5e1b1d6098c6207fa3e753c1d6ed03b24c740",
+      "delivery_readback_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V2_DELIVERY_READBACK.json",
+        "sha256": "e96edb7ee8fca0661b26dbc943c863620a76913667fb0af8d629b463b4bcfddb"
+      }
     }
   ],
   "counting_policy": {
