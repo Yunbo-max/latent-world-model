@@ -553,3 +553,5 @@ Delivery closure: substantive commit `3bd31945097eefe9d58a8a79feea45facb206a03`;
 | 可测性 | empirical per-dose means、随机 OPE/Settlement、端点 benchmark | joint jet/envelope/free-running counterfactual 仍不由原生 scorer 暴露 | measurement gap |
 
 有限 jet 下界不证明任意具体 Delta 网络都实现该 pair，也不排除值域或 no-write 的松弛保证。正面修复需要外部 smoothness/degree certificate 或真实 trial outcome；这些条件与成本必须同样给直接优化对照。故 R15 attempt 3/3 exhausted，`candidate_delta=0`，不进入 active pool/top-15。
+
+Delivery closure: substantive commit `51f48c750b2212675e9e41df2f4b1b780d102f6d`; all 14 substantive paths exact-readback verified. Receipt: `sources/REPAIR_R15_V3_DELIVERY_READBACK.json` (SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`).
