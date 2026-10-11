@@ -343,3 +343,16 @@ Independent final-byte review found and repaired the hidden residual--feedback e
 ### R10 v2 delivery closure
 
 Substantive commit `2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655` was published to literal `main` by expected-parent, non-force update. All 12 changed files were fetched again at that exact commit and hashed; the immutable receipt is `research/delta-discovery-2026-10-08/sources/REPAIR_R10_V2_DELIVERY_READBACK.json` (SHA256 `2700bae2e2d3bab87b8c394c1c67fa6a4f1dbdf21752597b0d3f38d0dcd12bda`). This verifies delivery bytes only, not originality, empirical benefit, or method admission.
+
+
+## R11 v2 pure-Delta factor-core milestone (2026-10-11)
+
+R11 attempt 2/3 repairs a real computational omission without deleting v1. For two pure scalar-\(\beta\) Delta steps, the exact adjacent order gap is
+
+\[
+K=\beta_i\beta_j(k_i^\top k_j)\,[k_i,k_j]\,[e_j,-e_i]^\top.
+\]
+
+The common-prestate second residual is reconstructible from the chronological post-first-write residual, and query-weighted low-rank optimization needs only two small Gram matrices plus an at-most \(2\times2\) SVD. Independent review then found and fixed a separate base-point error: rank relative to the branch midpoint is not the same as rank of an edit from the already executed physical order. The final theorem gives both budgets, the real no-op, and a plug-in selector-calibration penalty.
+
+Three independent final-byte reviews pass this only as a conditional pure-Delta theorem/control. It does not extend to an intervening decay matrix or state-dependent features. Ordered Delta/WY, DeltaProduct and classical factored/core SVD cover the principal mechanisms. A decision-time action-invariant \(G\), calibrated semantic selector, persistent-overlay cost advantage and native harmful-order measurement remain absent. R11 v2 is parked with candidate delta zero; empirical effect is unknown and no code or experiment was run.

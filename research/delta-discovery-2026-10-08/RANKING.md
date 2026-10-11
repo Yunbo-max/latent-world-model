@@ -182,3 +182,10 @@ R09 v2 does not enter the active pool or top-15. It repairs a real target mismat
 R10 v2 does **not** enter the active pool or top-15. It repairs a real missing derivation: under a declared feedback-invariant residual coupling, transition-matched feedback cancels older frozen-affine residual propagation; the restricted finite-horizon optimum is a Gramian/covariance projection, and correlated scalar residuals move the optimum according to a weighted one-lag spectrum. It also preserves the finite residual defect and equal-state information boundary.
 
 The contribution skeleton is nevertheless covered by classical state-space error-spectrum shaping, Zheng et al. graph-filter QEF, Ohno et al. fixed-rate error-feedback quantization, and recurrent-state quantization controls. Actual deterministic residuals are feedback-endogenous, future Gramians are not prefix observables, matched storage/traffic/compute dominance is absent, and native semantic measurement is missing. Final-byte math, source and adversarial reviews therefore pass only a conditional theorem/control. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, and no experiment was run.
+
+
+## R11 v2 ranking decision (2026-10-11)
+
+R11 v2 does **not** enter the active pool or top-15. It corrects v1's dense-SVD cost overstatement and the first v2 draft's midpoint-versus-physical-edit budget error. The final pure-Delta theorem factors the adjacent order gap into two keys and two residuals, reduces weighted optimization to an at-most \(2\times2\) core, and exactly separates selector uncertainty, physical rank tail, and plug-in calibration error.
+
+The contribution remains a debugging/control theorem. Exact ordered Delta/WY and DeltaProduct already preserve order, small-core SVD is classical, the theorem does not cover gated/decayed or nonlinear recurrence, and a lawful \(G\), semantic selector, persistent-overlay matched-cost benefit and native semantic measurement are absent. Three final-byte reviews pass conditional correctness only. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, and no experiment was run.

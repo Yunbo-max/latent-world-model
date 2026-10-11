@@ -342,3 +342,14 @@ The AIS author implementation was inspected at `info-structures/ais@d2eca3b5d19d
 | finite residual memory | recurrent-state write-back; DAMP; STEPQuant | residual/direction state, persistence/readout allocation, write timing | proof that residual quantization reintroduces transported defect plus equal-state capacity boundary | strong control only |
 
 The direct \(2^B\)-state relabeling is an information-capacity comparator, not automatically an equal-arithmetic or equal-traffic implementation. R10 still lacks a lawful prefix Gramian/spectrum estimator, matched-total-cost advantage, native Delta mechanism object, and evidence about semantic validity.
+
+
+## R11 v2: pure-Delta factor-core order-gap decision
+
+| Object | Closest primary mechanism | Actual overlap | Residual R11 content | Decision |
+|---|---|---|---|---|
+| exact chronological order | Yang et al. Delta/WY; DeltaProduct | ordered Householder/Delta composition and ordered low-rank expressivity | counterfactual adjacent-gap analysis, not needed for correct chronology | strong baseline/collision |
+| weighted rank-two solve | Brand 2006 low-rank SVD modifications; Eckart--Young--Mirsky | skinny-factor orthogonalization, small-core SVD, rank-tail optimum | pure-Delta two-key/two-residual identity and common-prestate residual reconstruction | known computation; narrow theorem only |
+| semantic branch decision | no inspected source supplies a validity oracle | none of the ordered/SVD mechanisms identify harmful chronology | centered versus physical-edit Bayes risk and plug-in calibration penalty | information and measurement gap |
+
+The exact residual identity is not claimed to appear in those papers and no priority claim is made. The mechanism-level method claim still fails because the computation and order handling are known while the causal selector and metric are missing.
