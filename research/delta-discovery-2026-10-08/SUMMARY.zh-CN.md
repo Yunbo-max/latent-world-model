@@ -477,3 +477,5 @@ v2 已经说明，真实耦合 continuation 下响应次数可能快速增长；
 这条线的数学边界通过四路独立最终字节审查，但不成为新 updater。高阶正则化/trust-region、DDP/iLQR/GGN、直接 action/Q predictor、经验 dose means 和 OPE 是强对照。现有 Open Bandit Pipeline、Ouroboros、LongMemEval、bAbI、LAMBADA、RULER 可以测日志动作或行为端点，却不提供 joint jet、全局包络和所有 free-running 分支结果。
 
 因此 R15 在第 3/3 次实质修订后 park：留下有限-jet 不可辨识性定理与明确重开条件，候选增量0；当前仍为 **5历史 / 0活动 / 0科学准入 / 0选择**，实际效果未知，没有运行代码或实验。下一步转到 R16 attempt 3。
+
+交付闭环：实质内容已以旧 `main` 头 `072433bb5301ca8ae15a79e8122ba1d87c33f142` 为 expected parent、`force=false` 推进到 `51f48c750b2212675e9e41df2f4b1b780d102f6d`；14 个路径均从该精确提交读回且字节一致。收据：`sources/REPAIR_R15_V3_DELIVERY_READBACK.json`（SHA256 `7ceae336239e11f67de4c5971cd430b42526b71a0547d9fcf20f80d4fed0c458`）。这只证明交付，不证明原创性、科学准入、原生测量有效性或实验收益。
