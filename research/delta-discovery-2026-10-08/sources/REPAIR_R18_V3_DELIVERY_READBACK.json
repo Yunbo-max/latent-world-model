@@ -1,0 +1,117 @@
+{
+  "kind": "github-exact-readback-receipt",
+  "version": "1.0.0",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "b006efeb6a63e0e244aaf58a82feb020d014d5bd",
+  "substantive_commit": "82674bd2999d8c6a801c92111ea9c76e20f18d3c",
+  "verified_at": "2026-10-11T23:58:00Z",
+  "path_count": 14,
+  "all_paths_exact": false,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+      "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+      "git_blob_sha": "ae9131b02d53898fc691c5655cd1d6738fd58f6c",
+      "exact_readback": true,
+      "bytes": 15534
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R18_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "13e479bb327362295d71e0d5f423d2d4ce65edcc943d11b28a6773c149882430",
+      "git_blob_sha": "d0b97f9010c47de1695f170b2ac222de6bc1c839",
+      "exact_readback": true,
+      "bytes": 3250
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/sources/R18_BOUNDED_FIBER_LEAKAGE_SOURCE_AUDIT.v3.md",
+      "sha256": "f430a7306be6ce1cc876a90bc2cd30c3b51d9f43e71a3b705d6988bae9cc105c",
+      "git_blob_sha": "d43dfd89a46926b8e99fcf22f2aab4ed1f8d0613",
+      "exact_readback": true,
+      "bytes": 9188
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V3.math-review.md",
+      "sha256": "e18172ee57a3a9871568e9393f4f293796ff8c89bf88bb657718047d69b9c09f",
+      "git_blob_sha": "c165a799f4f967a76e89ecf721c518e7e8452481",
+      "exact_readback": true,
+      "bytes": 2008
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V3.source-review.md",
+      "sha256": "7ad17630af86acad25e56b343e32598a81a107247c7461fd3da0c366c4bb8bfa",
+      "git_blob_sha": "b6bfa41f60224c4a3e8bef0b48ae773254601b21",
+      "exact_readback": true,
+      "bytes": 2590
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V3.adversarial-review.md",
+      "sha256": "2416cdf97a5eef2078488b9711746cf13721a4e48c13c5808446f0f355447be3",
+      "git_blob_sha": "44beea50a4a7eedb32d461725abe3758cdc9f722",
+      "exact_readback": true,
+      "bytes": 2229
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R18_V3.measurement-review.md",
+      "sha256": "bb7a5135112aa0a03f09e82f49171b907fcb06e7fa033070669698d0f1551d5b",
+      "git_blob_sha": "62fcc78720be8cbc73a34f865350574ef0771595",
+      "exact_readback": true,
+      "bytes": 2165
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "sha256": "fcb94d90e3d51643e299d2cd4c07cbcf51eedad5d9025dc8b1eda10d6fdc63bd",
+      "git_blob_sha": "f335dafafdadb16ae508ddeb3c56a69646856231",
+      "exact_readback": true,
+      "bytes": 302035
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "sha256": "8d642bea07542f56df5970a228a5b789d29383b3f80bf4e1134335dd9a7dd9cc",
+      "git_blob_sha": "6c173cdd5cb91e210dde7ef176fd91d69335576c",
+      "exact_readback": true,
+      "bytes": 102283
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "sha256": "fc9e95adbcf74905f67424cbadfccbc215ace018c03f92a1af0d817b5818ad73",
+      "git_blob_sha": "6ad34a9082bd5d52115c3b6260121316c2239d9a",
+      "exact_readback": true,
+      "bytes": 239964
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/GOAL.md",
+      "sha256": "db68cd3a05cd9b1bd6599bedcf82c4b1150aedd40c1bc7a3ecdb71acecf8a86f",
+      "git_blob_sha": "8c0ac0fdb795a9834d4062fde8209967bad88cce",
+      "exact_readback": true,
+      "bytes": 109038
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md",
+      "sha256": "bb447c2a8db77c8cc17a1a6e262d29e1acd8d7de5029dac8df736737e02ca1ad",
+      "git_blob_sha": "dbd71dfba8db9fea636675effe08b1142cf2614b",
+      "exact_readback": true,
+      "bytes": 91450
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/RANKING.md",
+      "sha256": "3deed08067ae3a1922714c128a70bd997a272098a489629559296f61c8cfe764",
+      "git_blob_sha": "b7033c33cb07d0303df3f2675a1f9b5df990dcb8",
+      "exact_readback": true,
+      "bytes": 55651
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md",
+      "sha256": "b2df2a82aa25749f2c04417f6f6fcd729023bc54899a0fe84a8477437ab98f5b",
+      "git_blob_sha": "ff1d0a01c9154c217c6c4136445329a0fdf26bff",
+      "exact_readback": true,
+      "bytes": 87952
+    }
+  ],
+  "notes": [
+    "Readback used the exact substantive commit, not a moving branch ref.",
+    "SHA256 values are over the local final bytes independently reviewed before publication.",
+    "No project/model code, tests, training, inference, scoring or dataset/model download was run."
+  ]
+}
+

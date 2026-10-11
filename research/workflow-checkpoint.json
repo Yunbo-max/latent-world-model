@@ -194,7 +194,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Publish R18 v3 with expected-parent lease and exact readback; then continue R19 attempt 3.",
+  "next_action": "Continue R19 attempt 3; R18 is terminally parked after exact readback.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -2497,7 +2497,7 @@
         "reviewer": "/root/commutator_candidate"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_conditional_bounded_fiber_leakage_ledger_control_lineage_exhausted_parked_not_candidate_pending_publication",
+    "status": "independent_final_byte_reviews_passed_conditional_bounded_fiber_leakage_ledger_control_lineage_exhausted_parked_not_candidate_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_exact_real_one_event_fixed_affine_map_bounded_pairwise_fiber_minmax_leakage_and_envelope_certificate",
       "contribution": "useful_Delta_bounded_fiber_side_ledger_theorem_not_new_updater",
@@ -2527,9 +2527,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "b006efeb6a63e0e244aaf58a82feb020d014d5bd",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback",
-    "publication_commit": null,
-    "delivery_readback_ref": null
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "82674bd2999d8c6a801c92111ea9c76e20f18d3c",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_V3_DELIVERY_READBACK.json",
+      "sha256": "9973ebb1449f47bbc0bf858023708b5d19b396b4376e94a039975aff1017a5c4",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   },
   "repair_R19_switched_protection_fiber": {
     "version": "v1",

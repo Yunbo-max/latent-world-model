@@ -595,3 +595,7 @@ Four independent final-byte reviews passed the stated conditional scope. Native 
 
 Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 substantive paths were read back byte-for-byte at that exact commit. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R17_V3_DELIVERY_READBACK.json` (SHA256 `c07694da42bf47a3535dbcfdde3df7eaa9bba6b159faf30404d18cde692087b9`).
 
+## R18 v3 交付读回
+
+R18 v3 实质 commit `82674bd2999d8c6a801c92111ea9c76e20f18d3c` 已从精确 commit 逐文件读回；14/14 路径与本地最终字节一致。读回清单见 `sources/REPAIR_R18_V3_DELIVERY_READBACK.json`。下一独立未耗尽 lineage 是 R19 attempt 3；本轮未转入代码或实验。
+
