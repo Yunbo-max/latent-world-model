@@ -361,3 +361,12 @@ Three independent final-byte reviews pass this only as a conditional pure-Delta 
 ### R11 v2 delivery closure
 
 Substantive commit `37e5e1b1d6098c6207fa3e753c1d6ed03b24c740` was published to literal `main` by expected-parent, non-force update. All 12 changed paths were fetched again at that exact commit and matched the authored bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R11_V2_DELIVERY_READBACK.json` (SHA256 `e96edb7ee8fca0661b26dbc943c863620a76913667fb0af8d629b463b4bcfddb`). This verifies delivery bytes only; it does not establish method novelty, empirical benefit, or scientific admission.
+
+## R12 v2 autonomous-syndrome closure milestone (2026-10-11)
+
+R12 attempt 2/3 preserves v1's static protected-readout theorem and repairs its target mismatch: a syndrome must be recursively sufficient, not merely decode one completed edit. For `Y=H^T S` and a frozen affine state factor `F`, exact next-syndrome closure holds iff `ker(H^T) subseteq ker(H^T F)`, equivalently iff `F^T col(H) subseteq col(H)` or `H^T F=L H^T` for some `L`.
+
+For pure Delta with nonzero gate, this collapses to a sharp key geometry: each key must lie inside or be orthogonal to the syndrome subspace. Iterating the keys that have nonzero projection into the current space gives the least closed protected subspace. A mixed key produces two full states with the same syndrome but different next syndrome, and the orthonormal-basis one-step leakage is exactly `|beta| ||P_V k|| ||P_(V^perp) k||`.
+
+Independent final-byte math, source and adversarial review corrected two substantive overclaims: composite state-dependent closure does not require every coefficient to be individually fiber-constant, and raw `H` leakage is coordinate-scaled unless `H` is orthonormalized. The result remains a conditional theorem/control, not a new updater. Invariant quotient/bisimulation theory and internal R18 cover the general mechanism; direct coordinates on the same closed space and the full Delta state are mandatory controls. Native tasks do not expose exact fiber closure or semantic-revision identity. R12 v2 is parked after attempt 2/3 with candidate delta zero, empirical effect unknown, and no code or experiment run.
+

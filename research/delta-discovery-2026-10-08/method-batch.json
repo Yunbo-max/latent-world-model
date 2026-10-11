@@ -494,6 +494,37 @@
         "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_V2_DELIVERY_READBACK.json",
         "sha256": "e96edb7ee8fca0661b26dbc943c863620a76913667fb0af8d629b463b4bcfddb"
       }
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/repairs/R12_AUTONOMOUS_SYNDROME_CLOSURE.v2.md",
+      "sha256": "4b7afa4ec82b770fa86e36435d0b4ae5173e4dc94186d161e592a4631175b916",
+      "status": "accepted_conditional_autonomous_syndrome_closure_theorem_control_parked_not_candidate_pending_delivery",
+      "candidate_delta": 0,
+      "substantive_attempt": 2,
+      "empirical_status": "unknown_no_execution",
+      "source_ref": {
+        "path": "research/delta-discovery-2026-10-08/sources/R12_V2_AUTONOMOUS_SYNDROME_SOURCE_AUDIT.md",
+        "sha256": "3903fd6b35f4b1cff3fb844cf92aae354121b83e210f5787f77aace8f3499c9e"
+      },
+      "review_refs": [
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.math-review.md",
+          "sha256": "e8bd23d851b1c266183513563f5a5b069d11c783bcf9decef55b68bd6b6f454a",
+          "reviewer": "/root/r12_v2_math_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.source-review.md",
+          "sha256": "36b89428e0f5fdf74b11b1ad53acf9699bcb85d70ccb0bfded5b27d4df62f683",
+          "reviewer": "/root/r12_v2_source_review"
+        },
+        {
+          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V2.adversarial-review.md",
+          "sha256": "7eb1ae65f8a0daeb61f39e1030ddf651176490b66b77758440fcc19a2c42e620",
+          "reviewer": "/root/r12_v2_adversarial_review"
+        }
+      ],
+      "publication_commit": null,
+      "delivery_readback_ref": null
     }
   ],
   "counting_policy": {
@@ -529,7 +560,8 @@
       "R05 v4 supplies reviewed lawful-prefix conditional sharp bounds, distinct minimax-regret and baseline-safe gates, pooling inequalities and a selective-write witness while preserving the conditional coupling no-go. Conditional-LP/individualized ambiguity-policy collisions and absent native joint labels leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
       "R06 v3 supplies a reviewed exact rank-one singular survival product, conditional Kantorovich audit factor and matching current-residual plasticity floor. Generalized-Householder, invertible-residual and PPS/proposal-allocation collisions plus the missing native joint object leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
       "R02 v3 supplies a reviewed sharp quotient-AIPW covariance tolerance, a separately scoped fixed-policy uniform-defect value recursion, a rare-occupancy failure witness and a Delta coefficient-leakage identity. AIS, approximate abstraction, abstract-state OPE, bisimulation and internal R18/R03 collisions leave zero active/admitted/selected candidate increment; the lineage is exhausted after attempt 3.",
-      "R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked."
+      "R07 v2 supplies a reviewed complete-state fixed-policy finite-horizon directional margin, exact costate-weighted dynamics curvature, Taylor certificate and free-running-law boundary. Adjoint/DDP/iLQR/differentiable-MPC/meta-gradient collisions and the native action-level measurement gap leave zero active/admitted/selected candidate increment; attempt 2/3 is parked.",
+      "R12 v2 supplies a reviewed recursive autonomous-syndrome closure iff, pure-Delta key dichotomy, key-family fixed point, exact minimax one-step error and normalized leakage diagnostic. Invariant quotient/bisimulation and R18 collisions plus the same-width direct-coordinate control leave zero active/admitted/selected candidate increment; attempt 2/3 is parked."
     ]
   },
   "counting_policy_repair": {
@@ -554,6 +586,8 @@
     "r06_v3": "Reviewed frozen-Delta survival-margin and preservation-plasticity theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r02_v3": "Reviewed quantitative causal/dynamic quotient theorem/control; zero active constructed, scientific admission or selection increment; lineage exhausted after substantive attempt 3; substantive expected-parent main delivery and exact readback completed.",
     "r07_v2": "Reviewed complete-state coupled directional-margin theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
-    "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed."
+    "r08_v2": "Reviewed exact two-stage action-dependent information-value theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; substantive expected-parent main delivery and exact readback completed.",
+    "r12_v2": "Reviewed recursive autonomous-syndrome closure theorem/control; zero active constructed, scientific admission or selection increment; substantive attempt 2/3; delivery pending expected-parent main and exact readback."
   }
 }
+

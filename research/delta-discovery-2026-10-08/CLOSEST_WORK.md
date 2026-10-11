@@ -353,3 +353,15 @@ The direct \(2^B\)-state relabeling is an information-capacity comparator, not a
 | semantic branch decision | no inspected source supplies a validity oracle | none of the ordered/SVD mechanisms identify harmful chronology | centered versus physical-edit Bayes risk and plug-in calibration penalty | information and measurement gap |
 
 The exact residual identity is not claimed to appear in those papers and no priority claim is made. The mechanism-level method claim still fails because the computation and order handling are known while the causal selector and metric are missing.
+
+## R12 v2 — autonomous syndrome versus invariant quotients (2026-10-11)
+
+| R12 v2 result | Closest work/control | Residual and decision |
+|---|---|---|
+| `H^T F=L H^T` iff the syndrome fibers are forward-compatible | Pappas' linear invariant-quotient/bisimulation condition; internal R18 recursive quotient | Delta specialization is exact and useful, but the mechanism is already covered |
+| Pure-Delta key dichotomy and least key-activated closed subspace | generalized-Householder/ordered Delta recurrence; invariant-subspace closure | Gives a sharp debugging boundary, not a new update rule |
+| Exact minimax one-step closure error and orthonormal leakage `|beta| ||P_V k|| ||P_(V^perp)k||` | direct orthonormal coordinates, full state, ordinary operator residual | A basis-invariant diagnostic survives; arbitrary `H` scaling is not a scientific advantage |
+| State-dependent composite closure | functional fiber constancy of the complete step | Coefficientwise constancy is only sufficient; certifying an implicit/infinite key family can cost as much as the full problem |
+
+The decisive same-information baseline stores direct coordinates on the same closed subspace; it has the same width. Keeping full `S` makes the syndrome only an auxiliary ledger. Existing LM benchmarks measure endpoints rather than exact quotient closure or semantic revision identity. Thus R12 v2 is `CONTROL_ONLY`, parked after attempt 2/3 with candidate delta zero and empirical effect unknown.
+

@@ -189,3 +189,10 @@ The contribution skeleton is nevertheless covered by classical state-space error
 R11 v2 does **not** enter the active pool or top-15. It corrects v1's dense-SVD cost overstatement and the first v2 draft's midpoint-versus-physical-edit budget error. The final pure-Delta theorem factors the adjacent order gap into two keys and two residuals, reduces weighted optimization to an at-most \(2\times2\) core, and exactly separates selector uncertainty, physical rank tail, and plug-in calibration error.
 
 The contribution remains a debugging/control theorem. Exact ordered Delta/WY and DeltaProduct already preserve order, small-core SVD is classical, the theorem does not cover gated/decayed or nonlinear recurrence, and a lawful \(G\), semantic selector, persistent-overlay matched-cost benefit and native semantic measurement are absent. Three final-byte reviews pass conditional correctness only. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, and no experiment was run.
+
+## R12 v2 ranking decision (2026-10-11)
+
+R12 v2 does **not** enter the active pool or top-15. It repairs a real target error: static edit decodability is weaker than recursive sufficiency. The exact affine closure condition is `H^T F=L H^T`; in pure Delta every active key must be internal or orthogonal to the syndrome space, while mixed keys yield a sharp same-syndrome/different-next-syndrome witness and an orthonormal leakage diagnostic.
+
+The result remains a conditional theorem/control. Invariant quotient/bisimulation and internal R18 cover the general mechanism; direct coordinates on the same closed subspace are an equal-width simpler baseline, and retaining full `S` removes any compression claim. Certified structure for an implicit key/decay family, total-cost advantage and a native recursive-closure/semantic-revision measurement are absent. Attempt 2/3 is parked; candidate, scientific-admission and selection deltas remain zero, empirical effect is unknown, and no experiment was run.
+
