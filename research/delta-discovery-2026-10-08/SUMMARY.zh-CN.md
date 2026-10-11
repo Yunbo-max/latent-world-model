@@ -455,3 +455,13 @@ Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact re
 ### R13 v3 delivery closure
 
 Substantive commit `a68d861d1bfcc8e7e2ccc006f98c9ebbe7f00eaa` was written to literal `main` with expected parent `7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02` and `force=false`. All 15 substantive paths were fetched at that exact commit and matched the submitted bytes. Receipt: `research/delta-discovery-2026-10-08/sources/REPAIR_R13_V3_DELIVERY_READBACK.json` (SHA256 `5a44009c73c0a8440e38442226354a6a2ecb38c98b7b3f903cba72e89e458579`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R14 v3：证书不是凭 residual 变出来的，现有路线到这里应当停
+
+这次不是再给 router 加一个 loss，而是直接检查 v2 尚未回答的问题：假如两个世界在写入前给模型看到的全部记录几乎一样，但一个应写槽1、另一个应写槽2，那么一个“逐 token 有效”的 provenance 区间能有多窄？答案是：若两世界可见分布的总变差为 `delta`，区间至少以 `(1-2 alpha-delta)_+` 的概率同时包含 0 和 1；完全不可区分时，它经常只能诚实地给 `[0,1]`。
+
+同一重叠部分还迫使任何更新器承担至少 `(1-delta)lambda/(1+lambda)` 的两槽局部风险。完全不可区分时，v2 的对称小步写恰好达到这个极限；硬动作如果不允许随机混合就选择不写，允许混合时有另一条明确边界。这说明 v1/v2 的数学并没有被推翻，但剩余问题属于信息不足，不是再换一种 Delta 几何就能解决。
+
+最可能失败处也写清了：真实任务可能有能区分版本的 ID、时间戳、外部纠错信号或可查询证据；一旦加入这些信息，下界会变弱。但这些信息也必须给直接 Bayes/minimax router、事件 ledger 和 direct action predictor，并计入标签、状态、检索、延迟和计算成本。现有 bAbI/LAMBADA/RULER/LongMemEval/模型编辑原生 scorer 只能测行为端点，不能验证这一内部证书机制。
+
+因此 R14 在第 3/3 次实质修订后正式 park：留下一个有用的证书坍缩与风险下界定理，不升级为新候选；实际效果未知，没有运行代码或实验。下一步转到 R15 的最后一次修订，而不是继续给 R14 换名循环。
