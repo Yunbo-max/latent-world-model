@@ -520,3 +520,16 @@ R12 第三次修订没有重新发明 v2 的最小不变 fixed point，而是在
 ### R12 v3 delivery closure
 
 Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R13 v3 最小擦除 ledger 修订（2026-10-11）
+
+R13 第 3/3 次修订修正了 v1 的一个真实成本缺口：不再默认保存全部 \(Q^\top S\)。对写入前可见、写入后已知的仿射步 \(Z=AS+B\)，若 \(N\) 张成 \(\ker A\)，精确恢复旧保护读出的最小额外线性行数为
+\[
+\ell_\star=\operatorname{rank}(Q^\top N).
+\]
+显式 SVD 构造达到下界；即便编码器跨所有 \(d_v\) 列混合，仍至少需要 \(d_v\ell_\star\) 个实坐标。对 exact rank-one Delta overwrite，只要保护方向与被擦除方向重叠，恰需一个 \(d_v\)-向量，而不是 \(p\) 个。修订还区分了自由逆解码的全局最优与固定 spectral-cut 解码器的状态/稳定性交换。
+
+五路独立最终字节审查确认了定理、反例、来源碰撞、总成本与测量边界。旧的 hidden-mode、语义有效性、近 overwrite 放大和完整非线性递推边界都保留。R18 的一般 erased-fiber ledger rank、R12 的直接充分坐标、R19 的零误差 side code，以及 functional observer、Eckart--Young、invariant/JSR 理论覆盖主体机制；最强同信息对照就是同一个最优 lost-coordinate ledger。
+
+因此 R13 attempt 3/3 耗尽并 park：candidate delta 0，实验效果未知，计数仍为 **5 historical / 0 active / 0 scientifically admitted / 0 selected**。没有运行模型代码、测试、训练、推理、评分或实验。下一条独立未耗尽路线是 R14 attempt 3。
+

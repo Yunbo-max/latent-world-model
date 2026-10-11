@@ -516,3 +516,17 @@ Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact re
 - Decision: conditional theory/debug control only; attempt 3/3 exhausted, candidate delta 0, empirical effect unknown.
 
 Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R13 v3 minimum-erasure ledger closest-work disposition
+
+| R13 object | Closest work/control | Residual | Decision |
+|---|---|---|---|
+| \(XA+KL^\top=Q^\top\) | generalized inverse and functional observers | explicit one-step side-ledger factorization | known algebraic family |
+| \(\ell_\star=\operatorname{rank}(Q^\top N)\) | minimum-order observation; internal R18 direct ledger | Delta specialization and cross-column scalar accounting | theorem/debug control |
+| rank-budget tail | Eckart--Young | protected-kernel residual | classical low-rank approximation |
+| spectral-cut hybrid | truncated SVD/regularized inverse plus side information | exact split only in the declared constrained decoder class | known state/stability tradeoff |
+| one-vector overwrite corollary | reversible side bits/direct syndrome | sharp rank-one Delta corollary | not a new updater |
+| arbitrary-switch boundary | common invariant subspace/JSR | elementary repeated-mode proof | no method delta |
+
+R12 sufficient coordinates and R19 zero-error side coding are broader internal collisions. Five independent final-byte reviews pass only the scoped theorem/debug control. Attempt 3/3 is exhausted, candidate delta is zero, and empirical effect is unknown.
+

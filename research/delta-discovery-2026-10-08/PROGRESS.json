@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T18:34:54+01:00",
+  "recorded_at": "2026-10-11T19:34:20+01:00",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R12_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
+  "status": "R13_v3_attempt_3_final_byte_reviews_passed_pending_main_publication",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "4e8effff833f0b553982532a9615b288dc95da14",
+  "delivery_parent": "7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -94,7 +94,11 @@
         "path": "research/delta-discovery-2026-10-08/sources/R11_V3_LAZY_OVERLAY_SOURCE_AUDIT.md",
         "sha256": "493c5ec391e0da025abb9bf9c0782a29d404d499aed73738dc53ce7515b03ae8"
       },
-      "sources/R12_V3_GRAM_COMPONENT_SOURCE_AUDIT.md"
+      "sources/R12_V3_GRAM_COMPONENT_SOURCE_AUDIT.md",
+      {
+        "path": "research/delta-discovery-2026-10-08/sources/R13_V3_MINIMUM_ERASURE_LEDGER_SOURCE_AUDIT.md",
+        "sha256": "6d3cb8b0692fa5d13a207dc5368d2ec7342289b2439dd4a8a5b9c01899e7a787"
+      }
     ],
     "new_verified_controls": [
       "rejected/NOGO_CAP_02.md",
@@ -144,6 +148,14 @@
           "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b"
         },
         "status": "conditional_finite_declared_key_Gram_component_closure_debug_theorem_not_candidate"
+      },
+      {
+        "repair_id": "R13_v3",
+        "artifact_ref": {
+          "path": "research/delta-discovery-2026-10-08/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d"
+        },
+        "status": "conditional_minimum_erasure_ledger_theorem_control_not_candidate"
       }
     ],
     "new_conditional_theory_leads": [
@@ -346,7 +358,7 @@
       "R12 v3 exhausts attempt 3/3 by evaluating v2's least jointly invariant syndrome carrier for a finite ex-ante declared pure-Delta key family. The unique least carrier is the protected span plus every key in seeded connected components of the non-orthogonality graph, with width rank[Q,K_R]. The theorem includes an exact reduced recurrence, a future bridge impossibility result, and a cumulative leakage boundary showing thresholded edges need conditioning. Four final-byte independent reviews pass only this conditional theorem/control. General invariant quotient/reducing-space/frame-graph theory and internal R18/R09/R10 are major collisions; direct U^T S is algebraically identical, native mechanism measurement is absent, and empirical effect is unknown. Candidate delta zero; R12 is parked."
     ]
   },
-  "next_action": "Continue R13 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R12 only with a lawful unseen-key mechanism without equivalent retained information, matched-total-cost advantage over identical direct coordinates/full Delta, and a native mechanism-identifying record.",
+  "next_action": "Continue R14 attempt 3 as the earliest independent unexhausted repair lineage. Reopen R13 only with a distinct lawful operation unavailable to the identical lost-coordinate ledger, matched-total-cost advantage, and a native mechanism-identifying record.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -3955,5 +3967,86 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R13_v3_minimum_erasure_ledger": {
+    "repair_id": "R13_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R13_ROBUST_COMMON_COVECTOR.v2.md"
+    ],
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "4ea68df206d2f415a6474a3f2741d372f5c1fb209343b46ff71e863bc96daae8"
+    },
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+      "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R13_V3_MINIMUM_ERASURE_LEDGER_SOURCE_AUDIT.md",
+      "sha256": "6d3cb8b0692fa5d13a207dc5368d2ec7342289b2439dd4a8a5b9c01899e7a787"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V3.math-review.md",
+        "sha256": "a1389821be4bc0489230325d555b48c459061f85214ef22f088cc5d482b27a81",
+        "reviewer": "/root/r13_v3_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V3.source-review.md",
+        "sha256": "4132ac7720ee80e0d70e5d5d3bd0812831be0993cb63e15097443fdffe1f863b",
+        "reviewer": "/root/r13_v3_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V3.adversarial-review.md",
+        "sha256": "c7f005a5795b8d9f090e5e2f77188ddb88df70d12a192ef8b7ce40910ec72d21",
+        "reviewer": "/root/r13_v3_adversarial"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V3.measurement-review.md",
+        "sha256": "07500e3a956883955e591604718b5f804467beebbea137177fca1a4e3878a304",
+        "reviewer": "/root/r13_v3_measurement"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V3.novelty-review.md",
+        "sha256": "4511bd9ed3745cecf8cb1752c962e9b0c1dcd167f3de9ec43155f3a55e724dba",
+        "reviewer": "/root/r13_v3_novelty"
+      }
+    ],
+    "status": "independent_final_byte_math_source_adversarial_measurement_novelty_reviews_passed_conditional_minimum_erasure_ledger_control_parked_not_candidate_pending_main_publication",
+    "scientific_states": {
+      "mathematics": "accepted_scoped_minimum_real_linear_erasure_ledger_rank_SVD_attainment_cross_column_scalar_bound_kernel_tail_constrained_spectral_cut_Delta_one_vector_corollary_and_switching_boundary",
+      "contribution": "useful_Delta_specific_minimum_erasure_certificate_and_v1_cost_repair_not_new_updater",
+      "closest_work": "generalized_inverse_minimum_and_functional_observers_reversible_side_information_Eckart_Young_common_invariant_JSR_and_internal_R18_R12_R19",
+      "measurement": "native_endpoint_assets_do_not_expose_transition_kernel_minimum_ledger_same_post_state_counterfactual_or_semantic_validity",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_conditional_theorem_control",
+    "preserved_v1_v2": "known_step_transport_overwrite_and_conditioning_plus_hidden_mode_common_decoder_obstruction",
+    "repair_delta": "replace_coarse_full_protected_value_ledger_with_minimum_erased_quotient_rank_and_stability_constrained_hybrid",
+    "strong_controls": [
+      "identical optimal lost-coordinate ledger",
+      "full protected-value ledger",
+      "revealed-mode v1 transport",
+      "full Delta no compression",
+      "matched replay checkpoint or external KV",
+      "R18 direct quotient",
+      "set-membership observer",
+      "Bayes conditional mean under the same information"
+    ],
+    "unclosed": [
+      "A lawful causal protected object and semantic validity evidence.",
+      "Matched-total-cost advantage after coefficient storage setup precision bandwidth and latency.",
+      "A native mechanism-identifying record.",
+      "A distinct operation unavailable to the identical direct lost-coordinate ledger.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "7b1ccbcb2cfc4f1554c97aea4b87fe4d03d42f02",
+    "delivery_status": "final_bytes_reviewed_pending_expected_parent_nonforce_main_publication_and_exact_readback"
   }
 }

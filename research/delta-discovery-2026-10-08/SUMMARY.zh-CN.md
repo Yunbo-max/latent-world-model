@@ -441,3 +441,14 @@ Delivery: substantive commit `aac96a58daa28a455012b95e8015dd1f0926c2ad` exact re
 所以 R12 第 3/3 次修订到此 park：数学正确、贡献是条件定理/调试控制、候选增量0、实验效果未知。计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行模型代码或实验。下一条接续为 R13 attempt 3。
 
 Delivery: substantive commit `4e8effff833f0b553982532a9615b288dc95da14` exact readback verified for all 14 substantive paths; receipt `research/delta-discovery-2026-10-08/sources/REPAIR_R12_V3_DELIVERY_READBACK.json` (SHA256 `8532cf0969f3634d810e98128533d1b9f3aa66da405220735589378c2cbe31e4`). This verifies delivery only, not originality, candidate admission, native measurement validity, empirical benefit, or experiment completion.
+
+## R13 v3：保留“丢失的最少坐标”，但它是强对照而不是新 updater
+
+这轮没有把 R13 简单判死，而是修正了 v1 的过度付费：如果写入后的状态还保留了大部分旧读出，就不必把整个保护值都另存一份。真正必须额外保存的只有被写入矩阵核空间擦掉、同时又被保护查询看见的部分；其最小行数是 \(\operatorname{rank}(Q^\top N)\)。
+
+对一次 exact rank-one Delta overwrite，这个结论很干净：保护方向不碰被擦除方向时不用 ledger；一旦有重叠，只需且必须保存一个 \(d_v\)-向量，与保护 query 的数量 \(p\) 无关。若不想反演很小的奇异值，可以把低奇异保护方向放入 ledger；但这只是固定 spectral-cut 解码器里的状态换稳定性，不能冒充自由解码的全局最优。
+
+它最可能失败在三处：保护对象本身未必因果可得或仍然有效；basis、系数、SVD、精度、带宽和延迟可能吃掉状态节省；现有原生 benchmark 只看端点，不能证明收益来自该 ledger。更关键的是，同一个最优 lost-coordinate ledger 本身就是最强同信息简单对照，R18/R12/R19 和 observer/invariant 理论已覆盖主体。
+
+所以五路独立审查通过的是一个可复用的边界定理和 debug control，不是新架构。R13 第 3/3 次修订到此 park：候选增量 0，实验效果未知，计数保持 **5历史 / 0活动 / 0科学准入 / 0选择**；没有运行代码或实验。下一条接续为 R14 attempt 3。
+
