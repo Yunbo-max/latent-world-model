@@ -154,6 +154,11 @@
       "status": "accepted_conditional_temporal_validity_release_control_parked_not_candidate"
     },
     {
+      "path": "research/delta-discovery-2026-10-08/repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md",
+      "sha256": "7aae638473d20b5ac1c922c8fe8b9a01b187227280b67fcde6dfa5c01bc9815e",
+      "status": "accepted_conditional_two_stage_action_dependent_information_control_parked_after_attempt_2_not_candidate"
+    },
+    {
       "path": "research/delta-discovery-2026-10-08/repairs/R09_FINITE_BUDGET_OVERWRITE_PROTECTION.v1.md",
       "sha256": "d0bfe49d133abebf4574d4868cc12889a9ba97d7a6e02bb0117b8f169be625ab",
       "status": "accepted_conditional_finite_budget_Pareto_control_parked_not_candidate"

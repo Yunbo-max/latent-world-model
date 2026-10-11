@@ -183,6 +183,8 @@ R08 的静态骨架并不新：BOCPD/HMM 负责 hazard 与 belief 更新，cost-
 
 可保留的窄残余是把时间 belief 接到 R07 的有符号 Delta 风险 `D_p(a)=h(p)a²-2q(p)a`，并明确证明 validity posterior 不是 action utility：相同 posterior 可因 signed protection term 选择相反动作；写入破坏后续证据时，myopic 阈值又会被 Bellman continuation 反转。AToKe 只给规定编辑后的历史/当前 QA endpoint，官方固定仓库没有 executable native scorer，更不提供 likelihood、hazard、query cost、`(q,h)`、propensity 或 paired outcomes。最终处置为 parked conditional control，候选增量0。
 
+R08 v2 将 one-step continuation 收紧成精确 binary Bayes-envelope/EVSI 等式，并显式拆开 memory effect 与 information effect；这改正了 v1 的抽象性，但没有形成新的最近工作差异。Blackwell 1953、Krishnamurthy controlled-sensing POMDP、Veeravalli–Fellouris–Moustakides controlled QCD、Bayraktar–Kravitz scarce observations 和标准 EVSI 已覆盖比较实验、动作依赖观测与付费查询。相对这些工作的剩余仅是把终端 loss table 写成 Delta signed margin。AToKe/StableEdit/RLEdit 仍不提供动作特定 likelihood/propensity 与 identifiable keep/release outcome。故 attempt 2 仍 park，不进入候选池。
+
 
 ## R09有限预算覆盖—保护Pareto证书的最近工作处置
 

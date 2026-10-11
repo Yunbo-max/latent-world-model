@@ -154,6 +154,10 @@ Delta rank-one 写入把这些量具体化为可检查的 key/residual/JVP 二�
 
 动态时必须加入 switching cost 和 Bellman continuation `Gamma`；写入会破坏后续证据或改变 memory/updater state 时，myopic 阈值可被最小反例反转。联合 sharp belief interval 可给端点 robust certificate；one-step query value 属普通 Bayes VoI。BOCPD、POMDP/controlled QCD、Zhang–Choi 时间后验阈值、AToKe、StableEdit 与 RLEdit 已提供直接近邻。[来源审计](sources/REPAIR_R08_TEMPORAL_VALIDITY_SOURCE_AUDIT.md)和独立最终字节数学/来源复核均通过。R08 因此保存为条件 theory/control，不计候选；实验未知，计数仍5历史/0活动/0准入/0选择。
 
+[v2 修订](repairs/R08_ACTION_DEPENDENT_INFORMATION_VALUE.v2.md)没有把抽象 `Gamma` 包装成新模块，而是在严格两阶段时序下把它算出来：对固定动作后 memory 和两个仿射终端风险，`B=min(L0,L1)` 可写成仿射和减绝对动作边际，故动作特定观测的价值精确为 `I_a={E|delta(P'_a)|-|delta(p)|}/2`。`Q_R-Q_K` 因而拆成即时/切换成本、动作后 memory 风险和差分信息价值；可选 query 再变成 `[I_a-kappa_a]_+`。同均值同方差的两个可实现 posterior law 仍可给不同价值，说明方差代理不足；Blackwell 顺序也只有在 prior、memory 和 loss table 相同才可比较。
+
+独立最终字节审查修正了 interventional conditioning、零概率 signal、常数边际与来源题名/DOI/定位后通过。[v2 来源审计](sources/R08_V2_ACTION_DEPENDENT_INFORMATION_SOURCE_AUDIT.md)确认 EVSI、Blackwell 与 controlled-sensing POMDP 已覆盖主体机制；Delta 只提供 signed-margin 解释。R08 在第2/3次修订后继续 park，候选增量0、实验未知。只有出现同预算 prefix margin-law 优势、Delta 专属更小多步充分状态或原生 causal temporal action 对象才重开第3次。
+
 
 ## R09有限预算覆盖—保护修复里程碑（2026-10-10）
 

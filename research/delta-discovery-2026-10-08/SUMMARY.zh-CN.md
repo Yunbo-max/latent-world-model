@@ -254,6 +254,10 @@ KnowledgeEditor、AlphaEdit、O-Edit、LyapLock 和普通 cost-sensitive/凸二�
 
 所以 R08 的价值是把“真实性判断”和“动作收益”严格拆开，并给出何时可用简单阈值、何时必须 abstain/求解动态状态的边界；它不是新架构。最可能失败在动作前 `q,h,Gamma` 不可得、多个事实联合状态爆炸，以及现有 benchmark 只看规定 edit 后的 QA。当前数学有条件成立、贡献碰撞、实验未知，不计候选。
 
+R08 v2 实际 debug 了 `Gamma` 中最小的可解部分。若 keep/release 先选择观测通道，随后才看信号并在两个终端动作间重选，那么信息价值不是“posterior 方差越大越好”，而是 posterior 穿过 signed action-margin 阈值后带来的 `E|delta|` 增量。两个 posterior 分布可以均值、方差完全一样，却给出两倍不同的决策价值。与此同时，动作改变 memory 的代价必须单独保留，不能冒充信息收益；Blackwell 的“更有信息”也不能跨不同 memory/loss table 直接排序。
+
+这次修复在明确条件下数学通过，但机制仍是已知 EVSI/Blackwell/controlled sensing 的 Delta 专门化。最可能失败点是动作特定 likelihood 与 terminal margin 在部署前不可估、两阶段假设不够、以及 AToKe 等现有资产没有随机 sensing/keep-release 反事实。因此 R08 在第2次实质修订后继续 park，实验未知，不计候选。
+
 ## R19：每个保护模式都稳定，不代表释放时仍稳定
 
 这轮修的是一个组合接口。旧结果分别说明固定保护纤维内可以收缩、固定读出可以 transport、证据足够时可以考虑释放；但只要释放把过去被半范数忽略的方向重新算作误差，旧证书就可能从零瞬间跳到正值。R19 给出了精确条件：旧 kernel 经 reset 后必须仍落在新 kernel，有限乘法 jump factor 才存在。否则必须 erase/transfer，或额外保存新暴露方向的动态坐标，并把这笔注入成本写进递推。

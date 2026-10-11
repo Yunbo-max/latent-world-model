@@ -86,6 +86,8 @@ R08 不进入活动池或 top15。它修正了两个真实错误：时间有效�
 
 但主要机制均有强直接近邻，Delta 残余只有 signed action-margin 专门化；连续优化方向不保证单阈值，动作影响证据时还需完整 belief+memory state。原生机制测量缺失且未执行实验。故独立审查通过的是 conditional theory/control，不是原创候选；全池仍0活动、0准入、0选择。
 
+v2 进一步把两阶段 continuation 精确化为 `Q_R-Q_K=(G_R-G_K)+(kappa_R-kappa_K)+(B_R-B_K)-(I_R-I_K)`，并用同均值同方差、不同 kink-crossing 质量的 posterior law 反驳方差代理。这提升了可审查性而非原创性：EVSI、Blackwell 与 controlled-sensing POMDP 是直接机制碰撞，现有 temporal-editing benchmark 又缺因果动作对象。R08 的排序处置不变，attempt 2/3 后仍为 parked control，候选/准入/选择增量均0。
+
 
 ## R09排名处置
 
