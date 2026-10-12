@@ -599,3 +599,13 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 
 R18 v3 实质 commit `82674bd2999d8c6a801c92111ea9c76e20f18d3c` 已从精确 commit 逐文件读回；14/14 路径与本地最终字节一致。读回清单见 `sources/REPAIR_R18_V3_DELIVERY_READBACK.json`。下一独立未耗尽 lineage 是 R19 attempt 3；本轮未转入代码或实验。
 
+## R19 v3：有限域 syndrome 修订（attempt 3/3）
+
+R19 v2 的通用 confusion graph 给出正确的一次性最小码对象，但一般图着色不可直接计算，且没有证明优于直接 ledger。第三次修订把对象收紧为完整有限域状态：前缀后可见信息为 `Az`，未来可见分支 `m` 请求 `B_m z+b_m`，而编码必须在 `m` 揭示前完成。
+
+令 `B` 为全部 `B_m` 的纵向堆叠，`H=ker(A) intersect ker(B)`，则 `r = rank([A;B]) - rank(A)`。每个 `Az` fiber 恰是一个 complete `q^r`-partite graph；用 `row([A;B])` 相对 `row(A)` 的补空间 `C` 发送 `Cz`，达到 `q^r` 个码字，而 fiber 内的 `q^r` clique 对任意非线性或 exact zero-error 随机编码器给出同样下界。因此 `chi(G)=q^r`，固定二进制宽度为 `ceil(r log2 q)`。
+
+这修复了 tractability，但没有修复 distinctness：row-reduced direct joint signature 和 R18 joint-row ledger 正好保存同一个 `r` 维 quotient，连 basis、decoder 和 prefix-time construction 成本也没有严格优势。连续/噪声/近似、任意 reachable subset、state-dependent branch 和 repeated-write recurrence 均不由该定理覆盖；原生 benchmark 也不暴露 `A,B_m,r`、clique 或 matched ledger bits。
+
+四路最终字节独立审查通过限定数学、来源、对抗边界和 measurement/cost 结论。R19 attempt 3/3 到此终止并 park：`candidate_delta=0`，数学是精确条件定理，贡献是 tractable specialization 与 no-advantage boundary，实际效果未知，未运行项目代码或实验。后续不重开已耗尽 lineage；先汇总完整 bounded-repair sweep，只从新的 residual formal object 或新来源证据重走 Step 2。
+

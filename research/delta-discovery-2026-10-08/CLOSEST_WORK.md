@@ -600,3 +600,11 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 
 实质 commit `82674bd2999d8c6a801c92111ea9c76e20f18d3c` 的 14 个路径已精确读回；receipt 为 `sources/REPAIR_R18_V3_DELIVERY_READBACK.json`。该读回只证明仓库字节一致，不证明数学原创性或实验效果。
 
+## R19 v3 closest-work update — finite-field syndrome release
+
+For full `F_q^n` support with common side information `Az` and branch targets `B_mz+b_m`, the R19 v2 confusion graph collapses to complete multipartite fibers. Its exact alphabet is `q^r`, where `r=rank([A;B])-rank(A)`, and a complement-row syndrome attains the bound. The clique converse covers nonlinear and exact zero-error randomized encoders.
+
+This is a tractable specialization, not a distinct updater. Fixed-length zero-error source coding with decoder side information already supplies the graph-coloring object; linear computation broadcast and coded-side-information/index-coding are close structured neighbors. More decisively, the row-reduced direct joint signature and R18 quotient ledger retain exactly the same quotient with the same `r` field symbols. The artifact therefore claims no firstness and no matched-information or matched-total-cost advantage.
+
+Native memory and language benchmarks expose only downstream endpoints, not the finite-field hidden state, matrices, quotient rank, clique, exact code alphabet or matched direct-ledger costs. R19 v3 is parked after attempt 3/3 as a reviewed theorem/debug control with candidate delta zero and empirical effect unknown.
+

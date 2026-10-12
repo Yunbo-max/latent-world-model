@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-11T23:50:00Z",
+  "recorded_at": "2026-10-12T00:40:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R18_v3_attempt_3_published_to_main_and_all_14_substantive_paths_exact_readback_verified",
+  "status": "R19_v3_attempt_3_final_byte_reviews_passed_terminal_control_pending_delivery",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -389,7 +389,7 @@
       "R17 v3 exhausts attempt 3/3 by repairing the target mismatch from arbitrary overwritten-pair quotient recovery to the actual no-write-versus-Delta-write action. It proves exact residual-scaled frozen-path energy, a one-sided low-rank-plus-certified-tail bound and a safe scalar gate conditional on an already lawful prefix certificate. Four final-byte reviews pass only this theorem/debug control. Delta gating, observability Gramians and classical/streaming spectral approximation are major collisions; prefix coverage construction, matched-total-cost advantage, nonlinear validity and native mechanism measurement remain open. Candidate delta zero; empirical effect unknown."
     ]
   },
-  "next_action": "Continue R19 attempt 3 as the earliest independent unexhausted lineage; R18 is terminally parked after exact readback.",
+  "next_action": "After R19 v3 exact publication, consolidate the completed bounded-repair sweep and reopen Step 2 only from genuinely new residual formal objects or source evidence; do not reopen exhausted lineages or enter code/experiments.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -4518,6 +4518,78 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "repair_R19_v3_finite_field_syndrome_release": {
+    "repair_id": "R19_v3",
+    "version": "v3",
+    "substantive_attempt": 3,
+    "max_substantive_attempts": 3,
+    "lineage_parents": [
+      "research/delta-discovery-2026-10-08/repairs/R19_SWITCHED_PROTECTION_FIBER.v1.md",
+      "research/delta-discovery-2026-10-08/repairs/R19_PREFIX_CAUSAL_BRANCH_CODE.v2.md"
+    ],
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+      "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49"
+    },
+    "screen_ref": {
+      "path": "research/delta-discovery-2026-10-08/repairs/R19_REPAIR_LINE_SCREEN.v3.md",
+      "sha256": "7affc2c5f17aaef3f7a5a46b0739b9725fbadefe8fd2d06870465400fa8494ee"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/R19_FINITE_FIELD_SYNDROME_SOURCE_AUDIT.v3.md",
+      "sha256": "b5ac297b1000f6b80ed7b5393045cf928c5f6afed0e8e382cca121d52f39627e"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V3.math-review.md",
+        "sha256": "503d62322424d141d7840d03735c4ddb87969f0be7f50a4f8e5d6f6c14f6946a",
+        "reviewer": "/root/capacity_candidate"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V3.source-review.md",
+        "sha256": "08377ce2c02f5f7db154a73343b892c0b02f641fdb67df2b2099b3c8a7d41b6c",
+        "reviewer": "/root/counterfactual_source_audit"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V3.adversarial-review.md",
+        "sha256": "20b7f053af9c2fee97b69d1af2ca6d4b9503d7494cf6fff6840cea0e09cfe91e",
+        "reviewer": "/root/checksum_revision_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R19_V3.measurement-review.md",
+        "sha256": "8c826a57a89583017c409f40f845d8944a8872784f21ed0d1d8b089bcedb54e5",
+        "reviewer": "/root/commutator_candidate"
+      }
+    ],
+    "status": "independent_final_byte_reviews_passed_exact_finite_field_syndrome_theorem_control_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_exact_full_finite_field_one_shot_zero_error_complete_multipartite_chromatic_and_conditional_rank_theorem",
+      "contribution": "tractable_structured_specialization_and_sharp_no_advantage_boundary_not_new_updater",
+      "novelty": "major_zero_error_function_computation_linear_computation_broadcast_index_coding_R18_and_direct_quotient_collision",
+      "measurement": "native_mechanism_object_absent",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "disposition": "park_attempt3_exhausted_terminal_theorem_control",
+    "repair_delta": "restrict_v2_graph_to_full_finite_field_linear_affine_release_and_derive_exact_q_power_chromatic_number_by_a_complement_row_syndrome_and_clique_converse",
+    "strong_controls": [
+      "row_reduced_direct_joint_signature",
+      "R18_joint_row_quotient_ledger",
+      "full_prewrite_state",
+      "naive_per_branch_concatenation_as_weak_only",
+      "same_information_external_KV_or_replay"
+    ],
+    "unclosed": [
+      "Any strict matched-information or matched-total-cost advantage over the direct quotient ledger.",
+      "A repeated-write finite-precision transport theorem.",
+      "A lawful mapping from floating Delta state to the exact finite-field object.",
+      "A native mechanism-identifying record.",
+      "Empirical effect; no execution authorized."
+    ],
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "5647db07d7c44cd930c33add6f875c0001518f20",
+    "delivery_status": "pending_expected_parent_non_force_main_publication_and_exact_readback"
   }
 }
 

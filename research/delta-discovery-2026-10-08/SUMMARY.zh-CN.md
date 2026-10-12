@@ -526,3 +526,13 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 
 最终数学件、screen、source audit、四路 review 与七个累计 tracker 已写入实质 commit `82674bd2999d8c6a801c92111ea9c76e20f18d3c`，14/14 路径按该 commit 精确读回。读回证明的是文件交付一致性，不是实验验证；本轮没有启动模型代码、训练或评分。
 
+## R19 v3：把一般图着色修成可算的有限域定理，但仍不是新 updater
+
+这次修复的实质是把 R19 v2 里一般、难算的 confusion graph 收紧到完整有限域线性/仿射分支族。给定写后仍可见的 `Az`，把所有未来分支目标堆成 `B`，真正还需保存的维度恰为 `r = rank([A;B]) - rank(A)`。
+
+每个相同 `Az` 的 fiber 都分成 `q^r` 个冲突部件；发送一个 `r` 维 syndrome 可以恢复任意已揭示分支，而一个同样大小的 clique 证明任何非线性或零误差随机编码也不能少于 `q^r` 个消息。这是清楚、可计算、可反证的条件定理。
+
+最可能失败的地方也很明确：真实 Delta 是浮点、噪声、连续和重复写入的；reachable support 或合法分支可能依赖状态；basis、decoder、量化、溢出和每个 prefix 的构造都有成本。更关键的是，最强 direct signature 与 R18 ledger 只要做同样的行约简，就正好得到相同的 `r` 维对象，所以 syndrome 没有同信息或同总成本优势。原生 benchmark 也不能识别这个内部机制。
+
+因此四路审查通过的是数学定理和 debug control，不是候选方法。R19 第 3/3 次修订到此 park，候选增量0，实际效果未知；总计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**。本轮没有启动模型代码、训练、推理或评分。下一步是汇总全部 bounded-repair 结果，只从真正新的残余问题或来源证据重走 Step 2，而不是循环重命名已耗尽路线。
+

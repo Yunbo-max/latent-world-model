@@ -349,3 +349,9 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 
 实质 commit `82674bd2999d8c6a801c92111ea9c76e20f18d3c` 已完成 14/14 精确路径读回。候选、准入和选择计数不因发布或 evidence checker/readback 而升级。
 
+## R19 v3 disposition — terminal finite-field syndrome control
+
+R19 v3 is not inserted into the active candidate ranking. It proves an exact and computable special case of the v2 graph theorem: `chi(G)=q^(rank([A;B])-rank(A))` for the declared full finite-field linear/affine release family. This is scientifically useful as a sharp debug and no-advantage boundary.
+
+It receives no candidate credit because the strongest direct joint signature and R18 ledger are the same quotient object, external zero-error/function-computation mechanisms are close, matched-total-cost advantage is absent, and native mechanism measurement is unavailable. Attempt 3/3 is exhausted; `candidate_delta=0`. Counts remain **5 historical / 0 active / 0 scientifically admitted / 0 selected**, so neither whole-pool ranking nor top-15 selection is verified.
+
