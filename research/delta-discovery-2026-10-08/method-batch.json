@@ -1932,6 +1932,38 @@
       "all_paths_exact": true,
       "path_count": 13
     }
+  },
+  "step2_query_shift_successive_refinement_2026_10_12": {
+    "record_type": "new_temporal_coding_parent_theorem_control_not_candidate",
+    "lineage": "child_of_query_weighted_rate_distortion_not_R17_R19_attempt4",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md",
+      "sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57"
+    },
+    "assignment_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.assignment.json",
+      "sha256": "d003600cc52d483cb9d5d7b6089c7af13d89b3339bd2fe5fac6dbd25d2f9774c"
+    },
+    "review_refs": [
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.math-review.md", "sha256": "40a8556bd61e9aa8f3085fb06c924cd3b31c96f2abfe3842bbe621408ef1a959", "reviewer": "/root/query_shift_sr_final_math", "verdict": "pass_final_exact_bytes"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.source-review.md", "sha256": "3f34d956a704b7590107b3622cc18c4c0ad30465c53fd9235dd458e41fe3d841", "reviewer": "/root/query_shift_sr_final_source", "verdict": "pass_final_exact_bytes_bounded_scope"}
+    ],
+    "mathematical_status": "passed_scoped_exact_finite_block_Gaussian_converse_and_asymptotically_sharp_orthogonal_query_tax",
+    "contribution_status": "Delta_query_Gram_debug_witness_and_information_timing_boundary_not_new_updater_or_new_coding_region",
+    "novelty_status": "high_classical_two_distortion_successive_refinement_vector_individual_distortion_and_query_database_coding_collision",
+    "measurement_status": "no_native_joint_immutable_prefix_later_metric_equal_payload_metadata_archive_rewrite_compute_scorer",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "4d30446a0a03ca3b3c84b9a528b500c82a263146",
+    "delivery_status": "publication_pending_expected_parent_nonforce_main"
   }
 }
 

@@ -1,0 +1,126 @@
+{
+  "request_id": "delta-step2-query-shift-sr-20261012",
+  "generation": 4,
+  "lifecycle_state": "final_exact_byte_reviews_passed",
+  "launch": {
+    "intent_recorded_at_utc": "2026-10-12T04:50:00Z",
+    "host": "native_chatgpt_subagents",
+    "correlation_labels": [
+      "query_shift_sr_math",
+      "query_shift_sr_sources",
+      "query_shift_sr_measurement",
+      "query_shift_sr_final_math",
+      "query_shift_sr_final_source"
+    ]
+  },
+  "parent_binding": {
+    "repository": "Yunbo-max/latent-world-model",
+    "branch": "main",
+    "parent_commit": "4d30446a0a03ca3b3c84b9a528b500c82a263146",
+    "goal_contract": "full Delta math packet, pool target 20 and selection target 15 retained by explicit user instruction",
+    "active_idea": "prefix_causal_successive_refinement_under_query_metric_shift",
+    "input_refs": [
+      {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md", "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"},
+      {"path": "research/delta-discovery-2026-10-08/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md", "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0"},
+      {"path": "research/delta-discovery-2026-10-08/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md", "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879"},
+      {"path": "research/delta-discovery-2026-10-08/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md", "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49"}
+    ]
+  },
+  "assignments": [
+    {
+      "delegation_id": "query_shift_sr_math",
+      "question": "Independently derive the sharpest valid Gaussian two-stage lower bound when stage-1 bits are immutable and the query metric shifts; check equality conditions, dimensions, and a strict counterexample against an offline re-encoded code.",
+      "deliverable": "read-only findings with continuous derivation, assumptions, limiting cases, and repair suggestions",
+      "write_authority": "none; return findings only",
+      "native_agent_id": "/root/query_shift_sr_math"
+    },
+    {
+      "delegation_id": "query_shift_sr_sources",
+      "question": "Audit primary successive-refinement, multistage/side-information, task-based and nonanticipative rate-distortion sources for the changing-distortion/query-metric setting; identify exact collision and any residual Delta-specific statement.",
+      "deliverable": "read-only source table with exact sections/equations/URLs and bounded novelty verdict",
+      "write_authority": "none; return findings only",
+      "native_agent_id": "/root/query_shift_sr_sources"
+    },
+    {
+      "delegation_id": "query_shift_sr_measurement",
+      "question": "Adversarially assess whether any existing native benchmark or data format can distinguish immutable progressive memory bits from full re-encoding under changing future queries at matched bits/metadata/compute; identify strongest simple controls and hidden costs.",
+      "deliverable": "read-only measurement/cost audit and counterexamples",
+      "write_authority": "none; return findings only",
+      "native_agent_id": "/root/query_shift_sr_measurement"
+    },
+    {
+      "delegation_id": "query_shift_sr_final_math",
+      "question": "Review the exact repaired theorem bytes for dimensional correctness, finite-block versus asymptotic claims, equality and edge cases, counterexamples, hidden side information, and whether the disposition follows.",
+      "deliverable": "fresh exact-byte semantic review with pass/fail and all remaining mandatory repairs",
+      "write_authority": "none; return findings only",
+      "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md", "sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9"},
+      "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md", "sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57"},
+      "native_agent_id": "/root/query_shift_sr_final_math"
+    },
+    {
+      "delegation_id": "query_shift_sr_final_source",
+      "question": "Review the exact repaired artifact and source-audit bytes for primary-source support, collision scope, fixed-known versus later-revealed metric distinctions, native measurement claims, and bounded novelty disposition.",
+      "deliverable": "fresh exact-byte source/measurement review with pass/fail and all remaining mandatory repairs",
+      "write_authority": "none; return findings only",
+      "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md", "sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9"},
+      "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md", "sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57"},
+      "native_agent_id": "/root/query_shift_sr_final_source"
+    }
+  ],
+  "exploratory_results": [
+    {
+      "delegation_id": "query_shift_sr_math",
+      "status": "completed_with_repairs_integrated",
+      "reviewed_draft_sha256": "c2c2090061e62db909cf324a40d8288eb91e60008bb0351dac4b658e8ab5d17e",
+      "verdict": "core orthogonal Gaussian converse is sound and sharp; finite-block exponent, rate ordering, boundary equality, and edge conditions repaired before exact-byte review"
+    },
+    {
+      "delegation_id": "query_shift_sr_sources",
+      "status": "completed_with_repairs_integrated",
+      "reviewed_draft_sha256": "9c93a71ceb01854e0a791e4b14bbf137c374a50304a101f1a025319db935062b",
+      "verdict": "high direct mechanism collision; classical two-distortion successive refinement and query-side-information database coding added; theorem/control only"
+    },
+    {
+      "delegation_id": "query_shift_sr_measurement",
+      "status": "completed_with_repairs_integrated",
+      "assignment_sha256": "f0515bd03f9ffb4cfd8aaa23cab17401f9f99ef617d5ee7bb238d0d8ef5f3143",
+      "verdict": "no inspected native benchmark exposes the full immutable-prefix and matched-cost object; resource-vector measurement specification retained as a gap"
+    }
+  ],
+  "failed_exact_byte_round": {
+    "artifact_sha256": "488349109084f671e1756bf9f9eae97b156dcc8d3a437210d697f9a2cb5ac6ec",
+    "source_sha256": "4017ad2c278104c22850259fb6eb801c4141f1b7d26ddf6181e8ed163a044da2",
+    "expected_assignment_sha256": "3f0d6efdd1a8bffd95ff82235cce00e6a62e133a17123a75f59be945f740c751",
+    "actual_assignment_sha256": "bb965458b9457538d94856adfdb975f6b93b263d4501faec6536fbc7a7c37d39",
+    "math_verdict": "fail_unbound_plus_two_scope_repairs",
+    "source_verdict": "fail_unbound",
+    "repairs": "assignment rebound; general Markov criterion restricted to attained memoryless RDF setting; Gaussian allocation iff restricted to Shannon boundary"
+  },
+  "final_results": [
+    {
+      "delegation_id": "query_shift_sr_final_math",
+      "reviewer": "/root/query_shift_sr_final_math",
+      "artifact_sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9",
+      "source_sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57",
+      "assignment_sha256_at_launch": "a9cf36dfb1a745101fff315ca6ad4a4374bd3049d8b41754da13270c4b8cb2f0",
+      "review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.math-review.md", "sha256": "40a8556bd61e9aa8f3085fb06c924cd3b31c96f2abfe3842bbe621408ef1a959"},
+      "verdict": "pass_final_exact_bytes"
+    },
+    {
+      "delegation_id": "query_shift_sr_final_source",
+      "reviewer": "/root/query_shift_sr_final_source",
+      "artifact_sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9",
+      "source_sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57",
+      "assignment_sha256_at_launch": "a9cf36dfb1a745101fff315ca6ad4a4374bd3049d8b41754da13270c4b8cb2f0",
+      "review_ref": {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.source-review.md", "sha256": "3f34d956a704b7590107b3622cc18c4c0ad30465c53fd9235dd458e41fe3d841"},
+      "verdict": "pass_final_exact_bytes_bounded_scope"
+    }
+  ],
+  "authority": {
+    "math_source_measurement_review_only": true,
+    "model_code_or_experiment": false,
+    "further_delegation": false,
+    "deadline": "current automation invocation",
+    "model_or_token_usage": "unknown"
+  }
+}

@@ -372,3 +372,7 @@ The whole-pool ranking and top-15 selection remain unverified: 5 historical reti
 ## Query-weighted rate--distortion disposition
 
 No ranking entry is added. The artifact gives a valid conditional capacity control for the declared Delta state and query-weighted squared distortion, including Gaussian reverse water-filling, finite-code clipping bounds and a necessary recursive kernel condition. It remains outside the candidate pool because the main object is covered by task-based, indirect, goal-oriented and nonanticipative rate--distortion, while R17--R19 and direct ledgers are stronger same-information controls. There is no matched-bit or matched-total-cost advantage and no native mechanism-identifying measurement. `candidate_delta=0`; counts remain **5 historical / 0 active / 0 admitted / 0 selected**.
+
+## Irreversible query-shift refinement disposition
+
+No ranking entry is added. The orthogonal Gaussian theorem gives a sharp append-only tax against a fresh total-rate code, but it is a specialization of established two-distortion successive refinement and vector individual-distortion coding; scalable query-side-information database coding is an especially close semantic neighbor. The later-revealed-metric residual has not produced a lawful construction or matched-resource advantage, and the native measurement object remains absent. Final exact-byte reviews pass the theorem/control only. `candidate_delta=0`; pool and top-15 selection remain unverified at **5 historical / 0 active / 0 admitted / 0 selected**.
