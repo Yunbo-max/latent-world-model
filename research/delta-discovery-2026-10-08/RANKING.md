@@ -1,5 +1,8 @@
 # 全池排名尚未到达：当前活动池为零
 
+## 2026-10-12 compound-query hedge disposition
+
+`compound_query_hedge v1` is not added to the candidate ranking. Its mathematics is sharp and useful, but its formal cache-before-demand/delivery-after-demand object and independent-source equal allocation are directly covered by single-user lossy caching. It remains above a vague capacity claim as a debug theorem and below any active candidate because it supplies neither a distinct updater nor a matched-cost advantage over the optimal same-information caching baseline. Pool counts and ordering are unchanged: 5 historical retired, 0 active, 0 scientifically admitted, 0 selected; `selection_verified=false`.
 当前状态：R01--R20 的 bounded-repair sweep 已收束；其后的 shadow catch-up / causal-audit 对象也只通过为 `lead/control`。没有新增可排名候选，20→15 仍未完成。
 
 ## R18 v3 排名处置（attempt 3/3 exhausted）

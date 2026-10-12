@@ -1,0 +1,98 @@
+{
+  "format": "rsi-simple-delegation-ledger-v1",
+  "record_notice": "Prelaunch assignment snapshots for one active theoretical idea. This is not evidence of launch, acceptance, scientific validity, or experiment execution.",
+  "lifecycle_state": "completed_read_only_reports_and_final_byte_reviews_passed",
+  "recorded_at_utc": "2026-10-12T05:42:00Z",
+  "parent_binding": {
+    "goal_contract_version": "delta-discovery-repair-first-2026-10-09-v1",
+    "idea_id": "compound_query_hedge",
+    "idea_revision": "v1",
+    "scientific_policy": "user-retained-20-to-15-contract-with-rsi-simple-workflow",
+    "source_identity": "rsi-simple@0.3.0-simple.9",
+    "checkpoint_ref": "main@fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+    "input_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md",
+        "sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md",
+        "sha256": "44f41e44656f240a1f8f6857cf1a2fb80a4311d0912c57d258bdb7fcd80edb57"
+      }
+    ]
+  },
+  "assignments": [
+    {
+      "request_id": "compound-query-hedge-math-001",
+      "delegation_id": "compound_query_hedge_math",
+      "generation": 1,
+      "objective": "Independently derive the causal first-stage allocation problem when a later orthogonal Gaussian query index is absent from the first-stage filtration.",
+      "deliverable": "Dimensionally checked minimax and Bayesian allocations, converse/achievability, failure cases, and strongest same-information controls; report only, no shared-file writes.",
+      "read_paths": [
+        "research/delta-discovery-2026-10-08/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md"
+      ],
+      "write_paths": [],
+      "dependencies": [],
+      "deadline_utc": "2026-10-12T06:20:00Z",
+      "authority": "math/source reasoning only; no code, tests, models, data download, experiments, publishing, or further delegation",
+      "call_correlation": "compound_query_hedge_math_g1",
+      "intent_recorded_at_utc": "2026-10-12T05:42:00Z",
+      "completion_requirements": ["state assumptions", "continuous derivation", "counterexamples", "classification recommendation"]
+    },
+    {
+      "request_id": "compound-query-hedge-source-001",
+      "delegation_id": "compound_query_hedge_source",
+      "generation": 1,
+      "objective": "Read the full primary formulas for universal/runtime distortion and the closest compound/successive-refinement literature.",
+      "deliverable": "Exact paper versions, sections/equations, supported overlap, unsupported claims, author-code status, and novelty decision; report only, no shared-file writes.",
+      "read_paths": [
+        "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md"
+      ],
+      "write_paths": [],
+      "dependencies": [],
+      "deadline_utc": "2026-10-12T06:20:00Z",
+      "authority": "primary-source web reading only; no code, tests, models, data download, experiments, publishing, or further delegation",
+      "call_correlation": "compound_query_hedge_source_g1",
+      "intent_recorded_at_utc": "2026-10-12T05:42:00Z",
+      "completion_requirements": ["primary sources", "formula locations", "read-depth labels", "collision decision"]
+    },
+    {
+      "request_id": "compound-query-hedge-measurement-001",
+      "delegation_id": "compound_query_hedge_measurement",
+      "generation": 1,
+      "objective": "Audit whether existing native assets can measure a query index revealed after an immutable first-stage memory snapshot under matched total resources.",
+      "deliverable": "Native-interface mapping, missing fields, fair controls, resource vector, and whether any existing scorer closes the gap; report only, no shared-file writes.",
+      "read_paths": [
+        "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_SOURCE_AUDIT_2026-10-12.md",
+        "research/delta-discovery-2026-10-08/sources/STEP2_NEW_NATIVE_MEASUREMENT_AUDIT_2026-10-12.md"
+      ],
+      "write_paths": [],
+      "dependencies": [],
+      "deadline_utc": "2026-10-12T06:20:00Z",
+      "authority": "read-only source/interface analysis; no code, tests, models, data download, experiments, publishing, or further delegation",
+      "call_correlation": "compound_query_hedge_measurement_g1",
+      "intent_recorded_at_utc": "2026-10-12T05:42:00Z",
+      "completion_requirements": ["native fields", "missing causal object", "matched controls", "measurement decision"]
+    }
+  ],
+  "assignment_outcomes": [
+    {
+      "request_id": "compound-query-hedge-math-001",
+      "actual_reviewer": "/root/compound_query_hedge_math",
+      "status": "completed",
+      "result": "sharp_minimax_and_Bayesian_Gaussian_allocation_derived; theorem_control_candidate_delta_0"
+    },
+    {
+      "request_id": "compound-query-hedge-source-001",
+      "actual_reviewer": "/root/compound_query_hedge_source",
+      "status": "completed",
+      "result": "runtime_distortion_and_successive_refinement_neighbors_checked; integration_writer_added_decisive_lossy_caching_collision"
+    },
+    {
+      "request_id": "compound-query-hedge-measurement-001",
+      "actual_reviewer": "/root/compound_query_hedge_measurement",
+      "status": "completed",
+      "result": "no_joint_native_prefix_causal_snapshot_reveal_equal_payload_common_scorer_cost_object"
+    }
+  ]
+}

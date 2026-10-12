@@ -1,5 +1,10 @@
 # 定向近邻图与阅读边界
 
+## 2026-10-12 — compound query hedge before demand reveal
+
+The decisive nearest work is Timo, Saeedi Bidokhti, Wigger and Geiger, *A Rate-Distortion Approach to Caching* (IEEE TIT 2018; arXiv:1610.07304). Its cache encoder runs before the request and its delivery encoder is request-specific. Lemma 3 gives the single-user conditional rate--distortion region; Section III.A gives `R(D,C)=[R_X(D)-C/L]^+` for identical independent sources and explicitly allocates `C/L` cached bits per source. Inverting the Gaussian RDF reproduces the active minimax formula exactly. The paper also points to prior average-demand Gaussian caching.
+
+Yang--Gündüz use independent Gaussian files, after-placement demands and layered successive refinement; Wang--Lim--Gastpar give sequential coding before random requests. Mahmood--Wagner universal distortion is adjacent but not identical because the distortion is known before its single message is emitted. The active conjunction is therefore not an uncited gap after the caching source is included: it is a Delta interpretation of classical single-user lossy prefetching. Disposition: theorem/control, candidate delta zero.
 当前跨线结论见本文末尾“Shadow catch-up / causal-audit parent lead (2026-10-12)”及 [bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md)。
 
 ## R18 v3 bounded-fiber leakage ledger 的历史最近工作处置

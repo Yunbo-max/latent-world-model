@@ -1971,6 +1971,23 @@
       "all_paths_exact": true,
       "path_count": 12
     }
+  },
+  "step2_compound_query_hedge_2026_10_12": {
+    "record_type": "classical_lossy_caching_theorem_control_not_candidate",
+    "lineage": "new_online_parent_not_exhausted_repair_attempt_reopen",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md", "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_SOURCE_AUDIT_2026-10-12.md", "sha256": "067ae1e2d10657f4f6aab36814d0cd6100fcf915c2a0acb9ff6988ab39b89660"},
+    "review_refs": [
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.math-review.md", "sha256": "0dc18f79cbb30f524cc1c819978c49df3f966cb209c3198d274ee2cad84eec2e", "reviewer": "/root/compound_query_hedge_final_math"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.source-review.md", "sha256": "82177c831ceee3019a87a64a8f98a700c7e5b919dfa06ce5c03c1e396b166ccc", "reviewer": "/root/compound_query_hedge_final_source"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.measurement-review.md", "sha256": "2151b3e6824e8cd7754dd44c1a9ea22200d2f62b48fbd66e4304c5abb4c9475c", "reviewer": "/root/compound_query_hedge_measurement"}
+    ],
+    "status": "independent_final_byte_reviews_passed_pending_publication",
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "selection_verified": false,
+    "execution": "none_math_source_measurement_review_only"
   }
 }
 

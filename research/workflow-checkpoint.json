@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 64112)
+Total output lines: 4024
+
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
@@ -1715,293 +1718,7 @@
         },
         "source_ref": {
           "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
-          "sha256": "a09c1dd2dd1a14fa6436428f45e175468ad3dcd659ddeff5a99ac49c7f444781"
-        },
-        "math_review_ref": {
-          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.math-review.md",
-          "sha256": "20df32f2ba51644527419ec80060badd69e47281f3d703e36f0178430a476797",
-          "reviewer": "/root/r10_v2_math_review"
-        },
-        "source_review_ref": {
-          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.source-review.md",
-          "sha256": "33c03ac4f809ccd9865f47a3b41bc797e935486422c66b5aa7eb2ed45ec55bdf",
-          "reviewer": "/root/r10_v2_source_review"
-        },
-        "adversarial_review_ref": {
-          "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R10_V2.adversarial-review.md",
-          "sha256": "c5fe37d7eab633bbffbf400bd1939d33579e3606355f53e33f27ff174170ea56",
-          "reviewer": "/root/r10_v2_adversarial_review"
-        },
-        "status": "independent_final_byte_reviews_passed_conditional_transition_matched_noise_shaping_control_parked_not_candidate_published_exact_readback",
-        "candidate_delta": 0,
-        "execution": "none_math_source_review_only",
-        "delivery_status": "substantive_commit_expected_parent_main_and_all_12_files_exact_readback_verified",
-        "publication_commit": "2863f2177f97d0ad6fd6ba7c7c9bfec87ad25655",
-        "delivery_readback_ref": {
-          "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R10_V2_DELIVERY_READBACK.json",
-          "sha256": "2700bae2e2d3bab87b8c394c1c67fa6a4f1dbdf21752597b0d3f38d0dcd12bda"
-        }
-      }
-    }
-  },
-  "repair_R11_order_gap_compression": {
-    "version": "v1",
-    "lineage_parents": [
-      "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
-    ],
-    "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R11_ORDER_GAP_COMPRESSION.v1.md",
-      "sha256": "38d5ba6cb4e897b602b9897c940468cdaab0b603f5e3d9055b3f98dc52e1929b"
-    },
-    "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R11_ORDER_GAP_COMPRESSION_SOURCE_AUDIT.md",
-      "sha256": "dcf788d57146e87ffe7416d1e3f8567aeabf672051040dc84e2f64d79fb3a569"
-    },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.math-review.md",
-      "sha256": "6e73d529f151696b43ed099fba042dc4636f4be47426aa8c27758a45ac7ed0ef",
-      "reviewer": "/root/r11_math_review"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.source-review.md",
-      "sha256": "ffe370a53a92f70a996be13f4316b02c43dbbd50d78530515f5bf7c70f3ede0c",
-      "reviewer": "/root/r11_source_review"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R11_V1.adversarial-review.md",
-      "sha256": "6872da0d3c8206b16ed9bd7a37e2d940bec4f17f08a2e25df675339b10c0ee45",
-      "reviewer": "/root/r11_adversarial_review"
-    },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_order_gap_query_risk_control_parked_not_candidate",
-    "candidate_delta": 0,
-    "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_9_files_exact_readback_verified",
-    "publication_commit": "039ca2d3587cc43e165bccd5763e62cddc1b78e7",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R11_DELIVERY_READBACK.json",
-      "sha256": "5346a77d5fad6e909511187dd666e1d989c2ce116055817c94cf1557d10f9126"
-    }
-  },
-  "repair_R12_subspace_syndrome": {
-    "version": "v1",
-    "lineage_parents": [
-      "rejected/CHECKSUM_REVISION_SKETCH.md"
-    ],
-    "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R12_SUBSPACE_SYNDROME_READOUT.v1.md",
-      "sha256": "da1a0df6bb3f9ba95605c8ee7200622dec61ca595031dc6c02a23852d01aefce"
-    },
-    "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R12_SUBSPACE_SYNDROME_SOURCE_AUDIT.md",
-      "sha256": "66228ab044f660263684559e85803e373cb1bddb87a541efa5598a14f5b3e1ed"
-    },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.math-review.md",
-      "sha256": "b25a471343afd40f17b2e009efdf19187b7c46cfe578e64d84bd7a231ea92910",
-      "reviewer": "/root/r12_math_review"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.source-review.md",
-      "sha256": "45bae08ed02f64c24821e2e7913a7a05ed38652e397ddadb7b3e7933ad2a3a35",
-      "reviewer": "/root/r12_source_review"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R12_V1.adversarial-review.md",
-      "sha256": "a5daf307188420b609b88f29e5fcb2ed5b7214f6e022a1ac3dd0d771115df7d2",
-      "reviewer": "/root/r12_adversarial_review"
-    },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_subspace_syndrome_control_parked_not_candidate",
-    "novelty_status": "INCONCLUSIVE_EXPAND_SEARCH",
-    "candidate_delta": 0,
-    "execution": "none_math_source_review_only",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_9_files_exact_readback_verified",
-    "publication_commit": "0a8c0e8d7a449fb1ed4b734e47e527a071f55b53",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R12_DELIVERY_READBACK.json",
-      "sha256": "94d50d11c1d0236096b3abac478d8c50301138a4546e3e26afbd6acf352e4a1b"
-    }
-  },
-  "repair_R13_dynamic_covector": {
-    "version": "v1",
-    "substantive_attempt": 1,
-    "max_substantive_attempts": 3,
-    "lineage_parents": [
-      "STEP2_COUPLED_UPDATER_STABILITY.md"
-    ],
-    "screen_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R13_REPAIR_LINE_SCREEN.md",
-      "sha256": "5f45c68010335a6f03bd5b4cb087079957621e5665b790df83c7a264ec468cbc"
-    },
-    "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R13_DYNAMIC_COVECTOR_PROTECTION.v1.md",
-      "sha256": "0d9d55f56434ddf9a96a8b309bbcceb1ae4be8c53645679d600c4cda70de6183"
-    },
-    "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R13_DYNAMIC_COVECTOR_SOURCE_AUDIT.md",
-      "sha256": "aa369c688c74c12cd3a38dfccb298945513ec4d48809a0fb75209d196b9ea0c6"
-    },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.math-review.md",
-      "sha256": "ebaa6f67b24bf1976292cc6cfeb242ce3686110c0c88ebee17693a03eb91b10e",
-      "reviewer": "/root/r13_math_review"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.source-review.md",
-      "sha256": "fe9cb083932db65d50f4c8e037268730a72840b7d79abc7e1c350448527e650e",
-      "reviewer": "/root/r13_source_review"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R13_V1.adversarial-review.md",
-      "sha256": "110fa63f8ceeffe732a2b69b378370b9107ef2fc6e88cdd33d521ff4d364700b",
-      "reviewer": "/root/r13_adversarial_review"
-    },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_dynamic_covector_control_parked_not_candidate",
-    "mathematical_status": "accepted_exact_affine_readout_transport_iff_Delta_overwrite_obstruction_conditioning_and_offset_boundary",
-    "contribution_status": "generalized_inverse_functional_observer_adjoint_and_reversible_memory_collision;direct_value_ledger_strictly_simpler_for_declared_invariant",
-    "novelty_status": "NOT_ESTABLISHED_BOUNDED_SEARCH",
-    "measurement_status": "endpoint_QA_available_but_no_native_A_Q_singular_value_or_ledger_certificate",
-    "empirical_status": "unknown_no_execution",
-    "candidate_delta": 0,
-    "disposition": "park_after_attempt_1_conditional_theory_control",
-    "preserved_old_result": "fixed_readout_protection_conflicts_with_erased_directions_and_semantic_validity_release_remains_unidentified",
-    "repair_delta": "replace_fixed_readout_target_with_exact_transported_affine_decoder_and_derive_overwrite_conditioning_and_side_information_boundary",
-    "screened_lines": {
-      "dynamic_covector": "completed_R13_parked",
-      "retroactive_rollback": "exact_record_omission_plus_retroactive_ordered_product_collision_parked",
-      "reciprocal_cycle": "residual_postprocessing_plus_CCA_collision_parked",
-      "set_valued_query_quotient": "functional_observer_set_membership_collision_parked"
-    },
-    "unclosed": [
-      "Causal selector for the initial protected object and its validity.",
-      "A downstream operation unavailable to the cheaper direct protected-value ledger.",
-      "Matched state, bit precision, compute, latency and information-access advantage.",
-      "Native efficacy object that can distinguish the internal certificate from endpoint behavior.",
-      "Empirical effect; no execution authorized."
-    ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_10_files_exact_readback_verified",
-    "publication_commit": "57f325690068a3a2f02603883fbf82144e08976e",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R13_DELIVERY_READBACK.json",
-      "sha256": "11337c3fc69ef49d6f1780074d48b9a7787bb7da2fbbaebf73fea38810063cb6"
-    }
-  },
-  "repair_R14_posterior_provenance": {
-    "version": "v1",
-    "substantive_attempt": 1,
-    "max_substantive_attempts": 3,
-    "lineage_parents": [
-      "rejected/PROVENANCE_TENSOR_DELTA.md",
-      "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md"
-    ],
-    "screen_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R14_REPAIR_LINE_SCREEN.md",
-      "sha256": "98d33cc16cb1afaeddb2c6cb67c8f7b3953410a0399211c4f6a8f9818b4fc642"
-    },
-    "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R14_POSTERIOR_PROVENANCE_WRITE.v1.md",
-      "sha256": "9b08b160d5b0a28c6fcabb7d88ea5d1fadca373f370f580640be343aeb20dbca"
-    },
-    "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R14_POSTERIOR_PROVENANCE_SOURCE_AUDIT.md",
-      "sha256": "1ce269bade6d255ab14cf8acd4cec530ee1e8de89fa21c3016ce448f88d55d37"
-    },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.math-review.md",
-      "sha256": "d591dc04c0774086fe67b7b2dad98101e913f51de9567fafba97f3d504385b8d",
-      "reviewer": "/root/r14_math_derivation"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.source-review.md",
-      "sha256": "10d5d2a97b9f6c7eb592a9a60a54a7778465d3f654381121f8827bb891006fcb",
-      "reviewer": "/root/r14_source_audit"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R14_V1.adversarial-review.md",
-      "sha256": "3c265d018ad183fcd024e40d48a6d8fa05d674654563894c1b07bf984143348e",
-      "reviewer": "/root/r14_adversarial"
-    },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_posterior_provenance_control_parked_not_candidate",
-    "mathematical_status": "accepted_exact_local_Bayes_action_tensor_common_residual_non_equivalence_and_identity_ambiguity_floor",
-    "contribution_status": "conditional_theorem_and_control;Bayesian_routing_HME_sparse_memory_and_prior_protected_quadratic_collision",
-    "novelty_status": "NOT_ESTABLISHED_BOUNDED_SEARCH",
-    "measurement_status": "native_endpoints_do_not_jointly_expose_identity_posterior_and_counterfactual_action_consequences",
-    "empirical_status": "unknown_no_execution",
-    "candidate_delta": 0,
-    "disposition": "park_after_attempt_1_conditional_theory_control",
-    "preserved_old_result": "semantic_key_plus_identity_oracle_tensorization_is_explicit_routing_and_residual_alone_does_not_identify_revision_identity",
-    "repair_delta": "replace_identity_oracle_with_causal_posterior_and_derive_slotwise_Bayes_write_exact_ambiguity_floor_and_stronger_direct_router",
-    "unclosed": [
-      "A calibrated causal prefix-only identity posterior or likelihood.",
-      "A matched-resource Delta-specific estimator cheaper or more informative than direct routed slots.",
-      "Native action-level measurement of posterior, signed/quadratic consequences and paired counterfactual writes.",
-      "Long-horizon full-Jacobian consequences and capacity under finite precision.",
-      "Empirical effect; no execution authorized."
-    ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified",
-    "publication_commit": "664261c15af8d18a710f2bfdd2f719943895a19b",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R14_DELIVERY_READBACK.json",
-      "sha256": "c7a699da0d204491158fc3cef8de0107a9b729aabac97713f20fa842213fd75f"
-    }
-  },
-  "repair_R15_intervention_rank": {
-    "version": "v1",
-    "substantive_attempt": 1,
-    "max_substantive_attempts": 3,
-    "lineage_parents": [
-      "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
-      "repairs/R02_RANDOMIZED_ACTION_CREDIT.v1.md",
-      "STEP2_PROJECTED_DELAYED_CREDIT.md",
-      "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md"
-    ],
-    "screen_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R15_REPAIR_LINE_SCREEN.md",
-      "sha256": "d37cb6d4013dfdc02d9e154ea4e7629b57334c9e7955e76c9e731e68e2d662fe"
-    },
-    "artifact_ref": {
-      "path": "research/delta-discovery-2026-10-08/repairs/R15_INTERVENTION_RANK_BOUND.v1.md",
-      "sha256": "23dd9536139c1beb4858a0407c4e21c1f32e6750e6d85521bec9eeba1c6a9c53"
-    },
-    "source_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/R15_INTERVENTION_RANK_SOURCE_AUDIT.md",
-      "sha256": "f1306aadf3d6d0834c624f7d161ae1ca3554152fa9e211b3364cafde2e8b95e9"
-    },
-    "math_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.math-review.md",
-      "sha256": "d622def537f706092f0d0d13bf6d9724e7f59c873c3a952a0b4903abba4c3ce3",
-      "reviewer": "/root/r15_math"
-    },
-    "source_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.source-review.md",
-      "sha256": "311da22f32a5c95c9356624dc6cb1aaff5fd3ee0282c2cc41ace351bd71a4391",
-      "reviewer": "/root/r15_sources"
-    },
-    "adversarial_review_ref": {
-      "path": "research/delta-discovery-2026-10-08/reviews/REPAIR_R15_V1.adversarial-review.md",
-      "sha256": "912a5d9a967c19503c183ee138838b02e2b08cf0472dcf1a39f4dfe2705798d5",
-      "reviewer": "/root/r15_adversarial"
-    },
-    "status": "independent_final_byte_math_source_adversarial_reviews_passed_conditional_intervention_rank_control_parked_not_candidate",
-    "mathematical_status": "accepted_exact_multivariate_quadratic_feature_Gram_identifiability_nullspace_lower_bound_and_conditioning_boundary",
-    "contribution_status": "multivariate_consolidation_of_existing_R02_Step2_controls;standard_response_surface_optimal_design_OPE_and_Ouroboros_collision",
-    "novelty_status": "MAJOR_FUNCTIONAL_COLLISION_CONTROL_ONLY",
-    "measurement_status": "generic_logged_bandit_estimators_measurable_but_no_native_Delta_randomized_branch_consistent_response_surface_object",
-    "empirical_status": "unknown_no_execution",
-    "candidate_delta": 0,
-    "disposition": "park_after_attempt_1_conditional_theory_control",
-    "preserved_old_result": "passive_factual_loss_does_not_identify_unchosen_write_and_fixed_recorded_suffix_credit_is_not_free_running_total_effect",
-    "repair_delta": "add_explicit_exact_quadratic_action_response_assumption_and_derive_full_multivariate_intervention_rank_condition_nullspace_counterexample_and_budget_price",
-    "screened_lines": {
-      "counterfactual_action_rank": "completed_R15_parked_as_control",
-      "causal_polynomial_future": "R09_R11_and_unknown_suffix_collision_parked",
-      "noncommuting_exact_flow": "unqualified_next_lead_pending_formula_code_audit"
-    },
-    "unclosed": [
-      "A checkable exact low-order or low-rank response law for full coupled free-running Delta dynamics.",
-      "A matched-support, information, state, compute and sample advantage over arm means, OLS/WLS design, AIPW/sequential DR, direct Q prediction and Settlement.",
-      "A native lawful branch-consistent Delta-action measurement object.",
-      "Long-horizon sequential support without exponential variance or branch cost.",
-      "Empirical effect; no execution authorized."
+          "sha256": "a09c1dd2dd1a14fa643642…4112 tokens truncated…xecution authorized."
     ],
     "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified",
     "publication_commit": "72fe5940247ded9496d3a896828ecfa779de5914",
@@ -3998,6 +3715,27 @@
       "all_paths_exact": true,
       "path_count": 12
     }
+  },
+  "step2_compound_query_hedge_2026_10_12": {
+    "status": "independent_final_byte_math_source_and_measurement_reviews_passed_pending_publication",
+    "scope": "new_online_information_pattern_closed_as_classical_single_user_lossy_caching_theorem_control",
+    "artifact": {"path": "research/delta-discovery-2026-10-08/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md", "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"},
+    "source_audit": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_SOURCE_AUDIT_2026-10-12.md", "sha256": "067ae1e2d10657f4f6aab36814d0cd6100fcf915c2a0acb9ff6988ab39b89660"},
+    "reviews": [
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.math-review.md", "sha256": "0dc18f79cbb30f524cc1c819978c49df3f966cb209c3198d274ee2cad84eec2e", "reviewer": "/root/compound_query_hedge_final_math", "verdict": "pass"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.source-review.md", "sha256": "82177c831ceee3019a87a64a8f98a700c7e5b919dfa06ce5c03c1e396b166ccc", "reviewer": "/root/compound_query_hedge_final_source", "verdict": "pass"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.measurement-review.md", "sha256": "2151b3e6824e8cd7754dd44c1a9ea22200d2f62b48fbd66e4304c5abb4c9475c", "reviewer": "/root/compound_query_hedge_measurement", "verdict": "pass_no_native_joint_object"}
+    ],
+    "mathematical_status": "passed_scoped_exact_minimax_and_Bayesian_independent_Gaussian_hedge",
+    "contribution_status": "classical_lossy_caching_specialization_and_Delta_debug_control_not_candidate",
+    "measurement_status": "native_joint_object_absent",
+    "empirical_status": "unknown_no_execution",
+    "counts": "5_historical_0_active_0_admitted_0_selected",
+    "selection_verified": false,
+    "candidate_delta": 0,
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
   }
 }
 
