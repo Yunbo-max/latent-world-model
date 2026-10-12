@@ -1,0 +1,22 @@
+{
+  "phase": "CPU verification active;first numerical batch completed",
+  "scientific_policy": "rsi-simple0.3.0-simple.9",
+  "idea": "validate-delta-mechanisms",
+  "goal_contract_version": 1,
+  "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "wake_task_id": "6ac78ded796081918d2123402544d760",
+  "result_summary_sha256": "ac64eca40da6db6aaafbcb07f013825e1bac4f0e19a2666c6982e69eb7f6a2f3",
+  "runner": "vendor/rsi-simple-0.3.0-simple.9/scripts/simple_runner.py",
+  "runner_state": "Preserve exported SQLite/attempt archive and counters;read status/inbox before mutating",
+  "next_action": "Complete claim-specific older-control/STEP2 gaps from coverage_inventory,then FP32/ill-conditioning and matched-total-cost mechanism checks;inspect native source/code feasibility before native comparisons",
+  "remaining": [
+    "Many secondary claims across70source records still need additional checks",
+    "Finite precision and near-degenerate sensitivity sweeps",
+    "Matched total-cost comparison against stronger VJP/JVP/ledger controls",
+    "Public native endpoint tasks and original13arm/2seed model programme pending actual framework/data/authorized GPU host"
+  ],
+  "overall_goal_complete": false,
+  "old_20_to_15": "historical only;not a prerequisite for current Simple diagnostics",
+  "execution_scope": "Current GPT CPU,one numerical job,no paid/GPU/container services",
+  "usage_note": "Actual CPU/wall receipts retained;native model token/cost usage unknown"
+}

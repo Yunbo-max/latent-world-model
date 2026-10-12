@@ -1,0 +1,17 @@
+{
+  "id": "cpu_coverage",
+  "scope": "review/COVERAGE_REVIEW.md; coverage_inventory.json",
+  "question": "Map all 70 pinned artifacts plus 20 lineages to numerical checks, genuine empirical comparisons and deferred model/GPU work; independently audit coverage and labels",
+  "lifecycle_state": "running",
+  "launch_intent_utc": "2026-10-12T08:47:44.348705+00:00",
+  "goal": "Delta CPU validation and result-driven repair",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "source_manifest_sha256": "94a93ca68c57e2ef8ea598a5b48a52810abce4ed18f06713068ce0a256e5c921",
+  "authority": "User 2026-10-12 09:43:50 Europe/London requests start verifying all experiments with rsi-simple CPU",
+  "experiments_permitted": false,
+  "further_delegation_permitted": false,
+  "deadline": "Return bounded implementation/review contribution this active turn; no scientific execution by child",
+  "native_usage": "unknown",
+  "agent_id": "/root/cpu_coverage"
+}

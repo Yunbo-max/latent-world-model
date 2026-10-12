@@ -1,0 +1,38 @@
+{
+  "id": "cpu_numeric_review",
+  "generation": 1,
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "lifecycle_state": "dispatching",
+  "launch_intent_utc": "2026-10-12T09:03:17.757663+00:00",
+  "input_refs": [
+    {
+      "path": "scripts/check_algebra.py",
+      "sha256": "fd7da3dbce525e674a8d965eb61d324e186f11c8c1e47b11619469c56acc54ee"
+    },
+    {
+      "path": "scripts/check_statistics.py",
+      "sha256": "84d1c41e0551dfe5a87cc90f8c89b999b3edeec54d3340fc7941cd0fd1f10403"
+    },
+    {
+      "path": "scripts/check_feedback.py",
+      "sha256": "c039c6dcbe02c4c5c61a7016eb6f24e784cdb5a2b52bd1c8127d469d1740b258"
+    },
+    {
+      "path": "scripts/check_legacy_controls.py",
+      "sha256": "0af849e641a9ada1776a4b482482ad531287ce2531e72a3117fbaf47b6922b33"
+    },
+    {
+      "path": "scripts/guard_cpu.py",
+      "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+    },
+    {
+      "path": "plans/verification-v1.json",
+      "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+    }
+  ],
+  "scope": "read-only diagnostics and existing raw results; write review/INDEPENDENT_NUMERICAL_REVIEW.md only",
+  "authority": "Same user CPU validation request; no execution by reviewer,no further delegation",
+  "native_usage": "unknown"
+}

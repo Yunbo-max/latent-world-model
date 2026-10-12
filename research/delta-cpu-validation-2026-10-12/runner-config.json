@@ -1,0 +1,27 @@
+{
+  "idea": "validate-delta-mechanisms",
+  "goal": "Verify the existing Delta mathematical and experimental obligations with CPU evidence and result-driven repairs, retaining full model/native comparisons that require another authorized host",
+  "goal_contract": {
+    "mode": "research",
+    "completion_criteria": [
+      {
+        "id": "coverage",
+        "description": "Every existing lineage/claim has mapped executed verification or exact justified pending experiment, without treating fixtures as benchmark results"
+      },
+      {
+        "id": "cpu_evidence",
+        "description": "Execute applicable CPU formula,counterexample,mechanism and total-cost comparisons, preserve raw results and repair invalid implementations"
+      },
+      {
+        "id": "interpretation",
+        "description": "Independently inspect evidence and explain supported,not-supported,inconclusive and deferred claims; deliver to same GitHub main"
+      }
+    ]
+  },
+  "limits": {
+    "max_attempts": 40,
+    "max_command_seconds": 3600,
+    "deadline_seconds": 86400,
+    "max_concurrency": 1
+  }
+}

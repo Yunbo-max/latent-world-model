@@ -1,0 +1,100 @@
+{
+  "response_id": "feedback-resource-observation-repair",
+  "request_id": "decision-3badcbef0f674b3588dcbd054159c284",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Feedback identities passed. Proc sampling returned zero observations on namespace-mismatched short-lived child; retain old telemetry and use kernel getrusage plus RLIMIT_DATA,then complete diagnostic variability checks",
+  "tasks": [
+    {
+      "task_id": "feedback-seed-1-v3",
+      "phase": "diagnostic",
+      "purpose": "Feedback diagnostic with corrected kernel CPU/RSS telemetry and finite allocation cap",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-1-v3.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-1-v3.json",
+        "--seed",
+        "1"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "c039c6dcbe02c4c5c61a7016eb6f24e784cdb5a2b52bd1c8127d469d1740b258"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-1-v3.json",
+        "results/feedback-seed-1-v3.resources.json"
+      ]
+    },
+    {
+      "task_id": "feedback-seed-2-v3",
+      "phase": "diagnostic",
+      "purpose": "Feedback diagnostic with corrected kernel CPU/RSS telemetry and finite allocation cap",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-2-v3.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-2-v3.json",
+        "--seed",
+        "2"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "c039c6dcbe02c4c5c61a7016eb6f24e784cdb5a2b52bd1c8127d469d1740b258"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-2-v3.json",
+        "results/feedback-seed-2-v3.resources.json"
+      ]
+    }
+  ]
+}

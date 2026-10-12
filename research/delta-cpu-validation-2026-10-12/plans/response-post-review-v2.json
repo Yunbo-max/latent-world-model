@@ -1,0 +1,235 @@
+{
+  "response_id": "post-review-verification-v2",
+  "request_id": "decision-f3cc565b4d6840ab984e1d0903348db9",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Independent review motivated explicit HiGHS options,computed zero cases,four actual decision arms and coefficient-to-energy reporting; verify exact new bytes and retain v1 evidence",
+  "tasks": [
+    {
+      "task_id": "statistics-seed-1-v2",
+      "phase": "diagnostic",
+      "purpose": "Verify review-requested diagnostic/reporting repairs on fresh versioned outputs without reinterpreting old runs",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/statistics-seed-1-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_statistics.py",
+          "sha256": "f3a846763770aa63a0c271667d6693970f30562d86571696d263a918fe7b89f6"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/verification-v2.json",
+          "sha256": "31e5b44618e776e5a2baa9b7fdb92dc021a501c39d48cd058867059b01889f0d"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/statistics-seed-1-v2.json",
+        "results/statistics-seed-1-v2.resources.json"
+      ]
+    },
+    {
+      "task_id": "statistics-seed-2-v2",
+      "phase": "diagnostic",
+      "purpose": "Verify review-requested diagnostic/reporting repairs on fresh versioned outputs without reinterpreting old runs",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/statistics-seed-2-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_statistics.py",
+          "sha256": "f3a846763770aa63a0c271667d6693970f30562d86571696d263a918fe7b89f6"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/verification-v2.json",
+          "sha256": "31e5b44618e776e5a2baa9b7fdb92dc021a501c39d48cd058867059b01889f0d"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/statistics-seed-2-v2.json",
+        "results/statistics-seed-2-v2.resources.json"
+      ]
+    },
+    {
+      "task_id": "feedback-seed-0-v4",
+      "phase": "diagnostic",
+      "purpose": "Verify review-requested diagnostic/reporting repairs on fresh versioned outputs without reinterpreting old runs",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-0-v4.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0-v4.json",
+        "--seed",
+        "0"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "dfc7760f9da83b027c15ad1286fc84a15d8dce2b1186f74e5f83c33254cfc65f"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/verification-v2.json",
+          "sha256": "31e5b44618e776e5a2baa9b7fdb92dc021a501c39d48cd058867059b01889f0d"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-0-v4.json",
+        "results/feedback-seed-0-v4.resources.json"
+      ]
+    },
+    {
+      "task_id": "feedback-seed-1-v4",
+      "phase": "diagnostic",
+      "purpose": "Verify review-requested diagnostic/reporting repairs on fresh versioned outputs without reinterpreting old runs",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-1-v4.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-1-v4.json",
+        "--seed",
+        "1"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "dfc7760f9da83b027c15ad1286fc84a15d8dce2b1186f74e5f83c33254cfc65f"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/verification-v2.json",
+          "sha256": "31e5b44618e776e5a2baa9b7fdb92dc021a501c39d48cd058867059b01889f0d"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-1-v4.json",
+        "results/feedback-seed-1-v4.resources.json"
+      ]
+    },
+    {
+      "task_id": "algebra-seed-3-v3",
+      "phase": "diagnostic",
+      "purpose": "Verify review-requested diagnostic/reporting repairs on fresh versioned outputs without reinterpreting old runs",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/algebra-seed-3-v3.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-3-v3.json",
+        "--seed",
+        "3"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_algebra.py",
+          "sha256": "b1987232f887ea87f3c16ce0dd41dc0a5b0775a07b6e5a1c329ade04ce9b1cf8"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/verification-v2.json",
+          "sha256": "31e5b44618e776e5a2baa9b7fdb92dc021a501c39d48cd058867059b01889f0d"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/algebra-seed-3-v3.json",
+        "results/algebra-seed-3-v3.resources.json"
+      ]
+    }
+  ]
+}

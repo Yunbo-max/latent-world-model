@@ -1,0 +1,17 @@
+{
+  "id": "cpu_algebra",
+  "scope": "scripts/check_algebra.py; review/algebra-map.md",
+  "question": "Numerically test latest algebraic repair claims R01,R04,R06,R07,R09,R10,R11,R12,R13,R16,R18,R20 using pinned sources and independent reference calculations",
+  "lifecycle_state": "running",
+  "launch_intent_utc": "2026-10-12T08:47:44.348588+00:00",
+  "goal": "Delta CPU validation and result-driven repair",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "source_manifest_sha256": "94a93ca68c57e2ef8ea598a5b48a52810abce4ed18f06713068ce0a256e5c921",
+  "authority": "User 2026-10-12 09:43:50 Europe/London requests start verifying all experiments with rsi-simple CPU",
+  "experiments_permitted": false,
+  "further_delegation_permitted": false,
+  "deadline": "Return bounded implementation/review contribution this active turn; no scientific execution by child",
+  "native_usage": "unknown",
+  "agent_id": "/root/cpu_algebra"
+}

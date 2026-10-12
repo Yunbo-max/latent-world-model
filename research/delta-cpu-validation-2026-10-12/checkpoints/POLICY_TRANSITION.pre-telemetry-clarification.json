@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "authority_quote": "我觉得你可以开始了去验证所有实验",
+  "authority_local_time": "2026-10-12T09:43:50+01:00",
+  "old_policy": "Full edition mathematical-only;20-to-15 prerequisites; Web scientific execution forbidden",
+  "new_policy": "rsi-simple0.3.0-simple.9;one active verification idea; current GPT host CPU diagnostic/comparison execution authorized; no candidate quota",
+  "scope": "Verify all existing Delta mathematical/repair experimental obligations, execute CPU-feasible checks, retain and implement appropriate model/native follow-up plans",
+  "allocation": {
+    "host": "current GPT Work CPU",
+    "cpu_threads": 1,
+    "command_concurrency": 1,
+    "process_rss_limit_mib": 256,
+    "host_memory_upper_bound_bytes": 8589934592,
+    "gpu_execution": false,
+    "paid_services": false,
+    "containers": false
+  },
+  "wake_task_id": "6ac78ded796081918d2123402544d760",
+  "prior_pause": "2026-10-12 09:39 Europe/London;explicitly superseded for this CPU verification phase by latest request",
+  "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "preserve": "All prior claims,source bytes,failed reviews,old contracts and budgets;no retrospective PASSES",
+  "scientific_claims": "Numerical agreement/counterexample/resource measurements only until native data and appropriate controls exist"
+}

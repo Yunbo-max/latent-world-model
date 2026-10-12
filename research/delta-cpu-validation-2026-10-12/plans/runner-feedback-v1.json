@@ -1,0 +1,52 @@
+{
+  "submission_id": "feedback-preflight-v1",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "tasks": [
+    {
+      "task_id": "feedback-seed-0-v1",
+      "phase": "diagnostic",
+      "purpose": "Numerically verify local protection failure under complete state feedback and measure small-scale Jacobian paths",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-0.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0.json",
+        "--seed",
+        "0"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "e098247b93053ea415ed5dddd127a7acafd70297fc8c99374016e08ef58742c1"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "338ac7f8d7ca6d16f6f3e49227ad9fc89b5cb21f9fd6d76d5b487f7300306aac"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-0.json",
+        "results/feedback-seed-0.resources.json"
+      ]
+    }
+  ]
+}

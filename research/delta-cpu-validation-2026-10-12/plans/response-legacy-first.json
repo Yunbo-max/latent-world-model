@@ -1,0 +1,55 @@
+{
+  "response_id": "legacy-controls-first",
+  "request_id": "decision-ffa23414e257456b93eb118615ea6617",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Complete-feedback witness reproduced; now independently check retained earlier controls and identified zero-factor omission",
+  "tasks": [
+    {
+      "task_id": "legacy-controls-seed-0-v1",
+      "phase": "diagnostic",
+      "purpose": "Independent small-matrix equivalence/counterexample checks of historical cards and controls,including zero-factor SPD degeneracy",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/legacy-seed-0-v1.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy-seed-0-v1.json",
+        "--seed",
+        "0"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_legacy_controls.py",
+          "sha256": "0af849e641a9ada1776a4b482482ad531287ce2531e72a3117fbaf47b6922b33"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/legacy-seed-0-v1.json",
+        "results/legacy-seed-0-v1.resources.json"
+      ]
+    }
+  ]
+}

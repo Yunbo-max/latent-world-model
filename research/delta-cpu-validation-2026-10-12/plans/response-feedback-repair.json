@@ -1,0 +1,56 @@
+{
+  "response_id": "feedback-syntax-repair-v1",
+  "request_id": "decision-274621a096d644a0becd05a43f449cf4",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "First script had unmatched parentheses; removed them and retained failed source/stderr; rerun with new output identities",
+  "tasks": [
+    {
+      "task_id": "feedback-seed-0-v2",
+      "supersedes": "feedback-seed-0-v1",
+      "phase": "diagnostic",
+      "purpose": "Retry after removing unmatched parentheses; numerical claims unchanged",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/feedback-seed-0-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0-v2.json",
+        "--seed",
+        "0"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_feedback.py",
+          "sha256": "c039c6dcbe02c4c5c61a7016eb6f24e784cdb5a2b52bd1c8127d469d1740b258"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "338ac7f8d7ca6d16f6f3e49227ad9fc89b5cb21f9fd6d76d5b487f7300306aac"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/feedback-seed-0-v2.json",
+        "results/feedback-seed-0-v2.resources.json"
+      ]
+    }
+  ]
+}

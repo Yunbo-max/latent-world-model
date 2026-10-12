@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "scope": "First verification batch, not complete language-model evaluation",
+  "source_manifest": "source_manifest.json",
+  "exposure": "Existing symbolic examples and proofs already inspected; constructed numerical diagnostics are development,not unseen scientific confirmation",
+  "primary_questions": [
+    "Do implemented formulas agree with independent direct calculations?",
+    "Do original counterexamples and restricted positive cases occur numerically?",
+    "Does local protection survive state-dependent multi-step feedback?",
+    "Are total computation/storage savings supported when overhead is counted?"
+  ],
+  "comparisons": [
+    {
+      "id": "all-latest-repairs",
+      "arms": [
+        "algebra-suite",
+        "statistical-suite",
+        "independent direct/optimization/enumeration references"
+      ],
+      "data": "Explicit constructed mathematical fixtures;not public benchmark samples",
+      "conditions": "Every R01-R20 latest source; FP64 dimensions kept small; separate seeds are diagnostic cases,not independent trained models",
+      "metrics": [
+        "absolute/relative error",
+        "counterexample gaps",
+        "scope-appropriate constraint violations"
+      ],
+      "outcome_rules": "Pass numerical identity within stated tolerance; expected impossibility reproductions count as boundary tests; do not infer algorithmic superiority"
+    },
+    {
+      "id": "multi-step-protection",
+      "arms": [
+        "no-write",
+        "ordinary-Delta",
+        "local-protection-gate",
+        "future-informed-audit-control"
+      ],
+      "data": "Declared deterministic2D feedback witness plus controlled finite-dimensional variations",
+      "metrics": [
+        "immediate protected output displacement",
+        "later protected output displacement",
+        "new-write fitting"
+      ],
+      "outcome_rules": "Immediate zero and later positive damage refutes extension of a local-only certificate to long-horizon safety; does not refute every protected updater;future-informed control uses extra information and is not a deployable same-information competitor"
+    },
+    {
+      "id": "cost-calibration",
+      "arms": [
+        "rank-one JVP",
+        "dense explicit Jacobian reference"
+      ],
+      "metrics": [
+        "full path wall time",
+        "CPU time",
+        "peak RSS",
+        "state bytes",
+        "relative numerical error"
+      ],
+      "outcome_rules": "Small-scale isolated timings only; no universal speedup claim or hardware extrapolation;BLAS/environment thread request is not observed solver concurrency"
+    }
+  ],
+  "statistics": "Deterministic identities use numerical tolerances plus independent reference; stochastic cases expose seed and uncertainty; exploratory timings report paired raw repetitions,not significance",
+  "resources": {
+    "host": "current GPT Work CPU",
+    "cpu_threads": "one BLAS/OpenMP requested;HiGHS1 explicitly requested in new statistics revision;actual thread count unmeasured",
+    "command_concurrency": 1,
+    "host_memory_upper_bound_bytes": 8589934592,
+    "gpu_execution": false,
+    "paid_services": false,
+    "containers": false,
+    "process_data_allocation_limit_mib": 256,
+    "rss_measurement": "kernel RUSAGE_CHILDREN;not a hard RSS cap"
+  },
+  "residual_required_coverage": [
+    "Older candidate/control-specific checks flagged by coverage audit",
+    "Public native sequence/task endpoint comparisons where CPU feasible",
+    "Original13arm/2seed100M/1B-token model matrix,requires appropriate framework/data/host and costs;not executed by fixtures",
+    "SFT/continual-learning/RSI capability claims require trained-model evidence"
+  ],
+  "reason": "Independent review clarified four-arm implementation and future-informed oracle scope;original witness evidence retained"
+}

@@ -1,0 +1,1791 @@
+{
+  "review_type": "static source-to-claim and CPU diagnostic coverage; no experiment execution",
+  "repository": "Yunbo-max/latent-world-model",
+  "commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466",
+  "pinned_source_count": 70,
+  "latest_repair_lineage_count": 20,
+  "groups": {
+    "historical_card": 5,
+    "latest_repair": 20,
+    "rejected_or_control": 30,
+    "step2": 13,
+    "step2_duplicate": 1,
+    "step2_mixed_synthesis": 1
+  },
+  "source_integrity": {
+    "mismatches": [],
+    "check": "SHA256 against current pinned manifest; earlier newline capture correction is integrity repair, not scientific outcome"
+  },
+  "source_count_is_not_experiment_or_candidate_count": true,
+  "complete_source_inventory": true,
+  "complete_diagnostic_execution_coverage": false,
+  "complete_full_scientific_programme": false,
+  "native_benchmark_or_originality_successes_from_this_review": 0,
+  "producer_script_static_review": {
+    "status": "completed",
+    "scripts": [
+      {
+        "path": "scripts/check_algebra.py",
+        "sha256": "b1987232f887ea87f3c16ce0dd41dc0a5b0775a07b6e5a1c329ade04ce9b1cf8",
+        "check_ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08",
+          "A09",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A15",
+          "A16",
+          "A17",
+          "A18",
+          "A19",
+          "A20",
+          "A21",
+          "A22",
+          "A23",
+          "A24"
+        ],
+        "review": "complete static read of implementation; reviewer did not execute",
+        "substantive_implementation_errors_found": []
+      },
+      {
+        "path": "scripts/check_statistics.py",
+        "sha256": "f3a846763770aa63a0c271667d6693970f30562d86571696d263a918fe7b89f6",
+        "check_ids": [
+          "R02-aipw-sharp-identifiability",
+          "R02-uniform-value-bound",
+          "R02-overlap-occupancy-coefficient-boundaries",
+          "R03-v3-full-law-wasserstein",
+          "R03-v3-forcing-safe-logging-feasibility",
+          "R05-v4-sharp-coupling-bounds",
+          "R05-v4-contextual-regret-and-safe-gates",
+          "R08-posterior-channel-envelope",
+          "R08-unsupported-action-and-optional-cost",
+          "R14-coverage-collapse-finite-lp",
+          "R14-overlap-minimax-action-classes",
+          "R15-finite-jet-odd-even-ambiguity",
+          "R15-uniform-remainder-degree-growth",
+          "R17-v3-residual-scaled-spectral-gate",
+          "R19-finite-field-actual-graph-enumeration",
+          "QWRD-observation-and-query-assumptions",
+          "QWRD-gaussian-converse-codebook-quadrature",
+          "QWRD-compatible-recursion-finite-fano",
+          "compound-hedge-convex-reference",
+          "compound-hedge-information-boundaries",
+          "active-evidence-immediate-cross-term",
+          "active-evidence-soft-hard-blackwell",
+          "active-evidence-minimax-probe-cost"
+        ],
+        "review": "complete static read of implementation; reviewer did not execute",
+        "substantive_implementation_errors_found": []
+      }
+    ],
+    "scope": "Static implementation audit of check_algebra.py and check_statistics.py; no reviewer numerical execution; parent execution mapping separate",
+    "counts": {
+      "algebra_assertion_checks": 24,
+      "statistics_assertion_checks": 23,
+      "statistics_integrity_records": 1,
+      "latest_repair_lineages_with_direct_script_checks": 20,
+      "step2_root_families_with_direct_script_checks": 3,
+      "source_paths_with_direct_script_checks": 23
+    },
+    "findings": [
+      {
+        "severity": "scope",
+        "finding": "No substantive implementation/formula/order blocker found in implemented finite cases; this is static review, not proof or execution acceptance"
+      },
+      {
+        "severity": "resolved_scope_gap",
+        "finding": "Initial R17 zero-residual energy/gate fields were literals. Statistics v2 now computes and asserts e=0 and nonzero-residual protected-orthogonal s=0 gate/energy branches; fresh bytes statically reviewed. Other analytic boundary labels must still not be counted as independent tests."
+      },
+      {
+        "severity": "scope",
+        "finding": "R09 A09 verifies energy/range/single-mode inverse action and robust projection, not a general QCQP solve or the O(s^2) core update"
+      },
+      {
+        "severity": "scope",
+        "finding": "R13 A17 covers one erased direction and zero-row tail, not arbitrary multi-kernel rank-budget cases"
+      },
+      {
+        "severity": "scope",
+        "finding": "R16 A19 carries a dense dxd complement action; its equivalence pass cannot establish a compact-storage/runtime advantage"
+      },
+      {
+        "severity": "scope",
+        "finding": "Gaussian cache/QWRD optimizations test allocation equations and one scalar quantizer, not construction or Shannon-achievability of a full cache/refinement code"
+      },
+      {
+        "severity": "scope",
+        "finding": "R19 checks prime fields2/3 and small exact domains; no extension-field or floating-point transfer claim"
+      },
+      {
+        "severity": "scope",
+        "finding": "Source hashes bind fixtures to exact current sources; seeds are constructed development cases, not independent trained-model trials"
+      },
+      {
+        "severity": "source_assumption",
+        "finding": "Older LYAPUNOV_OBLIQUE_METRIC iff criterion omits w0/r0 identity cases; qualify nontrivial-update assumption"
+      }
+    ]
+  },
+  "untested_global_claims": [
+    "Originality or method-level residual beyond strongest direct information/action/ledger controls",
+    "Native task improvement, semantic valid revision, protected retention and continual learning",
+    "Free-running full-state effects and branch/censoring/randomization identification",
+    "Prefix-valid uniform or anytime future-law/Gramian/tree/radius/spectral calibration",
+    "Constant-width consumed side-code recurrence under repeated differently oriented destructive writes",
+    "Finite-bit floating implementation, clipping/overflow/basis/noise/RNG and matched-total-cost advantage",
+    "Long-horizon updater learning efficiency or recursive self-improvement",
+    "Original engineered LM13arm two-seed 100M/1B target-token-per-run model programme: GPU/framework/data/native scorer pending; CPU fixtures do not execute it",
+    "All older controls and STEP2-specific diagnostic obligations not explicitly implemented in current scripts"
+  ],
+  "first_check_recommendation": {
+    "question": "Does a locally protected write remain protected after state-dependent multi-step feedback?",
+    "comparison": "No-write versus ordinary Delta versus local protected gate, with an independently regenerated full-feedback finite-difference/twin reference",
+    "required_readouts": "Immediate and later protected output displacement, new-write fit, full state/map order and an explicit fixed-affine positive control",
+    "decision": "Later damage under immediate zero protection defeats a global extension of the local certificate; use full coupled-state/same-fiber closure or narrow the claim. It does not falsify every protected updater.",
+    "sequence": "Run parent-owned bounded witness first, then independently referenced all20 repair diagnostics, then older/STEP2 gaps; reviewer does not execute."
+  },
+  "sources": [
+    {
+      "id": "R01",
+      "source_path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "source_sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+      "group": "latest_repair",
+      "consequential_prediction": "Minimal right-quotient width is joint row rank of adjoint-transported future credits, which can be below the raw local envelope.",
+      "feasible_cpu_diagnostic": "Compare forward tangent scalar credits against independent reverse adjoints and quotient reconstructions; zero coupling/cancellation and omitted-direction witness; reachable-subspace caveat.",
+      "empirical_or_model_requirement": "Implement full-state prefix critic and compare multiple objectives with checkpointed VJP/JVP and direct credit predictor at total cost.",
+      "native_measurement_gap_and_reopen_evidence": "Endpoint QA does not expose transported costates, quotient fibers or realizable future-credit support; a causal continuation law and matched-cost advantage could reopen.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A01",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A02",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Restricted reachable tangent dual minimum rather than ambient full-space width",
+        "Multiobjective online amortization and no cheap value-only recursion",
+        "Complete full-state credit family realizability"
+      ]
+    },
+    {
+      "id": "R02",
+      "source_path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+      "source_sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+      "group": "latest_repair",
+      "consequential_prediction": "Coarse AIPW bias is covariance/propensity; reward/TV defects separately accumulate in target-policy value; hidden coefficient feedback breaks SW recursion.",
+      "feasible_cpu_diagnostic": "Enumerate two-history equality/observational-equivalence examples; exact Bellman finite-MDP values versus defect bound; discarded-state finite-difference leakage and Dirac-TV mismatch.",
+      "empirical_or_model_requirement": "Logged randomized actions, exact history-level propensities, paired target-policy continuations and nuisance/dependence control; sequential DR is an additional theorem.",
+      "native_measurement_gap_and_reopen_evidence": "OBP can test generic one-step abstraction, not Delta dynamics; native QA lacks ratios/fibers. Uniform target-reachable calibration and lawful quotient policy could change decision.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R02-aipw-sharp-identifiability",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R02-uniform-value-bound",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R02-overlap-occupancy-coefficient-boundaries",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Gruss range-bound independent check",
+        "Deterministic Dirac TV=1 versus small Euclidean difference",
+        "Local projected coefficient derivative and finite-fiber constancy",
+        "Sequential DR tolerances/ratio errors are not proved by these separate bounds"
+      ]
+    },
+    {
+      "id": "R03",
+      "source_path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+      "source_sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+      "group": "latest_repair",
+      "consequential_prediction": "Full-state law distance follows kappa*distance+forcing; persistent forcing prevents a vanishing cumulative certificate; positivity consumes harm budget.",
+      "feasible_cpu_diagnostic": "Finite Markov-chain or explicit one-dimensional kernel optimal-transport distances versus recurrence; geometric discounted envelope; enumerate simplex feasibility boundary.",
+      "empirical_or_model_requirement": "Free-running twins with complete Markov state, fixed metric/loss pair and simultaneous calibration; compare scalar/matrix direct safe design.",
+      "native_measurement_gap_and_reopen_evidence": "Native retention scores lack closed kernels, contraction/forcing constants and paired law; structural or calibrated full-state coverage plus total-cost benefit required.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R03-v3-full-law-wasserstein",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R03-v3-forcing-safe-logging-feasibility",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Discounted infinite-envelope closed-form versus independent long finite sum",
+        "High-dimensional W1 estimation/certified constants",
+        "Independent simultaneous/anytime calibration and per-action versus expected safety"
+      ]
+    },
+    {
+      "id": "R04",
+      "source_path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+      "source_sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+      "group": "latest_repair",
+      "consequential_prediction": "Joint representable fast-to-slow consolidation is ridge in propagated interface; D=I matched transfer has zero effect; positive scalar migration iff validity p exceeds survival s.",
+      "feasible_cpu_diagnostic": "Direct two-state rollouts versus vec/Kronecker transfer; mismatched interfaces; finite quadratic constrained solve; threshold p=s with valid/obsolete worlds and correlated horizons.",
+      "empirical_or_model_requirement": "Causal predictor of joint G,g or direct action; actual slow parameter interface, external future targets and frozen-versus-free-running comparisons.",
+      "native_measurement_gap_and_reopen_evidence": "LongMemEval update endpoint permits old information; SEAL is parameter/LoRA editing with costly grader, not Delta consolidation. Native mechanism targets and representability/matched-cost evidence missing.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A03",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A04",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Arbitrary representability/protection interfaces and nonlinear finite slow parameter modifications",
+        "Joint conditional moment estimation from lawful real future observations",
+        "Complete free-running-law consolidation effect"
+      ]
+    },
+    {
+      "id": "R05",
+      "source_path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+      "source_sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+      "group": "latest_repair",
+      "consequential_prediction": "Contextwise partial-ID bounds yield minimax-regret midpoint and a different safe gate; conditional strata can certify writes where pooled marginals cannot.",
+      "feasible_cpu_diagnostic": "Enumerate admissible binary-validity/Z couplings, endpoint attainment, zero A, rectangular minimax versus grid, pooled/contextual witness; test nonrectangular failure.",
+      "empirical_or_model_requirement": "Learn prefix-context p,mu,U and validate conditional support/coverage without future truth leakage; compare direct minimax action predictor.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA supplies no rZ joint moment or conditional rectangular coupling; lawful joint evidence/nonrectangular Delta structure or a matched-cost advantage would reopen.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R05-v4-sharp-coupling-bounds",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R05-v4-contextual-regret-and-safe-gates",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "General variable support/pooling comparison",
+        "Nonrectangular ambiguity optimization beyond outer-envelope toy witness",
+        "Estimated per-context support/coverage under shift"
+      ]
+    },
+    {
+      "id": "R06",
+      "source_path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+      "source_sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+      "group": "latest_repair",
+      "consequential_prediction": "Public singular margin gives product lower survival, prices current residual plasticity and bounds uncapped HT second-moment ratio by Kantorovich factor.",
+      "feasible_cpu_diagnostic": "Noncommuting Delta products and scalar/zero-key endpoints; aligned/orthogonal sharp cases; explicit capped/uncapped allocation, long-horizon product underflow and current residual.",
+      "empirical_or_model_requirement": "Actual gate/key normalization and decay interface must enforce eta; action benefits and delayed native recall need trained-model comparisons.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks lack X,Z,pi/semantic Y; finite-frame offline normalization is not causal streaming allocation. Show calibrated deployed law and benefit without adaptation loss.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A05",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A06",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Overshooting margin branch rho in[1+eta,2]",
+        "Caps/floors and streaming causal allocation",
+        "Precommitted infinite certified-dissipation budget versus adaptation and full-network Jacobian"
+      ]
+    },
+    {
+      "id": "R07",
+      "source_path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "source_sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+      "group": "latest_repair",
+      "consequential_prediction": "Fixed affine suffix gives exact joint write QP with Hadamard Gram cross terms; state-derived gate can reverse small-action sign.",
+      "feasible_cpu_diagnostic": "Independent rollouts for joint amplitudes versus factor core and full Gram; off-diagonal coupled QP versus independent gates; scalar feedback quartic/finite differences.",
+      "empirical_or_model_requirement": "Compare complete coupled-state derivatives, direct joint action/Q predictor and multiwrite training at equal budget.",
+      "native_measurement_gap_and_reopen_evidence": "Native scorers lack action Hessian/cross terms/paired writes. Exactness disappears when sequential residuals or features depend on chosen amplitudes.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A07",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A08",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "General box-QP active constraints and bound/feedback remainder",
+        "Sequentially recomputed multiwrite residuals are outside fixed-proposal QP",
+        "Matched total action-predictor and suffix cost"
+      ]
+    },
+    {
+      "id": "R08",
+      "source_path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+      "source_sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+      "group": "latest_repair",
+      "consequential_prediction": "Unidentified Bayes-plausible action channels give sharp [0,U] EVSI and rectangular release-minus-keep interval; optional cost is charged once.",
+      "feasible_cpu_diagnostic": "Enumerate finite posterior channels with same mean; uninformative/perfect endpoints; support ceiling, zero slope/no kink, release interval and optional positive-part costs.",
+      "empirical_or_model_requirement": "Randomized or structurally identified action-specific evidence channels and costs; shared-channel restrictions require new optimization.",
+      "native_measurement_gap_and_reopen_evidence": "Native temporal QA does not expose both counterfactual channels or signed Delta loss. Causal supported channel evidence rather than estimated oracle could change choice.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R08-posterior-channel-envelope",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R08-unsupported-action-and-optional-cost",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Linked/nonrectangular feasible channels",
+        "Actual Bayes likelihood-world construction of unsupported observation channels",
+        "Action changing latent validity/transition is outside fixed-prior theorem"
+      ]
+    },
+    {
+      "id": "R09",
+      "source_path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+      "source_sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+      "group": "latest_repair",
+      "consequential_prediction": "Rank-one realized future Gramians can require common carrier width d; span alone does not identify anisotropy; active pure-Delta core update is O(s^2).",
+      "feasible_cpu_diagnostic": "Direct chronological Gramian versus factor/core recurrence; concatenate transported factors; rank-one full-common-span witness; dense versus reduced robust QCQP and degenerate constraints.",
+      "empirical_or_model_requirement": "Prefix-declared mode family/core ambiguity, measured basis discovery and total cost; compare direct robust action predictor/dense gate.",
+      "native_measurement_gap_and_reopen_evidence": "QA exposes no common mode carrier or core. Lawful robust family and implemented lower-cost advantage needed; realized suffix-selected basis is offline diagnostic.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A09",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A10",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "O(s^2) pure-Delta backward core recurrence",
+        "General reduced robust QCQP optimum versus ambient optimum",
+        "Zero regularizer/infeasible zero-key and constrained mode-tree carrier",
+        "Runtime/basis discovery and common-core prediction"
+      ]
+    },
+    {
+      "id": "R10",
+      "source_path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+      "source_sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "group": "latest_repair",
+      "consequential_prediction": "Fixed residual carrier is exact iff (I-P)AU=0; leakage/injection errors transport; legal noncommuting key family can force full width and rounding can create full-rank defects.",
+      "feasible_cpu_diagnostic": "Dense residual versus projected recurrence; ordered decay leakage including cancellation; invariant-hull witness; rank-one rounding defect; exact error recurrence and bound.",
+      "empirical_or_model_requirement": "Finite-bit residual codec plus noise/range and repeated endogenous clipping law; compare equal-total-bit full state/transported feedback/moving factors.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not measure state residual/codec error. Prefix lawful carrier, actual repeated codec/decoder and matched-cost evidence missing.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A11",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A12",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Non-decay-invariant carrier cancellation and nonorthogonal conditioned basis",
+        "Moving-basis transport/reorthogonalization and finite-bit residual recurrence",
+        "Endogenous error law/state-dependent feature remainder"
+      ]
+    },
+    {
+      "id": "R11",
+      "source_path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+      "source_sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+      "group": "latest_repair",
+      "consequential_prediction": "Passive fixed affine overlay rank cannot grow, but independent injections attain cumulative 2m rank; later order gap uses corrected pre-state; recompression error transports.",
+      "feasible_cpu_diagnostic": "Lazy factor/dense recurrence with correction in later residuals; rank-two block injections; verify a*M*C term, weighted tail and cumulative truncation forcing.",
+      "empirical_or_model_requirement": "Semantic order selector, actual overlay primitive, dynamic future queries and costed repeated corrections; compare direct ledger/replay.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints lack semantic pair labels and weighted future query Gram. Selector evidence and finite-rank closure/cost advantage needed.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A13",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A14",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "General PSD weighted minimum-rank/tail optimum",
+        "Repeated recompression identity and feature/selector-dependent injections",
+        "Semantic order-selector calibration and physically compact overlay cost"
+      ]
+    },
+    {
+      "id": "R12",
+      "source_path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+      "source_sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+      "group": "latest_repair",
+      "consequential_prediction": "Seeded nonorthogonality graph components give the least invariant protected carrier; a future bridge exposes already discarded coordinates.",
+      "feasible_cpu_diagnostic": "Graph closure versus iterative invariant hull and reduced/full recurrence; disconnected/zero-beta cases; explicit hidden e2/bridge failure and nearzero inner products.",
+      "empirical_or_model_requirement": "Actual predeclared finite key dictionary with lawful index/beta/value dependence; account dictionary and finite precision.",
+      "native_measurement_gap_and_reopen_evidence": "Native language keys are not known finite family; exact graph tests do not imply learned-key closure or semantic release. Checkable deployed family and total-cost difference required.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A15",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A16",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Zero-key/only-zero-strength removal and state-derived coefficients",
+        "Graph exactness under finite precision/rank thresholds",
+        "Predeclared native key dictionary and causal basis discovery"
+      ]
+    },
+    {
+      "id": "R13",
+      "source_path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+      "source_sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+      "group": "latest_repair",
+      "consequential_prediction": "Minimum linear side ledger is rank(Q^T ker A); spectral cut trades extra rows for inverse amplification; budget tail is coefficient-space error.",
+      "feasible_cpu_diagnostic": "Independent rank/nullspace and SVD encoder-decoder reconstruction; rank-budget lower witness; singular/nonunit decay, spectral-cut and normalized ledger noise.",
+      "empirical_or_model_requirement": "Repeated destructive-step code transport, decoder, finite-bit/range and causal numerical threshold calibration; compare direct protected-value ledger.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks expose no revealed A,B,Q or ledger noise. One-shot theorem alone cannot substantiate lifelong preservation; recurrence and bits/cost evidence missing.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A17",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A18",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Multi-dimensional erased kernel and arbitrary side-row budget SVD tail",
+        "Reachable affine subspace restriction",
+        "Normalized side-ledger noise and finite-bit encoding/decoder",
+        "Repeated destructive-step side-code transition"
+      ]
+    },
+    {
+      "id": "R14",
+      "source_path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+      "source_sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+      "group": "latest_repair",
+      "consequential_prediction": "Near-observational-equivalence forces posterior interval collapse and positive decision risk; same-record statistics cannot improve TV; hard randomization differs from continuous class.",
+      "feasible_cpu_diagnostic": "Finite worlds exact TV/common mass; admissible interval procedures and collapse bound; continuous convex minimax versus hard action lottery and revealing-symbol sharpness.",
+      "empirical_or_model_requirement": "Provide actual observed provenance channel, calibrated laws and equal information to direct Bayes/minimax router.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks provenance labels/observable-world law; metadata or legal evidence that increases distinguishability can change decision, not residual repackaging.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R14-coverage-collapse-finite-lp",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R14-overlap-minimax-action-classes",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Arbitrary approximate-observable laws/certificate classes beyond sharp common-mass instance",
+        "Misspecified/calibrated likelihood and actual legal provenance channel"
+      ]
+    },
+    {
+      "id": "R15",
+      "source_path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "source_sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+      "group": "latest_repair",
+      "consequential_prediction": "Finite p-jet cannot certify nontrivial scale-free positive-radius regret; global omitted-derivative envelope supplies Taylor regret bound.",
+      "feasible_cpu_diagnostic": "Polynomial +/- (u^T z)^(p+1) for odd/even orders; analytic derivative equality versus numeric action grid; finite-range boundary and actual remainder regret.",
+      "empirical_or_model_requirement": "Full branch-consistent outcomes or uniform derivative envelope covering all descendants/routing; compare ordinary trial/trust-region methods.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not reveal global response class/remainders. Actual external trials or verified global regularity needed; typical-network realization of worst-case pair untested.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R15-finite-jet-odd-even-ambiguity",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R15-uniform-remainder-degree-growth",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Full multivariate jet and route/token switches",
+        "Actual trained-model adversarial-pair realizability",
+        "Verified uniform global derivative envelope or lawful external trials"
+      ]
+    },
+    {
+      "id": "R16",
+      "source_path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+      "source_sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+      "group": "latest_repair",
+      "consequential_prediction": "One-token active rank does not bound chunk rank; a shared reducing carrier yields fixed-width associative affine summary with charged complement.",
+      "feasible_cpu_diagnostic": "Noncommuting product telescope both orientations; coordinate rank-H witness; affine tree/sequential equivalence including sources; shared-carrier reducing test and complement action.",
+      "empirical_or_model_requirement": "Kernel/code implementation with causal basis, exact-write versus natural-flow branch and basis/complement traffic/solve cost; compare direct dense core/KDA/WY scan.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not isolate scan closure; arithmetic work counts are not hardware speedup. Shared carrier cheap interface and matched-total-cost runtime needed.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A19",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A20",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Exact-write singular-flow branch",
+        "Non-coordinate carrier discovery/projection and cheap complement representation",
+        "Necessity via principal logarithms and repeated lawful mode hull",
+        "Physical compact code/kernel cost versus WY/KDA"
+      ]
+    },
+    {
+      "id": "R17",
+      "source_path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+      "source_sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+      "group": "latest_repair",
+      "consequential_prediction": "Actual interference is beta^2*||e||^2*k^T G k; low-rank one-sided envelope needs isotropic tail; safe gate after certificate obeys budget, but does not construct certificate.",
+      "feasible_cpu_diagnostic": "Independent direct paired outputs versus Gram score; residual scaling/zero e, eigen-tail sharpness, dense/tighter scores and beta-safe budget across tail directions.",
+      "empirical_or_model_requirement": "Prefix one-sided Loewner coverage, nonlinear branches and semantic signed loss; compare scalar direct certified score, dense gate and protected ledger.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks expose neither U,G nor simultaneous coverage. Calibrated deployment contract and matched-cost advantage needed; gate preserves budget rather than information.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R17-v3-residual-scaled-spectral-gate",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results",
+          "resolved_review_addition": "Zero-residual and zero protected-score branches now actually computed/asserted in statistics v2."
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Rank0/rankd endpoint implementations",
+        "Randomized-compressor failure composition and prefix Gram coverage",
+        "Nonlinear finite-action and signed semantic loss"
+      ]
+    },
+    {
+      "id": "R18",
+      "source_path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+      "source_sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+      "group": "latest_repair",
+      "consequential_prediction": "Bounded pairwise erased-fiber radius gives exact common-ledger minmax leakage; path-specific optimum need not be common and PSD-envelope truncation can be factor-two loose.",
+      "feasible_cpu_diagnostic": "Independent same-fiber pair outputs; radius convention (pairwise R vs per-state 2R); path top eigenvalues; complementary paths grid optimum 1/2 versus envelope1; quantization boundary.",
+      "empirical_or_model_requirement": "Causal continuation tree/radius, nonlinear finite differences, constant-width repeated ledger transition, consumed decoder and finite-bit accounting.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks lack controlled erased fibers/path maps/radius. Current one-event real-valued theorem cannot close recursive scientific programme.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A21",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A22",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "General robust Grassmann optimum, envelope optimization/choice",
+        "Finite-bit/noisy same-fiber cell error",
+        "Prefix tree/radius coverage under shift/adaptive repeated writes",
+        "Constant-width repeated ledger recurrence plus consumed decoder"
+      ]
+    },
+    {
+      "id": "R19",
+      "source_path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+      "source_sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+      "group": "latest_repair",
+      "consequential_prediction": "One-shot finite-field release minimum messages q^r equals lost joint-release rank; nonlinear or randomized zero-error code cannot beat direct quotient.",
+      "feasible_cpu_diagnostic": "Independent modular row rank/nullspace, exhaustive code/release reconstruction and confusability clique; r0/full-loss, affine reachable support and state-dependent-branch exceptions.",
+      "empirical_or_model_requirement": "Explicit physical quantizer/range/overflow/noise/distortion and repeated code transition; compare identical direct signature/R18 ledger.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks field-valued releases/rank/cliques/retained bits. Exact algebraic compression is not a floating-point transfer theorem or novel updater.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "R19-finite-field-actual-graph-enumeration",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Non-prime finite fields/extensions",
+        "State-dependent legal branch/hidden-label feasibility and arbitrary reachable sets",
+        "Actual floating quantizer/distortion and recurrent code transition",
+        "Shared/private randomness zero-error lower bound is theorem, not empirically proved by deterministic coloring"
+      ]
+    },
+    {
+      "id": "R20",
+      "source_path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+      "source_sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+      "group": "latest_repair",
+      "consequential_prediction": "Spectral sandwich on affine feasible span gives sharp Kantorovich competitive factor; symmetric robustification leaves action unchanged; ker-only match misses cross term.",
+      "feasible_cpu_diagnostic": "Independent constrained quadratic solves versus sharp factor; extremizer and delta0/e0 boundaries; ker-only H_b witness; linear term/nonlinear remainder counterexamples.",
+      "empirical_or_model_requirement": "Prefix-to-future spectral calibration with adaptation/shift coverage; projected Woodbury/CG/direct action comparisons with real future loss.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks lack future H/delta/counterfactual optimum. Real continuation law or native total-cost advantage required; retrospectively estimating delta cannot gate past action.",
+      "reuse_or_distinct_obligation": "Distinct scoped diagnostic; not distinct method",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A23",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_algebra.py",
+          "check_id": "A24",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Proper affine-span spectral restriction rather than whole-space SPD fixture",
+        "Robust uncertainty-set optimizer versus same fixed action",
+        "Prefix-to-future uniform/anytime transfer calibration",
+        "Matched solver/precision/native task cost"
+      ]
+    },
+    {
+      "id": "STEP2_ACTION_SUFFICIENT_RANK_CONTROL",
+      "source_path": "source_snapshots/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+      "source_sha256": "6110b33f940e09eba35054ec5f37020e6da9a0f4be199a5d70b3b575060f0f69",
+      "group": "step2",
+      "consequential_prediction": "Weighted reduced-rank action regression has irreducible feature error plus task-operator SVD tail; fixed scalar gate output rank is at most1.",
+      "feasible_cpu_diagnostic": "Whitened low-rank optimum versus independent rank-constrained fit; multitask stacking monotonicity without weight renormalization; variable metric counterexample and source/target shift.",
+      "empirical_or_model_requirement": "Learn actual causal action target under fixed SPD regret or explicitly report distillation proxy; compare direct action prediction at matched width/training.",
+      "native_measurement_gap_and_reopen_evidence": "Native scores do not expose Bayes action/regret metric. Fixed feature/head theorem cannot prove general memory capacity or new task sufficiency.",
+      "reuse_or_distinct_obligation": "Reuses R04/R07 quadratic controls, but weighted reduced-rank/multitask/loss-shift assertions need additional diagnostics.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Whitened low-rank optimum versus independent rank-constrained fit; multitask stacking monotonicity without weight renormalization; variable metric counterexample and source/target shift."
+      ]
+    },
+    {
+      "id": "STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12",
+      "source_path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+      "source_sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+      "group": "step2",
+      "consequential_prediction": "Legal probe improves interior soft quadratic Bayes risk whenever posterior is informative; net value requires gain above cost; hard action can have zero decision value.",
+      "feasible_cpu_diagnostic": "Exact discrete-channel Bayes integral, direct gate minimization and garbling; BSC C*(1/2-eps)^2 cost threshold; centered protected-loss linear-term witness.",
+      "empirical_or_model_requirement": "Acquire legal external probes and measure their channel, delay/cost and downstream harm; equal evidence to direct Bayes router.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA does not supply active probe likelihood/cost or paired factual validity. Legal intervention/probe and scored reuse can change decision.",
+      "reuse_or_distinct_obligation": "R14/R08 principles reusable; strict soft versus hard EVSI and acquisition-cost comparison remain distinct diagnostic.",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "active-evidence-immediate-cross-term",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "active-evidence-soft-hard-blackwell",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "active-evidence-minimax-probe-cost",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Acquire legal external probes and measure their channel, delay/cost and downstream harm; equal evidence to direct Bayes router.",
+        "Native QA does not supply active probe likelihood/cost or paired factual validity. Legal intervention/probe and scored reuse can change decision."
+      ]
+    },
+    {
+      "id": "STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12",
+      "source_path": "source_snapshots/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md",
+      "source_sha256": "b6061fc2f379dfac87d30f361d9abbf1a550e63eb910f9ef85e4d872a8717b6c",
+      "group": "step2_mixed_synthesis",
+      "consequential_prediction": "Equivalent complete action/information/cost classes have equal risk; exact repeated independent queryable facts need T retained bits; finite-alphabet recursive sufficiency requires finite right-congruence index.",
+      "feasible_cpu_diagnostic": "Enumerate a small repeated-write INDEX family and code collisions; finite controlled model equivalence partition/right-congruence; same complete policy/cost kernels.",
+      "empirical_or_model_requirement": "Specify actual task/reward-augmented controlled system and full state cardinality/precision; global budgets do not allow pointwise decomposition.",
+      "native_measurement_gap_and_reopen_evidence": "No native recursive-state equivalence scorer; high-level synthesis/status tables are administrative only. Bounded predictive law or approximate/rate-distortion target can change width requirement.",
+      "reuse_or_distinct_obligation": "Do not count status/sweep synthesis as experiment; sections2-3 have real extra repeated-write/right-congruence diagnostic obligations.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Enumerate a small repeated-write INDEX family and code collisions; finite controlled model equivalence partition/right-congruence; same complete policy/cost kernels."
+      ]
+    },
+    {
+      "id": "STEP2_CLOSED_LOOP_RANK_GROWTH",
+      "source_path": "source_snapshots/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "source_sha256": "4839d87111588059f3db84e01f77de3aa836f15e7746c055beaae449da39a789",
+      "group": "step2",
+      "consequential_prediction": "Scalar state-derived gate can attain tangent rank H; local contraction preserves growth but can shrink amplitude; fixed-rank truncation loss is ordered transported forcing.",
+      "feasible_cpu_diagnostic": "Actual sigmoid shared-gate recurrence finite differences/JVP against diagonal rank-H construction; tail error and full product bound; cancellation and orthogonal feedback cases.",
+      "empirical_or_model_requirement": "Inspect actual model permission for gate access to memory; measure full-state native Jacobians/readout credit and cost versus reverse VJP.",
+      "native_measurement_gap_and_reopen_evidence": "Native scores lack sensitivity singular spectra or product gains. Matrix rank is not algorithm memory lower bound.",
+      "reuse_or_distinct_obligation": "R07 feedback and R10/R11 rank ideas partially reusable; rank-H and relative-versus-absolute spectra distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Actual sigmoid shared-gate recurrence finite differences/JVP against diagonal rank-H construction; tail error and full product bound; cancellation and orthogonal feedback cases."
+      ]
+    },
+    {
+      "id": "STEP2_COMPOUND_QUERY_HEDGE_2026-10-12",
+      "source_path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+      "source_sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+      "group": "step2",
+      "consequential_prediction": "Query-agnostic immutable cache minimax Gaussian distortion uses R/m per coordinate; Bayesian query probabilities reverse-waterfill; fresh re-encode has exact tax R*(1-1/m).",
+      "feasible_cpu_diagnostic": "Independent numerical KKT optimization versus allocation; exact finite discrete cache enumeration as diagnostic only; explicit finite Gaussian codec, compare to Shannon lower bound rather than assert attainment.",
+      "empirical_or_model_requirement": "Source available to stage2, publicly revealed query, actual finite-bit codec at identical source/decoder/metadata costs; correlated sources need different theory.",
+      "native_measurement_gap_and_reopen_evidence": "No native benchmark exposes immutable message payload/rates/query revelation. Finite block and single-state quantizers do not attain Shannon boundary automatically.",
+      "reuse_or_distinct_obligation": "Distinct lossy caching timing object; not covered by R19 one-shot zero-error or R17 spectral check.",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "compound-hedge-convex-reference",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "compound-hedge-information-boundaries",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Source available to stage2, publicly revealed query, actual finite-bit codec at identical source/decoder/metadata costs; correlated sources need different theory.",
+        "No native benchmark exposes immutable message payload/rates/query revelation. Finite block and single-state quantizers do not attain Shannon boundary automatically."
+      ]
+    },
+    {
+      "id": "STEP2_COUPLED_UPDATER_STABILITY",
+      "source_path": "source_snapshots/STEP2_COUPLED_UPDATER_STABILITY.md",
+      "source_sha256": "70f3cff118db5699a67dd9cf808157d16779acc6b5f57ea6edadd3a620629d4b",
+      "group": "step2",
+      "consequential_prediction": "Gate derivative contributes rank-one Jacobian and can locally expand; separately stable blocks can be jointly unstable; strict full-state contraction conflicts with fixed protected distinctions.",
+      "feasible_cpu_diagnostic": "Analytic JVP/VJP versus finite difference/autodiff; sigmoid cS3 expansion; joint block eigenspectrum and slow-clock witness; fixed protected-row/fiber contraction recurrences.",
+      "empirical_or_model_requirement": "Full complete state/feature Jacobians over convex invariant domain with uniform norms; trained-model learning/retention and direct constrained controls.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks complete Jacobian/invariant domains/protected L. Point derivatives and blockwise stability are not global guarantees.",
+      "reuse_or_distinct_obligation": "Shared R01/R07 derivative pieces reusable; small-gain/slow-clock/protection-fiber assertions need distinct checks.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Analytic JVP/VJP versus finite difference/autodiff; sigmoid cS3 expansion; joint block eigenspectrum and slow-clock witness; fixed protected-row/fiber contraction recurrences."
+      ]
+    },
+    {
+      "id": "STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL",
+      "source_path": "source_snapshots/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "source_sha256": "09bceabb9fc8e53dcf7ed877a4b9bc174af093b7406b7f9b51be62d3e60326f2",
+      "group": "step2",
+      "consequential_prediction": "Strict contraction can leave flat relative sensitivity spectrum; age truncation needs decaying transported low-rank injections; unbiased random rank carries variance and nested-cutoff cross covariance.",
+      "feasible_cpu_diagnostic": "Rank-H contraction/tail fixture; geometric age/error bound; nested Russian roulette exact finite cutoff distribution versus covariance; unbiased rank-r nuclear norm lower witness; monotone survival KKT.",
+      "empirical_or_model_requirement": "Actual directional readout/costates and dynamic endogenous random-sketch paths; meaningful full-network retained signal versus credit loss.",
+      "native_measurement_gap_and_reopen_evidence": "Native task scores do not expose spectra/variance/absolute error. Full-factor norm/eigenvalues alone do not establish age-decay law.",
+      "reuse_or_distinct_obligation": "Distinct relative-rank/random-truncation diagnostics, not subsumed by an algebraic rank pass.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Rank-H contraction/tail fixture; geometric age/error bound; nested Russian roulette exact finite cutoff distribution versus covariance; unbiased rank-r nuclear norm lower witness; monotone survival KKT."
+      ]
+    },
+    {
+      "id": "STEP2_JOINT_CONDITIONAL_RISK",
+      "source_path": "source_snapshots/STEP2_JOINT_CONDITIONAL_RISK.md",
+      "source_sha256": "fd7ae10d232494447b1ade1f9323228118946d6f95b94ab705622eacff3b2eb5",
+      "group": "step2",
+      "consequential_prediction": "Correct action uses mixed E[r J^T J], with factorized excess exactly quadratic; parameterizing Delta action restricts feasible direction; moment prediction suffices under fixed quadratic loss.",
+      "feasible_cpu_diagnostic": "Finite branch sums and direct optimizer versus factorized gate; correlated and zero-covariance equality cases; complete feature derivative and sample-moment perturbation.",
+      "empirical_or_model_requirement": "Legal joint r/J or actual desired output targets, causal predictor and complete state effects; compare equally informed direct action/CE models.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA does not label edit validity/mixed moment. An ordinary joint Bayesian model already preserves dependence.",
+      "reuse_or_distinct_obligation": "Reentry duplicate refined here; R04/R05 cover related mixed moments but not this exact target automatically.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Finite branch sums and direct optimizer versus factorized gate; correlated and zero-covariance equality cases; complete feature derivative and sample-moment perturbation."
+      ]
+    },
+    {
+      "id": "STEP2_OBSERVED_PREDICTIVE_TARGET",
+      "source_path": "source_snapshots/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "source_sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
+      "group": "step2",
+      "consequential_prediction": "Future observed-token risk gives legal supervision, but fixed value-direction edit cannot fix perpendicular residual; CE GGN differs from true Hessian; information refinement valuable iff optimal action changes.",
+      "feasible_cpu_diagnostic": "Independent linear target/constraint solves and perpendicular residual; full logits finite-difference CE gradient/Hessian versus Fisher/GGN; empirical Fisher counterexample; random-metric Bayes information value.",
+      "empirical_or_model_requirement": "Implement actual writer interface and within-window future supervision; preserve tokenizer/native CE/QA protocol and TBPTT scope; compare direct action and CE-only.",
+      "native_measurement_gap_and_reopen_evidence": "Existing writer is bounded slot writer, not Delta; current reader access is not writer information. Latent value truth unavailable; GPU LM13arm/native training remains pending.",
+      "reuse_or_distinct_obligation": "Partially overlaps R04/R07 and recursive metric; real CE/reachable-action/information-interface checks remain extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent linear target/constraint solves and perpendicular residual; full logits finite-difference CE gradient/Hessian versus Fisher/GGN; empirical Fisher counterexample; random-metric Bayes information value."
+      ]
+    },
+    {
+      "id": "STEP2_PROJECTED_DELAYED_CREDIT",
+      "source_path": "source_snapshots/STEP2_PROJECTED_DELAYED_CREDIT.md",
+      "source_sha256": "922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd",
+      "group": "step2",
+      "consequential_prediction": "Single gate action credit is scalar projected adjoint, while full updater meta-gradient needs every write/initial/score path; two nonzero amplitudes identify slope and curvature with paired baseline.",
+      "feasible_cpu_diagnostic": "JVP/VJP versus finite differences/full adjoint; fixed-path rank-one eligibility; rank of action-span summary; logged design Gram rank and noisy regression identifiability; parameter-dependent initial state witness.",
+      "empirical_or_model_requirement": "Lawful external delayed outcomes/randomized amplitudes, propensity/support/delay/censoring, or differentiated real suffix; compare direct critic and action predictor.",
+      "native_measurement_gap_and_reopen_evidence": "Native scalar feedback does not reveal unchosen baseline or individual slope/curvature. Training adaptation is not RSI; score/meta-gradient and long-horizon truncation open.",
+      "reuse_or_distinct_obligation": "R01/R07 frozen-credit pieces reusable; causal amplitude-design/parameter-gradient assertions distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "JVP/VJP versus finite differences/full adjoint; fixed-path rank-one eligibility; rank of action-span summary; logged design Gram rank and noisy regression identifiability; parameter-dependent initial state witness."
+      ]
+    },
+    {
+      "id": "STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12",
+      "source_path": "source_snapshots/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md",
+      "source_sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9",
+      "group": "step2",
+      "consequential_prediction": "An immutable first RDF-optimal orthogonal Gaussian layer cannot help new query; rate slack prices hedging; no-tax refinement needs compatible optimal test channels.",
+      "feasible_cpu_diagnostic": "Evaluate distortion/rate/slack formulas against independently optimized Gaussian allocations and finite codec diagnostics; same-metric/zero-rate/orthogonal boundary and append-vs-rewrite tests.",
+      "empirical_or_model_requirement": "Source available at stage2, public metric identity and charged old payload/decoder; finite block codec and real query-shift measurement.",
+      "native_measurement_gap_and_reopen_evidence": "Native tasks do not expose payload immutability/RDF slack. Principal angles/commuting metrics are not sufficient; Shannon achievability is untested.",
+      "reuse_or_distinct_obligation": "Distinct temporal refinement obligation; R19 finite-field and R18 fixed-tree tests do not cover it.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Evaluate distortion/rate/slack formulas against independently optimized Gaussian allocations and finite codec diagnostics; same-metric/zero-rate/orthogonal boundary and append-vs-rewrite tests."
+      ]
+    },
+    {
+      "id": "STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12",
+      "source_path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+      "source_sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+      "group": "step2",
+      "consequential_prediction": "Observation ambiguity plus bit error decompose; Gaussian reverse waterfilling is a lower bound on one-state codecs; recursive seminorm needs kernel compatibility.",
+      "feasible_cpu_diagnostic": "Independent finite/Gaussian observation decomposition; integer uniform quantizer/clipping bound; numerical rate allocation; bridge kernel violation; recursive error versus Minkowski bound.",
+      "empirical_or_model_requirement": "Actual finite-bit codec with source and fixed/conditional query law, codebook/scale/overflow/RNG metadata, nonlinear repeated state trajectory.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks state-bit/task-distortion observation law. Non-Gaussian covariance alone does not justify Gaussian converse and one-token codec does not imply attainment.",
+      "reuse_or_distinct_obligation": "R19 exact coordinate-boundary and R12 future bridge reuse; lossy/indirect/quantizer/recursive error assertions extra.",
+      "implemented_script_coverage": [
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "QWRD-observation-and-query-assumptions",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "QWRD-gaussian-converse-codebook-quadrature",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        },
+        {
+          "script": "scripts/check_statistics.py",
+          "check_id": "QWRD-compatible-recursion-finite-fano",
+          "coverage": "representative finite constructed assertion and boundary tests; not every claim in the source",
+          "verification": "static reviewed; parent owns numerical execution/results"
+        }
+      ],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "Direct script coverage is partial",
+      "remaining_diagnostic_claims": [
+        "Actual finite-bit codec with source and fixed/conditional query law, codebook/scale/overflow/RNG metadata, nonlinear repeated state trajectory.",
+        "Native QA lacks state-bit/task-distortion observation law. Non-Gaussian covariance alone does not justify Gaussian converse and one-token codec does not imply attainment."
+      ]
+    },
+    {
+      "id": "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL",
+      "source_path": "source_snapshots/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "source_sha256": "0e992547b81d56213d0b189a727f995cfddfa4ea69343794ad9084c0ed539cb0",
+      "group": "step2",
+      "consequential_prediction": "Exact recurrent Hessian contains trajectory/residual curvature beyond GGN; averaging factor or sample Newton actions gives wrong conditional target; estimate errors can consume predicted benefit.",
+      "feasible_cpu_diagnostic": "Finite differences/autodiff exact Hessian versus GGN and matrix-free pullback; z(u)=u^2 CE negative curvature; finite conditional branch inverse-average witness and perturbation descent bound.",
+      "empirical_or_model_requirement": "Learn causal joint gradient/metric under real future token law and compare direct action, gradient-only, diagonal/low-rank, and CE rollout at total cost.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints lack true conditional gradient/metric/derivative envelope. Teacher-forced replay differs from free-running score-dependent objective.",
+      "reuse_or_distinct_obligation": "Refines R07/R15/R20; exact Hessian/GGN and conditional-action statistical diagnostics not covered by PSD identity alone.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Finite differences/autodiff exact Hessian versus GGN and matrix-free pullback; z(u)=u^2 CE negative curvature; finite conditional branch inverse-average witness and perturbation descent bound."
+      ]
+    },
+    {
+      "id": "STEP2_REENTRY_2026-10-09.zh-CN",
+      "source_path": "source_snapshots/STEP2_REENTRY_2026-10-09.zh-CN.md",
+      "source_sha256": "30fe78ef6d4cb980d5aa9ee535a50c416ce67ae562d771297dad1b4e8263a399",
+      "group": "step2_duplicate",
+      "consequential_prediction": "Earlier complete-Jacobian telescoping, joint-moment optimization, convex quadratic randomization and real evidence-value identities are carried into later STEP2 definitions.",
+      "feasible_cpu_diagnostic": "Reuse refined joint risk, projected credit, recursive metric and active evidence checks; optionally exact random-action mean-risk penalty fixture.",
+      "empirical_or_model_requirement": "Use the later refined target/action/information conditions; no new candidate or separate experiment counted.",
+      "native_measurement_gap_and_reopen_evidence": "Narrative reentry/disposition is administrative; substantive math maps to refined docs and is not discarded.",
+      "reuse_or_distinct_obligation": "Duplicate lineage view, not a fifteenth independent STEP2 experiment.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Reuse refined joint risk, projected credit, recursive metric and active evidence checks; optionally exact random-action mean-risk penalty fixture."
+      ]
+    },
+    {
+      "id": "STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12",
+      "source_path": "source_snapshots/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md",
+      "source_sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760",
+      "group": "step2",
+      "consequential_prediction": "Single fixed-affine shadow catches up internal state, not prior environmental outputs; delayed ordinary write is different; crossed signed loss isolates overlap,residual,target contrast.",
+      "feasible_cpu_diagnostic": "Explicit twin rollouts versus lazy shadow and delayed residual write; crossed2x2 squared losses; state-derived-key failure; multiple pending rank and candidate-identity effects.",
+      "empirical_or_model_requirement": "Lawful external targets or reset/twin evaluator, commit primitive, delayed selection, reuse/transport and full cost; free-running total effects need separate twins.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA endpoints cannot identify shared-state/world crossing/probe channel. Source-local verification does not identify later transfer.",
+      "reuse_or_distinct_obligation": "R11 passive closure reuses exactly; new paired measurement protocol/crossed-world identity needs extra checks.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Explicit twin rollouts versus lazy shadow and delayed residual write; crossed2x2 squared losses; state-derived-key failure; multiple pending rank and candidate-identity effects."
+      ]
+    },
+    {
+      "id": "D01",
+      "source_path": "source_snapshots/cards/D01.json",
+      "source_sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a",
+      "group": "historical_card",
+      "consequential_prediction": "One-event low-rank branch representation exactly matches explicit Bayesian probability mixture, not softmax of mean state.",
+      "feasible_cpu_diagnostic": "Shared-affine two-state versus factor/logodds/token-mixture normalization and telescoping NLL; annihilated trace and same-likelihood no-resolution.",
+      "empirical_or_model_requirement": "Train one-event predictive mixture/causal likelihood with readout cost, branch dependent features and multiple events controlled.",
+      "native_measurement_gap_and_reopen_evidence": "Native delayed-disambiguation semantics/likelihood calibration missing; posterior policy index is not truth.",
+      "reuse_or_distinct_obligation": "R11/shadow closure reused; causal mixture/logodds/readout identity is distinct and currently additional.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Shared-affine two-state versus factor/logodds/token-mixture normalization and telescoping NLL; annihilated trace and same-likelihood no-resolution."
+      ]
+    },
+    {
+      "id": "D03",
+      "source_path": "source_snapshots/cards/D03.json",
+      "source_sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891",
+      "group": "historical_card",
+      "consequential_prediction": "Radius-constrained inverse future-Gram direction minimizes proxy disturbance at fixed current correction; R1 is ordinary unit-key Delta.",
+      "feasible_cpu_diagnostic": "Dense constrained solve/dual search versus Woodbury; radius active/inactive cases and anisotropic/isotropic limits.",
+      "empirical_or_model_requirement": "Train causal PSD metric under frozen teacher with actual labels; compare historical metric/direct action/CE and native recall, total teacher cost.",
+      "native_measurement_gap_and_reopen_evidence": "RULER endpoint does not identify transport validity; native dependency assets and teacher framework pending.",
+      "reuse_or_distinct_obligation": "R09/R20 inverse metric reused; radius branch and actual predictor/native pipeline remain extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Dense constrained solve/dual search versus Woodbury; radius active/inactive cases and anisotropic/isotropic limits."
+      ]
+    },
+    {
+      "id": "D05",
+      "source_path": "source_snapshots/cards/D05.json",
+      "source_sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2",
+      "group": "historical_card",
+      "consequential_prediction": "One dithered quantization injection risk is spectral waterfilling; recurrent injection cross terms/refresh costs can erase benefit.",
+      "feasible_cpu_diagnostic": "Transform recurrence identity, bit allocator versus exact small integer search, independent dither variance and recurrent correlated errors.",
+      "empirical_or_model_requirement": "Implement equal-total-bit codec/packing/basis refresh with actual range/noise and native task, compare uniform/static rotations.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA does not identify quantization disturbance; equal-range independent dither is strong assumption and actual floating kernels missing.",
+      "reuse_or_distinct_obligation": "R10/R16/RD carrier ideas reuse only part; generalized balanced basis/bit allocator/refresh diagnostics distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Transform recurrence identity, bit allocator versus exact small integer search, independent dither variance and recurrent correlated errors."
+      ]
+    },
+    {
+      "id": "D06",
+      "source_path": "source_snapshots/cards/D06.json",
+      "source_sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7",
+      "group": "historical_card",
+      "consequential_prediction": "Sliding log-volume clip guarantees window expenditure and sigma_min >= exp(-B), but can starve later writes and is sequential.",
+      "feasible_cpu_diagnostic": "Causal rolling cost queue and exp/log boundary; actual noncommuting products versus singular lower bound; greedy B,0,...,0 allocation.",
+      "empirical_or_model_requirement": "Train real constrained gates versus equal-expenditure fixed gates and native delayed recall/adaptation; charge scan loss.",
+      "native_measurement_gap_and_reopen_evidence": "Native recall does not identify volume mechanism; sigmoid alone lacks margin; FP erasure and resume queue untested.",
+      "reuse_or_distinct_obligation": "R06 survival/plasticity and metric controls partially reuse; rolling-window clip/starvation implementation extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Causal rolling cost queue and exp/log boundary; actual noncommuting products versus singular lower bound; greedy B,0,...,0 allocation."
+      ]
+    },
+    {
+      "id": "D07",
+      "source_path": "source_snapshots/cards/D07.json",
+      "source_sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32",
+      "group": "historical_card",
+      "consequential_prediction": "Soft source-norm survival penalty can improve frozen trace while failing query visibility or valid revision.",
+      "feasible_cpu_diagnostic": "Exact source contribution/source norm versus paired output; zero/tiny residual admission and overlap versus orthogonal future keys; auxiliary gradient check.",
+      "empirical_or_model_requirement": "Train CE+proxy against CE/delayed supervision/write-rate controls on native tasks with same forward architecture and training cost.",
+      "native_measurement_gap_and_reopen_evidence": "Historical card pending-originality language does not resurrect active candidate; no trained effect/native source-trace scorer.",
+      "reuse_or_distinct_obligation": "R06/R11 source transport reuse; survival loss gradient, scale blindness, training behavior distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Exact source contribution/source norm versus paired output; zero/tiny residual admission and overlap versus orthogonal future keys; auxiliary gradient check."
+      ]
+    },
+    {
+      "id": "AFFINE_MAGNUS_COMMUTATOR_CONTROL",
+      "source_path": "source_snapshots/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+      "source_sha256": "fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Affine adjacent order gap includes write-source term; same-key linear factors commute but revisions do not.",
+      "feasible_cpu_diagnostic": "Direct reordered updates versus commutator including source; BCH small-step2nd-order check and beta1 log singularity.",
+      "empirical_or_model_requirement": "Semantic order selector and valid frozen ODE before claimed integration order; total generator cost.",
+      "native_measurement_gap_and_reopen_evidence": "No native semantic selector; exact chronological affine scan already solves composition.",
+      "reuse_or_distinct_obligation": "R11/R16 ordered composition partially reusable; affine BCH/source and singular-log checks extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct reordered updates versus commutator including source; BCH small-step2nd-order check and beta1 log singularity."
+      ]
+    },
+    {
+      "id": "CHECKSUM_REVISION_SKETCH",
+      "source_path": "source_snapshots/rejected/CHECKSUM_REVISION_SKETCH.md",
+      "source_sha256": "32408e92233e9f906597d0564a6c20cc20af10c0038136252e5813ab54e1e0bf",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Hash/sketch cannot add identity; seen pairs miss A->B->A latestness; angular gap supplies rather than creates evidence.",
+      "feasible_cpu_diagnostic": "Finite TV data processing plus explicit cyclic-value filter failure; ideal independent-hash FP and SimHash margin under declared model.",
+      "empirical_or_model_requirement": "Stable observed canonical ID and actual dictionary/version policy, prototype/hash metadata and native entity supervision.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks reliable identity stream; novelty-pair score does not label latest truth.",
+      "reuse_or_distinct_obligation": "R14 TV reused; filter latestness and approximate membership diagnostics extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Finite TV data processing plus explicit cyclic-value filter failure; ideal independent-hash FP and SimHash margin under declared model."
+      ]
+    },
+    {
+      "id": "COUNTERFACTUAL_QUERY_WRITE_UTILITY",
+      "source_path": "source_snapshots/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
+      "source_sha256": "a2a8cb972bf9915af5e4761132ff505191d28e09ef04867dc151b4a1d910dd9c",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Frozen source deletion CE utility is signed/query-visible; write-local exact utility gradient equals ordinary future CE.",
+      "feasible_cpu_diagnostic": "Direct leave-one-write-out replay/logsumexp utility and finite-difference write-local gradients; shared-parameter/redundancy failure.",
+      "empirical_or_model_requirement": "Actual whole-network deletion replay, source identity and observed future token training; compare CE/direct delayed teacher.",
+      "native_measurement_gap_and_reopen_evidence": "Native score lacks attribution; source trace alone not nonlinear causal deletion.",
+      "reuse_or_distinct_obligation": "R11/shadow/R01 transport reused; CE utility/gradient equivalence and shared-parameter exploit extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct leave-one-write-out replay/logsumexp utility and finite-difference write-local gradients; shared-parameter/redundancy failure."
+      ]
+    },
+    {
+      "id": "D04_COMPENSATION_COLLISION",
+      "source_path": "source_snapshots/rejected/D04_COMPENSATION_COLLISION.md",
+      "source_sha256": "c6649092f967ac2b618f95e796b4b761a0839bd995c343b8965007253988d1d6",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Transported full residual restores affine lifted trajectory; unchanged feedback adds (I-A)C, and reading W alone omits residual.",
+      "feasible_cpu_diagnostic": "Quantized W/C direct lift versus full affine state; unchanged compensation witness; decoded versus W-only read and residual-code error recurrence.",
+      "empirical_or_model_requirement": "Equal-total-bit residual state/noise/range and actual repeated writeback interface/kernels.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA cannot identify writeback error; extra full residual is higher precision paid state.",
+      "reuse_or_distinct_obligation": "R10 error recurrence reused; real quantizer/read-interface comparison extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Quantized W/C direct lift versus full affine state; unchanged compensation witness; decoded versus W-only read and residual-code error recurrence."
+      ]
+    },
+    {
+      "id": "DEFERRED_CORRECTION_DEBT",
+      "source_path": "source_snapshots/rejected/DEFERRED_CORRECTION_DEBT.md",
+      "source_sha256": "023761f095e238822afdb286484ef13549c1e4cdd34e8ebe2bfe70ee2f5889aa",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Debt+deployed state exact affine bookkeeping; catch-up iff transported safe directions span debt; no excitation gives no repayment.",
+      "feasible_cpu_diagnostic": "Direct debt identity and projected norm drop; reachable matrix/pseudoinverse tail; orthogonal inaccessible debt and nonlinear failure.",
+      "empirical_or_model_requirement": "Lawful future addresses/protection, complete shadow/replay and full debt cost.",
+      "native_measurement_gap_and_reopen_evidence": "Native scorer lacks debt and counterfactual protected validity; repayment is transported error feedback.",
+      "reuse_or_distinct_obligation": "R10/R11 transport reused; controllability/protected repayment/excitation diagnostics extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct debt identity and projected norm drop; reachable matrix/pseudoinverse tail; orthogonal inaccessible debt and nonlinear failure."
+      ]
+    },
+    {
+      "id": "EXACT_FLOW_IMPLICIT_DELTA_CONTROL",
+      "source_path": "source_snapshots/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+      "source_sha256": "a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Frozen exact-flow and proximal update coincide with sigmoid Delta after scalar reparameterization.",
+      "feasible_cpu_diagnostic": "Independent matrix ODE solution/proximal normal equations and stable expm1 limit versus sigmoid map/gradient.",
+      "empirical_or_model_requirement": "Actual controlled continuous-time object only if changed; standard gate equivalence alone needs no new model claim.",
+      "native_measurement_gap_and_reopen_evidence": "No native mechanism benefit because same forward map; dense or shared key boundary must remain explicit.",
+      "reuse_or_distinct_obligation": "R16 joint-flow is different noncommuting object; this scalar map/gradient equivalence extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent matrix ODE solution/proximal normal equations and stable expm1 limit versus sigmoid map/gradient."
+      ]
+    },
+    {
+      "id": "IDENTIFIABILITY_PROJECTION_BOUNDARY",
+      "source_path": "source_snapshots/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md",
+      "source_sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Exact protected new fit norm diverges as1/||Pi k||; same protected address is infeasible; robust near-alias needs range/noise contract.",
+      "feasible_cpu_diagnostic": "Independent KKT/pseudoinverse fit versus formula, zero residual/address endpoints and noisy query/read bound.",
+      "empirical_or_model_requirement": "Specify protected valid labels/range/precision and native future readout; compare direct hard projection.",
+      "native_measurement_gap_and_reopen_evidence": "Native data does not label protected validity; real dimension is not bit capacity.",
+      "reuse_or_distinct_obligation": "R13 protected/erasure geometry only partially reused; projection feasibility and alias robustness extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent KKT/pseudoinverse fit versus formula, zero residual/address endpoints and noisy query/read bound."
+      ]
+    },
+    {
+      "id": "LYAPUNOV_OBLIQUE_METRIC",
+      "source_path": "source_snapshots/rejected/LYAPUNOV_OBLIQUE_METRIC.md",
+      "source_sha256": "c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Nontrivial oblique update can be nonexpansive in SPD metric iff0<c<=2, at conditioning cost; fixed metric is whitened normalized Delta.",
+      "feasible_cpu_diagnostic": "Analytic SPD construction/slack and angle conditioning versus dense eigenvalues; coordinate-conjugacy; w0/r0 identity endpoint qualification.",
+      "empirical_or_model_requirement": "Causal cross-time metric law with uniform coercivity and paid transform/solve, actual task advantage.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not identify metric law; stated iff needs nonzero erase/write assumption.",
+      "reuse_or_distinct_obligation": "R20/R09 whitening reuse; oblique metric existence/conditioning and degeneracy check extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Analytic SPD construction/slack and angle conditioning versus dense eigenvalues; coordinate-conjugacy; w0/r0 identity endpoint qualification."
+      ]
+    },
+    {
+      "id": "MARTINGALE_RELEASE_CONTROL",
+      "source_path": "source_snapshots/rejected/MARTINGALE_RELEASE_CONTROL.md",
+      "source_sha256": "ed6a3154b78a695b20ae0abc077e4d775f3f3a7ab211584c166aa7d14fe833ac",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Predictable likelihood-ratio process obeys anytime false release bound; same observable null/alternative cannot detect semantics.",
+      "feasible_cpu_diagnostic": "Exact finite tree martingale/threshold hit probability versus Ville; adaptive post-outcome betting failure and restart/multiplicity accounting.",
+      "empirical_or_model_requirement": "Genuine pre-outcome calibrated null/alternative, item identity, delayed external feedback and global wealth/cost.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks valid null/innovation law; current residual computed after input is not legal innovation.",
+      "reuse_or_distinct_obligation": "R14 no-information reuse; filtration/anytime/restart statistical diagnostics distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Exact finite tree martingale/threshold hit probability versus Ville; adaptive post-outcome betting failure and restart/multiplicity accounting."
+      ]
+    },
+    {
+      "id": "NOGO_CAP_02",
+      "source_path": "source_snapshots/rejected/NOGO_CAP_02.md",
+      "source_sha256": "eb427d7dda60e53bea165002bbba0007b511c49d3412b2185f5fbc34d73cf7fc",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Exact overwrite forces singular old-state map and conflicts with same protected query; finite-state coexistence costs entropy.",
+      "feasible_cpu_diagnostic": "General affine coefficient necessity and unit Delta erased kernel; explicit conflicting/orthogonal query success; finite alphabet collision/Fano cases.",
+      "empirical_or_model_requirement": "Actual finite range/precision/noise and semantic distinguishability assumptions before capacity claim.",
+      "native_measurement_gap_and_reopen_evidence": "Native task does not expose erased quotient or joint recoverable classes.",
+      "reuse_or_distinct_obligation": "R06/R13/R18 overwrite geometry reusable; finite-bit coexistence/Fano extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "General affine coefficient necessity and unit Delta erased kernel; explicit conflicting/orthogonal query success; finite alphabet collision/Fano cases."
+      ]
+    },
+    {
+      "id": "NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT",
+      "source_path": "source_snapshots/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md",
+      "source_sha256": "6d04b433d0353b9a52e63648d7df1245295de0f25568bdd7c95217c31f06e691",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Causal polynomial predictor cannot remove conditional suffix variance; commuting random factors still need joint expectation; one-matrix polynomial cannot reproduce arbitrary ordered product.",
+      "feasible_cpu_diagnostic": "Finite random suffix conditional projection/second moment; common Bernoulli expected-product mismatch; commutator lower bound and minimax rotation witness.",
+      "empirical_or_model_requirement": "Prefix-identifiable future regime and costed lawful noncommutative predictor/solver.",
+      "native_measurement_gap_and_reopen_evidence": "No native conditional product/Gram labels; actual suffix propagation is oracle diagnostic.",
+      "reuse_or_distinct_obligation": "R01/R09/R20 future/solver boundaries reusable; expectation and commutator diagnostics extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Finite random suffix conditional projection/second moment; common Bernoulli expected-product mismatch; commutator lower bound and minimax rotation witness."
+      ]
+    },
+    {
+      "id": "NOGO_DUAL_FRAME_04",
+      "source_path": "source_snapshots/rejected/NOGO_DUAL_FRAME_04.md",
+      "source_sha256": "44fa10b7a384dd020749d987a5e0f2cb49efbc25049b0bb9b7619a5322c5f926",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Frame coding is conjugate Delta; parity misses endogenous legal-code changes; redundancy buys exogenous noise reduction at paid bits/energy.",
+      "feasible_cpu_diagnostic": "Direct frame-decoded recurrence and parity null; isotropic noise covariance/tight-frame bound; row-erasure rank and fixed-bit rounding comparison.",
+      "empirical_or_model_requirement": "Actual exogenous fault/noise model, encoded decay implementation and equal total bits/energy.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA does not supply independent code corruption; semantic forgetting stays inside code space.",
+      "reuse_or_distinct_obligation": "R12 direct-coordinate equivalence conceptual reuse; frame/noise/erasure/decay details distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct frame-decoded recurrence and parity null; isotropic noise covariance/tight-frame bound; row-erasure rank and fixed-bit rounding comparison."
+      ]
+    },
+    {
+      "id": "NOGO_MR_01",
+      "source_path": "source_snapshots/rejected/NOGO_MR_01.md",
+      "source_sha256": "12e7bebba8e234c968ee6911580cbff07663c7ded188e70f385c486a9e63b06d",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Prescribed current-key residual factor alpha puts max possible sigma_min at alpha; ordinary Delta attains it.",
+      "feasible_cpu_diagnostic": "Random general matrices with prescribed first row versus singular bound, aligned equality/shear failure, decay order and beta endpoints.",
+      "empirical_or_model_requirement": "Changed target/query/action/state/cost needed for improvement; does not prove task optimality.",
+      "native_measurement_gap_and_reopen_evidence": "Native scores lack operator constraint/minimax retained norm.",
+      "reuse_or_distinct_obligation": "R06 exact singular/plasticity checks reuse partly; general affine maximin/equality conditions extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Random general matrices with prescribed first row versus singular bound, aligned equality/shear failure, decay order and beta endpoints."
+      ]
+    },
+    {
+      "id": "NOGO_OBLIQUE_03",
+      "source_path": "source_snapshots/rejected/NOGO_OBLIQUE_03.md",
+      "source_sha256": "53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Bare genuine oblique erase has norm>1; paid decay can suppress expansion, so bare factor is not full update.",
+      "feasible_cpu_diagnostic": "Independent 2x2 SVD closed form versus ambient SVD; s0,c0/2 endpoints; AD/DA sufficiently scaled counterexample.",
+      "empirical_or_model_requirement": "Full coupled path metric/decay and total cost, not bare-factor inference.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints cannot identify Euclidean factor expansion or its semantics.",
+      "reuse_or_distinct_obligation": "R06/R09 singular factors reusable partly; oblique SVD and full ordered-decay boundary extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent 2x2 SVD closed form versus ambient SVD; s0,c0/2 endpoints; AD/DA sufficiently scaled counterexample."
+      ]
+    },
+    {
+      "id": "NOGO_OC_01",
+      "source_path": "source_snapshots/rejected/NOGO_OC_01.md",
+      "source_sha256": "dfaaa080b0c10b92dab803ace0379f88b4a3ca3daac2501ed5a5d2ed4e0ddcab",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Chronological affine composition needs associativity, not commutativity; transition-only order metric misses same-address write-source gap.",
+      "feasible_cpu_diagnostic": "Independent sequential swaps including diagonal-decay commutator expansion and permutation inversion bound.",
+      "empirical_or_model_requirement": "Frozen external maps for reordering; actual hardware floating/tree/condition accounting.",
+      "native_measurement_gap_and_reopen_evidence": "Native task labels do not justify semantic reorder selector.",
+      "reuse_or_distinct_obligation": "Affine-Magnus/R11/R16 reuse; diagonal decay/permutation bound extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent sequential swaps including diagonal-decay commutator expansion and permutation inversion bound."
+      ]
+    },
+    {
+      "id": "NOGO_RC_01",
+      "source_path": "source_snapshots/rejected/NOGO_RC_01.md",
+      "source_sha256": "83d633b6991339605160efb7a88ad8247cea5e111d6edf52d5a00b04de99c87c",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Observed-only shared decision error sum>=1-TV; collision/revision indistinguishable streams remain ambiguous and randomization adds no evidence.",
+      "feasible_cpu_diagnostic": "Exact finite distributions Bayes error unequal priors and TV/data processing; squared-loss compromise and zero-residual endpoints.",
+      "empirical_or_model_requirement": "Stable provenance/ID or actual likelihood-separating observed channel.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks controlled same-information opposite-world labels.",
+      "reuse_or_distinct_obligation": "R14/active-evidence principles reusable; binary classification/unequal priors and squared compromise extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Exact finite distributions Bayes error unequal priors and TV/data processing; squared-loss compromise and zero-residual endpoints."
+      ]
+    },
+    {
+      "id": "NOGO_UNITARY_DILATION",
+      "source_path": "source_snapshots/rejected/NOGO_UNITARY_DILATION.md",
+      "source_sha256": "32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02",
+      "group": "rejected_or_control",
+      "consequential_prediction": "One-step orthogonal completion is valid, reused auxiliary restores erased content; finite reusable orthogonal state cannot reproduce strict contraction all horizons.",
+      "feasible_cpu_diagnostic": "Direct block orthogonality/involution and two-step visible counterexample; fresh-ancilla finite-horizon construction/counting.",
+      "empirical_or_model_requirement": "Actual finite horizon/readout and paid auxiliary/event state; infinite-horizon mathematical no-go not settled by finite sample.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not identify ancillary recycling; growing reversible state not fixed-bit memory.",
+      "reuse_or_distinct_obligation": "R13/R19 loss accounting conceptual reuse; orthogonal completion/reuse dynamics distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct block orthogonality/involution and two-step visible counterexample; fresh-ancilla finite-horizon construction/counting."
+      ]
+    },
+    {
+      "id": "NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL",
+      "source_path": "source_snapshots/rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md",
+      "source_sha256": "d39cafd719b4e71d2190c1f46e0902662572bb1c963ad9ac71645990fdc09842",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Debiasing structural B can worsen noisy-query prediction; BC/IV mean stability differs from sample/mean-square stability; one stream cannot identify latent noise.",
+      "feasible_cpu_diagnostic": "Exact second/fourth moments and observed- versus clean-query population risk; iid synthetic BC/IV mean/variance checks and equivalent observable Gaussian worlds.",
+      "empirical_or_model_requirement": "Genuine independent paired measurements/noise covariance and actual deployment query law, real stable step/normalization.",
+      "native_measurement_gap_and_reopen_evidence": "Native language keys lack known measurement-noise/second-view contract; native denoising control measures different PSNR target.",
+      "reuse_or_distinct_obligation": "Distinct errors-in-variables/IV/statistical recurrence object, not covered by R02 quotient covariance.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Exact second/fourth moments and observed- versus clean-query population risk; iid synthetic BC/IV mean/variance checks and equivalent observable Gaussian worlds."
+      ]
+    },
+    {
+      "id": "ORTHOGONAL_VALUE_ROTATION_CONTROL",
+      "source_path": "source_snapshots/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md",
+      "source_sha256": "b0d6cdac5ba08ac3c15c7b700442c1770a5b1b23370000269b6062fae08f6cb7",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Global isometry edit needs matching Gram/norm; key-local target-adaptive rotation equals singular full-step Delta.",
+      "feasible_cpu_diagnostic": "Householder/protected Gram feasibility and impossible norm cases; local equality to Delta and finite-difference adaptive Jacobian.",
+      "empirical_or_model_requirement": "Actual paid rotation/readout interface and suitable task; pointwise Q existence not reversible adaptive map.",
+      "native_measurement_gap_and_reopen_evidence": "Native scores do not expose equal-norm protected anchors.",
+      "reuse_or_distinct_obligation": "R13 overwrite and R16 matrix mechanics partly reuse; value-side feasibility/adaptive rotation distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Householder/protected Gram feasibility and impossible norm cases; local equality to Delta and finite-difference adaptive Jacobian."
+      ]
+    },
+    {
+      "id": "PROVENANCE_TENSOR_DELTA",
+      "source_path": "source_snapshots/rejected/PROVENANCE_TENSOR_DELTA.md",
+      "source_sha256": "8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Tensor interference factorizes semantic/tag overlap; onehot tags exactly routed slots; tagger already makes identity decision.",
+      "feasible_cpu_diagnostic": "Direct Kronecker update versus slice router, Hadamard Gram and two-write crosstalk with identical/orthogonal tags.",
+      "empirical_or_model_requirement": "Legal observed provenance/entity codes supplied equally to all controls; learned tag supervision and full state/index costs.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks stable code truth/latest-version pointer; random tags do not create IDs.",
+      "reuse_or_distinct_obligation": "R14 evidence accounting reuse; lifted/routed-slot identity and crosstalk extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct Kronecker update versus slice router, Hadamard Gram and two-write crosstalk with identical/orthogonal tags."
+      ]
+    },
+    {
+      "id": "PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL",
+      "source_path": "source_snapshots/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md",
+      "source_sha256": "06843104c9130ae24fd4cd0f952455fbe3b9b0430dc4fc8013f5ebdc0c561e2d",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Legal standard Delta is nonexpansive with Kreiss constant1; local spectral data cannot distinguish canceling versus reinforcing ordered shears.",
+      "feasible_cpu_diagnostic": "Direct operator products and analytic shear pair; fixed-matrix resolvent diagnostic explicitly not global sampled certificate.",
+      "empirical_or_model_requirement": "Actual oblique/full joint path and task role of transient growth; cost versus direct product-JVP norm.",
+      "native_measurement_gap_and_reopen_evidence": "Native scores cannot identify pseudospectral mechanism; grid resolvent is not certificate.",
+      "reuse_or_distinct_obligation": "R10 ordered products/R06 nonexpansion reusable; Kreiss vacuity and shear pair distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct operator products and analytic shear pair; fixed-matrix resolvent diagnostic explicitly not global sampled certificate."
+      ]
+    },
+    {
+      "id": "RANDOMIZED_DELTA_SURVIVAL",
+      "source_path": "source_snapshots/rejected/RANDOMIZED_DELTA_SURVIVAL.md",
+      "source_sha256": "bc362fbd5d7953076377038f1a3110e1d415d4eb6334a3be157484ea7ec97c34",
+      "group": "rejected_or_control",
+      "consequential_prediction": "One-step compensated mask is unbiased but variance can explode over repeated keys; uncompensated mask equals smaller deterministic mean gate and worsens quadratic target risk.",
+      "feasible_cpu_diagnostic": "Exact finite Bernoulli distribution moments/products versus closed forms; p/beta endpoints; fixed-point erase/write coupling and finite-grid absorption.",
+      "empirical_or_model_requirement": "Full endogenous/random state law and resume-safe RNG, finite precision clipping/overflow; actual task and matching deterministic gate.",
+      "native_measurement_gap_and_reopen_evidence": "Native recall does not measure reliability/variance path law.",
+      "reuse_or_distinct_obligation": "R06/R14 randomization principles reusable; mask/product/absorption statistics distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Exact finite Bernoulli distribution moments/products versus closed forms; p/beta endpoints; fixed-point erase/write coupling and finite-grid absorption."
+      ]
+    },
+    {
+      "id": "RANK_REVEALING_CONSTRAINT_DELTA",
+      "source_path": "source_snapshots/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+      "source_sha256": "9b4cc3385c85120d1f7af7d946ac9ed03692c8b32eed736706c25f08ffeaa83d",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Rank/QR protected fit equals known projection; dependent contradictory facts are infeasible, not semantic revision detection.",
+      "feasible_cpu_diagnostic": "Independent QR/RLS augmentation, protected fit and redundant/inconsistent/near-alias cases; decay restoration.",
+      "empirical_or_model_requirement": "Actual valid constraint identity/release and finite rank tolerance/precision.",
+      "native_measurement_gap_and_reopen_evidence": "Native data does not label which contradictory fact to delete.",
+      "reuse_or_distinct_obligation": "Identifiability projection/R12/R13 reuse; recursive constraint/decay restoration extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent QR/RLS augmentation, protected fit and redundant/inconsistent/near-alias cases; decay restoration."
+      ]
+    },
+    {
+      "id": "RECIPROCAL_CYCLE_DELTA",
+      "source_path": "source_snapshots/rejected/RECIPROCAL_CYCLE_DELTA.md",
+      "source_sha256": "9d2de803f383c539eed8e4a04accc5367e1b9654d680899d90103c24bc367a35",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Full forward/reverse interpolation makes current-pair cycles tautological; tied exact bidirectional recall needs equal key/value Grams.",
+      "feasible_cpu_diagnostic": "Independent cycle-loss finite differences and forward/reverse updates; postwrite interpolation tautology, noninjective keys and Gram mismatch.",
+      "empirical_or_model_requirement": "Actual extra2x state/readout objective versus direct slots/DeltaProduct; provenance still needed.",
+      "native_measurement_gap_and_reopen_evidence": "Native score lacks cycle-to-validity law; zero cycle error does not establish true revision.",
+      "reuse_or_distinct_obligation": "R14 same-information reuse; cycle gradient/tautology/bijection details distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Independent cycle-loss finite differences and forward/reverse updates; postwrite interpolation tautology, noninjective keys and Gram mismatch."
+      ]
+    },
+    {
+      "id": "RETROACTIVE_ROLLBACK_DELTA",
+      "source_path": "source_snapshots/rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+      "source_sha256": "71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Frozen source/value/transaction deletion are three interventions; endogenous later maps add forcing, so receipt transport alone is not full omission.",
+      "feasible_cpu_diagnostic": "Three direct frozen replays versus receipts; state-dependent path forcing witness; ordered inverse/near-overwrite and finite-bit receipt lower examples.",
+      "empirical_or_model_requirement": "Checkpoint/RNG/input identity replay or valid fixed-map tree, growing receipt state and actual nonlinear omission protocol.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoints do not expose eventID deletion/potential histories.",
+      "reuse_or_distinct_obligation": "R11/shadow/R10 propagation reusable; full transaction/intervention distinction and rollback bits extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Three direct frozen replays versus receipts; state-dependent path forcing witness; ordered inverse/near-overwrite and finite-bit receipt lower examples."
+      ]
+    },
+    {
+      "id": "REVISION_EVIDENCE_POSTERIOR_EDIT",
+      "source_path": "source_snapshots/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+      "source_sha256": "455ca60d940f17da9de6ff6f0f122a2d3bbc45848e130e0477627d3fe144d3d4",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Added legal evidence changes ordinary Bayes gate; squared posterior edit is rank2 ridge/protected geometry and source-identical evidence adds no capability.",
+      "feasible_cpu_diagnostic": "Discrete posterior/unequal-prior Bayes risk and direct dense quadratic optimizer versus two-vector solve; endpoint ridge and nearparallel protected fit.",
+      "empirical_or_model_requirement": "Actual calibrated observed evidence/ID plus downstream signed task and equal access to direct router.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks identity/evidence law, and timestamp useful only under explicit generating assumption.",
+      "reuse_or_distinct_obligation": "R14/active-evidence/ R04/R09 reusable; exact rank2 edit and hard protection limit extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Discrete posterior/unequal-prior Bayes risk and direct dense quadratic optimizer versus two-vector solve; endpoint ridge and nearparallel protected fit."
+      ]
+    },
+    {
+      "id": "SET_VALUED_DELTA_ENVELOPE",
+      "source_path": "source_snapshots/rejected/SET_VALUED_DELTA_ENVELOPE.md",
+      "source_sha256": "671c995177df422340156da4481e68802e40205b70c0a77859c0026937f4d662",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Feasible-set recursion does not create semantic identity; exact full projection makes repeated measurement intersection redundant; convex envelope loses unresolved branch alternatives.",
+      "feasible_cpu_diagnostic": "Lowdim set/ellipsoid outer containment/support versus explicit sample geometry; redundant full-step intersection and incompatible branch convex hull.",
+      "empirical_or_model_requirement": "Actual noise/support model and costed LP/SOCP/ellipsoid/union implementation with valid coverage.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks feasible parameter/noise truth; same-address two targets require branch/routing, not single point read.",
+      "reuse_or_distinct_obligation": "R14 ambiguity reused; set-membership/S-procedure/branch hull diagnostics distinct.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Lowdim set/ellipsoid outer containment/support versus explicit sample geometry; redundant full-step intersection and incompatible branch convex hull."
+      ]
+    },
+    {
+      "id": "SYMMETRIC_SPLIT_DELTA_CONTROL",
+      "source_path": "source_snapshots/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+      "source_sha256": "eb1fa251d6c5951c17607f7ed8fc609913e80f6da43b7200d3717ad27a8124f4",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Half decay-Delta-half decay equals transformed/oblique write; same-key final read attenuates target; Strang order needs declared ODE.",
+      "feasible_cpu_diagnostic": "Direct three steps versus collapsed map, similarity/eigenvalues, scalar target attenuation; frozen affine generator local order with source bracket.",
+      "empirical_or_model_requirement": "Actual simultaneous ODE if integration claim; paid split/basis interface and matched ordinary preconditioned map.",
+      "native_measurement_gap_and_reopen_evidence": "Native token recurrence is not automatically continuous time; no identity/capacity evidence.",
+      "reuse_or_distinct_obligation": "R16 flow and R09 preconditioner reusable partly; split map/read address/order distinction extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct three steps versus collapsed map, similarity/eigenvalues, scalar target attenuation; frozen affine generator local order with source bracket."
+      ]
+    },
+    {
+      "id": "TIME_VARYING_METRIC_LAUNDERING",
+      "source_path": "source_snapshots/rejected/TIME_VARYING_METRIC_LAUNDERING.md",
+      "source_sha256": "0789930f6f7da6746fef40babd7f753d28e6c6e2e977ff3462bcde70212e9803",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Inverse pullback metric makes any invertible path look isometric; bounded metric envelope plus cross-time inequality needed for physical norm bounds.",
+      "feasible_cpu_diagnostic": "Direct scalar contracting/expanding paths with constant moving energy; dense cross-time slack/volume; singular map impossibility and upper/lower envelopes.",
+      "empirical_or_model_requirement": "Causal uniformly coercive metric law with actual bits/conditioning/transport and task.",
+      "native_measurement_gap_and_reopen_evidence": "Native endpoint score cannot identify metric stability; constant moving energy is coordinate identity.",
+      "reuse_or_distinct_obligation": "D06/R06/R20 conditions reuse conceptually; time-varying metric/physical energy diagnostic extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct scalar contracting/expanding paths with constant moving energy; dense cross-time slack/volume; singular map impossibility and upper/lower envelopes."
+      ]
+    },
+    {
+      "id": "TRANSPORTED_INFLUENCE_LEDGER",
+      "source_path": "source_snapshots/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
+      "source_sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0",
+      "group": "rejected_or_control",
+      "consequential_prediction": "Fixed affine per-event value amendment equals replay but requires identity/old value; current residual cannot identify which source to amend.",
+      "feasible_cpu_diagnostic": "Direct event value-change replay versus trace; current-key orthogonal but transported access; source-map nullspace rank and full feature-feedback counterexample.",
+      "empirical_or_model_requirement": "Actual stable event source index and costed retained traces or replay; full nonlinear future maps.",
+      "native_measurement_gap_and_reopen_evidence": "Native QA lacks per-event amendment/source identity interface.",
+      "reuse_or_distinct_obligation": "R11/D01/shadow closure reusable; source selection/nullspace and receipt state obligation extra.",
+      "implemented_script_coverage": [],
+      "execution_status": "not_executed_by_coverage_reviewer",
+      "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
+      "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
+      "remaining_diagnostic_claims": [
+        "Direct event value-change replay versus trace; current-key orthogonal but transported access; source-map nullspace rank and full feature-feedback counterexample."
+      ]
+    }
+  ],
+  "full_source_obligation_status": "All70 inventoried; all20 latest repair lines have representative direct checks; no row is declared scientifically complete. Parent legacy/root suites may reuse additional claims but require explicit execution mapping.",
+  "deferred_engineered_lm_programme": {
+    "arms": 13,
+    "seeds": 2,
+    "tier_target_pretraining_tokens_per_model_run": [
+      100000000,
+      1000000000
+    ],
+    "parameter_count_claimed": false,
+    "aggregate_pretraining_tokens_per_tier": [
+      2600000000,
+      26000000000
+    ],
+    "aggregate_adaptation_tokens_per_tier": 26000000,
+    "status": "model/framework/data/native scorer and GPU pending; not executed by CPU fixtures; no paid/GPU dispatch"
+  }
+}

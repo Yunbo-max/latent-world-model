@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "python",
+    "scripts/check_algebra.py",
+    "--output",
+    "results/algebra-seed-0-v1.json",
+    "--seed",
+    "0"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.39074392700058524,
+  "peak_observed_rss_bytes": 65970176,
+  "kernel_child_maxrss_bytes": 65970176,
+  "proc_rss_samples": 0,
+  "data_allocation_limit_mib": 256,
+  "sampled_rss_limit_exceeded": false,
+  "cpu_user_seconds": 0.308401,
+  "cpu_system_seconds": 0.063114,
+  "threads": 1,
+  "sampling_seconds": 0.02,
+  "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+}

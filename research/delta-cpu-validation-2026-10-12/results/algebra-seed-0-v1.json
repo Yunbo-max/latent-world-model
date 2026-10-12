@@ -1,0 +1,1012 @@
+{
+  "suite": "delta_pinned_algebra_fp64_v1",
+  "seed": 0,
+  "checks": [
+    {
+      "id": "A01",
+      "lineage": "R01",
+      "scope": "affine_credit_identity_and_minimal_right_quotient",
+      "status": "passed",
+      "metrics": {
+        "adjoint_step_0_absolute_error": 3.6163888104854785e-16,
+        "adjoint_step_0_relative_error": 1.0769599147785055e-16,
+        "adjoint_step_0_allowed_error": 8.715920919357985e-10,
+        "adjoint_step_1_absolute_error": 2.833924464077117e-16,
+        "adjoint_step_1_relative_error": 1.165813587924146e-16,
+        "adjoint_step_1_allowed_error": 6.861711157652946e-10,
+        "adjoint_step_2_absolute_error": 5.026748538604307e-16,
+        "adjoint_step_2_relative_error": 1.8737108676805514e-16,
+        "adjoint_step_2_allowed_error": 7.365554126103641e-10,
+        "credit_0_absolute_error": 2.220446049250313e-16,
+        "credit_0_relative_error": 1.3504039020292875e-16,
+        "credit_0_allowed_error": 5.288565807479659e-10,
+        "credit_1_absolute_error": 0.0,
+        "credit_1_relative_error": 0.0,
+        "credit_1_allowed_error": 1.075792002615649e-09,
+        "quotient_credit_0_absolute_error": 1.1102230246251565e-15,
+        "quotient_credit_0_relative_error": 6.752019510146439e-16,
+        "quotient_credit_0_allowed_error": 5.288565807479659e-10,
+        "quotient_credit_1_absolute_error": 2.6645352591003757e-15,
+        "quotient_credit_1_relative_error": 6.084858622007163e-16,
+        "quotient_credit_1_allowed_error": 1.075792002615649e-09,
+        "too_small_quotient_absolute_error": 1.4759914944804922e-15,
+        "too_small_quotient_relative_error": 1.0,
+        "too_small_quotient_allowed_error": 2.000000000000003e-10,
+        "minimum_right_width": 4,
+        "smaller_width_credit_gap": 0.38954895935163325
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "3-4,7"
+        }
+      ],
+      "interpretation": "Adjoint transport and quotient credits match direct affine rollouts; removing a required right direction loses an ambient credit."
+    },
+    {
+      "id": "A02",
+      "lineage": "R01",
+      "scope": "boundary_reproduction_zero_coupling_and_prefix_hidden_credit",
+      "status": "passed",
+      "metrics": {
+        "raw_envelope_width": 2,
+        "transported_width": 1,
+        "same_prefix_quotient_absolute_error": 0.0,
+        "same_prefix_quotient_relative_error": 0.0,
+        "same_prefix_quotient_allowed_error": 2e-10,
+        "identity_suffix_credit_gap": 1.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: zero coupling reduces the local envelope, but an arbitrary hidden terminal covector defeats a prefix-chosen proper quotient."
+    },
+    {
+      "id": "A03",
+      "lineage": "R04",
+      "scope": "frozen_fast_slow_interfaces_and_joint_risk",
+      "status": "passed",
+      "metrics": {
+        "interface_rollout_0_absolute_error": 8.286096941105925e-16,
+        "interface_rollout_0_relative_error": 4.024829011181361e-16,
+        "interface_rollout_0_allowed_error": 6.117490168196638e-10,
+        "interface_rollout_1_absolute_error": 8.300030970468208e-16,
+        "interface_rollout_1_relative_error": 5.557963287453359e-16,
+        "interface_rollout_1_allowed_error": 4.986716731002826e-10,
+        "interface_rollout_2_absolute_error": 3.885780586188048e-16,
+        "interface_rollout_2_relative_error": 3.083311175448692e-16,
+        "interface_rollout_2_allowed_error": 4.520524439524064e-10,
+        "interface_rollout_3_absolute_error": 5.33167196845001e-16,
+        "interface_rollout_3_relative_error": 3.4903907460774495e-16,
+        "interface_rollout_3_allowed_error": 5.055057359661991e-10,
+        "no_decay_no_effect_absolute_error": 3.2009291313835888e-16,
+        "no_decay_no_effect_relative_error": 1.5207864258524194e-16,
+        "no_decay_no_effect_allowed_error": 6.209570886443741e-10,
+        "joint_risk_minimizer_absolute_error": 4.710277376051325e-16,
+        "joint_risk_minimizer_relative_error": 8.667577912204853e-16,
+        "joint_risk_minimizer_allowed_error": 3.0868728089351846e-10,
+        "direct_optimal_risk_change_absolute_error": 2.7755575615628914e-16,
+        "direct_optimal_risk_change_relative_error": 7.418920466296547e-16,
+        "direct_optimal_risk_change_allowed_error": 2.748237583667863e-10,
+        "protected_action_kkt_absolute_error": 6.206335383118183e-17,
+        "protected_action_kkt_relative_error": 1.8792396833294894e-16,
+        "protected_action_kkt_allowed_error": 2.6605155732048277e-10,
+        "protected_output_absolute_error": 1.4614194175996406e-17,
+        "protected_output_relative_error": 1.0,
+        "protected_output_allowed_error": 2e-10,
+        "optimal_risk_change": -0.37411879183393115,
+        "representability_immediate_error": 3.5334459979056834
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "2-3"
+        }
+      ],
+      "interpretation": "Full fast/slow rollouts confirm the ordered migration interface; joint and protected quadratic actions match independent least-squares/KKT references."
+    },
+    {
+      "id": "A04",
+      "lineage": "R04",
+      "scope": "boundary_reproduction_survival_threshold_and_correlated_law",
+      "status": "passed",
+      "metrics": {
+        "threshold_action_p_0.2_absolute_error": 0.0,
+        "threshold_action_p_0.2_relative_error": 0.0,
+        "threshold_action_p_0.2_allowed_error": 2e-07,
+        "action_p_0.2": 0.0,
+        "threshold_action_p_0.65_absolute_error": 0.0,
+        "threshold_action_p_0.65_relative_error": 0.0,
+        "threshold_action_p_0.65_allowed_error": 2e-07,
+        "action_p_0.65": 0.0,
+        "threshold_action_p_0.9_absolute_error": 8.845902121912275e-09,
+        "threshold_action_p_0.9_relative_error": 1.4832955379563666e-08,
+        "threshold_action_p_0.9_allowed_error": 3.1927362950339423e-07,
+        "action_p_0.9": 0.596368138671069,
+        "joint_migration_numerator": -0.030000000000000006,
+        "factorized_migration_numerator": 0.00839999999999996,
+        "naive_action_excess_risk_over_zero": 0.0025103305785123798
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "4-5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: migration switches at p=s; independent mean validity/survival can prescribe a harmful positive migration under a correlated law."
+    },
+    {
+      "id": "A05",
+      "lineage": "R06",
+      "scope": "finite_horizon_survival_plasticity_and_sharp_allocation",
+      "status": "passed",
+      "metrics": {
+        "sigma_min_0_absolute_error": 1.6653345369377348e-16,
+        "sigma_min_0_relative_error": 3.721417959637395e-16,
+        "sigma_min_0_allowed_error": 2.8950000000000003e-10,
+        "sigma_max_0_absolute_error": 0.0,
+        "sigma_max_0_relative_error": 0.0,
+        "sigma_max_0_allowed_error": 4e-10,
+        "current_key_residual_0_absolute_error": 4.47545209131181e-16,
+        "current_key_residual_0_relative_error": 2.6324264644009667e-16,
+        "current_key_residual_0_allowed_error": 5.400248517354304e-10,
+        "sigma_min_1_absolute_error": 0.0,
+        "sigma_min_1_relative_error": 0.0,
+        "sigma_min_1_allowed_error": 3.0012500000000004e-10,
+        "sigma_max_1_absolute_error": 0.0,
+        "sigma_max_1_relative_error": 0.0,
+        "sigma_max_1_allowed_error": 4e-10,
+        "current_key_residual_1_absolute_error": 6.377745716588144e-16,
+        "current_key_residual_1_relative_error": 4.236542181435021e-16,
+        "current_key_residual_1_allowed_error": 5.010826019642201e-10,
+        "sigma_min_2_absolute_error": 2.220446049250313e-16,
+        "sigma_min_2_relative_error": 4.0098348519193e-16,
+        "sigma_min_2_allowed_error": 3.1075000000000004e-10,
+        "sigma_max_2_absolute_error": 2.220446049250313e-16,
+        "sigma_max_2_relative_error": 2.2204460492503126e-16,
+        "sigma_max_2_allowed_error": 4.0000000000000007e-10,
+        "current_key_residual_2_absolute_error": 2.7194799110210365e-16,
+        "current_key_residual_2_relative_error": 1.787289395699142e-16,
+        "current_key_residual_2_allowed_error": 5.043133269368775e-10,
+        "sigma_min_3_absolute_error": 1.1102230246251565e-16,
+        "sigma_min_3_relative_error": 1.8294097213184864e-16,
+        "sigma_min_3_allowed_error": 3.2137500000000004e-10,
+        "sigma_max_3_absolute_error": 0.0,
+        "sigma_max_3_relative_error": 0.0,
+        "sigma_max_3_allowed_error": 4e-10,
+        "current_key_residual_3_absolute_error": 2.3055512673781017e-16,
+        "current_key_residual_3_relative_error": 2.305520746745568e-16,
+        "current_key_residual_3_allowed_error": 4.000026476129158e-10,
+        "sigma_min_4_absolute_error": 1.1102230246251565e-16,
+        "sigma_min_4_relative_error": 1.6821560979169038e-16,
+        "sigma_min_4_allowed_error": 3.32e-10,
+        "sigma_max_4_absolute_error": 0.0,
+        "sigma_max_4_relative_error": 0.0,
+        "sigma_max_4_allowed_error": 4e-10,
+        "current_key_residual_4_absolute_error": 5.551115123125783e-17,
+        "current_key_residual_4_relative_error": 3.532176737315028e-17,
+        "current_key_residual_4_allowed_error": 5.143169516112857e-10,
+        "survival_ratio": 0.4888307531357043,
+        "certified_lower_ratio": 0.022116445312499993,
+        "aligned_lower_endpoint_absolute_error": 3.469446951953614e-18,
+        "aligned_lower_endpoint_relative_error": 1.5687181655691826e-16,
+        "aligned_lower_endpoint_allowed_error": 2.0442328906250002e-10,
+        "orthogonal_upper_endpoint_absolute_error": 0.0,
+        "orthogonal_upper_endpoint_relative_error": 0.0,
+        "orthogonal_upper_endpoint_allowed_error": 4e-10,
+        "sharp_allocation_factor_absolute_error": 0.0,
+        "sharp_allocation_factor_relative_error": 0.0,
+        "sharp_allocation_factor_allowed_error": 5.6e-10,
+        "allocation_factor": 1.7999999999999998,
+        "scalar_dimension_norm_absolute_error": 0.0,
+        "scalar_dimension_norm_relative_error": 0.0,
+        "scalar_dimension_norm_allowed_error": 2.8e-10,
+        "zero_key_factor_absolute_error": 0.0,
+        "zero_key_factor_relative_error": 0.0,
+        "zero_key_factor_allowed_error": 6e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Rank-one singular values, direct current-key residuals and ordered products satisfy the two-sided certificate; both survival and allocation endpoint bounds are attained."
+    },
+    {
+      "id": "A06",
+      "lineage": "R06",
+      "scope": "boundary_reproduction_overwrite_normalization_and_decay",
+      "status": "passed",
+      "metrics": {
+        "overwrite_annihilation_absolute_error": 0.0,
+        "overwrite_annihilation_relative_error": 0.0,
+        "overwrite_annihilation_allowed_error": 2e-10,
+        "actual_nonunit_margin": 0.19999999999999996,
+        "raw_beta_assumed_margin": 0.8,
+        "singular_decay_destroys_survival_absolute_error": 0.0,
+        "singular_decay_destroys_survival_relative_error": 0.0,
+        "singular_decay_destroys_survival_allowed_error": 2e-10,
+        "expansive_decay_survival_ratio": 1.4
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: overwrite, nonunit keys, singular decay and expansive decay invalidate the unqualified margin/envelope extension."
+    },
+    {
+      "id": "A07",
+      "lineage": "R07",
+      "scope": "frozen_joint_response_and_cross_hessian",
+      "status": "passed",
+      "metrics": {
+        "factor_memory_0_absolute_error": 1.6004645656917944e-16,
+        "factor_memory_0_relative_error": 3.2641628264085485e-17,
+        "factor_memory_0_allowed_error": 1.1806278980590764e-09,
+        "factor_read_0_absolute_error": 6.661338147750939e-16,
+        "factor_read_0_relative_error": 2.71789055501945e-16,
+        "factor_read_0_allowed_error": 6.901844289092994e-10,
+        "hadamard_gram_0_absolute_error": 2.210753812587799e-15,
+        "hadamard_gram_0_relative_error": 1.7745380300282868e-16,
+        "hadamard_gram_0_allowed_error": 2.6916386971459374e-09,
+        "factor_memory_1_absolute_error": 1.4642217093363529e-15,
+        "factor_memory_1_relative_error": 3.507493555381651e-16,
+        "factor_memory_1_allowed_error": 1.0349105628945514e-09,
+        "factor_read_1_absolute_error": 1.8444410139024814e-15,
+        "factor_read_1_relative_error": 3.046701208462896e-16,
+        "factor_read_1_allowed_error": 1.4107790608275815e-09,
+        "hadamard_gram_1_absolute_error": 7.177057330173924e-15,
+        "hadamard_gram_1_relative_error": 1.3384412754666558e-16,
+        "hadamard_gram_1_allowed_error": 1.0924500897764974e-08,
+        "factor_memory_2_absolute_error": 9.889323666256649e-16,
+        "factor_memory_2_relative_error": 2.6411416495194886e-16,
+        "factor_memory_2_allowed_error": 9.488673443967571e-10,
+        "factor_read_2_absolute_error": 1.3911054626160788e-15,
+        "factor_read_2_relative_error": 4.2279799117330335e-16,
+        "factor_read_2_allowed_error": 8.580473378104911e-10,
+        "hadamard_gram_2_absolute_error": 1.043329096962059e-15,
+        "hadamard_gram_2_relative_error": 1.586373938434802e-16,
+        "hadamard_gram_2_allowed_error": 1.5153633852450466e-09,
+        "factor_memory_3_absolute_error": 1.077943265528121e-15,
+        "factor_memory_3_relative_error": 3.5649953262806285e-16,
+        "factor_memory_3_allowed_error": 8.047375476661524e-10,
+        "factor_read_3_absolute_error": 9.42055475210265e-16,
+        "factor_read_3_relative_error": 3.2750226002345395e-16,
+        "factor_read_3_allowed_error": 7.752970835332863e-10,
+        "hadamard_gram_3_absolute_error": 1.778740484904797e-15,
+        "hadamard_gram_3_relative_error": 1.614026795391517e-16,
+        "hadamard_gram_3_allowed_error": 2.4041027943074825e-09,
+        "joint_qp_vs_direct_rollout_absolute_error": 1.4210854715202004e-14,
+        "joint_qp_vs_direct_rollout_relative_error": 2.3878082883196956e-16,
+        "joint_qp_vs_direct_rollout_allowed_error": 1.2102843946657213e-08,
+        "joint_hessian_minimum_eigenvalue": 1.6634843228347262,
+        "independent_gate_excess_loss": 0.39354584809130255,
+        "direct_joint_stationarity_absolute_error": 7.505561329662603e-17,
+        "direct_joint_stationarity_relative_error": 1.0,
+        "direct_joint_stationarity_allowed_error": 2.0000000000000003e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "2-3"
+        }
+      ],
+      "interpretation": "Frozen affine response and Hadamard cross-Hessian match direct state/loss rollouts; independent scalar gates are worse on an explicit coupled-write fixture."
+    },
+    {
+      "id": "A08",
+      "lineage": "R07",
+      "scope": "complete_feedback_jacobian_fd_and_frozen_sign_reversal",
+      "status": "passed",
+      "metrics": {
+        "central_difference_error_h_0.0001": 2.9144474578099087e-10,
+        "central_difference_error_h_1e-05": 3.902191911173462e-12,
+        "central_difference_error_h_1e-06": 5.4946844621376314e-11,
+        "actual_vs_frozen_memory_block_gap": 0.08861776262700743,
+        "true_action_derivative_absolute_error": 5.139781933394261e-10,
+        "true_action_derivative_relative_error": 1.0279563856221579e-09,
+        "true_action_derivative_allowed_error": 3.0000000010279564e-07,
+        "frozen_action_derivative_absolute_error": 7.072671337482461e-10,
+        "frozen_action_derivative_relative_error": 1.4145342674964922e-09,
+        "frozen_action_derivative_allowed_error": 3e-07,
+        "true_small_action_loss_change": -0.004651995000000131,
+        "frozen_small_action_loss_change": 0.0051000000000001044,
+        "true_polynomial_change_absolute_error": 1.3010426069826053e-16,
+        "true_polynomial_change_relative_error": 2.7967411980936537e-14,
+        "true_polynomial_change_allowed_error": 2.0093039900000003e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Complete smooth memory+updater Jacobian, including state-dependent key/value/gate/decay and updater feedback, matches finite differences. Passed boundary reproduction: the frozen gate reverses the action decision."
+    },
+    {
+      "id": "A09",
+      "lineage": "R09",
+      "scope": "transported_gramian_carrier_and_inverse_action",
+      "status": "passed",
+      "metrics": {
+        "transported_gramian_energy_absolute_error": 7.105427357601002e-15,
+        "transported_gramian_energy_relative_error": 3.83657130541956e-16,
+        "transported_gramian_energy_allowed_error": 3.904050722354014e-09,
+        "factor_gramian_range_absolute_error": 2.7485728660258165e-15,
+        "factor_gramian_range_relative_error": 1.3742864330129072e-15,
+        "factor_gramian_range_allowed_error": 6.000000000000003e-10,
+        "core_inverse_action_absolute_error": 4.565454722492696e-16,
+        "core_inverse_action_relative_error": 1.3821037386822347e-15,
+        "core_inverse_action_allowed_error": 2.66065297339339e-10,
+        "robust_projection_constraint_absolute_error": 2.220446049250313e-15,
+        "robust_projection_constraint_relative_error": 5.94028923231942e-16,
+        "robust_projection_constraint_allowed_error": 9.475885305952777e-10,
+        "robust_projection_damage_0_absolute_error": 1.0658141036401503e-14,
+        "robust_projection_damage_0_relative_error": 1.0378354167682912e-15,
+        "robust_projection_damage_0_allowed_error": 2.253917386937867e-09,
+        "robust_projection_damage_1_absolute_error": 4.618527782440651e-14,
+        "robust_projection_damage_1_relative_error": 1.5193623941181632e-15,
+        "robust_projection_damage_1_allowed_error": 6.279560479211731e-09,
+        "realized_carrier_width": 4,
+        "proper_robust_action_span_width": 3
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Transported factors reproduce direct protected-read energy; range, core inverse action and robust projection reduction agree with ambient references."
+    },
+    {
+      "id": "A10",
+      "lineage": "R09",
+      "scope": "boundary_reproduction_realized_rank_one_common_full_width",
+      "status": "passed",
+      "metrics": {
+        "rank_one_family_factor_matrix_absolute_error": 0.0,
+        "rank_one_family_factor_matrix_relative_error": 0.0,
+        "rank_one_family_factor_matrix_allowed_error": 9.110555533852472e-10,
+        "realized_gramian_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "common_carrier_width": 4,
+        "same_carrier_different_core_action_gap": 1.2256517540566825
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: every realized Gramian has rank one while the prefix-robust carrier is full; a known carrier alone leaves the action unidentified."
+    },
+    {
+      "id": "A11",
+      "lineage": "R10",
+      "scope": "invariant_core_leakage_and_error_transport",
+      "status": "passed",
+      "metrics": {
+        "ordered_core_0_absolute_error": 5.551115123125783e-17,
+        "ordered_core_0_relative_error": 6.140709191523863e-17,
+        "ordered_core_0_allowed_error": 3.8079719947618075e-10,
+        "leakage_norm_0_absolute_error": 1.3877787807814457e-17,
+        "leakage_norm_0_relative_error": 1.2591987386761125e-16,
+        "leakage_norm_0_allowed_error": 2.2204225176147363e-10,
+        "direct_error_recurrence_0_absolute_error": 1.732609348737715e-16,
+        "direct_error_recurrence_0_relative_error": 4.785974684192434e-16,
+        "direct_error_recurrence_0_allowed_error": 2.724036152744535e-10,
+        "ordered_core_1_absolute_error": 3.469446951953614e-18,
+        "ordered_core_1_relative_error": 3.815990435972608e-18,
+        "ordered_core_1_allowed_error": 3.8183729808375853e-10,
+        "leakage_norm_1_absolute_error": 0.0,
+        "leakage_norm_1_relative_error": 0.0,
+        "leakage_norm_1_allowed_error": 2.1856434345432936e-10,
+        "direct_error_recurrence_1_absolute_error": 1.270499915245787e-16,
+        "direct_error_recurrence_1_relative_error": 2.4459893987195596e-16,
+        "direct_error_recurrence_1_allowed_error": 3.0388433538680714e-10,
+        "ordered_core_2_absolute_error": 1.1103585416259206e-16,
+        "ordered_core_2_relative_error": 1.2096740535506247e-16,
+        "ordered_core_2_allowed_error": 3.8357978967421944e-10,
+        "leakage_norm_2_absolute_error": 1.3877787807814457e-17,
+        "leakage_norm_2_relative_error": 1.4000693865978194e-16,
+        "leakage_norm_2_allowed_error": 2.198244286185524e-10,
+        "direct_error_recurrence_2_absolute_error": 1.0153690823315392e-16,
+        "direct_error_recurrence_2_relative_error": 2.6305476870020235e-16,
+        "direct_error_recurrence_2_allowed_error": 2.771983026461484e-10,
+        "ordered_core_3_absolute_error": 1.962615573354719e-17,
+        "ordered_core_3_relative_error": 2.4979001798297614e-17,
+        "ordered_core_3_allowed_error": 3.57141233200798e-10,
+        "leakage_norm_3_absolute_error": 0.0,
+        "leakage_norm_3_relative_error": 0.0,
+        "leakage_norm_3_allowed_error": 2.2307993448490077e-10,
+        "direct_error_recurrence_3_absolute_error": 7.426966898638076e-17,
+        "direct_error_recurrence_3_relative_error": 2.072669516282337e-16,
+        "direct_error_recurrence_3_allowed_error": 2.7166571265022053e-10,
+        "variation_of_constants_absolute_error": 2.2551405187698492e-17,
+        "variation_of_constants_relative_error": 6.293499179381732e-17,
+        "variation_of_constants_allowed_error": 2.7166571265022053e-10,
+        "final_error_operator_norm": 0.3472399410548097,
+        "final_error_norm_bound": 1.0143266546404555,
+        "invariant_exact_carrier_absolute_error": 0.0,
+        "invariant_exact_carrier_relative_error": 0.0,
+        "invariant_exact_carrier_allowed_error": 7.701271089996808e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Ordered Delta carrier/leakage and error recurrences match full residual propagation; zero leakage plus carrier-valued injections yields exact compression."
+    },
+    {
+      "id": "A12",
+      "lineage": "R10",
+      "scope": "boundary_reproduction_noncommuting_hull_and_quantized_defect",
+      "status": "passed",
+      "metrics": {
+        "one_step_invariant_hull_width": 4,
+        "key_family_width": 4,
+        "noncommuting_factor_gap": 0.0758126611302133,
+        "prequantization_rank": 1,
+        "new_defect_rank": 2,
+        "quantization_defect_determinant_absolute_error": 0.0,
+        "quantization_defect_determinant_relative_error": 0.0,
+        "quantization_defect_determinant_allowed_error": 2.4e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: a noncommuting rank-one Delta family forces full carrier width, and rank-one data can inject rank-two elementwise quantization defects."
+    },
+    {
+      "id": "A13",
+      "lineage": "R11",
+      "scope": "lazy_overlay_adjacent_order_gap_and_corrected_prestate",
+      "status": "passed",
+      "metrics": {
+        "corrected_residual_0_absolute_error": 1.9860273225978185e-15,
+        "corrected_residual_0_relative_error": 3.728509554765204e-16,
+        "corrected_residual_0_allowed_error": 1.2653196905769415e-09,
+        "lazy_overlay_0_absolute_error": 9.686656125337893e-16,
+        "lazy_overlay_0_relative_error": 1.33088931786574e-16,
+        "lazy_overlay_0_allowed_error": 1.6556666726984854e-09,
+        "corrected_residual_1_absolute_error": 2.220446049250313e-16,
+        "corrected_residual_1_relative_error": 3.0539042988661563e-17,
+        "corrected_residual_1_allowed_error": 1.6541687177785585e-09,
+        "lazy_overlay_1_absolute_error": 5.683119316658234e-16,
+        "lazy_overlay_1_relative_error": 9.161532508596895e-17,
+        "lazy_overlay_1_allowed_error": 1.4406481800562017e-09,
+        "corrected_residual_2_absolute_error": 1.1102230246251565e-16,
+        "corrected_residual_2_relative_error": 3.8627941738306656e-17,
+        "corrected_residual_2_allowed_error": 7.748289837168144e-10,
+        "lazy_overlay_2_absolute_error": 6.256173854266648e-16,
+        "lazy_overlay_2_relative_error": 1.158477336570067e-16,
+        "lazy_overlay_2_allowed_error": 1.2800684064807792e-09,
+        "corrected_residual_3_absolute_error": 1.1102230246251565e-16,
+        "corrected_residual_3_relative_error": 4.7557912060871175e-17,
+        "corrected_residual_3_allowed_error": 6.668930895049136e-10,
+        "lazy_overlay_3_absolute_error": 6.38529066861312e-16,
+        "lazy_overlay_3_relative_error": 1.2579975630357136e-16,
+        "lazy_overlay_3_allowed_error": 1.2151515163836365e-09,
+        "two_write_order_gap_absolute_error": 1.902826396560654e-16,
+        "two_write_order_gap_relative_error": 3.6803512128043026e-16,
+        "two_write_order_gap_allowed_error": 3.0340460931774853e-10,
+        "corrected_prestate_gap_absolute_error": 2.6945789820192466e-16,
+        "corrected_prestate_gap_relative_error": 5.881208812000273e-16,
+        "corrected_prestate_gap_allowed_error": 2.9163350828561336e-10,
+        "repeated_order_edit_absolute_error": 3.331391796911832e-16,
+        "repeated_order_edit_relative_error": 1.4112035935564498e-16,
+        "repeated_order_edit_allowed_error": 6.721348233696335e-10,
+        "omitted_MC_term_absolute_error": 3.0518583441125096e-16,
+        "omitted_MC_term_relative_error": 3.355602962888288e-15,
+        "omitted_MC_term_allowed_error": 2.1818962718691645e-10,
+        "naive_independent_injection_error": 0.09094813593458224
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Lazy overlays match dense common-path differences; direct adjacent Delta writes verify the order-gap factor and the consequential corrected-prestate MC term."
+    },
+    {
+      "id": "A14",
+      "lineage": "R11",
+      "scope": "boundary_reproduction_sharp_cumulative_rank_and_tail",
+      "status": "passed",
+      "metrics": {
+        "genuine_gap_block_0_absolute_error": 0.0,
+        "genuine_gap_block_0_relative_error": 0.0,
+        "genuine_gap_block_0_allowed_error": 5.464101615137754e-10,
+        "genuine_gap_block_1_absolute_error": 0.0,
+        "genuine_gap_block_1_relative_error": 0.0,
+        "genuine_gap_block_1_allowed_error": 5.464101615137754e-10,
+        "accumulated_rank": 4,
+        "rank_two_unavoidable_tail_absolute_error": 2.220446049250313e-16,
+        "rank_two_unavoidable_tail_relative_error": 2.906601613561371e-16,
+        "rank_two_unavoidable_tail_allowed_error": 3.527864045000421e-10,
+        "rank_two_tail_energy": 0.7639320225002102,
+        "protected_query_minimum_rank_absolute_error": 0.0,
+        "protected_query_minimum_rank_relative_error": 0.0,
+        "protected_query_minimum_rank_allowed_error": 5.464101615137754e-10,
+        "protected_query_required_rank": 2
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: two actual disjoint Delta order gaps attain rank four and a positive rank-two tail, while many shared-right injections retain rank one."
+    },
+    {
+      "id": "A15",
+      "lineage": "R12",
+      "scope": "graph_certificate_operator_fixedpoint_and_autonomous_reads",
+      "status": "passed",
+      "metrics": {
+        "graph_vs_operator_fixed_point_absolute_error": 9.179767583272725e-16,
+        "graph_vs_operator_fixed_point_relative_error": 5.299941285300706e-16,
+        "graph_vs_operator_fixed_point_allowed_error": 5.464101615137756e-10,
+        "selected_components_vertices": [
+          0,
+          1,
+          2
+        ],
+        "least_carrier_width": 3,
+        "autonomous_reduced_state_0_absolute_error": 2.603703785810335e-16,
+        "autonomous_reduced_state_0_relative_error": 1.1014612331845789e-16,
+        "autonomous_reduced_state_0_allowed_error": 6.727726600567549e-10,
+        "protected_decoder_0_absolute_error": 4.577566798522237e-16,
+        "protected_decoder_0_relative_error": 4.151091806147049e-16,
+        "protected_decoder_0_allowed_error": 4.20547605897015e-10,
+        "autonomous_reduced_state_1_absolute_error": 2.603703785810335e-16,
+        "autonomous_reduced_state_1_relative_error": 1.1014612331845789e-16,
+        "autonomous_reduced_state_1_allowed_error": 6.727726600567549e-10,
+        "protected_decoder_1_absolute_error": 4.577566798522237e-16,
+        "protected_decoder_1_relative_error": 4.151091806147049e-16,
+        "protected_decoder_1_allowed_error": 4.20547605897015e-10,
+        "autonomous_reduced_state_2_absolute_error": 3.188872858294072e-16,
+        "autonomous_reduced_state_2_relative_error": 1.3933753298964733e-16,
+        "autonomous_reduced_state_2_allowed_error": 6.577191500198303e-10,
+        "protected_decoder_2_absolute_error": 2.482534153247273e-16,
+        "protected_decoder_2_relative_error": 2.670577920799836e-16,
+        "protected_decoder_2_allowed_error": 3.8591737270888216e-10,
+        "autonomous_reduced_state_3_absolute_error": 3.188872858294072e-16,
+        "autonomous_reduced_state_3_relative_error": 1.3933753298964733e-16,
+        "autonomous_reduced_state_3_allowed_error": 6.577191500198303e-10,
+        "protected_decoder_3_absolute_error": 2.482534153247273e-16,
+        "protected_decoder_3_relative_error": 2.670577920799836e-16,
+        "protected_decoder_3_allowed_error": 3.8591737270888216e-10,
+        "autonomous_reduced_state_4_absolute_error": 3.4219371797089426e-16,
+        "autonomous_reduced_state_4_relative_error": 1.6363979005232502e-16,
+        "autonomous_reduced_state_4_allowed_error": 6.182280090453249e-10,
+        "protected_decoder_4_absolute_error": 1.1102230246251565e-16,
+        "protected_decoder_4_relative_error": 1.1943187540236963e-16,
+        "protected_decoder_4_allowed_error": 3.8591737270888216e-10,
+        "autonomous_reduced_state_5_absolute_error": 3.4219371797089426e-16,
+        "autonomous_reduced_state_5_relative_error": 1.6363979005232502e-16,
+        "autonomous_reduced_state_5_allowed_error": 6.182280090453249e-10,
+        "protected_decoder_5_absolute_error": 1.1102230246251565e-16,
+        "protected_decoder_5_relative_error": 1.1943187540236963e-16,
+        "protected_decoder_5_allowed_error": 3.8591737270888216e-10,
+        "autonomous_reduced_state_6_absolute_error": 3.040470972244059e-16,
+        "autonomous_reduced_state_6_relative_error": 1.5299178505917544e-16,
+        "autonomous_reduced_state_6_allowed_error": 5.974685269628092e-10,
+        "protected_decoder_6_absolute_error": 1.1102230246251565e-16,
+        "protected_decoder_6_relative_error": 1.672212662582621e-16,
+        "protected_decoder_6_allowed_error": 3.3278490821980637e-10,
+        "autonomous_reduced_state_7_absolute_error": 3.227891107075167e-16,
+        "autonomous_reduced_state_7_relative_error": 1.64981914868071e-16,
+        "autonomous_reduced_state_7_allowed_error": 5.913024175596912e-10,
+        "protected_decoder_7_absolute_error": 1.6653345369377348e-16,
+        "protected_decoder_7_relative_error": 2.5083189938739313e-16,
+        "protected_decoder_7_allowed_error": 3.3278490821980637e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Graph components match an independent full-operator invariant fixed point; the autonomous reduced recurrence exactly reproduces full protected reads for the declared dictionary."
+    },
+    {
+      "id": "A16",
+      "lineage": "R12",
+      "scope": "boundary_reproduction_future_bridge_and_small_nonzero_edge",
+      "status": "passed",
+      "metrics": {
+        "same_retained_prefix_absolute_error": 0.0,
+        "same_retained_prefix_relative_error": 0.0,
+        "same_retained_prefix_allowed_error": 2e-10,
+        "future_bridge_protected_read_gap": -1.0,
+        "nonzero_small_edge": 1e-08,
+        "threshold_discarded_cross_operator_norm": 5e-09
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "6-7"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: an unseen bridge reveals already discarded history; treating a small nonzero Gram edge as zero loses exact closure."
+    },
+    {
+      "id": "A17",
+      "lineage": "R13",
+      "scope": "minimum_erasure_ledger_exact_decoder_and_rank_tail",
+      "status": "passed",
+      "metrics": {
+        "ordered_overwrite_kernel_absolute_error": 3.201308095838355e-16,
+        "ordered_overwrite_kernel_relative_error": 3.201308095838355e-16,
+        "ordered_overwrite_kernel_allowed_error": 4e-10,
+        "minimum_ledger_coefficients_absolute_error": 1.980005806757813e-15,
+        "minimum_ledger_coefficients_relative_error": 5.746255426819111e-16,
+        "minimum_ledger_coefficients_allowed_error": 8.891464648496707e-10,
+        "affine_ledger_recovery_0_absolute_error": 2.6691571797624175e-15,
+        "affine_ledger_recovery_0_relative_error": 5.567318542244112e-16,
+        "affine_ledger_recovery_0_allowed_error": 1.1588663409536166e-09,
+        "affine_ledger_recovery_1_absolute_error": 4.9376849182574316e-15,
+        "affine_ledger_recovery_1_relative_error": 5.419397940608537e-16,
+        "affine_ledger_recovery_1_allowed_error": 2.0222263699288287e-09,
+        "affine_ledger_recovery_2_absolute_error": 1.9681032249736315e-15,
+        "affine_ledger_recovery_2_relative_error": 2.365005313263357e-16,
+        "affine_ledger_recovery_2_allowed_error": 1.8643541677781187e-09,
+        "same_poststate_without_ledger_absolute_error": 1.5262080000938627e-16,
+        "same_poststate_without_ledger_relative_error": 1.0,
+        "same_poststate_without_ledger_allowed_error": 2.0000000000000003e-10,
+        "no_ledger_protected_ambiguity": 1.3071208430816548,
+        "zero_budget_optimal_tail_absolute_error": 2.220446049250313e-16,
+        "zero_budget_optimal_tail_relative_error": 1.288186757332599e-16,
+        "zero_budget_optimal_tail_allowed_error": 5.447397726472689e-10,
+        "minimum_side_rows": 1,
+        "cross_column_minimum_scalars": 3
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "2-3,5"
+        }
+      ],
+      "interpretation": "The minimal lost-coordinate ledger recovers full affine protected targets; the overwritten kernel, insufficient-budget tail and cross-column scalar lower bound match independent ambient calculations."
+    },
+    {
+      "id": "A18",
+      "lineage": "R13",
+      "scope": "boundary_reproduction_spectral_cut_hidden_mode_inverse_growth",
+      "status": "passed",
+      "metrics": {
+        "spectral_cut_exact_hybrid_absolute_error": 0.0,
+        "spectral_cut_exact_hybrid_relative_error": 0.0,
+        "spectral_cut_exact_hybrid_allowed_error": 5.464101615137754e-10,
+        "exact_kernel_side_width": 0,
+        "stable_cut_side_width": 1,
+        "exact_no_ledger_decoder_norm": 1000.0,
+        "stable_decoder_norm": 1.4285714285714286,
+        "stable_decoder_norm_bound": 20.0,
+        "stable_hybrid_state_absolute_error": 1.3877787807814457e-17,
+        "stable_hybrid_state_relative_error": 5.326707219650234e-18,
+        "stable_hybrid_state_allowed_error": 7.210644112978191e-10,
+        "hidden_modes_same_poststate_absolute_error": 0.0,
+        "hidden_modes_same_poststate_relative_error": 0.0,
+        "hidden_modes_same_poststate_allowed_error": 4.828427124746191e-10,
+        "hidden_mode_protected_target_gap": 1.0,
+        "switching_orthogonal_fixed_covector_absolute_error": 0.0,
+        "switching_orthogonal_fixed_covector_relative_error": 0.0,
+        "switching_orthogonal_fixed_covector_allowed_error": 4e-10,
+        "parallel_inverse_transport_growth": 256.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "4,6-7"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: an invertible near-overwrite needs no exact ledger yet has large inverse amplification; spectral-cut storage trades state for stability, and hidden modes prevent a common decoder."
+    },
+    {
+      "id": "A19",
+      "lineage": "R16",
+      "scope": "shared_carrier_affine_scan_telescope_and_recompression",
+      "status": "passed",
+      "metrics": {
+        "flow_source_lifted_ode_0_absolute_error": 2.7755575615628914e-17,
+        "flow_source_lifted_ode_0_relative_error": 1.825418815254174e-16,
+        "flow_source_lifted_ode_0_allowed_error": 2.304100904227441e-10,
+        "two_sided_common_support_0_absolute_error": 0.0,
+        "two_sided_common_support_0_relative_error": 0.0,
+        "two_sided_common_support_0_allowed_error": 2.539669093383936e-10,
+        "flow_source_lifted_ode_1_absolute_error": 8.355534721610419e-17,
+        "flow_source_lifted_ode_1_relative_error": 4.067912491938726e-16,
+        "flow_source_lifted_ode_1_allowed_error": 2.4108020877129663e-10,
+        "two_sided_common_support_1_absolute_error": 0.0,
+        "two_sided_common_support_1_relative_error": 0.0,
+        "two_sided_common_support_1_allowed_error": 2.7125067957800135e-10,
+        "flow_source_lifted_ode_2_absolute_error": 1.3877787807814457e-17,
+        "flow_source_lifted_ode_2_relative_error": 1.3832451961352158e-16,
+        "flow_source_lifted_ode_2_allowed_error": 2.2006554997854172e-10,
+        "two_sided_common_support_2_absolute_error": 0.0,
+        "two_sided_common_support_2_relative_error": 0.0,
+        "two_sided_common_support_2_allowed_error": 2.1034598917712422e-10,
+        "flow_source_lifted_ode_3_absolute_error": 1.6365348541700844e-17,
+        "flow_source_lifted_ode_3_relative_error": 1.3479374165792893e-16,
+        "flow_source_lifted_ode_3_allowed_error": 2.2428205989448947e-10,
+        "two_sided_common_support_3_absolute_error": 0.0,
+        "two_sided_common_support_3_relative_error": 0.0,
+        "two_sided_common_support_3_allowed_error": 2.1179891670946878e-10,
+        "affine_scan_associativity_0_absolute_error": 0.0,
+        "affine_scan_associativity_0_relative_error": 0.0,
+        "affine_scan_associativity_0_allowed_error": 4.759152142028464e-10,
+        "affine_scan_associativity_1_absolute_error": 4.3885418357208765e-17,
+        "affine_scan_associativity_1_relative_error": 1.4309969645499283e-16,
+        "affine_scan_associativity_1_allowed_error": 2.6133544576876364e-10,
+        "affine_scan_associativity_2_absolute_error": 3.469446951953614e-18,
+        "affine_scan_associativity_2_relative_error": 1.040884524883959e-17,
+        "affine_scan_associativity_2_allowed_error": 2.6666343612593146e-10,
+        "shared_carrier_scan_vs_sequential_absolute_error": 5.333477784579164e-16,
+        "shared_carrier_scan_vs_sequential_relative_error": 1.5113158990424677e-16,
+        "shared_carrier_scan_vs_sequential_allowed_error": 9.058058196778482e-10,
+        "ordered_product_telescope_absolute_error": 8.45499755462099e-17,
+        "ordered_product_telescope_relative_error": 4.199951505253314e-16,
+        "ordered_product_telescope_allowed_error": 2.402623580012553e-10,
+        "dual_product_telescope_absolute_error": 6.138691041331252e-17,
+        "dual_product_telescope_relative_error": 3.049345019057188e-16,
+        "dual_product_telescope_allowed_error": 2.402623580012553e-10,
+        "lazy_product_factor_ledger_absolute_error": 1.4771105947696618e-16,
+        "lazy_product_factor_ledger_relative_error": 7.33742715577468e-16,
+        "lazy_product_factor_ledger_allowed_error": 2.402623580012553e-10,
+        "recompression_error_transport_0_absolute_error": 0.0,
+        "recompression_error_transport_0_relative_error": 0.0,
+        "recompression_error_transport_0_allowed_error": 2.0000050478389863e-10,
+        "recompression_error_transport_1_absolute_error": 1.7839326937923356e-17,
+        "recompression_error_transport_1_relative_error": 1.5578598947839641e-16,
+        "recompression_error_transport_1_allowed_error": 2.2290235084381222e-10,
+        "recompression_error_transport_2_absolute_error": 4.739836287564747e-17,
+        "recompression_error_transport_2_relative_error": 7.335100196783009e-16,
+        "recompression_error_transport_2_allowed_error": 2.1292371245219942e-10,
+        "recompression_error_transport_3_absolute_error": 7.324598681328659e-18,
+        "recompression_error_transport_3_relative_error": 1.67023318511291e-16,
+        "recompression_error_transport_3_allowed_error": 2.0877074979303985e-10,
+        "recompressed_product_error": 0.04385374896519917,
+        "discarded_tail_sum_bound": 0.12185799095846404
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "2,4-5,7"
+        }
+      ],
+      "interpretation": "Shared-carrier affine scans agree with sequential lifted-ODE flow for different chunkings; ordered telescopes/factor ledger and transported recompression identities agree with dense products."
+    },
+    {
+      "id": "A20",
+      "lineage": "R16",
+      "scope": "boundary_reproduction_cumulative_width_and_nonreducing_decay",
+      "status": "passed",
+      "metrics": {
+        "one_token_maximum_correction_rank": 1,
+        "chunk_correction_rank": 4,
+        "affine_source_carrier_width": 4,
+        "nonreducing_decay_outside_correction": 0.014187525635357787,
+        "nonreducing_decay_outside_source": 0.016321294916294693
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "3,6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: rank-one token corrections accumulate to width H; a key inside U is insufficient when the symmetric decay does not reduce U."
+    },
+    {
+      "id": "A21",
+      "lineage": "R18",
+      "scope": "paired_fiber_rollout_spectral_equality_and_psd_envelope",
+      "status": "passed",
+      "metrics": {
+        "same_augmented_fiber_post_0_absolute_error": 0.0,
+        "same_augmented_fiber_post_0_relative_error": 0.0,
+        "same_augmented_fiber_post_0_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_0_absolute_error": 1.0250920001693078e-16,
+        "same_augmented_fiber_ledger_0_relative_error": 1.0,
+        "same_augmented_fiber_ledger_0_allowed_error": 2.0000000000000003e-10,
+        "attained_fiber_energy_0_absolute_error": 1.1102230246251565e-16,
+        "attained_fiber_energy_0_relative_error": 1.8278543485795092e-16,
+        "attained_fiber_energy_0_allowed_error": 3.2147828140551247e-10,
+        "independent_restricted_svd_0_absolute_error": 1.1102230246251565e-16,
+        "independent_restricted_svd_0_relative_error": 1.827854348579509e-16,
+        "independent_restricted_svd_0_allowed_error": 3.214782814055125e-10,
+        "same_augmented_fiber_post_1_absolute_error": 0.0,
+        "same_augmented_fiber_post_1_relative_error": 0.0,
+        "same_augmented_fiber_post_1_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_1_absolute_error": 2.4135871504962386e-16,
+        "same_augmented_fiber_ledger_1_relative_error": 1.0,
+        "same_augmented_fiber_ledger_1_allowed_error": 2.0000000000000006e-10,
+        "attained_fiber_energy_1_absolute_error": 0.0,
+        "attained_fiber_energy_1_relative_error": 0.0,
+        "attained_fiber_energy_1_allowed_error": 5.76066362932578e-10,
+        "independent_restricted_svd_1_absolute_error": 0.0,
+        "independent_restricted_svd_1_relative_error": 0.0,
+        "independent_restricted_svd_1_allowed_error": 5.76066362932578e-10,
+        "same_augmented_fiber_post_2_absolute_error": 0.0,
+        "same_augmented_fiber_post_2_relative_error": 0.0,
+        "same_augmented_fiber_post_2_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_2_absolute_error": 1.9128718137215862e-16,
+        "same_augmented_fiber_ledger_2_relative_error": 1.0,
+        "same_augmented_fiber_ledger_2_allowed_error": 2.0000000000000003e-10,
+        "attained_fiber_energy_2_absolute_error": 2.6645352591003757e-15,
+        "attained_fiber_energy_2_relative_error": 1.0712247785894431e-15,
+        "attained_fiber_energy_2_allowed_error": 6.974745379973298e-10,
+        "independent_restricted_svd_2_absolute_error": 4.440892098500626e-16,
+        "independent_restricted_svd_2_relative_error": 1.785374630982405e-16,
+        "independent_restricted_svd_2_allowed_error": 6.974745379973299e-10,
+        "common_ledger_worst_leakage": 0.2179501661994297,
+        "common_envelope_tail_certificate": 0.493289883119291,
+        "pairwise_radius": 1.4,
+        "full_ledger_residual_leakage": 0.0,
+        "full_ledger_zero_residual_projector_absolute_error": 0.0,
+        "full_ledger_zero_residual_projector_relative_error": 0.0,
+        "full_ledger_zero_residual_projector_allowed_error": 2e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "1-3"
+        }
+      ],
+      "interpretation": "Actual paired continuation rollouts attain the residual-fiber spectral maximum, independently checked by a restricted SVD; a sum-Gramian envelope safely upper-bounds the common ledger."
+    },
+    {
+      "id": "A22",
+      "lineage": "R18",
+      "scope": "boundary_reproduction_common_path_gap_radius_and_reencoding",
+      "status": "passed",
+      "metrics": {
+        "complementary_paths_robust_optimum_absolute_error": 1.1102230246251565e-16,
+        "complementary_paths_robust_optimum_relative_error": 2.2204460492503126e-16,
+        "complementary_paths_robust_optimum_allowed_error": 3.0000000000000005e-10,
+        "angular_reference_minimum_absolute_error": 1.1102230246251565e-16,
+        "angular_reference_minimum_relative_error": 2.2204460492503126e-16,
+        "angular_reference_minimum_allowed_error": 3.0000000000000005e-10,
+        "path_specific_rank_one_tail_lower_bound": 0.0,
+        "robust_common_rank_one_minimum": 0.5000000000000001,
+        "envelope_rank_one_tail": 1.0,
+        "pairwise_radius_energy_scaling_absolute_error": 0.0,
+        "pairwise_radius_energy_scaling_relative_error": 0.0,
+        "pairwise_radius_energy_scaling_allowed_error": 6.000000000000001e-10,
+        "individual_unit_radius_pair_energy": 2.0000000000000004,
+        "state_dependent_value_map_derivative_absolute_error": 0.0,
+        "state_dependent_value_map_derivative_relative_error": 0.0,
+        "state_dependent_value_map_derivative_allowed_error": 4e-07,
+        "frozen_overwrite_memory_derivative": 0.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "3-5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: pathwise tail zero is insufficient for a common ledger; the envelope bound is conservative, pairwise radius matters, and state-dependent values invalidate a frozen overwrite kernel."
+    },
+    {
+      "id": "A23",
+      "lineage": "R20",
+      "scope": "projected_woodbury_kkt_and_sharp_spectral_transfer",
+      "status": "passed",
+      "metrics": {
+        "projected_woodbury_vs_dense_kkt_absolute_error": 8.299523369882437e-17,
+        "projected_woodbury_vs_dense_kkt_relative_error": 1.865641426058702e-16,
+        "projected_woodbury_vs_dense_kkt_allowed_error": 2.8897233148832635e-10,
+        "projected_action_feasibility_absolute_error": 1.1443916996305594e-16,
+        "projected_action_feasibility_relative_error": 1.3877787807814454e-16,
+        "projected_action_feasibility_allowed_error": 3.6492422502470646e-10,
+        "random_future_risk_ratio": 1.2232344142175835,
+        "sharp_competitive_bound": 1.469444444444444,
+        "sharp_delta_factor_0.0_absolute_error": 4.440892098500626e-16,
+        "sharp_delta_factor_0.0_relative_error": 4.440892098500626e-16,
+        "sharp_delta_factor_0.0_allowed_error": 4e-10,
+        "sharp_delta_factor_0.1_absolute_error": 2.220446049250313e-16,
+        "sharp_delta_factor_0.1_relative_error": 2.19824158875781e-16,
+        "sharp_delta_factor_0.1_allowed_error": 4.0202020202020205e-10,
+        "sharp_delta_factor_0.6_absolute_error": 6.661338147750939e-16,
+        "sharp_delta_factor_0.6_relative_error": 4.263256414560601e-16,
+        "sharp_delta_factor_0.6_allowed_error": 5.125e-10,
+        "sharp_delta_factor_0.95_absolute_error": 1.2434497875801753e-14,
+        "sharp_delta_factor_0.95_relative_error": 1.2123635428906713e-15,
+        "sharp_delta_factor_0.95_allowed_error": 2.251282051282051e-09,
+        "zero_target_action_absolute_error": 0.0,
+        "zero_target_action_relative_error": 0.0,
+        "zero_target_action_allowed_error": 2e-10,
+        "zero_target_ratio": "undefined_0_over_0; action equality checked"
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "1-3"
+        }
+      ],
+      "interpretation": "Projected Woodbury matches a dense KKT solve; independently solved future quadratics obey the spectral transfer bound, with equality at the two-dimensional sharp endpoints."
+    },
+    {
+      "id": "A24",
+      "lineage": "R20",
+      "scope": "boundary_reproduction_wrong_domain_prefix_and_loss_class",
+      "status": "passed",
+      "metrics": {
+        "difference_space_curvature_match_absolute_error": 0.0,
+        "difference_space_curvature_match_relative_error": 0.0,
+        "difference_space_curvature_match_allowed_error": 4e-10,
+        "base_tangent_cross_term_risk_ratio_absolute_error": 3.410605131648481e-13,
+        "base_tangent_cross_term_risk_ratio_relative_error": 3.7479177270862294e-15,
+        "base_tangent_cross_term_risk_ratio_allowed_error": 1.8400000000000066e-08,
+        "difference_only_certificate_risk_ratio": 91.00000000000033,
+        "same_prefix_relative_future_maximum": 5.0,
+        "prefix_claimed_relative_upper_bound": 1.2,
+        "matching_curvature_linear_term_regret": 4.5,
+        "matching_local_nonlinear_curvature_absolute_error": 1.0279563866788521e-09,
+        "matching_local_nonlinear_curvature_relative_error": 1.0279563856221579e-09,
+        "matching_local_nonlinear_curvature_allowed_error": 2.0000000010279563e-05,
+        "nonlinear_zero_action_loss": 3.0,
+        "nonlinear_finite_action_loss": 0.5
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "4-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: a ker(A)-only sandwich misses base/tangent coupling; the same prefix cannot certify an unrestricted future, and matching curvature alone controls neither linear terms nor finite nonlinear edits."
+    }
+  ],
+  "elapsed_seconds": 0.01895068999965588,
+  "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466",
+  "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "dtype": "float64",
+  "tolerances": {
+    "absolute": 2e-10,
+    "relative": 2e-10,
+    "finite_difference": 2e-07,
+    "rank": 1e-11
+  },
+  "evidence_scope": "Synthetic numerical theorem diagnostics and boundary reproduction; no language-model/native efficacy, superiority, novelty, causal prefix coverage, or deployment claim."
+}

@@ -1,0 +1,470 @@
+{
+  "suite": "feedback",
+  "seed": 2,
+  "checks": [
+    {
+      "id": "feedback.local-zero-later-positive",
+      "lineage": "R03",
+      "scope": "constructed two-step scalar-gate Delta counterexample",
+      "status": "passed",
+      "metrics": {
+        "witness": {
+          "gamma": 1.0,
+          "beta": 1.0,
+          "immediate_damage": 0.0,
+          "later_damage": 0.053388066758518156,
+          "new_write_residual": 0.0
+        },
+        "grid": [
+          {
+            "gamma": 0.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 0.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 0.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 0.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 6.249895834809293e-06,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0001561849188835528,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 0.1,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0006239598071080335,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0006239598071080335,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.014996287798405518,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 1.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.053388066758518156,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.00973925425847085,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.14500641459649338,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 4.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.2323372937867089,
+            "new_write_residual": 0.0
+          }
+        ]
+      },
+      "source_refs": [
+        "repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md"
+      ],
+      "interpretation": "A zero local protected displacement does not certify zero later displacement when a later gate reads the edited state. This refutes only the local-to-global extension."
+    },
+    {
+      "id": "feedback.future-gate-derivative",
+      "lineage": "STEP2",
+      "scope": "complete two-step output sensitivity versus frozen gate",
+      "status": "passed",
+      "metrics": {
+        "finite_difference": 0.3985196846689742,
+        "complete_derivative": 0.39851968468229415,
+        "frozen_derivative": 0.0,
+        "absolute_error": 1.3319956249091547e-11,
+        "step": 1e-05
+      },
+      "source_refs": [
+        "STEP2_COUPLED_UPDATER_STABILITY.md"
+      ],
+      "interpretation": "Finite differences detect the gate-feedback term missed by a frozen future gate."
+    },
+    {
+      "id": "feedback.matrixfree-8x16",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 1.9708006932945704e-16,
+        "dk": 8,
+        "dv": 16
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim."
+    },
+    {
+      "id": "feedback.matrixfree-16x32",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 4.150517726390517e-16,
+        "dk": 16,
+        "dv": 32
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim."
+    },
+    {
+      "id": "feedback.matrixfree-32x32",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 5.971076144666068e-16,
+        "dk": 32,
+        "dv": 32
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim."
+    }
+  ],
+  "profiles": [
+    {
+      "dk": 8,
+      "dv": 16,
+      "scope": "construct plus apply one declared Jacobian; not complete training or quotient basis construction",
+      "factor_stored_bytes": 3584,
+      "dense_jacobian_bytes": 131072,
+      "relative_error": 1.9708006932945704e-16,
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 8.90299997990951e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 5.625399990094593e-05,
+          "dense_norm": 11.711471739641503
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 7.83199993747985e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 5.303900070430245e-05,
+          "dense_norm": 11.711471739641503
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 6.950000170036219e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 4.860199987888336e-05,
+          "dense_norm": 11.711471739641503
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 4.5497000428440515e-05,
+          "dense_norm": 11.711471739641503,
+          "factor_seconds": 6.1290002122404985e-06,
+          "factor_norm": 11.711471739641503
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 4.97699966217624e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 4.585799979395233e-05,
+          "dense_norm": 11.711471739641503
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 6.059000043023843e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 4.4145000174466986e-05,
+          "dense_norm": 11.711471739641503
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 5.478000275616068e-06,
+          "factor_norm": 11.711471739641503,
+          "dense_seconds": 4.561700006888714e-05,
+          "dense_norm": 11.711471739641503
+        }
+      ],
+      "interpretation": "Exploratory single-thread timings on a shared host; contention remains possible. Dense explicit Jacobian is an independent reference, not the strongest reverse-mode baseline."
+    },
+    {
+      "dk": 16,
+      "dv": 32,
+      "scope": "construct plus apply one declared Jacobian; not complete training or quotient basis construction",
+      "factor_stored_bytes": 14336,
+      "dense_jacobian_bytes": 2097152,
+      "relative_error": 4.150517726390517e-16,
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.0011736970000129077,
+          "dense_norm": 22.67708897760708,
+          "factor_seconds": 1.5593000171065796e-05,
+          "factor_norm": 22.67708897760708
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.0011819800001831027,
+          "dense_norm": 22.67708897760708,
+          "factor_seconds": 1.4610999642172828e-05,
+          "factor_norm": 22.67708897760708
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.0011910829998669215,
+          "dense_norm": 22.67708897760708,
+          "factor_seconds": 1.4061000001674984e-05,
+          "factor_norm": 22.67708897760708
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 7.341000127780717e-06,
+          "factor_norm": 22.67708897760708,
+          "dense_seconds": 0.0011985450000793207,
+          "dense_norm": 22.67708897760708
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 1.3950999345979653e-05,
+          "factor_norm": 22.67708897760708,
+          "dense_seconds": 0.0011884989999089157,
+          "dense_norm": 22.67708897760708
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.0011740280006051762,
+          "dense_norm": 22.67708897760708,
+          "factor_seconds": 1.5042000086396001e-05,
+          "factor_norm": 22.67708897760708
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.001169840999864391,
+          "dense_norm": 22.67708897760708,
+          "factor_seconds": 1.3169999874662608e-05,
+          "factor_norm": 22.67708897760708
+        }
+      ],
+      "interpretation": "Exploratory single-thread timings on a shared host; contention remains possible. Dense explicit Jacobian is an independent reference, not the strongest reverse-mode baseline."
+    },
+    {
+      "dk": 32,
+      "dv": 32,
+      "scope": "construct plus apply one declared Jacobian; not complete training or quotient basis construction",
+      "factor_stored_bytes": 32768,
+      "dense_jacobian_bytes": 8388608,
+      "relative_error": 5.971076144666068e-16,
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.002890228000069328,
+          "dense_norm": 35.37817640120128,
+          "factor_seconds": 2.6900000193563756e-05,
+          "factor_norm": 35.37817640120128
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 1.0044999726233073e-05,
+          "factor_norm": 35.37817640120128,
+          "dense_seconds": 0.0028141450002294732,
+          "dense_norm": 35.37817640120128
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.00273821299924748,
+          "dense_norm": 35.37817640120128,
+          "factor_seconds": 2.5937999453162774e-05,
+          "factor_norm": 35.37817640120128
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.002738603000580042,
+          "dense_norm": 35.37817640120128,
+          "factor_seconds": 2.029999996011611e-05,
+          "factor_norm": 35.37817640120128
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "factor",
+            "dense"
+          ],
+          "factor_seconds": 9.114000022236723e-06,
+          "factor_norm": 35.37817640120128,
+          "dense_seconds": 0.00258883100013918,
+          "dense_norm": 35.37817640120128
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.002640838999468542,
+          "dense_norm": 35.37817640120128,
+          "factor_seconds": 2.3794999833626207e-05,
+          "factor_norm": 35.37817640120128
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "dense",
+            "factor"
+          ],
+          "dense_seconds": 0.0027681669998855796,
+          "dense_norm": 35.37817640120128,
+          "factor_seconds": 2.1731999368057586e-05,
+          "factor_norm": 35.37817640120128
+        }
+      ],
+      "interpretation": "Exploratory single-thread timings on a shared host; contention remains possible. Dense explicit Jacobian is an independent reference, not the strongest reverse-mode baseline."
+    }
+  ],
+  "elapsed_seconds": 0.046801280999716255,
+  "data_kind": "constructed mathematical diagnostic",
+  "language_model_or_novelty_claim": false
+}

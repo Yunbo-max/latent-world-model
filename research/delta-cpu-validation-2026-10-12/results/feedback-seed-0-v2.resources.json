@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "python",
+    "scripts/check_feedback.py",
+    "--output",
+    "results/feedback-seed-0-v2.json",
+    "--seed",
+    "0"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.1621512019992224,
+  "peak_observed_rss_bytes": 0,
+  "rss_limit_mib": 256,
+  "rss_limit_exceeded": false,
+  "threads": 1,
+  "sampling_seconds": 0.02,
+  "rss_scope": "direct child; short-lived peaks may be missed"
+}

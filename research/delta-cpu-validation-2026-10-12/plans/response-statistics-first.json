@@ -1,0 +1,55 @@
+{
+  "response_id": "statistics-first",
+  "request_id": "decision-b2987437c2b24192b9b78ad9068c595d",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Statistics source read and tiny-case independent reference pathways inspected; dispatch first calibration before widening",
+  "tasks": [
+    {
+      "task_id": "statistics-seed-0-v1",
+      "phase": "diagnostic",
+      "purpose": "Independent optimization/enumeration checks of latest causal,decision,rate-distortion and finite-field claims",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/statistics-seed-0-v1.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-0-v1.json",
+        "--seed",
+        "0"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_statistics.py",
+          "sha256": "84d1c41e0551dfe5a87cc90f8c89b999b3edeec54d3340fc7941cd0fd1f10403"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/statistics-seed-0-v1.json",
+        "results/statistics-seed-0-v1.resources.json"
+      ]
+    }
+  ]
+}

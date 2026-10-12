@@ -1,0 +1,190 @@
+{
+  "response_id": "algebra-legacy-variability",
+  "request_id": "decision-792aa525459946b2b4168b39fd6b39b8",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Seed0 calibration passed;check independent randomized matrices for declared numerical conditions and preserve diagnostic status",
+  "tasks": [
+    {
+      "task_id": "algebra-seed-1-v2",
+      "phase": "diagnostic",
+      "purpose": "Complete planned independent constructed-case variability checks after seed0 calibration passed",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/algebra-seed-1-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_algebra.py",
+          "sha256": "fd7da3dbce525e674a8d965eb61d324e186f11c8c1e47b11619469c56acc54ee"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/algebra-seed-1-v2.json",
+        "results/algebra-seed-1-v2.resources.json"
+      ]
+    },
+    {
+      "task_id": "algebra-seed-2-v2",
+      "phase": "diagnostic",
+      "purpose": "Complete planned independent constructed-case variability checks after seed0 calibration passed",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/algebra-seed-2-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_algebra.py",
+          "sha256": "fd7da3dbce525e674a8d965eb61d324e186f11c8c1e47b11619469c56acc54ee"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/algebra-seed-2-v2.json",
+        "results/algebra-seed-2-v2.resources.json"
+      ]
+    },
+    {
+      "task_id": "legacy_controls-seed-1-v2",
+      "phase": "diagnostic",
+      "purpose": "Complete planned independent constructed-case variability checks after seed0 calibration passed",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/legacy_controls-seed-1-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy_controls-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_legacy_controls.py",
+          "sha256": "0af849e641a9ada1776a4b482482ad531287ce2531e72a3117fbaf47b6922b33"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/legacy_controls-seed-1-v2.json",
+        "results/legacy_controls-seed-1-v2.resources.json"
+      ]
+    },
+    {
+      "task_id": "legacy_controls-seed-2-v2",
+      "phase": "diagnostic",
+      "purpose": "Complete planned independent constructed-case variability checks after seed0 calibration passed",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/legacy_controls-seed-2-v2.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy_controls-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_legacy_controls.py",
+          "sha256": "0af849e641a9ada1776a4b482482ad531287ce2531e72a3117fbaf47b6922b33"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "13dc421cb6e5c4bdd768051fb205a1bd6faca8133603b0f42245c9691e2c64f8"
+        },
+        {
+          "path": "plans/verification-v1.json",
+          "sha256": "06ea6a1230479113705aa907463fbc8cb1c8d7ac06a6f7bb26e000af1156194a"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/legacy_controls-seed-2-v2.json",
+        "results/legacy_controls-seed-2-v2.resources.json"
+      ]
+    }
+  ]
+}

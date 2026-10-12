@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "python",
+    "scripts/check_statistics.py",
+    "--output",
+    "results/statistics-seed-1-v2.json",
+    "--seed",
+    "1"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.848346101000061,
+  "peak_observed_rss_bytes": 85897216,
+  "kernel_child_maxrss_bytes": 85897216,
+  "proc_rss_samples": 0,
+  "data_allocation_limit_mib": 256,
+  "sampled_rss_limit_exceeded": false,
+  "cpu_user_seconds": 0.750791,
+  "cpu_system_seconds": 0.07863099999999999,
+  "thread_environment_requested": 1,
+  "actual_solver_threads": "not_measured",
+  "sampling_seconds": 0.02,
+  "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+}

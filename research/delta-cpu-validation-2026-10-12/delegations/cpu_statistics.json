@@ -1,0 +1,17 @@
+{
+  "id": "cpu_statistics",
+  "scope": "scripts/check_statistics.py; review/statistics-map.md",
+  "question": "Numerically test latest statistical/decision repair claims R02,R03,R05,R08,R14,R15,R17,R19 plus post-sweep information theory and active evidence",
+  "lifecycle_state": "running",
+  "launch_intent_utc": "2026-10-12T08:47:44.348671+00:00",
+  "goal": "Delta CPU validation and result-driven repair",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "source_manifest_sha256": "94a93ca68c57e2ef8ea598a5b48a52810abce4ed18f06713068ce0a256e5c921",
+  "authority": "User 2026-10-12 09:43:50 Europe/London requests start verifying all experiments with rsi-simple CPU",
+  "experiments_permitted": false,
+  "further_delegation_permitted": false,
+  "deadline": "Return bounded implementation/review contribution this active turn; no scientific execution by child",
+  "native_usage": "unknown",
+  "agent_id": "/root/cpu_statistics"
+}

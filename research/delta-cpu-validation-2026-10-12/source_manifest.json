@@ -1,0 +1,426 @@
+{
+  "repository": "Yunbo-max/latent-world-model",
+  "commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "sources": [
+    {
+      "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+      "git_blob_sha": "789d4f08367f180d6020e525358216f4bbdfb1c0",
+      "bytes": 12210
+    },
+    {
+      "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+      "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+      "git_blob_sha": "dfc404561c04d38d14381d6f7ea6ab340818686c",
+      "bytes": 14341
+    },
+    {
+      "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+      "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+      "git_blob_sha": "aa1fd95d740093f944ef0611692df0175ef61572",
+      "bytes": 16061
+    },
+    {
+      "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+      "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+      "git_blob_sha": "0d1c56a464c41582b5e408c740af36fc104f0cdd",
+      "bytes": 13297
+    },
+    {
+      "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+      "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+      "git_blob_sha": "53ead48bf3154ef52fd3f200aa885d2ec72db308",
+      "bytes": 11036
+    },
+    {
+      "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+      "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+      "git_blob_sha": "c130ae0b59b86046c3011e8dd5fb299c8620e95b",
+      "bytes": 12217
+    },
+    {
+      "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+      "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+      "git_blob_sha": "b9eb360217bfb7440c3f44e7d174a9cd3afebf70",
+      "bytes": 10981
+    },
+    {
+      "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+      "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+      "git_blob_sha": "227f52614d02fc2eb3f2ea7d4a1f813bfe56c26d",
+      "bytes": 16268
+    },
+    {
+      "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+      "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+      "git_blob_sha": "52b07fa864ded099bb9510b01c0edadf6c499fdf",
+      "bytes": 15359
+    },
+    {
+      "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+      "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+      "git_blob_sha": "55b0d0ccc96af02896c6e8f18d117f058266c1fe",
+      "bytes": 10925
+    },
+    {
+      "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+      "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+      "git_blob_sha": "6c4cc53da3206e6cee36b835e27cc296b3fe8332",
+      "bytes": 13129
+    },
+    {
+      "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+      "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+      "git_blob_sha": "977696c25ce97e392cf223d688f6d86fb49c8158",
+      "bytes": 13557
+    },
+    {
+      "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+      "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+      "git_blob_sha": "034fa28d53b73ce2aedb0f5322b0f367b473b865",
+      "bytes": 13245
+    },
+    {
+      "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+      "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+      "git_blob_sha": "fc011d75d0a479fa6896d1ded3edcd99d4c65798",
+      "bytes": 12460
+    },
+    {
+      "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+      "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+      "git_blob_sha": "65d4c0b4fbcee9b6eb49bf584ee68798b30ad7ca",
+      "bytes": 13114
+    },
+    {
+      "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+      "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+      "git_blob_sha": "26a0c6b4b46b10e63048be1c6b91360f5ed3c165",
+      "bytes": 14784
+    },
+    {
+      "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+      "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+      "git_blob_sha": "b55c30242dda0c3f89a95ecbb4740db59a508ed8",
+      "bytes": 14560
+    },
+    {
+      "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+      "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+      "git_blob_sha": "ae9131b02d53898fc691c5655cd1d6738fd58f6c",
+      "bytes": 15534
+    },
+    {
+      "path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+      "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+      "git_blob_sha": "74c2774f7337245db06651f09d168fa31d74e30b",
+      "bytes": 12677
+    },
+    {
+      "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+      "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+      "git_blob_sha": "ed5ac739acf4ccb3514081c726b81bdb6c6d3f0a",
+      "bytes": 10079
+    },
+    {
+      "path": "source_snapshots/STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md",
+      "sha256": "6110b33f940e09eba35054ec5f37020e6da9a0f4be199a5d70b3b575060f0f69",
+      "git_blob_sha": "a2e457d91528c2dadeacfd5e7b276adc400bd1d5",
+      "bytes": 11881
+    },
+    {
+      "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+      "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+      "git_blob_sha": "79816a85454be6a4fd3300c381ea929004369669",
+      "bytes": 9741
+    },
+    {
+      "path": "source_snapshots/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md",
+      "sha256": "b6061fc2f379dfac87d30f361d9abbf1a550e63eb910f9ef85e4d872a8717b6c",
+      "git_blob_sha": "6f950f93e0e7c01cca5e000692baa2257a1a0294",
+      "bytes": 11775
+    },
+    {
+      "path": "source_snapshots/STEP2_CLOSED_LOOP_RANK_GROWTH.md",
+      "sha256": "4839d87111588059f3db84e01f77de3aa836f15e7746c055beaae449da39a789",
+      "git_blob_sha": "069e7b777ad2a73ad331d79d6f4b748412964cac",
+      "bytes": 10284
+    },
+    {
+      "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+      "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+      "git_blob_sha": "90dc1bbf8f8de15450f4fa05a70e5f06fba85da0",
+      "bytes": 10449
+    },
+    {
+      "path": "source_snapshots/STEP2_COUPLED_UPDATER_STABILITY.md",
+      "sha256": "70f3cff118db5699a67dd9cf808157d16779acc6b5f57ea6edadd3a620629d4b",
+      "git_blob_sha": "0789617d97cd5270a8bca8e7d887a5a4acffc681",
+      "bytes": 13687
+    },
+    {
+      "path": "source_snapshots/STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md",
+      "sha256": "09bceabb9fc8e53dcf7ed877a4b9bc174af093b7406b7f9b51be62d3e60326f2",
+      "git_blob_sha": "9b37e0a7c1044cb6cd389bd84a461f121a8667dd",
+      "bytes": 13040
+    },
+    {
+      "path": "source_snapshots/STEP2_JOINT_CONDITIONAL_RISK.md",
+      "sha256": "fd7ae10d232494447b1ade1f9323228118946d6f95b94ab705622eacff3b2eb5",
+      "git_blob_sha": "7b315574f13a5f218c6f2bf70c8ced4f64d820f0",
+      "bytes": 10476
+    },
+    {
+      "path": "source_snapshots/STEP2_OBSERVED_PREDICTIVE_TARGET.md",
+      "sha256": "e0364e741398d54daf48d60a823c0876f363a1e158248edfa1cb2ab1e21b7dd4",
+      "git_blob_sha": "99fd5d8a66c5a984e3dca512e75b7963a4e9f5e7",
+      "bytes": 15892
+    },
+    {
+      "path": "source_snapshots/STEP2_PROJECTED_DELAYED_CREDIT.md",
+      "sha256": "922ea86d3e5cdb83b703807f504bb9d77420b6635e0460d5013029f5e3b287cd",
+      "git_blob_sha": "ad4b9f1d2cbd9ade95969fac32196923c99a00db",
+      "bytes": 17702
+    },
+    {
+      "path": "source_snapshots/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md",
+      "sha256": "e0f618e770f522d29bb60149e5d7af0d0ce1ed229817d8e5d0f244a8fbb7aef9",
+      "git_blob_sha": "9d6d8da8cd9f6e11c57238b2f523d663d745a33f",
+      "bytes": 15157
+    },
+    {
+      "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+      "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+      "git_blob_sha": "372d77d531ce3e83cd667149496d1a4c30e31508",
+      "bytes": 14777
+    },
+    {
+      "path": "source_snapshots/STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md",
+      "sha256": "0e992547b81d56213d0b189a727f995cfddfa4ea69343794ad9084c0ed539cb0",
+      "git_blob_sha": "a959da7e714cca3622a70095f514cec22b30ddb4",
+      "bytes": 13540
+    },
+    {
+      "path": "source_snapshots/STEP2_REENTRY_2026-10-09.zh-CN.md",
+      "sha256": "30fe78ef6d4cb980d5aa9ee535a50c416ce67ae562d771297dad1b4e8263a399",
+      "git_blob_sha": "838e6146f5049e51a9f473553237eaa7810f01a6",
+      "bytes": 12666
+    },
+    {
+      "path": "source_snapshots/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md",
+      "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760",
+      "git_blob_sha": "5edc8dd1fd008f07440f49f04b210f5f7accac35",
+      "bytes": 18361
+    },
+    {
+      "path": "source_snapshots/cards/D01.json",
+      "sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a",
+      "git_blob_sha": "121cb8a506c161fef2f91d4e049b80822e08fbe2",
+      "bytes": 23818
+    },
+    {
+      "path": "source_snapshots/cards/D03.json",
+      "sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891",
+      "git_blob_sha": "4554576277990dc66c3a5fd0dcb6307ef8e608fa",
+      "bytes": 26476
+    },
+    {
+      "path": "source_snapshots/cards/D05.json",
+      "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2",
+      "git_blob_sha": "c90b7892279e704c4cc01762842b045ff920e5fb",
+      "bytes": 12262
+    },
+    {
+      "path": "source_snapshots/cards/D06.json",
+      "sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7",
+      "git_blob_sha": "687a2b8b217af3ea1b1231f935ba05ea4ae75f15",
+      "bytes": 10995
+    },
+    {
+      "path": "source_snapshots/cards/D07.json",
+      "sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32",
+      "git_blob_sha": "3bc9f6afcb6dc11a974a07fc4cdec2c810b5a33e",
+      "bytes": 11529
+    },
+    {
+      "path": "source_snapshots/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+      "sha256": "fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920",
+      "git_blob_sha": "c184a1617ff404766edc0f5bd73ffec007c25a3a",
+      "bytes": 3201
+    },
+    {
+      "path": "source_snapshots/rejected/CHECKSUM_REVISION_SKETCH.md",
+      "sha256": "32408e92233e9f906597d0564a6c20cc20af10c0038136252e5813ab54e1e0bf",
+      "git_blob_sha": "20bc78d86035a9fb75874edcba0c27aa5dd0c3e5",
+      "bytes": 3424
+    },
+    {
+      "path": "source_snapshots/rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md",
+      "sha256": "a2a8cb972bf9915af5e4761132ff505191d28e09ef04867dc151b4a1d910dd9c",
+      "git_blob_sha": "5c33b8aec65e64a36e15c7f13d91361c2229191b",
+      "bytes": 4397
+    },
+    {
+      "path": "source_snapshots/rejected/D04_COMPENSATION_COLLISION.md",
+      "sha256": "c6649092f967ac2b618f95e796b4b761a0839bd995c343b8965007253988d1d6",
+      "git_blob_sha": "61bc4bc29f8724793ea9fed20a1d11c80c4e404b",
+      "bytes": 4818
+    },
+    {
+      "path": "source_snapshots/rejected/DEFERRED_CORRECTION_DEBT.md",
+      "sha256": "023761f095e238822afdb286484ef13549c1e4cdd34e8ebe2bfe70ee2f5889aa",
+      "git_blob_sha": "5ce3fc154e9c31278bd7c01d886ed0cbc05b9cdb",
+      "bytes": 6955
+    },
+    {
+      "path": "source_snapshots/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+      "sha256": "a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37",
+      "git_blob_sha": "ed2d603444ce89d91210f11e39f5ff2cf9aa492a",
+      "bytes": 2753
+    },
+    {
+      "path": "source_snapshots/rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md",
+      "sha256": "f0cf5c7ef9a5aa63fc3458204194dd8b40757896a446d66e474907b6f4f62f54",
+      "git_blob_sha": "04aba90ac5fb38d361d649798c4456110fb4d12c",
+      "bytes": 1815
+    },
+    {
+      "path": "source_snapshots/rejected/LYAPUNOV_OBLIQUE_METRIC.md",
+      "sha256": "c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6",
+      "git_blob_sha": "587c778b068368eeeba7b39a8abcca92dd805033",
+      "bytes": 3715
+    },
+    {
+      "path": "source_snapshots/rejected/MARTINGALE_RELEASE_CONTROL.md",
+      "sha256": "ed6a3154b78a695b20ae0abc077e4d775f3f3a7ab211584c166aa7d14fe833ac",
+      "git_blob_sha": "5a973ca2db17330add388b1d87c6a51fa05b903e",
+      "bytes": 4625
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_CAP_02.md",
+      "sha256": "eb427d7dda60e53bea165002bbba0007b511c49d3412b2185f5fbc34d73cf7fc",
+      "git_blob_sha": "496ba6cb25926f76a08e9d5082008216fe729b0b",
+      "bytes": 6450
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md",
+      "sha256": "6d04b433d0353b9a52e63648d7df1245295de0f25568bdd7c95217c31f06e691",
+      "git_blob_sha": "b8077525a8552de40cce490c3ced3da4d5bc6f28",
+      "bytes": 3577
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_DUAL_FRAME_04.md",
+      "sha256": "44fa10b7a384dd020749d987a5e0f2cb49efbc25049b0bb9b7619a5322c5f926",
+      "git_blob_sha": "9741ec40684947e1cf99e7c03ea7cb9a99e0ae8e",
+      "bytes": 3879
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_MR_01.md",
+      "sha256": "12e7bebba8e234c968ee6911580cbff07663c7ded188e70f385c486a9e63b06d",
+      "git_blob_sha": "f674d0bad4df5c1b8fc8a5525d23f503fdabc9da",
+      "bytes": 4335
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_OBLIQUE_03.md",
+      "sha256": "53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d",
+      "git_blob_sha": "916b7b061a629849294a61980e2236ea501f17c3",
+      "bytes": 2531
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_OC_01.md",
+      "sha256": "dfaaa080b0c10b92dab803ace0379f88b4a3ca3daac2501ed5a5d2ed4e0ddcab",
+      "git_blob_sha": "5d1e84eee1fb07a2572958b43a4e83da26d51c5d",
+      "bytes": 3141
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_RC_01.md",
+      "sha256": "83d633b6991339605160efb7a88ad8247cea5e111d6edf52d5a00b04de99c87c",
+      "git_blob_sha": "f17b9a264aec9b63beaa85646495e4b6d2d88f44",
+      "bytes": 3862
+    },
+    {
+      "path": "source_snapshots/rejected/NOGO_UNITARY_DILATION.md",
+      "sha256": "32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02",
+      "git_blob_sha": "28e4a7342cc4be05024372e2cc684eec8651b363",
+      "bytes": 4755
+    },
+    {
+      "path": "source_snapshots/rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md",
+      "sha256": "d39cafd719b4e71d2190c1f46e0902662572bb1c963ad9ac71645990fdc09842",
+      "git_blob_sha": "271b8bf5ceb89f20eb2a074c1093235673ca5fc7",
+      "bytes": 11419
+    },
+    {
+      "path": "source_snapshots/rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md",
+      "sha256": "b0d6cdac5ba08ac3c15c7b700442c1770a5b1b23370000269b6062fae08f6cb7",
+      "git_blob_sha": "f129753c2f5d1d69f6e2c4932b83684be4cb1df4",
+      "bytes": 4155
+    },
+    {
+      "path": "source_snapshots/rejected/PROVENANCE_TENSOR_DELTA.md",
+      "sha256": "8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60",
+      "git_blob_sha": "3e9d1b532d7ef084dcd2d2cda84beb7f8c8ab761",
+      "bytes": 5253
+    },
+    {
+      "path": "source_snapshots/rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md",
+      "sha256": "06843104c9130ae24fd4cd0f952455fbe3b9b0430dc4fc8013f5ebdc0c561e2d",
+      "git_blob_sha": "3ce04142be6c455f0b5e73b30559dfba594a7b5b",
+      "bytes": 3075
+    },
+    {
+      "path": "source_snapshots/rejected/RANDOMIZED_DELTA_SURVIVAL.md",
+      "sha256": "bc362fbd5d7953076377038f1a3110e1d415d4eb6334a3be157484ea7ec97c34",
+      "git_blob_sha": "bd4678f6207451503b45280b5b4cfa4a74d64f11",
+      "bytes": 4099
+    },
+    {
+      "path": "source_snapshots/rejected/RANK_REVEALING_CONSTRAINT_DELTA.md",
+      "sha256": "9b4cc3385c85120d1f7af7d946ac9ed03692c8b32eed736706c25f08ffeaa83d",
+      "git_blob_sha": "d8e0e1be548abff9e7ef80a508419a9371493204",
+      "bytes": 3462
+    },
+    {
+      "path": "source_snapshots/rejected/RECIPROCAL_CYCLE_DELTA.md",
+      "sha256": "9d2de803f383c539eed8e4a04accc5367e1b9654d680899d90103c24bc367a35",
+      "git_blob_sha": "500f1d7300f93f741cd0c429cc8a04e538e7e275",
+      "bytes": 4400
+    },
+    {
+      "path": "source_snapshots/rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+      "sha256": "71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a",
+      "git_blob_sha": "17aa496fd68fc381b572c1181890f4a8f201a2c5",
+      "bytes": 5512
+    },
+    {
+      "path": "source_snapshots/rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md",
+      "sha256": "455ca60d940f17da9de6ff6f0f122a2d3bbc45848e130e0477627d3fe144d3d4",
+      "git_blob_sha": "f4f0b87b2aeaa575b158ba74863e7beccdc746d0",
+      "bytes": 5858
+    },
+    {
+      "path": "source_snapshots/rejected/SET_VALUED_DELTA_ENVELOPE.md",
+      "sha256": "671c995177df422340156da4481e68802e40205b70c0a77859c0026937f4d662",
+      "git_blob_sha": "2da6a5c72b5f0f396f4cb6aae4dce2cef8f919c2",
+      "bytes": 5281
+    },
+    {
+      "path": "source_snapshots/rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md",
+      "sha256": "eb1fa251d6c5951c17607f7ed8fc609913e80f6da43b7200d3717ad27a8124f4",
+      "git_blob_sha": "efc6ed4b98c7404cd838573cf02261d7d3ac6ddd",
+      "bytes": 2850
+    },
+    {
+      "path": "source_snapshots/rejected/TIME_VARYING_METRIC_LAUNDERING.md",
+      "sha256": "0789930f6f7da6746fef40babd7f753d28e6c6e2e977ff3462bcde70212e9803",
+      "git_blob_sha": "170fcbd1f2f5efea4751feead8f154eb32b2a0d6",
+      "bytes": 4207
+    },
+    {
+      "path": "source_snapshots/rejected/TRANSPORTED_INFLUENCE_LEDGER.md",
+      "sha256": "5c949b4a7802c355c27e755070f667adf1bca987e0ce4f1412d47e8c34b9cbc0",
+      "git_blob_sha": "9e1d0425d31f995d201550b1fe9b72db23b14e57",
+      "bytes": 1933
+    }
+  ]
+}

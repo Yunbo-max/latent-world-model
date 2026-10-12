@@ -1,0 +1,187 @@
+{
+  "suite": "legacy-controls",
+  "seed": 2,
+  "checks": [
+    {
+      "id": "legacy.oblique-exact-singular-values",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 2.220446049250313e-16,
+        "norm": 1.0488181071698017
+      },
+      "source_refs": [
+        "rejected/NOGO_OBLIQUE_03.md"
+      ],
+      "interpretation": "The independent2D block and full SVD agree; bare oblique erase expands.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.spd-nondegenerate-certificate",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "slack_error": 7.195067539997724e-16,
+        "min_eigen_H": 0.4773971945466304,
+        "min_eigen_slack": -1.1102230246251565e-16
+      },
+      "source_refs": [
+        "rejected/LYAPUNOV_OBLIQUE_METRIC.md"
+      ],
+      "interpretation": "Nonzero w,r with0<c<=2 support the scoped construction.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.spd-zero-factor-assumption-gap",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "certificate_exists": true,
+        "stated_c_condition": false,
+        "c": 0.0,
+        "slack_norm": 0.0
+      },
+      "source_refs": [
+        "rejected/LYAPUNOV_OBLIQUE_METRIC.md"
+      ],
+      "interpretation": "Concrete boundary counterexample to an unqualified iff. Repair: handle wr^T=0 separately,or explicitly require both factors nonzero.",
+      "claim_status": "archived_statement_needs_degeneracy_clause"
+    },
+    {
+      "id": "legacy.affine-write-order-gap",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "formula_error": 6.798699777552591e-17,
+        "gap_norm": 0.282533956753326
+      },
+      "source_refs": [
+        "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
+      ],
+      "interpretation": "Commuting homogeneous factors do not make affine writes commute.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.exact-flow-delta-equivalence",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 3.1401849173675503e-16
+      },
+      "source_refs": [
+        "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md"
+      ],
+      "interpretation": "Matrix exponential integration and scalar-gated Delta agree on a frozen local target.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.unitary-reused-slot",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "first_primary": 0.6,
+        "second_primary": 1.0,
+        "intended_second": 0.36
+      },
+      "source_refs": [
+        "rejected/NOGO_UNITARY_DILATION.md"
+      ],
+      "interpretation": "Reusing the same auxiliary slot returns erased content; a one-step unitary dilation does not reproduce all powers.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.tensor-address-interference",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 5.977248957601839e-17
+      },
+      "source_refs": [
+        "rejected/PROVENANCE_TENSOR_DELTA.md"
+      ],
+      "interpretation": "Direct tensor addressing matches product interference; added provenance coordinates are not free.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "legacy.frozen-affine-rollback",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 3.3306690738754696e-16
+      },
+      "source_refs": [
+        "rejected/RETROACTIVE_ROLLBACK_DELTA.md"
+      ],
+      "interpretation": "Transported subtraction restores the no-write branch only for the common affine path.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "D01.shared-affine-mixture",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 1.1102230246251565e-16
+      },
+      "source_refs": [
+        "cards/D01.json"
+      ],
+      "interpretation": "Exact common-path mixture identity,not evidence of novelty.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "D03.inverse-metric-kkt",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 5.551115123125783e-17,
+        "constraint_error": 0.0
+      },
+      "source_refs": [
+        "cards/D03.json"
+      ],
+      "interpretation": "Independent equality-constrained quadratic optimum; metric existence/causal estimation not tested.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "D06.logdet-lower-bound",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "min_singular": 0.7148539528114506,
+        "lower_bound": 0.59049
+      },
+      "source_refs": [
+        "cards/D06.json"
+      ],
+      "interpretation": "Bound holds for this positive determinant contraction path; utility/semantics are outside scope.",
+      "claim_status": "numerically_supported"
+    },
+    {
+      "id": "D07.source-survival-factorization",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 0.0
+      },
+      "source_refs": [
+        "cards/D07.json"
+      ],
+      "interpretation": "Source norm diagnostic does not establish query visibility or valid-knowledge retention.",
+      "claim_status": "numerically_supported"
+    }
+  ],
+  "elapsed_seconds": 0.005683082000359718,
+  "data_kind": "constructed mathematical diagnostic"
+}

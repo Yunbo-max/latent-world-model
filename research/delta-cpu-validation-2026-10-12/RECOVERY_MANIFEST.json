@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "4203cdd4c4a2031b075c9790eedc105e60d2a4fb00db5299351ffbf8f517577c",
+  "base64_file_sha256": "aca1f1c322b293478b881b1698cc72cb82a96be03e3a252982ac187071e179c6",
+  "archive_bytes": 1655788,
+  "members": 356,
+  "execution_root": "/workspace/scratch/99b5aeb15819/research/delta-cpu-validation-2026-10-12",
+  "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "status": "first_batch_completed;all_command_attempts_settled;overall_goal_open",
+  "restore_note": "Reconcile live runner/supervisor identity;restore same task,counters,and source;do not automatically init a new goal",
+  "created_at_utc": "2026-10-12T09:18:38.765321+00:00"
+}

@@ -1,0 +1,3703 @@
+{
+  "phase": "first CPU numerical verification batch",
+  "scope": "constructed diagnostics,not language-model/native benchmark or originality validation",
+  "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "recorded_at_utc": "2026-10-12T09:15:50.302585+00:00",
+  "distinct_numerical_checks": 65,
+  "source_integrity_checks": 1,
+  "status_counts": {
+    "passed": 65,
+    "failed": 0,
+    "inconclusive": 0
+  },
+  "repair_lineages_represented": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20"
+  ],
+  "successful_result_commands": 15,
+  "result_inventory": [
+    {
+      "path": "results/feedback-seed-0-v2.json",
+      "suite": "feedback",
+      "seed": 0,
+      "sha256": "8d034dce9bec88e0718db0426f3808306b2b4beb3ffbe43c6f2eae48b57f0642",
+      "check_count": 5,
+      "failures": []
+    },
+    {
+      "path": "results/feedback-seed-1-v3.json",
+      "suite": "feedback",
+      "seed": 1,
+      "sha256": "21e2176a5c41995093dc031fd41e0a50807c7ae918cb90de5d384a03a9060860",
+      "check_count": 5,
+      "failures": []
+    },
+    {
+      "path": "results/feedback-seed-2-v3.json",
+      "suite": "feedback",
+      "seed": 2,
+      "sha256": "625d3783480cfdee5af996136677ca832dbc64d883fe87c1f215e5714f742f10",
+      "check_count": 5,
+      "failures": []
+    },
+    {
+      "path": "results/legacy-seed-0-v1.json",
+      "suite": "legacy-controls",
+      "seed": 0,
+      "sha256": "88e55e441eca5a063aaeba010582c84952cda6dbbc05d5702d19bb8ccd1f3041",
+      "check_count": 12,
+      "failures": []
+    },
+    {
+      "path": "results/statistics-seed-0-v1.json",
+      "suite": "delta_cpu_statistics",
+      "seed": 0,
+      "sha256": "cb8bad7c9af0451e172171f6854323e9c0d54373774030ed1a7b8d5f83260542",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/algebra-seed-0-v1.json",
+      "suite": "delta_pinned_algebra_fp64_v1",
+      "seed": 0,
+      "sha256": "4a0e62a1429dfff45125f21674fb5540e0644e79cdc4e90fac7bb027e8fd308b",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/algebra-seed-1-v2.json",
+      "suite": "delta_pinned_algebra_fp64_v1",
+      "seed": 1,
+      "sha256": "6516d9fd6782cc26200f76a959ccb4cde4a5a299c702ef429478313f84387f2a",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/algebra-seed-2-v2.json",
+      "suite": "delta_pinned_algebra_fp64_v1",
+      "seed": 2,
+      "sha256": "af50733af5e6f9ed918ac0d8780aced492eca712b79c40d0cee44570fcb8615b",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/legacy_controls-seed-1-v2.json",
+      "suite": "legacy-controls",
+      "seed": 1,
+      "sha256": "a0c168ee0bce3dd383a3fa6f3fa82fb2bed00941ad2830ecc6498117adffb5be",
+      "check_count": 12,
+      "failures": []
+    },
+    {
+      "path": "results/legacy_controls-seed-2-v2.json",
+      "suite": "legacy-controls",
+      "seed": 2,
+      "sha256": "eb3701ee6e441211091d7d80ad747db24637801a9820f4fbb65e88eb1e2eeef5",
+      "check_count": 12,
+      "failures": []
+    },
+    {
+      "path": "results/algebra-seed-3-v3.json",
+      "suite": "delta_pinned_algebra_fp64_v1",
+      "seed": 3,
+      "sha256": "5eebd886ae96b54d1e4b75bc104544322d8d5dc58c20db8a3e37ccffe9fa586d",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/feedback-seed-0-v4.json",
+      "suite": "feedback",
+      "seed": 0,
+      "sha256": "a02041235ee55bbe7cc5dafd3cd3083a44cf06d2a9055668bda8847ff29a5c57",
+      "check_count": 6,
+      "failures": []
+    },
+    {
+      "path": "results/feedback-seed-1-v4.json",
+      "suite": "feedback",
+      "seed": 1,
+      "sha256": "6838220612af079e82926b3d349f82e4778db65bfa87cb331bb66c497ada3e8b",
+      "check_count": 6,
+      "failures": []
+    },
+    {
+      "path": "results/statistics-seed-1-v2.json",
+      "suite": "delta_cpu_statistics",
+      "seed": 1,
+      "sha256": "c00a468e3831106cdbaaa917359db5ab1f5a16fd43c805ade22d7ea5239059ee",
+      "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/statistics-seed-2-v2.json",
+      "suite": "delta_cpu_statistics",
+      "seed": 2,
+      "sha256": "69b40ab524ca578fe17d51db9e1b4976fb2d037e503fdd5853ecd9f2ee1807f0",
+      "check_count": 24,
+      "failures": []
+    }
+  ],
+  "latest_check_evidence": [
+    {
+      "id": "feedback.local-zero-later-positive",
+      "lineage": "R03",
+      "scope": "constructed two-step scalar-gate Delta counterexample",
+      "status": "passed",
+      "metrics": {
+        "witness": {
+          "gamma": 1.0,
+          "beta": 1.0,
+          "immediate_damage": 0.0,
+          "later_damage": 0.053388066758518156,
+          "new_write_residual": 0.0
+        },
+        "grid": [
+          {
+            "gamma": 0.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 0.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 0.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 0.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 6.249895834809293e-06,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 0.1,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0001561849188835528,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 0.1,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0006239598071080335,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0006239598071080335,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 1.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.014996287798405518,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 1.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.053388066758518156,
+            "new_write_residual": 0.0
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.1,
+            "immediate_damage": 0.0,
+            "later_damage": 0.00973925425847085,
+            "new_write_residual": 0.81
+          },
+          {
+            "gamma": 4.0,
+            "beta": 0.5,
+            "immediate_damage": 0.0,
+            "later_damage": 0.14500641459649338,
+            "new_write_residual": 0.25
+          },
+          {
+            "gamma": 4.0,
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.2323372937867089,
+            "new_write_residual": 0.0
+          }
+        ]
+      },
+      "source_refs": [
+        "repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md"
+      ],
+      "interpretation": "A zero local protected displacement does not certify zero later displacement when a later gate reads the edited state. This refutes only the local-to-global extension.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "git_blob_sha": "aa1fd95d740093f944ef0611692df0175ef61572"
+        }
+      ]
+    },
+    {
+      "id": "feedback.future-gate-derivative",
+      "lineage": "STEP2",
+      "scope": "complete two-step output sensitivity versus frozen gate",
+      "status": "passed",
+      "metrics": {
+        "finite_difference": 0.3985196846689742,
+        "complete_derivative": 0.39851968468229415,
+        "frozen_derivative": 0.0,
+        "absolute_error": 1.3319956249091547e-11,
+        "step": 1e-05
+      },
+      "source_refs": [
+        "STEP2_COUPLED_UPDATER_STABILITY.md"
+      ],
+      "interpretation": "Finite differences detect the gate-feedback term missed by a frozen future gate.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_COUPLED_UPDATER_STABILITY.md",
+          "sha256": "70f3cff118db5699a67dd9cf808157d16779acc6b5f57ea6edadd3a620629d4b",
+          "git_blob_sha": "0789617d97cd5270a8bca8e7d887a5a4acffc681"
+        }
+      ]
+    },
+    {
+      "id": "feedback.matrixfree-8x16",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 2.6579811805673074e-16,
+        "dk": 8,
+        "dv": 16
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "git_blob_sha": "789d4f08367f180d6020e525358216f4bbdfb1c0"
+        }
+      ]
+    },
+    {
+      "id": "feedback.matrixfree-16x32",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 4.08433641001524e-16,
+        "dk": 16,
+        "dv": 32
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "git_blob_sha": "789d4f08367f180d6020e525358216f4bbdfb1c0"
+        }
+      ]
+    },
+    {
+      "id": "feedback.matrixfree-32x32",
+      "lineage": "R01",
+      "scope": "same declared linearized Delta gate map",
+      "status": "passed",
+      "metrics": {
+        "relative_error": 4.569078458786262e-16,
+        "dk": 32,
+        "dv": 32
+      },
+      "source_refs": [
+        "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md"
+      ],
+      "interpretation": "Agreement with an explicitly formed Jacobian in C-order coordinates; not a new algorithm claim.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "git_blob_sha": "789d4f08367f180d6020e525358216f4bbdfb1c0"
+        }
+      ]
+    },
+    {
+      "id": "legacy.oblique-exact-singular-values",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 2.220446049250313e-16,
+        "norm": 1.0488181071698017
+      },
+      "source_refs": [
+        "rejected/NOGO_OBLIQUE_03.md"
+      ],
+      "interpretation": "The independent2D block and full SVD agree; bare oblique erase expands.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/NOGO_OBLIQUE_03.md",
+          "sha256": "53d01b03262fbdce306c3021847efc849b9c946ca24a3db20e6846641666890d",
+          "git_blob_sha": "916b7b061a629849294a61980e2236ea501f17c3"
+        }
+      ]
+    },
+    {
+      "id": "legacy.spd-nondegenerate-certificate",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "slack_error": 7.195067539997724e-16,
+        "min_eigen_H": 0.4773971945466304,
+        "min_eigen_slack": -1.1102230246251565e-16
+      },
+      "source_refs": [
+        "rejected/LYAPUNOV_OBLIQUE_METRIC.md"
+      ],
+      "interpretation": "Nonzero w,r with0<c<=2 support the scoped construction.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/LYAPUNOV_OBLIQUE_METRIC.md",
+          "sha256": "c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6",
+          "git_blob_sha": "587c778b068368eeeba7b39a8abcca92dd805033"
+        }
+      ]
+    },
+    {
+      "id": "legacy.spd-zero-factor-assumption-gap",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "certificate_exists": true,
+        "stated_c_condition": false,
+        "c": 0.0,
+        "slack_norm": 0.0
+      },
+      "source_refs": [
+        "rejected/LYAPUNOV_OBLIQUE_METRIC.md"
+      ],
+      "interpretation": "Concrete boundary counterexample to an unqualified iff. Repair: handle wr^T=0 separately,or explicitly require both factors nonzero.",
+      "claim_status": "archived_statement_needs_degeneracy_clause",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/LYAPUNOV_OBLIQUE_METRIC.md",
+          "sha256": "c82ed50bee17c6cb48bfc463cc690913a6ba5d11121be126e65b0334a2a20fd6",
+          "git_blob_sha": "587c778b068368eeeba7b39a8abcca92dd805033"
+        }
+      ]
+    },
+    {
+      "id": "legacy.affine-write-order-gap",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "formula_error": 6.798699777552591e-17,
+        "gap_norm": 0.282533956753326
+      },
+      "source_refs": [
+        "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md"
+      ],
+      "interpretation": "Commuting homogeneous factors do not make affine writes commute.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md",
+          "sha256": "fd1cdd88616a156ee2d8e7cc5f85bc4f0417c6bde06eed27882d78974d777920",
+          "git_blob_sha": "c184a1617ff404766edc0f5bd73ffec007c25a3a"
+        }
+      ]
+    },
+    {
+      "id": "legacy.exact-flow-delta-equivalence",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 3.1401849173675503e-16
+      },
+      "source_refs": [
+        "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md"
+      ],
+      "interpretation": "Matrix exponential integration and scalar-gated Delta agree on a frozen local target.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md",
+          "sha256": "a24481eaab8cc547f53fdb10c98bbf24028fcaa648359918e4e269337b253f37",
+          "git_blob_sha": "ed2d603444ce89d91210f11e39f5ff2cf9aa492a"
+        }
+      ]
+    },
+    {
+      "id": "legacy.unitary-reused-slot",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "first_primary": 0.6,
+        "second_primary": 1.0,
+        "intended_second": 0.36
+      },
+      "source_refs": [
+        "rejected/NOGO_UNITARY_DILATION.md"
+      ],
+      "interpretation": "Reusing the same auxiliary slot returns erased content; a one-step unitary dilation does not reproduce all powers.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/NOGO_UNITARY_DILATION.md",
+          "sha256": "32cf30ee7ba075237d8e3797fff0b5664d8b05ed6d5debffdcbe8cb1bc583e02",
+          "git_blob_sha": "28e4a7342cc4be05024372e2cc684eec8651b363"
+        }
+      ]
+    },
+    {
+      "id": "legacy.tensor-address-interference",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 5.977248957601839e-17
+      },
+      "source_refs": [
+        "rejected/PROVENANCE_TENSOR_DELTA.md"
+      ],
+      "interpretation": "Direct tensor addressing matches product interference; added provenance coordinates are not free.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/PROVENANCE_TENSOR_DELTA.md",
+          "sha256": "8ff2c9afc12064f66c0e02503a4d1a231a53c18b3b2da72fed8d237cbf19fd60",
+          "git_blob_sha": "3e9d1b532d7ef084dcd2d2cda84beb7f8c8ab761"
+        }
+      ]
+    },
+    {
+      "id": "legacy.frozen-affine-rollback",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 3.3306690738754696e-16
+      },
+      "source_refs": [
+        "rejected/RETROACTIVE_ROLLBACK_DELTA.md"
+      ],
+      "interpretation": "Transported subtraction restores the no-write branch only for the common affine path.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/rejected/RETROACTIVE_ROLLBACK_DELTA.md",
+          "sha256": "71f4a7da68d049827fde99c3f654c6227bcca8ca3b6e3efda87c9f574b92884a",
+          "git_blob_sha": "17aa496fd68fc381b572c1181890f4a8f201a2c5"
+        }
+      ]
+    },
+    {
+      "id": "D01.shared-affine-mixture",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 1.1102230246251565e-16
+      },
+      "source_refs": [
+        "cards/D01.json"
+      ],
+      "interpretation": "Exact common-path mixture identity,not evidence of novelty.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/cards/D01.json",
+          "sha256": "17fa5b13fee3a7e4eddbd32db5c194c5ea31b3454012584536a4877953d2858a",
+          "git_blob_sha": "121cb8a506c161fef2f91d4e049b80822e08fbe2"
+        }
+      ]
+    },
+    {
+      "id": "D03.inverse-metric-kkt",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 5.551115123125783e-17,
+        "constraint_error": 0.0
+      },
+      "source_refs": [
+        "cards/D03.json"
+      ],
+      "interpretation": "Independent equality-constrained quadratic optimum; metric existence/causal estimation not tested.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/cards/D03.json",
+          "sha256": "6c68caa31fa67249ad0ae1b062ae57fd9ae5e65ce01794fb28126955cce51891",
+          "git_blob_sha": "4554576277990dc66c3a5fd0dcb6307ef8e608fa"
+        }
+      ]
+    },
+    {
+      "id": "D06.logdet-lower-bound",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "min_singular": 0.7148539528114506,
+        "lower_bound": 0.59049
+      },
+      "source_refs": [
+        "cards/D06.json"
+      ],
+      "interpretation": "Bound holds for this positive determinant contraction path; utility/semantics are outside scope.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/cards/D06.json",
+          "sha256": "e0bee0175ff1997f2fa9d41699056bbac693b6a82452de6c20037c77cbc025b7",
+          "git_blob_sha": "687a2b8b217af3ea1b1231f935ba05ea4ae75f15"
+        }
+      ]
+    },
+    {
+      "id": "D07.source-survival-factorization",
+      "lineage": "historical/control",
+      "scope": "constructed mathematical diagnostic",
+      "status": "passed",
+      "metrics": {
+        "error": 0.0
+      },
+      "source_refs": [
+        "cards/D07.json"
+      ],
+      "interpretation": "Source norm diagnostic does not establish query visibility or valid-knowledge retention.",
+      "claim_status": "numerically_supported",
+      "result_ref": "results/legacy_controls-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/cards/D07.json",
+          "sha256": "8ba40813d2ac0718a476e10d6c3b9b36370f5a9dc548f5815bbaf81232519e32",
+          "git_blob_sha": "3bc9f6afcb6dc11a974a07fc4cdec2c810b5a33e"
+        }
+      ]
+    },
+    {
+      "id": "statistics-assigned-source-integrity",
+      "lineage": [
+        "R02",
+        "R03",
+        "R05",
+        "R08",
+        "R14",
+        "R15",
+        "R17",
+        "R19",
+        "query_weighted_rate_distortion",
+        "compound_query_hedge",
+        "active_evidence"
+      ],
+      "scope": "Pinned source integrity; read-only byte hashes",
+      "status": "passed",
+      "metrics": {
+        "source_matches_manifest": {
+          "R02": true,
+          "R03": true,
+          "R05": true,
+          "R08": true,
+          "R14": true,
+          "R15": true,
+          "R17": true,
+          "R19": true,
+          "query_weighted_rate_distortion": true,
+          "compound_query_hedge": true,
+          "active_evidence": true
+        },
+        "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+          "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+          "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "The numerical audit is bound to the assigned latest pinned source bytes.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+          "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+          "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        },
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R02-aipw-sharp-identifiability",
+      "lineage": "R02",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "enumerated_aipw_expectations": [
+          0.75,
+          0.7499999999999999,
+          0.75,
+          0.75
+        ],
+        "target_mean": 0.5,
+        "bias": 0.25,
+        "sharp_cs_bound": 0.25,
+        "observational_joint_law_max_gap": 0.0,
+        "second_world_target_mean": 0.8333333333333333,
+        "elapsed_seconds": 0.00039601600019523175,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Sharp covariance bias is reproduced; equal quotient observational laws leave the target mean unidentified.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R02-uniform-value-bound",
+      "lineage": "R02",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "horizon": 3,
+        "full_path_count_per_initial_state": 512,
+        "bellman_vs_path_max_gap": 4.440892098500626e-16,
+        "uniform_reward_defects": [
+          0.34456109094469545,
+          0.4195513200902652,
+          0.24526897008822868
+        ],
+        "conventional_tv_defects": [
+          0.29574051075040214,
+          0.24257593784226977,
+          0.2524284198538787
+        ],
+        "value_errors": [
+          0.24277225211106335,
+          0.3166636663940061,
+          0.18329864479274272,
+          0.0
+        ],
+        "ordered_bound": [
+          1.4182892235730058,
+          0.809827246434664,
+          0.24526897008822868,
+          0.0
+        ],
+        "elapsed_seconds": 0.0017890580002131173,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Independent finite-path enumeration supports the target-policy abstraction bound under uniform reachable defects.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R02-overlap-occupancy-coefficient-boundaries",
+      "lineage": "R02",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "coarse_propensity": 0.5,
+        "missing_pointwise_propensity": 0.0,
+        "behavior_average_defect": 0.0198,
+        "target_value_error": 0.99,
+        "same_quotient_gate_leakage": 1.2000000000000002,
+        "elapsed_seconds": 0.00010572700011834968,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Expected boundary: coarse overlap, behavior-average calibration, and equal SW alone do not satisfy the stronger certificate assumptions.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md",
+          "sha256": "5d6d1894eeec0d5bd4ecb72c22cfeeefbadaa50e7ee8cc7ab5030280a3ef75c6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R03-v3-full-law-wasserstein",
+      "lineage": "R03",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "transport_lp_kappa": 0.45000000000000007,
+        "transport_lp_epsilon": 0.345,
+        "actual_w1": [
+          1.0,
+          0.7275,
+          0.5947875000000002,
+          0.5392061250000001,
+          0.5162848340625,
+          0.5068126867171876
+        ],
+        "envelope": [
+          1.0,
+          0.795,
+          0.70275,
+          0.6612375,
+          0.642556875,
+          0.63415059375
+        ],
+        "protected_loss_gap": 0.20272507468687503,
+        "loss_lipschitz_bound": 0.20272507468687506,
+        "metric_rescaling_product_gap": 2.7755575615628914e-17,
+        "elapsed_seconds": 0.016670884999257396,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Full finite Markov laws and independent transport LPs support R03 v3; the loss-compatible product is invariant to metric rescaling.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R03-v3-forcing-safe-logging-feasibility",
+      "lineage": "R03",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "persistent_exact_law_gap": [
+          0.2,
+          0.20000000000000004,
+          0.20000000000000004,
+          0.20000000000000004,
+          0.20000000000000004,
+          0.20000000000000004
+        ],
+        "incorrect_omitted_forcing_envelope": 0.0,
+        "six_step_cumulative_gap": 1.2000000000000002,
+        "propensity_floor": 0.12,
+        "closed_form_minimum_harm": 0.252,
+        "lp_minimum_harm": 0.252,
+        "budgets_feasible_below_at_above_boundary": [
+          false,
+          true,
+          true
+        ],
+        "every_action_safe_possible_at_budget_0": false,
+        "elapsed_seconds": 0.003947922999941511,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Expected boundary: persistent forcing survives contractive kernels; positivity versus expected harm has the exact LP feasibility threshold, distinct from per-action safety.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R05-v4-sharp-coupling-bounds",
+      "lineage": "R05",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "support_endpoint_coupling_cases": [
+          {
+            "p": 0.9,
+            "mean": 0.9,
+            "U": 1.0,
+            "lp_interval": [
+              0.8,
+              0.9
+            ],
+            "formula_interval": [
+              0.8,
+              0.9
+            ]
+          },
+          {
+            "p": 0.1,
+            "mean": 0.1,
+            "U": 1.0,
+            "lp_interval": [
+              0.0,
+              0.1
+            ],
+            "formula_interval": [
+              0,
+              0.1
+            ]
+          },
+          {
+            "p": 0.4,
+            "mean": 0.8,
+            "U": 2.0,
+            "lp_interval": [
+              0.0,
+              0.8
+            ],
+            "formula_interval": [
+              0,
+              0.8
+            ]
+          },
+          {
+            "p": 0.0,
+            "mean": 0.7,
+            "U": 1.0,
+            "lp_interval": [
+              0.0,
+              -0.0
+            ],
+            "formula_interval": [
+              0,
+              0.0
+            ]
+          },
+          {
+            "p": 1.0,
+            "mean": 0.7,
+            "U": 1.0,
+            "lp_interval": [
+              0.7,
+              0.7
+            ],
+            "formula_interval": [
+              0.7,
+              0.7
+            ]
+          }
+        ],
+        "maximum_lp_formula_gap": 0.0,
+        "known_Z_marginal_lp_interval": [
+          0.13499999999999998,
+          0.74
+        ],
+        "quantile_rearrangement_interval": [
+          0.13500000000000006,
+          0.74
+        ],
+        "elapsed_seconds": 0.011746087000574335,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Explicit coupling LPs attain support bounds and fractional-atom quantile bounds; indivisible atoms would require a different feasible coupling set.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R05-v4-contextual-regret-and-safe-gates",
+      "lineage": "R05",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "minimax_regret_gates": [
+          0.8500000000000001,
+          0.25,
+          0.0
+        ],
+        "scalar_optimization_gates": [
+          0.8499999933275267,
+          0.24999999895725875
+        ],
+        "safe_gates": [
+          0.8,
+          0.0,
+          0.0
+        ],
+        "exact_endpoint_worst_regret": 0.0067500000000000025,
+        "formula_integrated_regret": 0.006750000000000001,
+        "safe_worst_baseline_difference": -0.2880000000000001,
+        "pooled_lower_bound": 0,
+        "zero_lower_bound_regret_gate_harm": 0.0125,
+        "nonrectangular_risk": 0.125,
+        "rectangular_outer_risk": 0.25,
+        "elapsed_seconds": 0.0006767020004190272,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "R05 v4 contextual safe gates recover selective surrogate gains, whereas regret gates need not be safe; rectangular ambiguity is substantive.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md",
+          "sha256": "8451497499d6b4a9fb13bbf5aca5464b85c3e27eaca6d50633460738c3acfbaf",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R08-posterior-channel-envelope",
+      "lineage": "R08",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "posterior_law_lp_cases": [
+          {
+            "prior": 0.4,
+            "margin": [
+              0.3,
+              -1.2
+            ],
+            "lawful_support": [
+              0,
+              1
+            ],
+            "lp_information_interval": [
+              -1.474514954580286e-17,
+              0.1800000000000001
+            ],
+            "chord_ceiling": 0.18000000000000002
+          },
+          {
+            "prior": 0.6,
+            "margin": [
+              -0.2,
+              1
+            ],
+            "lawful_support": [
+              0.3,
+              0.8
+            ],
+            "lp_information_interval": [
+              6.938893903907228e-18,
+              6.938893903907228e-18
+            ],
+            "chord_ceiling": 2.7755575615628914e-17
+          },
+          {
+            "prior": 0.5,
+            "margin": [
+              1,
+              0.2
+            ],
+            "lawful_support": [
+              0,
+              1
+            ],
+            "lp_information_interval": [
+              -1.1058862159352145e-16,
+              -6.982261990806649e-17
+            ],
+            "chord_ceiling": 0.0
+          },
+          {
+            "prior": 0,
+            "margin": [
+              -0.2,
+              1
+            ],
+            "lawful_support": [
+              0,
+              1
+            ],
+            "lp_information_interval": [
+              0.0,
+              -0.0
+            ],
+            "chord_ceiling": 0.0
+          },
+          {
+            "prior": 1,
+            "margin": [
+              -0.2,
+              1
+            ],
+            "lawful_support": [
+              0,
+              1
+            ],
+            "lp_information_interval": [
+              0.0,
+              -0.0
+            ],
+            "chord_ceiling": 0.0
+          }
+        ],
+        "maximum_lp_ceiling_gap": 1.1058862159352145e-16,
+        "equal_mean_variance_information_values": [
+          0.19999999999999998,
+          0.1
+        ],
+        "elapsed_seconds": 0.011959542999647965,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Finite posterior-law LPs attain the channel-free/support-restricted envelopes; posterior mean and variance alone do not identify information value.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R08-unsupported-action-and-optional-cost",
+      "lineage": "R08",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "release_minus_keep_interval": [
+          -0.25,
+          0.25
+        ],
+        "two_world_differences": [
+          0.25,
+          -0.25
+        ],
+        "same_keep_only_record_max_gap": 0.0,
+        "optional_measurement_interval": [
+          -0.15000000000000002,
+          0.25
+        ],
+        "double_charging_cost_would_shift_interval_by": -0.1,
+        "elapsed_seconds": 0.00011237600028835004,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Expected boundary: an unsupported release channel reverses the optimal action without changing keep-only records; optional costs are charged once.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R14-coverage-collapse-finite-lp",
+      "lineage": "R14",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "observable_tv": 0.3,
+        "miscoverage_alpha": 0.08,
+        "full_interval_mass_lp": 0.5400000000000003,
+        "collapse_lower_bound": 0.54,
+        "seeded_observable_tv": 0.3,
+        "certificate_randomization_by_symbol": [
+          [
+            0.7714285714285718,
+            0.1142857142857141,
+            0.11428571428571407,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "constant_statistic_tv": 0.0,
+        "elapsed_seconds": 0.001243090000571101,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "The finite observable experiment attains the coverage-collapse bound, including algorithmic randomization and data processing.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R14-overlap-minimax-action-classes",
+      "lineage": "R14",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "continuous_minimax_optimization": 0.11999999999999961,
+        "common_mass_lower_bound": 0.12,
+        "maximum_constraint_violation": 4.3021142204224816e-16,
+        "randomized_hard_minimax_lp": 0.625,
+        "hard_formula": 0.625,
+        "deterministic_hard_minimax": 1.0,
+        "exact_equivalence_continuous_minimax": 0.2,
+        "elapsed_seconds": 0.003741397999874607,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "The overlap experiment reaches the risk floor; hard-action lotteries help in their nonconvex class and do not contradict continuous convex-action results.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md",
+          "sha256": "7656047affe4d7866358cb5b3a568ea27d5effad427b6d93c9cdf45a55c5aa81",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R15-finite-jet-odd-even-ambiguity",
+      "lineage": "R15",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "odd_even_cases": [
+          {
+            "p": 0,
+            "first_omitted_degree": 1,
+            "jets_equal": true,
+            "finite_randomized_action_minimax_lp": 1.6099999999999997,
+            "ambiguity_floor": 1.6099999999999999
+          },
+          {
+            "p": 1,
+            "first_omitted_degree": 2,
+            "jets_equal": true,
+            "finite_randomized_action_minimax_lp": 0.5634999999999999,
+            "ambiguity_floor": 0.5634999999999999
+          },
+          {
+            "p": 2,
+            "first_omitted_degree": 3,
+            "jets_equal": true,
+            "finite_randomized_action_minimax_lp": 0.7888999999999999,
+            "ambiguity_floor": 0.7888999999999997
+          },
+          {
+            "p": 3,
+            "first_omitted_degree": 4,
+            "jets_equal": true,
+            "finite_randomized_action_minimax_lp": 0.2761149999999999,
+            "ambiguity_floor": 0.27611499999999994
+          },
+          {
+            "p": 4,
+            "first_omitted_degree": 5,
+            "jets_equal": true,
+            "finite_randomized_action_minimax_lp": 0.38656099999999993,
+            "ambiguity_floor": 0.3865609999999998
+          }
+        ],
+        "elapsed_seconds": 0.007311252000363311,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Expected boundary: identical complete finite jets admit opposite omitted-term responses; explicit finite mixtures reproduce the odd/even regret floors.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R15-uniform-remainder-degree-growth",
+      "lineage": "R15",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "uniform_third_derivative_envelope": 9.239999999999998,
+        "maximum_exact_polynomial_remainder": 0.18489599999999995,
+        "taylor_remainder_bound": 0.3326399999999999,
+        "taylor_optimizer": 0.36363636363636365,
+        "true_optimizer": 0.29041792699333424,
+        "optimizer_regret": 0.008970587891673043,
+        "two_remainder_regret_bound": 0.6652799999999998,
+        "three_step_delta_proxy_loss_degree": 54,
+        "predicted_loss_degree": 54,
+        "elapsed_seconds": 0.000665253999613924,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Global polynomial extrema verify a supplied remainder envelope; the coupled scalar recurrence independently exhibits exponential degree growth.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md",
+          "sha256": "13cab85d2629935d453b53e8e4d9664d389db94805f8e927f51ebe47f053c2b0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R17-v3-residual-scaled-spectral-gate",
+      "lineage": "R17",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "direct_frozen_output_energy": 0.44314049806394107,
+        "rank_one_identity_energy": 0.4431404980639411,
+        "low_rank_plus_tail_minimum_loewner_slack": -1.915134717478395e-15,
+        "tight_eigen_tail_minimum_slack": -1.3923840234526807e-15,
+        "safe_gate": 0.33166247903553997,
+        "budget": 0.5220404117269786,
+        "actual_safe_energy": 0.3046590924189593,
+        "missing_tail_reported_score": 1.0154342090155171e-32,
+        "missing_tail_true_score": 3.545928926676093,
+        "zero_residual_action_score": 0.0,
+        "zero_residual_update_energy": 0.0,
+        "zero_residual_safe_gate": 1.0,
+        "nonzero_residual_orthogonal_score": 0.0,
+        "nonzero_residual_orthogonal_update_energy": 0.0,
+        "nonzero_residual_orthogonal_safe_gate": 1.0,
+        "zero_score_branches_added_after_initial_review": true,
+        "elapsed_seconds": 0.0004322200002206955,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+          "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "R17 v3 residual-scaled energy and safe gate hold in frozen trajectories, including computed zero-score branches; omitting the spectral tail creates an explicit unsafe direction.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+          "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "R19-finite-field-actual-graph-enumeration",
+      "lineage": "R19",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "full_space_prime_field_cases": [
+          {
+            "prime": 2,
+            "full_domain_size": 4,
+            "quotient_rank": 2,
+            "rank_message_count": 4,
+            "exhaustive_graph_chromatic_number": 4,
+            "syndrome_symbols": 2,
+            "all_states_branches_decode": true,
+            "minimum_fixed_length_bits": 2
+          },
+          {
+            "prime": 2,
+            "full_domain_size": 8,
+            "quotient_rank": 1,
+            "rank_message_count": 2,
+            "exhaustive_graph_chromatic_number": 2,
+            "syndrome_symbols": 1,
+            "all_states_branches_decode": true,
+            "minimum_fixed_length_bits": 1
+          },
+          {
+            "prime": 3,
+            "full_domain_size": 9,
+            "quotient_rank": 1,
+            "rank_message_count": 3,
+            "exhaustive_graph_chromatic_number": 3,
+            "syndrome_symbols": 1,
+            "all_states_branches_decode": true,
+            "minimum_fixed_length_bits": 2
+          },
+          {
+            "prime": 3,
+            "full_domain_size": 9,
+            "quotient_rank": 0,
+            "rank_message_count": 1,
+            "exhaustive_graph_chromatic_number": 1,
+            "syndrome_symbols": 0,
+            "all_states_branches_decode": true,
+            "minimum_fixed_length_bits": 0
+          }
+        ],
+        "singleton_actual_message_count": 1,
+        "singleton_ambient_rank_message_count": 2,
+        "elapsed_seconds": 0.0013191119996918133,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+          "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Actual finite-domain confusability coloring and exhaustive syndrome decoding reproduce q^r; ambient ranks overcount a restricted singleton domain.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md",
+          "sha256": "ea932cd7350806d52d66f2fd243f9d9e23a849dabfae438ce10183e34c40fc49",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "QWRD-observation-and-query-assumptions",
+      "lineage": "query_weighted_rate_distortion",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "zero_bit_total_distortion": 2.5,
+        "irreducible_observation_distortion": 0.5,
+        "zero_bit_excess_coding_distortion": 2.0,
+        "orthogonality_cross_term": 0.0,
+        "one_bit_distortion": 0.5,
+        "state_dependent_query_actual_distortion": 8.5,
+        "invalid_average_gram_prediction": 6.25,
+        "elapsed_seconds": 0.0001879479996205191,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Exact finite joint enumeration separates observation from bit error; state-dependent query second moments invalidate a fixed average Gram.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "QWRD-gaussian-converse-codebook-quadrature",
+      "lineage": "query_weighted_rate_distortion",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "gaussian_eigenvalues": [
+          4.0,
+          1.0,
+          0.25
+        ],
+        "rate_bits": 2.3,
+        "water_level": 0.4061261981781177,
+        "waterfill_allocation": [
+          1.6500000000000001,
+          0.6500000000000001,
+          0.0
+        ],
+        "shannon_distortion_formula": 1.0622523963562354,
+        "independent_rate_optimization_distortion": 1.0622523963562354,
+        "scalar_quantizer_bits": 3,
+        "scalar_actual_quadrature_distortion": 0.044440567275010695,
+        "quadrature_error_estimate": 2.053279172020818e-15,
+        "scalar_shannon_converse": 0.015625,
+        "clipping_quantization_upper_bound": 0.1299496651640745,
+        "tail_formula": 0.002398644755911228,
+        "tail_quadrature": 0.002398644755911273,
+        "binary_same_covariance_one_bit_distortion": 0.0,
+        "invalid_gaussian_export_lower_bound": 0.25,
+        "elapsed_seconds": 0.019939304000217817,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Independent convex allocation and exact codebook quadrature support the Gaussian converse and constructive upper bound; covariance alone does not justify Gaussian RDF.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "QWRD-compatible-recursion-finite-fano",
+      "lineage": "query_weighted_rate_distortion",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "compatible_kernel_defect": 0.0,
+        "root_mse_actual": 0.8692525524840292,
+        "root_mse_bound": 0.8698265746061196,
+        "bridge_prior_distortion": 0.0,
+        "bridge_next_distortions": [
+          2.0,
+          200.0,
+          20000.0
+        ],
+        "enumerated_encoders": 16,
+        "best_one_bit_two_coordinate_symbol_error": 0.25,
+        "fano_required_bits_at_that_error": 0.37744375108173434,
+        "zero_error_message_count": 4,
+        "elapsed_seconds": 0.0006789749995732564,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "The seminorm recursion requires kernel compatibility; an invisible bridge direction yields unbounded next distortion. A finite encoder enumeration supports the coordinate Fano boundary.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+          "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "compound-hedge-convex-reference",
+      "lineage": "compound_query_hedge",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "prior": [
+          0.6,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "cache_bits_per_source_vector": 1.7,
+        "delivery_bits": 0.4,
+        "bayesian_cache_allocation": [
+          1.0999999999999999,
+          0.5999999999999998,
+          0.0,
+          0.0
+        ],
+        "bayesian_formula_distortion": 0.26966539307480736,
+        "independent_allocation_optimization": 0.26966539307480725,
+        "minimax_formula": 0.3403705899167037,
+        "minimax_epigraph_optimization": 0.340370589916704,
+        "fresh_reencoding_distortion": 0.07073223326781009,
+        "immutable_prefix_distortion_ratio": 4.812100144328467,
+        "rate_tax": 1.1333333333333335,
+        "elapsed_seconds": 0.0031601380005668034,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Convex references recover the Bayesian and minimax Gaussian cache boundaries, including aggregate-rate units and the fresh-encoding comparison.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "compound-hedge-information-boundaries",
+      "lineage": "compound_query_hedge",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "retained_message_only_refinement_mappings_per_query": 9,
+        "largest_added_source_information_bits": 0.0,
+        "perfectly_correlated_common_source_distortion": 0.125,
+        "invalid_independent_coordinate_prediction": 0.25,
+        "one_coordinate_hedge_tax": 0.0,
+        "zero_cache_hedge_tax": 0.0,
+        "elapsed_seconds": 0.00011249699946347391,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Expected boundaries: a retained-message-only delivery cannot refine information; independent-coordinate formulas do not apply to correlated sources.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+          "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "active-evidence-immediate-cross-term",
+      "lineage": "active_evidence",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "normalized_delta_read_identity_max_gap": 4.440892098500626e-16,
+        "old_loss_linear_coefficient": -0.2931098571174192,
+        "old_loss_quadratic_coefficient": 0.10420357854197088,
+        "direct_old_loss_differences": [
+          0.0,
+          -0.028789967819032203,
+          -0.10890765656360979,
+          -0.24100806784643392
+        ],
+        "complete_expansion": [
+          0.0,
+          -0.028789967819032068,
+          -0.10890765656361003,
+          -0.24100806784643378
+        ],
+        "omitted_cross_term_error_at_full_write": 0.2931098571174193,
+        "elapsed_seconds": 0.00020274999951652717,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Direct protected-loss evaluation verifies the normalized Delta expansion; noncentered protected residuals make displacement-only stakes incomplete.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "active-evidence-soft-hard-blackwell",
+      "lineage": "active_evidence",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "posterior_mean": 0.23,
+        "prior": 0.23,
+        "soft_actions_formula": [
+          0.2012965964343598,
+          0.801290322580645
+        ],
+        "independent_scalar_actions": [
+          0.2012965994201041,
+          0.8012903225806451
+        ],
+        "no_probe_soft_risk": 0.3092449474535166,
+        "probe_soft_risk": 0.19791793046478803,
+        "garbled_probe_soft_risk": 0.29143271273951205,
+        "hard_risk_integral": 0.24740000000000006,
+        "weak_informative_posteriors": [
+          0.06896551724137931,
+          0.14285714285714285
+        ],
+        "weak_hard_gross_value": 0.0,
+        "weak_soft_gross_value": 0.0013300492610837517,
+        "elapsed_seconds": 0.00031054999999469146,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Exact binary channels support soft Bayes/Blackwell value; informative probes can have zero hard value while having strictly positive soft value.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "active-evidence-minimax-probe-cost",
+      "lineage": "active_evidence",
+      "scope": "Constructed deterministic numerical diagnostic; not a public benchmark, deployment certificate, or proof",
+      "status": "passed",
+      "metrics": {
+        "no_probe_minimax_action": 0.6475295549105754,
+        "scalar_reference_action": 0.647529553591089,
+        "no_probe_minimax_risk": 0.33543561958615026,
+        "fixed_probe_minimax_epigraph": 0.22497420381549157,
+        "least_favorable_prior": 0.4221625178247464,
+        "least_favorable_bayes_risk": 0.22497420381549404,
+        "symmetric_channel_gross_value": 0.126,
+        "probe_cost_cases": [
+          0.116,
+          0.126,
+          0.136
+        ],
+        "strictly_worthwhile_below_at_above_boundary": [
+          true,
+          false,
+          false
+        ],
+        "elapsed_seconds": 0.0019221449992983253,
+        "fp64_absolute_tolerance": 2e-10,
+        "fp64_relative_tolerance": 2e-09,
+        "convex_optimizer_comparison_tolerance": 2e-06
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "interpretation": "Convex references support the minimax and cost thresholds for a fixed probe; no exchange of probe-selection and prior maximization is assumed.",
+      "result_ref": "results/statistics-seed-2-v2.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+          "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+          "repository_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+          "source_manifest_sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ]
+    },
+    {
+      "id": "A01",
+      "lineage": "R01",
+      "scope": "affine_credit_identity_and_minimal_right_quotient",
+      "status": "passed",
+      "metrics": {
+        "adjoint_step_0_absolute_error": 2.8576114088871287e-16,
+        "adjoint_step_0_relative_error": 1.812794025983212e-16,
+        "adjoint_step_0_allowed_error": 5.152714944917402e-10,
+        "adjoint_step_1_absolute_error": 2.0955000055363631e-16,
+        "adjoint_step_1_relative_error": 1.1108079116832847e-16,
+        "adjoint_step_1_allowed_error": 5.772929565042269e-10,
+        "adjoint_step_2_absolute_error": 2.0584085788909642e-16,
+        "adjoint_step_2_relative_error": 8.818226317271676e-17,
+        "adjoint_step_2_allowed_error": 6.668531980993265e-10,
+        "credit_0_absolute_error": 8.881784197001252e-16,
+        "credit_0_relative_error": 1.4883086280924525e-16,
+        "credit_0_allowed_error": 1.3935406446423587e-09,
+        "credit_1_absolute_error": 1.6653345369377348e-16,
+        "credit_1_relative_error": 5.557353131893344e-16,
+        "credit_1_allowed_error": 2.5993265129690864e-10,
+        "quotient_credit_0_absolute_error": 8.881784197001252e-16,
+        "quotient_credit_0_relative_error": 1.4883086280924525e-16,
+        "quotient_credit_0_allowed_error": 1.3935406446423587e-09,
+        "quotient_credit_1_absolute_error": 2.6645352591003757e-15,
+        "quotient_credit_1_relative_error": 8.891765011029271e-15,
+        "quotient_credit_1_allowed_error": 2.599326512969092e-10,
+        "too_small_quotient_absolute_error": 1.7662073454004183e-15,
+        "too_small_quotient_relative_error": 1.0,
+        "too_small_quotient_allowed_error": 2.0000000000000037e-10,
+        "minimum_right_width": 4,
+        "smaller_width_credit_gap": 0.4419396406447669
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "3-4,7"
+        }
+      ],
+      "interpretation": "Adjoint transport and quotient credits match direct affine rollouts; removing a required right direction loses an ambient credit.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "3-4,7"
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "lineage": "R01",
+      "scope": "boundary_reproduction_zero_coupling_and_prefix_hidden_credit",
+      "status": "passed",
+      "metrics": {
+        "raw_envelope_width": 2,
+        "transported_width": 1,
+        "same_prefix_quotient_absolute_error": 0.0,
+        "same_prefix_quotient_relative_error": 0.0,
+        "same_prefix_quotient_allowed_error": 2e-10,
+        "identity_suffix_credit_gap": 1.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: zero coupling reduces the local envelope, but an arbitrary hidden terminal covector defeats a prefix-chosen proper quotient.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5",
+          "sections": "5-6"
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "lineage": "R04",
+      "scope": "frozen_fast_slow_interfaces_and_joint_risk",
+      "status": "passed",
+      "metrics": {
+        "interface_rollout_0_absolute_error": 9.347697126931793e-16,
+        "interface_rollout_0_relative_error": 3.8507986634820674e-16,
+        "interface_rollout_0_allowed_error": 6.854939426243168e-10,
+        "interface_rollout_1_absolute_error": 3.7471633272114244e-16,
+        "interface_rollout_1_relative_error": 1.7542383752866597e-16,
+        "interface_rollout_1_allowed_error": 6.272125590228411e-10,
+        "interface_rollout_2_absolute_error": 2.914335439641036e-16,
+        "interface_rollout_2_relative_error": 1.4352966805585683e-16,
+        "interface_rollout_2_allowed_error": 6.060951967793692e-10,
+        "interface_rollout_3_absolute_error": 5.179594976956615e-16,
+        "interface_rollout_3_relative_error": 2.707743573731128e-16,
+        "interface_rollout_3_allowed_error": 5.825764763846826e-10,
+        "no_decay_no_effect_absolute_error": 1.3597399555105182e-16,
+        "no_decay_no_effect_relative_error": 1.273146415069052e-16,
+        "no_decay_no_effect_allowed_error": 4.136030765066043e-10,
+        "joint_risk_minimizer_absolute_error": 6.206335383118183e-17,
+        "joint_risk_minimizer_relative_error": 1.8499220033092532e-16,
+        "joint_risk_minimizer_allowed_error": 2.670983465466751e-10,
+        "direct_optimal_risk_change_absolute_error": 2.220446049250313e-16,
+        "direct_optimal_risk_change_relative_error": 1.2031121174780213e-16,
+        "direct_optimal_risk_change_allowed_error": 5.691170618254332e-10,
+        "protected_action_kkt_absolute_error": 1.3877787807814457e-17,
+        "protected_action_kkt_relative_error": 4.25722067870356e-17,
+        "protected_action_kkt_allowed_error": 2.651964690354771e-10,
+        "protected_output_absolute_error": 1.1793171536311031e-17,
+        "protected_output_relative_error": 1.0,
+        "protected_output_allowed_error": 2e-10,
+        "optimal_risk_change": -1.8455853091271657,
+        "representability_immediate_error": 2.9996750176802074
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "2-3"
+        }
+      ],
+      "interpretation": "Full fast/slow rollouts confirm the ordered migration interface; joint and protected quadratic actions match independent least-squares/KKT references.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "2-3"
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "lineage": "R04",
+      "scope": "boundary_reproduction_survival_threshold_and_correlated_law",
+      "status": "passed",
+      "metrics": {
+        "threshold_action_p_0.2_absolute_error": 0.0,
+        "threshold_action_p_0.2_relative_error": 0.0,
+        "threshold_action_p_0.2_allowed_error": 2e-07,
+        "action_p_0.2": 0.0,
+        "threshold_action_p_0.65_absolute_error": 0.0,
+        "threshold_action_p_0.65_relative_error": 0.0,
+        "threshold_action_p_0.65_allowed_error": 2e-07,
+        "action_p_0.65": 0.0,
+        "threshold_action_p_0.9_absolute_error": 8.845902121912275e-09,
+        "threshold_action_p_0.9_relative_error": 1.4832955379563666e-08,
+        "threshold_action_p_0.9_allowed_error": 3.1927362950339423e-07,
+        "action_p_0.9": 0.596368138671069,
+        "joint_migration_numerator": -0.030000000000000006,
+        "factorized_migration_numerator": 0.00839999999999996,
+        "naive_action_excess_risk_over_zero": 0.0025103305785123798
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "4-5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: migration switches at p=s; independent mean validity/survival can prescribe a harmful positive migration under a correlated law.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R04_CONSOLIDATION_DYNAMICS.v3.md",
+          "sha256": "eb4ddfd81c947bf6fc176a1863f1618f3d095fc2366850c9964f0524384d8093",
+          "sections": "4-5"
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "lineage": "R06",
+      "scope": "finite_horizon_survival_plasticity_and_sharp_allocation",
+      "status": "passed",
+      "metrics": {
+        "sigma_min_0_absolute_error": 1.1102230246251565e-16,
+        "sigma_min_0_relative_error": 2.48094530642493e-16,
+        "sigma_min_0_allowed_error": 2.8950000000000003e-10,
+        "sigma_max_0_absolute_error": 2.220446049250313e-16,
+        "sigma_max_0_relative_error": 2.2204460492503126e-16,
+        "sigma_max_0_allowed_error": 4.0000000000000007e-10,
+        "current_key_residual_0_absolute_error": 7.850462293418876e-17,
+        "current_key_residual_0_relative_error": 1.3409733079065454e-16,
+        "current_key_residual_0_allowed_error": 3.170860336612455e-10,
+        "sigma_min_1_absolute_error": 1.1102230246251565e-16,
+        "sigma_min_1_relative_error": 2.2176739568043072e-16,
+        "sigma_min_1_allowed_error": 3.0012500000000004e-10,
+        "sigma_max_1_absolute_error": 0.0,
+        "sigma_max_1_relative_error": 0.0,
+        "sigma_max_1_allowed_error": 4e-10,
+        "current_key_residual_1_absolute_error": 3.1676639673831405e-16,
+        "current_key_residual_1_relative_error": 2.5585263323727594e-16,
+        "current_key_residual_1_allowed_error": 4.4761628811890874e-10,
+        "sigma_min_2_absolute_error": 1.1102230246251565e-16,
+        "sigma_min_2_relative_error": 2.0049174259596504e-16,
+        "sigma_min_2_allowed_error": 3.1075000000000004e-10,
+        "sigma_max_2_absolute_error": 0.0,
+        "sigma_max_2_relative_error": 0.0,
+        "sigma_max_2_allowed_error": 4e-10,
+        "current_key_residual_2_absolute_error": 1.1102230246251565e-16,
+        "current_key_residual_2_relative_error": 8.229635573401098e-17,
+        "current_key_residual_2_allowed_error": 4.698109812331167e-10,
+        "sigma_min_3_absolute_error": 2.220446049250313e-16,
+        "sigma_min_3_relative_error": 3.658819442636973e-16,
+        "sigma_min_3_allowed_error": 3.2137500000000004e-10,
+        "sigma_max_3_absolute_error": 4.440892098500626e-16,
+        "sigma_max_3_relative_error": 4.440892098500624e-16,
+        "sigma_max_3_allowed_error": 4.0000000000000007e-10,
+        "current_key_residual_3_absolute_error": 5.721958498152797e-16,
+        "current_key_residual_3_relative_error": 4.682902996224809e-16,
+        "current_key_residual_3_allowed_error": 4.4437655457589615e-10,
+        "sigma_min_4_absolute_error": 2.220446049250313e-16,
+        "sigma_min_4_relative_error": 3.364312195833808e-16,
+        "sigma_min_4_allowed_error": 3.32e-10,
+        "sigma_max_4_absolute_error": 0.0,
+        "sigma_max_4_relative_error": 0.0,
+        "sigma_max_4_allowed_error": 4e-10,
+        "current_key_residual_4_absolute_error": 2.897767167584095e-16,
+        "current_key_residual_4_relative_error": 2.0642931966354553e-16,
+        "current_key_residual_4_allowed_error": 4.807515107163168e-10,
+        "survival_ratio": 0.4180769416559023,
+        "certified_lower_ratio": 0.022116445312499993,
+        "aligned_lower_endpoint_absolute_error": 3.469446951953614e-18,
+        "aligned_lower_endpoint_relative_error": 1.5687181655691826e-16,
+        "aligned_lower_endpoint_allowed_error": 2.0442328906250002e-10,
+        "orthogonal_upper_endpoint_absolute_error": 0.0,
+        "orthogonal_upper_endpoint_relative_error": 0.0,
+        "orthogonal_upper_endpoint_allowed_error": 4e-10,
+        "sharp_allocation_factor_absolute_error": 0.0,
+        "sharp_allocation_factor_relative_error": 0.0,
+        "sharp_allocation_factor_allowed_error": 5.6e-10,
+        "allocation_factor": 1.7999999999999998,
+        "scalar_dimension_norm_absolute_error": 0.0,
+        "scalar_dimension_norm_relative_error": 0.0,
+        "scalar_dimension_norm_allowed_error": 2.8e-10,
+        "zero_key_factor_absolute_error": 0.0,
+        "zero_key_factor_relative_error": 0.0,
+        "zero_key_factor_allowed_error": 6e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Rank-one singular values, direct current-key residuals and ordered products satisfy the two-sided certificate; both survival and allocation endpoint bounds are attained.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "lineage": "R06",
+      "scope": "boundary_reproduction_overwrite_normalization_and_decay",
+      "status": "passed",
+      "metrics": {
+        "overwrite_annihilation_absolute_error": 0.0,
+        "overwrite_annihilation_relative_error": 0.0,
+        "overwrite_annihilation_allowed_error": 2e-10,
+        "actual_nonunit_margin": 0.19999999999999996,
+        "raw_beta_assumed_margin": 0.8,
+        "singular_decay_destroys_survival_absolute_error": 0.0,
+        "singular_decay_destroys_survival_relative_error": 0.0,
+        "singular_decay_destroys_survival_allowed_error": 2e-10,
+        "expansive_decay_survival_ratio": 1.4
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: overwrite, nonunit keys, singular decay and expansive decay invalidate the unqualified margin/envelope extension.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md",
+          "sha256": "26fed27d5e5091c93bd8428c76b0dde5c7e6fd49dc930911247a90c311cd3ceb",
+          "sections": "5"
+        }
+      ]
+    },
+    {
+      "id": "A07",
+      "lineage": "R07",
+      "scope": "frozen_joint_response_and_cross_hessian",
+      "status": "passed",
+      "metrics": {
+        "factor_memory_0_absolute_error": 1.6243534171511178e-16,
+        "factor_memory_0_relative_error": 8.809811411559687e-17,
+        "factor_memory_0_allowed_error": 5.687600883305498e-10,
+        "factor_read_0_absolute_error": 1.5700924586837752e-16,
+        "factor_read_0_relative_error": 1.0324819088662001e-16,
+        "factor_read_0_allowed_error": 5.04139461466776e-10,
+        "hadamard_gram_0_absolute_error": 1.631687946612622e-15,
+        "hadamard_gram_0_relative_error": 6.145097778299744e-17,
+        "hadamard_gram_0_allowed_error": 5.510535342088847e-09,
+        "factor_memory_1_absolute_error": 3.0104325427680966e-16,
+        "factor_memory_1_relative_error": 2.1879589535230407e-16,
+        "factor_memory_1_allowed_error": 4.751818116076367e-10,
+        "factor_read_1_absolute_error": 3.188872858294072e-16,
+        "factor_read_1_relative_error": 4.504184356070862e-16,
+        "factor_read_1_allowed_error": 3.41596018555325e-10,
+        "hadamard_gram_1_absolute_error": 5.93995257398358e-16,
+        "hadamard_gram_1_relative_error": 1.6301450124409983e-16,
+        "hadamard_gram_1_allowed_error": 9.287637024498853e-10,
+        "factor_memory_2_absolute_error": 4.421002976451144e-16,
+        "factor_memory_2_relative_error": 6.006923715604176e-16,
+        "factor_memory_2_allowed_error": 3.4719690762733383e-10,
+        "factor_read_2_absolute_error": 3.1676639673831405e-16,
+        "factor_read_2_relative_error": 4.958163657448687e-16,
+        "factor_read_2_allowed_error": 3.277756922212253e-10,
+        "hadamard_gram_2_absolute_error": 3.6055550369691825e-17,
+        "hadamard_gram_2_relative_error": 3.484530255470574e-17,
+        "hadamard_gram_2_allowed_error": 4.0694640440034093e-10,
+        "factor_memory_3_absolute_error": 2.717168986799569e-16,
+        "factor_memory_3_relative_error": 5.21390928451483e-16,
+        "factor_memory_3_allowed_error": 3.0422770472319063e-10,
+        "factor_read_3_absolute_error": 1.316562550716263e-16,
+        "factor_read_3_relative_error": 9.653812969449779e-16,
+        "factor_read_3_allowed_error": 2.272754932146008e-10,
+        "hadamard_gram_3_absolute_error": 8.88781302544432e-18,
+        "hadamard_gram_3_relative_error": 1.965347066261047e-16,
+        "hadamard_gram_3_allowed_error": 2.0904452264744553e-10,
+        "joint_qp_vs_direct_rollout_absolute_error": 0.0,
+        "joint_qp_vs_direct_rollout_relative_error": 0.0,
+        "joint_qp_vs_direct_rollout_allowed_error": 9.097057877958973e-10,
+        "joint_hessian_minimum_eigenvalue": 1.8138941298581472,
+        "independent_gate_excess_loss": 0.39354584809130255,
+        "direct_joint_stationarity_absolute_error": 7.505561329662603e-17,
+        "direct_joint_stationarity_relative_error": 1.0,
+        "direct_joint_stationarity_allowed_error": 2.0000000000000003e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "2-3"
+        }
+      ],
+      "interpretation": "Frozen affine response and Hadamard cross-Hessian match direct state/loss rollouts; independent scalar gates are worse on an explicit coupled-write fixture.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "2-3"
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "lineage": "R07",
+      "scope": "complete_feedback_jacobian_fd_and_frozen_sign_reversal",
+      "status": "passed",
+      "metrics": {
+        "central_difference_error_h_0.0001": 1.2229850777420934e-09,
+        "central_difference_error_h_1e-05": 1.2613656672967104e-11,
+        "central_difference_error_h_1e-06": 3.4774838085001604e-11,
+        "actual_vs_frozen_memory_block_gap": 0.12289508103373387,
+        "true_action_derivative_absolute_error": 5.139781933394261e-10,
+        "true_action_derivative_relative_error": 1.0279563856221579e-09,
+        "true_action_derivative_allowed_error": 3.0000000010279564e-07,
+        "frozen_action_derivative_absolute_error": 7.072671337482461e-10,
+        "frozen_action_derivative_relative_error": 1.4145342674964922e-09,
+        "frozen_action_derivative_allowed_error": 3e-07,
+        "true_small_action_loss_change": -0.004651995000000131,
+        "frozen_small_action_loss_change": 0.0051000000000001044,
+        "true_polynomial_change_absolute_error": 1.3010426069826053e-16,
+        "true_polynomial_change_relative_error": 2.7967411980936537e-14,
+        "true_polynomial_change_allowed_error": 2.0093039900000003e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Complete smooth memory+updater Jacobian, including state-dependent key/value/gate/decay and updater feedback, matches finite differences. Passed boundary reproduction: the frozen gate reverses the action decision.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md",
+          "sha256": "a455e43a40d3be167f1712db3ef515945597e8868c97a11d16b33ebf8fbe9e80",
+          "sections": "5-6"
+        }
+      ]
+    },
+    {
+      "id": "A09",
+      "lineage": "R09",
+      "scope": "transported_gramian_carrier_and_inverse_action",
+      "status": "passed",
+      "metrics": {
+        "transported_gramian_energy_absolute_error": 0.0,
+        "transported_gramian_energy_relative_error": 0.0,
+        "transported_gramian_energy_allowed_error": 1.1746616067061102e-09,
+        "factor_gramian_range_absolute_error": 2.1311062016623038e-15,
+        "factor_gramian_range_relative_error": 1.0655531008311519e-15,
+        "factor_gramian_range_allowed_error": 6e-10,
+        "core_inverse_action_absolute_error": 1.0640305104053993e-16,
+        "core_inverse_action_relative_error": 5.611882663628751e-16,
+        "core_inverse_action_allowed_error": 2.3792062572161395e-10,
+        "robust_projection_constraint_absolute_error": 4.440892098500626e-16,
+        "robust_projection_constraint_relative_error": 3.959495897537285e-16,
+        "robust_projection_constraint_allowed_error": 4.2431603483982687e-10,
+        "robust_projection_damage_0_absolute_error": 0.0,
+        "robust_projection_damage_0_relative_error": 0.0,
+        "robust_projection_damage_0_allowed_error": 5.540903839531627e-10,
+        "robust_projection_damage_1_absolute_error": 2.6645352591003757e-15,
+        "robust_projection_damage_1_relative_error": 1.3737338101642791e-15,
+        "robust_projection_damage_1_allowed_error": 5.87925992559175e-10,
+        "realized_carrier_width": 4,
+        "proper_robust_action_span_width": 3
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Transported factors reproduce direct protected-read energy; range, core inverse action and robust projection reduction agree with ambient references.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "lineage": "R09",
+      "scope": "boundary_reproduction_realized_rank_one_common_full_width",
+      "status": "passed",
+      "metrics": {
+        "rank_one_family_factor_matrix_absolute_error": 0.0,
+        "rank_one_family_factor_matrix_relative_error": 0.0,
+        "rank_one_family_factor_matrix_allowed_error": 9.110555533852472e-10,
+        "realized_gramian_ranks": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "common_carrier_width": 4,
+        "same_carrier_different_core_action_gap": 1.2256517540566825
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: every realized Gramian has rank one while the prefix-robust carrier is full; a known carrier alone leaves the action unidentified.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md",
+          "sha256": "fa1c525afdf34646c750373eb45ce2e62c33881d846ea0cab63331744cf01415",
+          "sections": "5-6"
+        }
+      ]
+    },
+    {
+      "id": "A11",
+      "lineage": "R10",
+      "scope": "invariant_core_leakage_and_error_transport",
+      "status": "passed",
+      "metrics": {
+        "ordered_core_0_absolute_error": 1.1274368112207335e-16,
+        "ordered_core_0_relative_error": 1.3781389151417037e-16,
+        "ordered_core_0_allowed_error": 3.636172955909612e-10,
+        "leakage_norm_0_absolute_error": 2.7755575615628914e-17,
+        "leakage_norm_0_relative_error": 2.1817798377675187e-16,
+        "leakage_norm_0_allowed_error": 2.254430581263685e-10,
+        "direct_error_recurrence_0_absolute_error": 1.4338515319353585e-16,
+        "direct_error_recurrence_0_relative_error": 3.2735337679674866e-16,
+        "direct_error_recurrence_0_allowed_error": 2.8760267243710923e-10,
+        "ordered_core_1_absolute_error": 8.673617379884035e-19,
+        "ordered_core_1_relative_error": 9.266152721530668e-19,
+        "ordered_core_1_allowed_error": 3.872107581333119e-10,
+        "leakage_norm_1_absolute_error": 0.0,
+        "leakage_norm_1_relative_error": 0.0,
+        "leakage_norm_1_allowed_error": 2.2181292039556187e-10,
+        "direct_error_recurrence_1_absolute_error": 1.2276156489239667e-16,
+        "direct_error_recurrence_1_relative_error": 2.09772692542389e-16,
+        "direct_error_recurrence_1_allowed_error": 3.1704246477895603e-10,
+        "ordered_core_2_absolute_error": 0.0,
+        "ordered_core_2_relative_error": 0.0,
+        "ordered_core_2_allowed_error": 3.9233583288514885e-10,
+        "leakage_norm_2_absolute_error": 4.163336342344337e-17,
+        "leakage_norm_2_relative_error": 4.031559791957963e-16,
+        "leakage_norm_2_allowed_error": 2.2065372489649906e-10,
+        "direct_error_recurrence_2_absolute_error": 6.116248148185856e-17,
+        "direct_error_recurrence_2_relative_error": 2.2123570371119342e-16,
+        "direct_error_recurrence_2_allowed_error": 2.5529169158130245e-10,
+        "ordered_core_3_absolute_error": 3.1031676915590914e-17,
+        "ordered_core_3_relative_error": 3.841083164166822e-17,
+        "ordered_core_3_allowed_error": 3.615777403888732e-10,
+        "leakage_norm_3_absolute_error": 2.7755575615628914e-17,
+        "leakage_norm_3_relative_error": 2.537603841165784e-16,
+        "leakage_norm_3_allowed_error": 2.218754205564868e-10,
+        "direct_error_recurrence_3_absolute_error": 4.04010449837352e-17,
+        "direct_error_recurrence_3_relative_error": 1.0393469639196953e-16,
+        "direct_error_recurrence_3_allowed_error": 2.777431336911218e-10,
+        "variation_of_constants_absolute_error": 6.160176850625753e-17,
+        "variation_of_constants_relative_error": 1.584751362120419e-16,
+        "variation_of_constants_allowed_error": 2.777431336911218e-10,
+        "final_error_operator_norm": 0.3832812872690176,
+        "final_error_norm_bound": 1.0767915488852946,
+        "invariant_exact_carrier_absolute_error": 0.0,
+        "invariant_exact_carrier_relative_error": 0.0,
+        "invariant_exact_carrier_allowed_error": 1.0624506964377146e-09
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Ordered Delta carrier/leakage and error recurrences match full residual propagation; zero leakage plus carrier-valued injections yields exact compression.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "A12",
+      "lineage": "R10",
+      "scope": "boundary_reproduction_noncommuting_hull_and_quantized_defect",
+      "status": "passed",
+      "metrics": {
+        "one_step_invariant_hull_width": 4,
+        "key_family_width": 4,
+        "noncommuting_factor_gap": 0.0758126611302133,
+        "prequantization_rank": 1,
+        "new_defect_rank": 2,
+        "quantization_defect_determinant_absolute_error": 0.0,
+        "quantization_defect_determinant_relative_error": 0.0,
+        "quantization_defect_determinant_allowed_error": 2.4e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "5-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: a noncommuting rank-one Delta family forces full carrier width, and rank-one data can inject rank-two elementwise quantization defects.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md",
+          "sha256": "45308be5fbe91a9faff92e08fe3acec7f976cca4c3959b59a92fdf4e674a5c47",
+          "sections": "5-6"
+        }
+      ]
+    },
+    {
+      "id": "A13",
+      "lineage": "R11",
+      "scope": "lazy_overlay_adjacent_order_gap_and_corrected_prestate",
+      "status": "passed",
+      "metrics": {
+        "corrected_residual_0_absolute_error": 5.087681048627601e-16,
+        "corrected_residual_0_relative_error": 1.4473407678874385e-16,
+        "corrected_residual_0_allowed_error": 9.030384497568822e-10,
+        "lazy_overlay_0_absolute_error": 3.0253895717246626e-16,
+        "lazy_overlay_0_relative_error": 1.75727409085801e-16,
+        "lazy_overlay_0_allowed_error": 5.443275681880087e-10,
+        "corrected_residual_1_absolute_error": 4.440892098500626e-16,
+        "corrected_residual_1_relative_error": 1.2900261278111021e-16,
+        "corrected_residual_1_allowed_error": 8.884964579804083e-10,
+        "lazy_overlay_1_absolute_error": 4.3227693999815856e-16,
+        "lazy_overlay_1_relative_error": 2.588084116677269e-16,
+        "lazy_overlay_1_allowed_error": 5.340516926885209e-10,
+        "corrected_residual_2_absolute_error": 3.510833468576701e-16,
+        "corrected_residual_2_relative_error": 2.41348094527912e-16,
+        "corrected_residual_2_allowed_error": 4.90935254777466e-10,
+        "lazy_overlay_2_absolute_error": 4.3490039963304124e-16,
+        "lazy_overlay_2_relative_error": 2.973369817772596e-16,
+        "lazy_overlay_2_allowed_error": 4.925303115902568e-10,
+        "corrected_residual_3_absolute_error": 5.087681048627601e-16,
+        "corrected_residual_3_relative_error": 1.964966722996419e-16,
+        "corrected_residual_3_allowed_error": 7.178389017061103e-10,
+        "lazy_overlay_3_absolute_error": 3.4874414115229797e-16,
+        "lazy_overlay_3_relative_error": 2.4426553906590466e-16,
+        "lazy_overlay_3_allowed_error": 4.855451018477103e-10,
+        "two_write_order_gap_absolute_error": 5.4672143489065705e-16,
+        "two_write_order_gap_relative_error": 7.909844908024722e-16,
+        "two_write_order_gap_allowed_error": 3.382382186371304e-10,
+        "corrected_prestate_gap_absolute_error": 4.950014516894532e-16,
+        "corrected_prestate_gap_relative_error": 9.518677328107162e-16,
+        "corrected_prestate_gap_allowed_error": 3.04006351854746e-10,
+        "repeated_order_edit_absolute_error": 3.466670283279959e-16,
+        "repeated_order_edit_relative_error": 1.4361927416659778e-16,
+        "repeated_order_edit_allowed_error": 6.827583628167674e-10,
+        "omitted_MC_term_absolute_error": 2.9648170042084085e-16,
+        "omitted_MC_term_relative_error": 1.3974750252343724e-15,
+        "omitted_MC_term_allowed_error": 2.424310553057816e-10,
+        "naive_independent_injection_error": 0.21215527652890792
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Lazy overlays match dense common-path differences; direct adjacent Delta writes verify the order-gap factor and the consequential corrected-prestate MC term.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "A14",
+      "lineage": "R11",
+      "scope": "boundary_reproduction_sharp_cumulative_rank_and_tail",
+      "status": "passed",
+      "metrics": {
+        "genuine_gap_block_0_absolute_error": 0.0,
+        "genuine_gap_block_0_relative_error": 0.0,
+        "genuine_gap_block_0_allowed_error": 5.464101615137754e-10,
+        "genuine_gap_block_1_absolute_error": 0.0,
+        "genuine_gap_block_1_relative_error": 0.0,
+        "genuine_gap_block_1_allowed_error": 5.464101615137754e-10,
+        "accumulated_rank": 4,
+        "rank_two_unavoidable_tail_absolute_error": 2.220446049250313e-16,
+        "rank_two_unavoidable_tail_relative_error": 2.906601613561371e-16,
+        "rank_two_unavoidable_tail_allowed_error": 3.527864045000421e-10,
+        "rank_two_tail_energy": 0.7639320225002102,
+        "protected_query_minimum_rank_absolute_error": 0.0,
+        "protected_query_minimum_rank_relative_error": 0.0,
+        "protected_query_minimum_rank_allowed_error": 5.464101615137754e-10,
+        "protected_query_required_rank": 2
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: two actual disjoint Delta order gaps attain rank four and a positive rank-two tail, while many shared-right injections retain rank one.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md",
+          "sha256": "5743c0a95a5e34f3f5ea614c8d0902933243449a528bd88d79ac4e44f6bbbb65",
+          "sections": "5"
+        }
+      ]
+    },
+    {
+      "id": "A15",
+      "lineage": "R12",
+      "scope": "graph_certificate_operator_fixedpoint_and_autonomous_reads",
+      "status": "passed",
+      "metrics": {
+        "graph_vs_operator_fixed_point_absolute_error": 9.179767583272725e-16,
+        "graph_vs_operator_fixed_point_relative_error": 5.299941285300706e-16,
+        "graph_vs_operator_fixed_point_allowed_error": 5.464101615137756e-10,
+        "selected_components_vertices": [
+          0,
+          1,
+          2
+        ],
+        "least_carrier_width": 3,
+        "autonomous_reduced_state_0_absolute_error": 1.1295700899707568e-16,
+        "autonomous_reduced_state_0_relative_error": 4.529625371620187e-17,
+        "autonomous_reduced_state_0_allowed_error": 6.987476876334807e-10,
+        "protected_decoder_0_absolute_error": 4.47545209131181e-16,
+        "protected_decoder_0_relative_error": 9.348817617231783e-16,
+        "protected_decoder_0_allowed_error": 2.957437030980824e-10,
+        "autonomous_reduced_state_1_absolute_error": 1.1295700899707568e-16,
+        "autonomous_reduced_state_1_relative_error": 4.529625371620187e-17,
+        "autonomous_reduced_state_1_allowed_error": 6.987476876334807e-10,
+        "protected_decoder_1_absolute_error": 4.47545209131181e-16,
+        "protected_decoder_1_relative_error": 9.348817617231783e-16,
+        "protected_decoder_1_allowed_error": 2.957437030980824e-10,
+        "autonomous_reduced_state_2_absolute_error": 3.134813796900204e-16,
+        "autonomous_reduced_state_2_relative_error": 1.4304524466075229e-16,
+        "autonomous_reduced_state_2_allowed_error": 6.382968206087191e-10,
+        "protected_decoder_2_absolute_error": 3.4021815010030383e-16,
+        "protected_decoder_2_relative_error": 5.748636638164002e-16,
+        "protected_decoder_2_allowed_error": 3.183648129163936e-10,
+        "autonomous_reduced_state_3_absolute_error": 3.134813796900204e-16,
+        "autonomous_reduced_state_3_relative_error": 1.4304524466075229e-16,
+        "autonomous_reduced_state_3_allowed_error": 6.382968206087191e-10,
+        "protected_decoder_3_absolute_error": 3.4021815010030383e-16,
+        "protected_decoder_3_relative_error": 5.748636638164002e-16,
+        "protected_decoder_3_allowed_error": 3.183648129163936e-10,
+        "autonomous_reduced_state_4_absolute_error": 4.863169719131264e-16,
+        "autonomous_reduced_state_4_relative_error": 2.1875565009431507e-16,
+        "autonomous_reduced_state_4_allowed_error": 6.446211759133572e-10,
+        "protected_decoder_4_absolute_error": 2.237726045655905e-16,
+        "protected_decoder_4_relative_error": 3.7810663330098147e-16,
+        "protected_decoder_4_allowed_error": 3.183648129163936e-10,
+        "autonomous_reduced_state_5_absolute_error": 4.863169719131264e-16,
+        "autonomous_reduced_state_5_relative_error": 2.1875565009431507e-16,
+        "autonomous_reduced_state_5_allowed_error": 6.446211759133572e-10,
+        "protected_decoder_5_absolute_error": 2.237726045655905e-16,
+        "protected_decoder_5_relative_error": 3.7810663330098147e-16,
+        "protected_decoder_5_allowed_error": 3.183648129163936e-10,
+        "autonomous_reduced_state_6_absolute_error": 5.117875266520903e-16,
+        "autonomous_reduced_state_6_relative_error": 2.3538711705501475e-16,
+        "autonomous_reduced_state_6_allowed_error": 6.34847525264074e-10,
+        "protected_decoder_6_absolute_error": 2.2887833992611187e-16,
+        "protected_decoder_6_relative_error": 6.220870150372188e-16,
+        "protected_decoder_6_allowed_error": 2.735840274410545e-10,
+        "autonomous_reduced_state_7_absolute_error": 4.3709524189038457e-16,
+        "autonomous_reduced_state_7_relative_error": 2.6047788967664165e-16,
+        "autonomous_reduced_state_7_allowed_error": 5.356102450254004e-10,
+        "protected_decoder_7_absolute_error": 4.2276033262255756e-16,
+        "protected_decoder_7_relative_error": 1.149054617759854e-15,
+        "protected_decoder_7_allowed_error": 2.735840274410545e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "2-4"
+        }
+      ],
+      "interpretation": "Graph components match an independent full-operator invariant fixed point; the autonomous reduced recurrence exactly reproduces full protected reads for the declared dictionary.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "A16",
+      "lineage": "R12",
+      "scope": "boundary_reproduction_future_bridge_and_small_nonzero_edge",
+      "status": "passed",
+      "metrics": {
+        "same_retained_prefix_absolute_error": 0.0,
+        "same_retained_prefix_relative_error": 0.0,
+        "same_retained_prefix_allowed_error": 2e-10,
+        "future_bridge_protected_read_gap": -1.0,
+        "nonzero_small_edge": 1e-08,
+        "threshold_discarded_cross_operator_norm": 5e-09
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "6-7"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: an unseen bridge reveals already discarded history; treating a small nonzero Gram edge as zero loses exact closure.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md",
+          "sha256": "0df2d08785ba551cbe4ee3499550c24a1d3487fd297c6a760b2edc4eae99f16b",
+          "sections": "6-7"
+        }
+      ]
+    },
+    {
+      "id": "A17",
+      "lineage": "R13",
+      "scope": "minimum_erasure_ledger_exact_decoder_and_rank_tail",
+      "status": "passed",
+      "metrics": {
+        "ordered_overwrite_kernel_absolute_error": 3.379462171739212e-16,
+        "ordered_overwrite_kernel_relative_error": 3.3794621717392123e-16,
+        "ordered_overwrite_kernel_allowed_error": 3.9999999999999996e-10,
+        "minimum_ledger_coefficients_absolute_error": 8.312783312742731e-16,
+        "minimum_ledger_coefficients_relative_error": 2.6034879076391096e-16,
+        "minimum_ledger_coefficients_allowed_error": 8.385882022613976e-10,
+        "affine_ledger_recovery_0_absolute_error": 1.1247484701180563e-15,
+        "affine_ledger_recovery_0_relative_error": 2.94948132089816e-16,
+        "affine_ledger_recovery_0_allowed_error": 9.626754318793611e-10,
+        "affine_ledger_recovery_1_absolute_error": 1.5973327738214759e-15,
+        "affine_ledger_recovery_1_relative_error": 4.0940963744031665e-16,
+        "affine_ledger_recovery_1_allowed_error": 9.803102945051378e-10,
+        "affine_ledger_recovery_2_absolute_error": 1.683736582170148e-15,
+        "affine_ledger_recovery_2_relative_error": 2.60034322557479e-16,
+        "affine_ledger_recovery_2_allowed_error": 1.4950110320901721e-09,
+        "same_poststate_without_ledger_absolute_error": 3.465596149437328e-16,
+        "same_poststate_without_ledger_relative_error": 1.0,
+        "same_poststate_without_ledger_allowed_error": 2.0000000000000008e-10,
+        "no_ledger_protected_ambiguity": 4.063943854330292,
+        "zero_budget_optimal_tail_absolute_error": 0.0,
+        "zero_budget_optimal_tail_relative_error": 0.0,
+        "zero_budget_optimal_tail_allowed_error": 6.907684146912364e-10,
+        "minimum_side_rows": 1,
+        "cross_column_minimum_scalars": 3
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "2-3,5"
+        }
+      ],
+      "interpretation": "The minimal lost-coordinate ledger recovers full affine protected targets; the overwritten kernel, insufficient-budget tail and cross-column scalar lower bound match independent ambient calculations.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "2-3,5"
+        }
+      ]
+    },
+    {
+      "id": "A18",
+      "lineage": "R13",
+      "scope": "boundary_reproduction_spectral_cut_hidden_mode_inverse_growth",
+      "status": "passed",
+      "metrics": {
+        "spectral_cut_exact_hybrid_absolute_error": 0.0,
+        "spectral_cut_exact_hybrid_relative_error": 0.0,
+        "spectral_cut_exact_hybrid_allowed_error": 5.464101615137754e-10,
+        "exact_kernel_side_width": 0,
+        "stable_cut_side_width": 1,
+        "exact_no_ledger_decoder_norm": 1000.0,
+        "stable_decoder_norm": 1.4285714285714286,
+        "stable_decoder_norm_bound": 20.0,
+        "stable_hybrid_state_absolute_error": 6.798699777552591e-17,
+        "stable_hybrid_state_relative_error": 5.891823962665454e-17,
+        "stable_hybrid_state_allowed_error": 4.307842128561108e-10,
+        "hidden_modes_same_poststate_absolute_error": 0.0,
+        "hidden_modes_same_poststate_relative_error": 0.0,
+        "hidden_modes_same_poststate_allowed_error": 4.828427124746191e-10,
+        "hidden_mode_protected_target_gap": 1.0,
+        "switching_orthogonal_fixed_covector_absolute_error": 0.0,
+        "switching_orthogonal_fixed_covector_relative_error": 0.0,
+        "switching_orthogonal_fixed_covector_allowed_error": 4e-10,
+        "parallel_inverse_transport_growth": 256.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "4,6-7"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: an invertible near-overwrite needs no exact ledger yet has large inverse amplification; spectral-cut storage trades state for stability, and hidden modes prevent a common decoder.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md",
+          "sha256": "17b8dc6e2ac819957347ed4cd617cda22bf42ac8b9b9c0439fbf774adcb2b75d",
+          "sections": "4,6-7"
+        }
+      ]
+    },
+    {
+      "id": "A19",
+      "lineage": "R16",
+      "scope": "shared_carrier_affine_scan_telescope_and_recompression",
+      "status": "passed",
+      "metrics": {
+        "flow_source_lifted_ode_0_absolute_error": 2.7755575615628914e-17,
+        "flow_source_lifted_ode_0_relative_error": 1.67195596498664e-16,
+        "flow_source_lifted_ode_0_allowed_error": 2.3320132371530573e-10,
+        "two_sided_common_support_0_absolute_error": 1.1102230246251565e-16,
+        "two_sided_common_support_0_relative_error": 3.2951583374030987e-16,
+        "two_sided_common_support_0_allowed_error": 2.6738510936018446e-10,
+        "flow_source_lifted_ode_1_absolute_error": 3.925231146709438e-17,
+        "flow_source_lifted_ode_1_relative_error": 1.8351980411688718e-16,
+        "flow_source_lifted_ode_1_allowed_error": 2.4277719416275516e-10,
+        "two_sided_common_support_1_absolute_error": 0.0,
+        "two_sided_common_support_1_relative_error": 0.0,
+        "two_sided_common_support_1_allowed_error": 2.8019946337826755e-10,
+        "flow_source_lifted_ode_2_absolute_error": 2.8609792490763984e-17,
+        "flow_source_lifted_ode_2_relative_error": 1.360498257485296e-16,
+        "flow_source_lifted_ode_2_allowed_error": 2.420578157059098e-10,
+        "two_sided_common_support_2_absolute_error": 1.1102230246251565e-16,
+        "two_sided_common_support_2_relative_error": 4.304684163360408e-16,
+        "two_sided_common_support_2_allowed_error": 2.5158208976513957e-10,
+        "flow_source_lifted_ode_3_absolute_error": 9.813077866773595e-18,
+        "flow_source_lifted_ode_3_relative_error": 2.0345628464724611e-16,
+        "flow_source_lifted_ode_3_allowed_error": 2.0964637478147956e-10,
+        "two_sided_common_support_3_absolute_error": 0.0,
+        "two_sided_common_support_3_relative_error": 0.0,
+        "two_sided_common_support_3_allowed_error": 2.0185888990544468e-10,
+        "affine_scan_associativity_0_absolute_error": 0.0,
+        "affine_scan_associativity_0_relative_error": 0.0,
+        "affine_scan_associativity_0_allowed_error": 4.724646383002177e-10,
+        "affine_scan_associativity_1_absolute_error": 5.763878168445254e-17,
+        "affine_scan_associativity_1_relative_error": 1.1915359929698096e-16,
+        "affine_scan_associativity_1_allowed_error": 2.967470257290213e-10,
+        "affine_scan_associativity_2_absolute_error": 1.0408340855860843e-17,
+        "affine_scan_associativity_2_relative_error": 2.8142373410111715e-17,
+        "affine_scan_associativity_2_allowed_error": 2.7396917597661517e-10,
+        "shared_carrier_scan_vs_sequential_absolute_error": 3.516999440976217e-16,
+        "shared_carrier_scan_vs_sequential_relative_error": 1.747819104314003e-16,
+        "shared_carrier_scan_vs_sequential_allowed_error": 6.024443298846531e-10,
+        "ordered_product_telescope_absolute_error": 5.720691089606031e-17,
+        "ordered_product_telescope_relative_error": 1.7474190431895324e-16,
+        "ordered_product_telescope_allowed_error": 2.654758927104761e-10,
+        "dual_product_telescope_absolute_error": 1.0012703192333991e-16,
+        "dual_product_telescope_relative_error": 3.0584396112347976e-16,
+        "dual_product_telescope_allowed_error": 2.654758927104761e-10,
+        "lazy_product_factor_ledger_absolute_error": 2.5580554944350687e-16,
+        "lazy_product_factor_ledger_relative_error": 7.813732317469516e-16,
+        "lazy_product_factor_ledger_allowed_error": 2.654758927104761e-10,
+        "recompression_error_transport_0_absolute_error": 0.0,
+        "recompression_error_transport_0_relative_error": 0.0,
+        "recompression_error_transport_0_allowed_error": 2.0000059796769767e-10,
+        "recompression_error_transport_1_absolute_error": 6.206335383118183e-17,
+        "recompression_error_transport_1_relative_error": 2.9374690806005274e-16,
+        "recompression_error_transport_1_allowed_error": 2.4225634526065805e-10,
+        "recompression_error_transport_2_absolute_error": 4.220764384040162e-17,
+        "recompression_error_transport_2_relative_error": 2.011907383774576e-16,
+        "recompression_error_transport_2_allowed_error": 2.4195783979003556e-10,
+        "recompression_error_transport_3_absolute_error": 3.7367087251761353e-17,
+        "recompression_error_transport_3_relative_error": 2.1971781614785745e-16,
+        "recompression_error_transport_3_allowed_error": 2.3401370713298505e-10,
+        "recompressed_product_error": 0.1700685356649251,
+        "discarded_tail_sum_bound": 0.22435612434233737
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "2,4-5,7"
+        }
+      ],
+      "interpretation": "Shared-carrier affine scans agree with sequential lifted-ODE flow for different chunkings; ordered telescopes/factor ledger and transported recompression identities agree with dense products.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "2,4-5,7"
+        }
+      ]
+    },
+    {
+      "id": "A20",
+      "lineage": "R16",
+      "scope": "boundary_reproduction_cumulative_width_and_nonreducing_decay",
+      "status": "passed",
+      "metrics": {
+        "one_token_maximum_correction_rank": 1,
+        "chunk_correction_rank": 4,
+        "affine_source_carrier_width": 4,
+        "nonreducing_decay_outside_correction": 0.014187525635357787,
+        "nonreducing_decay_outside_source": 0.016321294916294693
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "3,6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: rank-one token corrections accumulate to width H; a key inside U is insufficient when the symmetric decay does not reduce U.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R16_SHARED_CARRIER_SCAN.v3.md",
+          "sha256": "48ec9e9e1c94191df3e8e5e8c87e810d4119d9d902ec61dd63e14d8c39ea0b4d",
+          "sections": "3,6"
+        }
+      ]
+    },
+    {
+      "id": "A21",
+      "lineage": "R18",
+      "scope": "paired_fiber_rollout_spectral_equality_and_psd_envelope",
+      "status": "passed",
+      "metrics": {
+        "same_augmented_fiber_post_0_absolute_error": 0.0,
+        "same_augmented_fiber_post_0_relative_error": 0.0,
+        "same_augmented_fiber_post_0_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_0_absolute_error": 9.323471852813373e-17,
+        "same_augmented_fiber_ledger_0_relative_error": 1.0,
+        "same_augmented_fiber_ledger_0_allowed_error": 2.0000000000000003e-10,
+        "attained_fiber_energy_0_absolute_error": 3.552713678800501e-15,
+        "attained_fiber_energy_0_relative_error": 1.3823656127476482e-16,
+        "attained_fiber_energy_0_allowed_error": 5.340049269221878e-09,
+        "independent_restricted_svd_0_absolute_error": 1.0658141036401503e-14,
+        "independent_restricted_svd_0_relative_error": 4.147096838242943e-16,
+        "independent_restricted_svd_0_allowed_error": 5.340049269221879e-09,
+        "same_augmented_fiber_post_1_absolute_error": 0.0,
+        "same_augmented_fiber_post_1_relative_error": 0.0,
+        "same_augmented_fiber_post_1_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_1_absolute_error": 8.28802821335896e-17,
+        "same_augmented_fiber_ledger_1_relative_error": 1.0,
+        "same_augmented_fiber_ledger_1_allowed_error": 2.0000000000000003e-10,
+        "attained_fiber_energy_1_absolute_error": 3.552713678800501e-15,
+        "attained_fiber_energy_1_relative_error": 7.392233465934902e-16,
+        "attained_fiber_energy_1_allowed_error": 1.1612016977472954e-09,
+        "independent_restricted_svd_1_absolute_error": 8.881784197001252e-16,
+        "independent_restricted_svd_1_relative_error": 1.8480583664837251e-16,
+        "independent_restricted_svd_1_allowed_error": 1.1612016977472956e-09,
+        "same_augmented_fiber_post_2_absolute_error": 0.0,
+        "same_augmented_fiber_post_2_relative_error": 0.0,
+        "same_augmented_fiber_post_2_allowed_error": 2e-10,
+        "same_augmented_fiber_ledger_2_absolute_error": 1.3322018617930144e-16,
+        "same_augmented_fiber_ledger_2_relative_error": 1.0,
+        "same_augmented_fiber_ledger_2_allowed_error": 2.0000000000000003e-10,
+        "attained_fiber_energy_2_absolute_error": 0.0,
+        "attained_fiber_energy_2_relative_error": 0.0,
+        "attained_fiber_energy_2_allowed_error": 5.399974750827401e-09,
+        "independent_restricted_svd_2_absolute_error": 0.0,
+        "independent_restricted_svd_2_relative_error": 0.0,
+        "independent_restricted_svd_2_allowed_error": 5.399974750827401e-09,
+        "common_ledger_worst_leakage": 0.7432838797972847,
+        "common_envelope_tail_certificate": 1.3959020791226129,
+        "common_ledger_worst_leakage_coefficient": 0.7432838797972847,
+        "common_envelope_tail_certificate_coefficient": 1.3959020791226129,
+        "common_ledger_worst_scaled_energy_bound": 1.4568364044026778,
+        "common_envelope_tail_scaled_energy_bound": 2.735968075080321,
+        "pairwise_radius": 1.4,
+        "full_ledger_residual_leakage": 0.0,
+        "full_ledger_zero_residual_projector_absolute_error": 0.0,
+        "full_ledger_zero_residual_projector_relative_error": 0.0,
+        "full_ledger_zero_residual_projector_allowed_error": 2e-10
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "1-3"
+        }
+      ],
+      "interpretation": "Actual paired continuation rollouts attain the residual-fiber spectral maximum, independently checked by a restricted SVD; a sum-Gramian envelope safely upper-bounds the common ledger.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "1-3"
+        }
+      ]
+    },
+    {
+      "id": "A22",
+      "lineage": "R18",
+      "scope": "boundary_reproduction_common_path_gap_radius_and_reencoding",
+      "status": "passed",
+      "metrics": {
+        "complementary_paths_robust_optimum_absolute_error": 1.1102230246251565e-16,
+        "complementary_paths_robust_optimum_relative_error": 2.2204460492503126e-16,
+        "complementary_paths_robust_optimum_allowed_error": 3.0000000000000005e-10,
+        "angular_reference_minimum_absolute_error": 1.1102230246251565e-16,
+        "angular_reference_minimum_relative_error": 2.2204460492503126e-16,
+        "angular_reference_minimum_allowed_error": 3.0000000000000005e-10,
+        "path_specific_rank_one_tail_lower_bound": 0.0,
+        "robust_common_rank_one_minimum": 0.5000000000000001,
+        "envelope_rank_one_tail": 1.0,
+        "pairwise_radius_energy_scaling_absolute_error": 0.0,
+        "pairwise_radius_energy_scaling_relative_error": 0.0,
+        "pairwise_radius_energy_scaling_allowed_error": 6.000000000000001e-10,
+        "individual_unit_radius_pair_energy": 2.0000000000000004,
+        "state_dependent_value_map_derivative_absolute_error": 0.0,
+        "state_dependent_value_map_derivative_relative_error": 0.0,
+        "state_dependent_value_map_derivative_allowed_error": 4e-07,
+        "frozen_overwrite_memory_derivative": 0.0
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "3-5"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: pathwise tail zero is insufficient for a common ledger; the envelope bound is conservative, pairwise radius matters, and state-dependent values invalidate a frozen overwrite kernel.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md",
+          "sha256": "947ef43e1b5f34adb4e5badf07c0ca8fb68c01a31128f77dc3a433ce1b256879",
+          "sections": "3-5"
+        }
+      ]
+    },
+    {
+      "id": "A23",
+      "lineage": "R20",
+      "scope": "projected_woodbury_kkt_and_sharp_spectral_transfer",
+      "status": "passed",
+      "metrics": {
+        "projected_woodbury_vs_dense_kkt_absolute_error": 3.0813689532136643e-16,
+        "projected_woodbury_vs_dense_kkt_relative_error": 9.29451204324433e-16,
+        "projected_woodbury_vs_dense_kkt_allowed_error": 2.6630512583935685e-10,
+        "projected_action_feasibility_absolute_error": 1.1102230246251565e-16,
+        "projected_action_feasibility_relative_error": 1.346343176035952e-16,
+        "projected_action_feasibility_allowed_error": 3.6492422502470646e-10,
+        "random_future_risk_ratio": 1.1261321126337003,
+        "sharp_competitive_bound": 1.469444444444444,
+        "sharp_delta_factor_0.0_absolute_error": 4.440892098500626e-16,
+        "sharp_delta_factor_0.0_relative_error": 4.440892098500626e-16,
+        "sharp_delta_factor_0.0_allowed_error": 4e-10,
+        "sharp_delta_factor_0.1_absolute_error": 2.220446049250313e-16,
+        "sharp_delta_factor_0.1_relative_error": 2.19824158875781e-16,
+        "sharp_delta_factor_0.1_allowed_error": 4.0202020202020205e-10,
+        "sharp_delta_factor_0.6_absolute_error": 6.661338147750939e-16,
+        "sharp_delta_factor_0.6_relative_error": 4.263256414560601e-16,
+        "sharp_delta_factor_0.6_allowed_error": 5.125e-10,
+        "sharp_delta_factor_0.95_absolute_error": 1.2434497875801753e-14,
+        "sharp_delta_factor_0.95_relative_error": 1.2123635428906713e-15,
+        "sharp_delta_factor_0.95_allowed_error": 2.251282051282051e-09,
+        "zero_target_action_absolute_error": 0.0,
+        "zero_target_action_relative_error": 0.0,
+        "zero_target_action_allowed_error": 2e-10,
+        "zero_target_ratio": "undefined_0_over_0; action equality checked"
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "1-3"
+        }
+      ],
+      "interpretation": "Projected Woodbury matches a dense KKT solve; independently solved future quadratics obey the spectral transfer bound, with equality at the two-dimensional sharp endpoints.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "1-3"
+        }
+      ]
+    },
+    {
+      "id": "A24",
+      "lineage": "R20",
+      "scope": "boundary_reproduction_wrong_domain_prefix_and_loss_class",
+      "status": "passed",
+      "metrics": {
+        "difference_space_curvature_match_absolute_error": 0.0,
+        "difference_space_curvature_match_relative_error": 0.0,
+        "difference_space_curvature_match_allowed_error": 4e-10,
+        "base_tangent_cross_term_risk_ratio_absolute_error": 3.410605131648481e-13,
+        "base_tangent_cross_term_risk_ratio_relative_error": 3.7479177270862294e-15,
+        "base_tangent_cross_term_risk_ratio_allowed_error": 1.8400000000000066e-08,
+        "difference_only_certificate_risk_ratio": 91.00000000000033,
+        "same_prefix_relative_future_maximum": 5.0,
+        "prefix_claimed_relative_upper_bound": 1.2,
+        "matching_curvature_linear_term_regret": 4.5,
+        "matching_local_nonlinear_curvature_absolute_error": 1.0279563866788521e-09,
+        "matching_local_nonlinear_curvature_relative_error": 1.0279563856221579e-09,
+        "matching_local_nonlinear_curvature_allowed_error": 2.0000000010279563e-05,
+        "nonlinear_zero_action_loss": 3.0,
+        "nonlinear_finite_action_loss": 0.5
+      },
+      "source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "4-6"
+        }
+      ],
+      "interpretation": "Passed boundary reproduction: a ker(A)-only sandwich misses base/tangent coupling; the same prefix cannot certify an unrestricted future, and matching curvature alone controls neither linear terms nor finite nonlinear edits.",
+      "result_ref": "results/algebra-seed-3-v3.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md",
+          "sha256": "9fff175d5a25aa905ba1cc8efa11ae5d6bf56a1f66539619f4f0ba7481aedde7",
+          "sections": "4-6"
+        }
+      ]
+    },
+    {
+      "id": "feedback.actual-four-arm-audit",
+      "lineage": "R03",
+      "scope": "four declared rules on the constructed two-step witness",
+      "status": "passed",
+      "metrics": {
+        "budget": 0.01,
+        "arms": [
+          {
+            "arm": "no-write",
+            "beta": 0.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.0,
+            "new_write_residual": 1.0,
+            "information": "declared prefix/local"
+          },
+          {
+            "arm": "ordinary-Delta",
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.053388066758518156,
+            "new_write_residual": 0.0,
+            "information": "declared prefix/local"
+          },
+          {
+            "arm": "local-protection-gate",
+            "beta": 1.0,
+            "immediate_damage": 0.0,
+            "later_damage": 0.053388066758518156,
+            "new_write_residual": 0.0,
+            "information": "declared prefix/local"
+          },
+          {
+            "arm": "future-informed-audit-control",
+            "beta": 0.4054651081081642,
+            "immediate_damage": 0.0,
+            "later_damage": 0.009999999999999995,
+            "new_write_residual": 0.35347173767683693,
+            "information": "extra future analytic response;not deployable"
+          }
+        ]
+      },
+      "source_refs": [
+        "repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md"
+      ],
+      "interpretation": "The implemented local-only rule violates a later budget in this witness. The future-informed audit control is charged as extra information and is not a same-information method superiority comparison.",
+      "result_ref": "results/feedback-seed-1-v4.json",
+      "normalized_source_refs": [
+        {
+          "path": "source_snapshots/repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md",
+          "sha256": "9701f44391fc2d71154648cdfd4ab76bfac45a05e176bdd111a9b2f86a885ec6",
+          "git_blob_sha": "aa1fd95d740093f944ef0611692df0175ef61572"
+        }
+      ]
+    }
+  ],
+  "observed_peak_child_rss_bytes": 86040576,
+  "resource_records": [
+    {
+      "path": "results/feedback-seed-0.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 0.020903922000798048,
+      "peak_observed_rss_bytes": 311296,
+      "rss_limit_mib": 256,
+      "rss_limit_exceeded": false,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "direct child; short-lived peaks may be missed"
+    },
+    {
+      "path": "results/feedback-seed-0-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0-v2.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.1621512019992224,
+      "peak_observed_rss_bytes": 0,
+      "rss_limit_mib": 256,
+      "rss_limit_exceeded": false,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "direct child; short-lived peaks may be missed"
+    },
+    {
+      "path": "results/feedback-seed-1-v3.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-1-v3.json",
+        "--seed",
+        "1"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.1431134820004445,
+      "peak_observed_rss_bytes": 42004480,
+      "kernel_child_maxrss_bytes": 42004480,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.081041,
+      "cpu_system_seconds": 0.044525999999999996,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/feedback-seed-2-v3.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-2-v3.json",
+        "--seed",
+        "2"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.1430762970003343,
+      "peak_observed_rss_bytes": 42053632,
+      "kernel_child_maxrss_bytes": 42053632,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.079747,
+      "cpu_system_seconds": 0.043865999999999995,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/legacy-seed-0-v1.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy-seed-0-v1.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.3296620259998235,
+      "peak_observed_rss_bytes": 50728960,
+      "kernel_child_maxrss_bytes": 50728960,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.20840299999999998,
+      "cpu_system_seconds": 0.064397,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/statistics-seed-0-v1.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-0-v1.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.894569056000364,
+      "peak_observed_rss_bytes": 85950464,
+      "kernel_child_maxrss_bytes": 85950464,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.791335,
+      "cpu_system_seconds": 0.135161,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/algebra-seed-0-v1.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-0-v1.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.39074392700058524,
+      "peak_observed_rss_bytes": 65970176,
+      "kernel_child_maxrss_bytes": 65970176,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.308401,
+      "cpu_system_seconds": 0.063114,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/algebra-seed-1-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.2051715299994612,
+      "peak_observed_rss_bytes": 65974272,
+      "kernel_child_maxrss_bytes": 65974272,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.38285199999999997,
+      "cpu_system_seconds": 0.07117699999999999,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/algebra-seed-2-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.0048714270005803,
+      "peak_observed_rss_bytes": 65961984,
+      "kernel_child_maxrss_bytes": 65961984,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.386217,
+      "cpu_system_seconds": 0.056671,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/legacy_controls-seed-1-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy_controls-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.5335055469995496,
+      "peak_observed_rss_bytes": 50630656,
+      "kernel_child_maxrss_bytes": 50630656,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.19017599999999998,
+      "cpu_system_seconds": 0.031709999999999995,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/legacy_controls-seed-2-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_legacy_controls.py",
+        "--output",
+        "results/legacy_controls-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.5536480720002146,
+      "peak_observed_rss_bytes": 50737152,
+      "kernel_child_maxrss_bytes": 50737152,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.205986,
+      "cpu_system_seconds": 0.034813,
+      "threads": 1,
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/algebra-seed-3-v3.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_algebra.py",
+        "--output",
+        "results/algebra-seed-3-v3.json",
+        "--seed",
+        "3"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.4465052679997825,
+      "peak_observed_rss_bytes": 65978368,
+      "kernel_child_maxrss_bytes": 65978368,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.36855499999999997,
+      "cpu_system_seconds": 0.07169299999999999,
+      "thread_environment_requested": 1,
+      "actual_solver_threads": "not_measured",
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/feedback-seed-0-v4.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-0-v4.json",
+        "--seed",
+        "0"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.12296173800041288,
+      "peak_observed_rss_bytes": 42205184,
+      "kernel_child_maxrss_bytes": 42205184,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.081007,
+      "cpu_system_seconds": 0.040354,
+      "thread_environment_requested": 1,
+      "actual_solver_threads": "not_measured",
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/feedback-seed-1-v4.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_feedback.py",
+        "--output",
+        "results/feedback-seed-1-v4.json",
+        "--seed",
+        "1"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.12229146499976196,
+      "peak_observed_rss_bytes": 42283008,
+      "kernel_child_maxrss_bytes": 42283008,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.07856099999999999,
+      "cpu_system_seconds": 0.03907,
+      "thread_environment_requested": 1,
+      "actual_solver_threads": "not_measured",
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/statistics-seed-1-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-1-v2.json",
+        "--seed",
+        "1"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.848346101000061,
+      "peak_observed_rss_bytes": 85897216,
+      "kernel_child_maxrss_bytes": 85897216,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.750791,
+      "cpu_system_seconds": 0.07863099999999999,
+      "thread_environment_requested": 1,
+      "actual_solver_threads": "not_measured",
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    },
+    {
+      "path": "results/statistics-seed-2-v2.resources.json",
+      "argv": [
+        "python",
+        "scripts/check_statistics.py",
+        "--output",
+        "results/statistics-seed-2-v2.json",
+        "--seed",
+        "2"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.7066988960004892,
+      "peak_observed_rss_bytes": 86040576,
+      "kernel_child_maxrss_bytes": 86040576,
+      "proc_rss_samples": 0,
+      "data_allocation_limit_mib": 256,
+      "sampled_rss_limit_exceeded": false,
+      "cpu_user_seconds": 0.666051,
+      "cpu_system_seconds": 0.024104999999999998,
+      "thread_environment_requested": 1,
+      "actual_solver_threads": "not_measured",
+      "sampling_seconds": 0.02,
+      "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+    }
+  ],
+  "known_retained_failure": "feedback-seed-0-v1 SyntaxError;repaired via superseding task,not scientific failure",
+  "source_math_correction": "SPD existence iff omitted zero-factor identity degeneracy;nondegenerate theorem preserved",
+  "remaining": [
+    "Many secondary claims across70source records still need additional checks",
+    "Finite precision and near-degenerate sensitivity sweeps",
+    "Matched total-cost comparison against stronger VJP/JVP/ledger controls",
+    "Public native endpoint tasks and original13arm/2seed model programme pending actual framework/data/authorized GPU host"
+  ],
+  "claim_eligibility": {
+    "formula_diagnostic": "supported in tested finite cases",
+    "counterexample_reproduction": "supported in tested constructed cases",
+    "model_quality": "not_tested",
+    "SFT_retention": "not_tested",
+    "RSI_learning_efficiency": "not_tested",
+    "originality": "not_established"
+  }
+}

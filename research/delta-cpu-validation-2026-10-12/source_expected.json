@@ -1,0 +1,282 @@
+{
+  "repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md": {
+    "sha": "789d4f08367f180d6020e525358216f4bbdfb1c0",
+    "size": 12210
+  },
+  "repairs/R02_APPROXIMATE_CAUSAL_DYNAMIC_QUOTIENT.v3.md": {
+    "sha": "dfc404561c04d38d14381d6f7ea6ab340818686c",
+    "size": 14341
+  },
+  "repairs/R03_WASSERSTEIN_FREE_RUNNING_SAFETY.v3.md": {
+    "sha": "aa1fd95d740093f944ef0611692df0175ef61572",
+    "size": 16061
+  },
+  "repairs/R04_CONSOLIDATION_DYNAMICS.v3.md": {
+    "sha": "0d1c56a464c41582b5e408c740af36fc104f0cdd",
+    "size": 13297
+  },
+  "repairs/R05_PREFIX_CONDITIONAL_PARTIAL_ID.v4.md": {
+    "sha": "53ead48bf3154ef52fd3f200aa885d2ec72db308",
+    "size": 11036
+  },
+  "repairs/R06_SURVIVAL_MARGIN_PLASTICITY.v3.md": {
+    "sha": "c130ae0b59b86046c3011e8dd5fb299c8620e95b",
+    "size": 12217
+  },
+  "repairs/R07_FACTOR_CORE_JOINT_MARGIN.v3.md": {
+    "sha": "b9eb360217bfb7440c3f44e7d174a9cd3afebf70",
+    "size": 10981
+  },
+  "repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md": {
+    "sha": "227f52614d02fc2eb3f2ea7d4a1f813bfe56c26d",
+    "size": 16268
+  },
+  "repairs/R09_ROBUST_GRAMIAN_CARRIER.v3.md": {
+    "sha": "52b07fa864ded099bb9510b01c0edadf6c499fdf",
+    "size": 15359
+  },
+  "repairs/R10_INVARIANT_RESIDUAL_CARRIER.v3.md": {
+    "sha": "55b0d0ccc96af02896c6e8f18d117f058266c1fe",
+    "size": 10925
+  },
+  "repairs/R11_LAZY_OVERLAY_CLOSURE.v3.md": {
+    "sha": "6c4cc53da3206e6cee36b835e27cc296b3fe8332",
+    "size": 13129
+  },
+  "repairs/R12_GRAM_COMPONENT_CLOSURE.v3.md": {
+    "sha": "977696c25ce97e392cf223d688f6d86fb49c8158",
+    "size": 13557
+  },
+  "repairs/R13_MINIMUM_ERASURE_LEDGER.v3.md": {
+    "sha": "034fa28d53b73ce2aedb0f5322b0f367b473b865",
+    "size": 13245
+  },
+  "repairs/R14_OBSERVABLE_EQUIVALENCE_CLOSURE.v3.md": {
+    "sha": "fc011d75d0a479fa6896d1ded3edcd99d4c65798",
+    "size": 12460
+  },
+  "repairs/R15_FINITE_JET_CERTIFICATE_BOUNDARY.v3.md": {
+    "sha": "65d4c0b4fbcee9b6eb49bf584ee68798b30ad7ca",
+    "size": 13114
+  },
+  "repairs/R16_SHARED_CARRIER_SCAN.v3.md": {
+    "sha": "26a0c6b4b46b10e63048be1c6b91360f5ed3c165",
+    "size": 14784
+  },
+  "repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md": {
+    "sha": "b55c30242dda0c3f89a95ecbb4740db59a508ed8",
+    "size": 14560
+  },
+  "repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md": {
+    "sha": "ae9131b02d53898fc691c5655cd1d6738fd58f6c",
+    "size": 15534
+  },
+  "repairs/R19_FINITE_FIELD_SYNDROME_RELEASE.v3.md": {
+    "sha": "74c2774f7337245db06651f09d168fa31d74e30b",
+    "size": 12677
+  },
+  "repairs/R20_SPECTRAL_TRANSFER_CERTIFICATE.v3.md": {
+    "sha": "ed5ac739acf4ccb3514081c726b81bdb6c6d3f0a",
+    "size": 10079
+  },
+  "STEP2_ACTION_SUFFICIENT_RANK_CONTROL.md": {
+    "sha": "a2e457d91528c2dadeacfd5e7b276adc400bd1d5",
+    "size": 11881
+  },
+  "STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md": {
+    "sha": "79816a85454be6a4fd3300c381ea929004369669",
+    "size": 9741
+  },
+  "STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md": {
+    "sha": "6f950f93e0e7c01cca5e000692baa2257a1a0294",
+    "size": 11775
+  },
+  "STEP2_CLOSED_LOOP_RANK_GROWTH.md": {
+    "sha": "069e7b777ad2a73ad331d79d6f4b748412964cac",
+    "size": 10284
+  },
+  "STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md": {
+    "sha": "90dc1bbf8f8de15450f4fa05a70e5f06fba85da0",
+    "size": 10449
+  },
+  "STEP2_COUPLED_UPDATER_STABILITY.md": {
+    "sha": "0789617d97cd5270a8bca8e7d887a5a4acffc681",
+    "size": 13687
+  },
+  "STEP2_EFFECTIVE_RANK_TRUNCATION_CONTROL.md": {
+    "sha": "9b37e0a7c1044cb6cd389bd84a461f121a8667dd",
+    "size": 13040
+  },
+  "STEP2_JOINT_CONDITIONAL_RISK.md": {
+    "sha": "7b315574f13a5f218c6f2bf70c8ced4f64d820f0",
+    "size": 10476
+  },
+  "STEP2_OBSERVED_PREDICTIVE_TARGET.md": {
+    "sha": "99fd5d8a66c5a984e3dca512e75b7963a4e9f5e7",
+    "size": 15892
+  },
+  "STEP2_PROJECTED_DELAYED_CREDIT.md": {
+    "sha": "ad4b9f1d2cbd9ade95969fac32196923c99a00db",
+    "size": 17702
+  },
+  "STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_2026-10-12.md": {
+    "sha": "9d6d8da8cd9f6e11c57238b2f523d663d745a33f",
+    "size": 15157
+  },
+  "STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md": {
+    "sha": "372d77d531ce3e83cd667149496d1a4c30e31508",
+    "size": 14777
+  },
+  "STEP2_RECURSIVE_RANDOM_METRIC_CONTROL.md": {
+    "sha": "a959da7e714cca3622a70095f514cec22b30ddb4",
+    "size": 13540
+  },
+  "STEP2_REENTRY_2026-10-09.zh-CN.md": {
+    "sha": "838e6146f5049e51a9f473553237eaa7810f01a6",
+    "size": 12666
+  },
+  "STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md": {
+    "sha": "5edc8dd1fd008f07440f49f04b210f5f7accac35",
+    "size": 18361
+  },
+  "cards/D01.json": {
+    "sha": "121cb8a506c161fef2f91d4e049b80822e08fbe2",
+    "size": 23818
+  },
+  "cards/D03.json": {
+    "sha": "4554576277990dc66c3a5fd0dcb6307ef8e608fa",
+    "size": 26476
+  },
+  "cards/D05.json": {
+    "sha": "c90b7892279e704c4cc01762842b045ff920e5fb",
+    "size": 12262
+  },
+  "cards/D06.json": {
+    "sha": "687a2b8b217af3ea1b1231f935ba05ea4ae75f15",
+    "size": 10995
+  },
+  "cards/D07.json": {
+    "sha": "3bc9f6afcb6dc11a974a07fc4cdec2c810b5a33e",
+    "size": 11529
+  },
+  "rejected/AFFINE_MAGNUS_COMMUTATOR_CONTROL.md": {
+    "sha": "c184a1617ff404766edc0f5bd73ffec007c25a3a",
+    "size": 3201
+  },
+  "rejected/CHECKSUM_REVISION_SKETCH.md": {
+    "sha": "20bc78d86035a9fb75874edcba0c27aa5dd0c3e5",
+    "size": 3424
+  },
+  "rejected/COUNTERFACTUAL_QUERY_WRITE_UTILITY.md": {
+    "sha": "5c33b8aec65e64a36e15c7f13d91361c2229191b",
+    "size": 4397
+  },
+  "rejected/D04_COMPENSATION_COLLISION.md": {
+    "sha": "61bc4bc29f8724793ea9fed20a1d11c80c4e404b",
+    "size": 4818
+  },
+  "rejected/DEFERRED_CORRECTION_DEBT.md": {
+    "sha": "5ce3fc154e9c31278bd7c01d886ed0cbc05b9cdb",
+    "size": 6955
+  },
+  "rejected/EXACT_FLOW_IMPLICIT_DELTA_CONTROL.md": {
+    "sha": "ed2d603444ce89d91210f11e39f5ff2cf9aa492a",
+    "size": 2753
+  },
+  "rejected/IDENTIFIABILITY_PROJECTION_BOUNDARY.md": {
+    "sha": "04aba90ac5fb38d361d649798c4456110fb4d12c",
+    "size": 1815
+  },
+  "rejected/LYAPUNOV_OBLIQUE_METRIC.md": {
+    "sha": "587c778b068368eeeba7b39a8abcca92dd805033",
+    "size": 3715
+  },
+  "rejected/MARTINGALE_RELEASE_CONTROL.md": {
+    "sha": "5a973ca2db17330add388b1d87c6a51fa05b903e",
+    "size": 4625
+  },
+  "rejected/NOGO_CAP_02.md": {
+    "sha": "496ba6cb25926f76a08e9d5082008216fe729b0b",
+    "size": 6450
+  },
+  "rejected/NOGO_CAUSAL_POLYNOMIAL_FUTURE_PRODUCT.md": {
+    "sha": "b8077525a8552de40cce490c3ced3da4d5bc6f28",
+    "size": 3577
+  },
+  "rejected/NOGO_DUAL_FRAME_04.md": {
+    "sha": "9741ec40684947e1cf99e7c03ea7cb9a99e0ae8e",
+    "size": 3879
+  },
+  "rejected/NOGO_MR_01.md": {
+    "sha": "f674d0bad4df5c1b8fc8a5525d23f503fdabc9da",
+    "size": 4335
+  },
+  "rejected/NOGO_OBLIQUE_03.md": {
+    "sha": "916b7b061a629849294a61980e2236ea501f17c3",
+    "size": 2531
+  },
+  "rejected/NOGO_OC_01.md": {
+    "sha": "5d1e84eee1fb07a2572958b43a4e83da26d51c5d",
+    "size": 3141
+  },
+  "rejected/NOGO_RC_01.md": {
+    "sha": "f17b9a264aec9b63beaa85646495e4b6d2d88f44",
+    "size": 3862
+  },
+  "rejected/NOGO_UNITARY_DILATION.md": {
+    "sha": "28e4a7342cc4be05024372e2cc684eec8651b363",
+    "size": 4755
+  },
+  "rejected/NOISY_KEY_IDENTIFICATION_PREDICTION_CONTROL.md": {
+    "sha": "271b8bf5ceb89f20eb2a074c1093235673ca5fc7",
+    "size": 11419
+  },
+  "rejected/ORTHOGONAL_VALUE_ROTATION_CONTROL.md": {
+    "sha": "f129753c2f5d1d69f6e2c4932b83684be4cb1df4",
+    "size": 4155
+  },
+  "rejected/PROVENANCE_TENSOR_DELTA.md": {
+    "sha": "3e9d1b532d7ef084dcd2d2cda84beb7f8c8ab761",
+    "size": 5253
+  },
+  "rejected/PSEUDOSPECTRAL_TRANSIENT_DELTA_CONTROL.md": {
+    "sha": "3ce04142be6c455f0b5e73b30559dfba594a7b5b",
+    "size": 3075
+  },
+  "rejected/RANDOMIZED_DELTA_SURVIVAL.md": {
+    "sha": "bd4678f6207451503b45280b5b4cfa4a74d64f11",
+    "size": 4099
+  },
+  "rejected/RANK_REVEALING_CONSTRAINT_DELTA.md": {
+    "sha": "d8e0e1be548abff9e7ef80a508419a9371493204",
+    "size": 3462
+  },
+  "rejected/RECIPROCAL_CYCLE_DELTA.md": {
+    "sha": "500f1d7300f93f741cd0c429cc8a04e538e7e275",
+    "size": 4400
+  },
+  "rejected/RETROACTIVE_ROLLBACK_DELTA.md": {
+    "sha": "17aa496fd68fc381b572c1181890f4a8f201a2c5",
+    "size": 5512
+  },
+  "rejected/REVISION_EVIDENCE_POSTERIOR_EDIT.md": {
+    "sha": "f4f0b87b2aeaa575b158ba74863e7beccdc746d0",
+    "size": 5858
+  },
+  "rejected/SET_VALUED_DELTA_ENVELOPE.md": {
+    "sha": "2da6a5c72b5f0f396f4cb6aae4dce2cef8f919c2",
+    "size": 5281
+  },
+  "rejected/SYMMETRIC_SPLIT_DELTA_CONTROL.md": {
+    "sha": "efc6ed4b98c7404cd838573cf02261d7d3ac6ddd",
+    "size": 2850
+  },
+  "rejected/TIME_VARYING_METRIC_LAUNDERING.md": {
+    "sha": "170fcbd1f2f5efea4751feead8f154eb32b2a0d6",
+    "size": 4207
+  },
+  "rejected/TRANSPORTED_INFLUENCE_LEDGER.md": {
+    "sha": "9e1d0425d31f995d201550b1fe9b72db23b14e57",
+    "size": 1933
+  }
+}
