@@ -3908,7 +3908,7 @@
     }
   },
   "step2_shadow_catchup_causal_audit_2026_10_12": {
-    "status": "independent_final_byte_math_adversarial_source_measurement_integrity_reviews_passed_pending_delivery",
+    "status": "independent_final_byte_math_adversarial_source_measurement_integrity_reviews_passed_published_exact_readback",
     "scope": "new_packet_level_measurement_parent_lead_only_not_R08_R11_attempt4_or_candidate",
     "artifact": {"path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md", "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760"},
     "source_audit": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md", "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5"},
@@ -3929,7 +3929,14 @@
     "candidate_delta": 0,
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
-    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_nonforce_main_and_all_15_paths_exact_readback_verified",
+    "publication_commit": "7b39405f8e4872c70629343281c7daeac24fb4fd",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_DELIVERY_READBACK.json",
+      "sha256": "7c4dc72cdea9cb7f58bbe79586c9b9d067aac1d13f92bb0454f008b77dc8a779",
+      "all_paths_exact": true,
+      "path_count": 15
+    }
   }
 }
 

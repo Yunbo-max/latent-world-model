@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "post_sweep_shadow_catchup_measurement_parent_lead_final_byte_reviews_passed_pending_delivery;overall_20_to_15_phase_incomplete",
+  "status": "post_sweep_shadow_catchup_measurement_parent_lead_final_byte_reviews_passed_published_exact_readback;overall_20_to_15_phase_incomplete",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -4710,7 +4710,14 @@
     "selection_delta": 0,
     "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
     "delivery_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
-    "delivery_status": "pending_expected_parent_nonforce_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_nonforce_main_and_all_15_paths_exact_readback_verified",
+    "publication_commit": "7b39405f8e4872c70629343281c7daeac24fb4fd",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_DELIVERY_READBACK.json",
+      "sha256": "7c4dc72cdea9cb7f58bbe79586c9b9d067aac1d13f92bb0454f008b77dc8a779",
+      "all_paths_exact": true,
+      "path_count": 15
+    }
   }
 }
 

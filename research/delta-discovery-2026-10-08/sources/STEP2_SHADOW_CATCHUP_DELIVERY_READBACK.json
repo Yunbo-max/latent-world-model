@@ -1,0 +1,32 @@
+{
+  "kind": "github_exact_readback_receipt",
+  "recorded_at": "2026-10-12T03:55:00Z",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
+  "force": false,
+  "substantive_commit": "7b39405f8e4872c70629343281c7daeac24fb4fd",
+  "substantive_tree": "ccfeeb3412efad18637e28c7053460caf3c14c04",
+  "path_count": 15,
+  "all_paths_exact": true,
+  "verification_method": "fetch_each_path_at_exact_substantive_commit_and_compare_returned_git_blob_sha_to_submitted_blob_sha",
+  "paths": [
+    {"path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md", "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760", "git_blob": "5edc8dd1fd008f07440f49f04b210f5f7accac35"},
+    {"path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md", "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5", "git_blob": "056e92ed1863398c5710f64e15cdca19f945b09d"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.math-review.md", "sha256": "a5aac98bdc3321d8c550584ee9ca659669d5e7beed1e6d5c22e4e63a23f5a3eb", "git_blob": "4cbdee8826a879776cb2598a565f501c02462ffb"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.adversarial-review.md", "sha256": "52679060788e09259c7b946bf390364459aefc949d4a2c28c92850266d0ca326", "git_blob": "d42dd295095aa738f1e75e63b1bf81cc74687d1f"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.source-review.md", "sha256": "e2b8b6ebcee0b49215fa24fc7d820a519b4fda1b22e58da84df7c7fc1dc7e77e", "git_blob": "33ba35c2676160ea6227f64c98ee491ef9a00787"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.measurement-review.md", "sha256": "e1de55192cc244a5de7525e9046fff7963159837ab679d68a7bb3b322a591dbc", "git_blob": "3f950039cca6e1eba3cc21cfca401d98cffa42cd"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.integrity-review.md", "sha256": "57599cadb11c2a7a766a97c7b6991b2ade5f9e5a1b400c2eb0cabd0e01d5f09f", "git_blob": "5a215eeb87a8b2145f0497022c5196cf59d3f844"},
+    {"path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_ASSIGNMENTS.json", "sha256": "89f088c41d2d8c687edafe780ce1d0bb6e4c140f87b481db97533459785d33c2", "git_blob": "5927ff293a8ce3db0af408d6120a86d06ab05df8"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "sha256": "b28bb843cca8fe6975642341bd05b65d805869fae9162763626e55a29f50e218", "git_blob": "77021aff5e52096b21cc1dc864aeeceeb4026df7"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "sha256": "52a59e72cc2476ca727eab49c4fdad86bd4149cd3a93e7717632ef061f1f1953", "git_blob": "556d25b4e18d8f0b30f12a462958edcc9f8c0594"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "sha256": "538357525710e14cf7bbc03df2cab6d1636c3f5552e3422d035df5ce6acef2aa", "git_blob": "677a820dd4563f13ee1c5d0f88f2522316894842"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "sha256": "ac6c73cf1b7a5faf3b302a6c9a12b5b7c4c8de64817cf99931c990db3f9d8161", "git_blob": "78dd6e01e696f224da645ac01af0e738aacd03fd"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "sha256": "9bc1d0253f745e9f88f25c5e22406635b579510eddbb970b7fbedef16448462d", "git_blob": "42ed3b3a8be14d516e20c607edb18ae95619388e"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "sha256": "9ee5f670987c78cf9d146b818225d90781aae1134abcd8fd1cd0d2ba6666de2a", "git_blob": "fd51aa025edfc3af4fa38fa793ef6183bd2fdb04"},
+    {"path": "research/workflow-checkpoint.json", "sha256": "fc311a012b0448429bf3c71f6d3b00e136e7a41d1692fa1488e509dc38ad77a1", "git_blob": "1ae7a95d9c97fc389a6ca56626b4cd7b77aa7c29"}
+  ],
+  "scope": "math_source_native_measurement_and_review_artifacts_only_no_model_code_or_experiment",
+  "scientific_note": "Exact readback proves delivery bytes only; it does not prove originality, causal identification, candidate admission, or empirical benefit."
+}

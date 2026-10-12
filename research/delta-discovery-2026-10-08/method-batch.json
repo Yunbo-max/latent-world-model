@@ -1884,7 +1884,7 @@
       {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.measurement-review.md", "sha256": "e1de55192cc244a5de7525e9046fff7963159837ab679d68a7bb3b322a591dbc", "reviewer": "/root/native_measurement_hunt"},
       {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.integrity-review.md", "sha256": "57599cadb11c2a7a766a97c7b6991b2ade5f9e5a1b400c2eb0cabd0e01d5f09f", "reviewer": "/root/packet_gap_adversary"}
     ],
-    "status": "independent_final_byte_reviews_passed_scoped_lead_control_pending_delivery",
+    "status": "independent_final_byte_reviews_passed_scoped_lead_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_scoped_exact_affine_shadow_and_crossed_squared_loss_identity",
       "contribution": "Delta_specific_debug_audit_residual_not_new_updater",
@@ -1898,7 +1898,14 @@
     "selection_verified": false,
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
-    "delivery_status": "pending_expected_parent_nonforce_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_nonforce_main_and_all_15_paths_exact_readback_verified",
+    "publication_commit": "7b39405f8e4872c70629343281c7daeac24fb4fd",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_DELIVERY_READBACK.json",
+      "sha256": "7c4dc72cdea9cb7f58bbe79586c9b9d067aac1d13f92bb0454f008b77dc8a779",
+      "all_paths_exact": true,
+      "path_count": 15
+    }
   }
 }
 
