@@ -1,6 +1,6 @@
 # 全池排名尚未到达：当前活动池为零
 
-当前状态：R01--R20 的 bounded-repair sweep 已在 2026-10-12 收束为 theorem/control batch；没有新增可排名候选，20→15 仍未完成。
+当前状态：R01--R20 的 bounded-repair sweep 已收束；其后的 shadow catch-up / causal-audit 对象也只通过为 `lead/control`。没有新增可排名候选，20→15 仍未完成。
 
 ## R18 v3 排名处置（attempt 3/3 exhausted）
 
@@ -362,5 +362,9 @@ Delivery: substantive commit `2395b41e94b31952c56eef194c8d9ff689ee244e`; 14/14 s
 ## Bounded-repair synthesis update (2026-10-12)
 
 No ranking entry is added. The R01--R20 repair lineages are closed after attempt 3/3 as scoped theorem/debug controls with `candidate_delta=0`. The sequential constant-width syndrome object is not ranked: without new evidence it cannot identify semantic validity; with independently accumulating queryable facts it needs growing finite-bit state; under exact bounded predictive structure it is matched by belief/PSR/right-congruence or a direct ledger.
+
+## Post-sweep lead disposition: shadow catch-up / causal audit
+
+No ranking entry is added. The object has exact conditional algebra and five independent final-byte reviews, but its mechanism is inherited from R11/R08 and crowded by direct ledgers, twins, transactional staging, reset-based counterfactual memory, crossed-history audits, delayed branches, replay and rollback. It lacks a joint same-DGP native protocol and any demonstrated matched-total-cost advantage. Status: `lead/control`, candidate/admission/selection deltas all zero, empirical effect unknown.
 
 The whole-pool ranking and top-15 selection remain unverified: 5 historical retired cards, 0 active, 0 scientifically admitted, 0 selected. New source assets improve feasibility analysis but do not create a candidate or authorize experiments.

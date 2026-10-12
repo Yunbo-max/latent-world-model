@@ -1,6 +1,6 @@
 # Delta 数学发现后台阶段
 
-当前里程碑：[2026-10-12 bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md) 已通过最终字节数学、distinctness、来源与完整性审查；R01--R20 修复批次关闭，但 20→15 总阶段未完成，计数不变。
+当前里程碑：[shadow catch-up / causal audit](STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md) 已通过最终字节数学、对抗、来源、原生测量与完整性审查，但只作为新的测量父问题 `lead/control`；R01--R20 仍关闭，20→15 总阶段未完成，计数不变。
 
 ## 历史里程碑：R18 v3 有界纤维泄漏 ledger（attempt 3/3）
 
@@ -618,3 +618,9 @@ R19 v2 的通用 confusion graph 给出正确的一次性最小码对象，但�
 R01--R20 have each reached the permitted third substantive repair attempt. The batch is now closed as a set of theorem/debug controls, not as completion of the 20-to-15 discovery goal. The cross-lineage result is that two updater representations with the same lawful decision information, complete action/state-transition kernels, and fully charged cost cannot improve the Bayes optimum merely by changing coordinates. Repeated-write exact retention has a complementary trichotomy: no identifying evidence cannot yield semantic correctness; independent queryable facts require growing finite-bit state; bounded predictive structure reduces to belief/PSR/right-congruence or direct-ledger baselines unless a new matched-cost delta is proved.
 
 New public evidence improves measurement coverage without admitting a candidate. `When Old Facts Return` supplies a concrete re-read/revert non-identifiability stress test; WritePolicyBench exposes write/merge/expire/skip actions; MemoryBench and WikiBigEdit expose retention curves; Open Bandit exposes a valid propensity schema. These assets come from different data-generating processes and cannot be combined into an identified memory-update benchmark. Continue Step 2 only from a genuinely new information, state, action, computation, or measurement object. Counts remain 5 historical / 0 active / 0 admitted / 0 selected; no code or experiment is authorized.
+
+## 2026-10-12 shadow catch-up measurement-parent checkpoint
+
+The first post-sweep parent object is not another updater. A skipped rank-one Delta candidate can be propagated exactly as a rank-one shadow under a shared action-independent affine suffix; a runtime additive patch can later reconstruct the corresponding internal state, but cannot reconstruct intervening tokens, actions, rewards, routing, or environment effects. Under a shared query and squared loss, the crossed audit reduces to an explicit alignment term. These are conditional debugging/measurement results, not a semantic-validity oracle or a closed-loop total-effect estimator.
+
+Five independent exact-byte reviews passed only that scope. R11 owns the overlay algebra, R08 owns the EVSI decision layer, and SafeCommit, MemTX, CounterMem, CMA, delayed-branch, replay, restore, influence-audit and rollback work heavily crowd the protocol narrative. No inspected native object supplies the full same-DGP update action, identification, delayed outcome, retention, later-learning and total-cost record. The object remains `lead/control`; counts remain 5 historical / 0 active / 0 admitted / 0 selected; `selection_verified=false`; no code or experiment was run.

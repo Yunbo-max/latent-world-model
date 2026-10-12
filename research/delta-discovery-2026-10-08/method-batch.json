@@ -1871,6 +1871,34 @@
       "all_paths_exact": true,
       "path_count": 13
     }
+  },
+  "step2_shadow_catchup_causal_audit_2026_10_12": {
+    "record_type": "measurement_parent_lead_control_not_candidate",
+    "lineage": "new_parent_not_exhausted_repair_attempt_reopen",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md", "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md", "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5"},
+    "review_refs": [
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.math-review.md", "sha256": "a5aac98bdc3321d8c550584ee9ca659669d5e7beed1e6d5c22e4e63a23f5a3eb", "reviewer": "/root/shadow_write_object"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.adversarial-review.md", "sha256": "52679060788e09259c7b946bf390364459aefc949d4a2c28c92850266d0ca326", "reviewer": "/root/active_evidence_object"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.source-review.md", "sha256": "e2b8b6ebcee0b49215fa24fc7d820a519b4fda1b22e58da84df7c7fc1dc7e77e", "reviewer": "/root/new_residual_literature"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.measurement-review.md", "sha256": "e1de55192cc244a5de7525e9046fff7963159837ab679d68a7bb3b322a591dbc", "reviewer": "/root/native_measurement_hunt"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.integrity-review.md", "sha256": "57599cadb11c2a7a766a97c7b6991b2ade5f9e5a1b400c2eb0cabd0e01d5f09f", "reviewer": "/root/packet_gap_adversary"}
+    ],
+    "status": "independent_final_byte_reviews_passed_scoped_lead_control_pending_delivery",
+    "scientific_states": {
+      "mathematics": "accepted_scoped_exact_affine_shadow_and_crossed_squared_loss_identity",
+      "contribution": "Delta_specific_debug_audit_residual_not_new_updater",
+      "novelty": "strong_internal_R08_R11_and_external_staged_counterfactual_audit_collision",
+      "measurement": "native_joint_same_DGP_protocol_absent",
+      "empirical": "unknown_no_execution"
+    },
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "selection_verified": false,
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
+    "delivery_status": "pending_expected_parent_nonforce_publication_and_exact_readback"
   }
 }
 

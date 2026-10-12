@@ -1,0 +1,26 @@
+{
+  "kind": "independent_review_assignments",
+  "recorded_at": "2026-10-12T03:44:00Z",
+  "scope": "step2_shadow_catchup_causal_audit_lead_control",
+  "artifacts": {
+    "math": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md",
+      "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760"
+    },
+    "source": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5"
+    }
+  },
+  "assignments": [
+    {"role": "math", "reviewer": "/root/shadow_write_object", "verdict": "pass_scoped"},
+    {"role": "adversarial_distinctness", "reviewer": "/root/active_evidence_object", "verdict": "pass_scoped"},
+    {"role": "source_closest_work", "reviewer": "/root/new_residual_literature", "verdict": "pass_bounded_scope"},
+    {"role": "native_measurement", "reviewer": "/root/native_measurement_hunt", "verdict": "pass_scoped"},
+    {"role": "packet_integrity", "reviewer": "/root/packet_gap_adversary", "verdict": "pass_scoped"}
+  ],
+  "candidate_delta": 0,
+  "scientific_admission_delta": 0,
+  "selection_delta": 0,
+  "empirical_status": "unknown_no_execution"
+}

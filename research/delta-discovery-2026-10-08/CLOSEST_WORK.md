@@ -1,6 +1,6 @@
 # 定向近邻图与阅读边界
 
-当前跨线结论见本文末尾“Cross-lineage closure and new measurement neighbors (2026-10-12)”及 [bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md)。
+当前跨线结论见本文末尾“Shadow catch-up / causal-audit parent lead (2026-10-12)”及 [bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md)。
 
 ## R18 v3 bounded-fiber leakage ledger 的历史最近工作处置
 
@@ -621,6 +621,12 @@ The closest newly audited measurement neighbors are:
 - *When Old Facts Return* (arXiv:2610.07715): re-read versus true-revert observational equivalence and a one-sided stale-resurrection stress test;
 - *When Errors Become Memories* (arXiv:2608.30198): controlled external-memory pathway interventions;
 - WritePolicyBench (arXiv:2602.02574): native write/merge/expire/skip API under a byte budget, without causal propensities;
+
+## Shadow catch-up / causal-audit parent lead (2026-10-12)
+
+The exact shared-affine rank-one shadow is inherited R11 overlay closure, and acquire/abstain/commit remains R08/EVSI. Transactional stage/validate/commit/retract is covered by MemTX; conservative commit/probe/fallback by SafeCommit; reset-verified local alternatives plus later selection by CounterMem; crossed history/action faithfulness by CMA. Delayed Supervision, Forgetting Without Restarting, What Eviction Destroys, MemAudit and ChronoMem further cover disposable branches, replay, restore counterfactuals, influence audits and rollback snapshots.
+
+The remaining scoped result is a Delta-specific debugging theorem and model-based paired-contrast object under exact shared-suffix assumptions. It is not an originality result, new updater, closed-loop causal identification, or candidate. Author-code interface verification remains incomplete where the source audit says so.
 - MemoryBench (arXiv:2510.17281) and WikiBigEdit (arXiv:2503.05683): future/past retention endpoints under prescribed updates;
 - Open Bandit Dataset (arXiv:2008.07146): a valid propensity/OPE schema in a different, one-step recommendation domain.
 
