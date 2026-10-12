@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 80696)
-Total output lines: 4821
+Warning: truncated output (original token count: 80781)
+Total output lines: 4828
 
 {
   "kind": "delta-discovery-progress",
@@ -13,7 +13,7 @@ Total output lines: 4821
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "post_sweep_irreversible_query_shift_refinement_tax_theorem_control_published_exact_readback_verified;overall_20_to_15_phase_incomplete",
+  "status": "post_sweep_compound_query_hedge_classical_control_published_exact_readback_verified;overall_20_to_15_phase_incomplete",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -1505,12 +1505,7 @@ Total output lines: 4821
     "repair_delta": "replace_common_path_sensitivity_with_full_action_conditional_state_laws_and_a_Wasserstein_kernel_perturbation_recurrence;correct_metric_direction_probability_coverage_forcing_plateau_and_loss_Lipschitz_scope_during_independent_review",
     "reopen_conditions": [
       "Construct lawful prefix-time simultaneous estimates of contraction, kernel mismatch and protected-loss Lipschitz constants without suffix leakage.",
-      "Prove a same-information same-state same-compute Delta-specific certificate or statistical advantage over generic Markov/Wasserstein perturbation, rollout, robust-M…20696 tokens truncated…ating.",
-      "A native mechanism-identifying record plus field-wide originality and empirical effect; no execution authorized."
-    ],
-    "execution": "none_math_source_measurement_review_only",
-    "delivery_parent": "b006efeb6a63e0e244aaf58a82feb020d014d5bd",
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+      "Prove a same-information same-state same-compute Delta-specific certificate or statistical advantage over generic Markov/Wasserstein perturbation, rollout, robust-MDP planning and s…20781 tokens truncated…back_verified",
     "publication_commit": "82674bd2999d8c6a801c92111ea9c76e20f18d3c",
     "delivery_readback_ref": {
       "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R18_V3_DELIVERY_READBACK.json",
@@ -3521,7 +3516,14 @@ Total output lines: 4821
     "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
-    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
+    "publication_commit": "436d75f55a9571ed8a63dceb953393e03ede5421",
+    "delivery_status": "published_expected_parent_nonforce_main_and_exact_readback_verified",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_DELIVERY_READBACK.json",
+      "sha256": "a8c70c3bda769f4100168c6e2d20b9c50e51b9d06fe2ed30699815347d8d4e43",
+      "all_paths_exact": true,
+      "path_count": 13
+    }
   }
 }
 

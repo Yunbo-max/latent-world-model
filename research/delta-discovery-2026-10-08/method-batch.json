@@ -1982,12 +1982,19 @@
       {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.source-review.md", "sha256": "82177c831ceee3019a87a64a8f98a700c7e5b919dfa06ce5c03c1e396b166ccc", "reviewer": "/root/compound_query_hedge_final_source"},
       {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.measurement-review.md", "sha256": "2151b3e6824e8cd7754dd44c1a9ea22200d2f62b48fbd66e4304c5abb4c9475c", "reviewer": "/root/compound_query_hedge_measurement"}
     ],
-    "status": "independent_final_byte_reviews_passed_pending_publication",
+    "status": "independent_final_byte_reviews_passed_and_published_exact_readback_verified",
     "candidate_delta": 0,
     "scientific_admission_delta": 0,
     "selection_delta": 0,
     "selection_verified": false,
-    "execution": "none_math_source_measurement_review_only"
+    "execution": "none_math_source_measurement_review_only",
+    "publication_commit": "436d75f55a9571ed8a63dceb953393e03ede5421",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_DELIVERY_READBACK.json",
+      "sha256": "a8c70c3bda769f4100168c6e2d20b9c50e51b9d06fe2ed30699815347d8d4e43",
+      "all_paths_exact": true,
+      "path_count": 13
+    }
   }
 }
 

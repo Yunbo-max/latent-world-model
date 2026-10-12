@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 64112)
-Total output lines: 4024
+Warning: truncated output (original token count: 64205)
+Total output lines: 4031
 
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
@@ -1718,13 +1718,7 @@ Total output lines: 4024
         },
         "source_ref": {
           "path": "research/delta-discovery-2026-10-08/sources/R10_V2_TRANSITION_MATCHED_NOISE_SHAPING_SOURCE_AUDIT.md",
-          "sha256": "a09c1dd2dd1a14fa643642…4112 tokens truncated…xecution authorized."
-    ],
-    "delivery_status": "substantive_commit_expected_parent_main_and_all_11_files_exact_readback_verified",
-    "publication_commit": "72fe5940247ded9496d3a896828ecfa779de5914",
-    "delivery_readback_ref": {
-      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R15_DELIVERY_READBACK.json",
-      "sha256": "c5e6d79a128fe30a69712c26cd98c7e7191c53874f1250778b2e056d09424210"
+          "sha256": "a09c1dd2dd1a14fa643642…4205 tokens truncated…c26cd98c7e7191c53874f1250778b2e056d09424210"
     }
   },
   "repair_R16_noncommuting_joint_flow": {
@@ -3717,7 +3711,7 @@ Total output lines: 4024
     }
   },
   "step2_compound_query_hedge_2026_10_12": {
-    "status": "independent_final_byte_math_source_and_measurement_reviews_passed_pending_publication",
+    "status": "independent_final_byte_math_source_and_measurement_reviews_passed_published_exact_readback_verified",
     "scope": "new_online_information_pattern_closed_as_classical_single_user_lossy_caching_theorem_control",
     "artifact": {"path": "research/delta-discovery-2026-10-08/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md", "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"},
     "source_audit": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_SOURCE_AUDIT_2026-10-12.md", "sha256": "067ae1e2d10657f4f6aab36814d0cd6100fcf915c2a0acb9ff6988ab39b89660"},
@@ -3735,7 +3729,14 @@ Total output lines: 4024
     "candidate_delta": 0,
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
-    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
+    "publication_commit": "436d75f55a9571ed8a63dceb953393e03ede5421",
+    "delivery_status": "published_expected_parent_nonforce_main_and_exact_readback_verified",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_DELIVERY_READBACK.json",
+      "sha256": "a8c70c3bda769f4100168c6e2d20b9c50e51b9d06fe2ed30699815347d8d4e43",
+      "all_paths_exact": true,
+      "path_count": 13
+    }
   }
 }
 
