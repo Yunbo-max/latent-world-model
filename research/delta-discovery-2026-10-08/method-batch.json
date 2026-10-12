@@ -1963,7 +1963,14 @@
     "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "4d30446a0a03ca3b3c84b9a528b500c82a263146",
-    "delivery_status": "publication_pending_expected_parent_nonforce_main"
+    "delivery_status": "substantive_commit_expected_parent_nonforce_main_and_all_12_paths_exact_readback_verified",
+    "publication_commit": "850933f021d8105a443d597a1b3d9db9958edfd4",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT_DELIVERY_READBACK.json",
+      "sha256": "293cde6bf2c3aec93d130d7c687e84a3bb6084c3cb132b61ad6238e8c2859357",
+      "all_paths_exact": true,
+      "path_count": 12
+    }
   }
 }
 
