@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "python",
+    "scripts/check_d05_precision_v1.py",
+    "--output",
+    "results/D05-precision-v1.json"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.10633678199883434,
+  "peak_observed_rss_bytes": 26460160,
+  "kernel_child_maxrss_bytes": 26460160,
+  "proc_rss_samples": 0,
+  "data_allocation_limit_mib": 256,
+  "sampled_rss_limit_exceeded": false,
+  "cpu_user_seconds": 0.084855,
+  "cpu_system_seconds": 0.012095999999999999,
+  "thread_environment_requested": 1,
+  "actual_solver_threads": "not_measured",
+  "sampling_seconds": 0.02,
+  "rss_scope": "Linux RUSAGE_CHILDREN peak includes inherited process pages; proc sampling may be unavailable across PID namespaces; RLIMIT_DATA caps data allocations,not total RSS"
+}

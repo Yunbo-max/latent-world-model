@@ -1,0 +1,137 @@
+{
+  "suite": "channel-certificate-v1",
+  "data_kind": "constructed mathematical diagnostic",
+  "checks": [
+    {
+      "id": "R08-v2.full-likelihood-two-worlds",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "logged_joint_laws_equal": true,
+        "joint_log_probabilities": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.25,
+            0.25
+          ]
+        ],
+        "world_a_release_minus_keep": 0.25,
+        "world_b_release_minus_keep": -0.25
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Two complete valid likelihood worlds have identical keep-only records,including observed keep loss,and opposite optimal unsupported release actions. Logging V does not identify an untried channel."
+    },
+    {
+      "id": "R08-v2.likelihood-mixture-bayes-plausibility",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "posterior_values": [
+          0.5,
+          0.0,
+          1.0
+        ],
+        "symbol_masses": [
+          0.7,
+          0.15,
+          0.15
+        ],
+        "posterior_mean": 0.5,
+        "gross_information_value": 0.15000000000000002
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Explicit conditional kernels attain an intermediate EVSI rather than inserting an arbitrary posterior sample list."
+    },
+    {
+      "id": "R08-v2.linked-channel-rectangular-gap",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "shared_family_action_differences": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "rectangular_outer_interval": [
+          -0.25,
+          0.75
+        ]
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "When keep and release must share the same kernel and loss,information values cancel. Independently rectangular extremes are an outer bound,not a sharp identified set for this linked family."
+    },
+    {
+      "id": "R17-v2.rank-zero-full-and-low-endpoints",
+      "lineage": "R17",
+      "source_refs": [
+        "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "cases": [
+          {
+            "rank": 0,
+            "tail": 9.0,
+            "score": 9.0,
+            "beta": 0.04216370213557839,
+            "direct_query_energy": 0.14400000000000002,
+            "certificate_bound": 0.4
+          },
+          {
+            "rank": 1,
+            "tail": 2.0,
+            "score": 7.760000000000002,
+            "beta": 0.04540766091864998,
+            "direct_query_energy": 0.16701030927835048,
+            "certificate_bound": 0.4
+          },
+          {
+            "rank": 3,
+            "tail": 0.0,
+            "score": 6.480000000000001,
+            "beta": 0.04969039949999532,
+            "direct_query_energy": 0.19999999999999993,
+            "certificate_bound": 0.3999999999999999
+          }
+        ],
+        "dense_score": 6.48
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Rank0 isotropic and full-rank zero-tail implementations preserve the conditional one-sided bound. U is a declared fixed certificate; no deployed prefix calibration is constructed."
+    },
+    {
+      "id": "R17-v2.actual-energy-versus-objective-curvature",
+      "lineage": "R17",
+      "source_refs": [
+        "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "direct_energy": 4.284900000000001,
+        "gram_energy": 4.2849,
+        "objective_curvature_fd": 163.3999993089219,
+        "objective_curvature_exact": 163.39999999999998,
+        "energy_coefficient": 81.0
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Interference energy and scalar fit-plus-interference objective curvature have distinct factors and units; a certificate score alone is not the full objective Hessian."
+    }
+  ],
+  "limitations": [
+    "No real logged channel identified;no prefix calibration or native score.",
+    "No causal transition of latent validity or nonlinear continuation tested."
+  ]
+}

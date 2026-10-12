@@ -1,12 +1,12 @@
 {
-  "phase": "first CPU numerical verification batch",
+  "phase": "second CPU numerical verification batch",
   "scope": "constructed diagnostics,not language-model/native benchmark or originality validation",
   "source_commit": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
-  "recorded_at_utc": "2026-10-12T09:15:50.302585+00:00",
-  "distinct_numerical_checks": 65,
+  "recorded_at_utc": "2026-10-12T10:48:26.870428+00:00",
+  "distinct_numerical_checks": 77,
   "source_integrity_checks": 1,
   "status_counts": {
-    "passed": 65,
+    "passed": 77,
     "failed": 0,
     "inconclusive": 0
   },
@@ -32,7 +32,7 @@
     "R19",
     "R20"
   ],
-  "successful_result_commands": 15,
+  "successful_result_commands": 17,
   "result_inventory": [
     {
       "path": "results/feedback-seed-0-v2.json",
@@ -152,6 +152,20 @@
       "seed": 2,
       "sha256": "69b40ab524ca578fe17d51db9e1b4976fb2d037e503fdd5853ecd9f2ee1807f0",
       "check_count": 24,
+      "failures": []
+    },
+    {
+      "path": "results/D05-precision-v1.json",
+      "suite": "D05-precision-v1",
+      "sha256": "f6cf146031e010f37b2b420370af381d9d11a952a3510e3356a2131446b2bf68",
+      "check_count": 7,
+      "failures": []
+    },
+    {
+      "path": "results/channel-certificate-v1.json",
+      "suite": "channel-certificate-v1",
+      "sha256": "050aee930d1b4d6ff1436a71c2c83ba057f8ef6f4198ac7e6afc7562da5bf020",
+      "check_count": 5,
       "failures": []
     }
   ],
@@ -3314,6 +3328,277 @@
           "git_blob_sha": "aa1fd95d740093f944ef0611692df0175ef61572"
         }
       ]
+    },
+    {
+      "id": "D05-v2.moving-coordinate-order",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "max_correct_error": 2.498001805406602e-16,
+        "max_wrong_previous_basis_error": 0.3035613326155275
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Changing bases requires T_previous in the transition and T_current.T in the query; a naive basis substitution fails."
+    },
+    {
+      "id": "D05-v2.integer-allocation-floor-zero-spectrum",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "greedy_bits": [
+          5,
+          3,
+          1
+        ],
+        "greedy_risk": 0.03125,
+        "exhaustive_risk": 0.03125,
+        "feasible_allocations": 28
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Discrete marginal allocation agrees with exhaustive search for this declared equal-range spectrum including a zero direction; not a mixed-bit kernel measurement."
+    },
+    {
+      "id": "D05-v2.subtractive-dither-no-overload",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "n_per_row": 8192,
+        "steps": [
+          0.03125,
+          0.125
+        ],
+        "predicted_variance": [
+          8.138020833333333e-05,
+          0.0013020833333333333
+        ],
+        "observed_second_moment": [
+          8.031456936158647e-05,
+          0.0012957216418342298
+        ],
+        "max_mean_standard_errors": 1.7553393075036403,
+        "max_second_moment_standard_errors": 1.325077488268693,
+        "no_overload": true
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Implemented subtractive uniform dither matches uniform-noise moments in a no-overload interior; six-SE development diagnostic, not a general coverage claim."
+    },
+    {
+      "id": "D05-v2.one-injection-quadratic-risk",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "predicted_risk": 0.0026041666666666665,
+        "observed_mean_risk": 0.002580754751619613,
+        "standard_error_under_declared_model": 1.819716778564282e-05,
+        "absolute_standard_errors": 1.2865691696003878
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Single-injection expected output risk matches the direct quantizer under stated equal-range independent-dither conditions; recurrent risk is a different object."
+    },
+    {
+      "id": "D05-v2.metric-drift-reversal",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "calibrated": 0.03125,
+        "uniform": 0.06640625,
+        "stale_after_swap": 0.2509765625,
+        "uniform_after_swap": 0.06640625
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "The causal predictor cannot use the deployed future swap; this is a drift falsifier, not a deployable oracle comparison."
+    },
+    {
+      "id": "D05-v2.recurrent-cross-injection-counterexample",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "horizon": 4,
+        "independent_risk": 0.0625,
+        "correlated_risk": 0.25,
+        "sum_of_single_injection_risks": 0.0625,
+        "correlated_to_independent_ratio": 4.0
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Exhaustive two joint noise laws have identical one-step marginals but distinct final risks; the local risk cannot imply a repeated-injection certificate. This is a generic correlated-noise boundary, not subtractive-dither failure."
+    },
+    {
+      "id": "D05-v2.fp32-basis-cancellation",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "cases": [
+          {
+            "shear": 0.0,
+            "condition_number": 1.0,
+            "fp64_error": 0.0,
+            "fp32_error": 0.0
+          },
+          {
+            "shear": 10000.0,
+            "condition_number": 100000001.99999999,
+            "fp64_error": 0.0,
+            "fp32_error": 0.0
+          },
+          {
+            "shear": 100000000.0,
+            "condition_number": 1e+16,
+            "fp64_error": 0.0,
+            "fp32_error": 1.4142135623730951
+          }
+        ],
+        "expected_fp32_failure_observed": true
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Real-arithmetic coordinate equivalence fails numerically for this ill-conditioned FP32 basis; the diagnostic passes by exposing the predicted limitation, not by asserting FP32 equivalence."
+    },
+    {
+      "id": "R08-v2.full-likelihood-two-worlds",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "logged_joint_laws_equal": true,
+        "joint_log_probabilities": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.25,
+            0.25
+          ]
+        ],
+        "world_a_release_minus_keep": 0.25,
+        "world_b_release_minus_keep": -0.25
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Two complete valid likelihood worlds have identical keep-only records,including observed keep loss,and opposite optimal unsupported release actions. Logging V does not identify an untried channel."
+    },
+    {
+      "id": "R08-v2.likelihood-mixture-bayes-plausibility",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "posterior_values": [
+          0.5,
+          0.0,
+          1.0
+        ],
+        "symbol_masses": [
+          0.7,
+          0.15,
+          0.15
+        ],
+        "posterior_mean": 0.5,
+        "gross_information_value": 0.15000000000000002
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Explicit conditional kernels attain an intermediate EVSI rather than inserting an arbitrary posterior sample list."
+    },
+    {
+      "id": "R08-v2.linked-channel-rectangular-gap",
+      "lineage": "R08",
+      "source_refs": [
+        "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "shared_family_action_differences": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "rectangular_outer_interval": [
+          -0.25,
+          0.75
+        ]
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "When keep and release must share the same kernel and loss,information values cancel. Independently rectangular extremes are an outer bound,not a sharp identified set for this linked family."
+    },
+    {
+      "id": "R17-v2.rank-zero-full-and-low-endpoints",
+      "lineage": "R17",
+      "source_refs": [
+        "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "cases": [
+          {
+            "rank": 0,
+            "tail": 9.0,
+            "score": 9.0,
+            "beta": 0.04216370213557839,
+            "direct_query_energy": 0.14400000000000002,
+            "certificate_bound": 0.4
+          },
+          {
+            "rank": 1,
+            "tail": 2.0,
+            "score": 7.760000000000002,
+            "beta": 0.04540766091864998,
+            "direct_query_energy": 0.16701030927835048,
+            "certificate_bound": 0.4
+          },
+          {
+            "rank": 3,
+            "tail": 0.0,
+            "score": 6.480000000000001,
+            "beta": 0.04969039949999532,
+            "direct_query_energy": 0.19999999999999993,
+            "certificate_bound": 0.3999999999999999
+          }
+        ],
+        "dense_score": 6.48
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Rank0 isotropic and full-rank zero-tail implementations preserve the conditional one-sided bound. U is a declared fixed certificate; no deployed prefix calibration is constructed."
+    },
+    {
+      "id": "R17-v2.actual-energy-versus-objective-curvature",
+      "lineage": "R17",
+      "source_refs": [
+        "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md"
+      ],
+      "status": "passed",
+      "metrics": {
+        "direct_energy": 4.284900000000001,
+        "gram_energy": 4.2849,
+        "objective_curvature_fd": 163.3999993089219,
+        "objective_curvature_exact": 163.39999999999998,
+        "energy_coefficient": 81.0
+      },
+      "scope": "constructed development diagnostic",
+      "interpretation": "Interference energy and scalar fit-plus-interference objective curvature have distinct factors and units; a certificate score alone is not the full objective Hessian."
     }
   ],
   "observed_peak_child_rss_bytes": 86040576,
@@ -3699,5 +3984,33 @@
     "SFT_retention": "not_tested",
     "RSI_learning_efficiency": "not_tested",
     "originality": "not_established"
+  },
+  "batch02": {
+    "new_distinct_check_ids": [
+      "D05-v2.moving-coordinate-order",
+      "D05-v2.integer-allocation-floor-zero-spectrum",
+      "D05-v2.subtractive-dither-no-overload",
+      "D05-v2.one-injection-quadratic-risk",
+      "D05-v2.metric-drift-reversal",
+      "D05-v2.recurrent-cross-injection-counterexample",
+      "D05-v2.fp32-basis-cancellation",
+      "R08-v2.full-likelihood-two-worlds",
+      "R08-v2.likelihood-mixture-bayes-plausibility",
+      "R08-v2.linked-channel-rectangular-gap",
+      "R17-v2.rank-zero-full-and-low-endpoints",
+      "R17-v2.actual-energy-versus-objective-curvature"
+    ],
+    "review_path": "review/BATCH02_NUMERICAL_REVIEW.md",
+    "runner_budget": {
+      "attempts_used": 18,
+      "deadline_epoch": 1791881465.5041356,
+      "elapsed_seconds": 9.950068011001349,
+      "max_attempts": 40,
+      "max_command_seconds": 3600,
+      "remaining_deadline_seconds": 79358.78291988373,
+      "remaining_seconds": 3590.0499319889987,
+      "reserved_seconds": 0
+    },
+    "all_scope": "constructed development only,no native or LM result"
   }
 }

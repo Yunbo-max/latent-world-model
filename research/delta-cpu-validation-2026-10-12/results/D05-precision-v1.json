@@ -1,0 +1,157 @@
+{
+  "suite": "D05-precision-v1",
+  "seed": 12012,
+  "data_kind": "constructed mathematical diagnostic",
+  "checks": [
+    {
+      "id": "D05-v2.moving-coordinate-order",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "max_correct_error": 2.498001805406602e-16,
+        "max_wrong_previous_basis_error": 0.3035613326155275
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Changing bases requires T_previous in the transition and T_current.T in the query; a naive basis substitution fails."
+    },
+    {
+      "id": "D05-v2.integer-allocation-floor-zero-spectrum",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "greedy_bits": [
+          5,
+          3,
+          1
+        ],
+        "greedy_risk": 0.03125,
+        "exhaustive_risk": 0.03125,
+        "feasible_allocations": 28
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Discrete marginal allocation agrees with exhaustive search for this declared equal-range spectrum including a zero direction; not a mixed-bit kernel measurement."
+    },
+    {
+      "id": "D05-v2.subtractive-dither-no-overload",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "n_per_row": 8192,
+        "steps": [
+          0.03125,
+          0.125
+        ],
+        "predicted_variance": [
+          8.138020833333333e-05,
+          0.0013020833333333333
+        ],
+        "observed_second_moment": [
+          8.031456936158647e-05,
+          0.0012957216418342298
+        ],
+        "max_mean_standard_errors": 1.7553393075036403,
+        "max_second_moment_standard_errors": 1.325077488268693,
+        "no_overload": true
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Implemented subtractive uniform dither matches uniform-noise moments in a no-overload interior; six-SE development diagnostic, not a general coverage claim."
+    },
+    {
+      "id": "D05-v2.one-injection-quadratic-risk",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "predicted_risk": 0.0026041666666666665,
+        "observed_mean_risk": 0.002580754751619613,
+        "standard_error_under_declared_model": 1.819716778564282e-05,
+        "absolute_standard_errors": 1.2865691696003878
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Single-injection expected output risk matches the direct quantizer under stated equal-range independent-dither conditions; recurrent risk is a different object."
+    },
+    {
+      "id": "D05-v2.metric-drift-reversal",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "calibrated": 0.03125,
+        "uniform": 0.06640625,
+        "stale_after_swap": 0.2509765625,
+        "uniform_after_swap": 0.06640625
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "The causal predictor cannot use the deployed future swap; this is a drift falsifier, not a deployable oracle comparison."
+    },
+    {
+      "id": "D05-v2.recurrent-cross-injection-counterexample",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "horizon": 4,
+        "independent_risk": 0.0625,
+        "correlated_risk": 0.25,
+        "sum_of_single_injection_risks": 0.0625,
+        "correlated_to_independent_ratio": 4.0
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Exhaustive two joint noise laws have identical one-step marginals but distinct final risks; the local risk cannot imply a repeated-injection certificate. This is a generic correlated-noise boundary, not subtractive-dither failure."
+    },
+    {
+      "id": "D05-v2.fp32-basis-cancellation",
+      "lineage": "D05",
+      "scope": "constructed development diagnostic",
+      "status": "passed",
+      "metrics": {
+        "cases": [
+          {
+            "shear": 0.0,
+            "condition_number": 1.0,
+            "fp64_error": 0.0,
+            "fp32_error": 0.0
+          },
+          {
+            "shear": 10000.0,
+            "condition_number": 100000001.99999999,
+            "fp64_error": 0.0,
+            "fp32_error": 0.0
+          },
+          {
+            "shear": 100000000.0,
+            "condition_number": 1e+16,
+            "fp64_error": 0.0,
+            "fp32_error": 1.4142135623730951
+          }
+        ],
+        "expected_fp32_failure_observed": true
+      },
+      "source_refs": [
+        "source_snapshots/cards/D05.json"
+      ],
+      "interpretation": "Real-arithmetic coordinate equivalence fails numerically for this ill-conditioned FP32 basis; the diagnostic passes by exposing the predicted limitation, not by asserting FP32 equivalence."
+    }
+  ],
+  "elapsed_seconds": 0.01181723899935605,
+  "limitations": [
+    "No payload packing, basis-refresh cost or native LM score measured.",
+    "Future spectrum is diagnostic/reference information, not available deployment evidence.",
+    "These conditions were selected after inspecting the archived theorem; development evidence only."
+  ]
+}

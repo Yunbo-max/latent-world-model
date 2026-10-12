@@ -1,5 +1,23 @@
 # Delta CPU 验证阶段
 
+## 第二批已交付的 CPU 检验
+
+新增12个不同数值检查ID，累计77个；D05补移动坐标、整数分配、实际减法抖动与有限精度边界，
+R08补完整似然世界和linked-channel限制，R17补rank0/rankd及能量/曲率区分。
+详见[BATCH02.zh-CN.md](BATCH02.zh-CN.md)及[独立复审](review/BATCH02_NUMERICAL_REVIEW.md)。
+这些仍是构造条件下的开发检验，包括按预期暴露失效，不代表全部实验完成。
+
+最新可恢复状态为旧完整归档加增量归档：
+[增量manifest](recovery_batches/batch02/MANIFEST.json)、[分片清单](recovery_batches/batch02/PARTS.json)。
+在空目录先按原restore_archive.py恢复旧RECOVERY.zip.b64；再无分隔拼接batch02的parts并核对hash，
+用scripts/restore_delta_snapshot_v1.py覆盖manifest允许的精确base文件。
+只恢复到没有活跃runner的目录，随后核对原source digest、attempts和预算；不得重新init。
+增量包含一致SQLite备份与所有新attempt/receipt/raw输出，保留原归档和原历史。
+
+内存规则已经落地：每个新数值作业前读取cgroup上限、current、anon/file/cache和events，
+区分可回收缓存与实际工作集；不足则保留同一实验等待，连续3个受阻唤醒或确认最低需求超过上限时报告。
+本批启动时未计账余量足够，未发生OOM。线程数1是配置请求；peak是kernel rusage，不能代替不存在的proc采样。
+
 已按用户2026-10-12授权切换到 rsi-simple0.3.0-simple.9。原后台暂停已被本次
 “开始验证所有实验”的指令取代；保留同一任务和同一GitHub main，旧研究历史不删除。
 

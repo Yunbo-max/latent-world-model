@@ -418,14 +418,32 @@
           "verification": "static reviewed; parent owns numerical execution/results"
         }
       ],
-      "execution_status": "not_executed_by_coverage_reviewer",
+      "execution_status": "parent_executed_representative_development_cases;not_full_source_coverage",
       "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
       "diagnostic_coverage_qualification": "Direct script coverage is partial",
       "remaining_diagnostic_claims": [
         "Linked/nonrectangular feasible channels",
         "Actual Bayes likelihood-world construction of unsupported observation channels",
         "Action changing latent validity/transition is outside fixed-prior theorem"
-      ]
+      ],
+      "batch02_specific_checks": [
+        {
+          "id": "R08-v2.full-likelihood-two-worlds",
+          "status": "passed",
+          "interpretation": "Two complete valid likelihood worlds have identical keep-only records,including observed keep loss,and opposite optimal unsupported release actions. Logging V does not identify an untried channel."
+        },
+        {
+          "id": "R08-v2.likelihood-mixture-bayes-plausibility",
+          "status": "passed",
+          "interpretation": "Explicit conditional kernels attain an intermediate EVSI rather than inserting an arbitrary posterior sample list."
+        },
+        {
+          "id": "R08-v2.linked-channel-rectangular-gap",
+          "status": "passed",
+          "interpretation": "When keep and release must share the same kernel and loss,information values cancel. Independently rectangular extremes are an outer bound,not a sharp identified set for this linked family."
+        }
+      ],
+      "remaining_after_batch02": "D05 clipping,packing,refresh,total-cost and repeated quantizer;R08 causal transitions/identified real channels;R17 randomized compression/conditional coverage/nonlinear semantics remain as applicable."
     },
     {
       "id": "R09",
@@ -712,14 +730,27 @@
           "resolved_review_addition": "Zero-residual and zero protected-score branches now actually computed/asserted in statistics v2."
         }
       ],
-      "execution_status": "not_executed_by_coverage_reviewer",
+      "execution_status": "parent_executed_representative_development_cases;not_full_source_coverage",
       "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
       "diagnostic_coverage_qualification": "Direct script coverage is partial",
       "remaining_diagnostic_claims": [
         "Rank0/rankd endpoint implementations",
         "Randomized-compressor failure composition and prefix Gram coverage",
         "Nonlinear finite-action and signed semantic loss"
-      ]
+      ],
+      "batch02_specific_checks": [
+        {
+          "id": "R17-v2.rank-zero-full-and-low-endpoints",
+          "status": "passed",
+          "interpretation": "Rank0 isotropic and full-rank zero-tail implementations preserve the conditional one-sided bound. U is a declared fixed certificate; no deployed prefix calibration is constructed."
+        },
+        {
+          "id": "R17-v2.actual-energy-versus-objective-curvature",
+          "status": "passed",
+          "interpretation": "Interference energy and scalar fit-plus-interference objective curvature have distinct factors and units; a certificate score alone is not the full objective Hessian."
+        }
+      ],
+      "remaining_after_batch02": "D05 clipping,packing,refresh,total-cost and repeated quantizer;R08 causal transitions/identified real channels;R17 randomized compression/conditional coverage/nonlinear semantics remain as applicable."
     },
     {
       "id": "R18",
@@ -1188,12 +1219,50 @@
       "native_measurement_gap_and_reopen_evidence": "Native QA does not identify quantization disturbance; equal-range independent dither is strong assumption and actual floating kernels missing.",
       "reuse_or_distinct_obligation": "R10/R16/RD carrier ideas reuse only part; generalized balanced basis/bit allocator/refresh diagnostics distinct.",
       "implemented_script_coverage": [],
-      "execution_status": "not_executed_by_coverage_reviewer",
+      "execution_status": "parent_executed_representative_development_cases;not_full_source_coverage",
       "scientific_status": "conditional_control_or_historical_lead_not_scientifically_admitted",
       "diagnostic_coverage_qualification": "No direct source-bound check in the two audited producer scripts; related reuse or other parent suites must be traced explicitly",
       "remaining_diagnostic_claims": [
         "Transform recurrence identity, bit allocator versus exact small integer search, independent dither variance and recurrent correlated errors."
-      ]
+      ],
+      "batch02_specific_checks": [
+        {
+          "id": "D05-v2.moving-coordinate-order",
+          "status": "passed",
+          "interpretation": "Changing bases requires T_previous in the transition and T_current.T in the query; a naive basis substitution fails."
+        },
+        {
+          "id": "D05-v2.integer-allocation-floor-zero-spectrum",
+          "status": "passed",
+          "interpretation": "Discrete marginal allocation agrees with exhaustive search for this declared equal-range spectrum including a zero direction; not a mixed-bit kernel measurement."
+        },
+        {
+          "id": "D05-v2.subtractive-dither-no-overload",
+          "status": "passed",
+          "interpretation": "Implemented subtractive uniform dither matches uniform-noise moments in a no-overload interior; six-SE development diagnostic, not a general coverage claim."
+        },
+        {
+          "id": "D05-v2.one-injection-quadratic-risk",
+          "status": "passed",
+          "interpretation": "Single-injection expected output risk matches the direct quantizer under stated equal-range independent-dither conditions; recurrent risk is a different object."
+        },
+        {
+          "id": "D05-v2.metric-drift-reversal",
+          "status": "passed",
+          "interpretation": "The causal predictor cannot use the deployed future swap; this is a drift falsifier, not a deployable oracle comparison."
+        },
+        {
+          "id": "D05-v2.recurrent-cross-injection-counterexample",
+          "status": "passed",
+          "interpretation": "Exhaustive two joint noise laws have identical one-step marginals but distinct final risks; the local risk cannot imply a repeated-injection certificate. This is a generic correlated-noise boundary, not subtractive-dither failure."
+        },
+        {
+          "id": "D05-v2.fp32-basis-cancellation",
+          "status": "passed",
+          "interpretation": "Real-arithmetic coordinate equivalence fails numerically for this ill-conditioned FP32 basis; the diagnostic passes by exposing the predicted limitation, not by asserting FP32 equivalence."
+        }
+      ],
+      "remaining_after_batch02": "D05 clipping,packing,refresh,total-cost and repeated quantizer;R08 causal transitions/identified real channels;R17 randomized compression/conditional coverage/nonlinear semantics remain as applicable."
     },
     {
       "id": "D06",

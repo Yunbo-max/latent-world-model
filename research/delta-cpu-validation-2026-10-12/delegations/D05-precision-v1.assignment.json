@@ -1,0 +1,18 @@
+{
+  "task_name": "d05_precision_review",
+  "input_paths": [
+    "scripts/check_d05_precision_v1.py",
+    "plans/D05-precision-v1.json",
+    "source_snapshots/cards/D05.json"
+  ],
+  "input_hashes": {
+    "scripts/check_d05_precision_v1.py": "c029742d02c3c860f9ee77b4cfadfef11e20767496fd46cf5a636f09d4a34e39",
+    "plans/D05-precision-v1.json": "3c8ad0cac540536e31720b55b431398984c194b0c0cc4ee371443f8f6b2aed4a",
+    "source_snapshots/cards/D05.json": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
+  },
+  "scope": "Read-only math/implementation/design review; no numerical execution; parent owns runner and publication",
+  "model_usage": "unknown",
+  "launch_state": "native_agent_started",
+  "recorded_at_epoch": 1791801702.5424154,
+  "native_agent": "/root/d05_precision_review"
+}

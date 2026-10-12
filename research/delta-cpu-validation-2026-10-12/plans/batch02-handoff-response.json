@@ -1,0 +1,48 @@
+{
+  "response_id": "CPU-batch02-handoff-v1",
+  "request_id": "decision-9227825393044cb3acf2752f84a45b31",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Save complete second-batch evidence and same-budget scientific continuation;overall goal open",
+  "events": [
+    {
+      "kind": "research_cycle",
+      "event_id": "CPU-batch02-D05-R08-R17-development",
+      "hypothesis": "Archived local-risk and coordinate claims have conditional numerical consequences but require cross-injection,conditioning and channel-geometry qualifications",
+      "prediction": "Direct references agree within their declared conditions;correlated noise,metric drift and FP32 conditioning expose stated limitations",
+      "result": "12newdistinctdiagnostics meet declared tests;no OOM;expected failure witnesses retained",
+      "interpretation": "Useful conditional mechanism evidence;not generalized full-model success,candidate admission or empirical LM superiority",
+      "next_action": "Cover earliest remaining source-specific branches and repeated finite-precision/cost controls;keep native comparison prerequisites pending",
+      "reason": "Actual two runner receipts,raw outputs and independent static review consumed",
+      "evidence": [
+        {
+          "path": "BATCH02.zh-CN.md",
+          "sha256": "e16c20f81051df47c21cdbec3d11673fff81d486e88169f71c03f9b98c5f9d0a"
+        },
+        {
+          "path": "RESULTS_SUMMARY.json",
+          "sha256": "a83aa8c46c6dcd0bc7a26ee7a84fb518759151ee25407dba8a54e88f9a4dbbd6"
+        },
+        {
+          "path": "review/BATCH02_NUMERICAL_REVIEW.md",
+          "sha256": "75f4fabf26f92fd0f725f29ab3dfb8595809d33337fc3a954a3f75670fea005a"
+        },
+        {
+          "path": "checkpoints/CPU_CHECKPOINT.json",
+          "sha256": "6980f60987c265d6d6827c799dd95cb7f882fe00b7bc1e5e4057a0ec0ace638a"
+        }
+      ]
+    }
+  ],
+  "continuation": {
+    "reason": "partial",
+    "checkpoint_refs": [
+      {
+        "path": "checkpoints/CPU_CHECKPOINT.json",
+        "sha256": "6980f60987c265d6d6827c799dd95cb7f882fe00b7bc1e5e4057a0ec0ace638a"
+      }
+    ],
+    "next_action": "Continue remaining STEP2/control checks or D05 repeated quantizer/clipping and cost under fresh memory preflight;77uniquechecks retained,no rerun of successful batch02"
+  }
+}

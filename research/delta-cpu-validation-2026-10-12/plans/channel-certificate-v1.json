@@ -1,0 +1,13 @@
+{
+  "kind": "claim-specific-CPU-development-design",
+  "idea": "validate-delta-mechanisms",
+  "goal_contract_version": 1,
+  "exposure": "constructed development after prior source review",
+  "conditions": [
+    "R08 explicit finite likelihood-world support and linked/nonrectangular kernel family",
+    "R17 rank0,rankd and lowrank tail;direct queries vs bound;energy vs objective curvature"
+  ],
+  "reference": "Finite joint-loss table terminal optimization independent of absolute-margin EVSI;direct query outputs independent of certificate scalar;finite-difference curvature independent of derivative formula.",
+  "outcome_rules": "Exact finite constructions use1e-12;objective finite difference relative1e-6 at h1e-4. Any unpredicted failure retained.",
+  "limits": "No validity transitions,endogenous rollout,prefix calibration,public/native LM outcomes or cost advantage measured."
+}

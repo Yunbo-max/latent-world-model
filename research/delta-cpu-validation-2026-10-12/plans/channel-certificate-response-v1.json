@@ -1,0 +1,61 @@
+{
+  "response_id": "channel-certificate-response-v1",
+  "request_id": "decision-582905ec90ec4cc18a2077a8eff07682",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "D05 recorded7checks;continue previously identified R08 likelihood-world and R17 endpoint/curvature gaps under same single-job budget.",
+  "tasks": [
+    {
+      "task_id": "channel-certificate-suite-v1",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/channel-certificate-v1.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_channel_certificate_v1.py",
+        "--output",
+        "results/channel-certificate-v1.json"
+      ],
+      "cwd": ".",
+      "phase": "diagnostic",
+      "purpose": "Explicit channel laws and certificate endpoint/energy distinction",
+      "timeout_seconds": 30,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_channel_certificate_v1.py",
+          "sha256": "daf01b7d54563cd66ab14a173dc9e12fb3f29bf67f2191830f78d4933c1e60c0"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/channel-certificate-v1.json",
+          "sha256": "1d7829808275b0c86c31af0fb8181d70914eed41e5189a95208c6b7146af28fa"
+        },
+        {
+          "path": "source_snapshots/repairs/R08_SHARP_CHANNEL_FREE_RELEASE.v3.md",
+          "sha256": "d7ec2b67693e42f2c0d8daffd9754a42f22926768369fefbc9d52dfc7dee673b"
+        },
+        {
+          "path": "source_snapshots/repairs/R17_RESIDUAL_SCALED_SPECTRAL_CERTIFICATE.v3.md",
+          "sha256": "f7bf7ce4f7e94262ec337ebd299a7ffe7cd7ee6dd883b5b7c4e016fcf1e322d0"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/channel-certificate-v1.json",
+        "results/channel-certificate-v1.resources.json"
+      ]
+    }
+  ]
+}

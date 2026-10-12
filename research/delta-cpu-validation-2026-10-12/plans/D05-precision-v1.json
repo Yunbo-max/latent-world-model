@@ -1,0 +1,38 @@
+{
+  "kind": "claim-specific-CPU-development-design",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "parent_delivery": "1e3bb300270eaaf6f8ff9555757d7bce31e87988",
+  "source_ref": {
+    "path": "source_snapshots/cards/D05.json",
+    "sha256": "c1e238a34cc033381cf3d8ad49d1fa4d1c4b3373e8df4b0e4142cad3637d71f2"
+  },
+  "scope": "Fill D05 currently missing representative diagnostics; no LM or native result",
+  "exposure": "Prior symbolic examples and source already inspected; chosen constructed conditions are development,not unseen confirmation",
+  "comparisons": [
+    "moving-coordinate recurrence vs direct chronological matrix recurrence and deliberately wrong basis",
+    "integer marginal allocation vs exhaustive feasible integer enumeration including zero spectrum",
+    "implemented bounded subtractive-dither quantizer vs analytic uniform-noise moments and one-injection risk",
+    "matched payload allocation under spectrum swap vs uniform",
+    "exhaustive joint noise laws with equal one-step marginals but different recurrent cross terms",
+    "FP64 algebra vs FP32 ill-conditioned shear cancellation"
+  ],
+  "outcome_rules": "Independent direct identities use1e-12 or1e-14 as declared in code; moment diagnostics use6 theoretical standard errors with fixed8192 samples and seed12012; expected counterexamples pass only if the stated failure occurs. No failure branch removed; no scientific superiority from pass.",
+  "statistics": "Constructed deterministic cases and development Monte Carlo; no formal simultaneous coverage or benchmark inference.",
+  "resources": {
+    "job_concurrency": 1,
+    "requested_threads": 1,
+    "data_cap_mib": 256,
+    "estimated_incremental_workset_mib": 128,
+    "headroom_margin_mib": 256,
+    "memory_preflight_path": "checkpoints/memory-D05-v1.json"
+  },
+  "remaining": [
+    "D05 clipping/packing/refresh/cost and actual recurrent quantizer",
+    "R08 full likelihood worlds",
+    "R17 rank0/rankd and actual energy/certificate curvature",
+    "Other source-specific branches",
+    "Native framework,data,scorer and LM training pending"
+  ]
+}
