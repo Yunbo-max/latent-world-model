@@ -1,5 +1,7 @@
 # 全池排名尚未到达：当前活动池为零
 
+当前状态：R01--R20 的 bounded-repair sweep 已在 2026-10-12 收束为 theorem/control batch；没有新增可排名候选，20→15 仍未完成。
+
 ## R18 v3 排名处置（attempt 3/3 exhausted）
 
 R18 v3 **不进入活动池或 top-15**。正面结果是一个严格的修复而非再次否定：在 exact-real、one-event/fixed-affine-map、prefix 声明路径树和 uniform pairwise radius 下，rank-`r` side ledger 的最坏 fiber leakage 有精确 min--max 公式，pathwise singular-tail 给必要下界，common PSD envelope 给可计算充分上界；互补路径反例证明 envelope 可能保守。
@@ -357,3 +359,8 @@ It receives no candidate credit because the strongest direct joint signature and
 
 Delivery: substantive commit `2395b41e94b31952c56eef194c8d9ff689ee244e`; 14/14 substantive paths exact-readback verified. This does not change ranking eligibility.
 
+## Bounded-repair synthesis update (2026-10-12)
+
+No ranking entry is added. The R01--R20 repair lineages are closed after attempt 3/3 as scoped theorem/debug controls with `candidate_delta=0`. The sequential constant-width syndrome object is not ranked: without new evidence it cannot identify semantic validity; with independently accumulating queryable facts it needs growing finite-bit state; under exact bounded predictive structure it is matched by belief/PSR/right-congruence or a direct ledger.
+
+The whole-pool ranking and top-15 selection remain unverified: 5 historical retired cards, 0 active, 0 scientifically admitted, 0 selected. New source assets improve feasibility analysis but do not create a candidate or authorize experiments.

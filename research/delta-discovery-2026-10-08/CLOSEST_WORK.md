@@ -1,6 +1,8 @@
 # 定向近邻图与阅读边界
 
-## R18 v3 bounded-fiber leakage ledger 的最近工作处置
+当前跨线结论见本文末尾“Cross-lineage closure and new measurement neighbors (2026-10-12)”及 [bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md)。
+
+## R18 v3 bounded-fiber leakage ledger 的历史最近工作处置
 
 R18 v3 的一般机制与 switched-system observability、common Gramians、balanced truncation、approximate bisimulation、functional/sufficient-coordinate ledgers 强重合。Petreczky--Wisniewski--Leth 的 common LMI 与 balanced-truncation error bound、Gosea 等的 coupled Lyapunov/balancing、Girard--Pola--Tabuada 的可控精度 approximate bisimulation，均是明确主来源近邻；`emgr` 是真实 trajectory-Gramian 构造接口，DIACRITIC 是环境细化/认证接口，FLA DeltaNet 已有 scalar `beta` gate。
 
@@ -610,3 +612,16 @@ Native memory and language benchmarks expose only downstream endpoints, not the 
 
 Delivery: substantive commit `2395b41e94b31952c56eef194c8d9ff689ee244e`; all 14 substantive paths passed exact commit readback. Receipt: `sources/REPAIR_R19_V3_DELIVERY_READBACK.json`.
 
+## Cross-lineage closure and new measurement neighbors (2026-10-12)
+
+The final repair synthesis is dominated by known decision sufficiency/Blackwell equivalence, POMDP beliefs, predictive-state representations, controlled bisimulation/right congruence, zero-error function computation, INDEX-style capacity, and direct sufficient ledgers. These are controls, not candidate mechanisms.
+
+The closest newly audited measurement neighbors are:
+
+- *When Old Facts Return* (arXiv:2610.07715): re-read versus true-revert observational equivalence and a one-sided stale-resurrection stress test;
+- *When Errors Become Memories* (arXiv:2608.30198): controlled external-memory pathway interventions;
+- WritePolicyBench (arXiv:2602.02574): native write/merge/expire/skip API under a byte budget, without causal propensities;
+- MemoryBench (arXiv:2510.17281) and WikiBigEdit (arXiv:2503.05683): future/past retention endpoints under prescribed updates;
+- Open Bandit Dataset (arXiv:2008.07146): a valid propensity/OPE schema in a different, one-step recommendation domain.
+
+No single asset exposes a randomized or otherwise identified memory-update action together with delayed outcome, old-capability retention, and later-learning effect. R02/R08/R14 therefore remain parked rather than reopened.

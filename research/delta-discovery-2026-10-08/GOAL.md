@@ -1,6 +1,8 @@
 # Delta 数学发现后台阶段
 
-## 最新里程碑：R18 v3 有界纤维泄漏 ledger（attempt 3/3）
+当前里程碑：[2026-10-12 bounded-repair synthesis](STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md) 已通过最终字节数学、distinctness、来源与完整性审查；R01--R20 修复批次关闭，但 20→15 总阶段未完成，计数不变。
+
+## 历史里程碑：R18 v3 有界纤维泄漏 ledger（attempt 3/3）
 
 [R18 v3 修订](repairs/R18_BOUNDED_FIBER_LEAKAGE_LEDGER.v3.md)没有删除 v2 的“精确公共不可见空间可能为零”反例，而是把全或无的精确商目标修成一个可量化问题。对 destructive map 合并的 pairwise coefficient difference `alpha`，在明确 `||alpha||<=R`、精确实数 side code 和 prefix 声明的有限仿射路径树下，rank-`r` ledger 的最坏剩余能量精确等于 `R^2 max_pi lambda_max(P_V G_pi P_V)`；最优 ledger 是一个 Grassmann min--max。任意 common PSD envelope 给出安全但可能保守的尾特征值证书；二维互补路径证明最优值可为 `1/2` 而 envelope 只证到 `1`。
 
@@ -611,3 +613,8 @@ R19 v2 的通用 confusion graph 给出正确的一次性最小码对象，但�
 
 交付闭环：实质 commit `2395b41e94b31952c56eef194c8d9ff689ee244e` 已用 expected parent `5647db07d7c44cd930c33add6f875c0001518f20`、`force=false` 推进 literal `main`；14/14 实质路径在该精确 commit 字节一致。Receipt：`sources/REPAIR_R19_V3_DELIVERY_READBACK.json`。
 
+## 2026-10-12 bounded-repair synthesis checkpoint
+
+R01--R20 have each reached the permitted third substantive repair attempt. The batch is now closed as a set of theorem/debug controls, not as completion of the 20-to-15 discovery goal. The cross-lineage result is that two updater representations with the same lawful decision information, complete action/state-transition kernels, and fully charged cost cannot improve the Bayes optimum merely by changing coordinates. Repeated-write exact retention has a complementary trichotomy: no identifying evidence cannot yield semantic correctness; independent queryable facts require growing finite-bit state; bounded predictive structure reduces to belief/PSR/right-congruence or direct-ledger baselines unless a new matched-cost delta is proved.
+
+New public evidence improves measurement coverage without admitting a candidate. `When Old Facts Return` supplies a concrete re-read/revert non-identifiability stress test; WritePolicyBench exposes write/merge/expire/skip actions; MemoryBench and WikiBigEdit expose retention curves; Open Bandit exposes a valid propensity schema. These assets come from different data-generating processes and cannot be combined into an identified memory-update benchmark. Continue Step 2 only from a genuinely new information, state, action, computation, or measurement object. Counts remain 5 historical / 0 active / 0 admitted / 0 selected; no code or experiment is authorized.

@@ -1822,6 +1822,48 @@
       "all_paths_exact": true,
       "path_count": 14
     }
+  },
+  "step2_bounded_repair_synthesis_2026_10_12": {
+    "record_type": "cross_lineage_theorem_control_and_source_measurement_audit",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md",
+      "sha256": "b6061fc2f379dfac87d30f361d9abbf1a550e63eb910f9ef85e4d872a8717b6c"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_NEW_NATIVE_MEASUREMENT_AUDIT_2026-10-12.md",
+      "sha256": "975e6dfcd8f879a25d77e2052872dbb8eced23a03c4fbb63933247ffdab3b3eb"
+    },
+    "review_refs": [
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.math-review.md",
+        "sha256": "de8b65471f024316adb7a365ee8384f1071f670614bceaac32af3987704e01a0",
+        "reviewer": "/root/cross_lineage_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.distinctness-review.md",
+        "sha256": "3af73753715190c4084e52ceae3323c2519dd059ac3987a239cf23dee97ac615",
+        "reviewer": "/root/sequential_quotient_scan"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_NEW_NATIVE_MEASUREMENT.source-review.md",
+        "sha256": "354a5a465df7a2de0be5c5c175bbaec51b44deed91ab7f2514429ec6da2ab52d",
+        "reviewer": "/root/new_native_action_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.integrity-review.md",
+        "sha256": "024be6531136d8d1c027ba3e04d75bdcc10ebb308f1c8455655755b8b866ff23",
+        "reviewer": "/root/repair_sweep_adversary"
+      }
+    ],
+    "bounded_repair_lines_closed": 20,
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "selection_verified": false,
+    "status": "final_byte_reviews_passed_pending_delivery",
+    "disposition": "known_theorem_control_synthesis_and_partial_measurement_progress_not_candidate",
+    "delivery_parent": "3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2",
+    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
   }
 }
 
