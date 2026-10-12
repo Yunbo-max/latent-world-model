@@ -631,3 +631,9 @@ The remaining scoped result is a Delta-specific debugging theorem and model-base
 - Open Bandit Dataset (arXiv:2008.07146): a valid propensity/OPE schema in a different, one-step recommendation domain.
 
 No single asset exposes a randomized or otherwise identified memory-update action together with delayed outcome, old-capability retention, and later-learning effect. R02/R08/R14 therefore remain parked rather than reopened.
+
+## Query-weighted rate--distortion control (2026-10-12)
+
+The new control measures compression error only through future Delta queries, using the seminorm induced by their conditional second moment. Its closest external objects are task-based quantization, indirect/remote source coding, goal-oriented quantization and causal/nonanticipative rate--distortion. The Gaussian reverse-water-filling calculation and fixed-codebook clipping bound are specializations of those mature theories, not originality claims.
+
+Internally, R17 already owns query-metric risk, R18 the quotient ledger, and R19 the exact finite-field `q^r` endpoint. The present object supplies a noisy approximate continuous-state bracket and a recursive kernel-compatibility condition, but it does not beat a matched direct code or ledger. Native language-memory benchmarks do not expose `x`, `W_pi`, code bits and distortion jointly. Classification: theorem/debug control; candidate, admission and selection deltas are zero.

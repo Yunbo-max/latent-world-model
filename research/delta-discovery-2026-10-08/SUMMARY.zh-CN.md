@@ -561,3 +561,9 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 数学、对抗、来源、原生测量和完整性五路最终字节审查都通过了这个限定结论。它的主要机制分别与 R11、R08、直接 ledger/full twin、SafeCommit、MemTX、CounterMem、CMA，以及延迟分支、回放、恢复审计和 rollback 近邻重合。当前没有公开原生对象在同一数据生成过程中同时给出 Delta 更新动作、合法识别、延迟结果、旧能力保持、后续学习和完整成本。
 
 所以它保留为新的 `lead/control`，不是 R08/R11 的第四次修订，也不是新 updater 或原创性结论。计数仍是 **5 个历史退役卡、0 个活动候选、0 个科学准入、0 个选择**，`selection_verified=false`；实际效果未知，本轮没有运行模型代码或实验。
+
+## 2026-10-12：把“容量”改写成 query-weighted rate--distortion
+
+这条线修复的是一个长期表述问题：固定维度的实数状态没有无条件的有限 bit 容量结论。现在只对声明的 Delta 状态、代码预算和未来查询造成的平方输出误差提问。在线性高斯特例下，最小失真由 query-weighted 协方差谱的 reverse water-filling 控制；固定码本与 clipping 给出可算上界。若递归动力学能把当前不可见方向重新送进可见方向，则任何逐步压缩保证都会断裂，因此还必须检查 kernel compatibility。
+
+数学成立不等于方法新颖。task-based、indirect、goal-oriented 和 nonanticipative rate--distortion 已经覆盖核心框架，R17--R19 与 direct ledger 也是强内部对照。它没有证明新的 updater、同 bit 优势或实际效果；公开原生任务也没有同时暴露内部状态、查询权重、编码 bits 与相应失真。三路终版独立审查因此只给 theorem/control 结论，候选增量为0，总计数仍是 **5历史 / 0活动 / 0科学准入 / 0选择**。本轮没有运行模型代码、训练、推理或评分。

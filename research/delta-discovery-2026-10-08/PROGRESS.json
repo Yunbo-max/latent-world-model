@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-12T03:50:00Z",
+  "recorded_at": "2026-10-12T04:38:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "post_sweep_shadow_catchup_measurement_parent_lead_final_byte_reviews_passed_published_exact_readback;overall_20_to_15_phase_incomplete",
+  "status": "post_sweep_query_weighted_finite_bit_rate_distortion_theorem_control_final_byte_reviews_passed_pending_publication;overall_20_to_15_phase_incomplete",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -54,7 +54,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "delivery_parent": "b0afb44b90dcb11cedce5ee79339e8246322490e",
+  "delivery_parent": "59c8d03842abcd685e0c145628698551cad3c5d2",
   "milestone": {
     "inactive_cards": [
       "D01",
@@ -389,7 +389,7 @@
       "R17 v3 exhausts attempt 3/3 by repairing the target mismatch from arbitrary overwritten-pair quotient recovery to the actual no-write-versus-Delta-write action. It proves exact residual-scaled frozen-path energy, a one-sided low-rank-plus-certified-tail bound and a safe scalar gate conditional on an already lawful prefix certificate. Four final-byte reviews pass only this theorem/debug control. Delta gating, observability Gramians and classical/streaming spectral approximation are major collisions; prefix coverage construction, matched-total-cost advantage, nonlinear validity and native mechanism measurement remain open. Candidate delta zero; empirical effect unknown."
     ]
   },
-  "next_action": "Continue the new measurement parent only if a lawful same-DGP protocol or a strict matched-total-cost advantage over direct ledgers/full twins is found. Do not reopen R01-R20 as attempt 4. No code or experiments.",
+  "next_action": "Continue only with a genuinely new parent object that changes information, state, complete action, matched total cost, or native measurement. Reopen this finite-bit line only with a prefix-causal Delta construction attaining a strict matched-bit/metadata/compute advantage over task-aware quantization, causal RDF, and the direct quotient ledger. Do not reopen R01-R20 as attempt 4. No code or experiments.",
   "selection_verified": false,
   "execution_boundary": "Web/source/static mathematics and standard-library hashing only. No project code, tests, model execution, benchmark scoring, training, inference, data/model download, GPU job or Docker.",
   "workers": [
@@ -4718,6 +4718,34 @@
       "all_paths_exact": true,
       "path_count": 15
     }
+  },
+  "step2_query_weighted_rate_distortion_2026_10_12": {
+    "record_type": "new_packet_level_finite_bit_theorem_control_not_candidate",
+    "lineage": "new_lossy_capacity_parent_not_R17_R18_R19_attempt4",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+      "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"
+    },
+    "review_refs": [
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.math-review.md", "sha256": "88483665bb6c0413b9aea3353d69a43b4b73801070f1b8bfe7562b2f1e1a7b39", "reviewer": "/root/capacity_candidate", "verdict": "pass_final_exact_bytes"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.adversarial-review.md", "sha256": "f7cea5b77b23261a8576bc92079ecf953ab05f228e30b58e2e0c89e7a87edaa1", "reviewer": "/root/checksum_revision_math", "verdict": "pass_final_exact_bytes"},
+      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.source-review.md", "sha256": "4e04e4635ddc619ea7c6bf545d77e6d7c9d2e85616ced7c6d1011b88c79d34dc", "reviewer": "/root/new_residual_literature", "verdict": "pass_final_exact_bytes"}
+    ],
+    "mathematical_status": "passed_scoped_query_weighted_observation_coding_split_Gaussian_converse_fixed_quantizer_upper_bound_recursive_kernel_compatibility_and_qary_endpoint",
+    "contribution_status": "Delta_specific_bridge_across_R17_R18_R19_not_new_updater",
+    "novelty_status": "major_task_based_indirect_goal_oriented_and_nonanticipative_rate_distortion_collision",
+    "measurement_status": "native_joint_latent_observation_bits_query_Gram_kernel_noise_and_matched_ledger_object_absent",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
+    "delivery_parent": "59c8d03842abcd685e0c145628698551cad3c5d2",
+    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
   }
 }
 

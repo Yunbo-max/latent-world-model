@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-12T03:50:00Z",
+  "recorded_at": "2026-10-12T04:38:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -194,7 +194,7 @@
       "sha256": "f8fc01b79998e0be63fd89b55adf713aae5202ca7a5901b9949556b3702eb954"
     }
   },
-  "next_action": "Continue the shadow/catch-up measurement parent only with a lawful same-DGP protocol or strict matched-total-cost advantage; otherwise seek another genuinely new parent object. Do not reopen R01-R20 as attempt 4. No code or experiments.",
+  "next_action": "Continue only with a genuinely new parent object changing information, state, complete action, matched total cost, or native measurement. Reopen the finite-bit line only with a prefix-causal Delta construction proving a strict matched-bit/metadata/compute advantage over task-aware quantization, causal RDF, and the direct quotient ledger. Do not reopen R01-R20 as attempt 4. No code or experiments.",
   "publication": {
     "target": "https://github.com/Yunbo-max/latent-world-model",
     "branch": "main",
@@ -3937,6 +3937,21 @@
       "all_paths_exact": true,
       "path_count": 15
     }
+  },
+  "step2_query_weighted_rate_distortion_2026_10_12": {
+    "record_type": "finite_bit_theorem_control_not_candidate",
+    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md", "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"},
+    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md", "sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"},
+    "mathematical_status": "passed_scoped_final_bytes",
+    "contribution_status": "known_rate_distortion_and_packet_R17_R19_bridge_control",
+    "measurement_status": "native_joint_object_absent",
+    "empirical_status": "unknown_no_execution",
+    "counts": "5_historical_0_active_0_admitted_0_selected",
+    "selection_verified": false,
+    "candidate_delta": 0,
+    "execution": "none_math_source_review_only",
+    "delivery_parent": "59c8d03842abcd685e0c145628698551cad3c5d2",
+    "delivery_status": "pending_expected_parent_nonforce_main_publication_and_exact_readback"
   }
 }
 

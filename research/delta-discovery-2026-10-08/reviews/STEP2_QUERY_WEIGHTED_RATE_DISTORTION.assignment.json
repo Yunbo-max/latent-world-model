@@ -1,0 +1,67 @@
+{
+  "request_id": "delta-step2-query-rd-20261012",
+  "generation": 5,
+  "lifecycle_state": "completed",
+  "launch": {
+    "intent_recorded_at_utc": "2026-10-12T03:24:00Z",
+    "host": "native_chatgpt_subagents",
+    "correlation_labels": [
+      "capacity_candidate",
+      "checksum_revision_math",
+      "new_residual_literature"
+    ]
+  },
+  "parent_binding": {
+    "repository": "Yunbo-max/latent-world-model",
+    "branch": "main",
+    "parent_commit": "59c8d03842abcd685e0c145628698551cad3c5d2",
+    "goal": "research/delta-discovery-2026-10-08/GOAL.md",
+    "active_idea": "step2_query_weighted_finite_bit_rate_distortion_boundary",
+    "math_artifact": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+    "math_sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9",
+    "source_artifact": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md",
+    "source_sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"
+  },
+  "assignments": [
+    {
+      "reviewer": "/root/capacity_candidate",
+      "scope": "independent exact-byte mathematical review: dimensions, Gaussian RDF direction, indirect decomposition, quantizer bounds, Fano endpoint",
+      "write_authority": "none; return findings only"
+    },
+    {
+      "reviewer": "/root/checksum_revision_math",
+      "scope": "independent exact-byte adversarial review: recursive seminorm proof, pseudoinverse/kernel condition, counterexamples, lineage and cost boundary",
+      "write_authority": "none; return findings only"
+    },
+    {
+      "reviewer": "/root/new_residual_literature",
+      "scope": "independent exact-byte source/novelty review: cited primary mechanisms, R17-R19 collision, measurement and implementation claims",
+      "write_authority": "none; return findings only"
+    }
+  ],
+  "results": [
+    {
+      "reviewer": "/root/capacity_candidate",
+      "status": "pass_final_exact_bytes",
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.math-review.md",
+      "sha256": "88483665bb6c0413b9aea3353d69a43b4b73801070f1b8bfe7562b2f1e1a7b39"
+    },
+    {
+      "reviewer": "/root/checksum_revision_math",
+      "status": "pass_final_exact_bytes",
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.adversarial-review.md",
+      "sha256": "f7cea5b77b23261a8576bc92079ecf953ab05f228e30b58e2e0c89e7a87edaa1"
+    },
+    {
+      "reviewer": "/root/new_residual_literature",
+      "status": "pass_final_exact_bytes",
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.source-review.md",
+      "sha256": "4e04e4635ddc619ea7c6bf545d77e6d7c9d2e85616ced7c6d1011b88c79d34dc"
+    }
+  ],
+  "authority": {
+    "math_and_source_review_only": true,
+    "model_code_or_experiment": false,
+    "further_delegation": false
+  }
+}

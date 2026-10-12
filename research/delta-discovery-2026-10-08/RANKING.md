@@ -368,3 +368,7 @@ No ranking entry is added. The R01--R20 repair lineages are closed after attempt
 No ranking entry is added. The object has exact conditional algebra and five independent final-byte reviews, but its mechanism is inherited from R11/R08 and crowded by direct ledgers, twins, transactional staging, reset-based counterfactual memory, crossed-history audits, delayed branches, replay and rollback. It lacks a joint same-DGP native protocol and any demonstrated matched-total-cost advantage. Status: `lead/control`, candidate/admission/selection deltas all zero, empirical effect unknown.
 
 The whole-pool ranking and top-15 selection remain unverified: 5 historical retired cards, 0 active, 0 scientifically admitted, 0 selected. New source assets improve feasibility analysis but do not create a candidate or authorize experiments.
+
+## Query-weighted rate--distortion disposition
+
+No ranking entry is added. The artifact gives a valid conditional capacity control for the declared Delta state and query-weighted squared distortion, including Gaussian reverse water-filling, finite-code clipping bounds and a necessary recursive kernel condition. It remains outside the candidate pool because the main object is covered by task-based, indirect, goal-oriented and nonanticipative rate--distortion, while R17--R19 and direct ledgers are stronger same-information controls. There is no matched-bit or matched-total-cost advantage and no native mechanism-identifying measurement. `candidate_delta=0`; counts remain **5 historical / 0 active / 0 admitted / 0 selected**.
