@@ -1791,7 +1791,7 @@
         "reviewer": "/root/commutator_candidate"
       }
     ],
-    "status": "independent_final_byte_reviews_passed_exact_conditional_theorem_control_pending_delivery",
+    "status": "independent_final_byte_reviews_passed_exact_conditional_theorem_control_published_exact_readback",
     "scientific_states": {
       "mathematics": "accepted_scoped_full_finite_field_one_shot_zero_error_theorem",
       "contribution": "tractable_specialization_and_no_advantage_boundary_not_new_updater",
@@ -1814,7 +1814,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "5647db07d7c44cd930c33add6f875c0001518f20",
-    "delivery_status": "pending_expected_parent_non_force_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_14_paths_exact_readback_verified",
+    "publication_commit": "2395b41e94b31952c56eef194c8d9ff689ee244e",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/REPAIR_R19_V3_DELIVERY_READBACK.json",
+      "sha256": "92e82e852d32c5103a6f51371ea900b69a0b80a3a004eeac365d5750647126ae",
+      "all_paths_exact": true,
+      "path_count": 14
+    }
   }
 }
 

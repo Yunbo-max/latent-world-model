@@ -608,3 +608,5 @@ This is a tractable specialization, not a distinct updater. Fixed-length zero-er
 
 Native memory and language benchmarks expose only downstream endpoints, not the finite-field hidden state, matrices, quotient rank, clique, exact code alphabet or matched direct-ledger costs. R19 v3 is parked after attempt 3/3 as a reviewed theorem/debug control with candidate delta zero and empirical effect unknown.
 
+Delivery: substantive commit `2395b41e94b31952c56eef194c8d9ff689ee244e`; all 14 substantive paths passed exact commit readback. Receipt: `sources/REPAIR_R19_V3_DELIVERY_READBACK.json`.
+

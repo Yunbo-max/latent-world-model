@@ -536,3 +536,5 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 
 因此四路审查通过的是数学定理和 debug control，不是候选方法。R19 第 3/3 次修订到此 park，候选增量0，实际效果未知；总计数仍为 **5历史 / 0活动 / 0科学准入 / 0选择**。本轮没有启动模型代码、训练、推理或评分。下一步是汇总全部 bounded-repair 结果，只从真正新的残余问题或来源证据重走 Step 2，而不是循环重命名已耗尽路线。
 
+仓库交付：实质 commit `2395b41e94b31952c56eef194c8d9ff689ee244e` 的 14/14 路径已精确读回；receipt 为 `sources/REPAIR_R19_V3_DELIVERY_READBACK.json`。这只证明交付一致，不代表实验验证。
+

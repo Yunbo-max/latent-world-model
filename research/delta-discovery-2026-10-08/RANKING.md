@@ -355,3 +355,5 @@ R19 v3 is not inserted into the active candidate ranking. It proves an exact and
 
 It receives no candidate credit because the strongest direct joint signature and R18 ledger are the same quotient object, external zero-error/function-computation mechanisms are close, matched-total-cost advantage is absent, and native mechanism measurement is unavailable. Attempt 3/3 is exhausted; `candidate_delta=0`. Counts remain **5 historical / 0 active / 0 scientifically admitted / 0 selected**, so neither whole-pool ranking nor top-15 selection is verified.
 
+Delivery: substantive commit `2395b41e94b31952c56eef194c8d9ff689ee244e`; 14/14 substantive paths exact-readback verified. This does not change ranking eligibility.
+
