@@ -1,0 +1,143 @@
+{
+  "kind": "checkpoint-recovery-manifest",
+  "version": "1.0.0",
+  "record": {
+    "incident_id": "delta-checkpoint-transport-truncation-2026-10-12",
+    "kind": "delivery_integrity_repair_not_scientific_result",
+    "observed_at_utc": "2026-10-12 08:42:15 UTC",
+    "original_main": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+    "valid_recovery_commit": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+    "cause": "Transport truncation notices and missing middle spans were already committed as literal content; blob identity readback did not validate JSON completeness.",
+    "recovery_rule": "Restore complete valid baseline root fragments; override only independently parseable current root fragments; retain all previously missing baseline fragments; retain new compound-query and active-evidence records.",
+    "archives": [
+      {
+        "original_path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+        "archive_path": "research/delta-discovery-2026-10-08/integrity/PROGRESS.a0f01d6.corrupt.txt",
+        "blob_sha": "b17fba588f81ea639a3c5eb4a1759ddef2b65a48",
+        "sha256": "cf50e7a7a861eef32ebc39aed0945f6d15688d1c81cbf1777e814634b59850c2"
+      },
+      {
+        "original_path": "research/workflow-checkpoint.json",
+        "archive_path": "research/delta-discovery-2026-10-08/integrity/workflow-checkpoint.a0f01d6.corrupt.txt",
+        "blob_sha": "aec7c02f184994fd7e3ba810f0264c0e3679dd08",
+        "sha256": "6779400ff26f9574d9792d6208b95244c000a6dae0a1fdcac998e640a9b4eb62"
+      }
+    ],
+    "counts_unchanged": {
+      "historical": 5,
+      "active": 0,
+      "scientifically_admitted": 0,
+      "selected": 0,
+      "selection_verified": false
+    },
+    "pool_target": 20,
+    "selection_target": 15,
+    "mathematical_status": "previous_accepted_scoped_results_unchanged_no_new_derivation_or_candidate_in_this_integrity_repair",
+    "empirical_status": "unknown_no_model_or_benchmark_execution",
+    "next_scientific_action": "Test the active-evidence reopen condition only upon a concrete Delta-specific calibrated channel, sufficient statistic or robust cost advantage; do not reopen exhausted R01-R20 by renaming.",
+    "host_incident": {
+      "state": "selected_environment_unavailable",
+      "symptom": "exec-server initialize handshake timed out after 10 seconds",
+      "effect": "local filesystem/executor unavailable; GitHub connector and pure metadata parsing/hashing remained functional",
+      "classification": "transient_not_reason_to_disable_task"
+    },
+    "incomplete_phase": true,
+    "publication_status": "prepared_for_independent_integrity_review",
+    "task_state_observation": {
+      "is_enabled": false,
+      "observed_updated_at": "2026-10-12T08:39:26.932348+00:00",
+      "actor_and_reason": "not_supplied_by_platform",
+      "action": "preserved_disabled_state;finish_in_flight_integrity_repair_only;no_scientific_continuation_or_automatic_resume"
+    }
+  },
+  "audits": [
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "base_commit": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+      "base_blob": "1dea0616c3a925c2da17ddc34ca467f95ce194ee",
+      "broken_blob": "b17fba588f81ea639a3c5eb4a1759ddef2b65a48",
+      "root_counts": {
+        "base": 73,
+        "current_readable": 58,
+        "recovered": 75
+      },
+      "restored_fields": [
+        "repair_R03_protection_aware_logging",
+        "repair_R04_consolidation_dynamics",
+        "repair_R05_partial_identification",
+        "repair_R06_selective_validity_audit",
+        "repair_R07_validity_to_action_margin",
+        "record_shape_repair",
+        "repair_R08_temporal_validity_release",
+        "repair_R09_finite_budget_overwrite_protection",
+        "repair_R10_equal_bit_transported_residual",
+        "repair_R11_order_gap_compression",
+        "repair_R12_subspace_syndrome",
+        "repair_R13_dynamic_covector",
+        "repair_R14_posterior_provenance",
+        "repair_R15_intervention_rank",
+        "repair_R16_noncommuting_joint_flow",
+        "repair_R17_predictive_quotient_decodability",
+        "repair_R18_recursive_joint_quotient"
+      ],
+      "new_fields": [
+        "step2_compound_query_hedge_2026_10_12",
+        "step2_active_evidence_acquisition_2026_10_12"
+      ],
+      "readable_field_changes": [
+        "status",
+        "next_action"
+      ],
+      "broken_fragments": [
+        {
+          "key": "repair_R03_protection_aware_logging",
+          "error": "SyntaxError: Expected ',' or ']' after array element in JSON at position 3581 (line 54 column 25)",
+          "has_transport_marker": true
+        }
+      ],
+      "baseline_errors": [],
+      "restored_sha256": "e6b0db3abbf1fcbcfa7180e8fbefb33520c5d0fe3c1bb949b736e586c7ef0c6c"
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "base_commit": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+      "base_blob": "13dc643862165c9df0b7d567dfc429633992f78b",
+      "broken_blob": "aec7c02f184994fd7e3ba810f0264c0e3679dd08",
+      "root_counts": {
+        "base": 82,
+        "current_readable": 78,
+        "recovered": 84
+      },
+      "restored_fields": [
+        "repair_R10_equal_bit_transported_residual",
+        "repair_R11_order_gap_compression",
+        "repair_R12_subspace_syndrome",
+        "repair_R13_dynamic_covector",
+        "repair_R14_posterior_provenance",
+        "repair_R15_intervention_rank"
+      ],
+      "new_fields": [
+        "step2_compound_query_hedge_2026_10_12",
+        "step2_active_evidence_acquisition_2026_10_12"
+      ],
+      "readable_field_changes": [],
+      "broken_fragments": [
+        {
+          "key": "repair_R10_equal_bit_transported_residual",
+          "error": "SyntaxError: Expected ',' or '}' after property value in JSON at position 4876 (line 83 column 5)",
+          "has_transport_marker": true
+        }
+      ],
+      "baseline_errors": [],
+      "restored_sha256": "4705ae3524e6859bf477cd704c35cfe42dfd62b04653124f634e3235aa71750d"
+    }
+  ],
+  "checks": {
+    "original_corrupt_archives_retained": true,
+    "valid_baseline_parse": true,
+    "all_new_root_records_retained": true,
+    "counts_unchanged": true,
+    "candidate_cards_unmodified": true,
+    "model_execution": "none"
+  }
+}

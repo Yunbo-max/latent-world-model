@@ -1,0 +1,49 @@
+{
+  "kind": "independent-integrity-review-assignment",
+  "version": "1.0.0",
+  "persisted_after_launch": true,
+  "prelaunch_snapshot": {
+    "kind": "independent_integrity_review_assignment",
+    "goal": "existing Delta math-only goal; pool20 selection15 retained",
+    "revision": "checkpoint-recovery-v1",
+    "parent": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+    "baseline": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+    "inputs": {
+      "research/delta-discovery-2026-10-08/PROGRESS.json": "5eee959cb83ab4dc950213f5eb88d29a218ae5e6",
+      "research/workflow-checkpoint.json": "2b86e0758cb98daa6bfd96aacffeb190bed36b75",
+      "research/delta-discovery-2026-10-08/method-batch.json": "6ab8598402ad4e02d83bc070c0579a7a5811eb0f",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json": "06e56f1aa0b0ea18f6e02317be9e216a10c6a064",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md": "3d148cacf45c105e3a188e7b7a332484d8d1ebf6"
+    },
+    "authority": "read-only GitHub/pure metadata parsing/hashing; no model code or experiments; no repo mutations by reviewer",
+    "scope": "validate complete restoration and no loss of readable current state",
+    "deadline": "bounded current turn",
+    "model_usage": "unknown"
+  },
+  "reviewer": "/root/checkpoint_recovery_review",
+  "native_launch_confirmed": true,
+  "final_revision": {
+    "name": "checkpoint-recovery-v2-paused-state-observed",
+    "input_blobs": {
+      "research/delta-discovery-2026-10-08/PROGRESS.json": "6426b2766e25a23c18dac531e4150f460f467727",
+      "research/workflow-checkpoint.json": "7bc69a147a78f16a6afad3e8f409b5b60aac98b7",
+      "research/delta-discovery-2026-10-08/method-batch.json": "233f36dad1c93f373829cdde8a4b2855bf7a5fae",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json": "a05e4c2fb14014d65fea99829ea212cecdf22342",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md": "2750159e4cd5464a8e2d06c5d7f32d30db4de156"
+    },
+    "input_sha256": {
+      "research/delta-discovery-2026-10-08/PROGRESS.json": "e6b0db3abbf1fcbcfa7180e8fbefb33520c5d0fe3c1bb949b736e586c7ef0c6c",
+      "research/workflow-checkpoint.json": "4705ae3524e6859bf477cd704c35cfe42dfd62b04653124f634e3235aa71750d",
+      "research/delta-discovery-2026-10-08/method-batch.json": "84fedef290dcfe0bff62377107fec949184a316803d4a03f53d5758bb0c619d7",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json": "4139b5b732b27e153787d578207a51aaf9bdafd5d05c3e83f3a0d794a209d5f9",
+      "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md": "5b6db62ae10b6db6a0247552c6bedd94da7161318108d869cb9f60c3c07c1f37"
+    }
+  },
+  "allowed_operations": "read-only GitHub, pure metadata parsing/hash processing; no repo writes by reviewer",
+  "excluded_operations": "project/model/test/benchmark execution, experiments, daemon or scheduler changes, recursive delegation",
+  "requester": "/root",
+  "model_usage": "not_exposed",
+  "result_status": "pass_final_exact_blobs",
+  "acceptance": "accepted_for_infrastructure_restoration_only",
+  "completed_at_utc": "2026-10-12 08:48:07 UTC"
+}

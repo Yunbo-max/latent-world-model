@@ -1875,14 +1875,40 @@
   "step2_shadow_catchup_causal_audit_2026_10_12": {
     "record_type": "measurement_parent_lead_control_not_candidate",
     "lineage": "new_parent_not_exhausted_repair_attempt_reopen",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md", "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md", "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md",
+      "sha256": "e0a8ebc5c62a59631937353844b35a55d63e2ac0595a2c8d9ac1443fa2bfc760"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_SHADOW_CATCHUP_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "4d857632f8ff2ecd24c673960930f11bda614daea9c67b58a1927f6e0dd790c5"
+    },
     "review_refs": [
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.math-review.md", "sha256": "a5aac98bdc3321d8c550584ee9ca659669d5e7beed1e6d5c22e4e63a23f5a3eb", "reviewer": "/root/shadow_write_object"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.adversarial-review.md", "sha256": "52679060788e09259c7b946bf390364459aefc949d4a2c28c92850266d0ca326", "reviewer": "/root/active_evidence_object"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.source-review.md", "sha256": "e2b8b6ebcee0b49215fa24fc7d820a519b4fda1b22e58da84df7c7fc1dc7e77e", "reviewer": "/root/new_residual_literature"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.measurement-review.md", "sha256": "e1de55192cc244a5de7525e9046fff7963159837ab679d68a7bb3b322a591dbc", "reviewer": "/root/native_measurement_hunt"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.integrity-review.md", "sha256": "57599cadb11c2a7a766a97c7b6991b2ade5f9e5a1b400c2eb0cabd0e01d5f09f", "reviewer": "/root/packet_gap_adversary"}
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.math-review.md",
+        "sha256": "a5aac98bdc3321d8c550584ee9ca659669d5e7beed1e6d5c22e4e63a23f5a3eb",
+        "reviewer": "/root/shadow_write_object"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.adversarial-review.md",
+        "sha256": "52679060788e09259c7b946bf390364459aefc949d4a2c28c92850266d0ca326",
+        "reviewer": "/root/active_evidence_object"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.source-review.md",
+        "sha256": "e2b8b6ebcee0b49215fa24fc7d820a519b4fda1b22e58da84df7c7fc1dc7e77e",
+        "reviewer": "/root/new_residual_literature"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.measurement-review.md",
+        "sha256": "e1de55192cc244a5de7525e9046fff7963159837ab679d68a7bb3b322a591dbc",
+        "reviewer": "/root/native_measurement_hunt"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_SHADOW_CATCHUP.integrity-review.md",
+        "sha256": "57599cadb11c2a7a766a97c7b6991b2ade5f9e5a1b400c2eb0cabd0e01d5f09f",
+        "reviewer": "/root/packet_gap_adversary"
+      }
     ],
     "status": "independent_final_byte_reviews_passed_scoped_lead_control_published_exact_readback",
     "scientific_states": {
@@ -1910,12 +1936,30 @@
   "step2_query_weighted_rate_distortion_2026_10_12": {
     "record_type": "theorem_control_not_candidate",
     "lineage": "new_lossy_capacity_parent_not_R17_R18_R19_attempt4",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md", "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md", "sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md",
+      "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"
+    },
     "review_refs": [
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.math-review.md", "sha256": "88483665bb6c0413b9aea3353d69a43b4b73801070f1b8bfe7562b2f1e1a7b39", "reviewer": "/root/capacity_candidate"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.adversarial-review.md", "sha256": "f7cea5b77b23261a8576bc92079ecf953ab05f228e30b58e2e0c89e7a87edaa1", "reviewer": "/root/checksum_revision_math"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.source-review.md", "sha256": "4e04e4635ddc619ea7c6bf545d77e6d7c9d2e85616ced7c6d1011b88c79d34dc", "reviewer": "/root/new_residual_literature"}
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.math-review.md",
+        "sha256": "88483665bb6c0413b9aea3353d69a43b4b73801070f1b8bfe7562b2f1e1a7b39",
+        "reviewer": "/root/capacity_candidate"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.adversarial-review.md",
+        "sha256": "f7cea5b77b23261a8576bc92079ecf953ab05f228e30b58e2e0c89e7a87edaa1",
+        "reviewer": "/root/checksum_revision_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.source-review.md",
+        "sha256": "4e04e4635ddc619ea7c6bf545d77e6d7c9d2e85616ced7c6d1011b88c79d34dc",
+        "reviewer": "/root/new_residual_literature"
+      }
     ],
     "status": "independent_final_byte_reviews_passed_theorem_control_published_exact_readback_verified",
     "candidate_delta": 0,
@@ -1949,8 +1993,18 @@
       "sha256": "d003600cc52d483cb9d5d7b6089c7af13d89b3339bd2fe5fac6dbd25d2f9774c"
     },
     "review_refs": [
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.math-review.md", "sha256": "40a8556bd61e9aa8f3085fb06c924cd3b31c96f2abfe3842bbe621408ef1a959", "reviewer": "/root/query_shift_sr_final_math", "verdict": "pass_final_exact_bytes"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.source-review.md", "sha256": "3f34d956a704b7590107b3622cc18c4c0ad30465c53fd9235dd458e41fe3d841", "reviewer": "/root/query_shift_sr_final_source", "verdict": "pass_final_exact_bytes_bounded_scope"}
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.math-review.md",
+        "sha256": "40a8556bd61e9aa8f3085fb06c924cd3b31c96f2abfe3842bbe621408ef1a959",
+        "reviewer": "/root/query_shift_sr_final_math",
+        "verdict": "pass_final_exact_bytes"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_SHIFT_SUCCESSIVE_REFINEMENT.source-review.md",
+        "sha256": "3f34d956a704b7590107b3622cc18c4c0ad30465c53fd9235dd458e41fe3d841",
+        "reviewer": "/root/query_shift_sr_final_source",
+        "verdict": "pass_final_exact_bytes_bounded_scope"
+      }
     ],
     "mathematical_status": "passed_scoped_exact_finite_block_Gaussian_converse_and_asymptotically_sharp_orthogonal_query_tax",
     "contribution_status": "Delta_query_Gram_debug_witness_and_information_timing_boundary_not_new_updater_or_new_coding_region",
@@ -1960,7 +2014,13 @@
     "candidate_delta": 0,
     "scientific_admission_delta": 0,
     "selection_delta": 0,
-    "counts_after": {"constructed_history": 5, "active_constructed": 0, "scientific_admitted": 0, "selected": 0, "selection_verified": false},
+    "counts_after": {
+      "constructed_history": 5,
+      "active_constructed": 0,
+      "scientific_admitted": 0,
+      "selected": 0,
+      "selection_verified": false
+    },
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "4d30446a0a03ca3b3c84b9a528b500c82a263146",
     "delivery_status": "substantive_commit_expected_parent_nonforce_main_and_all_12_paths_exact_readback_verified",
@@ -1975,12 +2035,30 @@
   "step2_compound_query_hedge_2026_10_12": {
     "record_type": "classical_lossy_caching_theorem_control_not_candidate",
     "lineage": "new_online_parent_not_exhausted_repair_attempt_reopen",
-    "artifact_ref": {"path": "research/delta-discovery-2026-10-08/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md", "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"},
-    "source_ref": {"path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_SOURCE_AUDIT_2026-10-12.md", "sha256": "067ae1e2d10657f4f6aab36814d0cd6100fcf915c2a0acb9ff6988ab39b89660"},
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_COMPOUND_QUERY_HEDGE_2026-10-12.md",
+      "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_COMPOUND_QUERY_HEDGE_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "067ae1e2d10657f4f6aab36814d0cd6100fcf915c2a0acb9ff6988ab39b89660"
+    },
     "review_refs": [
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.math-review.md", "sha256": "0dc18f79cbb30f524cc1c819978c49df3f966cb209c3198d274ee2cad84eec2e", "reviewer": "/root/compound_query_hedge_final_math"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.source-review.md", "sha256": "82177c831ceee3019a87a64a8f98a700c7e5b919dfa06ce5c03c1e396b166ccc", "reviewer": "/root/compound_query_hedge_final_source"},
-      {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.measurement-review.md", "sha256": "2151b3e6824e8cd7754dd44c1a9ea22200d2f62b48fbd66e4304c5abb4c9475c", "reviewer": "/root/compound_query_hedge_measurement"}
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.math-review.md",
+        "sha256": "0dc18f79cbb30f524cc1c819978c49df3f966cb209c3198d274ee2cad84eec2e",
+        "reviewer": "/root/compound_query_hedge_final_math"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.source-review.md",
+        "sha256": "82177c831ceee3019a87a64a8f98a700c7e5b919dfa06ce5c03c1e396b166ccc",
+        "reviewer": "/root/compound_query_hedge_final_source"
+      },
+      {
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_COMPOUND_QUERY_HEDGE.measurement-review.md",
+        "sha256": "2151b3e6824e8cd7754dd44c1a9ea22200d2f62b48fbd66e4304c5abb4c9475c",
+        "reviewer": "/root/compound_query_hedge_measurement"
+      }
     ],
     "status": "independent_final_byte_reviews_passed_and_published_exact_readback_verified",
     "candidate_delta": 0,
@@ -2061,6 +2139,54 @@
     },
     "delivery_status": "substantive_commit_exact_readback_verified",
     "next_action": "continue_from_earliest_unclosed_premise_only_if_a_Delta_specific_robust_channel_or_sufficient_statistic_result_beats_generic_controlled_sensing_at_matched_information_and_cost"
+  },
+  "delivery_integrity_repair_2026_10_12": {
+    "incident_id": "delta-checkpoint-transport-truncation-2026-10-12",
+    "kind": "delivery_integrity_repair_not_scientific_result",
+    "observed_at_utc": "2026-10-12 08:42:15 UTC",
+    "original_main": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+    "valid_recovery_commit": "fd320bc4a51c9e41b4c8ceab488e8be28d3b1f2e",
+    "cause": "Transport truncation notices and missing middle spans were already committed as literal content; blob identity readback did not validate JSON completeness.",
+    "recovery_rule": "Restore complete valid baseline root fragments; override only independently parseable current root fragments; retain all previously missing baseline fragments; retain new compound-query and active-evidence records.",
+    "archives": [
+      {
+        "original_path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+        "archive_path": "research/delta-discovery-2026-10-08/integrity/PROGRESS.a0f01d6.corrupt.txt",
+        "blob_sha": "b17fba588f81ea639a3c5eb4a1759ddef2b65a48",
+        "sha256": "cf50e7a7a861eef32ebc39aed0945f6d15688d1c81cbf1777e814634b59850c2"
+      },
+      {
+        "original_path": "research/workflow-checkpoint.json",
+        "archive_path": "research/delta-discovery-2026-10-08/integrity/workflow-checkpoint.a0f01d6.corrupt.txt",
+        "blob_sha": "aec7c02f184994fd7e3ba810f0264c0e3679dd08",
+        "sha256": "6779400ff26f9574d9792d6208b95244c000a6dae0a1fdcac998e640a9b4eb62"
+      }
+    ],
+    "counts_unchanged": {
+      "historical": 5,
+      "active": 0,
+      "scientifically_admitted": 0,
+      "selected": 0,
+      "selection_verified": false
+    },
+    "pool_target": 20,
+    "selection_target": 15,
+    "mathematical_status": "previous_accepted_scoped_results_unchanged_no_new_derivation_or_candidate_in_this_integrity_repair",
+    "empirical_status": "unknown_no_model_or_benchmark_execution",
+    "next_scientific_action": "Test the active-evidence reopen condition only upon a concrete Delta-specific calibrated channel, sufficient statistic or robust cost advantage; do not reopen exhausted R01-R20 by renaming.",
+    "host_incident": {
+      "state": "selected_environment_unavailable",
+      "symptom": "exec-server initialize handshake timed out after 10 seconds",
+      "effect": "local filesystem/executor unavailable; GitHub connector and pure metadata parsing/hashing remained functional",
+      "classification": "transient_not_reason_to_disable_task"
+    },
+    "incomplete_phase": true,
+    "publication_status": "prepared_for_independent_integrity_review",
+    "task_state_observation": {
+      "is_enabled": false,
+      "observed_updated_at": "2026-10-12T08:39:26.932348+00:00",
+      "actor_and_reason": "not_supplied_by_platform",
+      "action": "preserved_disabled_state;finish_in_flight_integrity_repair_only;no_scientific_continuation_or_automatic_resume"
+    }
   }
 }
-

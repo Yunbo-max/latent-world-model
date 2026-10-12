@@ -1,0 +1,34 @@
+{
+  "kind": "independent-integrity-review",
+  "version": "1.0.0",
+  "subject": "delta-checkpoint-recovery-v2",
+  "scope": "complete-byte identity and state-preserving JSON recovery;not scientific review",
+  "reviewer": "/root/checkpoint_recovery_review",
+  "reviewed_at_utc": "2026-10-12 08:48:07 UTC",
+  "outcome": "PASS",
+  "artifact_git_blobs": {
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "6426b2766e25a23c18dac531e4150f460f467727",
+    "research/workflow-checkpoint.json": "7bc69a147a78f16a6afad3e8f409b5b60aac98b7",
+    "research/delta-discovery-2026-10-08/method-batch.json": "233f36dad1c93f373829cdde8a4b2855bf7a5fae",
+    "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json": "a05e4c2fb14014d65fea99829ea212cecdf22342",
+    "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md": "2750159e4cd5464a8e2d06c5d7f32d30db4de156"
+  },
+  "artifact_sha256": {
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "e6b0db3abbf1fcbcfa7180e8fbefb33520c5d0fe3c1bb949b736e586c7ef0c6c",
+    "research/workflow-checkpoint.json": "4705ae3524e6859bf477cd704c35cfe42dfd62b04653124f634e3235aa71750d",
+    "research/delta-discovery-2026-10-08/method-batch.json": "84fedef290dcfe0bff62377107fec949184a316803d4a03f53d5758bb0c619d7",
+    "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json": "4139b5b732b27e153787d578207a51aaf9bdafd5d05c3e83f3a0d794a209d5f9",
+    "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md": "5b6db62ae10b6db6a0247552c6bedd94da7161318108d869cb9f60c3c07c1f37"
+  },
+  "checks": {
+    "full_byte_identity": "Reviewer independently recomputed all five Git SHA-1 hashes from complete UTF-8 content and Git blob header; all matched.",
+    "json_integrity": "All three state JSON files and manifest parse completely; repaired PROGRESS has 76 roots and checkpoint 85 including one repair note.",
+    "recovery": "17 missing/damaged progress roots and 6 checkpoint roots equal the complete valid baseline; every parseable current scientific root retained.",
+    "late_records": "Active-evidence object equals current and batch; compound-query differing schemas retain identical shared artifact/source/review/delivery bindings.",
+    "historical_preservation": "Corrupt-original archive Git/SHA256 bindings verified against original stored bytes; scientific cards, sources, Local records untouched.",
+    "policy": "20/15 targets and 5 historical, 0 active/admitted/selected remain; selection unverified.",
+    "task_state": "Disabled-state observation retained without invented actor/cause; no automatic re-enable.",
+    "limits": "Draft identity/state review only; exact publication-tree readback remains coordinator obligation; no new mathematical or empirical result."
+  },
+  "execution": "none;pure metadata parsing/hashing only"
+}
