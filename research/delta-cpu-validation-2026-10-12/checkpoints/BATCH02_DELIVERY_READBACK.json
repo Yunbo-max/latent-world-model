@@ -1,0 +1,820 @@
+{
+  "kind": "CPU-batch02-exact-delivery-readback",
+  "substantive_commit": "6ed16aab12a0901d249077597a92b87b6d9cff8a",
+  "expected_parent": "1e3bb300270eaaf6f8ff9555757d7bce31e87988",
+  "target_branch": "main",
+  "force": false,
+  "all_paths_exact": true,
+  "path_count": 133,
+  "verification": "Each fetched complete string equals the original UTF-8 local content whose SHA256 is listed; all JSON fully parsed; recovery parts also compared without separators.",
+  "paths": [
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/README.zh-CN.md",
+      "sha256": "de14c7d277e6694bd9b41b203617bcc6f18d32854ac662d507c1a0e9dd6c19ff",
+      "git_blob_sha": "54194fee023e7f1d3c699e586216ea26be18c3f0",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/BATCH02.zh-CN.md",
+      "sha256": "e16c20f81051df47c21cdbec3d11673fff81d486e88169f71c03f9b98c5f9d0a",
+      "git_blob_sha": "fd1c40079e63cc2f9e5bf4e43c0c6176f1be91c2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/RESULTS_SUMMARY.json",
+      "sha256": "a83aa8c46c6dcd0bc7a26ee7a84fb518759151ee25407dba8a54e88f9a4dbbd6",
+      "git_blob_sha": "1d246223caac915e13c05bcecdd9bb029a9a9084",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/coverage_inventory.json",
+      "sha256": "d09602b6ec52451a8de5f05d7e5ef2362d3222e54187066d90d58d624f7b8569",
+      "git_blob_sha": "3aad9ec4d3361747a972eb884ad05c3d108bef7c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/CPU_CHECKPOINT.json",
+      "sha256": "6980f60987c265d6d6827c799dd95cb7f882fe00b7bc1e5e4057a0ec0ace638a",
+      "git_blob_sha": "e9cd0b5feb8785f3a88021aa1dab020fc6698e59",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/review/BATCH02_NUMERICAL_REVIEW.md",
+      "sha256": "75f4fabf26f92fd0f725f29ab3dfb8595809d33337fc3a954a3f75670fea005a",
+      "git_blob_sha": "0fc9884e8d312886da0c2b4c4be7c48a24f1dfc1",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/check_d05_precision_v1.py",
+      "sha256": "c029742d02c3c860f9ee77b4cfadfef11e20767496fd46cf5a636f09d4a34e39",
+      "git_blob_sha": "752ea8184febe6808fbe16b39d2fe67daa2bbca7",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/check_channel_certificate_v1.py",
+      "sha256": "daf01b7d54563cd66ab14a173dc9e12fb3f29bf67f2191830f78d4933c1e60c0",
+      "git_blob_sha": "5214dd1410ee740fbd4a2904432e5e3d9835ff72",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/memory_preflight_v1.py",
+      "sha256": "780bdab3abd4699ddec3ddf94205be6ea7083a6386a4934362fd50f70815ab2a",
+      "git_blob_sha": "7a797f35b698744af7510969f968a4f22bc7dc54",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/restore_delta_snapshot_v1.py",
+      "sha256": "21dc219367c03bd599fd9b65cfd561d8faf8bd527e6673a76436d5a661f71739",
+      "git_blob_sha": "7f3d46576aaa366ac8edb11578413ca3c4eabe46",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/delegations/D05-precision-v1.assignment.json",
+      "sha256": "b8db6b6a144f38f608405ec9db474f3e431cb9e89025f654a95d764f54917cbd",
+      "git_blob_sha": "e5126799a5a7ef26e2786c1af44724034827ccb1",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/D05-precision-v1.json",
+      "sha256": "3c8ad0cac540536e31720b55b431398984c194b0c0cc4ee371443f8f6b2aed4a",
+      "git_blob_sha": "7872c5b9457578a50c95954ee4703896316000d6",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/D05-precision-response-v1.json",
+      "sha256": "7f9747d0960e6325519b9c30531b2945ef9cd8dc6c5b6b2601949fcefe6d1613",
+      "git_blob_sha": "8cc658bab9791f588ca408a728fb805c18905560",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/channel-certificate-v1.json",
+      "sha256": "1d7829808275b0c86c31af0fb8181d70914eed41e5189a95208c6b7146af28fa",
+      "git_blob_sha": "f76c26aef15d4be54b47a0c0cbdccd497b30c379",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/channel-certificate-response-v1.json",
+      "sha256": "ffa461018787e17c16939217c3ac13e160074a245f6dca5fb4343ea13dc55949",
+      "git_blob_sha": "7edf68f1654e68e59987f0929449ea9126a7e951",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/batch02-handoff-response.json",
+      "sha256": "c0abc5f795077600e066519c6f903f568e69c21932e2f215d570ba559fb309c6",
+      "git_blob_sha": "fbe439a3578636be093a9c2c2a458122248eeb32",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-D05-v1.json",
+      "sha256": "97f94b87e23ccd86063558b3760cd9a8458156b5962df6a43db61af494cc1272",
+      "git_blob_sha": "a77841cb09478e174240a93107cb82af205b7499",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-D05-launch-v1.json",
+      "sha256": "7de64817a9d6f9e07c0fba47793e9aaa0b58f22e74dc61f0843e4934e8636bb0",
+      "git_blob_sha": "c0e86cbc773facd39f8d5e25d2d8aad71b8f952b",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-channel-launch-v1.json",
+      "sha256": "d83a263e2c97c718e61850af5f8193182408a06f9929c41999f48631ff27037a",
+      "git_blob_sha": "64ce5425aaeb329d07e0ec0c4b5ac7739f04416a",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-after-batch02.json",
+      "sha256": "b71d69eed356b60fd88f685e9b9afc584db6e34ccf7038f2d7547be52558dca4",
+      "git_blob_sha": "284b765fc20e523f679efcff8162450f68fd4514",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/results/D05-precision-v1.json",
+      "sha256": "f6cf146031e010f37b2b420370af381d9d11a952a3510e3356a2131446b2bf68",
+      "git_blob_sha": "12b5e419e73146d3d4f0567a781592c288874aa5",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/results/D05-precision-v1.resources.json",
+      "sha256": "a1b95825072c4410a3cf7a21fc14478b56e29837d63758a012c5333538d131f3",
+      "git_blob_sha": "2d46e5a428c01efcedbc436bc658ddf7bdeb35b1",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/results/channel-certificate-v1.json",
+      "sha256": "050aee930d1b4d6ff1436a71c2c83ba057f8ef6f4198ac7e6afc7562da5bf020",
+      "git_blob_sha": "00cfcf091b6bb8d591bff4da1cbcfad25e2e3265",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/results/channel-certificate-v1.resources.json",
+      "sha256": "8bad55076334e897f9d4de956ccd22d8cda7d0c3ac5abadc6608256d9e1e67c1",
+      "git_blob_sha": "20e6316757c3bf74ed87915a1420f127fa8deedb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/MANIFEST.json",
+      "sha256": "dbf4d23c67c59baf4e5f216926a71e4dde4a24fbfb6e3670ac5168e3e9ce1b25",
+      "git_blob_sha": "8b6d3dc8313b2e78b6dd95e9f94c9c246b95623c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/PARTS.json",
+      "sha256": "3c61718f8bcb8e526ec3b416a1bcadd4653d35123cd9e1e7ef92463f63db54d3",
+      "git_blob_sha": "639c49c6f48a81e0c30d5711c7b343b51f633751",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/capture_delta_snapshot_v1.py",
+      "sha256": "39312e6b86425dcf06abf2ec19e278919a2498f35a2bf0f4ff44e449e680bc8c",
+      "git_blob_sha": "b38fc68d55fa5dedf6f0e4c85d79046b4a51584e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0000.b64",
+      "sha256": "6e698e30078eb6f4ee6fe96cf6782f5f857ecd0a4ee91a72679623e345c5fcf3",
+      "git_blob_sha": "5fd887dcc3017f8cfa798bed5ebccf7160cee813",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0001.b64",
+      "sha256": "14a812a8864994c25a0a93a97ea60124d3556988549b3bef60698d087a03069a",
+      "git_blob_sha": "3e5f2973593522cfedd98c21125c0d87a5843c26",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0002.b64",
+      "sha256": "d2800f45d4c8d27c5844d1399aea9a419cf75b8c62741ad992b15ad296dae206",
+      "git_blob_sha": "54d99ac8a506b12a630d49d36d88f4e9021147c3",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0003.b64",
+      "sha256": "353e2888b0af3f5584cb670cd93e6c9bbdff292bf8da22e6db1828f8e6d8abf6",
+      "git_blob_sha": "83ad79287cad0251baed38ec928b364d1e681d70",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0004.b64",
+      "sha256": "6397ea77b7d3752790542cbded6e94f086886456d52919915eefc43655872fb8",
+      "git_blob_sha": "a802a400f0fc8a0ff4efdcb145ac79028eacd782",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0005.b64",
+      "sha256": "74a60d76a471e4b9dde7fea3f11c30188787e3ac3465a84d4b305318802bc8bd",
+      "git_blob_sha": "e1b82eb651c33728fcccecdbba8ca5436cb3b467",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0006.b64",
+      "sha256": "35f0ea8d7a1e901810c8ee76e5fc6284cd6289eba3fb64c60b41513f6a49afcc",
+      "git_blob_sha": "6583981ab7132a3f5b9f9b41bc3b637d2a2b6a02",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0007.b64",
+      "sha256": "4092d107643ec6f86ba7873c330f6e11805de5a58651352cc990555cd2647575",
+      "git_blob_sha": "744e383a362f2d8b8fea592b8577fb9f496fa2f2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0008.b64",
+      "sha256": "4d309330484682c352f2dfa73f06ac0dca76efc90a17a1920c18e8765b241bad",
+      "git_blob_sha": "b5684cc47dd9573283eb610fb5c81b39eb9d5bcf",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0009.b64",
+      "sha256": "9738d297d21f04420b243d51b7315df3dcdfde3ccc807345ebb0db51e934fa75",
+      "git_blob_sha": "29cf50a47185e9ec143d396d2c2897dd41cff664",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0010.b64",
+      "sha256": "fe9d03aa7fdf975e0e4c54e0ffe11ba10eb6c1456487974b2d54e5215ebe3d26",
+      "git_blob_sha": "6017c81ef9f73214d12c3628c5c4b28e4b75be66",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0011.b64",
+      "sha256": "ed7a3a325567e1de7d5a620c5a24281c4ccad5a18817fe66c44271f3a7b75dc7",
+      "git_blob_sha": "a14a5bc5d9d43ea20895f0e14d13e35fe74eb310",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0012.b64",
+      "sha256": "d6ebca7b78e63c27ab3143a67f2e14728dcb6eeef578fedf9b40f59ba0600ebb",
+      "git_blob_sha": "5d9e64dc76db305175a55badb3f24726c1347dd3",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0013.b64",
+      "sha256": "281a4af1e8d48dd16451db6721b309b71301eeb0c316043036b0cdcca95e41ea",
+      "git_blob_sha": "f3b85079f7c8f74b00e6036cbb9656a7caddc37e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0014.b64",
+      "sha256": "a9746507b233c52c70e4ddc1c5b75192302f4436bffb62d717a080764f286e86",
+      "git_blob_sha": "37af776607e16f3a908c17a809bc40ae26c6ea60",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0015.b64",
+      "sha256": "96b3f853faed816dbadb824e6a24d6aecaa2d9b9f39e784a32c59849ece284f6",
+      "git_blob_sha": "ddfadea775ef62f70fd70d0cd85a10336c2218b9",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0016.b64",
+      "sha256": "3a4a9e5ff7bc0572463683619d78b8c0ab88f63d9ff5274a4f9f6ba80967bb27",
+      "git_blob_sha": "4d87e9a50324a415eafb606f023942dbaf494408",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0017.b64",
+      "sha256": "f9f76d5f519968e3a37ac9111f95932a7859f3a685c70c02ccf00b6f21d1fe53",
+      "git_blob_sha": "77add89e6b7ef31d7171aade19173fa213b0ef2b",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0018.b64",
+      "sha256": "c90049678edf8a7805b5decd8f663ff47bd1b44fe38f704de0296080d9c489d1",
+      "git_blob_sha": "5374138926b011a410a9e239580298fc95ca54ca",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0019.b64",
+      "sha256": "9d606c2b621567b826aac6a3e415b60a9d3699592bf9f09a4bebf9176caa38b7",
+      "git_blob_sha": "0e19a05e78b45f0f5f93cdb500f4f8806e223c55",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0020.b64",
+      "sha256": "3fbd9ad21d6c5cb1d4659d05833d323d89f85cfaa1cd0a399b5585666e6a9208",
+      "git_blob_sha": "b9b1e259cd646e5d3963942010f5551caae073d3",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0021.b64",
+      "sha256": "2036fb0b5f1267e77c9418885b777b8972e43e48980686ce2d8c0561b433df67",
+      "git_blob_sha": "cf1b30491e2e97e81dd1038998187b37a6585948",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0022.b64",
+      "sha256": "e13275ae220b4f48a5c17657567ac0b34366dfcfc9e0c61e8a5b4ec27e758183",
+      "git_blob_sha": "81cd937f7fdeb2705d4af66e1d72ae4a2c1ffefc",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0023.b64",
+      "sha256": "33884492e7a78fe06f2924533c1d18f31ad45db442eec5a792b569e086fdffd4",
+      "git_blob_sha": "e16e26ca3fe9d230c06468ed399d118d370aa6ef",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0024.b64",
+      "sha256": "98c72c41eea6a86316270fee166566c6c93b7bb91df642932bcccfc0e402d55b",
+      "git_blob_sha": "bbc77d1ff888acde4c41ba42840ed9d923f346d1",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0025.b64",
+      "sha256": "1df7708b6bbd3aeb68324de99688dea010928aa4218edcf74d87715fa5c661ab",
+      "git_blob_sha": "ae211c8f4b645227e3fbd4140243131f7c3e9386",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0026.b64",
+      "sha256": "3a753f472d4bd7d70e4c4cc15e7b5b0a0ad0d5856836b2dc6b5f82784b2b9a29",
+      "git_blob_sha": "6c71085e26d8f7d7dff0d1bed124dab3c244a191",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0027.b64",
+      "sha256": "2f8989ba96476d14709642492e84688eaca3a01302ec63d723328aab54c12424",
+      "git_blob_sha": "823b4c35082bb05aca1a69a3b05a2391811c1b73",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0028.b64",
+      "sha256": "8de28808424b7ec93c566a85f1cd07e585c3784eae70f576619ada40bbb34766",
+      "git_blob_sha": "40b5b8426658e8eb57ea48d3d39faf4d7892476c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0029.b64",
+      "sha256": "10ddd83ed9d0945ac9eaee6024268441f6e195983d2cd552198539040d226ef4",
+      "git_blob_sha": "310ed0e5c3f505b5fbbc4f91cd437f96bb7b8656",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0030.b64",
+      "sha256": "238d4976a507b035639a0edf3cf750157ba12bb9947d237e09f16933777a15fb",
+      "git_blob_sha": "b9f1d4227e9d84ac475eb1796e27e4e2875dedc0",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0031.b64",
+      "sha256": "5bc216eb173bca9da16835f7e6732eede600d996c364bea198bc56a4486d8a37",
+      "git_blob_sha": "cf09115b3bb5fb543dc41df9c26602761f72ba2c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0032.b64",
+      "sha256": "c1ee38ea496ac2cd86314a42a88b657d3c4914a0fea592674e6dc764eb1962fe",
+      "git_blob_sha": "6db26519bcc59eba0190a53d7ada25b9b53b0152",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0033.b64",
+      "sha256": "36ebd77540da421318c35200fa3b20e1fd4d4ee7943a86aedcf6f3b99dd34ea7",
+      "git_blob_sha": "c539d9842b33c84b427ee10da2c656145b471197",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0034.b64",
+      "sha256": "e1df4c2426ae405f01b9e348009b5a617e826ab15b6fb234b4f8214d6895d16a",
+      "git_blob_sha": "591f7f45ffc5ddca6d5ae4f8ee4d13628dbdddcb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0035.b64",
+      "sha256": "35de40b92aa77d7d05b51dc6c148b27682ffa785baf0d9a45672049e94729076",
+      "git_blob_sha": "81f0bbb17db61dc16f70aa61a5b34a09c60aa549",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0036.b64",
+      "sha256": "faf3431ea597856171d3f0db4399cb2ab7e18dfc12193e5ae6d87522efe19f7d",
+      "git_blob_sha": "3bcb97e2c45864f89406cfceef05d1d42013e0cb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0037.b64",
+      "sha256": "889632858aad2c821fce51610c9b566dcb54219600c7439dbfd8984397476225",
+      "git_blob_sha": "6f653e336526a0171d00c937430dd2a9c50dc37d",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0038.b64",
+      "sha256": "ffe77b7b4e827e9790aa597d50e52fa4f787094358a9321d2d270f878f7c5aab",
+      "git_blob_sha": "333491fbf87c5086e2dcacc754e3437f9b12fda5",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0039.b64",
+      "sha256": "46378a4804a93312b689e6015958803e1d2ab20439b2b2ab78176a0375163b2f",
+      "git_blob_sha": "2afd80c64b6495a89742c3151ed40edfad844451",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0040.b64",
+      "sha256": "c6fd60ae6dec2dbbaa55596bb77c6950d6b3e84e5df6ab80114f0cf9d86893df",
+      "git_blob_sha": "6aa8b262ae119c093fc47f9c30d14ed83baed9be",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0041.b64",
+      "sha256": "da24d45e354871e931cb8ed40e5220174d1f1e2498d2031e9c3035919ec5e629",
+      "git_blob_sha": "ab40e8e342b8dc29a88dbbccda3c5bc3f9cddea2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0042.b64",
+      "sha256": "efadb43f0334baedff21fa3fea01c266e7b78fb9bd04705489045fb5a70013e5",
+      "git_blob_sha": "8690c4f15502169091b68d5b31d6ebb01efecbdf",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0043.b64",
+      "sha256": "49ee18a72eddef364dd6247c7dd77ff9f20e38b873c86a5c2f82f2566a74c3d2",
+      "git_blob_sha": "39b8c315077837272013fdf899b3fc8e001b2f2d",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0044.b64",
+      "sha256": "12033bb529284358958c4694fcbb6cb29811da8ee27cede55c07a9bdebf4dba0",
+      "git_blob_sha": "e61fe3c353c54fb7bc515938354d066b790d1a7e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0045.b64",
+      "sha256": "d92a1ab644d677025e9880038f14419d0c0914e393eecc8c9d9964be9c5b730d",
+      "git_blob_sha": "f7f858f9065827f22f505e2f027c1e572b1f89c2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0046.b64",
+      "sha256": "795856f33204e3498aa8d4dfa7f3f65243c343bb4af0113f44a1bcec2708ff3d",
+      "git_blob_sha": "27f5f48db371e90814023d9cfed167d024c46c86",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0047.b64",
+      "sha256": "e42c38d4e1a441877700611c66e65303c46808d9155d93d6e37bcf72664a038e",
+      "git_blob_sha": "1980f43781fa0f4a24dcad03fc3a3592c6995886",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0048.b64",
+      "sha256": "202eb91a3ae29261e5a22d32ead8a5dd6777a1e3d84935973a67eccca4e8ed0c",
+      "git_blob_sha": "fb70ea2b6c695ce438011720f706523901c2ef7f",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0049.b64",
+      "sha256": "bbc648874810d52e3e3efb75d9e9c5ffca59fd784c6df79f070a781cd7953831",
+      "git_blob_sha": "8a47167ed8ef8424c3b9cdc26fbb4f9386c6d91e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0050.b64",
+      "sha256": "24a1da9c39cbcdef2eae1facebd17401e6c289155cca81b7ffe89e0b3e6a0c1a",
+      "git_blob_sha": "604f59c0c1a2950885e4ab5be598950eca8e409c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0051.b64",
+      "sha256": "ce8b6e8fec4354fbe523492aeb2028ab1edb988bb1b9a354e3df35f449c70ebc",
+      "git_blob_sha": "f24880a1eb6debf5f53179823799293e2532e209",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0052.b64",
+      "sha256": "0bb4e32dc9d33096793a2a2525542833f7bbc9236ffcea55ba7146c36dda09c4",
+      "git_blob_sha": "9e748ccedfa9cd42fb5b454fa46744b3c57da889",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0053.b64",
+      "sha256": "096b0abdbff63a2bc16f60e9df41bdd67065ec0053137db78d4df28b7fa8c139",
+      "git_blob_sha": "67f35cd934cbec23734f1d24041f24ac9a1badd8",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0054.b64",
+      "sha256": "2866ae62ab0850dc16d75db6c4f16c927c590172e5d9db62adcb48c8b8f01bf3",
+      "git_blob_sha": "2cd4511e4a4da0f888b21c25a91a6dfaf4ec8cab",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0055.b64",
+      "sha256": "66a42a3a86ac6a61e26b776e13adfe8514a3b62b9c5a230d5df037d289682c80",
+      "git_blob_sha": "adad660b3d467f9a8731bc3bab5dc82a2260995b",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0056.b64",
+      "sha256": "813f48d53e1a9680e5cc3596573b6da865ceb16d32d7496c1ee84c47ffc1978e",
+      "git_blob_sha": "8e6cf3c7987d4864115aee8248ad724b67d16dc5",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0057.b64",
+      "sha256": "01ea68ac705e84c26539574153d0c2f3adfddccfa162aa2d3b363048b684555c",
+      "git_blob_sha": "26421df4e3fc5eafd7b531f0b955d051da51f043",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0058.b64",
+      "sha256": "d0caa7bad2e4b2aeaa1b4088b07419cb3837a711e2de67b0f8bd47568926a175",
+      "git_blob_sha": "d65f8463d925e759a972dc68b7094348ad9caebe",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0059.b64",
+      "sha256": "1b92f6dccd4a089e0efb81e59e07240d00a3280c60d5828ba2e8d3d41a157b91",
+      "git_blob_sha": "476d6e5780515e3c70d1ffb86700d92270995cf8",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0060.b64",
+      "sha256": "634d8e996944ae6abe046774e2f8bd0598a474a83b9c65734a31d919d18ba7d4",
+      "git_blob_sha": "a716de7997cdd42a760f237704cf0ebd420abfd5",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0061.b64",
+      "sha256": "8a85094c424061e0e85aeef7b241f581db75bc9bd68d5479be542c5c0ac53f5c",
+      "git_blob_sha": "e38e6fd49a85aceae172fd2c69ae23f02ecacf5a",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0062.b64",
+      "sha256": "30b0737b399869ed848982e4cc274826da23a00cd5d17b823f2ed1a6a10a5669",
+      "git_blob_sha": "2ec9dedd1283a6bc4be4d82093abb3891856cb8e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0063.b64",
+      "sha256": "b3abbcfc91721a485eed9a234248153d94b0d47f9b3041c3ea75cbb3d82d7229",
+      "git_blob_sha": "656af26bfaaf99a3959ffa43a36e86073bf01f52",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0064.b64",
+      "sha256": "d086733ba688a053d4260e51712e10cb427567e732a2937cfd9c08c410faf078",
+      "git_blob_sha": "4b328012952d0260a6a0c00a6b1e73c143efd280",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0065.b64",
+      "sha256": "7ab675a3c414c9a50aede0feef81ea638fc73dda5ea527ad72d351eeb438264b",
+      "git_blob_sha": "527b0fd10cce8bc4af33a4149e91cae814c8bfe5",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0066.b64",
+      "sha256": "14b204862acdae67a91a1f11e2957c194d9a2a188590d9e25a51b82ca86f50ec",
+      "git_blob_sha": "b06f583b2dcb5588348117d19cc3aecc3438b491",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0067.b64",
+      "sha256": "1b19fd04ea587e847115363e4db7907e3a3f6278031e22ebe11ca2b57b8cbc3a",
+      "git_blob_sha": "35bbf797217faeb3afa5060a1f12e8e3fa6813c2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0068.b64",
+      "sha256": "a30ebd2e58849a055e0c2febdb764b168f98aaca270f1c4b67a2f944fe935bd8",
+      "git_blob_sha": "b52447e6d6952d7b4e0730c4400fb5a1814b32d8",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0069.b64",
+      "sha256": "6af66c1cca7adfd1434700c1efa7c4d782051e4b078344a1e78735fce42a83c7",
+      "git_blob_sha": "d38d6f6e77e9add59718b67b607ced9e87c6dbec",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0070.b64",
+      "sha256": "903fc29b11ba74e933bc9ab53b77b7c34958891270ed19a1568bbd614f885a29",
+      "git_blob_sha": "53dcf46a7994c47dc29333b63f149d0692e1f9ff",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0071.b64",
+      "sha256": "6769d337220c8f4a019460080d235db487bbddeff9f2cf1ae86e52e74e477139",
+      "git_blob_sha": "d2340e143f075b8f6160b3ba4d6ce36519afd428",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0072.b64",
+      "sha256": "25270529b1d75f70721c7f053492f664113339356bf20b1321c10c205641396c",
+      "git_blob_sha": "db34c50d61cf7dfe8a2c9508582043a8430ca07a",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0073.b64",
+      "sha256": "57e684cd76ba4ac148a9ce0fdfabdf83f834151af0e80d33c90ef2f21d992068",
+      "git_blob_sha": "1c5b2de8a928b0f72be0b7b6754c8f084c08cafb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0074.b64",
+      "sha256": "1d0af993de72e3c8cb57eb36cb86e9e0f465b4900a3ae57c502990462a484972",
+      "git_blob_sha": "cfab847d8cd7567010f2255048bad6a759a83720",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0075.b64",
+      "sha256": "d3959a500c9a44958ea0533981884a7bf1c6de67c55036cac003e9d532884f6a",
+      "git_blob_sha": "0d53823714b453327df4db11a013c5804bfc1cfd",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0076.b64",
+      "sha256": "fd9e5362855ac60c625ab90c2c4d8679f38c1901ed873f603e73bad8895545b0",
+      "git_blob_sha": "12c023570829407ff2f207652bce833b6427716f",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0077.b64",
+      "sha256": "615f9b6a51ae3633ac1930deeced0633e5da8b2c91ccbfd57541e6f7e7413054",
+      "git_blob_sha": "d23d4e02e4b58b5cabcf986b0b02e62d137600b2",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0078.b64",
+      "sha256": "f3c4fe9369366c53c0c5d4922b0f64ccfdb9ac3b5d2f16a0a420e43047a834bb",
+      "git_blob_sha": "2490287a92c911e4bd298ffa3470bf9565dc0de6",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0079.b64",
+      "sha256": "8b3e2a65d38760cd640f956e6334928a0f7703ed5a164224eb710ac013b3f960",
+      "git_blob_sha": "33628d0131fba63bc86eba93802d022eb5de2f43",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0080.b64",
+      "sha256": "6aeb9214423f00451287e08c63b4dab1791c7ee6c5706e0a305e87210d11d0c3",
+      "git_blob_sha": "198bce5cc59a1f8619f3a6ff1dfe95688711e005",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0081.b64",
+      "sha256": "4cbfdc78b98de57933d77a1028a233f7d20643d07659c43764479a4411d5ec01",
+      "git_blob_sha": "727075b1e92d53a7ad0f893ba31fa410440279ef",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0082.b64",
+      "sha256": "33204890f93ac1d0ca2e05c24516ce811c6ca3f2890517cd40944cc36a211879",
+      "git_blob_sha": "f7ffbb2a01daf47d465ae1705e937d31cd44d5df",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0083.b64",
+      "sha256": "20f27569b0fddb335352872fee6e4463e56f093673631d78d757321b4b547eef",
+      "git_blob_sha": "e884e7825e8745d3db406c1852aa2ed6c3e1b9bc",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0084.b64",
+      "sha256": "cb0f988100642d8c706b79487a01b631a4bf088c10cdcc7a8d5b0da130774cc6",
+      "git_blob_sha": "ed453de6f82cea2bfcd0d6c1d9a1fe6a2deeca53",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0085.b64",
+      "sha256": "0f772545ccf943c55f805e9c121783835ef92460a83b1ea45268a04400aaf4b8",
+      "git_blob_sha": "63095a8d43389b7837bd0aa11c007a739ba2a358",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0086.b64",
+      "sha256": "2132f0697e2df322b3d48b000ec94398710e618e8b998ad9c28d15797c93e98f",
+      "git_blob_sha": "de6b222e341d140f24f901dd082f7800499a122e",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0087.b64",
+      "sha256": "1b03791b3dd1e1505f4b4126e6c2fe7b7a876dac39194429bba13a6d1090fb96",
+      "git_blob_sha": "a98182908bb87d78d383ebc7d0296d05da5cbc37",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0088.b64",
+      "sha256": "5e433cee0c0c61bfd6742a588855322e682d809ab88e2c39564cb426999b639f",
+      "git_blob_sha": "f9ddc95dde8664b9eb078175e840b05b48ab4575",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0089.b64",
+      "sha256": "35baf0fde095c8a569b039c318564191ea09bb107fca68574441a7542f33cdb6",
+      "git_blob_sha": "508d60f450e1b1fa25ac6a866ac9b18688ce2328",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0090.b64",
+      "sha256": "b40f3022079b69c3be689086b78209f38ab83244c736137bfed061611e8f2b3e",
+      "git_blob_sha": "c077ae130fce696e6bc79809a3193c47e5067c2c",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0091.b64",
+      "sha256": "1a5ffdb47c4d128f8437f66c564a6f3686e6632f97e4b8017a625ab3a4da0531",
+      "git_blob_sha": "7e6da9499e956cbd8af878fafa30ce115c882583",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0092.b64",
+      "sha256": "047214b3aecb169d01b7e3b526e5f67f960e58819017327e611f4be060b2c835",
+      "git_blob_sha": "03b2b887a398b69e6e97baf3727459555c617292",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0093.b64",
+      "sha256": "7145955d21303da8a32f3c06072fa8c2cbdbb0226342b817b96e1023e4e8f72e",
+      "git_blob_sha": "f9720c1f56056c5c6cd7f5d96955d32715cf8604",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0094.b64",
+      "sha256": "5472d93943190fbaa95c4328242129984d1041c46b57eef219c85abc0b0a4074",
+      "git_blob_sha": "57ebbf61aa2f2ae42ff0b35fcad3c4272ccb4cee",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0095.b64",
+      "sha256": "2c25bce0923dc7c17f2040635796caf80716c89ac0e639b305776432b052ba05",
+      "git_blob_sha": "b228ee6111ba829af9d2520e7eacf52669cdc491",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0096.b64",
+      "sha256": "3e8487595db381f6e20e0d7695c6f40adec32b44abb1184985538d654e9aa055",
+      "git_blob_sha": "21683696a22ce4f6af6cd4804c7feee925c2de37",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0097.b64",
+      "sha256": "9e36468c0689870ecb1b4041fcf421b732e1ad295f2db255a95d210c7486f3e2",
+      "git_blob_sha": "1e9398505b93e3831db4c1202ba0498364c4b12f",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0098.b64",
+      "sha256": "65efb7ab4783ce26b0c94ba86d0f4644bb04f24739d5988a85821c28ac2831fd",
+      "git_blob_sha": "13d75cba988f546d4add10a2a929b91df4fb07cb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0099.b64",
+      "sha256": "c56f69aac7df3c6c55d4cc45b365fcadef9a617a20542372c8936479c803ca3b",
+      "git_blob_sha": "1c3e4d42f24125b0db8e442f7ad01808df5c3a1b",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0100.b64",
+      "sha256": "f1863f208ee5b4d318146acda2cb024c3e6cf44e509840a870305c49da52f90b",
+      "git_blob_sha": "a3b0711e220d444b2caf2c8691bb6fac4be1615b",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0101.b64",
+      "sha256": "55cb1e4202bb1af1e6987faa7da309456acd48946754258fbf7eac02d7bcc7a1",
+      "git_blob_sha": "31322883203f61013080f695c80d650bfe6781cb",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0102.b64",
+      "sha256": "5b10be6859b9966bd9eef5b34db5ededa0e8b3440e636b0a6638604e138903a9",
+      "git_blob_sha": "112d158ce99c5acb33b3b423e7c68d0f2b4b6630",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0103.b64",
+      "sha256": "5b07334ea58c2a0829cfcb3b50a5021834f5ba056e5cfd7eb6cc1aff001202a4",
+      "git_blob_sha": "2299e8eacaa05d77f2f631ef73314e792dc83f6a",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/recovery_batches/batch02/parts/part-0104.b64",
+      "sha256": "8db6520927df700614926c238eda8f25916ffd5561693fc1fde62301dd6f1c34",
+      "git_blob_sha": "d193e60497670c880d3fe83966ad5407dff53557",
+      "content_exact": true
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/BATCH02_PUBLISH_MANIFEST.json",
+      "sha256": "c704a0a0f339e6fada29f059de622b7dbf0e13b73b1b6ea00d12c37f893d8db1",
+      "git_blob_sha": "654da146fe3c70519d561a9972930602bf7823b9",
+      "content_exact": true
+    }
+  ],
+  "distinct_numerical_check_ids": 77,
+  "source_integrity_check_ids": 1,
+  "new_check_ids": 12,
+  "new_runner_attempts": 2,
+  "cumulative_attempts": 18,
+  "cumulative_command_wall_seconds": 9.950068011001349,
+  "scientific_scope": "constructed development diagnostics;not full CPU coverage,native benchmark,LM,SFT,RSI,originality or admission",
+  "recovery": "Use preserved base RECOVERY plus batch02 incremental archive and SHA-manifest;do not init/reset same runner",
+  "supervisor_at_final_observation": "same newly started single supervisor alive and awaiting decision;agent.command remains empty;no claim of uninterrupted model worker",
+  "overall_goal_complete": false
+}
