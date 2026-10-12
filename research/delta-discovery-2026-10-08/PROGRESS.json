@@ -2,7 +2,7 @@
   "kind": "delta-discovery-progress",
   "version": "1.0.0",
   "batch_id": "delta-discovery-2026-10-08",
-  "recorded_at": "2026-10-12T02:20:00Z",
+  "recorded_at": "2026-10-12T02:31:00Z",
   "scope": "Delta mathematical discovery; diffusion optional; no new model code or executable experiment plan",
   "user_requested_range": [
     10,
@@ -10,7 +10,7 @@
   ],
   "pool_target": 20,
   "selection_target": 15,
-  "status": "R01_R20_bounded_repair_sweep_synthesized_final_byte_reviews_passed_pending_delivery;overall_20_to_15_phase_incomplete",
+  "status": "R01_R20_bounded_repair_sweep_synthesized_final_byte_reviews_passed_published_exact_readback;overall_20_to_15_phase_incomplete",
   "counts": {
     "constructed_history": 5,
     "active_constructed": 0,
@@ -4599,7 +4599,7 @@
     }
   },
   "step2_bounded_repair_synthesis_2026_10_12": {
-    "status": "independent_final_byte_math_distinctness_source_integrity_reviews_passed_pending_delivery",
+    "status": "independent_final_byte_math_distinctness_source_integrity_reviews_passed_published_exact_readback",
     "scope": "close_R01_R20_bounded_repair_sweep_only_not_overall_discovery_phase",
     "artifact_ref": {
       "path": "research/delta-discovery-2026-10-08/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md",
@@ -4668,7 +4668,14 @@
     ],
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_paths_exact_readback_verified",
+    "publication_commit": "2ef7292a02069d1b6683643511478414d4884fed",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_BOUNDED_REPAIR_SYNTHESIS_DELIVERY_READBACK.json",
+      "sha256": "968f949d705fd8627d8c03afc09f4544f2a228dd849e6c8008cc1184ffa29cb1",
+      "all_paths_exact": true,
+      "path_count": 13
+    }
   }
 }
 

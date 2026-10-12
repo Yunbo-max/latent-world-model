@@ -1,0 +1,27 @@
+{
+  "kind": "exact_commit_readback_receipt",
+  "scope": "Step2 bounded repair synthesis and new native measurement audit",
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2",
+  "publication_commit": "2ef7292a02069d1b6683643511478414d4884fed",
+  "all_paths_exact": true,
+  "path_count": 13,
+  "verification": "Each path was fetched at the exact publication commit and its returned Git blob SHA matched the created blob SHA.",
+  "paths": [
+    {"path": "research/delta-discovery-2026-10-08/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md", "blob_sha": "6f950f93e0e7c01cca5e000692baa2257a1a0294", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/sources/STEP2_NEW_NATIVE_MEASUREMENT_AUDIT_2026-10-12.md", "blob_sha": "924ad38b5e946755b9cdd39ba86b545ecd7d9e29", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.math-review.md", "blob_sha": "e382da2e115650c7f3eb3713962ffd4392015709", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.distinctness-review.md", "blob_sha": "b17b23e02f659fd77e031b7ec1b3c6a04590c0e2", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_NEW_NATIVE_MEASUREMENT.source-review.md", "blob_sha": "28b836cbaac41238bb68bdba8093ff2d0cab0f68", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_BOUNDED_REPAIR_SYNTHESIS.integrity-review.md", "blob_sha": "aa32e8de4a6602ab883ea93b58c9065e7aba4daa", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "blob_sha": "e979855fad76188f585114b34fb626bc2956f83b", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "blob_sha": "d97e0b881313fe6641afbd34a5cdcd2c0239e29e", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "blob_sha": "e4edfb7b7c0d476fd913bb4f5fdd8294abd849e9", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "blob_sha": "f8b429d7d86b83137bc5e9575aa3e86a525905e1", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "blob_sha": "568446b3296d9a4d1f61259736dbbc2692d91c63", "exact": true},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "blob_sha": "aeb27510d1998af6e88d4b95c00ed659b5f8849d", "exact": true},
+    {"path": "research/workflow-checkpoint.json", "blob_sha": "b43b326e91712ff3d53c0dc1aa11212e26a31788", "exact": true}
+  ],
+  "scientific_effect": "Delivery verification only; candidate/admission/selection remain unchanged and no experiment was executed."
+}

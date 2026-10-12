@@ -549,3 +549,5 @@ Delivery: substantive commit `7772ff0a0ce4192127d6476bc93fecdb4cf65020`; all 14 
 来源侧有实际新增。`When Old Facts Return` 给出“重读旧值”和“真实回退”在同一 `A,B,A` 观察下不可区分的直接例子；WritePolicyBench 有 write/merge/expire/skip 接口；MemoryBench 和 WikiBigEdit 有保持曲线；Open Bandit 有合法 propensity。但这些来自不同数据生成过程，不能拼成一个有效的因果 benchmark。现在仍缺一份同时包含更新动作、行为概率/可识别条件、延迟结果、旧能力保持和后续学习效果的原生记录。
 
 因此当前计数仍是 **5 个历史退役卡、0 个活动候选、0 个科学准入、0 个选择**，`selection_verified=false`。R01--R20 这批修复可以关闭；20→15 总目标不能关闭。下一步只接受真正改变信息、状态、完整动作、匹配总成本计算或原生测量的新父问题，不再给耗尽路线做第四次换名修订。本轮没有运行模型代码、训练、推理、评分或实验。
+
+交付闭环：实质 commit `2ef7292a02069d1b6683643511478414d4884fed` 已以 `main@3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2` 为 expected parent、`force=false` 发布；13/13 路径按精确 commit 读回并匹配 Git blob。收据为 `sources/STEP2_BOUNDED_REPAIR_SYNTHESIS_DELIVERY_READBACK.json`。这只证明交付一致，不改变候选、科学准入、选择或实验状态。

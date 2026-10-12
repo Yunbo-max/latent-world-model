@@ -1,7 +1,7 @@
 {
   "kind": "full-original-plan-source-delivery-checkpoint",
   "schema_note": "Source authoring and review record; not software/native/scientific acceptance or a job launch receipt.",
-  "recorded_at": "2026-10-12T02:20:00Z",
+  "recorded_at": "2026-10-12T02:31:00Z",
   "project": "Yunbo-max/latent-world-model",
   "round": "full-plan-2026-10-08",
   "role": "web_supervisor",
@@ -208,9 +208,12 @@
     "changed_files_read_back": 63,
     "readback_receipt": "rounds/full-plan-2026-10-08/DELIVERY_RECEIPT.json",
     "current_invocation_exact_source_readback": {
-      "parent": "3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2",
-      "status": "pending_expected_parent_main_publication_and_exact_readback",
-      "scope": "Step2 bounded-repair synthesis, new native measurement audit, four final-byte reviews and trackers; no code or experiment execution"
+      "commit": "2ef7292a02069d1b6683643511478414d4884fed",
+      "receipt": "research/delta-discovery-2026-10-08/sources/STEP2_BOUNDED_REPAIR_SYNTHESIS_DELIVERY_READBACK.json",
+      "receipt_sha256": "968f949d705fd8627d8c03afc09f4544f2a228dd849e6c8008cc1184ffa29cb1",
+      "status": "verified",
+      "scope": "Step2 bounded-repair synthesis, new native measurement audit, four final-byte reviews and trackers; no code or experiment execution",
+      "path_count": 13
     },
     "source_review_status": "Fresh four-way bounded source review and relevant repair/prose rereviews completed; no remaining demonstrated Critical/Important finding in reviewed scopes. Runtime tests remain unexecuted.",
     "mathematical_reassessment_delivery": {
@@ -3848,7 +3851,7 @@
     }
   },
   "step2_bounded_repair_synthesis_2026_10_12": {
-    "status": "independent_final_byte_reviews_passed_pending_delivery",
+    "status": "independent_final_byte_reviews_passed_published_exact_readback",
     "scope": "R01_R20_repair_batch_closure_only_overall_20_to_15_incomplete",
     "artifact": {
       "path": "research/delta-discovery-2026-10-08/STEP2_BOUNDED_REPAIR_SYNTHESIS_2026-10-12.md",
@@ -3895,7 +3898,14 @@
     "candidate_delta": 0,
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "3eb34ab5eeb2cd2530a6f764f1b0fb7fe25cb0f2",
-    "delivery_status": "pending_expected_parent_main_publication_and_exact_readback"
+    "delivery_status": "substantive_commit_expected_parent_main_and_all_13_paths_exact_readback_verified",
+    "publication_commit": "2ef7292a02069d1b6683643511478414d4884fed",
+    "delivery_readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_BOUNDED_REPAIR_SYNTHESIS_DELIVERY_READBACK.json",
+      "sha256": "968f949d705fd8627d8c03afc09f4544f2a228dd849e6c8008cc1184ffa29cb1",
+      "all_paths_exact": true,
+      "path_count": 13
+    }
   }
 }
 
