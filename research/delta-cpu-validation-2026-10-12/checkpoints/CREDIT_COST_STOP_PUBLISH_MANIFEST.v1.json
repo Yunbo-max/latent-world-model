@@ -1,0 +1,56 @@
+{
+  "parent": "f870ed4e855e6b9f77556692b24ce7091deadd0b",
+  "mode": "archival_only_user_stop",
+  "files": [
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/scripts/check_credit_cost_v1.py",
+      "sha256": "af30d12a89e69f0c4745e29404a7c8508044a8fbb1e1ff4ff70450352397935c",
+      "bytes": 11048
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/credit-cost-v1.json",
+      "sha256": "ba75654099fdcc1fee60f06e702783c8a40d11b211640cb1ee3f4c6a954609cb",
+      "bytes": 2929
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/plans/credit-cost-response-v1.json",
+      "sha256": "742ddd4b4893a8dada1253e0ac50cfa65b1f4b3c14f7ae0b7f362deebf22c4cb",
+      "bytes": 2177
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/delegations/credit-cost-v1.assignment.json",
+      "sha256": "9f6e6a44adc70238c81d49ae5e04d0174c34f31f124be19099befb11315eba30",
+      "bytes": 1025
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/review/CREDIT_COST_DESIGN_REVIEW.v1.json",
+      "sha256": "1fcdfa1563b3ec3bc682fd77edea1a48eac55430ef2a1b81f4bfe1c9446889c0",
+      "bytes": 1669
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/CREDIT_COST_USER_STOP_HANDOFF.v1.json",
+      "sha256": "c3eac5af655fa7501767b8ffb53b2ed91976d48e2c6133a921048e40dce6b087",
+      "bytes": 1391
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/BATCH03_STOP_HANDOFF.zh-CN.md",
+      "sha256": "b1a068261719559d462b1ff4966e1fb869ffaaeb4a0760161204a3ec3d978866",
+      "bytes": 1566
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-batch03-preflight-v1.json",
+      "sha256": "da9d367e4853a210fc2b89ca78aad9835edd7f47ecaa7971df27c317d0b08e25",
+      "bytes": 2604
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-credit-cost-launch-v1.json",
+      "sha256": "eea405e723e832566fe22a8f895568cb0b396183489c000300ee2e0d05c012e7",
+      "bytes": 2617
+    },
+    {
+      "path": "research/delta-cpu-validation-2026-10-12/checkpoints/memory-credit-cost-final-prelaunch-v1.json",
+      "sha256": "5bbac02ea19085811bd8efab27671686b96b4c5fa50127446fca675b83535fad",
+      "bytes": 2605
+    }
+  ]
+}

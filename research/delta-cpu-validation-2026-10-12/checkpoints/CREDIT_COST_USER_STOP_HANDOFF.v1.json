@@ -1,0 +1,32 @@
+{
+  "status": "stopped_by_user",
+  "authority_observed": "User requested stop at 2026-10-12 12:41:43 Europe/London",
+  "stop_commit": "f870ed4e855e6b9f77556692b24ce7091deadd0b",
+  "runner_status": "stopped",
+  "complete_goal": false,
+  "budget": {
+    "attempts_used": 18,
+    "deadline_epoch": 1791881465.5041356,
+    "elapsed_seconds": 9.950068011001349,
+    "max_attempts": 40,
+    "max_command_seconds": 3600,
+    "remaining_deadline_seconds": 75926.0558795929,
+    "remaining_seconds": 3590.0499319889987,
+    "reserved_seconds": 0
+  },
+  "numerical_checks_retained": 77,
+  "source_integrity_checks_retained": 1,
+  "new_experiment_started": false,
+  "submission": {
+    "task_id": "Delta-credit-cost-suite-v1",
+    "exit_code": 2,
+    "observed_stderr": "Stopped or completed goal cannot accept a new response",
+    "attempt_created": false
+  },
+  "memory_shortage": false,
+  "automation_observation": "existing task disabled; no change or replacement requested",
+  "next_action": "Remain stopped. Any future resumption requires explicit owner authorization, fresh main/status/budget and memory reconciliation. Prepared design can be reused if still relevant.",
+  "source_digest": "e2b9d1c04fdb680bdf6e069ec387d84ec8f92efed5c44f59b7724ab446db5ae8",
+  "scope": "Archival handoff only; no goal reopening or experiment execution",
+  "recorded_at_utc": "2026-10-12T11:47:34.202532+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "task_name": "credit_cost_review",
+  "role": "independent read-only source/math/design review;no numerical execution",
+  "parent_goal": "validate-delta-mechanisms",
+  "source_digest": "e2b9d1c04fdb680bdf6e069ec387d84ec8f92efed5c44f59b7724ab446db5ae8",
+  "input_refs": [
+    {
+      "path": "scripts/check_credit_cost_v1.py",
+      "sha256": "af30d12a89e69f0c4745e29404a7c8508044a8fbb1e1ff4ff70450352397935c"
+    },
+    {
+      "path": "plans/credit-cost-v1.json",
+      "sha256": "ba75654099fdcc1fee60f06e702783c8a40d11b211640cb1ee3f4c6a954609cb"
+    },
+    {
+      "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+      "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5"
+    }
+  ],
+  "launch_state": "review_completed_before_numeric_execution",
+  "recorded_at_epoch": 1791805294.0884323,
+  "numerical_owner": "/root via original single runner",
+  "model_usage": "not_exposed",
+  "native_agent": "/root/credit_cost_review",
+  "design_review": "PASS_exact_bound_bytes"
+}

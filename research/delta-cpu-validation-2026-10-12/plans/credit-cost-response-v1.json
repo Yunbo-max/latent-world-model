@@ -1,0 +1,61 @@
+{
+  "response_id": "Delta-credit-cost-response-v1",
+  "request_id": "decision-d283df8d82934f5ca3b13ce0f5127220",
+  "idea": "validate-delta-mechanisms",
+  "revision": 1,
+  "goal_contract_version": 1,
+  "reason": "Exact-byte independent math/design review passed;compare complete charged reachable-carrier credit path against strong batched JVP/VJP controls. Earlier18attempts and original source/budget retained.",
+  "tasks": [
+    {
+      "task_id": "Delta-credit-cost-suite-v1",
+      "argv": [
+        "python",
+        "scripts/guard_cpu.py",
+        "--resource-output",
+        "results/credit-cost-v1.resources.json",
+        "--rss-mib",
+        "256",
+        "--",
+        "python",
+        "scripts/check_credit_cost_v1.py",
+        "--output",
+        "results/credit-cost-v1.json"
+      ],
+      "phase": "diagnostic",
+      "purpose": "Conditional reachable-carrier equality,boundary witnesses and total-path cost against strong Delta JVP/VJP",
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "depends_on": [],
+      "input_refs": [
+        {
+          "path": "scripts/check_credit_cost_v1.py",
+          "sha256": "af30d12a89e69f0c4745e29404a7c8508044a8fbb1e1ff4ff70450352397935c"
+        },
+        {
+          "path": "scripts/guard_cpu.py",
+          "sha256": "1d23798c360ec669abb32ad2be08cbca5d61030e14fb10d367867d086126a934"
+        },
+        {
+          "path": "plans/credit-cost-v1.json",
+          "sha256": "ba75654099fdcc1fee60f06e702783c8a40d11b211640cb1ee3f4c6a954609cb"
+        },
+        {
+          "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+          "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5"
+        },
+        {
+          "path": "checkpoints/memory-credit-cost-final-prelaunch-v1.json",
+          "sha256": "5bbac02ea19085811bd8efab27671686b96b4c5fa50127446fca675b83535fad"
+        },
+        {
+          "path": "source_manifest.json",
+          "sha256": "972acfc98eab5dac903b685dd2609e21f770fc978c49c9f1098ab3b49b0d2466"
+        }
+      ],
+      "outputs": [
+        "results/credit-cost-v1.json",
+        "results/credit-cost-v1.resources.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "claim-specific-development-cost-audit",
+  "idea": "validate-delta-mechanisms",
+  "goal_contract_version": 1,
+  "revision": 1,
+  "parent_delivery": "530cf1250113c86c0912cce75af508ce96ff8538",
+  "primary_question": "Does a prefix-declared reachable value carrier improve total Delta credit computation compared with the strongest direct batched JVP or VJP orientation?",
+  "source_ref": {
+    "path": "source_snapshots/repairs/R01_TRANSPORTED_CREDIT_QUOTIENT.v3.md",
+    "sha256": "507b2e06d2453c27c28054dd28240990875bc76b617b18cae965b1ed38d910b5"
+  },
+  "scope": "Fixed exogenous keys/targets,full Delta memory,state-dependent sigmoid gate;all arms receive identical complete offline future paths. No deployable critic or model-benefit claim.",
+  "continuous_math": "J[X]=decay*(X-beta*k*k.T*X)+k*e.T*beta_prime*<G,decay*X>; J*[Z]=decay*(Z-beta*k*k.T*Z+beta_prime*G*<k*e.T,Z>). If X=XWW.T and e in range(W), reachable tangents stay in the right carrier. Projecting G,e and C gives exact core credits; ambient perturbations generally violate sufficiency.",
+  "arms": [
+    "batched direct matrix-free JVP",
+    "batched direct reverse VJP shared across directions",
+    "core JVP with additional basis QR and all projections",
+    "core VJP with additional basis QR and all projections"
+  ],
+  "cases": "(dk,dv,r,N,M,H): (32,16,3,1,1,8);(64,32,4,4,4,12);(128,32,4,16,16,12);(64,32,4,16,1,12);(64,32,4,1,16,12)",
+  "timing": "9 randomized paired repeats,3 complete calls per arm/repeat,after warmup. Complete common memory replay,projection,QR,propagation and contraction charged;fixture generation outside timing;shared-host contention recorded,not eliminated.",
+  "statistics": "All raw timings and median ratios retained;no independent-case population CI or significance claim. Compare best direct vs best core for each declared case;do not demand every noisy repeat win.",
+  "metric_review": "Adjoint/JVP equality and full-feedback central finite difference;hidden-ambient-tangent and out-of-carrier-residual witnesses separately test assumption boundaries.",
+  "outcome_rules": "Numerical agreement relative1e-11;finite difference1e-8;hidden-credit and offcarrier gaps must reproduce declared boundaries. Valid slower core is evidence against cost advantage in that workload,not a failed correctness test.",
+  "resources": {
+    "concurrency": 1,
+    "requested_blas_threads": 1,
+    "data_allocation_cap_mib": 256,
+    "estimated_incremental_mib": 128,
+    "raw_headroom_margin_mib": 256
+  },
+  "exposure": "Previously inspected symbolic sources;new constructed development cases;no unseen native confirmation.",
+  "remaining": [
+    "Realizability and prefix-only learned metric/credit prediction",
+    "Multiobjective quotient minimum on reachable dual vs merely sufficient W",
+    "FP32 cost/conditioning and checkpointed autodiff on actual framework",
+    "Native LM/SFT/RSI and GPU comparison pending"
+  ]
+}
