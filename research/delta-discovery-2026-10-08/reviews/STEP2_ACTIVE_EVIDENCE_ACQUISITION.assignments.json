@@ -1,0 +1,36 @@
+{
+  "kind": "independent-review-assignment-ledger",
+  "artifact": {
+    "path": "research/delta-discovery-2026-10-08/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+    "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7"
+  },
+  "source_audit": {
+    "path": "research/delta-discovery-2026-10-08/sources/STEP2_ACTIVE_EVIDENCE_ACQUISITION_SOURCE_AUDIT_2026-10-12.md",
+    "sha256": "ecbf77c2cf94c09d5097ef6f5159f4d0731f52eb11fb22d4f3ff7e03a2a1e0b8"
+  },
+  "delivery_parent": "edb98f4f8c35b782f656bed59e8e3b8c5f489353",
+  "lineage_inputs": [
+    {"name": "bounded repair synthesis", "sha256": "b6061fc2f379dfac87d30f361d9abbf1a550e63eb910f9ef85e4d872a8717b6c"},
+    {"name": "R14 v2", "sha256": "073146ac7af184d9d39146911686af9b1de911688ed5a945d7f628ac5d5a6bbb"},
+    {"name": "query-rate-distortion theorem", "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"},
+    {"name": "compound-query hedge", "sha256": "2a9f90ac4be9851c66bc96edef0ee3f54b2ef92c5baf334198c4e3db13c07494"}
+  ],
+  "assignments": [
+    {"reviewer": "/root/active_evidence_math", "role": "preliminary mathematics", "status": "completed; supplied general protected-loss linear term and Bayes formulation"},
+    {"reviewer": "/root/active_evidence_source", "role": "preliminary source", "status": "pending initialization; replaced"},
+    {"reviewer": "/root/active_evidence_source_retry", "role": "preliminary source retry", "status": "completed; corrected primary-source pins"},
+    {"reviewer": "/root/active_evidence_measurement", "role": "preliminary measurement", "status": "errored from model capacity; replaced"},
+    {"reviewer": "/root/active_evidence_final_math", "role": "first final mathematics", "status": "found strict-concavity issue then errored; replaced"},
+    {"reviewer": "/root/active_evidence_final_math_retry", "role": "final exact-byte mathematics", "status": "PASS", "review_path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.math-review.md"},
+    {"reviewer": "/root/active_evidence_final_source", "role": "final exact-byte source and novelty", "status": "PASS", "review_path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.source-review.md"},
+    {"reviewer": "/root/active_evidence_measurement_retry", "role": "final exact-byte measurement", "status": "PASS", "review_path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.measurement-review.md"}
+  ],
+  "counts_after": {
+    "historical_retired_candidates": 5,
+    "active_candidates": 0,
+    "scientifically_admitted": 0,
+    "selected": 0,
+    "selection_verified": false
+  },
+  "execution": "none; mathematics, source, and measurement review only"
+}

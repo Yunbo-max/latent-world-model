@@ -1,5 +1,9 @@
 # 定向近邻图与阅读边界
 
+## 2026-10-12 — active evidence acquisition before a write
+
+The exact nearest mathematical family is controlled sensing and comparison of experiments: action chooses \(P_H^a\), observation updates the posterior, and a terminal action minimizes downstream loss. Decision-directed active testing also already selects tests for the decision rather than entropy alone. RIME/REALM retrieve evidence during memory evolution, while SAGE provides same-information novelty gating and post-edit acceptance controls. The residual Delta-specific content is the transparent stake map \(U\mapsto(A,B)\), exact protected-loss expansion, and closed-form Bayes amplitude—not a new acquisition mechanism.
+
 ## 2026-10-12 — compound query hedge before demand reveal
 
 The decisive nearest work is Timo, Saeedi Bidokhti, Wigger and Geiger, *A Rate-Distortion Approach to Caching* (IEEE TIT 2018; arXiv:1610.07304). Its cache encoder runs before the request and its delivery encoder is request-specific. Lemma 3 gives the single-user conditional rate--distortion region; Section III.A gives `R(D,C)=[R_X(D)-C/L]^+` for identical independent sources and explicitly allocates `C/L` cached bits per source. Inverting the Gaussian RDF reproduces the active minimax formula exactly. The paper also points to prior average-demand Gaussian caching.

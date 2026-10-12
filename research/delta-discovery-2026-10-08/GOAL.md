@@ -1,5 +1,9 @@
 # Delta 数学发现后台阶段
 
+## 2026-10-12 — 主动取证修复闭合
+
+在改变信息模式后，R14 的同前缀不可辨识性可被合法外部探针削弱：对后验 \(p\)，最优软写幅度为 \(b^*(p)=pA/[pA+(1-p)B]\)，且任何使后验非恒定的探针都会在成本前严格降低软二次 Bayes 风险。独立数学、来源与测量复审已绑定最终字节并通过。机制与 controlled sensing、Blackwell 实验比较和 decision-directed testing 重合，故只保留为 Delta 风险量化定理/强对照，不升级候选；实验效果仍未知。计数保持 5 历史退出、0 活动、0 科学准入、0 选择。
+
 当前里程碑：[shadow catch-up / causal audit](STEP2_SHADOW_CATCHUP_CAUSAL_AUDIT_2026-10-12.md) 已通过最终字节数学、对抗、来源、原生测量与完整性审查，但只作为新的测量父问题 `lead/control`；R01--R20 仍关闭，20→15 总阶段未完成，计数不变。
 
 ## 历史里程碑：R18 v3 有界纤维泄漏 ledger（attempt 3/3）

@@ -3737,6 +3737,65 @@ Total output lines: 4031
       "all_paths_exact": true,
       "path_count": 13
     }
+  },
+  "step2_active_evidence_acquisition_2026_10_12": {
+    "record_type": "new_information_pattern_repair_closed_as_classical_controlled_sensing_theorem_control_not_candidate",
+    "lineage": "child_of_R14_provenance_identifiability_reopen_condition_not_attempt4",
+    "artifact_ref": {
+      "path": "research/delta-discovery-2026-10-08/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md",
+      "sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7"
+    },
+    "source_ref": {
+      "path": "research/delta-discovery-2026-10-08/sources/STEP2_ACTIVE_EVIDENCE_ACQUISITION_SOURCE_AUDIT_2026-10-12.md",
+      "sha256": "ecbf77c2cf94c09d5097ef6f5159f4d0731f52eb11fb22d4f3ff7e03a2a1e0b8"
+    },
+    "assignment_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.assignments.json",
+      "sha256": "9b791368e10a8e382358f5a9d39a995b6da3b24d4ee4f3b33902a2e375db38ac"
+    },
+    "review_refs": [
+      {
+        "role": "mathematics",
+        "reviewer": "/root/active_evidence_final_math_retry",
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.math-review.md",
+        "sha256": "07e065f89bef33206688df87e2afb0a134f6395d9ac6334d47e32958a91682c1",
+        "verdict": "pass_final_exact_bytes"
+      },
+      {
+        "role": "source_novelty",
+        "reviewer": "/root/active_evidence_final_source",
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.source-review.md",
+        "sha256": "c246b6760121294e430aad316a9c74ee99066d66bade0fb198dd5d20fd5d646a",
+        "verdict": "pass_final_exact_bytes"
+      },
+      {
+        "role": "measurement",
+        "reviewer": "/root/active_evidence_measurement_retry",
+        "path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.measurement-review.md",
+        "sha256": "5ee9b2d1ec2b79fb33b22d286862a5b44a8650fba4bc4538a145d17b53f91f14",
+        "verdict": "pass_final_exact_bytes"
+      }
+    ],
+    "mathematical_status": "passed_scoped_one_probe_binary_Delta_Bayes_and_minimax_decision_with_exact_immediate_protected_loss_expansion",
+    "contribution_status": "positive_information_pattern_repair_of_R14_and_Delta_stake_debug_baseline_not_new_updater",
+    "novelty_status": "decisive_controlled_sensing_Blackwell_and_decision_directed_active_testing_collision",
+    "measurement_status": "LoCoMo_LongMemEval_and_CounterFact_zsRE_cover_endpoint_subsets_but_no_native_joint_precommit_probe_object",
+    "empirical_status": "unknown_no_execution",
+    "candidate_delta": 0,
+    "scientific_admission_delta": 0,
+    "selection_delta": 0,
+    "counts_after": {
+      "historical_retired_candidates": 5,
+      "active_candidates": 0,
+      "scientifically_admitted": 0,
+      "selected": 0,
+      "selection_verified": false
+    },
+    "execution": "none_math_source_measurement_review_only",
+    "delivery_parent": "edb98f4f8c35b782f656bed59e8e3b8c5f489353",
+    "publication_commit": null,
+    "delivery_status": "prepared_for_expected_parent_publish_and_exact_readback",
+    "next_action": "continue_from_earliest_unclosed_premise_only_if_a_Delta_specific_robust_channel_or_sufficient_statistic_result_beats_generic_controlled_sensing_at_matched_information_and_cost"
   }
 }
 

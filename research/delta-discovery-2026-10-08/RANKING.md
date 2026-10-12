@@ -1,5 +1,9 @@
 # 全池排名尚未到达：当前活动池为零
 
+## 2026-10-12 active-evidence disposition
+
+The active-evidence repair is not inserted into the candidate ranking. It genuinely repairs R14's information deficit by adding a legal action-dependent observation, but the acquisition/decision skeleton is classical controlled sensing/Blackwell decision theory. It remains a high-value theorem/control with candidate delta 0; empirical value is untested.
+
 ## 2026-10-12 compound-query hedge disposition
 
 `compound_query_hedge v1` is not added to the candidate ranking. Its mathematics is sharp and useful, but its formal cache-before-demand/delivery-after-demand object and independent-source equal allocation are directly covered by single-user lossy caching. It remains above a vague capacity claim as a debug theorem and below any active candidate because it supplies neither a distinct updater nor a matched-cost advantage over the optimal same-information caching baseline. Pool counts and ordering are unchanged: 5 historical retired, 0 active, 0 scientifically admitted, 0 selected; `selection_verified=false`.
