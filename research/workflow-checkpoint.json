@@ -4219,5 +4219,22 @@
       "actor_and_reason": "not_supplied_by_platform",
       "action": "preserved_disabled_state;finish_in_flight_integrity_repair_only;no_scientific_continuation_or_automatic_resume"
     }
+  },
+  "delivery_integrity_recovery_readback_2026_10_12": {
+    "status": "published_expected_parent_force_false_and_exact_content_readback_verified",
+    "substantive_commit": "d05f91e87965e2141cccd1e34b843756aed87b5c",
+    "receipt_ref": {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_DELIVERY_READBACK.json",
+      "sha256": "f54c369daa54aeade8eb94853e7d0abd51d1fd927d0198f36fece87fd106530a"
+    },
+    "independent_review_ref": {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY.independent-review.json",
+      "sha256": "1cc6f64e61ccd9b2ddef0e5a5e3bcab95c3d533bef543957e0d5741bac4d6b89"
+    },
+    "checks": "9/9 exact content+blob readback;6/6 JSON paths parse",
+    "counts_unchanged": true,
+    "scientific_evidence_unchanged": true,
+    "task_observed_disabled": true,
+    "next_action": "Retain paused handoff;resume mathematics only under existing or renewed authorized continuation;do not automatically re-enable an externally disabled task."
   }
 }

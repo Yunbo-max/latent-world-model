@@ -1,0 +1,80 @@
+{
+  "kind": "literal-main-checkpoint-recovery-readback",
+  "version": "1.0.0",
+  "substantive_commit": "d05f91e87965e2141cccd1e34b843756aed87b5c",
+  "expected_parent": "a0f01d6c0e0b74dc779a60f43f1c68a94cd19878",
+  "branch": "main",
+  "force": false,
+  "verification": "Exact commit fetch, complete content SHA256 plus Git blob identity; JSON parse additionally required for every JSON path.",
+  "all_paths_exact": true,
+  "path_count": 9,
+  "json_paths_full_parse": 6,
+  "paths": [
+    {
+      "path": "research/delta-discovery-2026-10-08/PROGRESS.json",
+      "blob_sha": "6426b2766e25a23c18dac531e4150f460f467727",
+      "sha256": "e6b0db3abbf1fcbcfa7180e8fbefb33520c5d0fe3c1bb949b736e586c7ef0c6c",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/workflow-checkpoint.json",
+      "blob_sha": "7bc69a147a78f16a6afad3e8f409b5b60aac98b7",
+      "sha256": "4705ae3524e6859bf477cd704c35cfe42dfd62b04653124f634e3235aa71750d",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/method-batch.json",
+      "blob_sha": "233f36dad1c93f373829cdde8a4b2855bf7a5fae",
+      "sha256": "84fedef290dcfe0bff62377107fec949184a316803d4a03f53d5758bb0c619d7",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_MANIFEST_2026-10-12.json",
+      "blob_sha": "a05e4c2fb14014d65fea99829ea212cecdf22342",
+      "sha256": "4139b5b732b27e153787d578207a51aaf9bdafd5d05c3e83f3a0d794a209d5f9",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY_2026-10-12.md",
+      "blob_sha": "2750159e4cd5464a8e2d06c5d7f32d30db4de156",
+      "sha256": "5b6db62ae10b6db6a0247552c6bedd94da7161318108d869cb9f60c3c07c1f37",
+      "exact": true,
+      "json_parse": null
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY.independent-review.json",
+      "blob_sha": "5caef6d46d076248b63b021fc1901be6561aa4ff",
+      "sha256": "1cc6f64e61ccd9b2ddef0e5a5e3bcab95c3d533bef543957e0d5741bac4d6b89",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/CHECKPOINT_RECOVERY.assignments.json",
+      "blob_sha": "8c012c664e3608f51d5758b1a6ce05de3a61b7f9",
+      "sha256": "5db6ea9d7d65235ab35b915c78eea75c03c8d6852ae89afa8ea388e7cf1b2023",
+      "exact": true,
+      "json_parse": true
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/PROGRESS.a0f01d6.corrupt.txt",
+      "blob_sha": "b17fba588f81ea639a3c5eb4a1759ddef2b65a48",
+      "sha256": "cf50e7a7a861eef32ebc39aed0945f6d15688d1c81cbf1777e814634b59850c2",
+      "exact": true,
+      "json_parse": null
+    },
+    {
+      "path": "research/delta-discovery-2026-10-08/integrity/workflow-checkpoint.a0f01d6.corrupt.txt",
+      "blob_sha": "aec7c02f184994fd7e3ba810f0264c0e3679dd08",
+      "sha256": "6779400ff26f9574d9792d6208b95244c000a6dae0a1fdcac998e640a9b4eb62",
+      "exact": true,
+      "json_parse": null
+    }
+  ],
+  "scientific_claim": "no_new_theorem_candidate_qualification_selection_or_empirical_result",
+  "task_state": "observed_disabled_and_preserved",
+  "future_publication_rule": "Never persist tool-output warnings or excerpts as complete files; fetch full structured/base64 bytes, validate identity and parse every full JSON, preserve original bytes and merge live parent."
+}
