@@ -1,0 +1,35 @@
+{
+  "kind": "literal-main-delivery-readback",
+  "substantive_commit": "eea7f3dc4c6b8388b15e714b58fac1b5ac9f1589",
+  "expected_parent": "edb98f4f8c35b782f656bed59e8e3b8c5f489353",
+  "branch": "main",
+  "force": false,
+  "verification_basis": "Git blob SHA equality after fetch at the exact substantive commit",
+  "all_paths_exact": true,
+  "path_count": 13,
+  "paths": {
+    "research/delta-discovery-2026-10-08/GOAL.md": "24710466016ddb40fcdf7ecf20c981ce3afbb36a",
+    "research/delta-discovery-2026-10-08/CLOSEST_WORK.md": "d215f3137bc47d6bf4673f8ff8b8d999cac6b717",
+    "research/delta-discovery-2026-10-08/RANKING.md": "6797c3f8c77a4ec01345144dfade3eff9fcd6a79",
+    "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md": "df00bfbdb0c5526f565c51ccebf331cc063d9731",
+    "research/delta-discovery-2026-10-08/method-batch.json": "fec63df72fabd986f6501284d60a9c4ae97f15c1",
+    "research/delta-discovery-2026-10-08/PROGRESS.json": "4d0561cc5379a6a00d3670798c09d66e0b003973",
+    "research/workflow-checkpoint.json": "43183993c8fe9b55ad4f9def49073bcddb0d9ca3",
+    "research/delta-discovery-2026-10-08/STEP2_ACTIVE_EVIDENCE_ACQUISITION_2026-10-12.md": "79816a85454be6a4fd3300c381ea929004369669",
+    "research/delta-discovery-2026-10-08/sources/STEP2_ACTIVE_EVIDENCE_ACQUISITION_SOURCE_AUDIT_2026-10-12.md": "742db05df8932d731904aac7540bb12a3dd3d93c",
+    "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.math-review.md": "728b93d56d2ed20dea51e3816606507a4872f09a",
+    "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.source-review.md": "7e8696647c45b58a835ee2d6ca1c6df6bea4585c",
+    "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.measurement-review.md": "a83ff5ad43a0922e201c040812c4b10c20412cc2",
+    "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION.assignments.json": "3e03f6057acbd5a86298a558e4e76a84146dcb62"
+  },
+  "artifact_sha256": "871a31bc32f4814e68cd2f65d3dabed0fab8fd2c42f667a76fe4650f2ede72b7",
+  "source_audit_sha256": "ecbf77c2cf94c09d5097ef6f5159f4d0731f52eb11fb22d4f3ff7e03a2a1e0b8",
+  "counts_after": {
+    "historical_retired_candidates": 5,
+    "active_candidates": 0,
+    "scientifically_admitted": 0,
+    "selected": 0,
+    "selection_verified": false
+  },
+  "execution": "none; mathematics, source, and measurement review only"
+}

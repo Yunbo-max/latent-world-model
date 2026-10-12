@@ -3793,8 +3793,15 @@ Total output lines: 4031
     },
     "execution": "none_math_source_measurement_review_only",
     "delivery_parent": "edb98f4f8c35b782f656bed59e8e3b8c5f489353",
-    "publication_commit": null,
-    "delivery_status": "prepared_for_expected_parent_publish_and_exact_readback",
+    "publication_commit": "eea7f3dc4c6b8388b15e714b58fac1b5ac9f1589",
+    "readback_ref": {
+      "path": "research/delta-discovery-2026-10-08/reviews/STEP2_ACTIVE_EVIDENCE_ACQUISITION_DELIVERY_READBACK.json",
+      "sha256": "47d1dfae7c80f27514fcca01e8ac0baef7364f9714e5cea45b0c6eaf7f2f82c3",
+      "substantive_commit": "eea7f3dc4c6b8388b15e714b58fac1b5ac9f1589",
+      "all_paths_exact": true,
+      "path_count": 13
+    },
+    "delivery_status": "substantive_commit_exact_readback_verified",
     "next_action": "continue_from_earliest_unclosed_premise_only_if_a_Delta_specific_robust_channel_or_sufficient_statistic_result_beats_generic_controlled_sensing_at_matched_information_and_cost"
   }
 }
