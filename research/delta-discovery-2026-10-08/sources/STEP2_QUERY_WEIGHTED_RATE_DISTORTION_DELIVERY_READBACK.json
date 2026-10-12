@@ -1,0 +1,26 @@
+{
+  "repository": "Yunbo-max/latent-world-model",
+  "branch": "main",
+  "expected_parent": "59c8d03842abcd685e0c145628698551cad3c5d2",
+  "substantive_commit": "160d433aec67fd88df0d98b938a08b62affe10dc",
+  "force": false,
+  "verification": "github_fetch_file_at_exact_commit_base64_equal_to_local_final_bytes",
+  "all_paths_exact": true,
+  "path_count": 13,
+  "paths": [
+    {"path": "research/delta-discovery-2026-10-08/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_2026-10-12.md", "sha256": "1f594e23635b0697ab4cf548e3d182c43faa526b28598f1628598801ff70b9a9"},
+    {"path": "research/delta-discovery-2026-10-08/sources/STEP2_QUERY_WEIGHTED_RATE_DISTORTION_SOURCE_AUDIT_2026-10-12.md", "sha256": "39b1ea21cc8d0ddcd96530622ed4b865cf371a469458e26a6ed5cfc72b636d67"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.assignment.json", "sha256": "cbacc3fbc4d9630c8054d554773361eba65cf566ab9adf5a36fda904353f99e7"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.math-review.md", "sha256": "88483665bb6c0413b9aea3353d69a43b4b73801070f1b8bfe7562b2f1e1a7b39"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.adversarial-review.md", "sha256": "f7cea5b77b23261a8576bc92079ecf953ab05f228e30b58e2e0c89e7a87edaa1"},
+    {"path": "research/delta-discovery-2026-10-08/reviews/STEP2_QUERY_WEIGHTED_RATE_DISTORTION.source-review.md", "sha256": "4e04e4635ddc619ea7c6bf545d77e6d7c9d2e85616ced7c6d1011b88c79d34dc"},
+    {"path": "research/delta-discovery-2026-10-08/PROGRESS.json", "sha256": "86b447676de55264681128d130fe1c9fc3fb8e752a525843b82612ff699c7bdb"},
+    {"path": "research/delta-discovery-2026-10-08/method-batch.json", "sha256": "3c2f8fdd5309d5b09ed74b60704faefc1488238392148ea140469d440efe1de6"},
+    {"path": "research/workflow-checkpoint.json", "sha256": "67548e584eafe4ed414d4654e209c5f17d414f1962343b38ea96af59db756a99"},
+    {"path": "research/delta-discovery-2026-10-08/GOAL.md", "sha256": "b219cd3993b9911acc2ab54b8bf7411932ccfa27f26022512f68616003d416fa"},
+    {"path": "research/delta-discovery-2026-10-08/CLOSEST_WORK.md", "sha256": "8ca91d121318a05aba2581562d64627082a46cf96c7ac46f12dda15a472a8be6"},
+    {"path": "research/delta-discovery-2026-10-08/RANKING.md", "sha256": "b4f55672602a2ad48814cd8ce5936eecae75abb9d25fe749d0430417df0b422b"},
+    {"path": "research/delta-discovery-2026-10-08/SUMMARY.zh-CN.md", "sha256": "0c0f3b382c03894b711d7f83718d6eadcf8ac3f07e6d89512419b033b3591a04"}
+  ],
+  "scope_note": "Exact repository delivery verification only; it does not establish mathematical truth, originality, scientific admission, selection, or empirical effect."
+}
